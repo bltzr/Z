@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 295.0, 44.0, 1002.0, 712.0 ],
+		"rect" : [ 158.0, 114.0, 1002.0, 712.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 295.0, 44.0, 1002.0, 712.0 ],
+		"defrect" : [ 158.0, 114.0, 1002.0, 712.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -708,8 +708,8 @@
 					"name" : "jmod.Zdbapin.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "jit_matrix", "" ],
-					"patching_rect" : [ 18.0, 283.0, 300.0, 140.0 ],
+					"outlettype" : [ "", "jit_matrix", "signal" ],
+					"patching_rect" : [ 18.0, 291.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 355.0, 151.0, 300.0, 140.0 ]
 				}
 
@@ -951,7 +951,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
+					"destination" : [ "obj-3", 2 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-5", 1 ]

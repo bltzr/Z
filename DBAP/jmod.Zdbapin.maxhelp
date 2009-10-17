@@ -19,6 +19,20 @@
 		"enablevscroll" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 233.0, 125.0, 100.0, 20.0 ],
+					"text" : "cycle~ 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "bufferpool" ],
 					"id" : "obj-39",
 					"maxclass" : "bpatcher",
@@ -707,6 +721,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 2 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}

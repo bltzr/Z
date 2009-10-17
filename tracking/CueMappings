@@ -1,0 +1,5069 @@
+
+
+KEY CUE InitZinterface
+
+ ##############################
+
+ # Module /buttons
+
+				/buttons/button.1/nr 1
+
+				/buttons/button.2/nr 2
+
+				/buttons/button.3/nr 3
+
+				/buttons/button.4/nr 4
+
+				/buttons/button.5/nr 5
+
+				/buttons/button.6/nr 6
+
+				/buttons/button.7/nr 7
+
+				/buttons/button.8/nr 8
+
+				/buttons/view/freeze 0
+
+ # Module /sensor.3
+
+				/sensor.3/ctrl/nbr 6
+
+				/sensor.3/threshold 0
+
+				/sensor.3/trigger/thresvalues 0
+
+				/sensor.3/view/freeze 0
+
+ # Module /sensor.4
+
+				/sensor.4/ctrl/nbr 7
+
+				/sensor.4/threshold 0
+
+				/sensor.4/trigger/thresvalues 0
+
+				/sensor.4/view/freeze 0
+
+ # Module /sensor.5
+
+				/sensor.5/ctrl/nbr 8
+
+				/sensor.5/threshold 0
+
+				/sensor.5/trigger/thresvalues 0
+
+				/sensor.5/view/freeze 0
+
+ # Module /sensor.6
+
+				/sensor.6/ctrl/nbr 0
+
+				/sensor.6/threshold 0
+
+				/sensor.6/trigger/thresvalues 0
+
+				/sensor.6/view/freeze 0
+
+ # Module /sensor.2
+
+				/sensor.2/ctrl/nbr 5
+
+				/sensor.2/threshold 0
+
+				/sensor.2/trigger/thresvalues 0
+
+				/sensor.2/view/freeze 0
+
+ # Module /sensor.1
+
+				/sensor.1/ctrl/nbr 4
+
+				/sensor.1/threshold 0
+
+				/sensor.1/trigger/thresvalues 0
+
+				/sensor.1/view/freeze 0
+
+ # Module /wacom
+
+				/wacom/bgrb 1
+
+				/wacom/flusheventqueue 1
+
+				/wacom/menu 0
+
+				/wacom/nopointer 1
+
+				/wacom/on 1
+
+				/wacom/view/freeze 0
+
+				/wacom/xyrange 1
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name 0
+
+				/cont_mapper.8/in/module/nr 0
+
+				/cont_mapper.8/out/module/name 0
+
+				/cont_mapper.8/out/module/nr 0
+
+				/cont_mapper.8/out/module/function 0
+
+				/cont_mapper.8/in/module/function button
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit bypass
+
+				/cont_mapper.8/in/max 1.0
+
+				/cont_mapper.8/in/min 0.0
+
+				/cont_mapper.8/out/max 0.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name 0
+
+				/cont_mapper.7/in/module/nr 0
+
+				/cont_mapper.7/out/module/name 0
+
+				/cont_mapper.7/out/module/nr 0
+
+				/cont_mapper.7/out/module/function 0
+
+				/cont_mapper.7/in/module/function button
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve -0.0
+
+				/cont_mapper.7/edit bypass
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 0.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 0
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name 0
+
+				/cont_mapper.6/in/module/nr 0
+
+				/cont_mapper.6/out/module/name 0
+
+				/cont_mapper.6/out/module/nr 0
+
+				/cont_mapper.6/out/module/function 0
+
+				/cont_mapper.6/in/module/function button
+
+				/cont_mapper.6/clipmode none
+
+				/cont_mapper.6/curve -0.0
+
+				/cont_mapper.6/edit bypass
+
+				/cont_mapper.6/in/max 1.0
+
+				/cont_mapper.6/in/min 0.0
+
+				/cont_mapper.6/out/max 0.0
+
+				/cont_mapper.6/out/min 0.0
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name 0
+
+				/cont_mapper.5/in/module/nr 0
+
+				/cont_mapper.5/out/module/name 0
+
+				/cont_mapper.5/out/module/nr 0
+
+				/cont_mapper.5/out/module/function 0
+
+				/cont_mapper.5/in/module/function button
+
+				/cont_mapper.5/clipmode none
+
+				/cont_mapper.5/curve -0.0
+
+				/cont_mapper.5/edit bypass
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 0.0
+
+				/cont_mapper.5/out/min 0.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name /wacom
+
+				/cont_mapper.4/in/module/nr 0
+
+				/cont_mapper.4/out/module/name /Zspat
+
+				/cont_mapper.4/out/module/nr 0
+
+				/cont_mapper.4/out/module/function position2/y
+
+				/cont_mapper.4/in/module/function position/y
+
+				/cont_mapper.4/clipmode both
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit bypass
+
+				/cont_mapper.4/in/max 0.0
+
+				/cont_mapper.4/in/min 1.0
+
+				/cont_mapper.4/out/max 1.0
+
+				/cont_mapper.4/out/min -1.0
+
+				/cont_mapper.4/ramp 0
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit bypass
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name 0
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name 0
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function 0
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 0
+
+				/trig_mapper.3/in/message 0
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 0
+
+				/trig_mapper.3/out/message 0
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit bypass
+
+				/cont_mapper.2/in/max 1.0
+
+				/cont_mapper.2/in/min 0.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name 0
+
+				/trig_mapper.2/in/module/nr 0
+
+				/trig_mapper.2/out/module/name 0
+
+				/trig_mapper.2/out/module/nr 0
+
+				/trig_mapper.2/in/module/function 0
+
+				/trig_mapper.2/out/module/function 0
+
+				/trig_mapper.2/in/action 0
+
+				/trig_mapper.2/in/message 0
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 0
+
+				/trig_mapper.2/out/message 0
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 0.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /wacom
+
+				/trig_mapper.1/in/module/nr 0
+
+				/trig_mapper.1/out/module/name 0
+
+				/trig_mapper.1/out/module/nr 0
+
+				/trig_mapper.1/in/module/function buttons/raw
+
+				/trig_mapper.1/out/module/function 0
+
+				/trig_mapper.1/in/action 1
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 0
+
+				/trig_mapper.1/out/message 0
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 0.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit bypass
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ # Module /Zkroonde.4
+
+				/Zkroonde.4/calibration/high 0
+
+				/Zkroonde.4/calibration/low 0
+
+				/Zkroonde.4/range/high 0
+
+				/Zkroonde.4/range/low 0
+
+				/Zkroonde.4/sensor/name 0
+
+				/Zkroonde.4/sensor/nbr 4
+
+				/Zkroonde.4/view/freeze 0
+
+ # Module /Zkroonde.5
+
+				/Zkroonde.5/calibration/high 0
+
+				/Zkroonde.5/calibration/low 0
+
+				/Zkroonde.5/range/high 0
+
+				/Zkroonde.5/range/low 0
+
+				/Zkroonde.5/sensor/name 0
+
+				/Zkroonde.5/sensor/nbr 5
+
+				/Zkroonde.5/view/freeze 0
+
+ # Module /Zkroonde.6
+
+				/Zkroonde.6/calibration/high 0
+
+				/Zkroonde.6/calibration/low 0
+
+				/Zkroonde.6/range/high 0
+
+				/Zkroonde.6/range/low 0
+
+				/Zkroonde.6/sensor/name 0
+
+				/Zkroonde.6/sensor/nbr 6
+
+				/Zkroonde.6/view/freeze 0
+
+ # Module /Zkroonde.3
+
+				/Zkroonde.3/calibration/high 0
+
+				/Zkroonde.3/calibration/low 0
+
+				/Zkroonde.3/range/high 0
+
+				/Zkroonde.3/range/low 0
+
+				/Zkroonde.3/sensor/name 0
+
+				/Zkroonde.3/sensor/nbr 3
+
+				/Zkroonde.3/view/freeze 0
+
+ # Module /Zkroonde.2
+
+				/Zkroonde.2/calibration/high 0
+
+				/Zkroonde.2/calibration/low 0
+
+				/Zkroonde.2/range/high 0
+
+				/Zkroonde.2/range/low 0
+
+				/Zkroonde.2/sensor/name 0
+
+				/Zkroonde.2/sensor/nbr 2
+
+				/Zkroonde.2/view/freeze 0
+
+ # Module /Zkroonde.1
+
+				/Zkroonde.1/calibration/high 0
+
+				/Zkroonde.1/calibration/low 0
+
+				/Zkroonde.1/range/high 0
+
+				/Zkroonde.1/range/low 0
+
+				/Zkroonde.1/sensor/name 0
+
+				/Zkroonde.1/sensor/nbr 0
+
+				/Zkroonde.1/view/freeze 0
+
+ ##############################
+
+KEY CUE Init
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name 0
+
+				/cont_mapper.8/in/module/nr 0
+
+				/cont_mapper.8/out/module/name 0
+
+				/cont_mapper.8/out/module/nr 0
+
+				/cont_mapper.8/out/module/function 0
+
+				/cont_mapper.8/in/module/function button
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit bypass
+
+				/cont_mapper.8/in/max 1.0
+
+				/cont_mapper.8/in/min 0.0
+
+				/cont_mapper.8/out/max 0.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name 0
+
+				/cont_mapper.7/in/module/nr 0
+
+				/cont_mapper.7/out/module/name 0
+
+				/cont_mapper.7/out/module/nr 0
+
+				/cont_mapper.7/out/module/function 0
+
+				/cont_mapper.7/in/module/function button
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve -0.0
+
+				/cont_mapper.7/edit bypass
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 0.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 0
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name 0
+
+				/cont_mapper.6/in/module/nr 0
+
+				/cont_mapper.6/out/module/name 0
+
+				/cont_mapper.6/out/module/nr 0
+
+				/cont_mapper.6/out/module/function 0
+
+				/cont_mapper.6/in/module/function button
+
+				/cont_mapper.6/clipmode none
+
+				/cont_mapper.6/curve -0.0
+
+				/cont_mapper.6/edit bypass
+
+				/cont_mapper.6/in/max 1.0
+
+				/cont_mapper.6/in/min 0.0
+
+				/cont_mapper.6/out/max 0.0
+
+				/cont_mapper.6/out/min 0.0
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name 0
+
+				/cont_mapper.5/in/module/nr 0
+
+				/cont_mapper.5/out/module/name 0
+
+				/cont_mapper.5/out/module/nr 0
+
+				/cont_mapper.5/out/module/function 0
+
+				/cont_mapper.5/in/module/function button
+
+				/cont_mapper.5/clipmode none
+
+				/cont_mapper.5/curve -0.0
+
+				/cont_mapper.5/edit bypass
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 0.0
+
+				/cont_mapper.5/out/min 0.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name 0
+
+				/cont_mapper.4/in/module/nr 0
+
+				/cont_mapper.4/out/module/name 0
+
+				/cont_mapper.4/out/module/nr 0
+
+				/cont_mapper.4/out/module/function 0
+
+				/cont_mapper.4/in/module/function button
+
+				/cont_mapper.4/clipmode none
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit bypass
+
+				/cont_mapper.4/in/max 1.0
+
+				/cont_mapper.4/in/min 0.0
+
+				/cont_mapper.4/out/max 0.0
+
+				/cont_mapper.4/out/min 0.0
+
+				/cont_mapper.4/ramp 0
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit active
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name /wacom
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name /cueMappers
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function buttons
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 2
+
+				/trig_mapper.3/in/message 2
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 2
+
+				/trig_mapper.3/out/message 5
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit active
+
+				/cont_mapper.2/in/max 1.0
+
+				/cont_mapper.2/in/min 0.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name /wacom
+
+				/trig_mapper.2/in/module/nr 0
+
+				/trig_mapper.2/out/module/name /cueMappers
+
+				/trig_mapper.2/out/module/nr 0
+
+				/trig_mapper.2/in/module/function buttons
+
+				/trig_mapper.2/out/module/function 0
+
+				/trig_mapper.2/in/action 2
+
+				/trig_mapper.2/in/message 1
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 2
+
+				/trig_mapper.2/out/message 4
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 0.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /wacom
+
+				/trig_mapper.1/in/module/nr 0
+
+				/trig_mapper.1/out/module/name /cueMappers
+
+				/trig_mapper.1/out/module/nr 0
+
+				/trig_mapper.1/in/module/function buttons
+
+				/trig_mapper.1/out/module/function 0
+
+				/trig_mapper.1/in/action 2
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 2
+
+				/trig_mapper.1/out/message 3
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 0.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit active
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ # Module /ZDtD2.1
+
+				/ZDtD2.1/mainfolder /Documents and Settings/niko/Mes documents/lpb/
+
+				/ZDtD2.1/selectedfile Copie de solopeltetmarto2.wav
+
+				/ZDtD2.1/sf/rampmode 0
+
+				/ZDtD2.1/sf/ramptime 0.0
+
+				/ZDtD2.1/sf/loopmode 0
+
+				/ZDtD2.1/sf/pitch 1.0000001
+
+				/ZDtD2.1/sf/play 0
+
+				/ZDtD2.1/audio/gain 0.0
+
+				/ZDtD2.1/audio/mute 0
+
+				/ZDtD2.1/balance -0.007997215
+
+				/ZDtD2.1/view/freeze 0
+
+ ##############################
+
+KEY CUE off
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name /sensor
+
+				/cont_mapper.8/in/module/nr 2
+
+				/cont_mapper.8/out/module/name /Zlooper~
+
+				/cont_mapper.8/out/module/nr 4
+
+				/cont_mapper.8/out/module/function audio/gain
+
+				/cont_mapper.8/in/module/function sensor
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit bypass
+
+				/cont_mapper.8/in/max 0.0
+
+				/cont_mapper.8/in/min 1.0
+
+				/cont_mapper.8/out/max 100.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name /wacom
+
+				/cont_mapper.7/in/module/nr 3
+
+				/cont_mapper.7/out/module/name /equalizer~
+
+				/cont_mapper.7/out/module/nr 2
+
+				/cont_mapper.7/out/module/function audio/mix
+
+				/cont_mapper.7/in/module/function pressure
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve 0.22481479
+
+				/cont_mapper.7/edit bypass
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 100.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 100
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name /wacom
+
+				/cont_mapper.6/in/module/nr 3
+
+				/cont_mapper.6/out/module/name /equalizer~
+
+				/cont_mapper.6/out/module/nr 2
+
+				/cont_mapper.6/out/module/function filter.1/Q
+
+				/cont_mapper.6/in/module/function position/y
+
+				/cont_mapper.6/clipmode both
+
+				/cont_mapper.6/curve -0.19481482
+
+				/cont_mapper.6/edit bypass
+
+				/cont_mapper.6/in/max 0.0
+
+				/cont_mapper.6/in/min 1.0
+
+				/cont_mapper.6/out/max 20.0
+
+				/cont_mapper.6/out/min 0.05
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name /wacom
+
+				/cont_mapper.5/in/module/nr 6
+
+				/cont_mapper.5/out/module/name /equalizer~
+
+				/cont_mapper.5/out/module/nr 2
+
+				/cont_mapper.5/out/module/function filter.1/freq
+
+				/cont_mapper.5/in/module/function position/x
+
+				/cont_mapper.5/clipmode both
+
+				/cont_mapper.5/curve 0.22481479
+
+				/cont_mapper.5/edit bypass
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 11000.0
+
+				/cont_mapper.5/out/min 50.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name /sensor
+
+				/cont_mapper.4/in/module/nr 2
+
+				/cont_mapper.4/out/module/name /ZDtD2
+
+				/cont_mapper.4/out/module/nr 2
+
+				/cont_mapper.4/out/module/function audio/gain
+
+				/cont_mapper.4/in/module/function sensor
+
+				/cont_mapper.4/clipmode none
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit edit
+
+				/cont_mapper.4/in/max 1.0
+
+				/cont_mapper.4/in/min 0.0
+
+				/cont_mapper.4/out/max 97.0
+
+				/cont_mapper.4/out/min 0.0
+
+				/cont_mapper.4/ramp 0
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit bypass
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name /wacom
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name /cueMappers
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function buttons
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 2
+
+				/trig_mapper.3/in/message 2
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 2
+
+				/trig_mapper.3/out/message 5
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit bypass
+
+				/cont_mapper.2/in/max 0.0
+
+				/cont_mapper.2/in/min 1.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name /sensor
+
+				/trig_mapper.2/in/module/nr 2
+
+				/trig_mapper.2/out/module/name /ZDtD2
+
+				/trig_mapper.2/out/module/nr 4
+
+				/trig_mapper.2/in/module/function trigger/down
+
+				/trig_mapper.2/out/module/function sf/pitch
+
+				/trig_mapper.2/in/action 0
+
+				/trig_mapper.2/in/message 1
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 1
+
+				/trig_mapper.2/out/message 4
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 1.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /sensor
+
+				/trig_mapper.1/in/module/nr 2
+
+				/trig_mapper.1/out/module/name /ZDtD2
+
+				/trig_mapper.1/out/module/nr 4
+
+				/trig_mapper.1/in/module/function trigger/up
+
+				/trig_mapper.1/out/module/function sf/play
+
+				/trig_mapper.1/in/action 0
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 1
+
+				/trig_mapper.1/out/message 3
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 1.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit bypass
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ ##############################
+
+KEY CUE grenouille
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name /sensor
+
+				/cont_mapper.8/in/module/nr 2
+
+				/cont_mapper.8/out/module/name /Zlooper~
+
+				/cont_mapper.8/out/module/nr 4
+
+				/cont_mapper.8/out/module/function audio/gain
+
+				/cont_mapper.8/in/module/function sensor
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit bypass
+
+				/cont_mapper.8/in/max 0.0
+
+				/cont_mapper.8/in/min 1.0
+
+				/cont_mapper.8/out/max 100.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name /wacom
+
+				/cont_mapper.7/in/module/nr 3
+
+				/cont_mapper.7/out/module/name /equalizer~
+
+				/cont_mapper.7/out/module/nr 2
+
+				/cont_mapper.7/out/module/function audio/mix
+
+				/cont_mapper.7/in/module/function pressure
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve 0.22481479
+
+				/cont_mapper.7/edit bypass
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 100.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 100
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name /wacom
+
+				/cont_mapper.6/in/module/nr 3
+
+				/cont_mapper.6/out/module/name /equalizer~
+
+				/cont_mapper.6/out/module/nr 2
+
+				/cont_mapper.6/out/module/function filter.1/Q
+
+				/cont_mapper.6/in/module/function position/y
+
+				/cont_mapper.6/clipmode both
+
+				/cont_mapper.6/curve -0.19481482
+
+				/cont_mapper.6/edit bypass
+
+				/cont_mapper.6/in/max 0.0
+
+				/cont_mapper.6/in/min 1.0
+
+				/cont_mapper.6/out/max 20.0
+
+				/cont_mapper.6/out/min 0.05
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name /wacom
+
+				/cont_mapper.5/in/module/nr 6
+
+				/cont_mapper.5/out/module/name /equalizer~
+
+				/cont_mapper.5/out/module/nr 2
+
+				/cont_mapper.5/out/module/function filter.1/freq
+
+				/cont_mapper.5/in/module/function position/x
+
+				/cont_mapper.5/clipmode both
+
+				/cont_mapper.5/curve 0.22481479
+
+				/cont_mapper.5/edit bypass
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 11000.0
+
+				/cont_mapper.5/out/min 50.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name /sensor
+
+				/cont_mapper.4/in/module/nr 2
+
+				/cont_mapper.4/out/module/name /ZDtD2
+
+				/cont_mapper.4/out/module/nr 2
+
+				/cont_mapper.4/out/module/function audio/gain
+
+				/cont_mapper.4/in/module/function sensor
+
+				/cont_mapper.4/clipmode none
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit edit
+
+				/cont_mapper.4/in/max 1.0
+
+				/cont_mapper.4/in/min 0.0
+
+				/cont_mapper.4/out/max 97.0
+
+				/cont_mapper.4/out/min 0.0
+
+				/cont_mapper.4/ramp 0
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit active
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name /wacom
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name /cueMappers
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function buttons
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 2
+
+				/trig_mapper.3/in/message 2
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 2
+
+				/trig_mapper.3/out/message 5
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit active
+
+				/cont_mapper.2/in/max 0.0
+
+				/cont_mapper.2/in/min 1.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name /sensor
+
+				/trig_mapper.2/in/module/nr 2
+
+				/trig_mapper.2/out/module/name /Zlooper~
+
+				/trig_mapper.2/out/module/nr 4
+
+				/trig_mapper.2/in/module/function trigger/down
+
+				/trig_mapper.2/out/module/function looper/play
+
+				/trig_mapper.2/in/action 0
+
+				/trig_mapper.2/in/message 1
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 1
+
+				/trig_mapper.2/out/message 4
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 1.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /sensor
+
+				/trig_mapper.1/in/module/nr 2
+
+				/trig_mapper.1/out/module/name /Zlooper~
+
+				/trig_mapper.1/out/module/nr 3
+
+				/trig_mapper.1/in/module/function trigger/up
+
+				/trig_mapper.1/out/module/function looper/play
+
+				/trig_mapper.1/in/action 0
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 1
+
+				/trig_mapper.1/out/message 3
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 1.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit active
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ ##############################
+
+KEY CUE vent
+
+ ##############################
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /ZDtD2
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit active
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat2
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit active
+
+				/cont_mapper.2/in/max 0.0
+
+				/cont_mapper.2/in/min 1.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /ZDtD2
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function balance
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit active
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ ##############################
+
+KEY CUE manchot
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name /sensor
+
+				/cont_mapper.8/in/module/nr 2
+
+				/cont_mapper.8/out/module/name /Zlooper~
+
+				/cont_mapper.8/out/module/nr 4
+
+				/cont_mapper.8/out/module/function audio/gain
+
+				/cont_mapper.8/in/module/function sensor
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit edit
+
+				/cont_mapper.8/in/max 0.0
+
+				/cont_mapper.8/in/min 1.0
+
+				/cont_mapper.8/out/max 100.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name /wacom
+
+				/cont_mapper.7/in/module/nr 3
+
+				/cont_mapper.7/out/module/name /equalizer~
+
+				/cont_mapper.7/out/module/nr 2
+
+				/cont_mapper.7/out/module/function audio/mix
+
+				/cont_mapper.7/in/module/function pressure
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve 0.22481479
+
+				/cont_mapper.7/edit edit
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 100.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 100
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name /wacom
+
+				/cont_mapper.6/in/module/nr 3
+
+				/cont_mapper.6/out/module/name /equalizer~
+
+				/cont_mapper.6/out/module/nr 2
+
+				/cont_mapper.6/out/module/function filter.1/Q
+
+				/cont_mapper.6/in/module/function position/y
+
+				/cont_mapper.6/clipmode both
+
+				/cont_mapper.6/curve -0.19481482
+
+				/cont_mapper.6/edit edit
+
+				/cont_mapper.6/in/max 0.0
+
+				/cont_mapper.6/in/min 1.0
+
+				/cont_mapper.6/out/max 20.0
+
+				/cont_mapper.6/out/min 0.05
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name /wacom
+
+				/cont_mapper.5/in/module/nr 6
+
+				/cont_mapper.5/out/module/name /equalizer~
+
+				/cont_mapper.5/out/module/nr 2
+
+				/cont_mapper.5/out/module/function filter.1/freq
+
+				/cont_mapper.5/in/module/function position/x
+
+				/cont_mapper.5/clipmode both
+
+				/cont_mapper.5/curve 0.22481479
+
+				/cont_mapper.5/edit edit
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 11000.0
+
+				/cont_mapper.5/out/min 50.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name /sensor
+
+				/cont_mapper.4/in/module/nr 2
+
+				/cont_mapper.4/out/module/name /ZDtD2
+
+				/cont_mapper.4/out/module/nr 2
+
+				/cont_mapper.4/out/module/function audio/gain
+
+				/cont_mapper.4/in/module/function sensor
+
+				/cont_mapper.4/clipmode none
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit edit
+
+				/cont_mapper.4/in/max 1.0
+
+				/cont_mapper.4/in/min 0.0
+
+				/cont_mapper.4/out/max 97.0
+
+				/cont_mapper.4/out/min 0.0
+
+				/cont_mapper.4/ramp 0
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 2
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit active
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name /wacom
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name /cueMappers
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function buttons
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 2
+
+				/trig_mapper.3/in/message 2
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 2
+
+				/trig_mapper.3/out/message 5
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 2
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit active
+
+				/cont_mapper.2/in/max 0.0
+
+				/cont_mapper.2/in/min 1.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name /sensor
+
+				/trig_mapper.2/in/module/nr 2
+
+				/trig_mapper.2/out/module/name /Zlooper~
+
+				/trig_mapper.2/out/module/nr 4
+
+				/trig_mapper.2/in/module/function trigger/down
+
+				/trig_mapper.2/out/module/function looper/play
+
+				/trig_mapper.2/in/action 0
+
+				/trig_mapper.2/in/message 1
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 1
+
+				/trig_mapper.2/out/message 4
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 1.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /sensor
+
+				/trig_mapper.1/in/module/nr 2
+
+				/trig_mapper.1/out/module/name /Zlooper~
+
+				/trig_mapper.1/out/module/nr 3
+
+				/trig_mapper.1/in/module/function trigger/up
+
+				/trig_mapper.1/out/module/function looper/play
+
+				/trig_mapper.1/in/action 0
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 1
+
+				/trig_mapper.1/out/message 3
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 1.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 2
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit active
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ ##############################
+
+KEY CUE canoe
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name /sensor
+
+				/cont_mapper.8/in/module/nr 2
+
+				/cont_mapper.8/out/module/name /Zlooper~
+
+				/cont_mapper.8/out/module/nr 4
+
+				/cont_mapper.8/out/module/function audio/gain
+
+				/cont_mapper.8/in/module/function sensor
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit edit
+
+				/cont_mapper.8/in/max 0.0
+
+				/cont_mapper.8/in/min 1.0
+
+				/cont_mapper.8/out/max 100.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name /wacom
+
+				/cont_mapper.7/in/module/nr 3
+
+				/cont_mapper.7/out/module/name /equalizer~
+
+				/cont_mapper.7/out/module/nr 2
+
+				/cont_mapper.7/out/module/function audio/mix
+
+				/cont_mapper.7/in/module/function pressure
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve 0.22481479
+
+				/cont_mapper.7/edit edit
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 100.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 100
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name /wacom
+
+				/cont_mapper.6/in/module/nr 3
+
+				/cont_mapper.6/out/module/name /equalizer~
+
+				/cont_mapper.6/out/module/nr 2
+
+				/cont_mapper.6/out/module/function filter.1/Q
+
+				/cont_mapper.6/in/module/function position/y
+
+				/cont_mapper.6/clipmode both
+
+				/cont_mapper.6/curve -0.19481482
+
+				/cont_mapper.6/edit edit
+
+				/cont_mapper.6/in/max 0.0
+
+				/cont_mapper.6/in/min 1.0
+
+				/cont_mapper.6/out/max 20.0
+
+				/cont_mapper.6/out/min 0.05
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name /wacom
+
+				/cont_mapper.5/in/module/nr 6
+
+				/cont_mapper.5/out/module/name /equalizer~
+
+				/cont_mapper.5/out/module/nr 2
+
+				/cont_mapper.5/out/module/function filter.1/freq
+
+				/cont_mapper.5/in/module/function position/x
+
+				/cont_mapper.5/clipmode both
+
+				/cont_mapper.5/curve 0.22481479
+
+				/cont_mapper.5/edit edit
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 11000.0
+
+				/cont_mapper.5/out/min 50.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name /sensor
+
+				/cont_mapper.4/in/module/nr 2
+
+				/cont_mapper.4/out/module/name /ZDtD2
+
+				/cont_mapper.4/out/module/nr 2
+
+				/cont_mapper.4/out/module/function audio/gain
+
+				/cont_mapper.4/in/module/function sensor
+
+				/cont_mapper.4/clipmode none
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit edit
+
+				/cont_mapper.4/in/max 0.77
+
+				/cont_mapper.4/in/min 0.2
+
+				/cont_mapper.4/out/max 97.0
+
+				/cont_mapper.4/out/min 0.0
+
+				/cont_mapper.4/ramp 200
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit active
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name /wacom
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name /cueMappers
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function buttons
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 2
+
+				/trig_mapper.3/in/message 2
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 2
+
+				/trig_mapper.3/out/message 5
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit active
+
+				/cont_mapper.2/in/max 0.0
+
+				/cont_mapper.2/in/min 1.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name /sensor
+
+				/trig_mapper.2/in/module/nr 2
+
+				/trig_mapper.2/out/module/name /Zlooper~
+
+				/trig_mapper.2/out/module/nr 4
+
+				/trig_mapper.2/in/module/function trigger/down
+
+				/trig_mapper.2/out/module/function looper/play
+
+				/trig_mapper.2/in/action 0
+
+				/trig_mapper.2/in/message 1
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 1
+
+				/trig_mapper.2/out/message 4
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 1.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /sensor
+
+				/trig_mapper.1/in/module/nr 2
+
+				/trig_mapper.1/out/module/name /Zlooper~
+
+				/trig_mapper.1/out/module/nr 3
+
+				/trig_mapper.1/in/module/function trigger/up
+
+				/trig_mapper.1/out/module/function looper/play
+
+				/trig_mapper.1/in/action 0
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 1
+
+				/trig_mapper.1/out/message 3
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 1.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit active
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ ##############################
+
+KEY CUE filtreWacom
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name /sensor
+
+				/cont_mapper.8/in/module/nr 3
+
+				/cont_mapper.8/out/module/name /ZDtD2
+
+				/cont_mapper.8/out/module/nr 3
+
+				/cont_mapper.8/out/module/function audio/gain
+
+				/cont_mapper.8/in/module/function sensor
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit edit
+
+				/cont_mapper.8/in/max 1.0
+
+				/cont_mapper.8/in/min 0.0
+
+				/cont_mapper.8/out/max 101.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name /wacom
+
+				/cont_mapper.7/in/module/nr 3
+
+				/cont_mapper.7/out/module/name /equalizer~
+
+				/cont_mapper.7/out/module/nr 2
+
+				/cont_mapper.7/out/module/function audio/mix
+
+				/cont_mapper.7/in/module/function pressure
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve 0.22481479
+
+				/cont_mapper.7/edit edit
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 100.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 100
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name /wacom
+
+				/cont_mapper.6/in/module/nr 3
+
+				/cont_mapper.6/out/module/name /equalizer~
+
+				/cont_mapper.6/out/module/nr 2
+
+				/cont_mapper.6/out/module/function filter.1/Q
+
+				/cont_mapper.6/in/module/function position/y
+
+				/cont_mapper.6/clipmode both
+
+				/cont_mapper.6/curve -0.19481482
+
+				/cont_mapper.6/edit edit
+
+				/cont_mapper.6/in/max 0.0
+
+				/cont_mapper.6/in/min 1.0
+
+				/cont_mapper.6/out/max 20.0
+
+				/cont_mapper.6/out/min 0.08
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name /wacom
+
+				/cont_mapper.5/in/module/nr 6
+
+				/cont_mapper.5/out/module/name /equalizer~
+
+				/cont_mapper.5/out/module/nr 2
+
+				/cont_mapper.5/out/module/function filter.1/freq
+
+				/cont_mapper.5/in/module/function position/x
+
+				/cont_mapper.5/clipmode both
+
+				/cont_mapper.5/curve 0.22481479
+
+				/cont_mapper.5/edit edit
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 11025.0
+
+				/cont_mapper.5/out/min 30.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name /sensor
+
+				/cont_mapper.4/in/module/nr 2
+
+				/cont_mapper.4/out/module/name /ZDtD2
+
+				/cont_mapper.4/out/module/nr 2
+
+				/cont_mapper.4/out/module/function audio/gain
+
+				/cont_mapper.4/in/module/function sensor
+
+				/cont_mapper.4/clipmode none
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit edit
+
+				/cont_mapper.4/in/max 1.0
+
+				/cont_mapper.4/in/min 0.0
+
+				/cont_mapper.4/out/max 127.0
+
+				/cont_mapper.4/out/min 0.0
+
+				/cont_mapper.4/ramp 200
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit bypass
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name /wacom
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name /cueMappers
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function buttons
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 2
+
+				/trig_mapper.3/in/message 2
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 2
+
+				/trig_mapper.3/out/message 5
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit bypass
+
+				/cont_mapper.2/in/max 0.0
+
+				/cont_mapper.2/in/min 1.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name /sensor
+
+				/trig_mapper.2/in/module/nr 2
+
+				/trig_mapper.2/out/module/name /ZDtD2
+
+				/trig_mapper.2/out/module/nr 4
+
+				/trig_mapper.2/in/module/function trigger/down
+
+				/trig_mapper.2/out/module/function looper/play
+
+				/trig_mapper.2/in/action 0
+
+				/trig_mapper.2/in/message 1
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 1
+
+				/trig_mapper.2/out/message 4
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 1.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /sensor
+
+				/trig_mapper.1/in/module/nr 2
+
+				/trig_mapper.1/out/module/name /ZDtD2
+
+				/trig_mapper.1/out/module/nr 4
+
+				/trig_mapper.1/in/module/function trigger/up
+
+				/trig_mapper.1/out/module/function sf/play
+
+				/trig_mapper.1/in/action 0
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 1
+
+				/trig_mapper.1/out/message 3
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 1.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit bypass
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ ##############################
+
+KEY CUE filtreWacVent
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name /sensor
+
+				/cont_mapper.8/in/module/nr 3
+
+				/cont_mapper.8/out/module/name /ZDtD2
+
+				/cont_mapper.8/out/module/nr 3
+
+				/cont_mapper.8/out/module/function audio/gain
+
+				/cont_mapper.8/in/module/function sensor
+
+				/cont_mapper.8/clipmode none
+
+				/cont_mapper.8/curve -0.0
+
+				/cont_mapper.8/edit edit
+
+				/cont_mapper.8/in/max 1.0
+
+				/cont_mapper.8/in/min 0.0
+
+				/cont_mapper.8/out/max 101.0
+
+				/cont_mapper.8/out/min 0.0
+
+				/cont_mapper.8/ramp 0
+
+				/cont_mapper.8/slide/down 0.0
+
+				/cont_mapper.8/slide/up 0.0
+
+				/cont_mapper.8/view/freeze 0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/in/module/nr 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/out/module/nr 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/in/action 0
+
+				/trig_mapper.8/in/message 0
+
+				/trig_mapper.8/in/value 0.0
+
+				/trig_mapper.8/out/action 0
+
+				/trig_mapper.8/out/message 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/out/value 0.0
+
+				/trig_mapper.8/time/repeat 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+				/trig_mapper.8/view/freeze 0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name /wacom
+
+				/cont_mapper.7/in/module/nr 3
+
+				/cont_mapper.7/out/module/name /equalizer~
+
+				/cont_mapper.7/out/module/nr 3
+
+				/cont_mapper.7/out/module/function audio/mix
+
+				/cont_mapper.7/in/module/function pressure
+
+				/cont_mapper.7/clipmode none
+
+				/cont_mapper.7/curve 0.22481479
+
+				/cont_mapper.7/edit edit
+
+				/cont_mapper.7/in/max 1.0
+
+				/cont_mapper.7/in/min 0.0
+
+				/cont_mapper.7/out/max 100.0
+
+				/cont_mapper.7/out/min 0.0
+
+				/cont_mapper.7/ramp 100
+
+				/cont_mapper.7/slide/down 0.0
+
+				/cont_mapper.7/slide/up 0.0
+
+				/cont_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/in/module/nr 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/out/module/nr 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/in/action 0
+
+				/trig_mapper.7/in/message 0
+
+				/trig_mapper.7/in/value 0.0
+
+				/trig_mapper.7/out/action 0
+
+				/trig_mapper.7/out/message 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/out/value 0.0
+
+				/trig_mapper.7/time/repeat 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+				/trig_mapper.7/view/freeze 0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/in/module/nr 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/out/module/nr 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/in/action 0
+
+				/trig_mapper.6/in/message 0
+
+				/trig_mapper.6/in/value 0.0
+
+				/trig_mapper.6/out/action 0
+
+				/trig_mapper.6/out/message 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/out/value 0.0
+
+				/trig_mapper.6/time/repeat 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+				/trig_mapper.6/view/freeze 0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/in/module/name /wacom
+
+				/cont_mapper.6/in/module/nr 3
+
+				/cont_mapper.6/out/module/name /equalizer~
+
+				/cont_mapper.6/out/module/nr 3
+
+				/cont_mapper.6/out/module/function filter.1/Q
+
+				/cont_mapper.6/in/module/function position/y
+
+				/cont_mapper.6/clipmode both
+
+				/cont_mapper.6/curve -0.19481482
+
+				/cont_mapper.6/edit edit
+
+				/cont_mapper.6/in/max 0.0
+
+				/cont_mapper.6/in/min 1.0
+
+				/cont_mapper.6/out/max 20.0
+
+				/cont_mapper.6/out/min 0.013
+
+				/cont_mapper.6/ramp 0
+
+				/cont_mapper.6/slide/down 0.0
+
+				/cont_mapper.6/slide/up 0.0
+
+				/cont_mapper.6/view/freeze 0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/in/module/nr 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/out/module/nr 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/in/action 0
+
+				/trig_mapper.5/in/message 0
+
+				/trig_mapper.5/in/value 0.0
+
+				/trig_mapper.5/out/action 0
+
+				/trig_mapper.5/out/message 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/out/value 0.0
+
+				/trig_mapper.5/time/repeat 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+				/trig_mapper.5/view/freeze 0
+
+ # Module /cont_mapper.5
+
+				/cont_mapper.5/in/module/name /wacom
+
+				/cont_mapper.5/in/module/nr 6
+
+				/cont_mapper.5/out/module/name /equalizer~
+
+				/cont_mapper.5/out/module/nr 3
+
+				/cont_mapper.5/out/module/function filter.1/freq
+
+				/cont_mapper.5/in/module/function position/x
+
+				/cont_mapper.5/clipmode both
+
+				/cont_mapper.5/curve 0.22481479
+
+				/cont_mapper.5/edit edit
+
+				/cont_mapper.5/in/max 1.0
+
+				/cont_mapper.5/in/min 0.0
+
+				/cont_mapper.5/out/max 11025.0
+
+				/cont_mapper.5/out/min 30.0
+
+				/cont_mapper.5/ramp 0
+
+				/cont_mapper.5/slide/down 0.0
+
+				/cont_mapper.5/slide/up 0.0
+
+				/cont_mapper.5/view/freeze 0
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/in/module/nr 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/out/module/nr 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/in/action 0
+
+				/trig_mapper.4/in/message 0
+
+				/trig_mapper.4/in/value 0.0
+
+				/trig_mapper.4/out/action 0
+
+				/trig_mapper.4/out/message 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/out/value 0.0
+
+				/trig_mapper.4/time/repeat 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+				/trig_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/in/module/name /sensor
+
+				/cont_mapper.4/in/module/nr 2
+
+				/cont_mapper.4/out/module/name /ZDtD2
+
+				/cont_mapper.4/out/module/nr 2
+
+				/cont_mapper.4/out/module/function audio/gain
+
+				/cont_mapper.4/in/module/function sensor
+
+				/cont_mapper.4/clipmode none
+
+				/cont_mapper.4/curve -0.0
+
+				/cont_mapper.4/edit edit
+
+				/cont_mapper.4/in/max 1.0
+
+				/cont_mapper.4/in/min 0.0
+
+				/cont_mapper.4/out/max 127.0
+
+				/cont_mapper.4/out/min 0.0
+
+				/cont_mapper.4/ramp 200
+
+				/cont_mapper.4/slide/down 0.0
+
+				/cont_mapper.4/slide/up 0.0
+
+				/cont_mapper.4/view/freeze 0
+
+ # Module /cont_mapper.3
+
+				/cont_mapper.3/in/module/name /wacom
+
+				/cont_mapper.3/in/module/nr 0
+
+				/cont_mapper.3/out/module/name /Zlooper~
+
+				/cont_mapper.3/out/module/nr 1
+
+				/cont_mapper.3/out/module/function audio/gain
+
+				/cont_mapper.3/in/module/function pressure
+
+				/cont_mapper.3/clipmode none
+
+				/cont_mapper.3/curve -0.0
+
+				/cont_mapper.3/edit bypass
+
+				/cont_mapper.3/in/max 1.0
+
+				/cont_mapper.3/in/min 0.0
+
+				/cont_mapper.3/out/max 102.0
+
+				/cont_mapper.3/out/min 0.0
+
+				/cont_mapper.3/ramp 500
+
+				/cont_mapper.3/slide/down 0.0
+
+				/cont_mapper.3/slide/up 0.0
+
+				/cont_mapper.3/view/freeze 0
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name /wacom
+
+				/trig_mapper.3/in/module/nr 0
+
+				/trig_mapper.3/out/module/name /cueMappers
+
+				/trig_mapper.3/out/module/nr 0
+
+				/trig_mapper.3/in/module/function buttons
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/in/action 2
+
+				/trig_mapper.3/in/message 2
+
+				/trig_mapper.3/in/value 0.0
+
+				/trig_mapper.3/out/action 2
+
+				/trig_mapper.3/out/message 5
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/out/value 0.0
+
+				/trig_mapper.3/time/repeat 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+				/trig_mapper.3/view/freeze 0
+
+ # Module /cont_mapper.2
+
+				/cont_mapper.2/in/module/name /wacom
+
+				/cont_mapper.2/in/module/nr 0
+
+				/cont_mapper.2/out/module/name /Zspat
+
+				/cont_mapper.2/out/module/nr 1
+
+				/cont_mapper.2/out/module/function position/y
+
+				/cont_mapper.2/in/module/function position/y
+
+				/cont_mapper.2/clipmode both
+
+				/cont_mapper.2/curve -0.0
+
+				/cont_mapper.2/edit bypass
+
+				/cont_mapper.2/in/max 0.0
+
+				/cont_mapper.2/in/min 1.0
+
+				/cont_mapper.2/out/max 1.0
+
+				/cont_mapper.2/out/min -1.0
+
+				/cont_mapper.2/ramp 0
+
+				/cont_mapper.2/slide/down 0.0
+
+				/cont_mapper.2/slide/up 0.0
+
+				/cont_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name /sensor
+
+				/trig_mapper.2/in/module/nr 2
+
+				/trig_mapper.2/out/module/name /ZDtD2
+
+				/trig_mapper.2/out/module/nr 4
+
+				/trig_mapper.2/in/module/function trigger/down
+
+				/trig_mapper.2/out/module/function sf/play
+
+				/trig_mapper.2/in/action 0
+
+				/trig_mapper.2/in/message 1
+
+				/trig_mapper.2/in/value 0.0
+
+				/trig_mapper.2/out/action 1
+
+				/trig_mapper.2/out/message 4
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/out/value 1.0
+
+				/trig_mapper.2/time/repeat 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+				/trig_mapper.2/view/freeze 0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name /sensor
+
+				/trig_mapper.1/in/module/nr 2
+
+				/trig_mapper.1/out/module/name /ZDtD2
+
+				/trig_mapper.1/out/module/nr 4
+
+				/trig_mapper.1/in/module/function trigger/up
+
+				/trig_mapper.1/out/module/function sf/play
+
+				/trig_mapper.1/in/action 0
+
+				/trig_mapper.1/in/message 0
+
+				/trig_mapper.1/in/value 0.0
+
+				/trig_mapper.1/out/action 1
+
+				/trig_mapper.1/out/message 3
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/out/value 1.0
+
+				/trig_mapper.1/time/repeat 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+				/trig_mapper.1/view/freeze 0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/in/module/name /wacom
+
+				/cont_mapper.1/in/module/nr 0
+
+				/cont_mapper.1/out/module/name /Zspat
+
+				/cont_mapper.1/out/module/nr 1
+
+				/cont_mapper.1/out/module/function position/x
+
+				/cont_mapper.1/in/module/function position/x
+
+				/cont_mapper.1/clipmode both
+
+				/cont_mapper.1/curve -0.0
+
+				/cont_mapper.1/edit bypass
+
+				/cont_mapper.1/in/max 1.0
+
+				/cont_mapper.1/in/min 0.0
+
+				/cont_mapper.1/out/max 1.0
+
+				/cont_mapper.1/out/min -1.0
+
+				/cont_mapper.1/ramp 0
+
+				/cont_mapper.1/slide/down 0.0
+
+				/cont_mapper.1/slide/up 0.0
+
+				/cont_mapper.1/view/freeze 0
+
+ ##############################
+
+CUE Tracking
+
+ ##############################
+
+ # Module /cont_mapper.8
+
+				/cont_mapper.8/in/module/name /teteBras
+
+				/cont_mapper.8/out/module/name /Zspat
+
+				/cont_mapper.8/out/module/function position/y
+
+				/cont_mapper.8/in/module/function BrasG/posY
+
+				/cont_mapper.8/clipmode both
+
+				/cont_mapper.8/out/max 1.0
+
+				/cont_mapper.8/out/min -1.0
+
+ # Module /trig_mapper.8
+
+				/trig_mapper.8/in/module/name 0
+
+				/trig_mapper.8/out/module/name 0
+
+				/trig_mapper.8/in/module/function 0
+
+				/trig_mapper.8/out/module/function 0
+
+				/trig_mapper.8/out/ramp 0.0
+
+				/trig_mapper.8/time/wait 0.0
+
+ # Module /cont_mapper.7
+
+				/cont_mapper.7/in/module/name /teteBras
+
+				/cont_mapper.7/out/module/name /Zspat
+
+				/cont_mapper.7/out/module/function position/x
+
+				/cont_mapper.7/in/module/function BrasG/posX
+
+				/cont_mapper.7/clipmode both
+
+				/cont_mapper.7/out/max 1.0
+
+				/cont_mapper.7/out/min -1.0
+
+ # Module /trig_mapper.7
+
+				/trig_mapper.7/in/module/name 0
+
+				/trig_mapper.7/out/module/name 0
+
+				/trig_mapper.7/in/module/function 0
+
+				/trig_mapper.7/out/module/function 0
+
+				/trig_mapper.7/out/ramp 0.0
+
+				/trig_mapper.7/time/wait 0.0
+
+ # Module /trig_mapper.6
+
+				/trig_mapper.6/in/module/name 0
+
+				/trig_mapper.6/out/module/name 0
+
+				/trig_mapper.6/in/module/function 0
+
+				/trig_mapper.6/out/module/function 0
+
+				/trig_mapper.6/out/ramp 0.0
+
+				/trig_mapper.6/time/wait 0.0
+
+ # Module /cont_mapper.6
+
+				/cont_mapper.6/out/module/name /Zlooper~
+
+				/cont_mapper.6/out/module/function audio/gain
+
+				/cont_mapper.6/in/module/function BrasG/distance
+
+				/cont_mapper.6/in/max 0.5
+
+				/cont_mapper.6/in/min 0.163
+
+				/cont_mapper.6/out/max 93.0
+
+				/cont_mapper.6/out/min 0.0
+
+				/cont_mapper.6/slide/down 1.0
+
+				/cont_mapper.6/slide/up 1.0
+
+ # Module /trig_mapper.5
+
+				/trig_mapper.5/in/module/name 0
+
+				/trig_mapper.5/out/module/name 0
+
+				/trig_mapper.5/in/module/function 0
+
+				/trig_mapper.5/out/module/function 0
+
+				/trig_mapper.5/out/ramp 0.0
+
+				/trig_mapper.5/time/wait 0.0
+
+ # Module /cont_mapper.5
+
+ # Module /trig_mapper.4
+
+				/trig_mapper.4/in/module/name 0
+
+				/trig_mapper.4/out/module/name 0
+
+				/trig_mapper.4/in/module/function 0
+
+				/trig_mapper.4/out/module/function 0
+
+				/trig_mapper.4/out/ramp 0.0
+
+				/trig_mapper.4/time/wait 0.0
+
+ # Module /cont_mapper.4
+
+				/cont_mapper.4/clipmode both
+
+				/cont_mapper.4/curve -0.08037038
+
+ # Module /cont_mapper.3
+
+ # Module /trig_mapper.3
+
+				/trig_mapper.3/in/module/name 0
+
+				/trig_mapper.3/out/module/name 0
+
+				/trig_mapper.3/in/module/function 0
+
+				/trig_mapper.3/out/module/function 0
+
+				/trig_mapper.3/out/ramp 0.0
+
+				/trig_mapper.3/time/wait 0.0
+
+ # Module /cont_mapper.2
+
+ # Module /trig_mapper.2
+
+				/trig_mapper.2/in/module/name 0
+
+				/trig_mapper.2/out/module/name 0
+
+				/trig_mapper.2/in/module/function 0
+
+				/trig_mapper.2/out/module/function 0
+
+				/trig_mapper.2/out/ramp 0.0
+
+				/trig_mapper.2/time/wait 0.0
+
+ # Module /trig_mapper.1
+
+				/trig_mapper.1/in/module/name 0
+
+				/trig_mapper.1/out/module/name 0
+
+				/trig_mapper.1/in/module/function 0
+
+				/trig_mapper.1/out/module/function 0
+
+				/trig_mapper.1/out/ramp 0.0
+
+				/trig_mapper.1/time/wait 0.0
+
+ # Module /cont_mapper.1
+
+				/cont_mapper.1/curve -0.15666668
+
+ # Module /cueManager.2
+
+ # Module /background%.1
+
+ # Module /brcosa%.1
+
+ # Module /input%.1
+
+ # Module /teteBras
+
+ # Module /colorTracker%
+
+				/colorTracker%/color 0.16078432 0.6741868 1.0
+
+ # Module /colorTracker%.1
+
+				/colorTracker%.1/color 0.80784315 0.22809689 0.0
+
+				/colorTracker%.1/video/preview 1
+
+ # Module /colorTracker%.2
+
+				/colorTracker%.2/color 0.7916955 0.8627451 0.0
+
+ ############################## 

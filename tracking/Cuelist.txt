@@ -1,0 +1,177 @@
+
+
+KEY CUE Init
+
+ ##############################
+
+ # Module /colorTracker%
+
+				/colorTracker%/color 0.022329872 0.0 0.9490196
+
+				/colorTracker%/toleranceB 15
+
+				/colorTracker%/toleranceG 5
+
+				/colorTracker%/toleranceR 5
+
+				/colorTracker%/view/freeze 0
+
+				/colorTracker%/video/bypass 0
+
+				/colorTracker%/video/freeze 0
+
+				/colorTracker%/video/mute 0
+
+				/colorTracker%/video/preview 1
+
+ # Module /colorTracker%.1
+
+				/colorTracker%.1/color 0.0 0.972549 0.022883506
+
+				/colorTracker%.1/toleranceB 5
+
+				/colorTracker%.1/toleranceG 15
+
+				/colorTracker%.1/toleranceR 5
+
+				/colorTracker%.1/view/freeze 0
+
+				/colorTracker%.1/video/bypass 0
+
+				/colorTracker%.1/video/freeze 0
+
+				/colorTracker%.1/video/mute 0
+
+				/colorTracker%.1/video/preview 1
+
+ # Module /colorTracker%.2
+
+				/colorTracker%.2/color 1.0 0.003921569 0.003921569
+
+				/colorTracker%.2/toleranceB 5
+
+				/colorTracker%.2/toleranceG 5
+
+				/colorTracker%.2/toleranceR 15
+
+				/colorTracker%.2/view/freeze 0
+
+				/colorTracker%.2/video/bypass 0
+
+				/colorTracker%.2/video/freeze 0
+
+				/colorTracker%.2/video/mute 0
+
+				/colorTracker%.2/video/preview 1
+
+ # Module /op%
+
+				/op%/op_value 0.0
+
+				/op%/op *
+
+				/op%/view/freeze 0
+
+				/op%/video/bypass 0
+
+				/op%/video/freeze 0
+
+				/op%/video/mute 0
+
+				/op%/video/preview 0
+
+ # Module /background%
+
+				/background%/filter/on 0
+
+				/background%/filter/threshold 0
+
+				/background%/mode 1
+
+				/background%/noise 0
+
+				/background%/noise 0
+
+				/background%/record 0
+
+				/background%/view/freeze 0
+
+				/background%/video/bypass 0
+
+				/background%/video/freeze 0
+
+				/background%/video/mute 0
+
+				/background%/video/preview 0
+
+ # Module /brcosa%
+
+				/brcosa%/brightness 1.0
+
+				/brcosa%/contrast 1.0
+
+				/brcosa%/monochrome 0
+
+				/brcosa%/saturation 1.0
+
+				/brcosa%/view/freeze 0
+
+				/brcosa%/video/bypass 0
+
+				/brcosa%/video/freeze 0
+
+				/brcosa%/video/mute 0
+
+				/brcosa%/video/preview 0
+
+ # Module /input%
+
+				/input%/camera/camera 0
+
+				/input%/camera/device 0
+
+				/input%/camera/on 0
+
+				/input%/camera/size 1
+
+				/input%/file/audio 1
+
+				/input%/file/counter 0
+
+				/input%/file/framedump 0
+
+				/input%/file/loop_points 0
+
+				/input%/file/loop 1
+
+				/input%/file/on 0
+
+				/input%/file/rate 1.0
+
+				/input%/file/size 2
+
+				/input%/source_mode 0
+
+				/input%/synth/color set
+
+				/input%/synth/color/on 0
+
+				/input%/synth/noise/on 0
+
+				/input%/synth/noise/planes 4
+
+				/input%/synth/noise/rate 100
+
+				/input%/synth/noise/size/x 320
+
+				/input%/synth/noise/size/y 240
+
+				/input%/view/freeze 0
+
+				/input%/video/freeze 0
+
+				/input%/video/mute 0
+
+				/input%/video/preview 0
+
+ ############################## 

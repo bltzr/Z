@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 635.0, 369.0, 300.0, 105.0 ],
+		"rect" : [ 48.0, 44.0, 1179.0, 812.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 476.0, 44.0, 943.0, 723.0 ],
+		"defrect" : [ 48.0, 44.0, 1179.0, 812.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,7 +27,7 @@
 					"numinlets" : 32,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 661.0, 474.5, 20.0 ],
+					"patching_rect" : [ 426.0, 656.0, 437.5, 20.0 ],
 					"text" : "jcom.multi.in~"
 				}
 
@@ -94,8 +94,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 136.0, 696.0, 151.0, 92.0 ],
-					"text" : "jcom.parameter balance/range @type decimal @range/bounds -1 1 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
+					"patching_rect" : [ 136.0, 696.0, 165.0, 92.0 ],
+					"text" : "jcom.parameter balance/range @type decimal @range/bounds 0 1 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
 				}
 
 			}
@@ -131,6 +131,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -138,22 +139,6 @@
 					"patching_rect" : [ 183.0, 598.0, 19.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 209.72612, 24.072725, 19.0, 19.0 ],
-					"text" : "1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 649.0, 19.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 201.80304, 70.822731, 19.0, 19.0 ],
 					"text" : "3",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -163,6 +148,24 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 175.0, 649.0, 19.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 201.80304, 70.822731, 19.0, 19.0 ],
+					"text" : "5",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -179,6 +182,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -195,6 +199,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-62",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -211,6 +216,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -218,7 +224,7 @@
 					"patching_rect" : [ 226.0, 590.0, 19.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 252.312653, 16.739391, 19.0, 19.0 ],
-					"text" : "5",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -351,7 +357,7 @@
 					"patching_rect" : [ 611.0, 612.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.80304, 91.239395, 199.0, 12.0 ],
-					"text" : "0:0:59 / 0:12:46",
+					"text" : "0:0:0 / 0:2:47",
 					"textpos" : [ 10.0, 0.0 ]
 				}
 
@@ -462,8 +468,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 290.0, 425.0, 461.0, 31.0 ],
-					"text" : "jcom.parameter selectedfile @type string @repetitions/allow 1 @description \"path of the soundfile played \" @priority 31",
+					"patching_rect" : [ 237.0, 430.0, 461.0, 31.0 ],
+					"text" : "jcom.parameter selectedfile @type string @repetitions/allow 1 @description \"path of the soundfile played \" @priority 11",
 					"varname" : "jcom.parameter.mxb[3]"
 				}
 
@@ -993,13 +999,13 @@
 ,
 					"patching_rect" : [ 145.0, 375.0, 268.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p routing"
@@ -1079,7 +1085,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1095,7 +1101,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-30",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1249,13 +1255,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-5",
-					"items" : "hexatest.wav",
+					"items" : [ "chevreuil_1_2_3_4_5_6.wav", ",", "cigales_avionsreaction_1_2_3_4_5_6.wav", ",", "cigales_groovy_1_2_3_4_5_6.wav", ",", "cigales_paysage_1_2_3_4_5_6.wav", ",", "cloches_avion_orage_1_2_3_4_5_6.wav", ",", "grillons_colline_1_2_3_4_5_6.wav", ",", "grillons_colline_filtre_1_2_3_4_5_6.wav", ",", "grillons_coucher_1_2_3_4_5_6.wav", ",", "grillons_pre_avion_1_2_3_4_5_6.wav", ",", "grillons_pre_loopx2_1_2_3_4_5_6.wav", ",", "grillons_pre_mouches_1_2_3_4_5_6.wav", ",", "grillons_pre_sample_1_2_3_4_5_6.wav", ",", "grillons_pre_seuls_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01et02_1_2_3_4_5_6.wav", ",", "leverj_riviere_1_2_3_4_5_6.wav", ",", "levrj_foret_beau_1_2_3_4_5_6.wav", ",", "orage_2tonerre_1_2_3_4_5_6.wav", ",", "orage_lointain_voitures_1_2_3_4_5_6.wav", ",", "orage_seq_montage_1_2_3_4_5_6.wav", ",", "passage_troupeau_1_2_3_4_5_6.wav", ",", "poules_1_2_3_4_5_6.wav", ",", "riviere_1_2_3_4_5_6.wav", ",", "vent_abrit_doux_1_2_3_4_5_6.wav", ",", "vent_abrit_ondulation_1_2_3_4_5_6.wav", ",", "vent_violent_sapins_1_2_3_4_5_6.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 195.0, 400.0, 100.0, 17.0 ],
-					"prefix" : "Macintosh HD:/Users/valerieleroux/Music/JAMOMA/SONSZDAISY/Zhexa/",
+					"prefix" : "0",
 					"prefix_mode" : 2,
 					"presentation" : 1,
 					"presentation_rect" : [ 25.80304, 23.239391, 170.0, 17.0 ],
@@ -1330,7 +1336,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 396.0, 182.0, 613.0, 28.0 ],
+					"patching_rect" : [ 385.0, 182.0, 613.0, 28.0 ],
 					"text" : "jcom.message path @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing the sound files \"",
 					"varname" : "jcom.parameter.mxb[10]"
 				}
@@ -1386,8 +1392,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 134.0, 538.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter mainfolder @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 30",
+					"patching_rect" : [ 133.0, 538.0, 561.0, 31.0 ],
+					"text" : "jcom.parameter mainfolder @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 10",
 					"varname" : "jcom.parameter.mxb[2]"
 				}
 
@@ -1463,7 +1469,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.239393, 300.0, 105.0 ],
-					"text" : "/ZDtD6.1"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -1471,7 +1477,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1487,7 +1493,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-82",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1503,7 +1509,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-83",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1519,7 +1525,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1561,7 +1567,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -2078,7 +2084,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 7 ],
+					"destination" : [ "obj-56", 5 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-68", 5 ]
@@ -2087,7 +2093,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 6 ],
+					"destination" : [ "obj-56", 4 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-68", 4 ]

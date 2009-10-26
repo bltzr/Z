@@ -99,9 +99,9 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 440.0, 168.0, 466.0, 508.0 ],
+						"rect" : [ 754.0, 67.0, 466.0, 508.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 440.0, 168.0, 466.0, 508.0 ],
+						"defrect" : [ 754.0, 67.0, 466.0, 508.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -126,9 +126,9 @@
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal" ],
 									"patcher" : 									{
 										"fileversion" : 1,
-										"rect" : [ 65.0, 140.0, 684.0, 384.0 ],
+										"rect" : [ 683.0, 130.0, 684.0, 384.0 ],
 										"bglocked" : 0,
-										"defrect" : [ 65.0, 140.0, 684.0, 384.0 ],
+										"defrect" : [ 683.0, 130.0, 684.0, 384.0 ],
 										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -779,7 +779,7 @@
 													"destination" : [ "obj-112", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
-													"source" : [ "obj-152", 5 ]
+													"source" : [ "obj-152", 0 ]
 												}
 
 											}
@@ -797,7 +797,7 @@
 													"destination" : [ "obj-114", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
-													"source" : [ "obj-152", 4 ]
+													"source" : [ "obj-152", 5 ]
 												}
 
 											}
@@ -815,7 +815,7 @@
 													"destination" : [ "obj-116", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
-													"source" : [ "obj-152", 0 ]
+													"source" : [ "obj-152", 4 ]
 												}
 
 											}
@@ -923,13 +923,13 @@
 ,
 									"patching_rect" : [ 50.0, 380.0, 305.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontname" : "Verdana",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p gaining"
@@ -1609,13 +1609,13 @@
 ,
 									"patching_rect" : [ 289.0, 266.0, 113.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontname" : "Verdana",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p calculate_weights"
@@ -2011,13 +2011,13 @@
 ,
 									"patching_rect" : [ 303.0, 226.0, 113.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontname" : "Verdana",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p matrix_calculation"
@@ -2266,13 +2266,13 @@
 ,
 									"patching_rect" : [ 289.0, 100.0, 103.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontname" : "Verdana",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p control_position"
@@ -2671,13 +2671,13 @@
 ,
 					"patching_rect" : [ 35.0, 390.0, 436.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p"
@@ -2694,7 +2694,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 369.200012, 425.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 5"
@@ -2711,7 +2711,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 452.200012, 426.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 6"
@@ -2728,7 +2728,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 202.200012, 428.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 3"
@@ -2745,7 +2745,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 286.200012, 428.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 4"
@@ -2833,7 +2833,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 28.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "in 2"
@@ -2850,7 +2850,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 428.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out~ 1"
@@ -2867,7 +2867,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.199997, 428.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out~ 2"
@@ -2884,7 +2884,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.0, 235.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out 1"
@@ -3390,13 +3390,13 @@
 ,
 									"patching_rect" : [ 145.0, 90.0, 98.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p"
@@ -3546,7 +3546,7 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 34.668163,
-													"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 													"id" : "obj-21",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3574,7 +3574,7 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 34.668163,
-													"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 													"id" : "obj-23",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3602,7 +3602,7 @@
 												"box" : 												{
 													"fontname" : "Verdana",
 													"fontsize" : 34.668163,
-													"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 													"id" : "obj-27",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3917,13 +3917,13 @@
 ,
 									"patching_rect" : [ 30.0, 90.0, 97.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p"
@@ -4265,13 +4265,13 @@
 ,
 					"patching_rect" : [ 286.0, 236.0, 68.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontname" : "Verdana",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p h:m:s:ms"
@@ -4288,7 +4288,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 305.0, 275.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out 2"
@@ -4317,7 +4317,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.0, 200.0, 50.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "in 3"
@@ -4567,13 +4567,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-16",
-									"items" : "hexatest.wav",
+									"items" : [ "poules_montage.wav", ",", "tracteur.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"patching_rect" : [ 255.0, 90.0, 66.0, 17.0 ],
-									"prefix" : "Macintosh HD:/Users/valerieleroux/Music/JAMOMA/SONSZDAISY/Zhexa/",
+									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/multimicro/entrelacés/",
 									"togcolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
 								}
@@ -4654,13 +4654,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-14",
-									"items" : "hexatest.wav",
+									"items" : [ "poules_montage.wav", ",", "tracteur.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"patching_rect" : [ 67.0, 91.0, 66.0, 17.0 ],
-									"prefix" : "Macintosh HD:/Users/valerieleroux/Music/JAMOMA/SONSZDAISY/Zhexa/",
+									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/multimicro/entrelacés/",
 									"togcolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
 								}
@@ -5010,13 +5010,13 @@
 ,
 					"patching_rect" : [ 35.0, 162.0, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p preload"
@@ -5433,13 +5433,13 @@
 ,
 									"patching_rect" : [ 135.0, 114.0, 38.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p state"
@@ -5663,13 +5663,13 @@
 ,
 													"patching_rect" : [ 268.0, 77.0, 40.0, 17.0 ],
 													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
 														"default_fontname" : "Arial",
-														"fontface" : 0,
-														"fontsize" : 12.0,
 														"default_fontsize" : 12.0,
-														"globalpatchername" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0
 													}
 ,
 													"text" : "p close"
@@ -5694,7 +5694,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 													"id" : "obj-11",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -5750,7 +5750,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 													"id" : "obj-16",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -5916,7 +5916,7 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"frgb" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
 													"id" : "obj-30",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -6443,13 +6443,13 @@
 ,
 									"patching_rect" : [ 31.0, 251.0, 45.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p rampe"
@@ -6886,13 +6886,13 @@
 ,
 									"patching_rect" : [ 51.0, 121.0, 38.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontsize" : 12.0,
-										"globalpatchername" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p state"
@@ -7225,13 +7225,13 @@
 ,
 					"patching_rect" : [ 251.0, 164.0, 228.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p foldsnd"
@@ -7245,13 +7245,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-64",
-					"items" : "hexatest.wav",
+					"items" : [ "poules_montage.wav", ",", "tracteur.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 250.0, 120.0, 57.0, 17.0 ],
-					"prefix" : "Macintosh HD:/Users/valerieleroux/Music/JAMOMA/SONSZDAISY/Zhexa/",
+					"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/multimicro/entrelacés/",
 					"types" : [ "AIFF", "WAVE", "Sd2f" ]
 				}
 
@@ -7319,7 +7319,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.0, 90.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "in 1"

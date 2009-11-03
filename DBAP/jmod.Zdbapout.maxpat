@@ -1,7 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 106.0, 249.0, 876.0, 533.0 ],
+		"rect" : [ 301.000122, 448.799988, 300.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 106.0, 249.0, 876.0, 533.0 ],
@@ -971,10 +971,10 @@
 ,
 									"patching_rect" : [ 119.0, 89.5, 102.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0
@@ -1846,10 +1846,10 @@
 ,
 									"patching_rect" : [ 112.0, 564.5, 61.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0
@@ -2127,10 +2127,10 @@
 ,
 													"patching_rect" : [ 911.0, 63.0, 42.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"default_fontface" : 0,
+														"globalpatchername" : "",
 														"default_fontname" : "Verdana",
 														"fontname" : "Verdana",
 														"default_fontsize" : 10.0
@@ -2883,10 +2883,10 @@
 ,
 													"patching_rect" : [ 936.0, 118.0, 94.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"default_fontface" : 0,
+														"globalpatchername" : "",
 														"default_fontname" : "Verdana",
 														"fontname" : "Verdana",
 														"default_fontsize" : 10.0
@@ -3191,7 +3191,6 @@
 , 											{
 												"box" : 												{
 													"args" : [ 6 ],
-													"hidden" : 1,
 													"id" : "obj-38",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
@@ -3209,7 +3208,6 @@
 , 											{
 												"box" : 												{
 													"args" : [ 5 ],
-													"hidden" : 1,
 													"id" : "obj-39",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
@@ -4165,10 +4163,10 @@
 ,
 									"patching_rect" : [ 221.0, 623.0, 69.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0
@@ -4547,10 +4545,10 @@
 ,
 									"patching_rect" : [ 143.0, 226.0, 51.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"globalpatchername" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0
@@ -5334,10 +5332,10 @@
 ,
 					"patching_rect" : [ 210.0, 320.0, 66.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0
@@ -5473,7 +5471,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 399.0, 122.793304, 443.0, 31.0 ],
-					"text" : "jcom.parameter rolloff @type decimal @range/bounds 1 6 @range/clipmode low @description \"Rolloff in dB with doubling of distance.\" @priority 2",
+					"text" : "jcom.parameter rolloff @type decimal @range/bounds 1 36 @range/clipmode both @description \"Rolloff in dB with doubling of distance.\" @priority 2",
 					"varname" : "voices[3]"
 				}
 
@@ -5730,7 +5728,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/Zdbapout"
 				}
 
 			}

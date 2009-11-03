@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 94.0, 53.0, 1128.0, 764.0 ],
+		"rect" : [ 61.0, 44.0, 743.0, 750.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 94.0, 53.0, 1128.0, 764.0 ],
+		"defrect" : [ 61.0, 44.0, 743.0, 750.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -130,13 +130,13 @@
 ,
 					"patching_rect" : [ 377.0, 88.0, 96.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
+						"default_fontsize" : 12.0,
 						"fontsize" : 12.0,
+						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p spaceBarNext"
@@ -166,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 571.0, 164.0, 20.0 ],
+					"patching_rect" : [ 30.0, 613.0, 164.0, 20.0 ],
 					"text" : "prepend /numSpeakers"
 				}
 
@@ -180,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 546.0, 164.0, 20.0 ],
+					"patching_rect" : [ 30.0, 588.0, 164.0, 20.0 ],
 					"text" : "jcom.oscroute /numSpeakers"
 				}
 
@@ -194,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 601.0, 300.0, 70.0 ],
+					"patching_rect" : [ 30.0, 643.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 558.0, 636.0, 300.0, 70.0 ]
 				}
 
@@ -206,7 +206,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 782.625, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 782.625, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -217,7 +217,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 776.25, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 776.25, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 769.875, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 769.875, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -239,7 +239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 763.5, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 763.5, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -250,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 757.125, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 757.125, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -261,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 750.75, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 750.75, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -272,7 +272,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 744.375, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 744.375, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -283,7 +283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 738.0, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 738.0, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -294,7 +294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 731.625, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 731.625, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -305,7 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 725.25, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 725.25, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -316,7 +316,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 718.875, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 718.875, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -327,7 +327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 712.5, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 712.5, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -338,7 +338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 706.125, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 706.125, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -349,7 +349,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 699.75, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 699.75, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -360,7 +360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 693.375, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 693.375, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -371,7 +371,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 687.0, 597.0, 5.0, 112.0 ]
+					"patching_rect" : [ 687.0, 639.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -384,7 +384,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 680.0, 576.0, 287.0, 18.0 ],
+					"patching_rect" : [ 680.0, 618.0, 287.0, 18.0 ],
 					"text" : "jcom.multi.out~"
 				}
 
@@ -396,7 +396,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 730.0, 456.0, 23.0, 23.0 ]
+					"patching_rect" : [ 730.0, 498.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -409,7 +409,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 730.0, 486.0, 130.0, 20.0 ],
+					"patching_rect" : [ 730.0, 528.0, 130.0, 20.0 ],
 					"text" : "prepend view_update"
 				}
 
@@ -422,7 +422,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 730.0, 516.0, 94.0, 20.0 ],
+					"patching_rect" : [ 730.0, 558.0, 94.0, 20.0 ],
 					"text" : "s toZdbapin"
 				}
 
@@ -434,7 +434,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 532.625, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 532.625, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -445,7 +445,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 526.25, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 526.25, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -456,7 +456,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 519.875, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 519.875, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -467,7 +467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 513.5, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 513.5, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -478,7 +478,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 507.125, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 507.125, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -489,7 +489,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 500.75, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 500.75, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -500,7 +500,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 494.375, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 494.375, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -511,7 +511,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 488.0, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 488.0, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -522,7 +522,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.625, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 481.625, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -533,7 +533,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.25, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 475.25, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -574,7 +574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.875, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 468.875, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -585,7 +585,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 462.5, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 462.5, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -596,7 +596,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 456.125, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 456.125, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -607,7 +607,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 449.75, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 449.75, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -618,7 +618,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.375, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 443.375, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -629,7 +629,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 437.0, 602.0, 5.0, 112.0 ]
+					"patching_rect" : [ 437.0, 644.0, 5.0, 112.0 ]
 				}
 
 			}
@@ -658,7 +658,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 476.0, 344.0, 64.0 ],
+					"patching_rect" : [ 355.0, 518.0, 344.0, 64.0 ],
 					"text" : "Set the number of sources,speakers and aux sends. Use the inspector panel to setup the speaker's position with the ambimonitor and click on Update views! button.\nThe middle outlet must be connected to the speakers from dbap, and the rigtmost outlet must be connected to the aux sends."
 				}
 
@@ -672,7 +672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 949.0, 634.0, 25.0, 20.0 ],
+					"patching_rect" : [ 948.0, 583.0, 25.0, 20.0 ],
 					"text" : "..."
 				}
 
@@ -685,7 +685,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 879.0, 636.0, 72.0, 20.0 ],
+					"patching_rect" : [ 879.0, 678.0, 72.0, 20.0 ],
 					"text" : "send~ aux2"
 				}
 
@@ -698,7 +698,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 805.0, 636.0, 72.0, 20.0 ],
+					"patching_rect" : [ 805.0, 678.0, 72.0, 20.0 ],
 					"text" : "send~ aux1"
 				}
 
@@ -751,7 +751,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 435.0, 581.0, 240.0, 18.0 ],
+					"patching_rect" : [ 435.0, 623.0, 240.0, 18.0 ],
 					"text" : "jcom.multi.out~"
 				}
 
@@ -765,7 +765,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 29.0, 471.0, 300.0, 70.0 ],
+					"patching_rect" : [ 29.0, 513.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 15.0, 15.0, 300.0, 70.0 ]
 				}
 
@@ -793,7 +793,7 @@
 					"numinlets" : 32,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 450.0, 364.0, 18.0 ],
+					"patching_rect" : [ 312.0, 492.0, 364.0, 18.0 ],
 					"text" : "jcom.multi.in~"
 				}
 
@@ -820,9 +820,9 @@
 					"name" : "jmod.Zdbapin.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "jit_matrix", "signal" ],
-					"patching_rect" : [ 31.0, 301.0, 300.0, 140.0 ],
-					"presentation_rect" : [ 370.0, 166.0, 300.0, 140.0 ],
+					"outlettype" : [ "", "", "signal" ],
+					"patching_rect" : [ 31.0, 301.0, 300.0, 175.0 ],
+					"presentation_rect" : [ 370.0, 166.0, 300.0, 175.0 ],
 					"varname" : "jmod.Zdbapin"
 				}
 
@@ -1084,7 +1084,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 689.5, 596.5, 814.5, 596.5 ],
+					"midpoints" : [ 689.5, 638.5, 814.5, 638.5 ],
 					"source" : [ "obj-53", 0 ]
 				}
 
@@ -1093,7 +1093,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 698.145142, 596.5, 888.5, 596.5 ],
+					"midpoints" : [ 698.145142, 638.5, 888.5, 638.5 ],
 					"source" : [ "obj-53", 1 ]
 				}
 

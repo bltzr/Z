@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "hololive_storage">
+	<slot number = "1" name = "cercle lent">
+		<pattr name = "op_list" value = "add circle 10000 1. 0" />
+	</slot>
+	<slot number = "2" name = "sauts+agitations">
+		<pattr name = "op_list" value = "add brown 15. 0.1 0.1 0, add brown 344. 0.88 0.9 0" />
+	</slot>
+	<slot number = "3" name = "des ronds">
+		<pattr name = "op_list" value = "add brown 817. 0.42 1. 1, mult circle 376 0.45 0, add brown 344. 0.8 0.8 1, mult constant 0.8 0.8 0.8, add constant 0. 0. 0." />
+	</slot>
+	<slot number = "4" name = "indecis">
+		<pattr name = "op_list" value = "add brown 817. 0.1 1. 1, mult circle 376 0.13 1, add brown 344. 0.55 0.8 1" />
+	</slot>
+	<slot number = "5" name = "carre mou">
+		<pattr name = "op_list" value = "add brown 817. 0.42 1. 1, mult circle 376 0.45 0, add circle 1000 0.5 0" />
+	</slot>
+	<slot number = "6" name = "avant arriere">
+		<pattr name = "op_list" value = "add circle 1000 1. 0, mult constant 0. 1. 0." />
+	</slot>
+	<slot number = "7" name = "brown">
+		<pattr name = "op_list" value = "add brown 141. 0.52 0.9 1" />
+	</slot>
+	<slot number = "8" name = "brown-lent">
+		<pattr name = "op_list" value = "add brown 125. 0.11 0.9 1" />
+	</slot>
+	<slot number = "9" name = "flottant">
+		<pattr name = "op_list" value = "add lissajou 10000. 7719. 2544. 0.52 0.35 0., mult brown 3055. 0.72 2. 1" />
+	</slot>
+	<slot number = "10" name = "indecis-lent">
+		<pattr name = "op_list" value = "add brown 1967. 0.1 1. 1, mult circle 1202 0.13 0, add brown 1039. 0.55 0.59 1" />
+	</slot>
+	<slot number = "11" name = "lissaTordue">
+		<pattr name = "op_list" value = "add brown 817. 0.1 1. 1, mult circle 376 0.13 1, add brown 344. 0.55 0.8 1, mult lissajou 1000. 800. 2400. 0.94 1. 1." />
+	</slot>
+	<slot number = "12" name = "ellipseBizarre">
+		<pattr name = "op_list" value = "add circle 1000 0.8 0, mult constant 0.5 1. 0., add brown 30. 0.38 0.1 1" />
+	</slot>
+</pattrstorage>
+

@@ -20,8 +20,8 @@
     <item name='selection/end' type='decimal' priority='21'>0</item>
     <item name='selection/start' type='decimal' priority='22'>0</item>
     <item name='sound/bufferpool' type='array' priority='30'>/bufferpool</item>
-    <item name='sound/buffer' type='array' priority='32'></item>
-    <item name='sound/folder' type='array' priority='31'></item>
+    <item name='sound/buffer' type='array' priority='32'>0</item>
+    <item name='sound/folder' type='array' priority='31'>0</item>
     <item name='view/freeze' type='boolean' priority='0'>0</item>
   </preset>
 </jamoma>

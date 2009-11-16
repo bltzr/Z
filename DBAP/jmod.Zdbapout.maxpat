@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 106.0, 249.0, 876.0, 533.0 ],
+		"rect" : [ 29.0, 513.0, 300.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 106.0, 249.0, 876.0, 533.0 ],
+		"defrect" : [ 29.0, 513.0, 300.0, 70.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -1618,6 +1618,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-64", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-99", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
@@ -1640,6 +1649,15 @@
 													"hidden" : 0,
 													"midpoints" : [ 530.5, 348.0, 507.5, 348.0 ],
 													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-64", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-48", 0 ]
 												}
 
 											}

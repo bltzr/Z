@@ -5,23 +5,31 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
+    <item name='area.1/sizex' type='decimal' priority='21'>0</item>
+    <item name='area.1/sizey' type='decimal' priority='20'>0</item>
+    <item name='area.1/x' type='decimal' priority='21'>0</item>
+    <item name='area.1/y' type='decimal' priority='20'>0</item>
     <item name='aux.1/gain' type='decimal' priority='0'>0.000001</item>
     <item name='aux.2/gain' type='decimal' priority='0'>0.000001</item>
     <item name='aux.3/gain' type='decimal' priority='0'>0.000001</item>
     <item name='aux.4/gain' type='decimal' priority='0'>0.000001</item>
     <item name='aux.5/gain' type='decimal' priority='0'>0.000001</item>
     <item name='blur' type='decimal' priority='0'>0.000000</item>
-    <item name='position.1/x' type='decimal' priority='0'>0.</item>
-    <item name='position.1/y' type='decimal' priority='0'>0.</item>
+    <item name='position.1/x' type='decimal' priority='0'>-0.647994</item>
+    <item name='position.1/y' type='decimal' priority='0'>-0.518395</item>
+    <item name='record/active' type='boolean' priority='0'>0</item>
     <item name='source' type='integer' priority='0'>1</item>
-    <item name='speakers/show' type='boolean' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='trajectory/direction' type='boolean' priority='0'>0</item>
+    <item name='trajectory/mode' type='array' priority='2'>static</item>
+    <item name='trajectory/speed' type='decimal' priority='0'>0.000000</item>
+    <item name='trajectory/speed/variation' type='decimal' priority='0'>0.000000</item>
     <item name='view/color/border' type='array' priority='0'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0'>0</item>
     <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
     <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
     <item name='view/size' type='array' priority='0'>300 140 </item>
-    <item name='volume' type='decimal' priority='0'>0.000001</item>
-    <item name='weight' type='array' priority='0'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='volume' type='decimal' priority='0'>0.000000</item>
+    <item name='weight' type='array' priority='0'>1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 </item>
   </preset>
 </jamoma>

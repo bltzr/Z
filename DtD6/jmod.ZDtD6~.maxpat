@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 48.0, 44.0, 1179.0, 812.0 ],
+		"rect" : [ 698.0, 136.0, 300.0, 105.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 48.0, 44.0, 1179.0, 812.0 ],
+		"defrect" : [ 8.0, 418.0, 1179.0, 812.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -22,12 +22,27 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 606.0, 494.0, 100.0, 34.0 ],
+					"text" : "jcom.send #1/play"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 32,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.0, 656.0, 437.5, 20.0 ],
+					"patching_rect" : [ 437.0, 652.0, 437.5, 20.0 ],
 					"text" : "jcom.multi.in~"
 				}
 
@@ -89,12 +104,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-44",
-					"linecount" : 7,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 136.0, 696.0, 165.0, 92.0 ],
+					"patching_rect" : [ 136.0, 696.0, 169.0, 79.0 ],
 					"text" : "jcom.parameter balance/range @type decimal @range/bounds 0 1 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
 				}
 
@@ -357,7 +372,7 @@
 					"patching_rect" : [ 611.0, 612.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.80304, 91.239395, 199.0, 12.0 ],
-					"text" : "0:0:0 / 0:2:47",
+					"text" : "0:2:43 / 0:8:2",
 					"textpos" : [ 10.0, 0.0 ]
 				}
 
@@ -469,7 +484,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 237.0, 430.0, 461.0, 31.0 ],
-					"text" : "jcom.parameter selectedfile @type string @repetitions/allow 1 @description \"path of the soundfile played \" @priority 11",
+					"text" : "jcom.parameter selectedfile @type string @repetitions/allow 0 @description \"path of the soundfile played \" @priority 11",
 					"varname" : "jcom.parameter.mxb[3]"
 				}
 
@@ -999,13 +1014,13 @@
 ,
 					"patching_rect" : [ 145.0, 375.0, 268.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p routing"
@@ -1261,7 +1276,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 195.0, 400.0, 100.0, 17.0 ],
-					"prefix" : "0",
+					"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/Sons_Jean-Leon/hexas/",
 					"prefix_mode" : 2,
 					"presentation" : 1,
 					"presentation_rect" : [ 25.80304, 23.239391, 170.0, 17.0 ],
@@ -1320,7 +1335,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 510.0, 462.0, 107.0, 19.0 ],
+					"patching_rect" : [ 479.0, 472.0, 147.0, 19.0 ],
 					"text" : "t l 0",
 					"varname" : "jcom.parameter.mxb[6]"
 				}
@@ -1351,7 +1366,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 510.0, 484.0, 107.0, 19.0 ],
+					"patching_rect" : [ 479.0, 494.0, 107.0, 19.0 ],
 					"text" : "prepend symbol",
 					"varname" : "jcom.parameter.mxb[5]"
 				}
@@ -1469,7 +1484,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.239393, 300.0, 105.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/ZDtD.6"
 				}
 
 			}
@@ -1994,7 +2009,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-6", 1 ]
@@ -2005,7 +2020,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 519.5, 533.0, 619.0, 533.0, 619.0, 533.0, 706.0, 533.0, 706.0, 581.0, 476.5, 581.0 ],
+					"midpoints" : [ 488.5, 533.0, 619.0, 533.0, 619.0, 533.0, 706.0, 533.0, 706.0, 581.0, 476.5, 581.0 ],
 					"source" : [ "obj-65", 0 ]
 				}
 

@@ -923,13 +923,13 @@
 ,
 									"patching_rect" : [ 50.0, 380.0, 305.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"default_fontsize" : 10.0,
-										"fontname" : "Verdana",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p gaining"
@@ -1609,13 +1609,13 @@
 ,
 									"patching_rect" : [ 289.0, 266.0, 113.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"default_fontsize" : 10.0,
-										"fontname" : "Verdana",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p calculate_weights"
@@ -2011,13 +2011,13 @@
 ,
 									"patching_rect" : [ 303.0, 226.0, 113.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"default_fontsize" : 10.0,
-										"fontname" : "Verdana",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p matrix_calculation"
@@ -2266,13 +2266,13 @@
 ,
 									"patching_rect" : [ 289.0, 100.0, 103.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"default_fontsize" : 10.0,
-										"fontname" : "Verdana",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p control_position"
@@ -2671,13 +2671,13 @@
 ,
 					"patching_rect" : [ 35.0, 390.0, 436.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p"
@@ -2692,9 +2692,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.200012, 425.0, 40.0, 17.0 ],
+					"patching_rect" : [ 369.200012, 415.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out~ 5"
@@ -2709,9 +2709,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 452.200012, 426.0, 40.0, 17.0 ],
+					"patching_rect" : [ 202.200012, 423.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out~ 6"
@@ -2726,9 +2726,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.200012, 428.0, 40.0, 17.0 ],
+					"patching_rect" : [ 285.200012, 422.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out~ 3"
@@ -2743,9 +2743,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.200012, 428.0, 40.0, 17.0 ],
+					"patching_rect" : [ 439.200012, 420.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out~ 4"
@@ -2833,7 +2833,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 28.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "in 2"
@@ -2850,7 +2850,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.0, 428.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 1"
@@ -2867,7 +2867,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.199997, 428.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 2"
@@ -2884,7 +2884,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 485.0, 235.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out 1"
@@ -3390,13 +3390,13 @@
 ,
 									"patching_rect" : [ 145.0, 90.0, 98.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 10.0,
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -3917,13 +3917,13 @@
 ,
 									"patching_rect" : [ 30.0, 90.0, 97.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 10.0,
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -4265,13 +4265,13 @@
 ,
 					"patching_rect" : [ 286.0, 236.0, 68.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
-						"default_fontsize" : 10.0,
-						"fontname" : "Verdana",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p h:m:s:ms"
@@ -4288,7 +4288,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 305.0, 275.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out 2"
@@ -4317,7 +4317,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 265.0, 200.0, 50.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "in 3"
@@ -4376,7 +4376,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.0, 345.0, 118.0, 31.0 ],
+					"patching_rect" : [ 449.0, 345.0, 118.0, 31.0 ],
 					"text" : "scale 0. 127. 0. 7.94321 1.071519"
 				}
 
@@ -4567,13 +4567,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-16",
-									"items" : [ "poules_montage.wav", ",", "tracteur.wav" ],
+									"items" : [ "chevreuil_1_2_3_4_5_6.wav", ",", "cigales_avionsreaction_1_2_3_4_5_6.wav", ",", "cigales_groovy_1_2_3_4_5_6.wav", ",", "cigales_paysage_1_2_3_4_5_6.wav", ",", "cloches_avion_orage_1_2_3_4_5_6.wav", ",", "grillons_colline_1_2_3_4_5_6.wav", ",", "grillons_colline_filtre_1_2_3_4_5_6.wav", ",", "grillons_coucher_1_2_3_4_5_6.wav", ",", "grillons_pre_avion_1_2_3_4_5_6.wav", ",", "grillons_pre_loopx2_1_2_3_4_5_6.wav", ",", "grillons_pre_mouches_1_2_3_4_5_6.wav", ",", "grillons_pre_sample_1_2_3_4_5_6.wav", ",", "grillons_pre_seuls_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01et02_1_2_3_4_5_6.wav", ",", "leverj_riviere_1_2_3_4_5_6.wav", ",", "levrj_foret_beau_1_2_3_4_5_6.wav", ",", "orage_2tonerre_1_2_3_4_5_6.wav", ",", "orage_lointain_voitures_1_2_3_4_5_6.wav", ",", "orage_seq_montage_1_2_3_4_5_6.wav", ",", "passage_troupeau_1_2_3_4_5_6.wav", ",", "poules_1_2_3_4_5_6.wav", ",", "riviere_1_2_3_4_5_6.wav", ",", "vent_abrit_doux_1_2_3_4_5_6.wav", ",", "vent_abrit_ondulation_1_2_3_4_5_6.wav", ",", "vent_violent_sapins_1_2_3_4_5_6.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"patching_rect" : [ 255.0, 90.0, 66.0, 17.0 ],
-									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/multimicro/entrelacés/",
+									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/Sons_Jean-Leon/hexas/",
 									"togcolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
 								}
@@ -4654,13 +4654,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-14",
-									"items" : [ "poules_montage.wav", ",", "tracteur.wav" ],
+									"items" : [ "chevreuil_1_2_3_4_5_6.wav", ",", "cigales_avionsreaction_1_2_3_4_5_6.wav", ",", "cigales_groovy_1_2_3_4_5_6.wav", ",", "cigales_paysage_1_2_3_4_5_6.wav", ",", "cloches_avion_orage_1_2_3_4_5_6.wav", ",", "grillons_colline_1_2_3_4_5_6.wav", ",", "grillons_colline_filtre_1_2_3_4_5_6.wav", ",", "grillons_coucher_1_2_3_4_5_6.wav", ",", "grillons_pre_avion_1_2_3_4_5_6.wav", ",", "grillons_pre_loopx2_1_2_3_4_5_6.wav", ",", "grillons_pre_mouches_1_2_3_4_5_6.wav", ",", "grillons_pre_sample_1_2_3_4_5_6.wav", ",", "grillons_pre_seuls_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01et02_1_2_3_4_5_6.wav", ",", "leverj_riviere_1_2_3_4_5_6.wav", ",", "levrj_foret_beau_1_2_3_4_5_6.wav", ",", "orage_2tonerre_1_2_3_4_5_6.wav", ",", "orage_lointain_voitures_1_2_3_4_5_6.wav", ",", "orage_seq_montage_1_2_3_4_5_6.wav", ",", "passage_troupeau_1_2_3_4_5_6.wav", ",", "poules_1_2_3_4_5_6.wav", ",", "riviere_1_2_3_4_5_6.wav", ",", "vent_abrit_doux_1_2_3_4_5_6.wav", ",", "vent_abrit_ondulation_1_2_3_4_5_6.wav", ",", "vent_violent_sapins_1_2_3_4_5_6.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"patching_rect" : [ 67.0, 91.0, 66.0, 17.0 ],
-									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/multimicro/entrelacés/",
+									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/Sons_Jean-Leon/hexas/",
 									"togcolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
 								}
@@ -5010,13 +5010,13 @@
 ,
 					"patching_rect" : [ 35.0, 162.0, 100.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p preload"
@@ -5433,13 +5433,13 @@
 ,
 									"patching_rect" : [ 135.0, 114.0, 38.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p state"
@@ -5663,13 +5663,13 @@
 ,
 													"patching_rect" : [ 268.0, 77.0, 40.0, 17.0 ],
 													"saved_object_attributes" : 													{
+														"fontname" : "Arial",
+														"default_fontsize" : 12.0,
+														"fontface" : 0,
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
-														"default_fontsize" : 12.0,
-														"fontname" : "Arial",
-														"globalpatchername" : "",
-														"fontface" : 0,
-														"fontsize" : 12.0
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p close"
@@ -6443,13 +6443,13 @@
 ,
 									"patching_rect" : [ 31.0, 251.0, 45.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p rampe"
@@ -6886,13 +6886,13 @@
 ,
 									"patching_rect" : [ 51.0, 121.0, 38.0, 17.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"fontname" : "Arial",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p state"
@@ -7225,13 +7225,13 @@
 ,
 					"patching_rect" : [ 251.0, 164.0, 228.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p foldsnd"
@@ -7245,13 +7245,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-64",
-					"items" : [ "poules_montage.wav", ",", "tracteur.wav" ],
+					"items" : [ "chevreuil_1_2_3_4_5_6.wav", ",", "cigales_avionsreaction_1_2_3_4_5_6.wav", ",", "cigales_groovy_1_2_3_4_5_6.wav", ",", "cigales_paysage_1_2_3_4_5_6.wav", ",", "cloches_avion_orage_1_2_3_4_5_6.wav", ",", "grillons_colline_1_2_3_4_5_6.wav", ",", "grillons_colline_filtre_1_2_3_4_5_6.wav", ",", "grillons_coucher_1_2_3_4_5_6.wav", ",", "grillons_pre_avion_1_2_3_4_5_6.wav", ",", "grillons_pre_loopx2_1_2_3_4_5_6.wav", ",", "grillons_pre_mouches_1_2_3_4_5_6.wav", ",", "grillons_pre_sample_1_2_3_4_5_6.wav", ",", "grillons_pre_seuls_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01et02_1_2_3_4_5_6.wav", ",", "leverj_riviere_1_2_3_4_5_6.wav", ",", "levrj_foret_beau_1_2_3_4_5_6.wav", ",", "orage_2tonerre_1_2_3_4_5_6.wav", ",", "orage_lointain_voitures_1_2_3_4_5_6.wav", ",", "orage_seq_montage_1_2_3_4_5_6.wav", ",", "passage_troupeau_1_2_3_4_5_6.wav", ",", "poules_1_2_3_4_5_6.wav", ",", "riviere_1_2_3_4_5_6.wav", ",", "vent_abrit_doux_1_2_3_4_5_6.wav", ",", "vent_abrit_ondulation_1_2_3_4_5_6.wav", ",", "vent_violent_sapins_1_2_3_4_5_6.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 250.0, 120.0, 57.0, 17.0 ],
-					"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/multimicro/entrelacés/",
+					"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/Sons_Jean-Leon/hexas/",
 					"types" : [ "AIFF", "WAVE", "Sd2f" ]
 				}
 
@@ -7319,7 +7319,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.0, 90.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "in 1"
@@ -7458,7 +7458,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-27", 2 ]
+					"source" : [ "obj-27", 3 ]
 				}
 
 			}
@@ -7485,7 +7485,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-27", 3 ]
+					"source" : [ "obj-27", 5 ]
 				}
 
 			}
@@ -7503,7 +7503,7 @@
 					"destination" : [ "obj-26", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-27", 5 ]
+					"source" : [ "obj-27", 2 ]
 				}
 
 			}

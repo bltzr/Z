@@ -1,10 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 698.0, 136.0, 300.0, 105.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"rect" : [ 699.0, 185.0, 300.0, 105.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 8.0, 418.0, 1179.0, 812.0 ],
+		"defrect" : [ 91.0, 55.0, 1179.0, 812.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,7 +53,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.0, 740.0, 95.0, 5.0 ],
+					"patching_rect" : [ 498.0, 744.0, 95.0, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.150711, 13.931466, 85.0, 2.523976 ]
 				}
@@ -67,7 +66,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.0, 748.0, 95.0, 5.0 ],
+					"patching_rect" : [ 498.0, 752.0, 95.0, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.150711, 15.519632, 85.0, 2.523976 ]
 				}
@@ -80,7 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 720.0, 95.0, 5.0 ],
+					"patching_rect" : [ 481.0, 724.0, 95.0, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.150711, 8.755125, 85.0, 2.523976 ]
 				}
@@ -93,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 728.0, 95.0, 5.0 ],
+					"patching_rect" : [ 481.0, 732.0, 95.0, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.150711, 11.343295, 85.0, 2.523976 ]
 				}
@@ -372,7 +371,7 @@
 					"patching_rect" : [ 611.0, 612.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.80304, 91.239395, 199.0, 12.0 ],
-					"text" : "0:2:43 / 0:8:2",
+					"text" : "0:0:0 / 0:2:47",
 					"textpos" : [ 10.0, 0.0 ]
 				}
 
@@ -1014,13 +1013,13 @@
 ,
 					"patching_rect" : [ 145.0, 375.0, 268.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p routing"
@@ -1077,7 +1076,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 701.0, 95.0, 5.0 ],
+					"patching_rect" : [ 469.0, 705.0, 95.0, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.150711, 4.23369, 85.0, 2.523976 ]
 				}
@@ -1090,7 +1089,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 709.0, 95.0, 5.0 ],
+					"patching_rect" : [ 469.0, 713.0, 95.0, 5.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.150711, 6.166949, 85.0, 2.523976 ]
 				}

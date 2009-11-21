@@ -164,13 +164,13 @@
 ,
 					"patching_rect" : [ 214.0, 610.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontface" : 0
 					}
 ,
 					"text" : "p AudIO"
@@ -382,13 +382,13 @@
 ,
 					"patching_rect" : [ 383.0, 11.0, 96.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontface" : 0
 					}
 ,
 					"text" : "p spaceBarNext"

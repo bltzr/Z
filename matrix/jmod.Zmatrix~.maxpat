@@ -1,7 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 695.0, 302.0, 300.0, 175.0 ],
+		"rect" : [ 9.0, 115.0, 300.0, 175.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 305.0, 44.0, 1033.0, 813.0 ],
@@ -192,13 +192,13 @@
 ,
 									"patching_rect" : [ 50.0, 283.0, 56.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p"
@@ -490,13 +490,13 @@
 ,
 					"patching_rect" : [ 546.0, 650.0, 62.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p toMatrix"
@@ -1976,13 +1976,13 @@
 ,
 									"patching_rect" : [ 75.0, 199.0, 78.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
-										"globalpatchername" : "",
+										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p matrixStuff"
@@ -2076,13 +2076,13 @@
 ,
 					"patching_rect" : [ 420.0, 498.0, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p more"
@@ -2301,13 +2301,13 @@
 ,
 					"patching_rect" : [ 545.0, 351.0, 56.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -3196,13 +3196,13 @@
 ,
 					"patching_rect" : [ 620.0, 326.0, 78.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p matrixStuff"
@@ -3738,7 +3738,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 300.0, 175.0 ],
-					"text" : "/Zmatrix"
+					"text" : "/Zmatrix.1"
 				}
 
 			}
@@ -3829,7 +3829,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 558.0, 42.0, 440.0, 31.0 ],
-					"text" : "jcom.parameter numSpeakers @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of speakers\"",
+					"text" : "jcom.parameter numSpeakers @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
 					"varname" : "numSpeakers"
 				}
 
@@ -3845,7 +3845,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 559.0, 113.0, 436.0, 31.0 ],
-					"text" : "jcom.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\"",
+					"text" : "jcom.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
 					"varname" : "numSources"
 				}
 
@@ -3860,7 +3860,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 136.0, 534.0, 354.0, 43.0 ],
+					"patching_rect" : [ 187.0, 529.0, 354.0, 43.0 ],
 					"text" : "jcom.parameter interpolate @type decimal @range/clipmode both @ramp/drive scheduler @ramp/function linear @description \"interpolate between 2 different matrix setups\"",
 					"varname" : "interpolate"
 				}
@@ -4247,15 +4247,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-58", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -4296,6 +4287,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 555.5, 678.0, 60.0, 678.0, 60.0, 382.0, 88.5, 382.0 ],
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-64", 1 ]
 				}
 
 			}

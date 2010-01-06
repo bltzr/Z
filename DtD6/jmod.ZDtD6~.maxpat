@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 8.0, 7.0, 300.0, 105.0 ],
+		"rect" : [ 613.583008, 1.676001, 300.0, 105.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 258.0, 134.0, 1179.0, 812.0 ],
+		"defrect" : [ 179.0, 76.0, 1179.0, 812.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -372,7 +372,7 @@
 					"patching_rect" : [ 611.0, 612.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.80304, 80.239395, 199.0, 17.0 ],
-					"text" : "0:9:2 / 0:9:3",
+					"text" : "0:0:0 / 0:0:12",
 					"textpos" : [ 10.0, 0.0 ]
 				}
 
@@ -964,13 +964,13 @@
 ,
 					"patching_rect" : [ 145.0, 375.0, 268.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p routing"
@@ -1003,20 +1003,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 120.0, 313.0, 274.0, 20.0 ],
 					"text" : "jcom.oscroute /audio/mute"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-27",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 348.0, 68.0, 17.0 ],
-					"text" : "mute 1 $1"
 				}
 
 			}
@@ -1174,7 +1160,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-5",
-					"items" : [ "chevreuil_1_2_3_4_5_6.wav", ",", "cigales_avionsreaction_1_2_3_4_5_6.wav", ",", "cigales_groovy_1_2_3_4_5_6.wav", ",", "cigales_paysage_1_2_3_4_5_6.wav", ",", "cloches_avion_orage_1_2_3_4_5_6.wav", ",", "grillons_colline_1_2_3_4_5_6.wav", ",", "grillons_colline_filtre_1_2_3_4_5_6.wav", ",", "grillons_coucher_1_2_3_4_5_6.wav", ",", "grillons_pre_avion_1_2_3_4_5_6.wav", ",", "grillons_pre_loopx2_1_2_3_4_5_6.wav", ",", "grillons_pre_mouches_1_2_3_4_5_6.wav", ",", "grillons_pre_sample_1_2_3_4_5_6.wav", ",", "grillons_pre_seuls_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01et02_1_2_3_4_5_6.wav", ",", "leverj_riviere_1_2_3_4_5_6.wav", ",", "levrj_foret_beau_1_2_3_4_5_6.wav", ",", "orage_2tonerre_1_2_3_4_5_6.wav", ",", "orage_lointain_voitures_1_2_3_4_5_6.wav", ",", "orage_seq_montage_1_2_3_4_5_6.wav", ",", "passage_troupeau_1_2_3_4_5_6.wav", ",", "poules_1_2_3_4_5_6.wav", ",", "riviere_1_2_3_4_5_6.wav", ",", "vent_abrit_doux_1_2_3_4_5_6.wav", ",", "vent_abrit_ondulation_1_2_3_4_5_6.wav", ",", "vent_violent_sapins_1_2_3_4_5_6.wav" ],
+					"items" : [ "chevreuil.wav", ",", "cigales_avion_reaction.wav", ",", "cigales_groovy.wav", ",", "cigales_paysage_loop.wav", ",", "cloches_avion_orage.wav", ",", "grillons_colline_filtre.wav", ",", "grillons_coucher.wav", ",", "grillons_mouche_en_boucle.wav", ",", "grillons_paysage.wav", ",", "grillons_pre_sample_1_2_3_4_5_6.wav", ",", "grillons_pre_seuls_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01_1_2_3_4_5_6.wav", ",", "leverj_foret_matiere_tr01et02_1_2_3_4_5_6.wav", ",", "leverj_riviere_1_2_3_4_5_6.wav", ",", "levrj_foret_beau_1_2_3_4_5_6.wav", ",", "orage_2tonerre_1_2_3_4_5_6.wav", ",", "orage_lointain_voitures_v2_1_2_3_4_5_6.wav", ",", "orage_versionlongue_1_2_3_4_5_6.wav", ",", "passage_troupeau_v2_1_2_3_4_5_6.wav", ",", "piaf_grosplan_loop_1_2_3_4_5_6.wav", ",", "piaf_grosplan_vent_1_2_3_4_5_6.wav", ",", "piaf_grosplan_vent_loop_1_2_3_4_5_6.wav", ",", "piaf_quintessence_1_2_3_4_5_6.wav", ",", "pommespin_revnosync_1_2_3_4_5_6.wav", ",", "prise_de_becs_1_2_3_4_5_6.wav", ",", "riviere_nopiaf_brut_1_2_3_4_5_6.wav", ",", "riviere_remix_1_2_3_4_5_6.wav", ",", "rondpoint_montageok_1_2_3_4_5_6.wav", ",", "vent_abri_doux_nopiaf_1_2_3_4_5_6.wav", ",", "vent_abrit_ondulation_v2_1_2_3_4_5_6.wav", ",", "vent_violent_sapins_4min_1_2_3_4_5_6.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1283,10 +1269,10 @@
 					"id" : "obj-68",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 8,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "", "" ],
-					"patching_rect" : [ 467.0, 616.0, 117.0, 20.0 ],
-					"text" : "poly~ jalg.ZDtD6~ 1"
+					"numoutlets" : 7,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "" ],
+					"patching_rect" : [ 467.0, 617.0, 117.0, 20.0 ],
+					"text" : "jalg.ZDtD6~"
 				}
 
 			}
@@ -1311,7 +1297,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 133.0, 538.0, 561.0, 31.0 ],
+					"patching_rect" : [ 146.0, 540.0, 561.0, 31.0 ],
 					"text" : "jcom.parameter mainfolder @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 10",
 					"varname" : "jcom.parameter.mxb[2]"
 				}
@@ -1354,7 +1340,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.239393, 300.0, 105.0 ],
-					"text" : "/ZDtD6~.1"
+					"text" : "/ZDtD6~.3"
 				}
 
 			}
@@ -1624,24 +1610,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 129.5, 409.0, 120.0, 409.0, 120.0, 607.0, 476.5, 607.0 ],
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
@@ -1852,7 +1820,7 @@
 					"destination" : [ "obj-37", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-68", 7 ]
+					"source" : [ "obj-68", 6 ]
 				}
 
 			}

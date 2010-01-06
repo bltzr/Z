@@ -7,7 +7,7 @@
   <preset number='1' name='default'>
     <item name='audio/gain' type='decimal' priority='0'>0.000000</item>
     <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='balance/angle' type='decimal' priority='0'>-5.399995</item>
+    <item name='balance/angle' type='decimal' priority='0'>0.</item>
     <item name='balance/range' type='decimal' priority='0'>1.000000</item>
     <item name='loopmode' type='boolean' priority='34'>1</item>
     <item name='pause' type='boolean' priority='36'>0</item>

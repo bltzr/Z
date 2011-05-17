@@ -9,7 +9,7 @@
     <item name='audio/mute' type='boolean' priority='0'>0</item>
     <item name='balance' type='decimal' priority='0'>-0.034826</item>
     <item name='loopmode' type='integer' priority='34'>1</item>
-    <item name='mainfolder' type='array' priority='30'>/Users/pascalbaltazar/Music/SonsTest/DTD/</item>
+    <item name='mainfolder' type='array' priority='30'>0</item>
     <item name='pitch' type='decimal' priority='35'>1.000000</item>
     <item name='play' type='integer' priority='36'>0</item>
     <item name='rampmode' type='integer' priority='32'>0</item>

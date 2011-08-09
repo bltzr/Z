@@ -28,7 +28,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
 					"patching_rect" : [ 141.0, 155.0, 27.0, 18.0 ],
-					"presentation_rect" : [ 126.0, 131.0, 0.0, 0.0 ],
 					"text" : "t b f"
 				}
 
@@ -82,8 +81,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 187.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 37.0, 225.0, 0.0, 0.0 ]
+									"patching_rect" : [ 37.0, 187.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -97,7 +95,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 82.0, 127.0, 22.0, 18.0 ],
-									"presentation_rect" : [ 82.0, 127.0, 0.0, 0.0 ],
 									"text" : "t 0"
 								}
 
@@ -301,7 +298,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "float" ],
+					"outlettype" : [ "int", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"rect" : [ 397.0, 74.0, 261.0, 311.0 ],
@@ -357,8 +354,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 52.0, 41.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 52.0, 41.0, 0.0, 0.0 ]
+									"patching_rect" : [ 52.0, 41.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -383,8 +379,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 252.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 22.0, 176.0, 0.0, 0.0 ]
+									"patching_rect" : [ 20.0, 252.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -565,12 +560,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 166.0, 256.0, 406.0, 18.0 ],
-					"text" : "jcom.parameter loop @type boolean @priority 14 @description \"switch loop mode on/off\"",
+					"patching_rect" : [ 170.0, 246.0, 406.0, 29.0 ],
+					"text" : "jcom.parameter loop @type boolean @priority 14 @description \"switch loop mode on/off\" @value/default 0",
 					"varname" : "switch[2]"
 				}
 
@@ -1669,7 +1665,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 19.0, 430.0, 100.0, 18.0 ],
-					"save2" : [ "#X", "nbfunctions", 1, "\u003b", "#X", "name", "/fn.2", "\u003b", "#X", "domainAndRange", 0.0, 10000.0, 0.0, 1.0, "\u003b" ],
+					"save2" : [ "#X", "nbfunctions", 1, "\u003b", "#X", "name", "/fn.1", "\u003b", "#X", "domainAndRange", 0.0, 10000.0, 0.0, 1.0, "\u003b" ],
 					"text" : "mxj ej.fplay 0"
 				}
 

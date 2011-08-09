@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 12.0, 308.0, 389.0, 166.0 ],
+		"rect" : [ 591.0, 485.0, 389.0, 166.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 12.0, 308.0, 389.0, 166.0 ],
+		"defrect" : [ 591.0, 485.0, 389.0, 166.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -26,7 +26,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"rect" : [ 25.0, 69.0, 190.0, 175.0 ],
@@ -50,12 +50,40 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 25.0, 93.0, 30.0, 17.0 ],
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 75.0, 28.0, 50.0, 15.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
 									"id" : "obj-2",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 26.0, 72.0, 100.0, 17.0 ],
+									"patching_rect" : [ 26.0, 72.0, 69.0, 17.0 ],
 									"text" : "t #2"
 								}
 
@@ -69,7 +97,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 26.0, 50.0, 100.0, 17.0 ],
+									"patching_rect" : [ 26.0, 50.0, 32.5, 17.0 ],
 									"text" : "sel 1"
 								}
 
@@ -83,7 +111,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 26.0, 28.0, 100.0, 17.0 ],
+									"patching_rect" : [ 26.0, 28.0, 44.0, 17.0 ],
 									"text" : "jcom.init"
 								}
 
@@ -120,10 +148,28 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -132,13 +178,13 @@
 ,
 					"patching_rect" : [ 164.0, 18.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 9.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p init"
@@ -156,7 +202,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 42.0, 197.0, 48.0 ],
-					"text" : "jcom.parameter arraySize @type integer @range/bounds 1 10 @range/clipmode low @description \"the number of available functions\" @tag setup @value/default"
+					"text" : "jcom.parameter arraySize @type integer @range/bounds 1 10 @range/clipmode low @description \"the number of available functions\" @tag setup @repetitions/allow 0"
 				}
 
 			}

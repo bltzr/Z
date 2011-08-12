@@ -180,11 +180,11 @@
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
 						"default_fontsize" : 9.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -278,8 +278,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 21.0, 53.0, 47.0, 17.0 ],
-					"text" : "jcom.hub"
+					"patching_rect" : [ 21.0, 53.0, 115.0, 17.0 ],
+					"text" : "jcom.hub @context model"
 				}
 
 			}

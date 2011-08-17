@@ -82,8 +82,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 28.0, 123.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 159.0, 24.0, 0.0, 0.0 ]
+									"patching_rect" : [ 28.0, 123.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -147,8 +146,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 113.0, 74.0, 46.0, 17.0 ],
-									"text" : "change"
+									"patching_rect" : [ 113.0, 74.0, 66.0, 17.0 ],
+									"text" : "change -1"
 								}
 
 							}
@@ -363,12 +362,12 @@
 ,
 					"patching_rect" : [ 227.0, 84.0, 97.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 9.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0,
 						"globalpatchername" : ""
 					}
 ,
@@ -470,7 +469,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 316.0, 152.0, 31.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out 1"
@@ -540,8 +539,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 598.0, 195.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 594.0, 195.0, 0.0, 0.0 ]
+									"patching_rect" : [ 598.0, 195.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -1027,12 +1025,12 @@
 ,
 					"patching_rect" : [ 25.0, 35.0, 480.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
 						"default_fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 9.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0,
 						"globalpatchername" : ""
 					}
 ,
@@ -1065,7 +1063,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 13.0, 25.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "in 1"

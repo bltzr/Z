@@ -6,27 +6,27 @@
   <Data address="numSources" value="6" priority="1"/>
   <Data address="rolloff" priority="2"/>
   <Data address="gain" priority="3"/>
-  <Data address="speaker.4/position" value="0.870035 0.352103" priority="4"/>
-  <Data address="speaker.2/position" value="0.502031 0.942728" priority="4"/>
-  <Data address="speaker.1/position" value="-0.474771 0.942728" priority="4"/>
-  <Data address="speaker.7/position" value="-0.883665 -0.479315" priority="4"/>
-  <Data address="speaker.8/position" value="0.924554 -0.538377" priority="4"/>
-  <Data address="speaker.5/position" value="-0.270324 0.147656" priority="4"/>
-  <Data address="speaker.6/position" value="0.311214 0.165829" priority="4"/>
-  <Data address="speaker.3/position" value="-0.833689 0.311214" priority="4"/>
-  <Data address="source.2/position/y" value="0.552007" priority="5"/>
-  <Data address="source.4/position/y" value="-0.561093" priority="5"/>
-  <Data address="source.3/position/y" value="-0.084050" priority="5"/>
-  <Data address="source.6/position/y" value="-0.565637" priority="5"/>
+  <Data address="speaker.4/position/xy" value="0.870035 0.352103" priority="4"/>
+  <Data address="speaker.2/position/xy" value="0.502031 0.942728" priority="4"/>
+  <Data address="speaker.1/position/xy" value="-0.474771 0.942728" priority="4"/>
+  <Data address="speaker.7/position/xy" value="-0.883665 -0.479315" priority="4"/>
+  <Data address="speaker.8/position/xy" value="0.924554 -0.538377" priority="4"/>
+  <Data address="speaker.5/position/xy" value="-0.270324 0.147656" priority="4"/>
+  <Data address="speaker.6/position/xy" value="0.311214 0.165829" priority="4"/>
+  <Data address="speaker.3/position/xy" value="-0.833689 0.311214" priority="4"/>
+  <Data address="source.2/position/xy/y" value="0.552007" priority="5"/>
+  <Data address="source.4/position/xy/y" value="-0.561093" priority="5"/>
+  <Data address="source.3/position/xy/y" value="-0.084050" priority="5"/>
+  <Data address="source.6/position/xy/y" value="-0.565637" priority="5"/>
   <Data address="numSpeakers" value="8" priority="5"/>
-  <Data address="source.1/position/y" value="0.552007" priority="5"/>
-  <Data address="source.5/position/y" value="-0.093137" priority="5"/>
-  <Data address="source.5/position/x" value="-0.651959" priority="6"/>
-  <Data address="source.6/position/x" value="-0.383906" priority="6"/>
-  <Data address="source.2/position/x" value="0.502031" priority="6"/>
-  <Data address="source.4/position/x" value="0.438425" priority="6"/>
-  <Data address="source.3/position/x" value="0.711021" priority="6"/>
-  <Data address="source.1/position/x" value="-0.433882" priority="6"/>
+  <Data address="source.1/position/xy/y" value="0.552007" priority="5"/>
+  <Data address="source.5/position/xy/y" value="-0.093137" priority="5"/>
+  <Data address="source.5/position/xy/x" value="-0.651959" priority="6"/>
+  <Data address="source.6/position/xy/x" value="-0.383906" priority="6"/>
+  <Data address="source.2/position/xy/x" value="0.502031" priority="6"/>
+  <Data address="source.4/position/xy/x" value="0.438425" priority="6"/>
+  <Data address="source.3/position/xy/x" value="0.711021" priority="6"/>
+  <Data address="source.1/position/xy/x" value="-0.433882" priority="6"/>
   <Data address="source.1/trajectory/file" priority="7"/>
   <Data address="source.6/trajectory/file" priority="7"/>
   <Data address="source.5/trajectory/file" priority="7"/>

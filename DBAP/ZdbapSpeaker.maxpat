@@ -111,13 +111,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-22",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 115.0, 34.0, 377.0, 31.0 ],
-					"text" : "jcom.parameter position @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0.",
+					"patching_rect" : [ 115.0, 34.0, 392.0, 43.0 ],
+					"text" : "jcom.parameter position/xy @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag setup",
 					"varname" : "parameter"
 				}
 

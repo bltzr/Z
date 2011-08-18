@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 591.0, 485.0, 389.0, 166.0 ],
+		"rect" : [ 1066.0, 507.0, 389.0, 166.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 591.0, 485.0, 389.0, 166.0 ],
+		"defrect" : [ 1066.0, 507.0, 389.0, 166.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -82,7 +82,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 26.0, 72.0, 69.0, 17.0 ],
 									"text" : "t #2"
 								}
@@ -176,15 +176,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 164.0, 18.0, 30.0, 17.0 ],
+					"patching_rect" : [ 164.0, 11.0, 30.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 9.0,
 						"globalpatchername" : "",
+						"fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p init"
@@ -228,7 +228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 135.0, 164.0, 18.0 ],
-					"text" : "poly~ function.model @args fn"
+					"text" : "poly~ function.model #2 @args fn"
 				}
 
 			}

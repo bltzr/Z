@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 357.0, -0.000012, 300.0, 70.0 ],
+		"rect" : [ 2.469994, 0.509995, 300.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 93.0, 118.0, 1040.0, 732.0 ],
+		"defrect" : [ 93.0, 118.0, 1213.0, 734.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"patching_rect" : [ 446.0, 612.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 54.0, 294.0, 12.0 ],
-					"text" : "0:0:0 / 0:9:32",
+					"text" : "0:0:0 / 0:1:39",
 					"textpos" : [ 10.0, 0.0 ]
 				}
 
@@ -61,7 +61,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 780.0, 616.0, 330.0, 27.0 ],
-					"text" : "jcom.parameter pause @type boolean @repetitions/allow 1 @description \"Play current sound.\" @priority 36",
+					"text" : "jcom.parameter pause @type boolean @repetitions/allow 1 @description \"Play current sound.\" @priority 37",
 					"varname" : "jmod.parameter.mxb[1]"
 				}
 
@@ -702,13 +702,13 @@
 ,
 					"patching_rect" : [ 145.0, 375.0, 268.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p routing"
@@ -988,13 +988,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-5",
-					"items" : [ "01_zampa_course_st.wav", ",", "02_zampa_chocscorps_st.wav", ",", "03_zampa_ballon_elastique_st.wav", ",", "Albi Lazer Lia jambes+Vagin.wav", ",", "Albi Lazer Lia jambes.wav", ",", "Bad Things SONG3.wav", ",", "BadThings high.wav", ",", "BadThings low.wav", ",", "BadThings medium.wav", ",", "Clochettes.aiff", ",", "Goose.aiff", ",", "Helen Dopf purp dark debut.wav", ",", "Helen Dopf purp dark.wav", ",", "Helen Dopf purp debut.wav", ",", "Helen Dopf purp full.wav", ",", "Helen Dopf purp Vox.wav", ",", "Helen Dopf vert1.wav", ",", "Helen Dopf vert2.wav", ",", "Helen Hollow.wav", ",", "Hollow.aiff", ",", "Lazer Lia ArabDance bass.wav", ",", "Madonna.aiff", ",", "Muffed.aiff", ",", "NoPlace2HideMultihigh.aif", ",", "NoPlace2HideMultiHiXnoise.aif", ",", "NoPlace2HideMultiHiXnoiseSpeechFocus.aif", ",", "NoPlace2HideMultilow-01.aif", ",", "NoPlace2Hideslowhigh.aif", ",", "NoPlace2Hideslowlow-01.aif", ",", "NoPlaceMulti.aiff", ",", "NoPlaceSlow.aiff", ",", "PanSonicFulggurence.aiff", ",", "WavaDetonationShort.aif", ",", "WaveDetonation.aiff" ],
+					"items" : [ "cridesgrues.wav", ",", "envoldesgrues.wav", ",", "gouttiereglace.wav", ",", "grele.wav", ",", "grues.wav", ",", "Le gouffre EDF.aif", ",", "tournoiement.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 195.0, 400.0, 100.0, 17.0 ],
-					"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/SONSZDAISY/ZDaisyDTD/",
+					"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/Sons_Jean-Leon/sequences_stereo/",
 					"prefix_mode" : 2,
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 19.0, 170.0, 17.0 ],

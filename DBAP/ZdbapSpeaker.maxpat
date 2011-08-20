@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 134.0, 183.0, 522.0, 219.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 134.0, 183.0, 522.0, 219.0 ],
@@ -28,7 +34,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 115.0, 181.0, 100.0, 17.0 ],
 					"saved_object_attributes" : 					{
-
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out 1"
@@ -116,8 +122,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 115.0, 34.0, 392.0, 43.0 ],
-					"text" : "jcom.parameter position/xy @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag setup",
+					"patching_rect" : [ 115.0, 26.0, 392.0, 43.0 ],
+					"text" : "jcom.parameter position/xy @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag mise",
 					"varname" : "parameter"
 				}
 

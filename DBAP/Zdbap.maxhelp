@@ -2767,20 +2767,7 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"args" : [ "/Zdbap" ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "Zdbap.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 104.0, 450.0, 490.0 ],
-					"presentation_rect" : [ 45.0, 45.0, 450.0, 490.0 ]
-				}
 
-			}
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",

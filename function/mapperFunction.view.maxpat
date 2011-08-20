@@ -7,7 +7,7 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 764.0, 130.0, 634.0, 875.0 ],
+		"rect" : [ 6.0, 5.0, 600.0, 350.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 764.0, 130.0, 634.0, 875.0 ],
@@ -407,13 +407,13 @@
 ,
 					"patching_rect" : [ 377.0, 194.0, 76.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 9.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 9.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p range"
@@ -586,13 +586,13 @@
 ,
 									"patching_rect" : [ 50.0, 71.0, 42.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 9.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 9.0,
 										"fontname" : "Arial",
-										"globalpatchername" : ""
+										"default_fontsize" : 9.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 9.0
 									}
 ,
 									"text" : "p route"
@@ -749,13 +749,13 @@
 ,
 									"patching_rect" : [ 52.0, 168.0, 32.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 9.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 9.0,
 										"fontname" : "Arial",
-										"globalpatchername" : ""
+										"default_fontsize" : 9.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 9.0
 									}
 ,
 									"text" : "p set"
@@ -850,13 +850,13 @@
 ,
 					"patching_rect" : [ 299.0, 522.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 9.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 9.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -1156,13 +1156,13 @@
 ,
 					"patching_rect" : [ 164.0, 164.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 9.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 9.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p pos_slider"
@@ -1434,13 +1434,13 @@
 ,
 									"patching_rect" : [ 34.0, 149.0, 32.5, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 10.0,
 										"fontname" : "Arial",
-										"globalpatchername" : ""
+										"default_fontsize" : 10.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p"
@@ -1634,13 +1634,13 @@
 ,
 					"patching_rect" : [ 359.0, 93.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 9.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 9.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p update"
@@ -1667,7 +1667,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-13",
-					"items" : "<empty>",
+					"items" : [ "3", ",", "1", ",", "2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2046,13 +2046,13 @@
 ,
 									"patching_rect" : [ 15.0, 20.0, 57.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 9.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 9.0,
 										"fontname" : "Arial",
-										"globalpatchername" : ""
+										"default_fontsize" : 9.0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 9.0
 									}
 ,
 									"text" : "p nameInit"
@@ -2250,7 +2250,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "/function" ],
 									"patching_rect" : [ 116.0, 74.0, 54.0, 18.0 ],
 									"text" : "t #1"
 								}
@@ -2473,13 +2473,13 @@
 ,
 					"patching_rect" : [ 14.0, 541.0, 178.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p models"
@@ -2744,7 +2744,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 44.0, 390.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 24.0, 390.0, 25.0 ]
+					"presentation_rect" : [ 12.0, 24.0, 404.0, 25.0 ]
 				}
 
 			}
@@ -2976,13 +2976,13 @@
 									"ftm_scope" : 3,
 									"id" : "obj-54",
 									"maxclass" : "ftm.mess",
-									"numinlets" : 1,
+									"numinlets" : 4,
 									"numins" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 74.0, 142.0, 231.375946, 16.0 ],
 									"presentation_rect" : [ 74.0, 142.0, 231.375946, 16.0 ],
-									"text" : "_zoom_x $1 ($1 + $3), zoom_y  (1 - $4 - $2) (1 - $2)"
+									"text" : [ "_zoom_x $1 ($1 + $3), zoom_y  (1 - $4 - $2) (1 - $2)" ]
 								}
 
 							}
@@ -3232,13 +3232,13 @@
 ,
 					"patching_rect" : [ 24.0, 198.0, 55.597626, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
-						"globalpatchername" : ""
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p Zoooom"
@@ -3261,7 +3261,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "CreateNFunctions", 1, "_", 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "mousereport", 1 ], [ "nbfunction", 1 ], [ "mode", 1 ], [ "hiddenpoint", 0 ], [ "bordersync", 0 ], [ "movemode", 0 ], [ "clickmove", 1 ], [ "notifyrecalled", 0 ], [ "legend", 1 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "grid", 0 ], [ "clickadd", 1 ], [ "ghost", 20 ], [ "clicksustain", 1 ], [ "timedisplay", 0 ] ],
+					"embedstate" : [ [ "CreateNFunctions", 1, "_", -1.0, 1.0, 0, 10000.0 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "mode", 1 ], [ "nbfunction", 1 ], [ "hiddenpoint", 0 ], [ "bordersync", 0 ], [ "movemode", 0 ], [ "legend", 1 ], [ "clickmove", 1 ], [ "notifyrecalled", 0 ], [ "grid", 0 ], [ "snap2grid", 0 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "clickadd", 1 ], [ "ghost", 20 ], [ "clicksustain", 1 ], [ "autosustain", 0 ], [ "timedisplay", 0 ], [ "mousereport", 1 ] ],
 					"filename" : "ej.function.js",
 					"id" : "obj-12",
 					"jsarguments" : [  ],
@@ -3287,7 +3287,7 @@
 					"patching_rect" : [ 9.0, 15.0, 150.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 0.0, 600.0, 350.0 ],
-					"text" : "waiting for a /model/address"
+					"text" : "/function.2/func.6"
 				}
 
 			}

@@ -26,6 +26,20 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [  ],
+					"id" : "obj-4",
+					"maxclass" : "bpatcher",
+					"name" : "Zmodulation~.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 34.0, 112.0, 304.0, 75.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 300.0, 35.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-3",
@@ -35,20 +49,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 146.0, 269.0, 32.5, 16.0 ],
 					"text" : "init"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-4",
-					"maxclass" : "bpatcher",
-					"name" : "Zmodulation~.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.0, 111.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 15.0, 15.0, 300.0, 70.0 ]
 				}
 
 			}

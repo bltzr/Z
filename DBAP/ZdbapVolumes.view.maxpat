@@ -1,6 +1,12 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
 		"rect" : [ 15.0, 614.0, 300.0, 175.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
@@ -44,6 +50,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 453.0, 268.0, 237.0, 308.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 453.0, 268.0, 237.0, 308.0 ],
@@ -70,9 +82,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
-									"outlettype" : [ "gain : -inf dB" ],
-									"patching_rect" : [ 24.0, 147.0, 67.0, 27.0 ],
-									"text" : "t \"gain : -inf dB\""
+									"outlettype" : [ "master gain : -inf dB" ],
+									"patching_rect" : [ 24.0, 147.0, 72.0, 27.0 ],
+									"text" : "t \"master gain : -inf dB\""
 								}
 
 							}
@@ -331,13 +343,13 @@
 ,
 					"patching_rect" : [ 323.0, 89.5, 19.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 9.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -359,7 +371,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 173.0, 4.0, 125.0, 15.0 ],
 					"showvalue" : 0,
-					"text" : "master gain : -2.6 dB",
+					"text" : "master gain : 0.0 dB",
 					"textpos" : [ 10.0, 1.0 ]
 				}
 
@@ -388,6 +400,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 452.0, 685.0, 278.0, 287.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 452.0, 685.0, 278.0, 287.0 ],
@@ -413,7 +431,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.0, 220.0, 68.0, 18.0 ],
 									"text" : "jcom.srmuter"
 								}
@@ -737,13 +755,13 @@
 ,
 					"patching_rect" : [ 50.0, 307.0, 56.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p MultiOut"
@@ -761,6 +779,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 258.0, 780.0, 452.0, 246.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 258.0, 780.0, 452.0, 246.0 ],
@@ -1058,13 +1082,13 @@
 ,
 					"patching_rect" : [ 50.0, 93.0, 48.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p MultiIn"

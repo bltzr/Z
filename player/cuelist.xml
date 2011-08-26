@@ -23,24 +23,24 @@
 </preset>
   <preset address="/Zdbap" name="init">
    <!---->
-   <Data address="numSources" priority="1" value="6"/>
+   <Data address="numSources" value="6" priority="1"/>
    <Data address="rolloff" priority="2"/>
    <Data address="gain" priority="3"/>
-   <Data address="numSpeakers" priority="5" value="4"/>
+   <Data address="numSpeakers" value="4" priority="5"/>
   </preset>
   <preset address="/cueManager" name="init">
    <!---->
    <Data address="autofollow/time" priority="1"/>
    <Data address="autofollow/active" priority="2"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="addresses" priority="3" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager"/>
+   <Data address="addresses" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager" priority="3"/>
    <Data address="filter/adresses/mode" priority="4"/>
-   <Data address="filter/adresses" priority="5" value="none"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
    <Data address="filter/keys/mode" priority="6"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="1"/>
-   <Data address="filter/tags" priority="9" value="setup"/>
-   <Data address="ramp/time" priority="0" value="0.000000"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="1" priority="8"/>
+   <Data address="filter/tags" value="setup" priority="9"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
    <Data address="model/mute" priority="0"/>
    <Data address="ramp/active" priority="0"/>
    <Data address="addresses/ramp" priority="0"/>
@@ -116,16 +116,16 @@
    <Data address="source.5/trajectory/mode" priority="1"/>
    <Data address="source.2/trajectory/mode" priority="1"/>
    <Data address="source.1/trajectory/mode" priority="1"/>
-   <Data address="speaker.3/position/xy" priority="4" value="-0.992703 -0.983617"/>
-   <Data address="speaker.1/position/xy" priority="4" value="-1.001790 0.974530"/>
-   <Data address="speaker.4/position/xy" priority="4" value="0.988160 -0.992703"/>
-   <Data address="speaker.2/position/xy" priority="4" value="0.988160 1.001790"/>
-   <Data address="source.2/position/xy" priority="5" value="0.097680 0.456598"/>
-   <Data address="source.4/position/xy" priority="5" value="0.165829 -0.306670"/>
-   <Data address="source.5/position/xy" priority="5" value="-0.170372 -0.320300"/>
-   <Data address="source.6/position/xy" priority="5" value="-0.492944 -0.097680"/>
-   <Data address="source.3/position/xy" priority="5" value="0.529290 -0.179459"/>
-   <Data address="source.1/position/xy" priority="5" value="-0.361190 0.420252"/>
+   <Data address="speaker.3/position/xy" value="-0.992703 -0.983617" priority="4"/>
+   <Data address="speaker.1/position/xy" value="-1.001790 0.974530" priority="4"/>
+   <Data address="speaker.4/position/xy" value="0.988160 -0.992703" priority="4"/>
+   <Data address="speaker.2/position/xy" value="0.988160 1.001790" priority="4"/>
+   <Data address="source.2/position/xy" value="0.097680 0.456598" priority="5"/>
+   <Data address="source.4/position/xy" value="0.165829 -0.306670" priority="5"/>
+   <Data address="source.5/position/xy" value="-0.170372 -0.320300" priority="5"/>
+   <Data address="source.6/position/xy" value="-0.492944 -0.097680" priority="5"/>
+   <Data address="source.3/position/xy" value="0.529290 -0.179459" priority="5"/>
+   <Data address="source.1/position/xy" value="-0.361190 0.420252" priority="5"/>
    <Data address="source.6/trajectory/file" priority="7"/>
    <Data address="source.5/trajectory/file" priority="7"/>
    <Data address="source.1/trajectory/file" priority="7"/>
@@ -169,43 +169,43 @@
    <Data address="source.1/trajectory/direction" priority="25"/>
    <Data address="source.4/trajectory/direction" priority="25"/>
    <Data address="source.6/blur" priority="0"/>
-   <Data address="source.1/volume" priority="0" value="0.496689"/>
-   <Data address="source.3/volume" priority="0" value="0.483444"/>
-   <Data address="source.5/color" priority="0" value="0.250118 0.282867 0.884634 1.000000 1.000000"/>
-   <Data address="source.1/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.1/volume" value="0.496689" priority="0"/>
+   <Data address="source.3/volume" value="0.483444" priority="0"/>
+   <Data address="source.5/color" value="0.250118 0.282867 0.884634 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="source.5/blur" priority="0"/>
-   <Data address="source.1/color" priority="0" value="0.992908 0.000000 0.000000 1.000000 1.000000"/>
-   <Data address="source.4/volume" priority="0" value="0.503311"/>
-   <Data address="source.4/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.6/volume" priority="0" value="0.509934"/>
-   <Data address="source.4/color" priority="0" value="0.245029 0.889723 0.827333 1.000000 1.000000"/>
-   <Data address="source.5/volume" priority="0" value="0.509934"/>
+   <Data address="source.1/color" value="0.992908 0.000000 0.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.4/volume" value="0.503311" priority="0"/>
+   <Data address="source.4/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.6/volume" value="0.509934" priority="0"/>
+   <Data address="source.4/color" value="0.245029 0.889723 0.827333 1.000000 1.000000" priority="0"/>
+   <Data address="source.5/volume" value="0.509934" priority="0"/>
    <Data address="source.4/blur" priority="0"/>
-   <Data address="source.3/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.3/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="source.3/blur" priority="0"/>
    <Data address="source.2/blur" priority="0"/>
-   <Data address="source.5/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.5/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="source.1/blur" priority="0"/>
-   <Data address="source.6/color" priority="0" value="0.874844 0.274093 0.867092 1.000000 1.000000"/>
-   <Data address="source.2/volume" priority="0" value="0.483444"/>
-   <Data address="source.2/color" priority="0" value="0.973717 0.962865 0.132666 1.000000 1.000000"/>
-   <Data address="source.3/color" priority="0" value="0.252399 0.896537 0.285645 1.000000 1.000000"/>
-   <Data address="source.2/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.6/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.6/color" value="0.874844 0.274093 0.867092 1.000000 1.000000" priority="0"/>
+   <Data address="source.2/volume" value="0.483444" priority="0"/>
+   <Data address="source.2/color" value="0.973717 0.962865 0.132666 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/color" value="0.252399 0.896537 0.285645 1.000000 1.000000" priority="0"/>
+   <Data address="source.2/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.6/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
   </preset>
   <preset address="/cueManager" name="mise">
    <!---->
    <Data address="autofollow/time" priority="1"/>
    <Data address="autofollow/active" priority="2"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="addresses" priority="3" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager"/>
+   <Data address="addresses" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager" priority="3"/>
    <Data address="filter/adresses/mode" priority="4"/>
-   <Data address="filter/adresses" priority="5" value="none"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
    <Data address="filter/keys/mode" priority="6"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="0"/>
-   <Data address="filter/tags" priority="9" value="setup"/>
-   <Data address="ramp/time" priority="0" value="0.000000"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="0" priority="8"/>
+   <Data address="filter/tags" value="setup" priority="9"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
    <Data address="model/mute" priority="0"/>
    <Data address="ramp/active" priority="0"/>
    <Data address="addresses/ramp" priority="0"/>
@@ -263,120 +263,120 @@
   </preset>
   <preset address="/player.4" name="Cue_2">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="-4.552323"/>
-   <Data address="sound" priority="2" value="G-cla_harm_frag04"/>
-   <Data address="grain/position" priority="5" value="300.172028"/>
-   <Data address="density" priority="5" value="1.000000"/>
-   <Data address="transposition" priority="5" value="1.200000"/>
-   <Data address="grain/duration" priority="5" value="516.540283"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="-4.552323" priority="2"/>
+   <Data address="sound" value="G-cla_harm_frag04" priority="2"/>
+   <Data address="grain/position" value="300.172028" priority="5"/>
+   <Data address="density" value="1.000000" priority="5"/>
+   <Data address="transposition" value="1.200000" priority="5"/>
+   <Data address="grain/duration" value="516.540283" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/duration/variation" priority="7" value="663.372498"/>
-   <Data address="transposition/variation" priority="7" value="0.240000"/>
+   <Data address="grain/duration/variation" value="663.372498" priority="7"/>
+   <Data address="transposition/variation" value="0.240000" priority="7"/>
    <Data address="grain/position/variation" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="reverse" priority="7" value="100.000000"/>
+   <Data address="reverse" value="100.000000" priority="7"/>
    <Data address="gain/variation" priority="9"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="interp" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.540000"/>
+   <Data address="density/variation" value="0.540000" priority="0"/>
    <Data address="speedlim" priority="0"/>
   </preset>
   <preset address="/player.3" name="Cue_2">
    <!---->
-   <Data address="corpus" priority="1" value="radio"/>
-   <Data address="gain" priority="2" value="-2.995599"/>
-   <Data address="sound" priority="2" value="ER-fragts02.aif"/>
-   <Data address="grain/position" priority="5" value="1409.308594"/>
-   <Data address="density" priority="5" value="0.500000"/>
-   <Data address="transposition" priority="5" value="0.000000"/>
-   <Data address="grain/duration" priority="5" value="1540.172852"/>
+   <Data address="corpus" value="radio" priority="1"/>
+   <Data address="gain" value="-2.995599" priority="2"/>
+   <Data address="sound" value="ER-fragts02.aif" priority="2"/>
+   <Data address="grain/position" value="1409.308594" priority="5"/>
+   <Data address="density" value="0.500000" priority="5"/>
+   <Data address="transposition" value="0.000000" priority="5"/>
+   <Data address="grain/duration" value="1540.172852" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
-   <Data address="release" priority="6" value="200"/>
-   <Data address="grain/duration/variation" priority="7" value="0.000000"/>
-   <Data address="transposition/variation" priority="7" value="0.000000"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
+   <Data address="release" value="200" priority="6"/>
+   <Data address="grain/duration/variation" value="0.000000" priority="7"/>
+   <Data address="transposition/variation" value="0.000000" priority="7"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="reverse" priority="7" value="100.000000"/>
-   <Data address="gain/variation" priority="9" value="4.000000"/>
-   <Data address="playmode" priority="20" value="autoplay"/>
+   <Data address="reverse" value="100.000000" priority="7"/>
+   <Data address="gain/variation" value="4.000000" priority="9"/>
+   <Data address="playmode" value="autoplay" priority="20"/>
    <Data address="interp" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.190000"/>
+   <Data address="density/variation" value="0.190000" priority="0"/>
    <Data address="speedlim" priority="0"/>
   </preset>
   <preset address="/player.2" name="Cue_2">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="4.212716"/>
-   <Data address="sound" priority="2" value="G-cla_harm_frag06"/>
-   <Data address="grain/position" priority="5" value="506.000031"/>
-   <Data address="density" priority="5" value="2.000000"/>
-   <Data address="transposition" priority="5" value="24.000000"/>
-   <Data address="grain/duration" priority="5" value="1267.333496"/>
-   <Data address="window" priority="6" value="trzoid"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="4.212716" priority="2"/>
+   <Data address="sound" value="G-cla_harm_frag06" priority="2"/>
+   <Data address="grain/position" value="506.000031" priority="5"/>
+   <Data address="density" value="2.000000" priority="5"/>
+   <Data address="transposition" value="24.000000" priority="5"/>
+   <Data address="grain/duration" value="1267.333496" priority="5"/>
+   <Data address="window" value="trzoid" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/duration/variation" priority="7" value="0.000000"/>
+   <Data address="grain/duration/variation" value="0.000000" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="reverse" priority="7" value="57.943924"/>
-   <Data address="gain/variation" priority="9" value="5.000000"/>
-   <Data address="playmode" priority="20" value="loop"/>
+   <Data address="reverse" value="57.943924" priority="7"/>
+   <Data address="gain/variation" value="5.000000" priority="9"/>
+   <Data address="playmode" value="loop" priority="20"/>
    <Data address="interp" priority="0"/>
    <Data address="density/variation" priority="0"/>
    <Data address="speedlim" priority="0"/>
   </preset>
   <preset address="/player.1" name="Cue_2">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="-15.540355"/>
-   <Data address="sound" priority="2" value="P-acco01"/>
-   <Data address="grain/position" priority="5" value="485.966125"/>
-   <Data address="density" priority="5" value="4.000000"/>
-   <Data address="transposition" priority="5" value="-3.480000"/>
-   <Data address="grain/duration" priority="5" value="434.256165"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="-15.540355" priority="2"/>
+   <Data address="sound" value="P-acco01" priority="2"/>
+   <Data address="grain/position" value="485.966125" priority="5"/>
+   <Data address="density" value="4.000000" priority="5"/>
+   <Data address="transposition" value="-3.480000" priority="5"/>
+   <Data address="grain/duration" value="434.256165" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/duration/variation" priority="7" value="221.746307"/>
+   <Data address="grain/duration/variation" value="221.746307" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="reverse" priority="7" value="0.000000"/>
-   <Data address="gain/variation" priority="9" value="16.000000"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="reverse" value="0.000000" priority="7"/>
+   <Data address="gain/variation" value="16.000000" priority="9"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="interp" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.340000"/>
+   <Data address="density/variation" value="0.340000" priority="0"/>
    <Data address="speedlim" priority="0"/>
   </preset>
   <preset address="/Zdbap" name="Cue_2">
    <!---->
    <Data address="source.4/trajectory/mode" priority="1"/>
-   <Data address="numSources" priority="1" value="6"/>
+   <Data address="numSources" value="6" priority="1"/>
    <Data address="source.5/trajectory/mode" priority="1"/>
    <Data address="source.6/trajectory/mode" priority="1"/>
    <Data address="source.3/trajectory/mode" priority="1"/>
    <Data address="rolloff" priority="2"/>
-   <Data address="gain" priority="3" value="0.373984"/>
-   <Data address="speaker.3/position/xy" priority="4" value="-0.992703 -0.983617"/>
-   <Data address="speaker.1/position/xy" priority="4" value="-1.001790 0.974530"/>
-   <Data address="speaker.2/position/xy" priority="4" value="0.988160 1.001790"/>
-   <Data address="speaker.4/position/xy" priority="4" value="0.988160 -0.992703"/>
-   <Data address="source.1/position/xy" priority="5" value="-0.170250 -0.930963"/>
-   <Data address="source.6/position/xy" priority="5" value="-0.492944 -0.097680"/>
-   <Data address="source.4/position/xy" priority="5" value="0.165829 -0.306670"/>
-   <Data address="source.3/position/xy" priority="5" value="0.529290 -0.179459"/>
-   <Data address="source.5/position/xy" priority="5" value="-0.170372 -0.320300"/>
-   <Data address="numSpeakers" priority="5" value="4"/>
-   <Data address="source.2/position/xy" priority="5" value="-0.165574 0.942417"/>
+   <Data address="gain" value="0.373984" priority="3"/>
+   <Data address="speaker.3/position/xy" value="-0.992703 -0.983617" priority="4"/>
+   <Data address="speaker.1/position/xy" value="-1.001790 0.974530" priority="4"/>
+   <Data address="speaker.2/position/xy" value="0.988160 1.001790" priority="4"/>
+   <Data address="speaker.4/position/xy" value="0.988160 -0.992703" priority="4"/>
+   <Data address="source.1/position/xy" value="-0.170250 -0.930963" priority="5"/>
+   <Data address="source.6/position/xy" value="-0.492944 -0.097680" priority="5"/>
+   <Data address="source.4/position/xy" value="0.165829 -0.306670" priority="5"/>
+   <Data address="source.3/position/xy" value="0.529290 -0.179459" priority="5"/>
+   <Data address="source.5/position/xy" value="-0.170372 -0.320300" priority="5"/>
+   <Data address="numSpeakers" value="4" priority="5"/>
+   <Data address="source.2/position/xy" value="-0.165574 0.942417" priority="5"/>
    <Data address="source.1/trajectory/file" priority="7"/>
    <Data address="source.3/trajectory/file" priority="7"/>
    <Data address="source.2/trajectory/file" priority="7"/>
@@ -385,24 +385,24 @@
    <Data address="source.4/trajectory/file" priority="7"/>
    <Data address="source.5/area/xy" priority="20"/>
    <Data address="source.4/area/xy" priority="20"/>
-   <Data address="source.2/area/xy" priority="20" value="0.029531 0.910925"/>
+   <Data address="source.2/area/xy" value="0.029531 0.910925" priority="20"/>
    <Data address="source.6/area/xy" priority="20"/>
-   <Data address="source.1/area/xy" priority="20" value="-0.002272 -0.711021"/>
+   <Data address="source.1/area/xy" value="-0.002272 -0.711021" priority="20"/>
    <Data address="source.3/area/xy" priority="20"/>
-   <Data address="source.1/area/size/xy" priority="21" value="0.431610 0.290769"/>
+   <Data address="source.1/area/size/xy" value="0.431610 0.290769" priority="21"/>
    <Data address="source.4/area/size/xy" priority="21"/>
    <Data address="source.6/area/size/xy" priority="21"/>
    <Data address="source.5/area/size/xy" priority="21"/>
-   <Data address="source.2/area/size/xy" priority="21" value="1.008605 0.059062"/>
+   <Data address="source.2/area/size/xy" value="1.008605 0.059062" priority="21"/>
    <Data address="source.3/area/size/xy" priority="21"/>
    <Data address="source.2/trajectory/speed" priority="22"/>
    <Data address="source.3/trajectory/speed" priority="22"/>
    <Data address="source.5/trajectory/speed" priority="22"/>
    <Data address="source.6/trajectory/speed" priority="22"/>
    <Data address="source.4/trajectory/speed" priority="22"/>
-   <Data address="source.1/trajectory/speed" priority="22" value="1.321429"/>
+   <Data address="source.1/trajectory/speed" value="1.321429" priority="22"/>
    <Data address="source.4/trajectory/speed/variation" priority="23"/>
-   <Data address="source.1/trajectory/speed/variation" priority="23" value="0.483871"/>
+   <Data address="source.1/trajectory/speed/variation" value="0.483871" priority="23"/>
    <Data address="source.3/trajectory/speed/variation" priority="23"/>
    <Data address="source.5/trajectory/speed/variation" priority="23"/>
    <Data address="source.6/trajectory/speed/variation" priority="23"/>
@@ -419,49 +419,49 @@
    <Data address="source.2/trajectory/direction" priority="25"/>
    <Data address="source.5/trajectory/direction" priority="25"/>
    <Data address="source.3/trajectory/direction" priority="25"/>
-   <Data address="source.1/trajectory/mode" priority="30" value="4 - indecis"/>
-   <Data address="source.2/trajectory/mode" priority="30" value="2 - sauts+agitations"/>
-   <Data address="source.2/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.3/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.4/volume" priority="0" value="0.503311" ramp="global"/>
-   <Data address="source.1/volume" priority="0" value="0.496689" ramp="global"/>
-   <Data address="source.2/color" priority="0" value="0.973717 0.962865 0.132666 1.000000 1.000000"/>
-   <Data address="source.4/color" priority="0" value="0.245029 0.889723 0.827333 1.000000 1.000000"/>
+   <Data address="source.1/trajectory/mode" value="4 - indecis" priority="30"/>
+   <Data address="source.2/trajectory/mode" value="2 - sauts+agitations" priority="30"/>
+   <Data address="source.2/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.4/volume" value="0.503311" priority="0" ramp="global"/>
+   <Data address="source.1/volume" value="0.496689" priority="0" ramp="global"/>
+   <Data address="source.2/color" value="0.973717 0.962865 0.132666 1.000000 1.000000" priority="0"/>
+   <Data address="source.4/color" value="0.245029 0.889723 0.827333 1.000000 1.000000" priority="0"/>
    <Data address="source.4/blur" priority="0"/>
-   <Data address="source.5/volume" priority="0" value="0.509934"/>
-   <Data address="source.6/color" priority="0" value="0.874844 0.274093 0.867092 1.000000 1.000000"/>
-   <Data address="source.3/color" priority="0" value="0.252399 0.896537 0.285645 1.000000 1.000000"/>
+   <Data address="source.5/volume" value="0.509934" priority="0"/>
+   <Data address="source.6/color" value="0.874844 0.274093 0.867092 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/color" value="0.252399 0.896537 0.285645 1.000000 1.000000" priority="0"/>
    <Data address="source.1/blur" priority="0"/>
-   <Data address="source.3/volume" priority="0" value="0.483444"/>
-   <Data address="source.4/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.5/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.6/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.1/color" priority="0" value="0.992908 0.000000 0.000000 1.000000 1.000000"/>
-   <Data address="source.6/volume" priority="0" value="0.509934"/>
-   <Data address="source.1/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.3/volume" value="0.483444" priority="0"/>
+   <Data address="source.4/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.5/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.6/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/color" value="0.992908 0.000000 0.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.6/volume" value="0.509934" priority="0"/>
+   <Data address="source.1/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="source.2/blur" priority="0"/>
    <Data address="source.6/blur" priority="0"/>
    <Data address="source.5/blur" priority="0"/>
-   <Data address="source.2/volume" priority="0" value="0.483444"/>
+   <Data address="source.2/volume" value="0.483444" priority="0"/>
    <Data address="source.3/blur" priority="0"/>
-   <Data address="source.5/color" priority="0" value="0.250118 0.282867 0.884634 1.000000 1.000000"/>
+   <Data address="source.5/color" value="0.250118 0.282867 0.884634 1.000000 1.000000" priority="0"/>
   </preset>
   <preset address="/cueManager" name="Cue_2">
    <!---->
-   <Data address="autofollow/time" priority="1" value="1.000000"/>
-   <Data address="autofollow/active" priority="2" value="0"/>
+   <Data address="autofollow/time" value="1.000000" priority="1"/>
+   <Data address="autofollow/active" value="0" priority="2"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="addresses" priority="3" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager"/>
-   <Data address="filter/adresses/mode" priority="4" value="0"/>
-   <Data address="filter/adresses" priority="5" value="none"/>
-   <Data address="filter/keys/mode" priority="6" value="0"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="0"/>
-   <Data address="filter/tags" priority="9" value="none"/>
-   <Data address="ramp/active" priority="0" value="1"/>
-   <Data address="addresses/ramp" priority="0" value="/Zdbap/source.1/volume /Zdbap/source.4/volume"/>
+   <Data address="addresses" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" value="0" priority="4"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
+   <Data address="filter/keys/mode" value="0" priority="6"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="0" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
+   <Data address="ramp/active" value="1" priority="0"/>
+   <Data address="addresses/ramp" value="/Zdbap/source.1/volume /Zdbap/source.4/volume" priority="0"/>
    <Data address="model/mute" priority="0"/>
-   <Data address="ramp/time" priority="0" value="0.000000"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
   </preset>
  </cue>
  <cue number="4" name="Cue_3" ramp="0">
@@ -516,120 +516,120 @@
   </preset>
   <preset address="/player.4" name="Cue_3">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="9.292015"/>
-   <Data address="sound" priority="2" value="G-cla_harm_frag04"/>
-   <Data address="grain/duration" priority="5" value="619.104858"/>
-   <Data address="transposition" priority="5" value="12.000000"/>
-   <Data address="grain/position" priority="5" value="253.270157"/>
-   <Data address="density" priority="5" value="0.710000"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="9.292015" priority="2"/>
+   <Data address="sound" value="G-cla_harm_frag04" priority="2"/>
+   <Data address="grain/duration" value="619.104858" priority="5"/>
+   <Data address="transposition" value="12.000000" priority="5"/>
+   <Data address="grain/position" value="253.270157" priority="5"/>
+   <Data address="density" value="0.710000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
    <Data address="grain/position/variation" priority="7"/>
-   <Data address="grain/duration/variation" priority="7" value="663.372498"/>
-   <Data address="reverse" priority="7" value="45.794399"/>
+   <Data address="grain/duration/variation" value="663.372498" priority="7"/>
+   <Data address="reverse" value="45.794399" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="transposition/variation" priority="7" value="0.240000"/>
+   <Data address="transposition/variation" value="0.240000" priority="7"/>
    <Data address="gain/variation" priority="9"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.540000"/>
+   <Data address="density/variation" value="0.540000" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/player.3" name="Cue_3">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="5.778800"/>
-   <Data address="sound" priority="2" value="P-acco04"/>
-   <Data address="grain/duration" priority="5" value="3484.882324"/>
-   <Data address="transposition" priority="5" value="0.000000"/>
-   <Data address="grain/position" priority="5" value="840.326233"/>
-   <Data address="density" priority="5" value="4.000000"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="5.778800" priority="2"/>
+   <Data address="sound" value="P-acco04" priority="2"/>
+   <Data address="grain/duration" value="3484.882324" priority="5"/>
+   <Data address="transposition" value="0.000000" priority="5"/>
+   <Data address="grain/position" value="840.326233" priority="5"/>
+   <Data address="density" value="4.000000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
-   <Data address="grain/duration/variation" priority="7" value="576.841003"/>
-   <Data address="reverse" priority="7" value="44.859825"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
+   <Data address="grain/duration/variation" value="576.841003" priority="7"/>
+   <Data address="reverse" value="44.859825" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="transposition/variation" priority="7" value="0.000000"/>
-   <Data address="gain/variation" priority="9" value="4.000000"/>
-   <Data address="playmode" priority="20" value="loop"/>
+   <Data address="transposition/variation" value="0.000000" priority="7"/>
+   <Data address="gain/variation" value="4.000000" priority="9"/>
+   <Data address="playmode" value="loop" priority="20"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.190000"/>
+   <Data address="density/variation" value="0.190000" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/player.2" name="Cue_3">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="11.146765"/>
-   <Data address="sound" priority="2" value="G-cla_harm_frag06"/>
-   <Data address="grain/duration" priority="5" value="454.785339"/>
-   <Data address="transposition" priority="5" value="24.000000"/>
-   <Data address="grain/position" priority="5" value="843.333374"/>
-   <Data address="density" priority="5" value="2.000000"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="11.146765" priority="2"/>
+   <Data address="sound" value="G-cla_harm_frag06" priority="2"/>
+   <Data address="grain/duration" value="454.785339" priority="5"/>
+   <Data address="transposition" value="24.000000" priority="5"/>
+   <Data address="grain/position" value="843.333374" priority="5"/>
+   <Data address="density" value="2.000000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
-   <Data address="grain/duration/variation" priority="7" value="3593.881348"/>
-   <Data address="reverse" priority="7" value="57.943924"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
+   <Data address="grain/duration/variation" value="3593.881348" priority="7"/>
+   <Data address="reverse" value="57.943924" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="gain/variation" priority="9" value="0.000000"/>
-   <Data address="playmode" priority="20" value="loop"/>
+   <Data address="gain/variation" value="0.000000" priority="9"/>
+   <Data address="playmode" value="loop" priority="20"/>
    <Data address="speedlim" priority="0"/>
    <Data address="density/variation" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/player.1" name="Cue_3">
    <!---->
-   <Data address="corpus" priority="1" value="vox"/>
-   <Data address="gain" priority="2" value="-8.159386"/>
-   <Data address="sound" priority="2" value="G-vtr_nevesaf"/>
-   <Data address="grain/duration" priority="5" value="160.900269"/>
-   <Data address="transposition" priority="5" value="-5.280000"/>
-   <Data address="grain/position" priority="5" value="635.610229"/>
-   <Data address="density" priority="5" value="4.000000"/>
+   <Data address="corpus" value="vox" priority="1"/>
+   <Data address="gain" value="-8.159386" priority="2"/>
+   <Data address="sound" value="G-vtr_nevesaf" priority="2"/>
+   <Data address="grain/duration" value="160.900269" priority="5"/>
+   <Data address="transposition" value="-5.280000" priority="5"/>
+   <Data address="grain/position" value="635.610229" priority="5"/>
+   <Data address="density" value="4.000000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
-   <Data address="grain/duration/variation" priority="7" value="166.309769"/>
-   <Data address="reverse" priority="7" value="0.000000"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
+   <Data address="grain/duration/variation" value="166.309769" priority="7"/>
+   <Data address="reverse" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="gain/variation" priority="9" value="0.000000"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="gain/variation" value="0.000000" priority="9"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="2.300000"/>
+   <Data address="density/variation" value="2.300000" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/Zdbap" name="Cue_3">
    <!---->
    <Data address="source.3/trajectory/mode" priority="1"/>
-   <Data address="numSources" priority="1" value="6"/>
+   <Data address="numSources" value="6" priority="1"/>
    <Data address="source.4/trajectory/mode" priority="1"/>
    <Data address="source.5/trajectory/mode" priority="1"/>
    <Data address="source.6/trajectory/mode" priority="1"/>
    <Data address="rolloff" priority="2"/>
    <Data address="gain" priority="3"/>
-   <Data address="speaker.4/position/xy" priority="4" value="0.988160 -0.992703"/>
-   <Data address="speaker.1/position/xy" priority="4" value="-1.001790 0.974530"/>
-   <Data address="speaker.3/position/xy" priority="4" value="-0.992703 -0.983617"/>
-   <Data address="speaker.2/position/xy" priority="4" value="0.988160 1.001790"/>
-   <Data address="source.6/position/xy" priority="5" value="-0.492944 -0.097680"/>
-   <Data address="numSpeakers" priority="5" value="4"/>
-   <Data address="source.4/position/xy" priority="5" value="0.165829 -0.306670"/>
-   <Data address="source.1/position/xy" priority="5" value="0.317034 -0.530639"/>
-   <Data address="source.3/position/xy" priority="5" value="0.529290 -0.179459"/>
-   <Data address="source.2/position/xy" priority="5" value="0.126612 -1.517649"/>
-   <Data address="source.5/position/xy" priority="5" value="-0.170372 -0.320300"/>
+   <Data address="speaker.4/position/xy" value="0.988160 -0.992703" priority="4"/>
+   <Data address="speaker.1/position/xy" value="-1.001790 0.974530" priority="4"/>
+   <Data address="speaker.3/position/xy" value="-0.992703 -0.983617" priority="4"/>
+   <Data address="speaker.2/position/xy" value="0.988160 1.001790" priority="4"/>
+   <Data address="source.6/position/xy" value="-0.492944 -0.097680" priority="5"/>
+   <Data address="numSpeakers" value="4" priority="5"/>
+   <Data address="source.4/position/xy" value="0.165829 -0.306670" priority="5"/>
+   <Data address="source.1/position/xy" value="0.317034 -0.530639" priority="5"/>
+   <Data address="source.3/position/xy" value="0.529290 -0.179459" priority="5"/>
+   <Data address="source.2/position/xy" value="0.126612 -1.517649" priority="5"/>
+   <Data address="source.5/position/xy" value="-0.170372 -0.320300" priority="5"/>
    <Data address="source.5/trajectory/file" priority="7"/>
    <Data address="source.6/trajectory/file" priority="7"/>
    <Data address="source.2/trajectory/file" priority="7"/>
@@ -638,28 +638,28 @@
    <Data address="source.4/trajectory/file" priority="7"/>
    <Data address="source.5/area/xy" priority="20"/>
    <Data address="source.4/area/xy" priority="20"/>
-   <Data address="source.2/area/xy" priority="20" value="0.047704 -0.865492"/>
+   <Data address="source.2/area/xy" value="0.047704 -0.865492" priority="20"/>
    <Data address="source.6/area/xy" priority="20"/>
-   <Data address="source.1/area/xy" priority="20" value="0.020445 0.070421"/>
+   <Data address="source.1/area/xy" value="0.020445 0.070421" priority="20"/>
    <Data address="source.3/area/xy" priority="20"/>
    <Data address="source.5/area/size/xy" priority="21"/>
-   <Data address="source.2/area/size/xy" priority="21" value="0.985889 0.840504"/>
+   <Data address="source.2/area/size/xy" value="0.985889 0.840504" priority="21"/>
    <Data address="source.3/area/size/xy" priority="21"/>
    <Data address="source.4/area/size/xy" priority="21"/>
-   <Data address="source.1/area/size/xy" priority="21" value="0.881393 0.790528"/>
+   <Data address="source.1/area/size/xy" value="0.881393 0.790528" priority="21"/>
    <Data address="source.6/area/size/xy" priority="21"/>
    <Data address="source.3/trajectory/speed" priority="22"/>
    <Data address="source.5/trajectory/speed" priority="22"/>
    <Data address="source.6/trajectory/speed" priority="22"/>
    <Data address="source.4/trajectory/speed" priority="22"/>
    <Data address="source.2/trajectory/speed" priority="22"/>
-   <Data address="source.1/trajectory/speed" priority="22" value="1.321429"/>
+   <Data address="source.1/trajectory/speed" value="1.321429" priority="22"/>
    <Data address="source.3/trajectory/speed/variation" priority="23"/>
    <Data address="source.5/trajectory/speed/variation" priority="23"/>
    <Data address="source.6/trajectory/speed/variation" priority="23"/>
    <Data address="source.2/trajectory/speed/variation" priority="23"/>
    <Data address="source.4/trajectory/speed/variation" priority="23"/>
-   <Data address="source.1/trajectory/speed/variation" priority="23" value="0.483871"/>
+   <Data address="source.1/trajectory/speed/variation" value="0.483871" priority="23"/>
    <Data address="source.4/trajectory/grain" priority="24"/>
    <Data address="source.6/trajectory/grain" priority="24"/>
    <Data address="source.2/trajectory/grain" priority="24"/>
@@ -672,49 +672,49 @@
    <Data address="source.5/trajectory/direction" priority="25"/>
    <Data address="source.3/trajectory/direction" priority="25"/>
    <Data address="source.6/trajectory/direction" priority="25"/>
-   <Data address="source.1/trajectory/mode" priority="30" value="7 - brown"/>
-   <Data address="source.2/trajectory/mode" priority="30" value="2 - sauts+agitations"/>
-   <Data address="source.4/color" priority="0" value="0.245029 0.889723 0.827333 1.000000 1.000000"/>
+   <Data address="source.1/trajectory/mode" value="7 - brown" priority="30"/>
+   <Data address="source.2/trajectory/mode" value="2 - sauts+agitations" priority="30"/>
+   <Data address="source.4/color" value="0.245029 0.889723 0.827333 1.000000 1.000000" priority="0"/>
    <Data address="source.4/blur" priority="0"/>
-   <Data address="source.5/volume" priority="0" value="0.509934"/>
-   <Data address="source.6/color" priority="0" value="0.874844 0.274093 0.867092 1.000000 1.000000"/>
-   <Data address="source.2/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.1/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.3/color" priority="0" value="0.252399 0.896537 0.285645 1.000000 1.000000"/>
-   <Data address="source.3/volume" priority="0" value="0.483444"/>
-   <Data address="source.6/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.4/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.5/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.6/volume" priority="0" value="0.509934"/>
+   <Data address="source.5/volume" value="0.509934" priority="0"/>
+   <Data address="source.6/color" value="0.874844 0.274093 0.867092 1.000000 1.000000" priority="0"/>
+   <Data address="source.2/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/color" value="0.252399 0.896537 0.285645 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/volume" value="0.483444" priority="0"/>
+   <Data address="source.6/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.4/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.5/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.6/volume" value="0.509934" priority="0"/>
    <Data address="source.2/blur" priority="0"/>
    <Data address="source.6/blur" priority="0"/>
    <Data address="source.5/blur" priority="0"/>
-   <Data address="source.2/volume" priority="0" value="0.357616"/>
+   <Data address="source.2/volume" value="0.357616" priority="0"/>
    <Data address="source.3/blur" priority="0"/>
-   <Data address="source.5/color" priority="0" value="0.250118 0.282867 0.884634 1.000000 1.000000"/>
-   <Data address="source.1/volume" priority="0" value="0.000000"/>
+   <Data address="source.5/color" value="0.250118 0.282867 0.884634 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/volume" value="0.000000" priority="0"/>
    <Data address="source.1/blur" priority="0"/>
-   <Data address="source.3/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.1/color" priority="0" value="0.992908 0.000000 0.000000 1.000000 1.000000"/>
-   <Data address="source.4/volume" priority="0" ramp="global" value="0.000000"/>
-   <Data address="source.2/color" priority="0" value="0.973717 0.962865 0.132666 1.000000 1.000000"/>
+   <Data address="source.3/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/color" value="0.992908 0.000000 0.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.4/volume" value="0.000000" priority="0" ramp="global"/>
+   <Data address="source.2/color" value="0.973717 0.962865 0.132666 1.000000 1.000000" priority="0"/>
   </preset>
   <preset address="/cueManager" name="Cue_3">
    <!---->
-   <Data address="autofollow/time" priority="1" value="0.000000"/>
-   <Data address="autofollow/active" priority="2" value="1"/>
+   <Data address="autofollow/time" value="0.000000" priority="1"/>
+   <Data address="autofollow/active" value="1" priority="2"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="addresses" priority="3" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager"/>
-   <Data address="filter/adresses/mode" priority="4" value="1"/>
-   <Data address="filter/adresses" priority="5" value="none"/>
+   <Data address="addresses" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" value="1" priority="4"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
    <Data address="filter/keys/mode" priority="6"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="0"/>
-   <Data address="filter/tags" priority="9" value="none"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="0" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
    <Data address="model/mute" priority="0"/>
-   <Data address="addresses/ramp" priority="0" value="/Zdbap/source.4/volume"/>
-   <Data address="ramp/time" priority="0" value="0.000000"/>
-   <Data address="ramp/active" priority="0" value="0"/>
+   <Data address="addresses/ramp" value="/Zdbap/source.4/volume" priority="0"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
+   <Data address="ramp/active" value="0" priority="0"/>
   </preset>
  </cue>
  <cue number="5" name="ramp" ramp="8000">
@@ -769,120 +769,120 @@
   </preset>
   <preset address="/player.4" name="ramp">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="9.292015"/>
-   <Data address="sound" priority="2" value="G-cla_harm_frag04"/>
-   <Data address="grain/duration" priority="5" value="619.104858"/>
-   <Data address="transposition" priority="5" value="12.000000"/>
-   <Data address="grain/position" priority="5" value="253.270157"/>
-   <Data address="density" priority="5" value="0.710000"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="9.292015" priority="2"/>
+   <Data address="sound" value="G-cla_harm_frag04" priority="2"/>
+   <Data address="grain/duration" value="619.104858" priority="5"/>
+   <Data address="transposition" value="12.000000" priority="5"/>
+   <Data address="grain/position" value="253.270157" priority="5"/>
+   <Data address="density" value="0.710000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
    <Data address="grain/position/variation" priority="7"/>
-   <Data address="grain/duration/variation" priority="7" value="0.000000"/>
-   <Data address="reverse" priority="7" value="45.794399"/>
+   <Data address="grain/duration/variation" value="0.000000" priority="7"/>
+   <Data address="reverse" value="45.794399" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="transposition/variation" priority="7" value="0.240000"/>
+   <Data address="transposition/variation" value="0.240000" priority="7"/>
    <Data address="gain/variation" priority="9"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.540000"/>
+   <Data address="density/variation" value="0.540000" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/player.3" name="ramp">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="5.778800"/>
-   <Data address="sound" priority="2" value="P-acco04"/>
-   <Data address="grain/duration" priority="5" value="3484.882324"/>
-   <Data address="transposition" priority="5" value="0.000000"/>
-   <Data address="grain/position" priority="5" value="840.326233"/>
-   <Data address="density" priority="5" value="4.000000"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="5.778800" priority="2"/>
+   <Data address="sound" value="P-acco04" priority="2"/>
+   <Data address="grain/duration" value="3484.882324" priority="5"/>
+   <Data address="transposition" value="0.000000" priority="5"/>
+   <Data address="grain/position" value="840.326233" priority="5"/>
+   <Data address="density" value="4.000000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
-   <Data address="grain/duration/variation" priority="7" value="576.841003"/>
-   <Data address="reverse" priority="7" value="44.859825"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
+   <Data address="grain/duration/variation" value="576.841003" priority="7"/>
+   <Data address="reverse" value="44.859825" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="transposition/variation" priority="7" value="0.000000"/>
-   <Data address="gain/variation" priority="9" value="4.000000"/>
-   <Data address="playmode" priority="20" value="loop"/>
+   <Data address="transposition/variation" value="0.000000" priority="7"/>
+   <Data address="gain/variation" value="4.000000" priority="9"/>
+   <Data address="playmode" value="loop" priority="20"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.190000"/>
+   <Data address="density/variation" value="0.190000" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/player.2" name="ramp">
    <!---->
-   <Data address="corpus" priority="1" value="softs"/>
-   <Data address="gain" priority="2" value="11.146765"/>
-   <Data address="sound" priority="2" value="G-cla_harm_frag06"/>
-   <Data address="grain/duration" priority="5" value="454.785339"/>
-   <Data address="transposition" priority="5" value="24.000000"/>
-   <Data address="grain/position" priority="5" value="843.333374"/>
-   <Data address="density" priority="5" value="2.000000"/>
+   <Data address="corpus" value="softs" priority="1"/>
+   <Data address="gain" value="11.146765" priority="2"/>
+   <Data address="sound" value="G-cla_harm_frag06" priority="2"/>
+   <Data address="grain/duration" value="454.785339" priority="5"/>
+   <Data address="transposition" value="24.000000" priority="5"/>
+   <Data address="grain/position" value="843.333374" priority="5"/>
+   <Data address="density" value="2.000000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
-   <Data address="grain/duration/variation" priority="7" value="3593.881348"/>
-   <Data address="reverse" priority="7" value="57.943924"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
+   <Data address="grain/duration/variation" value="3593.881348" priority="7"/>
+   <Data address="reverse" value="57.943924" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="gain/variation" priority="9" value="0.000000"/>
-   <Data address="playmode" priority="20" value="loop"/>
+   <Data address="gain/variation" value="0.000000" priority="9"/>
+   <Data address="playmode" value="loop" priority="20"/>
    <Data address="speedlim" priority="0"/>
    <Data address="density/variation" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/player.1" name="ramp">
    <!---->
-   <Data address="corpus" priority="1" value="vox"/>
-   <Data address="gain" priority="2" value="-8.159386"/>
-   <Data address="sound" priority="2" value="G-vtr_nevesaf"/>
-   <Data address="grain/duration" priority="5" value="160.900269"/>
-   <Data address="transposition" priority="5" value="-5.280000"/>
-   <Data address="grain/position" priority="5" value="635.610229"/>
-   <Data address="density" priority="5" value="4.000000"/>
+   <Data address="corpus" value="vox" priority="1"/>
+   <Data address="gain" value="-8.159386" priority="2"/>
+   <Data address="sound" value="G-vtr_nevesaf" priority="2"/>
+   <Data address="grain/duration" value="160.900269" priority="5"/>
+   <Data address="transposition" value="-5.280000" priority="5"/>
+   <Data address="grain/position" value="635.610229" priority="5"/>
+   <Data address="density" value="4.000000" priority="5"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
    <Data address="release" priority="6"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
-   <Data address="grain/duration/variation" priority="7" value="166.309769"/>
-   <Data address="reverse" priority="7" value="0.000000"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
+   <Data address="grain/duration/variation" value="166.309769" priority="7"/>
+   <Data address="reverse" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="gain/variation" priority="9" value="0.000000"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="gain/variation" value="0.000000" priority="9"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="2.300000"/>
+   <Data address="density/variation" value="2.300000" priority="0"/>
    <Data address="interp" priority="0"/>
   </preset>
   <preset address="/Zdbap" name="ramp">
    <!---->
    <Data address="source.3/trajectory/mode" priority="1"/>
-   <Data address="numSources" priority="1" value="6"/>
+   <Data address="numSources" value="6" priority="1"/>
    <Data address="source.4/trajectory/mode" priority="1"/>
    <Data address="source.5/trajectory/mode" priority="1"/>
    <Data address="source.6/trajectory/mode" priority="1"/>
    <Data address="rolloff" priority="2"/>
    <Data address="gain" priority="3"/>
-   <Data address="speaker.4/position/xy" priority="4" value="0.988160 -0.992703"/>
-   <Data address="speaker.1/position/xy" priority="4" value="-1.001790 0.974530"/>
-   <Data address="speaker.3/position/xy" priority="4" value="-0.992703 -0.983617"/>
-   <Data address="speaker.2/position/xy" priority="4" value="0.988160 1.001790"/>
-   <Data address="source.6/position/xy" priority="5" value="-0.492944 -0.097680"/>
-   <Data address="numSpeakers" priority="5" value="4"/>
-   <Data address="source.4/position/xy" priority="5" value="0.165829 -0.306670"/>
-   <Data address="source.1/position/xy" priority="5" value="0.161670 -0.446459"/>
-   <Data address="source.3/position/xy" priority="5" value="0.529290 -0.179459"/>
-   <Data address="source.2/position/xy" priority="5" value="0.206778 -0.115931"/>
-   <Data address="source.5/position/xy" priority="5" value="-0.170372 -0.320300"/>
+   <Data address="speaker.4/position/xy" value="0.988160 -0.992703" priority="4"/>
+   <Data address="speaker.1/position/xy" value="-1.001790 0.974530" priority="4"/>
+   <Data address="speaker.3/position/xy" value="-0.992703 -0.983617" priority="4"/>
+   <Data address="speaker.2/position/xy" value="0.988160 1.001790" priority="4"/>
+   <Data address="source.6/position/xy" value="-0.492944 -0.097680" priority="5"/>
+   <Data address="numSpeakers" value="4" priority="5"/>
+   <Data address="source.4/position/xy" value="0.165829 -0.306670" priority="5"/>
+   <Data address="source.1/position/xy" value="0.161670 -0.446459" priority="5"/>
+   <Data address="source.3/position/xy" value="0.529290 -0.179459" priority="5"/>
+   <Data address="source.2/position/xy" value="0.206778 -0.115931" priority="5"/>
+   <Data address="source.5/position/xy" value="-0.170372 -0.320300" priority="5"/>
    <Data address="source.5/trajectory/file" priority="7"/>
    <Data address="source.6/trajectory/file" priority="7"/>
    <Data address="source.2/trajectory/file" priority="7"/>
@@ -891,28 +891,28 @@
    <Data address="source.4/trajectory/file" priority="7"/>
    <Data address="source.5/area/xy" priority="20"/>
    <Data address="source.4/area/xy" priority="20"/>
-   <Data address="source.2/area/xy" priority="20" value="0.047704 -0.865492"/>
+   <Data address="source.2/area/xy" value="0.047704 -0.865492" priority="20"/>
    <Data address="source.6/area/xy" priority="20"/>
-   <Data address="source.1/area/xy" priority="20" value="0.020445 0.070421"/>
+   <Data address="source.1/area/xy" value="0.020445 0.070421" priority="20"/>
    <Data address="source.3/area/xy" priority="20"/>
    <Data address="source.5/area/size/xy" priority="21"/>
-   <Data address="source.2/area/size/xy" priority="21" value="0.985889 0.840504"/>
+   <Data address="source.2/area/size/xy" value="0.985889 0.840504" priority="21"/>
    <Data address="source.3/area/size/xy" priority="21"/>
    <Data address="source.4/area/size/xy" priority="21"/>
-   <Data address="source.1/area/size/xy" priority="21" value="0.881393 0.790528"/>
+   <Data address="source.1/area/size/xy" value="0.881393 0.790528" priority="21"/>
    <Data address="source.6/area/size/xy" priority="21"/>
    <Data address="source.3/trajectory/speed" priority="22"/>
    <Data address="source.5/trajectory/speed" priority="22"/>
    <Data address="source.6/trajectory/speed" priority="22"/>
    <Data address="source.4/trajectory/speed" priority="22"/>
    <Data address="source.2/trajectory/speed" priority="22"/>
-   <Data address="source.1/trajectory/speed" priority="22" value="1.321429"/>
+   <Data address="source.1/trajectory/speed" value="1.321429" priority="22"/>
    <Data address="source.3/trajectory/speed/variation" priority="23"/>
    <Data address="source.5/trajectory/speed/variation" priority="23"/>
    <Data address="source.6/trajectory/speed/variation" priority="23"/>
    <Data address="source.2/trajectory/speed/variation" priority="23"/>
    <Data address="source.4/trajectory/speed/variation" priority="23"/>
-   <Data address="source.1/trajectory/speed/variation" priority="23" value="0.483871"/>
+   <Data address="source.1/trajectory/speed/variation" value="0.483871" priority="23"/>
    <Data address="source.4/trajectory/grain" priority="24"/>
    <Data address="source.6/trajectory/grain" priority="24"/>
    <Data address="source.2/trajectory/grain" priority="24"/>
@@ -925,105 +925,105 @@
    <Data address="source.5/trajectory/direction" priority="25"/>
    <Data address="source.3/trajectory/direction" priority="25"/>
    <Data address="source.6/trajectory/direction" priority="25"/>
-   <Data address="source.1/trajectory/mode" priority="30" value="7 - brown"/>
-   <Data address="source.2/trajectory/mode" priority="30" value="2 - sauts+agitations"/>
-   <Data address="source.4/color" priority="0" value="0.245029 0.889723 0.827333 1.000000 1.000000"/>
+   <Data address="source.1/trajectory/mode" value="7 - brown" priority="30"/>
+   <Data address="source.2/trajectory/mode" value="2 - sauts+agitations" priority="30"/>
+   <Data address="source.4/color" value="0.245029 0.889723 0.827333 1.000000 1.000000" priority="0"/>
    <Data address="source.4/blur" priority="0"/>
-   <Data address="source.5/volume" priority="0" value="0.509934"/>
-   <Data address="source.6/color" priority="0" value="0.874844 0.274093 0.867092 1.000000 1.000000"/>
-   <Data address="source.2/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.1/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.3/color" priority="0" value="0.252399 0.896537 0.285645 1.000000 1.000000"/>
-   <Data address="source.3/volume" priority="0" value="0.483444"/>
-   <Data address="source.6/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.4/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.5/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.6/volume" priority="0" value="0.509934"/>
+   <Data address="source.5/volume" value="0.509934" priority="0"/>
+   <Data address="source.6/color" value="0.874844 0.274093 0.867092 1.000000 1.000000" priority="0"/>
+   <Data address="source.2/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/color" value="0.252399 0.896537 0.285645 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/volume" value="0.483444" priority="0"/>
+   <Data address="source.6/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.4/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.5/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.6/volume" value="0.509934" priority="0"/>
    <Data address="source.2/blur" priority="0"/>
    <Data address="source.6/blur" priority="0"/>
    <Data address="source.5/blur" priority="0"/>
-   <Data address="source.2/volume" priority="0" value="0.357616"/>
+   <Data address="source.2/volume" value="0.357616" priority="0"/>
    <Data address="source.3/blur" priority="0"/>
-   <Data address="source.5/color" priority="0" value="0.250118 0.282867 0.884634 1.000000 1.000000"/>
-   <Data address="source.1/volume" priority="0" ramp="global" value="0.582781"/>
+   <Data address="source.5/color" value="0.250118 0.282867 0.884634 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/volume" value="0.582781" priority="0" ramp="global"/>
    <Data address="source.1/blur" priority="0"/>
-   <Data address="source.3/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.1/color" priority="0" value="0.992908 0.000000 0.000000 1.000000 1.000000"/>
-   <Data address="source.4/volume" priority="0" ramp="global" value="0.629139"/>
-   <Data address="source.2/color" priority="0" value="0.973717 0.962865 0.132666 1.000000 1.000000"/>
+   <Data address="source.3/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/color" value="0.992908 0.000000 0.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.4/volume" value="0.629139" priority="0" ramp="global"/>
+   <Data address="source.2/color" value="0.973717 0.962865 0.132666 1.000000 1.000000" priority="0"/>
   </preset>
   <preset address="/cueManager" name="ramp">
    <!---->
-   <Data address="autofollow/time" priority="1" value="1.000000"/>
-   <Data address="autofollow/active" priority="2" value="0"/>
+   <Data address="autofollow/time" value="1.000000" priority="1"/>
+   <Data address="autofollow/active" value="0" priority="2"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="addresses" priority="3" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager"/>
-   <Data address="filter/adresses/mode" priority="4" value="1"/>
-   <Data address="filter/adresses" priority="5" value="none"/>
+   <Data address="addresses" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" value="1" priority="4"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
    <Data address="filter/keys/mode" priority="6"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="0"/>
-   <Data address="filter/tags" priority="9" value="none"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="0" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
    <Data address="model/mute" priority="0"/>
-   <Data address="addresses/ramp" priority="0" value="/Zdbap/source.1/volume /Zdbap/source.4/volume"/>
-   <Data address="ramp/time" priority="0" value="8.000000"/>
-   <Data address="ramp/active" priority="0" value="1"/>
+   <Data address="addresses/ramp" value="/Zdbap/source.1/volume /Zdbap/source.4/volume" priority="0"/>
+   <Data address="ramp/time" value="8.000000" priority="0"/>
+   <Data address="ramp/active" value="1" priority="0"/>
   </preset>
  </cue>
  <cue number="6" name="grain_court" ramp="11000">
   <!---->
   <preset address="/player.4" name="grain_court">
    <!---->
-   <Data address="gain" priority="2" ramp="global" value="0.171657"/>
-   <Data address="grain/duration" priority="5" ramp="global" value="75.043015"/>
-   <Data address="density" priority="5" ramp="global" value="3.700000"/>
-   <Data address="grain/duration/variation" priority="7" ramp="global" value="1.535234"/>
-   <Data address="density/variation" priority="0" value="0.000000"/>
+   <Data address="gain" value="0.171657" priority="2" ramp="global"/>
+   <Data address="grain/duration" value="75.043015" priority="5" ramp="global"/>
+   <Data address="density" value="3.700000" priority="5" ramp="global"/>
+   <Data address="grain/duration/variation" value="1.535234" priority="7" ramp="global"/>
+   <Data address="density/variation" value="0.000000" priority="0"/>
   </preset>
   <preset address="/cueManager" name="grain_court">
    <!---->
-   <Data address="autofollow/time" priority="1" value="0.600000"/>
-   <Data address="autofollow/active" priority="2" value="1"/>
+   <Data address="autofollow/time" value="0.600000" priority="1"/>
+   <Data address="autofollow/active" value="1" priority="2"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="addresses" priority="3" value="/player.4 /cueManager"/>
-   <Data address="filter/adresses/mode" priority="4" value="1"/>
-   <Data address="filter/adresses" priority="5" value="/player.4/grain/duration /player.4/density /player.4/density/variation /player.4/grain/duration/variation /player.4/gain"/>
+   <Data address="addresses" value="/player.4 /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" value="1" priority="4"/>
+   <Data address="filter/adresses" value="/player.4/grain/duration /player.4/density /player.4/density/variation /player.4/grain/duration/variation /player.4/gain" priority="5"/>
    <Data address="filter/keys/mode" priority="6"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="0"/>
-   <Data address="filter/tags" priority="9" value="none"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="0" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
    <Data address="model/mute" priority="0"/>
-   <Data address="addresses/ramp" priority="0" value="/player.4/grain/duration /player.4/density /player.4/grain/duration/variation /player.4/gain"/>
-   <Data address="ramp/time" priority="0" value="11.000000"/>
-   <Data address="ramp/active" priority="0" value="1"/>
+   <Data address="addresses/ramp" value="/player.4/grain/duration /player.4/density /player.4/grain/duration/variation /player.4/gain" priority="0"/>
+   <Data address="ramp/time" value="11.000000" priority="0"/>
+   <Data address="ramp/active" value="1" priority="0"/>
   </preset>
  </cue>
  <cue number="7" name="seul_grain" ramp="16000">
   <!---->
   <preset address="/Zdbap" name="seul_grain">
    <!---->
-   <Data address="source.2/volume" priority="0" ramp="global" value="0.000000"/>
-   <Data address="source.1/volume" priority="0" ramp="global" value="0.000000"/>
-   <Data address="source.3/volume" priority="0" ramp="global" value="0.000000"/>
-   <Data address="source.5/volume" priority="0" ramp="global" value="0.000000"/>
-   <Data address="source.4/volume" priority="0" ramp="global" value="1.000000"/>
-   <Data address="source.6/volume" priority="0" ramp="global" value="0.000000"/>
+   <Data address="source.2/volume" value="0.000000" priority="0" ramp="global"/>
+   <Data address="source.1/volume" value="0.000000" priority="0" ramp="global"/>
+   <Data address="source.3/volume" value="0.000000" priority="0" ramp="global"/>
+   <Data address="source.5/volume" value="0.000000" priority="0" ramp="global"/>
+   <Data address="source.4/volume" value="1.000000" priority="0" ramp="global"/>
+   <Data address="source.6/volume" value="0.000000" priority="0" ramp="global"/>
   </preset>
   <preset address="/cueManager" name="seul_grain">
    <!---->
-   <Data address="autofollow/time" priority="1" value="16.000000"/>
-   <Data address="autofollow/active" priority="2" value="1"/>
-   <Data address="addresses" priority="3" value="/Zdbap /cueManager"/>
+   <Data address="autofollow/time" value="16.000000" priority="1"/>
+   <Data address="autofollow/active" value="1" priority="2"/>
+   <Data address="addresses" value="/Zdbap /cueManager" priority="3"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="filter/adresses/mode" priority="4" value="1"/>
-   <Data address="filter/adresses" priority="5" value="/Zdbap/source.2/volume /Zdbap/source.3/volume /Zdbap/source.4/volume /Zdbap/source.5/volume /Zdbap/source.6/volume /Zdbap/source.1/volume"/>
-   <Data address="filter/keys/mode" priority="6" value="0"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="0"/>
-   <Data address="filter/tags" priority="9" value="none"/>
-   <Data address="ramp/time" priority="0" value="16.000000"/>
-   <Data address="ramp/active" priority="0" value="1"/>
-   <Data address="addresses/ramp" priority="0" value="/Zdbap/source.1/volume /Zdbap/source.2/volume /Zdbap/source.3/volume /Zdbap/source.4/volume /Zdbap/source.5/volume /Zdbap/source.6/volume"/>
+   <Data address="filter/adresses/mode" value="1" priority="4"/>
+   <Data address="filter/adresses" value="/Zdbap/source.2/volume /Zdbap/source.3/volume /Zdbap/source.4/volume /Zdbap/source.5/volume /Zdbap/source.6/volume /Zdbap/source.1/volume" priority="5"/>
+   <Data address="filter/keys/mode" value="0" priority="6"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="0" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
+   <Data address="ramp/time" value="16.000000" priority="0"/>
+   <Data address="ramp/active" value="1" priority="0"/>
+   <Data address="addresses/ramp" value="/Zdbap/source.1/volume /Zdbap/source.2/volume /Zdbap/source.3/volume /Zdbap/source.4/volume /Zdbap/source.5/volume /Zdbap/source.6/volume" priority="0"/>
    <Data address="model/mute" priority="0"/>
   </preset>
  </cue>
@@ -1081,74 +1081,74 @@
   </preset>
   <preset address="/player.4" name="radionoise">
    <!---->
-   <Data address="corpus" priority="1" value="radio"/>
-   <Data address="gain" priority="2" value="3.881814"/>
-   <Data address="sound" priority="2" value="ER-caou01.aif"/>
-   <Data address="density" priority="5" value="7.000000"/>
-   <Data address="grain/position" priority="5" value="702.738159"/>
-   <Data address="grain/duration" priority="5" value="669.797363"/>
-   <Data address="transposition" priority="5" value="0.000000"/>
+   <Data address="corpus" value="radio" priority="1"/>
+   <Data address="gain" value="3.881814" priority="2"/>
+   <Data address="sound" value="ER-caou01.aif" priority="2"/>
+   <Data address="density" value="7.000000" priority="5"/>
+   <Data address="grain/position" value="702.738159" priority="5"/>
+   <Data address="grain/duration" value="669.797363" priority="5"/>
+   <Data address="transposition" value="0.000000" priority="5"/>
    <Data address="release" priority="6"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
-   <Data address="reverse" priority="7" value="45.794399"/>
-   <Data address="transposition/variation" priority="7" value="0.240000"/>
-   <Data address="grain/duration/variation" priority="7" value="0.283879"/>
+   <Data address="reverse" value="45.794399" priority="7"/>
+   <Data address="transposition/variation" value="0.240000" priority="7"/>
+   <Data address="grain/duration/variation" value="0.283879" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
    <Data address="grain/position/variation" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
    <Data address="gain/variation" priority="9"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="model/mute" priority="0"/>
    <Data address="interp" priority="0"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.000000"/>
+   <Data address="density/variation" value="0.000000" priority="0"/>
   </preset>
   <preset address="/player.3" name="radionoise">
    <!---->
-   <Data address="corpus" priority="1" value="radio"/>
-   <Data address="gain" priority="2" value="12.041200"/>
-   <Data address="sound" priority="2" value="ER-caou02.aif"/>
-   <Data address="density" priority="5" value="4.000000"/>
-   <Data address="grain/position" priority="5" value="827.102722"/>
-   <Data address="grain/duration" priority="5" value="386.954041"/>
-   <Data address="transposition" priority="5" value="0.000000"/>
-   <Data address="release" priority="6" value="200"/>
+   <Data address="corpus" value="radio" priority="1"/>
+   <Data address="gain" value="12.041200" priority="2"/>
+   <Data address="sound" value="ER-caou02.aif" priority="2"/>
+   <Data address="density" value="4.000000" priority="5"/>
+   <Data address="grain/position" value="827.102722" priority="5"/>
+   <Data address="grain/duration" value="386.954041" priority="5"/>
+   <Data address="transposition" value="0.000000" priority="5"/>
+   <Data address="release" value="200" priority="6"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
-   <Data address="reverse" priority="7" value="44.859825"/>
-   <Data address="transposition/variation" priority="7" value="0.000000"/>
-   <Data address="grain/duration/variation" priority="7" value="576.841003"/>
+   <Data address="reverse" value="44.859825" priority="7"/>
+   <Data address="transposition/variation" value="0.000000" priority="7"/>
+   <Data address="grain/duration/variation" value="576.841003" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
-   <Data address="gain/variation" priority="9" value="0.000000"/>
-   <Data address="playmode" priority="20" value="loop"/>
+   <Data address="gain/variation" value="0.000000" priority="9"/>
+   <Data address="playmode" value="loop" priority="20"/>
    <Data address="model/mute" priority="0"/>
    <Data address="interp" priority="0"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="0.190000"/>
+   <Data address="density/variation" value="0.190000" priority="0"/>
   </preset>
   <preset address="/player.2" name="radionoise">
    <!---->
-   <Data address="corpus" priority="1" value="radio"/>
-   <Data address="gain" priority="2" value="5.778802"/>
-   <Data address="sound" priority="2" value="ER-gratt04.aif"/>
-   <Data address="density" priority="5" value="1.000000"/>
-   <Data address="grain/position" priority="5" value="3401.464355"/>
-   <Data address="grain/duration" priority="5" value="2320.625488"/>
-   <Data address="transposition" priority="5" value="0.000000"/>
+   <Data address="corpus" value="radio" priority="1"/>
+   <Data address="gain" value="5.778802" priority="2"/>
+   <Data address="sound" value="ER-gratt04.aif" priority="2"/>
+   <Data address="density" value="1.000000" priority="5"/>
+   <Data address="grain/position" value="3401.464355" priority="5"/>
+   <Data address="grain/duration" value="2320.625488" priority="5"/>
+   <Data address="transposition" value="0.000000" priority="5"/>
    <Data address="release" priority="6"/>
-   <Data address="window" priority="6" value="trzoid"/>
+   <Data address="window" value="trzoid" priority="6"/>
    <Data address="attack" priority="6"/>
-   <Data address="reverse" priority="7" value="0.000000"/>
+   <Data address="reverse" value="0.000000" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="grain/duration/variation" priority="7" value="0.000000"/>
+   <Data address="grain/duration/variation" value="0.000000" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
-   <Data address="gain/variation" priority="9" value="0.000000"/>
-   <Data address="playmode" priority="20" value="loop"/>
+   <Data address="gain/variation" value="0.000000" priority="9"/>
+   <Data address="playmode" value="loop" priority="20"/>
    <Data address="model/mute" priority="0"/>
    <Data address="interp" priority="0"/>
    <Data address="speedlim" priority="0"/>
@@ -1156,57 +1156,57 @@
   </preset>
   <preset address="/player.1" name="radionoise">
    <!---->
-   <Data address="corpus" priority="1" value="radio"/>
-   <Data address="gain" priority="2" value="-8.159383"/>
-   <Data address="sound" priority="2" value="ER-bips_monte01.aif"/>
-   <Data address="density" priority="5" value="4.000000"/>
-   <Data address="grain/position" priority="5" value="1438.141724"/>
-   <Data address="grain/duration" priority="5" value="831.982788"/>
-   <Data address="transposition" priority="5" value="-5.280000"/>
+   <Data address="corpus" value="radio" priority="1"/>
+   <Data address="gain" value="-8.159383" priority="2"/>
+   <Data address="sound" value="ER-bips_monte01.aif" priority="2"/>
+   <Data address="density" value="4.000000" priority="5"/>
+   <Data address="grain/position" value="1438.141724" priority="5"/>
+   <Data address="grain/duration" value="831.982788" priority="5"/>
+   <Data address="transposition" value="-5.280000" priority="5"/>
    <Data address="release" priority="6"/>
    <Data address="window" priority="6"/>
    <Data address="attack" priority="6"/>
-   <Data address="reverse" priority="7" value="0.000000"/>
+   <Data address="reverse" value="0.000000" priority="7"/>
    <Data address="transposition/variation" priority="7"/>
-   <Data address="grain/duration/variation" priority="7" value="166.309769"/>
+   <Data address="grain/duration/variation" value="166.309769" priority="7"/>
    <Data address="grain/duration/max" priority="7"/>
-   <Data address="grain/position/variation" priority="7" value="0.000000"/>
+   <Data address="grain/position/variation" value="0.000000" priority="7"/>
    <Data address="grain/onset/variation" priority="7"/>
-   <Data address="gain/variation" priority="9" value="0.000000"/>
-   <Data address="playmode" priority="20" value="density"/>
+   <Data address="gain/variation" value="0.000000" priority="9"/>
+   <Data address="playmode" value="density" priority="20"/>
    <Data address="model/mute" priority="0"/>
    <Data address="interp" priority="0"/>
    <Data address="speedlim" priority="0"/>
-   <Data address="density/variation" priority="0" value="2.300000"/>
+   <Data address="density/variation" value="2.300000" priority="0"/>
   </preset>
   <preset address="/Zdbap" name="radionoise">
    <!---->
    <Data address="source.5/trajectory/mode" priority="1"/>
    <Data address="source.3/trajectory/mode" priority="1"/>
-   <Data address="numSources" priority="1" value="6"/>
+   <Data address="numSources" value="6" priority="1"/>
    <Data address="source.4/trajectory/mode" priority="1"/>
    <Data address="source.6/trajectory/mode" priority="1"/>
    <Data address="rolloff" priority="2"/>
-   <Data address="gain" priority="3" value="0.373984"/>
-   <Data address="speaker.4/position/xy" priority="4" value="0.988160 -0.992703"/>
-   <Data address="speaker.1/position/xy" priority="4" value="-1.001790 0.974530"/>
-   <Data address="speaker.2/position/xy" priority="4" value="0.988160 1.001790"/>
-   <Data address="speaker.3/position/xy" priority="4" value="-0.992703 -0.983617"/>
-   <Data address="source.3/position/xy" priority="5" value="0.529290 -0.179459"/>
-   <Data address="source.6/position/xy" priority="5" value="-0.492944 -0.097680"/>
-   <Data address="numSpeakers" priority="5" value="4"/>
-   <Data address="source.1/position/xy" priority="5" value="-0.663974 -0.620304"/>
-   <Data address="source.2/position/xy" priority="5" value="-0.710367 -1.571351"/>
-   <Data address="source.4/position/xy" priority="5" value="0.165829 -0.306670"/>
-   <Data address="source.5/position/xy" priority="5" value="-0.170372 -0.320300"/>
+   <Data address="gain" value="0.373984" priority="3"/>
+   <Data address="speaker.4/position/xy" value="0.988160 -0.992703" priority="4"/>
+   <Data address="speaker.1/position/xy" value="-1.001790 0.974530" priority="4"/>
+   <Data address="speaker.2/position/xy" value="0.988160 1.001790" priority="4"/>
+   <Data address="speaker.3/position/xy" value="-0.992703 -0.983617" priority="4"/>
+   <Data address="source.3/position/xy" value="0.529290 -0.179459" priority="5"/>
+   <Data address="source.6/position/xy" value="-0.492944 -0.097680" priority="5"/>
+   <Data address="numSpeakers" value="4" priority="5"/>
+   <Data address="source.1/position/xy" value="-0.663974 -0.620304" priority="5"/>
+   <Data address="source.2/position/xy" value="-0.710367 -1.571351" priority="5"/>
+   <Data address="source.4/position/xy" value="0.165829 -0.306670" priority="5"/>
+   <Data address="source.5/position/xy" value="-0.170372 -0.320300" priority="5"/>
    <Data address="source.6/trajectory/file" priority="7"/>
    <Data address="source.5/trajectory/file" priority="7"/>
    <Data address="source.2/trajectory/file" priority="7"/>
    <Data address="source.4/trajectory/file" priority="7"/>
    <Data address="source.3/trajectory/file" priority="7"/>
    <Data address="source.1/trajectory/file" priority="7"/>
-   <Data address="source.1/area/xy" priority="20" value="0.020445 0.070421"/>
-   <Data address="source.2/area/xy" priority="20" value="0.047704 -0.865492"/>
+   <Data address="source.1/area/xy" value="0.020445 0.070421" priority="20"/>
+   <Data address="source.2/area/xy" value="0.047704 -0.865492" priority="20"/>
    <Data address="source.4/area/xy" priority="20"/>
    <Data address="source.6/area/xy" priority="20"/>
    <Data address="source.3/area/xy" priority="20"/>
@@ -1214,18 +1214,18 @@
    <Data address="source.3/area/size/xy" priority="21"/>
    <Data address="source.4/area/size/xy" priority="21"/>
    <Data address="source.5/area/size/xy" priority="21"/>
-   <Data address="source.1/area/size/xy" priority="21" value="0.881393 0.790528"/>
-   <Data address="source.2/area/size/xy" priority="21" value="0.985889 0.840504"/>
+   <Data address="source.1/area/size/xy" value="0.881393 0.790528" priority="21"/>
+   <Data address="source.2/area/size/xy" value="0.985889 0.840504" priority="21"/>
    <Data address="source.6/area/size/xy" priority="21"/>
    <Data address="source.3/trajectory/speed" priority="22"/>
    <Data address="source.4/trajectory/speed" priority="22"/>
-   <Data address="source.1/trajectory/speed" priority="22" value="1.321429"/>
+   <Data address="source.1/trajectory/speed" value="1.321429" priority="22"/>
    <Data address="source.6/trajectory/speed" priority="22"/>
    <Data address="source.5/trajectory/speed" priority="22"/>
    <Data address="source.2/trajectory/speed" priority="22"/>
    <Data address="source.6/trajectory/speed/variation" priority="23"/>
    <Data address="source.3/trajectory/speed/variation" priority="23"/>
-   <Data address="source.1/trajectory/speed/variation" priority="23" value="0.483871"/>
+   <Data address="source.1/trajectory/speed/variation" value="0.483871" priority="23"/>
    <Data address="source.4/trajectory/speed/variation" priority="23"/>
    <Data address="source.5/trajectory/speed/variation" priority="23"/>
    <Data address="source.2/trajectory/speed/variation" priority="23"/>
@@ -1241,58 +1241,58 @@
    <Data address="source.4/trajectory/direction" priority="25"/>
    <Data address="source.2/trajectory/direction" priority="25"/>
    <Data address="source.5/trajectory/direction" priority="25"/>
-   <Data address="source.1/trajectory/mode" priority="30" value="7 - brown"/>
-   <Data address="source.2/trajectory/mode" priority="30" value="2 - sauts+agitations"/>
-   <Data address="source.1/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.1/trajectory/mode" value="7 - brown" priority="30"/>
+   <Data address="source.2/trajectory/mode" value="2 - sauts+agitations" priority="30"/>
+   <Data address="source.1/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="speaker.4/model/mute" priority="0"/>
    <Data address="speaker.2/model/mute" priority="0"/>
-   <Data address="source.3/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.3/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="source.3/blur" priority="0"/>
-   <Data address="source.4/color" priority="0" value="0.245029 0.889723 0.827333 1.000000 1.000000"/>
-   <Data address="source.5/volume" priority="0" value="0.549669"/>
+   <Data address="source.4/color" value="0.245029 0.889723 0.827333 1.000000 1.000000" priority="0"/>
+   <Data address="source.5/volume" value="0.549669" priority="0"/>
    <Data address="speaker.1/model/mute" priority="0"/>
    <Data address="source.2/blur" priority="0"/>
-   <Data address="source.1/color" priority="0" value="0.992908 0.000000 0.000000 1.000000 1.000000"/>
+   <Data address="source.1/color" value="0.992908 0.000000 0.000000 1.000000 1.000000" priority="0"/>
    <Data address="source.3/model/mute" priority="0"/>
-   <Data address="source.2/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.3/color" priority="0" value="0.252399 0.896537 0.285645 1.000000 1.000000"/>
-   <Data address="source.1/volume" priority="0" value="0.562914"/>
+   <Data address="source.2/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.3/color" value="0.252399 0.896537 0.285645 1.000000 1.000000" priority="0"/>
+   <Data address="source.1/volume" value="0.562914" priority="0"/>
    <Data address="source.1/model/mute" priority="0"/>
-   <Data address="source.5/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.5/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="speaker.3/model/mute" priority="0"/>
-   <Data address="source.2/color" priority="0" value="0.973717 0.962865 0.132666 1.000000 1.000000"/>
+   <Data address="source.2/color" value="0.973717 0.962865 0.132666 1.000000 1.000000" priority="0"/>
    <Data address="source.6/blur" priority="0"/>
    <Data address="source.5/model/mute" priority="0"/>
-   <Data address="source.6/color" priority="0" value="0.874844 0.274093 0.867092 1.000000 1.000000"/>
+   <Data address="source.6/color" value="0.874844 0.274093 0.867092 1.000000 1.000000" priority="0"/>
    <Data address="model/mute" priority="0"/>
-   <Data address="source.2/volume" priority="0" value="0.576159"/>
+   <Data address="source.2/volume" value="0.576159" priority="0"/>
    <Data address="source.4/model/mute" priority="0"/>
-   <Data address="source.3/volume" priority="0" value="0.549669"/>
-   <Data address="source.6/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
+   <Data address="source.3/volume" value="0.549669" priority="0"/>
+   <Data address="source.6/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
    <Data address="source.4/blur" priority="0"/>
    <Data address="source.6/model/mute" priority="0"/>
-   <Data address="source.5/color" priority="0" value="0.250118 0.282867 0.884634 1.000000 1.000000"/>
+   <Data address="source.5/color" value="0.250118 0.282867 0.884634 1.000000 1.000000" priority="0"/>
    <Data address="source.5/blur" priority="0"/>
-   <Data address="source.4/weight" priority="0" value="1.000000 1.000000 1.000000 1.000000"/>
-   <Data address="source.6/volume" priority="0" value="0.523179"/>
-   <Data address="source.4/volume" priority="0" value="0.549669"/>
+   <Data address="source.4/weight" value="1.000000 1.000000 1.000000 1.000000" priority="0"/>
+   <Data address="source.6/volume" value="0.523179" priority="0"/>
+   <Data address="source.4/volume" value="0.549669" priority="0"/>
    <Data address="source.2/model/mute" priority="0"/>
   </preset>
   <preset address="/cueManager" name="radionoise">
    <!---->
-   <Data address="autofollow/time" priority="1" value="16.000000"/>
-   <Data address="autofollow/active" priority="2" value="0"/>
-   <Data address="addresses" priority="3" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager"/>
+   <Data address="autofollow/time" value="16.000000" priority="1"/>
+   <Data address="autofollow/active" value="0" priority="2"/>
+   <Data address="addresses" value="/player.6 /player.5 /player.4 /player.3 /player.2 /player.1 /Zdbap /cueManager" priority="3"/>
    <Data address="filter/addresses/excluded" priority="3"/>
-   <Data address="filter/adresses/mode" priority="4" value="0"/>
-   <Data address="filter/adresses" priority="5" value="/Zdbap/source.1/blur"/>
-   <Data address="filter/keys/mode" priority="6" value="0"/>
-   <Data address="filter/keys" priority="7" value="none"/>
-   <Data address="filter/tags/mode" priority="8" value="0"/>
-   <Data address="filter/tags" priority="9" value="none"/>
-   <Data address="ramp/time" priority="0" value="0.000000"/>
-   <Data address="ramp/active" priority="0" value="0"/>
-   <Data address="addresses/ramp" priority="0" value="none"/>
+   <Data address="filter/adresses/mode" value="0" priority="4"/>
+   <Data address="filter/adresses" value="/Zdbap/source.1/blur" priority="5"/>
+   <Data address="filter/keys/mode" value="0" priority="6"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" value="0" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
+   <Data address="ramp/active" value="0" priority="0"/>
+   <Data address="addresses/ramp" value="none" priority="0"/>
    <Data address="model/mute" priority="0"/>
   </preset>
  </cue>

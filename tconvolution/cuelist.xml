@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
+ <!--TODO : a description-->
+ <cue number="1" name="init" ramp="0">
+  <!---->
+  <preset address="/tconvolution~" name="init">
+   <!---->
+   <Data address="SegmentSize" priority="1" value="4096"/>
+   <Data address="channels" priority="4" value="4"/>
+   <Data address="IR.1/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/03- Rooms/SOMA Loft/2 m-q Close.1.wav"/>
+   <Data address="IR.4/gain" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+   <Data address="in/bypass" priority="0"/>
+   <Data address="IR.3/gain" priority="0"/>
+   <Data address="out/gain" priority="0" value="100.000000"/>
+   <Data address="normalize" priority="0"/>
+   <Data address="IR.4/reverse" priority="0"/>
+   <Data address="IR.1/gain" priority="0"/>
+   <Data address="IR.4/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/03- Rooms/SOMA Loft/2 m-q Close.4.wav"/>
+   <Data address="IR.2/gain" priority="0"/>
+   <Data address="IR.3/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/03- Rooms/SOMA Loft/2 m-q Close.3.wav"/>
+   <Data address="IR.2/reverse" priority="0"/>
+   <Data address="in/mute" priority="0"/>
+   <Data address="IR.2/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/03- Rooms/SOMA Loft/2 m-q Close.2.wav"/>
+   <Data address="out/mix" priority="0" value="100.000000"/>
+   <Data address="IR.3/reverse" priority="0"/>
+   <Data address="IR.1/reverse" priority="0"/>
+   <Data address="out/mute" priority="0" value="0"/>
+  </preset>
+  <preset address="/cueManager" name="init">
+   <!---->
+   <Data address="autofollow/time" priority="1"/>
+   <Data address="autofollow/active" priority="2" value="0"/>
+   <Data address="addresses" priority="3" value="/tconvolution~ /cueManager"/>
+   <Data address="filter/addresses/excluded" priority="3"/>
+   <Data address="filter/adresses/mode" priority="4"/>
+   <Data address="filter/adresses" priority="5" value="none"/>
+   <Data address="filter/keys/mode" priority="6"/>
+   <Data address="filter/keys" priority="7" value="none"/>
+   <Data address="filter/tags/mode" priority="8"/>
+   <Data address="filter/tags" priority="9" value="none"/>
+   <Data address="ramp/active" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+   <Data address="ramp/time" priority="0" value="0.000000"/>
+   <Data address="addresses/ramp" priority="0"/>
+  </preset>
+ </cue>
+ <cue number="2" name="Cue_2" ramp="0">
+  <!---->
+  <preset address="/tconvolution~" name="Cue_2">
+   <!---->
+   <Data address="SegmentSize" priority="1" value="4096"/>
+   <Data address="channels" priority="4" value="4"/>
+   <Data address="IR.1/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/02- Churches/Church Chicago/3 m-q Coincident Mics.L.wav"/>
+   <Data address="IR.4/gain" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+   <Data address="in/bypass" priority="0"/>
+   <Data address="IR.3/gain" priority="0"/>
+   <Data address="out/gain" priority="0" value="74.000000"/>
+   <Data address="normalize" priority="0"/>
+   <Data address="IR.4/reverse" priority="0"/>
+   <Data address="IR.1/gain" priority="0"/>
+   <Data address="IR.4/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/02- Churches/Church Chicago/3 m-q Coincident Mics.Rs.wav"/>
+   <Data address="IR.2/gain" priority="0"/>
+   <Data address="IR.3/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/02- Churches/Church Chicago/3 m-q Coincident Mics.Ls.wav"/>
+   <Data address="IR.2/reverse" priority="0"/>
+   <Data address="in/mute" priority="0"/>
+   <Data address="IR.2/file" priority="0" value="Servo:/Users/bltzr/Music/IRquadris/02- Churches/Church Chicago/3 m-q Coincident Mics.R.wav"/>
+   <Data address="out/mix" priority="0" value="56.000000"/>
+   <Data address="IR.3/reverse" priority="0"/>
+   <Data address="IR.1/reverse" priority="0"/>
+   <Data address="out/mute" priority="0" value="0"/>
+  </preset>
+  <preset address="/cueManager" name="Cue_2">
+   <!---->
+   <Data address="autofollow/time" priority="1"/>
+   <Data address="autofollow/active" priority="2" value="0"/>
+   <Data address="addresses" priority="3" value="/tconvolution~ /cueManager"/>
+   <Data address="filter/addresses/excluded" priority="3"/>
+   <Data address="filter/adresses/mode" priority="4"/>
+   <Data address="filter/adresses" priority="5" value="none"/>
+   <Data address="filter/keys/mode" priority="6"/>
+   <Data address="filter/keys" priority="7" value="none"/>
+   <Data address="filter/tags/mode" priority="8"/>
+   <Data address="filter/tags" priority="9" value="none"/>
+   <Data address="ramp/active" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+   <Data address="ramp/time" priority="0" value="0.000000"/>
+   <Data address="addresses/ramp" priority="0"/>
+  </preset>
+ </cue>
+</jamoma>

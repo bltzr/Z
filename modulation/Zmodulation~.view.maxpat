@@ -1,13 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
-		}
-,
-		"rect" : [ 34.0, 112.0, 304.0, 75.0 ],
+		"rect" : [ 42.0, 111.0, 300.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 607.0, 211.0, 655.0, 543.0 ],
@@ -55,12 +49,6 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
-						}
-,
 						"rect" : [ 314.0, 394.0, 314.0, 536.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 314.0, 394.0, 314.0, 536.0 ],
@@ -576,13 +564,13 @@
 ,
 					"patching_rect" : [ 239.0, 307.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p alvt2",
@@ -602,12 +590,6 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
-						}
-,
 						"rect" : [ 25.0, 379.0, 321.0, 533.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 25.0, 379.0, 321.0, 533.0 ],
@@ -1123,13 +1105,13 @@
 ,
 					"patching_rect" : [ 146.0, 305.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p alvt",
@@ -1181,12 +1163,6 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 5,
-							"minor" : 1,
-							"revision" : 9
-						}
-,
 						"rect" : [ 255.0, 436.0, 371.0, 595.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 255.0, 436.0, 371.0, 595.0 ],
@@ -1700,13 +1676,13 @@
 ,
 					"patching_rect" : [ 50.0, 302.0, 40.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p alvol",
@@ -1742,7 +1718,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 262.0, 30.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.332634, 48.313438, 30.0, 17.0 ],
+					"presentation_rect" : [ 60.332634, 46.313438, 30.0, 17.0 ],
 					"text" : "time",
 					"textcolor" : [ 0.839216, 0.839216, 0.839216, 1.0 ]
 				}
@@ -1758,7 +1734,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 238.0, 288.0, 78.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 153.136475, 48.218906, 144.0, 19.081453 ],
+					"presentation_rect" : [ 153.136475, 48.313438, 144.0, 16.081453 ],
 					"size" : 2000.0,
 					"varname" : "alvtt2"
 				}
@@ -1823,7 +1799,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 146.0, 284.0, 78.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.332635, 48.313438, 144.0, 19.0 ],
+					"presentation_rect" : [ 3.332635, 48.313438, 146.0, 15.0 ],
 					"size" : 2000.0,
 					"varname" : "alvtt"
 				}
@@ -1877,7 +1853,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 52.0, 282.0, 78.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.324081, 22.460558, 190.0, 22.0 ],
+					"presentation_rect" : [ 3.324081, 24.460558, 190.0, 17.0 ],
 					"size" : 1000.0,
 					"varname" : "alvvv"
 				}

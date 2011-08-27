@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
+ <!--TODO : a description-->
+ <cue number="1" name="init" ramp="0">
+  <!---->
+  <preset address="/dtd" name="init">
+   <!---->
+   <Data address="path" value="/Users/bltzr/Music/pièces/Pyrogenesis/Pyro_sons_DTD/" priority="30"/>
+   <Data address="file/name" value="T-entree-TGV-long01-RVRS_04.aif" priority="31"/>
+   <Data address="ramp/mode" value="0" priority="32"/>
+   <Data address="ramp/time" value="10.000000" priority="33"/>
+   <Data address="loop" value="1" priority="34"/>
+   <Data address="pitch" value="1.000000" priority="35"/>
+   <Data address="play" value="0" priority="36"/>
+   <Data address="pause" priority="37"/>
+   <Data address="balance" value="0.000000" priority="0"/>
+   <Data address="out/gain" value="60.000000" priority="0"/>
+   <Data address="out/mix" priority="0"/>
+   <Data address="out/mute" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+  <preset address="/cueManager" name="init">
+   <!---->
+   <Data address="autofollow/time" priority="1"/>
+   <Data address="autofollow/active" value="0" priority="2"/>
+   <Data address="filter/addresses/excluded" priority="3"/>
+   <Data address="addresses" value="/dtd /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" priority="4"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
+   <Data address="filter/keys/mode" priority="6"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
+   <Data address="ramp/active" priority="0"/>
+   <Data address="addresses/ramp" priority="0"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+ </cue>
+ <cue number="2" name="Cue_2" ramp="0">
+  <!---->
+  <preset address="/dtd" name="Cue_2">
+   <!---->
+   <Data address="path" value="/Users/bltzr/Music/pièces/Pyrogenesis/Pyro_sons_DTD/" priority="30"/>
+   <Data address="file/name" value="T-entree-TGV-long01-RVRS_04.aif" priority="31"/>
+   <Data address="ramp/mode" value="0" priority="32"/>
+   <Data address="ramp/time" value="10.000000" priority="33"/>
+   <Data address="loop" value="1" priority="34"/>
+   <Data address="pitch" value="1.000000" priority="35"/>
+   <Data address="play" value="1" priority="36"/>
+   <Data address="pause" priority="37"/>
+   <Data address="balance" value="0.000000" priority="0"/>
+   <Data address="out/gain" value="60.000000" priority="0"/>
+   <Data address="out/mix" priority="0"/>
+   <Data address="out/mute" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+  <preset address="/cueManager" name="Cue_2">
+   <!---->
+   <Data address="autofollow/time" priority="1"/>
+   <Data address="autofollow/active" value="0" priority="2"/>
+   <Data address="filter/addresses/excluded" priority="3"/>
+   <Data address="addresses" value="/dtd /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" priority="4"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
+   <Data address="filter/keys/mode" priority="6"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
+   <Data address="ramp/active" priority="0"/>
+   <Data address="addresses/ramp" priority="0"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+ </cue>
+ <cue number="3" name="Cue_3" ramp="0">
+  <!---->
+  <preset address="/dtd" name="Cue_3">
+   <!---->
+   <Data address="path" value="/Users/bltzr/Music/pièces/Pyrogenesis/Pyro_sons_DTD/" priority="30"/>
+   <Data address="file/name" value="T-entree-TGV-long01-RVRS_04.aif" priority="31"/>
+   <Data address="ramp/mode" value="2" priority="32"/>
+   <Data address="ramp/time" value="10.000000" priority="33"/>
+   <Data address="loop" value="1" priority="34"/>
+   <Data address="pitch" value="1.000000" priority="35"/>
+   <Data address="play" value="0" priority="36"/>
+   <Data address="pause" priority="37"/>
+   <Data address="balance" value="0.000000" priority="0"/>
+   <Data address="out/gain" value="60.000000" priority="0"/>
+   <Data address="out/mix" priority="0"/>
+   <Data address="out/mute" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+  <preset address="/cueManager" name="Cue_3">
+   <!---->
+   <Data address="autofollow/time" priority="1"/>
+   <Data address="autofollow/active" value="0" priority="2"/>
+   <Data address="filter/addresses/excluded" priority="3"/>
+   <Data address="addresses" value="/dtd /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" priority="4"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
+   <Data address="filter/keys/mode" priority="6"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
+   <Data address="ramp/active" priority="0"/>
+   <Data address="addresses/ramp" priority="0"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+ </cue>
+ <cue number="4" name="Cue_4" ramp="0">
+  <!---->
+  <preset address="/dtd" name="Cue_4">
+   <!---->
+   <Data address="path" value="/Users/bltzr/Music/pièces/Pyrogenesis/Pyro_sons_DTD/" priority="30"/>
+   <Data address="file/name" value="Z1-Volcan_montée" priority="31"/>
+   <Data address="ramp/mode" value="1" priority="32"/>
+   <Data address="ramp/time" value="7.000000" priority="33"/>
+   <Data address="loop" value="1" priority="34"/>
+   <Data address="pitch" value="1.000000" priority="35"/>
+   <Data address="play" value="1" priority="36"/>
+   <Data address="pause" priority="37"/>
+   <Data address="balance" value="0.000000" priority="0"/>
+   <Data address="out/gain" value="60.000000" priority="0"/>
+   <Data address="out/mix" priority="0"/>
+   <Data address="out/mute" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+  <preset address="/cueManager" name="Cue_4">
+   <!---->
+   <Data address="autofollow/time" priority="1"/>
+   <Data address="autofollow/active" value="0" priority="2"/>
+   <Data address="filter/addresses/excluded" priority="3"/>
+   <Data address="addresses" value="/dtd /cueManager" priority="3"/>
+   <Data address="filter/adresses/mode" priority="4"/>
+   <Data address="filter/adresses" value="none" priority="5"/>
+   <Data address="filter/keys/mode" priority="6"/>
+   <Data address="filter/keys" value="none" priority="7"/>
+   <Data address="filter/tags/mode" priority="8"/>
+   <Data address="filter/tags" value="none" priority="9"/>
+   <Data address="ramp/active" priority="0"/>
+   <Data address="addresses/ramp" priority="0"/>
+   <Data address="ramp/time" value="0.000000" priority="0"/>
+   <Data address="model/mute" priority="0"/>
+  </preset>
+ </cue>
+</jamoma>

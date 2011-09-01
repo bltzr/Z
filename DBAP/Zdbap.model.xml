@@ -16,18 +16,6 @@
   <Data address="speaker.5/position/xy" value="-0.270324 0.147656" priority="4"/>
   <Data address="speaker.6/position/xy" value="0.311214 0.165829" priority="4"/>
   <Data address="speaker.3/position/xy" value="-0.833689 0.311214" priority="4"/>
-  <Data address="source.2/position/xy/y" value="0.552007" priority="5"/>
-  <Data address="source.4/position/xy/y" value="-0.561093" priority="5"/>
-  <Data address="source.3/position/xy/y" value="-0.084050" priority="5"/>
-  <Data address="source.6/position/xy/y" value="-0.565637" priority="5"/>
-  <Data address="source.1/position/xy/y" value="0.552007" priority="5"/>
-  <Data address="source.5/position/xy/y" value="-0.093137" priority="5"/>
-  <Data address="source.5/position/xy/x" value="-0.651959" priority="6"/>
-  <Data address="source.6/position/xy/x" value="-0.383906" priority="6"/>
-  <Data address="source.2/position/xy/x" value="0.502031" priority="6"/>
-  <Data address="source.4/position/xy/x" value="0.438425" priority="6"/>
-  <Data address="source.3/position/xy/x" value="0.711021" priority="6"/>
-  <Data address="source.1/position/xy/x" value="-0.433882" priority="6"/>
   <Data address="source.1/trajectory/file" priority="7"/>
   <Data address="source.6/trajectory/file" priority="7"/>
   <Data address="source.5/trajectory/file" priority="7"/>

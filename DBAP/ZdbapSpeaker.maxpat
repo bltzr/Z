@@ -1,12 +1,6 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"appversion" : 		{
-			"major" : 5,
-			"minor" : 1,
-			"revision" : 9
-		}
-,
 		"rect" : [ 134.0, 183.0, 522.0, 219.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 134.0, 183.0, 522.0, 219.0 ],
@@ -34,7 +28,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 115.0, 181.0, 100.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out 1"
@@ -102,13 +96,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 35.0, 70.0, 27.0 ],
-					"text" : "jcom.hub @context node"
+					"patching_rect" : [ 15.0, 35.0, 70.0, 17.0 ],
+					"text" : "jcom.hub"
 				}
 
 			}

@@ -23,6 +23,43 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 454.0, 26.0, 109.0, 18.0 ],
+					"text" : "jcom.view model/mute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgoncolor" : [ 0.992157, 0.992157, 0.992157, 1.0 ],
+					"bgoveroncolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"patching_rect" : [ 454.0, 7.0, 29.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 570.0, 6.0, 25.0, 18.0 ],
+					"rounded" : 4.0,
+					"text" : "off",
+					"texton" : "on",
+					"textoncolor" : [ 0.007843, 0.007843, 0.007843, 1.0 ],
+					"textoveroncolor" : [ 0.058824, 0.058824, 0.058824, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -395,13 +432,13 @@
 ,
 					"patching_rect" : [ 377.0, 194.0, 76.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontsize" : 9.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p range"
@@ -562,13 +599,13 @@
 ,
 									"patching_rect" : [ 50.0, 71.0, 42.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 9.0,
-										"default_fontsize" : 9.0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 9.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p route"
@@ -719,13 +756,13 @@
 ,
 									"patching_rect" : [ 52.0, 168.0, 32.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 9.0,
-										"default_fontsize" : 9.0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 9.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p set"
@@ -820,13 +857,13 @@
 ,
 					"patching_rect" : [ 299.0, 522.0, 19.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontsize" : 9.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p"
@@ -1120,13 +1157,13 @@
 ,
 					"patching_rect" : [ 164.0, 164.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontsize" : 9.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p pos_slider"
@@ -1386,13 +1423,13 @@
 ,
 									"patching_rect" : [ 34.0, 149.0, 32.5, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 10.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p"
@@ -1586,13 +1623,13 @@
 ,
 					"patching_rect" : [ 359.0, 93.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 9.0,
-						"default_fontsize" : 9.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 9.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p update"
@@ -1986,13 +2023,13 @@
 ,
 									"patching_rect" : [ 15.0, 20.0, 57.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 9.0,
-										"default_fontsize" : 9.0
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"default_fontsize" : 9.0,
+										"fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p nameInit"
@@ -2413,13 +2450,13 @@
 ,
 					"patching_rect" : [ 14.0, 541.0, 178.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p models"
@@ -2783,37 +2820,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 482.0, 21.0, 85.0, 18.0 ],
-					"text" : "jcom.view switch"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 19.0, 24.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 574.0, 5.0, 24.0, 18.0 ],
-					"text" : "0/1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 460.0, 19.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 574.0, 3.0, 20.0, 20.0 ]
+					"patching_rect" : [ 481.0, 7.0, 85.0, 18.0 ],
+					"text" : "jcom.view enable"
 				}
 
 			}
@@ -3166,13 +3174,13 @@
 ,
 					"patching_rect" : [ 24.0, 198.0, 55.597626, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Zoooom"
@@ -3195,7 +3203,7 @@
 			}
 , 			{
 				"box" : 				{
-					"embedstate" : [ [ "CreateNFunctions", 1, "_", 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "legend", 1 ], [ "nbfunction", 1 ], [ "hiddenpoint", 0 ], [ "timedisplay", 0 ], [ "grid", 0 ], [ "mousereport", 1 ], [ "clickmove", 1 ], [ "bordersync", 0 ], [ "movemode", 0 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "mode", 1 ], [ "notifyrecalled", 0 ], [ "clickadd", 1 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "clicksustain", 1 ], [ "ghost", 20 ] ],
+					"embedstate" : [ [ "CreateNFunctions", 1, "_", 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "clicksustain", 1 ], [ "timedisplay", 0 ], [ "legend", 1 ], [ "mousereport", 1 ], [ "nbfunction", 1 ], [ "hiddenpoint", 0 ], [ "bordersync", 0 ], [ "movemode", 0 ], [ "clickmove", 1 ], [ "autosustain", 0 ], [ "notifyrecalled", 0 ], [ "mode", 1 ], [ "snap2grid", 0 ], [ "autocursor", 1 ], [ "grid", 0 ], [ "numcurvepoints", 12 ], [ "clickadd", 1 ], [ "ghost", 20 ] ],
 					"filename" : "ej.function.js",
 					"id" : "obj-12",
 					"jsarguments" : [  ],
@@ -3763,6 +3771,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

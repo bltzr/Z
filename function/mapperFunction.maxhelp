@@ -20,6 +20,34 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [  ],
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "cueManager.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 97.0, 613.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 333.0, 562.0, 100.0, 17.0 ],
+					"text" : "cueManager.model"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "/degrade~.1" ],
 					"id" : "obj-13",
 					"maxclass" : "bpatcher",
@@ -56,7 +84,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
 					"patching_rect" : [ 219.0, 562.0, 100.0, 17.0 ],
-					"presentation_rect" : [ 216.0, 651.0, 0.0, 0.0 ],
 					"text" : "degrade~.model"
 				}
 

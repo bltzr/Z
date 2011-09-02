@@ -34,7 +34,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/Zdbap" ],
+					"args" : [ "/Zdbap", "/Zdbap(view)", 14, 11, 6 ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "Zdbap.view.maxpat",

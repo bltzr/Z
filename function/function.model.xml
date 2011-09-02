@@ -11,6 +11,6 @@
   <Data address="grain" priority="12" value="25"/>
   <Data address="speed" priority="13" value="1."/>
   <Data address="switch" priority="15" value="0"/>
-  <Data address="model/mute" priority="0"/>
+  <Data address="model/mute" priority="99" value="0"/>
  </preset>
 </jamoma>

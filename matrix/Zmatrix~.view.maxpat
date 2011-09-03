@@ -28,7 +28,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 539.0, 1.0, 100.0, 19.0 ],
+					"patching_rect" : [ 537.0, 1.0, 100.0, 19.0 ],
 					"text" : "loadmess #4"
 				}
 
@@ -227,13 +227,13 @@
 ,
 					"patching_rect" : [ 129.0, 218.0, 32.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p set"
@@ -247,8 +247,8 @@
 					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.0, 197.0, 134.0, 18.0 ],
 					"text" : "jcom.view volume"
 				}
@@ -1134,8 +1134,8 @@
 													"id" : "obj-50",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "", "", "", "" ],
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 205.0, 395.0, 143.0, 19.0 ],
 													"text" : "jcom.view matrix2List",
 													"varname" : "matrixList"
@@ -1570,13 +1570,13 @@
 ,
 									"patching_rect" : [ 75.0, 199.0, 78.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p matrixStuff"
@@ -1670,13 +1670,13 @@
 ,
 					"patching_rect" : [ 283.0, 193.0, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p more"
@@ -2165,8 +2165,8 @@
 									"id" : "obj-50",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 205.0, 395.0, 142.0, 19.0 ],
 									"text" : "jcom.view matrixList",
 									"varname" : "matrixList"
@@ -2601,13 +2601,13 @@
 ,
 					"patching_rect" : [ 373.0, 279.0, 78.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p matrixStuff"
@@ -3164,8 +3164,8 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 538.0, 21.0, 134.0, 19.0 ],
 					"text" : "jcom.view numSpeakers",
 					"varname" : "numSpeakers"
@@ -3179,8 +3179,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 539.0, 92.0, 127.0, 19.0 ],
 					"text" : "jcom.view numSources",
 					"varname" : "numSources"
@@ -3194,8 +3194,8 @@
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 188.0, 252.0, 119.0, 19.0 ],
 					"text" : "jcom.view interpolate",
 					"varname" : "interpolate"
@@ -3233,6 +3233,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-11", 0 ]
@@ -3350,6 +3359,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-5", 0 ]

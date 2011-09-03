@@ -368,18 +368,6 @@
 ,
 					"patching_rect" : [ 420.0, 615.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
-=======
->>>>>>> pb-DBAPnoGL
 						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
@@ -387,10 +375,6 @@
 						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
 						"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 					}
 ,
 					"text" : "p fill_text"
@@ -732,18 +716,6 @@
 ,
 					"patching_rect" : [ 544.0, 333.0, 225.0, 36.0 ],
 					"saved_object_attributes" : 					{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-						"fontname" : "Verdana",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Verdana",
-						"fontface" : 0,
-						"fontsize" : 9.0,
-						"default_fontsize" : 9.0
-=======
->>>>>>> pb-DBAPnoGL
 						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
@@ -751,10 +723,6 @@
 						"default_fontsize" : 9.0,
 						"fontname" : "Verdana",
 						"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 					}
 ,
 					"text" : "p coll_declaration"
@@ -1137,18 +1105,6 @@
 ,
 									"patching_rect" : [ 440.0, 110.0, 65.0, 20.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -1156,10 +1112,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p folderlist"
@@ -1460,18 +1412,6 @@
 ,
 									"patching_rect" : [ 385.0, 140.0, 51.0, 20.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -1479,10 +1419,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p filelist"
@@ -1777,18 +1713,6 @@
 ,
 									"patching_rect" : [ 20.0, 85.0, 84.0, 20.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -1796,10 +1720,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p addedfilelist"
@@ -2028,7 +1948,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-25",
-									"items" : [ "0solistes", ",", "0stereo" ],
+									"items" : [  ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2229,18 +2149,6 @@
 ,
 					"patching_rect" : [ 25.0, 361.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
@@ -2248,10 +2156,6 @@
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
 						"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 					}
 ,
 					"text" : "p more"
@@ -3056,18 +2960,6 @@
 ,
 									"patching_rect" : [ 245.013519, 530.795166, 84.0, 20.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -3075,10 +2967,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p deletebuffer"
@@ -3844,18 +3732,6 @@
 ,
 									"patching_rect" : [ 655.72876, 581.080933, 234.0, 80.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -3863,10 +3739,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p bufs",
@@ -4569,18 +4441,6 @@
 ,
 					"patching_rect" : [ 312.0, 453.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
@@ -4588,10 +4448,6 @@
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
 						"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 					}
 ,
 					"text" : "p addfile"
@@ -4608,21 +4464,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-<<<<<<< HEAD
 						"rect" : [ 324.0, 309.0, 1080.0, 606.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 324.0, 309.0, 1080.0, 606.0 ],
-=======
-<<<<<<< HEAD
-						"rect" : [ 265.0, 201.0, 1080.0, 606.0 ],
-						"bglocked" : 0,
-						"defrect" : [ 265.0, 201.0, 1080.0, 606.0 ],
-=======
-						"rect" : [ 324.0, 309.0, 1080.0, 606.0 ],
-						"bglocked" : 0,
-						"defrect" : [ 324.0, 309.0, 1080.0, 606.0 ],
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5165,18 +5009,6 @@
 ,
 									"patching_rect" : [ 91.046173, 447.658997, 133.0, 20.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -5184,10 +5016,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p generationfile"
@@ -5204,9 +5032,9 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
-										"rect" : [ 251.0, 171.0, 866.0, 577.0 ],
+										"rect" : [ 29.0, 67.0, 866.0, 577.0 ],
 										"bglocked" : 0,
-										"defrect" : [ 251.0, 171.0, 866.0, 577.0 ],
+										"defrect" : [ 29.0, 67.0, 866.0, 577.0 ],
 										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5221,77 +5049,6 @@
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
 										"boxes" : [ 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-6",
-													"linecount" : 2,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 145.0, 466.713257, 340.0, 32.0 ],
-													"text" : ";\n#0_xxx_buftp script send $1 replace $5"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-4",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 145.0, 429.713257, 54.0, 20.0 ],
-													"text" : "deferlow"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-3",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 51.0, 452.713257, 54.0, 20.0 ],
-													"text" : "deferlow"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-2",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 51.0, 428.713257, 54.0, 20.0 ],
-													"text" : "deferlow"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 51.0, 381.713257, 54.0, 20.0 ],
-													"text" : "deferlow"
-												}
-
-											}
-, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -5411,7 +5168,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 169.530457, 179.034973, 459.979034, 18.0 ],
-													"text" : "0stereo"
+													"text" : "0xxxx"
 												}
 
 											}
@@ -5480,7 +5237,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 51.0, 474.713257, 54.0, 20.0 ],
+													"patching_rect" : [ 50.0, 401.713257, 54.0, 20.0 ],
 													"text" : "del 50"
 												}
 
@@ -5503,11 +5260,25 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 107.0, 404.713257, 54.0, 20.0 ],
+													"text" : "jit.qball"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
 													"id" : "obj-49",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 504.713257, 111.0, 20.0 ],
+													"patching_rect" : [ 50.0, 460.713257, 111.0, 20.0 ],
 													"text" : "s #0_xxx_nxtsnd"
 												}
 
@@ -5519,10 +5290,10 @@
 													"id" : "obj-50",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "", "" ],
-													"patching_rect" : [ 51.0, 405.713257, 206.0, 20.0 ],
-													"text" : "t b l l"
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 50.0, 380.713257, 76.0, 20.0 ],
+													"text" : "t b l"
 												}
 
 											}
@@ -5550,8 +5321,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 238.0, 428.713257, 340.0, 32.0 ],
-													"text" : ";\n#0_xxx_buftp script new $1 newex $3 $2 $4 9 buffer~ $1 "
+													"patching_rect" : [ 107.0, 425.713257, 340.0, 32.0 ],
+													"text" : ";\r\n#0_xxx_buftp script new $1 newex $3 $2 $4 9 buffer~ $1 $5"
 												}
 
 											}
@@ -5609,15 +5380,6 @@
 											}
  ],
 										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-50", 0 ],
-													"hidden" : 0,
-													"midpoints" : [  ],
-													"source" : [ "obj-1", 0 ]
-												}
-
-											}
-, 											{
 												"patchline" : 												{
 													"destination" : [ "obj-65", 2 ],
 													"hidden" : 0,
@@ -5700,15 +5462,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"hidden" : 0,
-													"midpoints" : [  ],
-													"source" : [ "obj-2", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-13", 1 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
@@ -5727,28 +5480,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-34", 0 ],
-													"hidden" : 0,
-													"midpoints" : [  ],
-													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-49", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
 													"source" : [ "obj-34", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"hidden" : 0,
-													"midpoints" : [  ],
-													"source" : [ "obj-4", 0 ]
 												}
 
 											}
@@ -5763,6 +5498,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-54", 0 ],
+													"hidden" : 0,
+													"midpoints" : [  ],
+													"source" : [ "obj-48", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-19", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
@@ -5772,7 +5516,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-2", 0 ],
+													"destination" : [ "obj-34", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
 													"source" : [ "obj-50", 0 ]
@@ -5781,7 +5525,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
+													"destination" : [ "obj-48", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
 													"source" : [ "obj-50", 1 ]
@@ -5790,16 +5534,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-54", 0 ],
-													"hidden" : 0,
-													"midpoints" : [  ],
-													"source" : [ "obj-50", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-1", 0 ],
+													"destination" : [ "obj-50", 0 ],
 													"hidden" : 0,
 													"midpoints" : [  ],
 													"source" : [ "obj-53", 0 ]
@@ -5883,18 +5618,6 @@
 ,
 									"patching_rect" : [ 95.046173, 391.658997, 217.0, 20.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -5902,10 +5625,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p generationlist"
@@ -6481,18 +6200,6 @@
 ,
 									"patching_rect" : [ 637.590698, 297.196411, 80.0, 20.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -6500,10 +6207,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p calculindex"
@@ -6982,28 +6685,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-91",
-<<<<<<< HEAD
 									"items" : [  ],
-=======
-<<<<<<< HEAD
-									"items" : [ "alythe.wav", ",", "chevres.wav", ",", "crigrueboucle.wav", ",", "effraie.wav", ",", "grillonsolo.wav", ",", "klebar.wav", ",", "rainette.wav", ",", "rossignol.wav", ",", "sauterelle.wav" ],
-=======
-									"items" : [  ],
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"patching_rect" : [ 56.9916, 261.37207, 100.0, 20.0 ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-									"pattrmode" : 1,
-									"prefix" : "0stereo",
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									"prefix_mode" : 2,
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
 								}
@@ -7030,15 +6717,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-93",
-<<<<<<< HEAD
 									"items" : [  ],
-=======
-<<<<<<< HEAD
-									"items" : [ "solistes", ",", "stereo" ],
-=======
-									"items" : [  ],
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7074,9 +6753,9 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
-										"rect" : [ 54.0, 272.0, 1087.0, 540.0 ],
+										"rect" : [ 12.0, 217.0, 1087.0, 540.0 ],
 										"bglocked" : 0,
-										"defrect" : [ 54.0, 272.0, 1087.0, 540.0 ],
+										"defrect" : [ 12.0, 217.0, 1087.0, 540.0 ],
 										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -7352,267 +7031,6 @@
 												}
 
 											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 16.0, 600.0, 17.0 ],
-													"text" : "buffer~ alythe.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-14",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 32.0, 600.0, 17.0 ],
-													"text" : "buffer~ chevres.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 48.0, 600.0, 17.0 ],
-													"text" : "buffer~ crigrueboucle.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-22",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 64.0, 600.0, 17.0 ],
-													"text" : "buffer~ effraie.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 80.0, 600.0, 17.0 ],
-													"text" : "buffer~ grillonsolo.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 96.0, 600.0, 17.0 ],
-													"text" : "buffer~ klebar.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-25",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 112.0, 600.0, 17.0 ],
-													"text" : "buffer~ rainette.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-26",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 128.0, 600.0, 17.0 ],
-													"text" : "buffer~ rossignol.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-27",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 144.0, 600.0, 17.0 ],
-													"text" : "buffer~ sauterelle.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-28",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 160.0, 600.0, 17.0 ],
-													"text" : "buffer~ alythe.wav",
-													"varname" : "alythe.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-29",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 176.0, 600.0, 17.0 ],
-													"text" : "buffer~ chevres.wav",
-													"varname" : "chevres.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 192.0, 600.0, 17.0 ],
-													"text" : "buffer~ crigrueboucle.wav",
-													"varname" : "crigrueboucle.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-31",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 208.0, 600.0, 17.0 ],
-													"text" : "buffer~ effraie.wav",
-													"varname" : "effraie.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-32",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 224.0, 600.0, 17.0 ],
-													"text" : "buffer~ grillonsolo.wav",
-													"varname" : "grillonsolo.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-33",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 240.0, 600.0, 17.0 ],
-													"text" : "buffer~ klebar.wav",
-													"varname" : "klebar.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-34",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 256.0, 600.0, 17.0 ],
-													"text" : "buffer~ rainette.wav",
-													"varname" : "rainette.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-35",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 272.0, 600.0, 17.0 ],
-													"text" : "buffer~ rossignol.wav",
-													"varname" : "rossignol.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-36",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 288.0, 600.0, 17.0 ],
-													"text" : "buffer~ sauterelle.wav",
-													"varname" : "sauterelle.wav"
-												}
-
-											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
@@ -7808,18 +7226,6 @@
 ,
 									"patching_rect" : [ 466.0, 178.0, 208.0, 80.0 ],
 									"saved_object_attributes" : 									{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Arial",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
@@ -7827,10 +7233,6 @@
 										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
 										"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 									}
 ,
 									"text" : "p bufs",
@@ -8223,18 +7625,6 @@
 ,
 					"patching_rect" : [ 386.0, 454.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
-=======
->>>>>>> pb-DBAPnoGL
 						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
@@ -8242,10 +7632,6 @@
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
 						"globalpatchername" : ""
-<<<<<<< HEAD
-=======
->>>>>>> 35348be... {fixed Z : removing default loaded folder in bufferpool and added a prepend list in subpatcher refreshbuffer in Zlooper in oder to avoid problem when there is only one folder}
->>>>>>> pb-DBAPnoGL
 					}
 ,
 					"text" : "p algobuffers"
@@ -8476,8 +7862,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"patching_rect" : [ 420.0, 640.0, 104.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 18.0, 149.0, 17.0 ],
-					"text" : "Fichiers_mono"
+					"presentation_rect" : [ 0.0, 18.0, 149.0, 17.0 ]
 				}
 
 			}

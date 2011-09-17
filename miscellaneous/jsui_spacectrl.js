@@ -14,7 +14,7 @@ var vfrgb = [0.8,0.8,0.3];
 var w = [0,0,0];
 var vx = 0;
 var vy = 0;
-var vradius = 0.19;
+var vradius = 0.09;
 var vx2 = 0;
 var vy2 = 0;
 var x2 = 0;
@@ -31,7 +31,7 @@ draw_circle.immediate=1;
 draw_square.immediate=1;
 onclick.immediate=1;
 ondrag.immediate=1;
-decimal.immediate=1;
+msg_float.immediate=1;
 list_stat.immediate=1;
 list_square.immediate=1;
 list_circle.immediate=1;
@@ -39,19 +39,19 @@ list_circle.immediate=1;
 
 // process arguments
 if (jsarguments.length>1)
-    vfrgb[0] = jsarguments[1]/255.;
+    vfrgb[0] = jsarguments[1];
 if (jsarguments.length>2)
-    vfrgb[1] = jsarguments[2]/255.;
+    vfrgb[1] = jsarguments[2];
 if (jsarguments.length>3)
-    vfrgb[2] = jsarguments[3]/255.;
+    vfrgb[2] = jsarguments[3];
 if (jsarguments.length>4)
-    vbrgb[0] = jsarguments[4]/255.;
+    vbrgb[0] = jsarguments[4];
 if (jsarguments.length>5)
-    vbrgb[1] = jsarguments[5]/255.;
+    vbrgb[1] = jsarguments[5];
 if (jsarguments.length>6)
-    vbrgb[2] = jsarguments[6]/255.;
+    vbrgb[2] = jsarguments[6];
 if (jsarguments.length>7)
-    vradius = jsarguments[1];
+    vradius = jsarguments[7];
 
 
 
@@ -67,7 +67,7 @@ function draw()
 function static()
 {
     fct=0;
-    vradius=0.19;
+    vradius=0.09;
 }
 
 function random()
@@ -320,18 +320,18 @@ function fsaa(v)
 
 function frgb(r,g,b)
 {
-    vfrgb[0] = r/255.;
-    vfrgb[1] = g/255.;
-    vfrgb[2] = b/255.;
+    vfrgb[0] = r;
+    vfrgb[1] = g;
+    vfrgb[2] = b;
     draw();
     refresh();
 }
 
 function brgb(r,g,b)
 {
-    vbrgb[0] = r/255.;
-    vbrgb[1] = g/255.;
-    vbrgb[2] = b/255.;
+    vbrgb[0] = r;
+    vbrgb[1] = g;
+    vbrgb[2] = b;
     draw();
     refresh();
 }

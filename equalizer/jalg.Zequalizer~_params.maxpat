@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 64.0, 1325.0, 785.0 ],
+		"rect" : [ 38.0, 114.0, 1325.0, 785.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 64.0, 1325.0, 785.0 ],
+		"defrect" : [ 38.0, 114.0, 1325.0, 785.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -17,6 +17,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"title" : "jalg.Zequalizer~_params (1)",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -28,7 +29,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.0, 385.0, 41.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out 3"
@@ -135,7 +136,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 875.0, 155.0, 31.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "in 3",
@@ -153,7 +154,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 455.0, 620.0, 41.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out 2",
@@ -203,6 +204,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -467,11 +469,11 @@
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p DecodeFilterGraph",
@@ -506,6 +508,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1053,11 +1056,11 @@
 					"saved_object_attributes" : 					{
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
-						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p PrepareForFiltergraph~",
@@ -1075,7 +1078,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 265.0, 620.0, 41.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "out 1"
@@ -1093,7 +1096,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 415.0, 145.0, 31.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "in 2",
@@ -1182,7 +1185,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 110.0, 145.0, 31.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+
 					}
 ,
 					"text" : "in 1"
@@ -1214,7 +1217,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 520.0, 520.0, 31.0 ],
-					"text" : "jcom.parameter filter.0/freq @type decimal @range/bounds 30. 11025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 0 @description \"Center frequency (Hz)\" @priority 12"
+					"text" : "jcom.parameter filter.0/freq @type decimal @range/bounds 30. 18025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 0 @description \"Center frequency (Hz)\" @priority 12"
 				}
 
 			}

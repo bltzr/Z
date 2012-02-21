@@ -533,7 +533,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "bpatcher",
-					"varname" : "/file_browser",
+					"varname" : "/file_rowser",
 					"id" : "obj-17",
 					"presentation_rect" : [ 15.0, 15.0, 300.0, 70.0 ],
 					"numinlets" : 1,
@@ -541,8 +541,8 @@
 					"numoutlets" : 1,
 					"patching_rect" : [ 22.0, 244.0, 300.0, 70.0 ],
 					"outlettype" : [ "" ],
-					"args" : [ "/file_browser" ],
-					"name" : "jmod.file_browser.maxpat"
+					"args" : [ "/fileBrowser" ],
+					"name" : "jmod.fileBrowser.maxpat"
 				}
 
 			}

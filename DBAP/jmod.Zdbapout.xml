@@ -5,21 +5,46 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='numAux' type='integer' priority='3'>5</item>
-    <item name='numSources' type='integer' priority='1'>3</item>
-    <item name='numSpeakers' type='integer' priority='5'>4</item>
-    <item name='rolloff' type='decimal' priority='2'>6.000000</item>
-    <item name='speaker.1/position' type='array' priority='11'>-6.406250 6.171875 0.000000 </item>
-    <item name='speaker.2/position' type='array' priority='12'>6.380208 6.171875 0.000000 </item>
-    <item name='speaker.3/position' type='array' priority='13'>-6.093750 -6.875000 0.000000 </item>
-    <item name='speaker.4/position' type='array' priority='14'>6.640625 -7.031250 0.000000 </item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 70 </item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='numAux' type='integer' priority='3' mixweight='1'>5</item>
+    <item name='numSources' type='integer' priority='1' mixweight='1'>3</item>
+    <item name='numSpeakers' type='integer' priority='5' mixweight='1'>4</item>
+    <item name='rolloff' type='decimal' priority='2' mixweight='1'>6.000000</item>
+    <item name='speaker.1/position' type='array' priority='11' mixweight='1'>-6.406250 6.171875 0.000000 </item>
+    <item name='speaker.10/position' type='array' priority='20' mixweight='1'>0</item>
+    <item name='speaker.11/position' type='array' priority='21' mixweight='1'>0</item>
+    <item name='speaker.12/position' type='array' priority='22' mixweight='1'>0</item>
+    <item name='speaker.13/position' type='array' priority='23' mixweight='1'>0</item>
+    <item name='speaker.14/position' type='array' priority='24' mixweight='1'>0</item>
+    <item name='speaker.15/position' type='array' priority='25' mixweight='1'>0</item>
+    <item name='speaker.16/position' type='array' priority='26' mixweight='1'>0</item>
+    <item name='speaker.17/position' type='array' priority='27' mixweight='1'>0</item>
+    <item name='speaker.18/position' type='array' priority='28' mixweight='1'>0</item>
+    <item name='speaker.19/position' type='array' priority='29' mixweight='1'>0</item>
+    <item name='speaker.2/position' type='array' priority='12' mixweight='1'>6.380208 6.171875 0.000000 </item>
+    <item name='speaker.20/position' type='array' priority='30' mixweight='1'>0</item>
+    <item name='speaker.21/position' type='array' priority='31' mixweight='1'>0</item>
+    <item name='speaker.22/position' type='array' priority='32' mixweight='1'>0</item>
+    <item name='speaker.23/position' type='array' priority='33' mixweight='1'>0</item>
+    <item name='speaker.24/position' type='array' priority='34' mixweight='1'>0</item>
+    <item name='speaker.25/position' type='array' priority='35' mixweight='1'>0</item>
+    <item name='speaker.26/position' type='array' priority='36' mixweight='1'>0</item>
+    <item name='speaker.27/position' type='array' priority='37' mixweight='1'>0</item>
+    <item name='speaker.28/position' type='array' priority='38' mixweight='1'>0</item>
+    <item name='speaker.29/position' type='array' priority='39' mixweight='1'>0</item>
+    <item name='speaker.3/position' type='array' priority='13' mixweight='1'>-6.093750 -6.875000 0.000000 </item>
+    <item name='speaker.30/position' type='array' priority='40' mixweight='1'>0</item>
+    <item name='speaker.31/position' type='array' priority='41' mixweight='1'>0</item>
+    <item name='speaker.32/position' type='array' priority='42' mixweight='1'>0</item>
+    <item name='speaker.4/position' type='array' priority='14' mixweight='1'>6.640625 -7.031250 0.000000 </item>
+    <item name='speaker.5/position' type='array' priority='15' mixweight='1'>0</item>
+    <item name='speaker.6/position' type='array' priority='16' mixweight='1'>0</item>
+    <item name='speaker.7/position' type='array' priority='17' mixweight='1'>0</item>
+    <item name='speaker.8/position' type='array' priority='18' mixweight='1'>0</item>
+    <item name='speaker.9/position' type='array' priority='19' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>
 </jamoma>

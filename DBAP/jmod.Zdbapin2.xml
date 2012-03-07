@@ -11,8 +11,8 @@
     <item name='aux.6/prepost' type='boolean' priority='9' mixweight='1'>0</item>
     <item name='auxSpat/gain' type='decimal' priority='8' mixweight='1'>0.000000</item>
     <item name='auxSpat/link' type='boolean' priority='2' mixweight='1'>0</item>
-    <item name='auxSpat/position.1/xy' type='array' priority='5'>-0.035294 0.045455 </item>
-    <item name='auxSpat/position.2/xy' type='array' priority='5'>-0.011765 0.043478 </item>
+    <item name='auxSpat/position.1/xy' type='array' priority='5' mixweight='1'>-0.035294 0.045455 </item>
+    <item name='auxSpat/position.2/xy' type='array' priority='5' mixweight='1'>-0.011765 0.043478 </item>
     <item name='auxSpat/prepost' type='boolean' priority='10' mixweight='1'>0</item>
     <item name='blur' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='link' type='integer' priority='28' mixweight='1'>0</item>
@@ -31,13 +31,9 @@
     <item name='trajectory/mode' type='array' priority='2' mixweight='1'>static</item>
     <item name='trajectory/speed' type='decimal' priority='0' mixweight='1'>1.009709</item>
     <item name='trajectory/speed/variation' type='decimal' priority='0' mixweight='1'>0.000000</item>
-    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/size' type='array' priority='0'>300 140 </item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
     <item name='volume' type='decimal' priority='0' mixweight='1'>0.000001</item>
-    <item name='weight' type='array' priority='0'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='weight' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
   </preset>
 </jamoma>

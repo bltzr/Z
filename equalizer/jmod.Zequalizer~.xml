@@ -5,69 +5,65 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='audio/bypass' type='boolean' priority='0'>0</item>
-    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
-    <item name='audio/mix' type='decimal' priority='0'>100.000000</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='bands' type='integer' priority='1'>5</item>
-    <item name='filter.1/frequency' type='decimal' priority='12'>100.353867</item>
-    <item name='filter.1/gain' type='decimal' priority='11'>0.000000</item>
-    <item name='filter.1/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.1/type' type='string' priority='9'>lowshelf</item>
-    <item name='filter.2/frequency' type='decimal' priority='12'>250.000000</item>
-    <item name='filter.2/gain' type='decimal' priority='11'>0.000000</item>
-    <item name='filter.2/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.2/type' type='string' priority='9'>peaknotch</item>
-    <item name='filter.3/frequency' type='decimal' priority='12'>500.000000</item>
-    <item name='filter.3/gain' type='decimal' priority='11'>0.000000</item>
-    <item name='filter.3/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.3/type' type='string' priority='9'>peaknotch</item>
-    <item name='filter.4/frequency' type='decimal' priority='12'>1000.000000</item>
-    <item name='filter.4/gain' type='decimal' priority='11'>0.000000</item>
-    <item name='filter.4/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.4/type' type='string' priority='9'>peaknotch</item>
-    <item name='filter.5/frequency' type='decimal' priority='12'>5000.000000</item>
-    <item name='filter.5/gain' type='decimal' priority='11'>0.000000</item>
-    <item name='filter.5/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.5/type' type='string' priority='9'>highshelf</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 140 </item>
+    <item name='audio/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='bands' type='integer' priority='1' mixweight='1'>5</item>
+    <item name='filter.1/frequency' type='decimal' priority='12' mixweight='1'>100.353867</item>
+    <item name='filter.1/gain' type='decimal' priority='11' mixweight='1'>0.000000</item>
+    <item name='filter.1/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.1/type' type='string' priority='9' mixweight='1'>lowshelf</item>
+    <item name='filter.2/frequency' type='decimal' priority='12' mixweight='1'>250.000000</item>
+    <item name='filter.2/gain' type='decimal' priority='11' mixweight='1'>0.000000</item>
+    <item name='filter.2/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.2/type' type='string' priority='9' mixweight='1'>peaknotch</item>
+    <item name='filter.3/frequency' type='decimal' priority='12' mixweight='1'>500.000000</item>
+    <item name='filter.3/gain' type='decimal' priority='11' mixweight='1'>0.000000</item>
+    <item name='filter.3/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.3/type' type='string' priority='9' mixweight='1'>peaknotch</item>
+    <item name='filter.4/frequency' type='decimal' priority='12' mixweight='1'>1000.000000</item>
+    <item name='filter.4/gain' type='decimal' priority='11' mixweight='1'>0.000000</item>
+    <item name='filter.4/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.4/type' type='string' priority='9' mixweight='1'>peaknotch</item>
+    <item name='filter.5/frequency' type='decimal' priority='12' mixweight='1'>5000.000000</item>
+    <item name='filter.5/gain' type='decimal' priority='11' mixweight='1'>0.000000</item>
+    <item name='filter.5/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.5/type' type='string' priority='9' mixweight='1'>highshelf</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>
   <preset number='2' name='notches'>
-    <item name='audio/bypass' type='boolean' priority='0'>0</item>
-    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
-    <item name='audio/mix' type='decimal' priority='0'>100.000000</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='bands' type='integer' priority='1'>24</item>
-    <item name='filter.1/frequency' type='decimal' priority='12'>100.353867</item>
-    <item name='filter.1/gain' type='decimal' priority='11'>-3.809515</item>
-    <item name='filter.1/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.1/type' type='string' priority='9'>lowshelf</item>
-    <item name='filter.2/frequency' type='decimal' priority='12'>250.000000</item>
-    <item name='filter.2/gain' type='decimal' priority='11'>8.077622</item>
-    <item name='filter.2/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.2/type' type='string' priority='9'>peaknotch</item>
-    <item name='filter.3/frequency' type='decimal' priority='12'>500.000000</item>
-    <item name='filter.3/gain' type='decimal' priority='11'>9.626923</item>
-    <item name='filter.3/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.3/type' type='string' priority='9'>peaknotch</item>
-    <item name='filter.4/frequency' type='decimal' priority='12'>1000.000000</item>
-    <item name='filter.4/gain' type='decimal' priority='11'>12.208775</item>
-    <item name='filter.4/q' type='decimal' priority='10'>2.000000</item>
-    <item name='filter.4/type' type='string' priority='9'>peaknotch</item>
-    <item name='filter.5/frequency' type='decimal' priority='12'>11025.000000</item>
-    <item name='filter.5/gain' type='decimal' priority='11'>-20.449438</item>
-    <item name='filter.5/q' type='decimal' priority='10'>2.500000</item>
-    <item name='filter.5/type' type='string' priority='9'>highshelf</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 140 </item>
+    <item name='audio/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0' mixweight='1'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='bands' type='integer' priority='1' mixweight='1'>24</item>
+    <item name='filter.1/frequency' type='decimal' priority='12' mixweight='1'>100.353867</item>
+    <item name='filter.1/gain' type='decimal' priority='11' mixweight='1'>-3.809515</item>
+    <item name='filter.1/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.1/type' type='string' priority='9' mixweight='1'>lowshelf</item>
+    <item name='filter.2/frequency' type='decimal' priority='12' mixweight='1'>250.000000</item>
+    <item name='filter.2/gain' type='decimal' priority='11' mixweight='1'>8.077622</item>
+    <item name='filter.2/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.2/type' type='string' priority='9' mixweight='1'>peaknotch</item>
+    <item name='filter.3/frequency' type='decimal' priority='12' mixweight='1'>500.000000</item>
+    <item name='filter.3/gain' type='decimal' priority='11' mixweight='1'>9.626923</item>
+    <item name='filter.3/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.3/type' type='string' priority='9' mixweight='1'>peaknotch</item>
+    <item name='filter.4/frequency' type='decimal' priority='12' mixweight='1'>1000.000000</item>
+    <item name='filter.4/gain' type='decimal' priority='11' mixweight='1'>12.208775</item>
+    <item name='filter.4/q' type='decimal' priority='10' mixweight='1'>2.000000</item>
+    <item name='filter.4/type' type='string' priority='9' mixweight='1'>peaknotch</item>
+    <item name='filter.5/frequency' type='decimal' priority='12' mixweight='1'>11025.000000</item>
+    <item name='filter.5/gain' type='decimal' priority='11' mixweight='1'>-20.449438</item>
+    <item name='filter.5/q' type='decimal' priority='10' mixweight='1'>2.500000</item>
+    <item name='filter.5/type' type='string' priority='9' mixweight='1'>highshelf</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>300 140 </item>
   </preset>
 </jamoma>

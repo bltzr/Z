@@ -5,19 +5,17 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='audio/gain' type='decimal' priority='0'>0.000000</item>
-    <item name='audio/mute' type='boolean' priority='0'>0</item>
-    <item name='balance/angle' type='decimal' priority='0'>0.</item>
-    <item name='balance/range' type='decimal' priority='0'>1.000000</item>
-    <item name='loopmode' type='boolean' priority='34'>1</item>
-    <item name='pause' type='boolean' priority='36'>0</item>
-    <item name='pitch' type='decimal' priority='35'>1.000000</item>
-    <item name='play' type='boolean' priority='36'>0</item>
-    <item name='view/color/border' type='array' priority='0'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
-    <item name='view/freeze' type='boolean' priority='0'>0</item>
-    <item name='view/size' type='array' priority='0'>300 105 </item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='balance/angle' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='balance/range' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='loopmode' type='boolean' priority='34' mixweight='1'>1</item>
+    <item name='mainfolder' type='array' priority='10' mixweight='1'>0</item>
+    <item name='pause' type='boolean' priority='36' mixweight='1'>0</item>
+    <item name='pitch' type='decimal' priority='35' mixweight='1'>1.000000</item>
+    <item name='play' type='boolean' priority='36' mixweight='1'>0</item>
+    <item name='selectedfile' type='string' priority='11' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
   </preset>
 </jamoma>

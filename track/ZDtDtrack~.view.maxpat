@@ -98,7 +98,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 23.0, 27.0, 123.0, 18.0 ],
-					"text" : "jcom.view model/address"
+					"text" : "jcom.remote model/address"
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 276.0, 37.0, 119.0, 18.0 ],
-					"text" : "jcom.hub @context view"
+					"text" : "jcom.view"
 				}
 
 			}

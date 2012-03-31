@@ -862,7 +862,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 250.0, 162.0, 19.0 ],
-									"text" : "open jcom.hub reference"
+									"text" : "open jcom.model reference"
 								}
 
 							}
@@ -1160,8 +1160,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 198.0, 315.0, 31.0 ],
-					"text" : "jcom.hub @module_type control @description \"This module loads a list of soundfiles to be used with jmod.ZDtD\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type control @description \"This module loads a list of soundfiles to be used with jmod.ZDtD\"",
+					"varname" : "jcom.model"
 				}
 
 			}

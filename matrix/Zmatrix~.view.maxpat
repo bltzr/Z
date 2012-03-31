@@ -250,7 +250,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.0, 197.0, 134.0, 18.0 ],
-					"text" : "jcom.view volume"
+					"text" : "jcom.remote volume"
 				}
 
 			}
@@ -1137,7 +1137,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 205.0, 395.0, 143.0, 19.0 ],
-													"text" : "jcom.view matrix2List",
+													"text" : "jcom.remote matrix2List",
 													"varname" : "matrixList"
 												}
 
@@ -2168,7 +2168,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 205.0, 395.0, 142.0, 19.0 ],
-									"text" : "jcom.view matrixList",
+									"text" : "jcom.remote matrixList",
 									"varname" : "matrixList"
 								}
 
@@ -3114,8 +3114,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 260.0, 135.0, 19.0 ],
-					"text" : "jcom.hub @context view",
-					"varname" : "jcom.hub"
+					"text" : "jcom.view",
+					"varname" : "jcom.model"
 				}
 
 			}
@@ -3167,7 +3167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 538.0, 21.0, 134.0, 19.0 ],
-					"text" : "jcom.view numSpeakers",
+					"text" : "jcom.remote numSpeakers",
 					"varname" : "numSpeakers"
 				}
 
@@ -3182,7 +3182,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 539.0, 92.0, 127.0, 19.0 ],
-					"text" : "jcom.view numSources",
+					"text" : "jcom.remote numSources",
 					"varname" : "numSources"
 				}
 
@@ -3197,7 +3197,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 188.0, 252.0, 119.0, 19.0 ],
-					"text" : "jcom.view interpolate",
+					"text" : "jcom.remote interpolate",
 					"varname" : "interpolate"
 				}
 

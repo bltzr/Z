@@ -1799,8 +1799,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 40.0, 204.0, 435.0, 20.0 ],
-					"text" : "jcom.hub @module_type audio @description \"enveloppe modulation\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type audio @description \"enveloppe modulation\"",
+					"varname" : "jcom.model"
 				}
 
 			}

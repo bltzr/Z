@@ -29,7 +29,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 454.0, 26.0, 109.0, 18.0 ],
-					"text" : "jcom.view model/mute"
+					"text" : "jcom.remote model/mute"
 				}
 
 			}
@@ -101,7 +101,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 65.0, 57.0, 76.0, 18.0 ],
-					"text" : "jcom.view loop"
+					"text" : "jcom.remote loop"
 				}
 
 			}
@@ -222,7 +222,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 49.0, 775.0, 100.0, 18.0 ],
-					"text" : "jcom.view arraySize"
+					"text" : "jcom.remote arraySize"
 				}
 
 			}
@@ -236,7 +236,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 498.0, 142.0, 84.0, 18.0 ],
-					"text" : "jcom.view grain",
+					"text" : "jcom.remote grain",
 					"varname" : "speed[1]"
 				}
 
@@ -282,7 +282,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 489.0, 87.0, 85.0, 18.0 ],
-					"text" : "jcom.view ramp"
+					"text" : "jcom.remote ramp"
 				}
 
 			}
@@ -779,7 +779,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 51.181885, 118.636353, 84.0, 18.0 ],
-									"text" : "jcom.view points"
+									"text" : "jcom.remote points"
 								}
 
 							}
@@ -2613,7 +2613,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 281.0, 19.0, 84.0, 18.0 ],
-					"text" : "jcom.view speed",
+					"text" : "jcom.remote speed",
 					"varname" : "speed"
 				}
 
@@ -2628,7 +2628,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 388.0, 165.0, 76.0, 18.0 ],
-					"text" : "jcom.view max"
+					"text" : "jcom.remote max"
 				}
 
 			}
@@ -2642,7 +2642,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 359.0, 140.0, 73.0, 18.0 ],
-					"text" : "jcom.view min"
+					"text" : "jcom.remote min"
 				}
 
 			}
@@ -2779,7 +2779,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 65.0, 106.0, 98.0, 18.0 ],
-					"text" : "jcom.view duration"
+					"text" : "jcom.remote duration"
 				}
 
 			}
@@ -2793,7 +2793,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 213.0, 140.0, 100.0, 18.0 ],
-					"text" : "jcom.view position"
+					"text" : "jcom.remote position"
 				}
 
 			}
@@ -2807,7 +2807,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 186.0, 74.0, 100.0, 18.0 ],
-					"text" : "jcom.view target"
+					"text" : "jcom.remote target"
 				}
 
 			}
@@ -2821,7 +2821,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 481.0, 7.0, 85.0, 18.0 ],
-					"text" : "jcom.view enable"
+					"text" : "jcom.remote enable"
 				}
 
 			}
@@ -2858,7 +2858,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 450.0, 604.0, 126.0, 18.0 ],
-					"text" : "jcom.hub @context view"
+					"text" : "jcom.view"
 				}
 
 			}

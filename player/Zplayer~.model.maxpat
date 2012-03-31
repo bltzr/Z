@@ -253,7 +253,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 286.0, 93.0, 113.0, 19.0 ],
-									"text" : "jcom.view transposition"
+									"text" : "jcom.remote transposition"
 								}
 
 							}
@@ -353,7 +353,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 211.0, 77.0, 111.0, 18.0 ],
-													"text" : "jcom.view unit/finished"
+													"text" : "jcom.remote unit/finished"
 												}
 
 											}
@@ -609,7 +609,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 409.0, 12.0, 112.0, 17.0 ],
-									"text" : "jcom.view sound/duration"
+									"text" : "jcom.remote sound/duration"
 								}
 
 							}
@@ -795,7 +795,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 35.0, 33.0, 80.0, 17.0 ],
-													"text" : "jcom.view corpus"
+													"text" : "jcom.remote corpus"
 												}
 
 											}
@@ -1964,7 +1964,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 386.0, 50.0, 115.0, 17.0 ],
-									"text" : "jcom.view sound/duration"
+									"text" : "jcom.remote sound/duration"
 								}
 
 							}
@@ -2669,7 +2669,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 219.0, 47.0, 17.0 ],
-					"text" : "jcom.hub"
+					"text" : "jcom.model"
 				}
 
 			}

@@ -539,7 +539,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 25.0, 61.0, 100.0, 17.0 ],
-					"text" : "jcom.view position/xy"
+					"text" : "jcom.remote position/xy"
 				}
 
 			}

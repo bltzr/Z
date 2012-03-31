@@ -114,7 +114,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 40.0, 108.0, 17.0 ],
-					"text" : "jcom.hub @context view"
+					"text" : "jcom.view"
 				}
 
 			}
@@ -128,7 +128,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 403.5, 142.5, 149.0, 20.0 ],
-					"text" : "jcom.view trajectory/menu"
+					"text" : "jcom.remote trajectory/menu"
 				}
 
 			}
@@ -142,7 +142,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 179.5, 167.5, 165.0, 20.0 ],
-					"text" : "jcom.view trajectory/direction"
+					"text" : "jcom.remote trajectory/direction"
 				}
 
 			}
@@ -197,7 +197,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 377.5, 91.5, 201.0, 20.0 ],
-					"text" : "jcom.view trajectory/speed/variation"
+					"text" : "jcom.remote trajectory/speed/variation"
 				}
 
 			}
@@ -602,7 +602,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 183.5, 92.5, 152.0, 20.0 ],
-					"text" : "jcom.view trajectory/speed"
+					"text" : "jcom.remote trajectory/speed"
 				}
 
 			}
@@ -767,7 +767,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 433.5, 224.5, 149.0, 20.0 ],
-					"text" : "jcom.view trajectory/mode"
+					"text" : "jcom.remote trajectory/mode"
 				}
 
 			}

@@ -4549,7 +4549,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.173554, 106.735535, 260.090912, 29.0 ],
-					"text" : "jcom.hub @description \"voice treatment module based on IRCAM's psychoirtrist~ object - Made by O. Pasquet\""
+					"text" : "jcom.model @description \"voice treatment module based on IRCAM's psychoirtrist~ object - Made by O. Pasquet\""
 				}
 
 			}

@@ -5663,8 +5663,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 150.0, 313.0, 19.0 ],
-					"text" : "jcom.hub @description \"Distance-based amplitude panning\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @description \"Distance-based amplitude panning\"",
+					"varname" : "jcom.model"
 				}
 
 			}

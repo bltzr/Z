@@ -286,7 +286,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 350.0, 159.0, 100.0, 20.0 ],
-					"text" : "jcom.view play"
+					"text" : "jcom.remote play"
 				}
 
 			}
@@ -4676,7 +4676,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 51.0, 51.0, 18.0 ],
-					"text" : "jcom.hub"
+					"text" : "jcom.model"
 				}
 
 			}

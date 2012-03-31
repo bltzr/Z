@@ -1099,8 +1099,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 20.0, 150.0, 426.0, 19.0 ],
-					"text" : "jcom.hub @module_type control @description \"module for 1 sensor from kroonde\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type control @description \"module for 1 sensor from kroonde\"",
+					"varname" : "jcom.model"
 				}
 
 			}

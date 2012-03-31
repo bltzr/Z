@@ -6444,7 +6444,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 329.5, 120.5, 129.0, 27.0 ],
-									"text" : "jcom.view /Zdbap(view)/speaker-setup"
+									"text" : "jcom.remote /Zdbap(view)/speaker-setup"
 								}
 
 							}
@@ -6498,7 +6498,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 188.5, 120.5, 129.0, 27.0 ],
-									"text" : "jcom.view /Zdbap(view)/selection-mode"
+									"text" : "jcom.remote /Zdbap(view)/selection-mode"
 								}
 
 							}

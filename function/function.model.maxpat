@@ -762,7 +762,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 79.0, 18.0 ],
-									"text" : "jcom.view grain",
+									"text" : "jcom.remote grain",
 									"varname" : "speed[2]"
 								}
 
@@ -1726,7 +1726,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 564.0, 523.0, 51.0, 18.0 ],
-					"text" : "jcom.hub"
+					"text" : "jcom.model"
 				}
 
 			}

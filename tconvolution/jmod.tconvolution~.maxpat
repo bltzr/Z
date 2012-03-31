@@ -5454,8 +5454,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.hub",
-					"text" : "jcom.hub @module_type audio @description \"4 channels convolution based on tconvolution.mxo\"",
+					"varname" : "jcom.model",
+					"text" : "jcom.model @module_type audio @description \"4 channels convolution based on tconvolution.mxo\"",
 					"id" : "obj-37",
 					"fontname" : "Verdana",
 					"numinlets" : 1,

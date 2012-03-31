@@ -6774,8 +6774,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 140.0, 302.0, 31.0 ],
-					"text" : "jcom.hub @module_type control @description \"This module manages the computer's keyboard input\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type control @description \"This module manages the computer's keyboard input\"",
+					"varname" : "jcom.model"
 				}
 
 			}

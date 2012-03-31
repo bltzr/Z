@@ -2319,8 +2319,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1.0, 236.0, 261.0, 30.0 ],
-					"text" : "jcom.hub @module_type video @algorithm_type jitter @description \"Read and control a QT movie\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type video @algorithm_type jitter @description \"Read and control a QT movie\"",
+					"varname" : "jcom.model"
 				}
 
 			}

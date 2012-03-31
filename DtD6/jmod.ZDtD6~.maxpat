@@ -987,8 +987,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 24.0, 214.0, 440.0, 19.0 ],
-					"text" : "jcom.hub @module_type audio @description \"2 channel DtD Z module\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type audio @description \"2 channel DtD Z module\"",
+					"varname" : "jcom.model"
 				}
 
 			}

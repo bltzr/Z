@@ -4020,7 +4020,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 38.0, 189.0, 121.0, 20.0 ],
-									"text" : "jcom.view position/xy"
+									"text" : "jcom.remote position/xy"
 								}
 
 							}
@@ -5396,7 +5396,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 410.0, 355.0, 74.0, 17.0 ],
-					"text" : "jcom.hub"
+					"text" : "jcom.model"
 				}
 
 			}

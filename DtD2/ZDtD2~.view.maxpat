@@ -230,7 +230,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 533.0, 359.0, 149.0, 20.0 ],
-					"text" : "jcom.view out/amplitude.2"
+					"text" : "jcom.remote out/amplitude.2"
 				}
 
 			}
@@ -244,7 +244,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 534.0, 315.0, 149.0, 20.0 ],
-					"text" : "jcom.view out/amplitude.1"
+					"text" : "jcom.remote out/amplitude.1"
 				}
 
 			}
@@ -258,7 +258,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 355.0, 387.0, 136.0, 18.0 ],
-					"text" : "jcom.view position/set"
+					"text" : "jcom.remote position/set"
 				}
 
 			}
@@ -314,7 +314,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 56.0, 222.0, 189.0, 18.0 ],
-					"text" : "jcom.view ramp/display @type decimal"
+					"text" : "jcom.remote ramp/display @type decimal"
 				}
 
 			}
@@ -329,7 +329,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 355.0, 293.0, 100.0, 29.0 ],
-					"text" : "jcom.view position @type decimal"
+					"text" : "jcom.remote position @type decimal"
 				}
 
 			}
@@ -360,7 +360,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 86.0, 355.0, 77.0, 17.0 ],
-					"text" : "jcom.view pause",
+					"text" : "jcom.remote pause",
 					"varname" : "jmod.parameter.mxb[1]"
 				}
 
@@ -424,7 +424,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 127.0, 148.0, 72.0, 17.0 ],
-					"text" : "jcom.view pitch",
+					"text" : "jcom.remote pitch",
 					"varname" : "pitch"
 				}
 
@@ -439,7 +439,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 360.0, 258.0, 147.0, 19.0 ],
-					"text" : "jcom.view file/name",
+					"text" : "jcom.remote file/name",
 					"varname" : "jcom.parameter.mxb[3]"
 				}
 
@@ -718,8 +718,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 104.5, 135.0, 19.0 ],
-					"text" : "jcom.hub @context view",
-					"varname" : "jcom.hub"
+					"text" : "jcom.view",
+					"varname" : "jcom.model"
 				}
 
 			}
@@ -837,7 +837,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 50.0, 173.0, 69.0, 17.0 ],
-					"text" : "jcom.view play",
+					"text" : "jcom.remote play",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -852,7 +852,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 547.0, 148.0, 103.0, 19.0 ],
-					"text" : "jcom.view balance"
+					"text" : "jcom.remote balance"
 				}
 
 			}
@@ -989,7 +989,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 318.0, 183.0, 84.0, 17.0 ],
-					"text" : "jcom.view path",
+					"text" : "jcom.remote path",
 					"varname" : "jcom.parameter.mxb[10]"
 				}
 
@@ -1028,7 +1028,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 203.0, 278.0, 93.0, 17.0 ],
-					"text" : "jcom.view ramp/time",
+					"text" : "jcom.remote ramp/time",
 					"varname" : "loop[1]"
 				}
 
@@ -1044,7 +1044,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 207.0, 346.0, 98.0, 17.0 ],
-					"text" : "jcom.view ramp/mode",
+					"text" : "jcom.remote ramp/mode",
 					"varname" : "loop[2]"
 				}
 
@@ -1223,7 +1223,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 219.0, 172.0, 70.0, 17.0 ],
-					"text" : "jcom.view loop",
+					"text" : "jcom.remote loop",
 					"varname" : "loop"
 				}
 

@@ -192,7 +192,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 24.0, 51.0, 57.0, 19.0 ],
-					"text" : "jcom.hub"
+					"text" : "jcom.model"
 				}
 
 			}
@@ -580,7 +580,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 34.0, 40.0, 77.0, 34.0 ],
-									"text" : "jcom.view out/mute"
+									"text" : "jcom.remote out/mute"
 								}
 
 							}
@@ -666,7 +666,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 276.0, 491.0, 117.0, 19.0 ],
-									"text" : "jcom.view IR.4/mute",
+									"text" : "jcom.remote IR.4/mute",
 									"varname" : "hue_angle[3]"
 								}
 
@@ -681,7 +681,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 199.0, 444.0, 117.0, 19.0 ],
-									"text" : "jcom.view IR.3/mute",
+									"text" : "jcom.remote IR.3/mute",
 									"varname" : "hue_angle[2]"
 								}
 
@@ -696,7 +696,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 130.0, 408.0, 117.0, 19.0 ],
-									"text" : "jcom.view IR.2/mute",
+									"text" : "jcom.remote IR.2/mute",
 									"varname" : "hue_angle[1]"
 								}
 
@@ -711,7 +711,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 59.0, 367.0, 117.0, 19.0 ],
-									"text" : "jcom.view IR.1/mute",
+									"text" : "jcom.remote IR.1/mute",
 									"varname" : "hue_angle[6]"
 								}
 

@@ -17,11 +17,8 @@
     <item name='orange' type='decimal' priority='0' mixweight='1'>0.190240</item>
     <item name='red' type='decimal' priority='0' mixweight='1'>0.406800</item>
     <item name='startChannels' type='array' priority='2' mixweight='1'>1 9 17 </item>
-    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
-    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
-    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
-    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/size' type='array' priority='0' mixweight='1'>300 70 </item>
+
   </preset>
 </jamoma>

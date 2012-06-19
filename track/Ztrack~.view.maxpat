@@ -4,10 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 435.0, 84.0, 434.0, 757.0 ],
+		"rect" : [ 868.0, 111.0, 434.0, 757.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -74,11 +75,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.0, 49.0, 100.0, 18.0 ],
-					"text" : "route set"
+					"patching_rect" : [ 23.0, 49.0, 141.0, 18.0 ],
+					"text" : "jcom.oscroute model/address"
 				}
 
 			}
@@ -93,20 +94,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.0, 76.0, 153.0, 18.0 ],
 					"text" : "sprintf model/address %s/player"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 23.0, 27.0, 133.0, 18.0 ],
-					"text" : "jcom.remote model/address"
 				}
 
 			}
@@ -321,7 +308,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}

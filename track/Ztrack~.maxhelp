@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 973.0, 280.0, 672.0, 655.0 ],
+		"rect" : [ -675.0, 36.0, 672.0, 655.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -28,16 +28,24 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-8",
-					"linecount" : 2,
-					"maxclass" : "newobj",
+					"id" : "obj-38",
+					"maxclass" : "ezdac~",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ 115.0, 564.0, 100.0, 27.0 ],
-					"text" : "Zmodulation~.model mod.1"
+					"numoutlets" : 0,
+					"patching_rect" : [ 250.63414, 468.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "/track.1", "/track1" ],
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "Ztrack~.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 345.0, 106.0, 304.0, 524.0 ]
 				}
 
 			}
@@ -116,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 32,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 232.0, 197.0, 91.0, 18.0 ],
+					"patching_rect" : [ 223.0, 172.0, 385.365662, 18.0 ],
 					"text" : "jcom.multi.out~",
 					"varname" : "multiout[1]"
 				}
@@ -150,10 +158,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
-						"rect" : [ 944.0, 331.0, 240.0, 130.0 ],
+						"rect" : [ 1159.0, 318.0, 240.0, 130.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -234,16 +242,16 @@
 ,
 					"patching_rect" : [ 283.0, 133.0, 43.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"tags" : ""
+						"fontface" : 0
 					}
 ,
 					"text" : "p source"
@@ -266,19 +274,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/track.1", "/track1" ],
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "Ztrack~.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 352.0, 109.0, 304.0, 524.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-36",
@@ -290,7 +285,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 249.0, 118.0, 419.0, 286.0 ],
@@ -1023,16 +1018,16 @@
 ,
 					"patching_rect" : [ 105.0, 494.5, 98.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : ""
+						"fontface" : 0
 					}
 ,
 					"text" : "p corpus-creator",
@@ -1055,7 +1050,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 166.0, 351.0, 275.0, 374.0 ],
@@ -1104,7 +1099,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 26.0, 44.0, 912.0, 679.0 ],
@@ -1309,7 +1304,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 25.0, 69.0, 243.0, 355.0 ],
@@ -1531,16 +1526,16 @@
 ,
 													"patching_rect" : [ 219.0, 511.0, 88.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 12.0,
 														"description" : "",
 														"globalpatchername" : "",
-														"fontface" : 0,
-														"fontsize" : 12.0,
-														"tags" : ""
+														"fontface" : 0
 													}
 ,
 													"text" : "p offset"
@@ -2812,16 +2807,16 @@
 ,
 									"patching_rect" : [ 143.0, 62.0, 105.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontface" : 0
 									}
 ,
 									"text" : "p make_menus_dicts"
@@ -2854,7 +2849,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 286.0, 470.0, 516.0, 402.0 ],
@@ -3751,16 +3746,16 @@
 ,
 									"patching_rect" : [ 19.0, 181.0, 38.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"tags" : ""
+										"fontface" : 0
 									}
 ,
 									"text" : "p load"
@@ -3781,7 +3776,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 430.0, 369.0, 346.0, 520.0 ],
@@ -3924,7 +3919,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 4
+															"revision" : 5
 														}
 ,
 														"rect" : [ 461.0, 653.0, 689.0, 358.0 ],
@@ -4573,16 +4568,16 @@
 ,
 													"patching_rect" : [ 35.0, 336.0, 97.0, 18.0 ],
 													"saved_object_attributes" : 													{
+														"fontsize" : 10.0,
 														"default_fontface" : 0,
 														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
+														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
 														"globalpatchername" : "",
-														"fontface" : 0,
-														"fontsize" : 10.0,
-														"tags" : ""
+														"fontface" : 0
 													}
 ,
 													"text" : "p script"
@@ -5082,16 +5077,16 @@
 ,
 									"patching_rect" : [ 60.0, 225.0, 120.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"tags" : ""
+										"fontface" : 0
 									}
 ,
 									"text" : "p build"
@@ -5126,7 +5121,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 50.0, 94.0, 282.0, 390.0 ],
@@ -5371,16 +5366,16 @@
 ,
 									"patching_rect" : [ 144.0, 130.0, 57.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"tags" : ""
+										"fontface" : 0
 									}
 ,
 									"text" : "p stripExts"
@@ -5426,7 +5421,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 4
+											"revision" : 5
 										}
 ,
 										"rect" : [ 345.0, 368.0, 571.0, 333.0 ],
@@ -5839,16 +5834,16 @@
 ,
 									"patching_rect" : [ 60.0, 262.0, 144.0, 62.0 ],
 									"saved_object_attributes" : 									{
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
+										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"tags" : ""
+										"fontface" : 0
 									}
 ,
 									"text" : "p corp",
@@ -6207,16 +6202,16 @@
 ,
 					"patching_rect" : [ 38.0, 493.0, 61.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : ""
+						"fontface" : 0
 					}
 ,
 					"text" : "p corpora",
@@ -6250,10 +6245,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
-						"rect" : [ 867.0, 95.0, 295.0, 219.0 ],
+						"rect" : [ -978.0, 93.0, 295.0, 219.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -6272,7 +6267,18 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-38",
+									"maxclass" : "ezdac~",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patching_rect" : [ 240.333313, 65.0, 45.0, 45.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
@@ -6290,8 +6296,8 @@
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "audio.connect" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "audio.connect", "signal" ],
 									"patching_rect" : [ 52.0, 151.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.6 /Zdbap/source.6"
 								}
@@ -6304,8 +6310,8 @@
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "audio.connect" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "audio.connect", "signal" ],
 									"patching_rect" : [ 52.0, 128.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.5 /Zdbap/source.5"
 								}
@@ -6318,8 +6324,8 @@
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "audio.connect" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "audio.connect", "signal" ],
 									"patching_rect" : [ 52.0, 105.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.4 /Zdbap/source.4"
 								}
@@ -6332,8 +6338,8 @@
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "audio.connect" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "audio.connect", "signal" ],
 									"patching_rect" : [ 52.0, 79.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.3 /Zdbap/source.3"
 								}
@@ -6346,8 +6352,8 @@
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "audio.connect" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "audio.connect", "signal" ],
 									"patching_rect" : [ 52.0, 53.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.2 /Zdbap/source.2"
 								}
@@ -6360,8 +6366,8 @@
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "audio.connect" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "audio.connect", "signal" ],
 									"patching_rect" : [ 52.0, 31.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.1 /Zdbap/source.1"
 								}
@@ -6406,6 +6412,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-38", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6432,42 +6447,6 @@
 , 							{
 								"name" : "ZdbapSourceControl.model.maxpat",
 								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "Zplayer~.model.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/player",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "gbr.delay.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "catart.data.proxy.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "ftm.mdispatch.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "catart.synthesis.lookup.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "varmetro.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/player",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -6538,58 +6517,6 @@
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "ftm.mess.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "gbr.fire~.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "gbr.resample.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "ftm.copy.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "ftm.object.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "gbr.wind=.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "gbr.ola~.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "ftm.list.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "ftm.iter.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "ftm.print.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.init.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "ftm.vecdisplay.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.preset.mxo",
-								"type" : "iLaX"
-							}
-, 							{
 								"name" : "jcom.map.mxo",
 								"type" : "iLaX"
 							}
@@ -6602,7 +6529,15 @@
 								"type" : "iLaX"
 							}
 , 							{
+								"name" : "jcom.preset.mxo",
+								"type" : "iLaX"
+							}
+, 							{
 								"name" : "jcom.pack≈.mxo",
+								"type" : "iLaX"
+							}
+, 							{
+								"name" : "jcom.offset≈.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -6620,18 +6555,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 119.0, 132.0, 74.0, 27.0 ],
+					"patching_rect" : [ 79.0, 113.0, 74.0, 27.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : ""
+						"fontface" : 0
 					}
 ,
 					"text" : "p tracks"
@@ -6749,7 +6684,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 849.0, 65.0, 320.0, 213.0 ],
@@ -6866,29 +6801,19 @@
 ,
 					"patching_rect" : [ 38.0, 198.0, 31.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
-						"tags" : ""
+						"fontface" : 0
 					}
 ,
 					"text" : "p rint"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 116.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -6934,7 +6859,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 789.0, 58.0, 237.0, 186.0 ],
@@ -7155,16 +7080,16 @@
 ,
 					"patching_rect" : [ 161.0, 378.0, 23.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
-						"tags" : ""
+						"fontface" : 0
 					}
 ,
 					"text" : "p"
@@ -7288,7 +7213,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 410.0, 730.0, 517.0, 181.0 ],
@@ -7645,16 +7570,16 @@
 ,
 					"patching_rect" : [ 144.5, 352.5, 76.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
-						"tags" : ""
+						"fontface" : 0
 					}
 ,
 					"text" : "p keys/helpers"
@@ -7668,10 +7593,9 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 144.0, 403.0, 100.0, 17.0 ],
-					"text" : "cueManager.model"
+					"text" : "cueManager.mode"
 				}
 
 			}
@@ -7684,8 +7608,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "audio.connect", "audio.connect" ],
-					"patching_rect" : [ 38.0, 173.0, 100.0, 17.0 ],
-					"text" : "Zdbap.model /Zdbap",
+					"patching_rect" : [ 38.0, 172.0, 125.0, 17.0 ],
+					"text" : "Zdbap.model /Zdbap 6 4",
 					"varname" : "Zdbap.model"
 				}
 
@@ -7895,7 +7819,7 @@
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 128.5, 193.0, 207.0, 193.0, 207.0, 317.0, 46.5, 317.0 ],
+					"midpoints" : [ 153.5, 193.0, 207.0, 193.0, 207.0, 317.0, 46.5, 317.0 ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -8004,7 +7928,6 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 292.5, 156.0, 343.0, 156.0, 343.0, 105.0, 361.5, 105.0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -8138,20 +8061,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cueManager.model.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/modules/control/cueManager",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/modules/control/cueManager",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.namespace+.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/namespace+",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/namespace+",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/initialized",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/initialized",
@@ -8201,48 +8110,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Zplayer~.model.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/player",
-				"patcherrelativepath" : "../player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gbr.delay.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-				"patcherrelativepath" : "../../../../cataRT-svn/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "catart.data.proxy.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-				"patcherrelativepath" : "../../../../cataRT-svn/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ftm.mdispatch.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-				"patcherrelativepath" : "../../../../cataRT-svn/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "catart.synthesis.lookup.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-				"patcherrelativepath" : "../../../../cataRT-svn/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "varmetro.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/player",
-				"patcherrelativepath" : "../player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Zmodulation~.model.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/modulation",
 				"patcherrelativepath" : "../modulation",
@@ -8271,9 +8138,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ftm.mdispatch.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
+				"patcherrelativepath" : "../../../../cataRT-svn/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cataRT-license.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn",
 				"patcherrelativepath" : "../../../../cataRT-svn",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "catart.data.proxy.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
+				"patcherrelativepath" : "../../../../cataRT-svn/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8434,7 +8315,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "jcom.offset≈.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8470,14 +8351,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.cuemanager.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.namespace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.meter~.mxo",
 				"type" : "iLaX"
 			}
@@ -8486,55 +8359,11 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jcom.oscroute.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jcom.route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.mess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gbr.fire~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gbr.resample.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.copy.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.object.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gbr.wind=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "gbr.ola~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.print.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.vecdisplay.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8554,7 +8383,39 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.print.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gbr.resample.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.iter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "ftm.value.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.copy.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.vecdisplay.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8563,6 +8424,10 @@
 			}
 , 			{
 				"name" : "gbr.fft.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gbr.wind=.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8591,6 +8456,10 @@
 			}
 , 			{
 				"name" : "jcom.textslider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.init.mxo",
 				"type" : "iLaX"
 			}
  ]

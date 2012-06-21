@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 798.0, 324.0, 357.0, 196.0 ],
+		"rect" : [ -1180.0, 275.0, 357.0, 196.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,40 +28,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-11",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 275.0, 159.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 206.0, 39.0, 40.0, 18.0 ],
-					"text" : "*~ 0.02"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-9",
+					"fontsize" : 9.0,
+					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 206.0, 9.0, 40.0, 18.0 ],
-					"text" : "noise~"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "signal" ],
+					"patching_rect" : [ 207.0, 39.0, 87.0, 17.0 ],
+					"text" : "Zgran~.model gran"
 				}
 
 			}
@@ -379,16 +354,16 @@
 ,
 					"patching_rect" : [ 131.0, 16.0, 54.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"fontname" : "Arial",
 						"globalpatchername" : "",
-						"tags" : "",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"tags" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p connect"
@@ -435,7 +410,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 131.0, 98.0, 163.0, 18.0 ],
-					"text" : "equalizerM~.model /eq 5",
+					"text" : "equalizerM~.model eq 5",
 					"varname" : "eq"
 				}
 
@@ -450,7 +425,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
 					"patching_rect" : [ 131.0, 67.0, 163.0, 18.0 ],
-					"text" : "Zmodulation~.model /mod"
+					"text" : "Zmodulation~.model mod"
 				}
 
 			}
@@ -518,15 +493,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -545,6 +511,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -554,28 +529,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -619,6 +576,13 @@
 				"name" : "jcom.multi.in~.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/multi.in%",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/multi.in%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Zgran~.model.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/gran",
+				"patcherrelativepath" : "../gran",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -692,6 +656,10 @@
 			}
 , 			{
 				"name" : "jcom.savebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bufGranul~.mxo",
 				"type" : "iLaX"
 			}
  ]

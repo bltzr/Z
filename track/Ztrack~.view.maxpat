@@ -29,6 +29,21 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "track.1/gran" ],
+					"id" : "obj-3",
+					"maxclass" : "bpatcher",
+					"name" : "Zgran~.view.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 104.0, 100.0, 300.0, 175.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 0.0, 300.0, 175.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
@@ -93,7 +108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 104.0, 76.0, 153.0, 18.0 ],
-					"text" : "sprintf model/address %s/player"
+					"text" : "sprintf model/address %s/gran"
 				}
 
 			}
@@ -139,21 +154,6 @@
 					"patching_rect" : [ 104.0, 311.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 175.0, 300.0, 70.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "#1/player", "#2player(view)" ],
-					"id" : "obj-6",
-					"maxclass" : "bpatcher",
-					"name" : "Zplayer~.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 97.0, 300.0, 175.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ]
 				}
 
 			}
@@ -220,7 +220,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
@@ -321,34 +321,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Zplayer~.view.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/player",
-				"patcherrelativepath" : "../player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "catart.data.proxy.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-				"patcherrelativepath" : "../../../../cataRT-svn/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ftm.mdispatch.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/cataRT-svn/lib",
-				"patcherrelativepath" : "../../../../cataRT-svn/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sw.maxpat",
-				"bootpath" : "/Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Zmodulation~.view.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/modulation",
 				"patcherrelativepath" : "../modulation",
@@ -391,6 +363,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Zgran~.view.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/gran",
+				"patcherrelativepath" : "../gran",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.random.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jcom.view.mxo",
 				"type" : "iLaX"
 			}
@@ -399,43 +385,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ftm.editor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.textslider.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.mess.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.list.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.object.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.iter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.print.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.copy.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "jcom.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.dataspace.mxo",
+				"name" : "jcom.textslider.mxo",
 				"type" : "iLaX"
 			}
 , 			{

@@ -3,16 +3,22 @@
  <preset name="default">
   <!--"edit a comment"-->
   <command address="sound/bufferpool">pool</command>
-  <command address="sound/folder">G-trains</command>
+  <command address="sound/folder">none</command>
+  <command address="sound/buffer">none</command>
+  <command address="continuous">0</command>
   <command address="length">33.104168</command>
   <command address="density">1.000000</command>
+  <command address="density/jit">0.000000</command>
   <command address="sound/enveloppe">hanning.aif</command>
   <command address="length/jit">0.000000</command>
-  <command address="delay/jit">0.125000</command>
+  <command address="delay">0.</command>
+  <command address="delay/jit">0.000</command>
   <command address="position">0.000000</command>
   <command address="voices">64</command>
   <command address="pitch">1.000000</command>
+  <command address="pitch/jit">0.000000</command>
   <command address="amp">0.500000</command>
+  <command address="amp/jit">0.00000</command>
   <command address="position/jit">0.000000</command>
  </preset>
 </jamoma>

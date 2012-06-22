@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 114.0, 110.0, 1082.0, 661.0 ],
+		"rect" : [ 309.0, 141.0, 1082.0, 661.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -123,18 +123,17 @@
 					}
 ,
 					"patching_rect" : [ 748.0, 106.0, 43.0, 17.0 ],
-					"presentation_rect" : [ 767.0, 127.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p source"
@@ -151,8 +150,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 695.0, 106.0, 43.0, 23.0 ],
-					"presentation_rect" : [ 767.0, 100.0, 0.0, 0.0 ]
+					"patching_rect" : [ 695.0, 106.0, 43.0, 23.0 ]
 				}
 
 			}
@@ -390,16 +388,16 @@
 ,
 					"patching_rect" : [ 283.0, 133.0, 43.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p source"
@@ -438,7 +436,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ -1440.0, 93.0, 680.0, 250.0 ],
+						"rect" : [ -1431.0, 21.0, 352.0, 221.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -583,18 +581,18 @@
  ]
 									}
 ,
-									"patching_rect" : [ 52.0, 182.0, 32.0, 18.0 ],
+									"patching_rect" : [ 17.0, 176.0, 32.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"default_fontsize" : 12.0,
-										"description" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"digest" : "",
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
-										"tags" : ""
+										"fontname" : "Arial",
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p init"
@@ -610,7 +608,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 84.5, 182.0, 100.0, 17.0 ],
+									"patching_rect" : [ 49.5, 176.0, 100.0, 17.0 ],
 									"text" : "bufferpool.model pool"
 								}
 
@@ -624,7 +622,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 101.666664, 109.0, 17.0 ],
+									"patching_rect" : [ 224.0, 97.666664, 109.0, 17.0 ],
 									"text" : "ledStrip.model ledStrip.4"
 								}
 
@@ -638,7 +636,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 77.666664, 109.0, 17.0 ],
+									"patching_rect" : [ 224.0, 73.666664, 109.0, 17.0 ],
 									"text" : "ledStrip.model ledStrip.3"
 								}
 
@@ -652,7 +650,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 53.666668, 109.0, 17.0 ],
+									"patching_rect" : [ 224.0, 49.666668, 109.0, 17.0 ],
 									"text" : "ledStrip.model ledStrip.2"
 								}
 
@@ -666,7 +664,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 29.0, 109.0, 17.0 ],
+									"patching_rect" : [ 224.0, 25.0, 109.0, 17.0 ],
 									"text" : "ledStrip.model ledStrip.1"
 								}
 
@@ -678,7 +676,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 198.0, 182.0, 19.0, 19.0 ]
+									"patching_rect" : [ 163.0, 176.0, 19.0, 19.0 ]
 								}
 
 							}
@@ -691,7 +689,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "audio.connect" ],
-									"patching_rect" : [ 52.0, 151.0, 165.0, 17.0 ],
+									"patching_rect" : [ 17.0, 145.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.6 /Zdbap/source.6"
 								}
 
@@ -705,7 +703,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "audio.connect" ],
-									"patching_rect" : [ 52.0, 128.0, 165.0, 17.0 ],
+									"patching_rect" : [ 17.0, 122.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.5 /Zdbap/source.5"
 								}
 
@@ -719,7 +717,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "audio.connect" ],
-									"patching_rect" : [ 52.0, 105.0, 165.0, 17.0 ],
+									"patching_rect" : [ 17.0, 99.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.4 /Zdbap/source.4"
 								}
 
@@ -733,7 +731,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "audio.connect" ],
-									"patching_rect" : [ 52.0, 79.0, 165.0, 17.0 ],
+									"patching_rect" : [ 17.0, 73.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.3 /Zdbap/source.3"
 								}
 
@@ -747,7 +745,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "audio.connect" ],
-									"patching_rect" : [ 52.0, 53.0, 165.0, 17.0 ],
+									"patching_rect" : [ 17.0, 47.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.2 /Zdbap/source.2"
 								}
 
@@ -761,7 +759,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "audio.connect" ],
-									"patching_rect" : [ 52.0, 31.0, 165.0, 17.0 ],
+									"patching_rect" : [ 17.0, 25.0, 165.0, 17.0 ],
 									"text" : "Ztrack~.model /track.1 /Zdbap/source.1"
 								}
 
@@ -984,16 +982,16 @@
 ,
 					"patching_rect" : [ 79.0, 113.0, 84.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p models"
@@ -1228,16 +1226,16 @@
 ,
 					"patching_rect" : [ 38.0, 198.0, 31.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 9.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p rint"
@@ -1507,16 +1505,16 @@
 ,
 					"patching_rect" : [ 161.0, 378.0, 23.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 9.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p"
@@ -1997,16 +1995,16 @@
 ,
 					"patching_rect" : [ 144.5, 352.5, 76.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 9.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 9.0,
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p keys/helpers"
@@ -2036,7 +2034,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "audio.connect", "audio.connect" ],
 					"patching_rect" : [ 38.0, 172.0, 125.0, 17.0 ],
-					"text" : "Zdbap.model /Zdbap 6 4",
+					"text" : "Zdbap.model /Zdbap 8 13",
 					"varname" : "Zdbap.model"
 				}
 

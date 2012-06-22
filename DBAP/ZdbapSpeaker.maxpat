@@ -35,6 +35,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 115.0, 181.0, 100.0, 17.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -100,12 +104,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-2",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 35.0, 70.0, 17.0 ],
-					"text" : "jcom.model"
+					"patching_rect" : [ 15.0, 35.0, 70.0, 27.0 ],
+					"text" : "jcom.model component"
 				}
 
 			}
@@ -120,7 +125,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 115.0, 26.0, 392.0, 43.0 ],
-					"text" : "jcom.parameter position-xy @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag mise",
+					"text" : "jcom.parameter position/xy @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag mise",
 					"varname" : "parameter"
 				}
 

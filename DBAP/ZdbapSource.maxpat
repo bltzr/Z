@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 742.0, 238.0, 520.0, 459.0 ],
+		"rect" : [ 462.0, 167.0, 520.0, 459.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -35,7 +35,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 116.0, 254.0, 33.0, 17.0 ],
+					"patching_rect" : [ 115.5, 256.0, 33.0, 17.0 ],
 					"text" : "* 1."
 				}
 
@@ -48,7 +48,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.0, 311.0, 31.0, 17.0 ],
+					"patching_rect" : [ 163.5, 313.0, 31.0, 17.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 2"
 				}
 
@@ -1973,18 +1977,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 164.0, 278.0, 57.0, 27.0 ],
+					"patching_rect" : [ 163.5, 280.0, 57.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p aux"
@@ -2001,8 +2005,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 28.0, 128.0, 452.0, 34.0 ],
-					"text" : "jcom.parameter position/xy @type array @ramp/drive scheduler @range/bounds -1. 1. @description \"source  x/y position\" @priority 5 @value/default 0. 0."
+					"patching_rect" : [ 28.0, 128.0, 485.0, 34.0 ],
+					"text" : "jcom.parameter position/xy @type array @ramp/drive scheduler @range/bounds -1. 1. @description \"source  x/y position\" @priority 5 @value/default 0. 0. @repetitions/allow 0"
 				}
 
 			}
@@ -2016,7 +2020,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 24.0, 402.0, 465.0, 34.0 ],
+					"patching_rect" : [ 23.5, 404.0, 465.0, 34.0 ],
 					"text" : "jcom.parameter color @type array @description \"source color\" @ramp/drive queue @value/default 1. 0. 0. 1."
 				}
 
@@ -2030,7 +2034,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.0, 336.0, 63.0, 17.0 ],
+					"patching_rect" : [ 409.5, 338.0, 63.0, 17.0 ],
 					"text" : "deferlow"
 				}
 
@@ -2044,7 +2048,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.0, 316.0, 63.0, 17.0 ],
+					"patching_rect" : [ 409.5, 318.0, 63.0, 17.0 ],
 					"text" : "loadmess init"
 				}
 
@@ -2066,7 +2070,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 742.0, 469.0, 975.0, 449.0 ],
+						"rect" : [ 344.0, 398.0, 975.0, 449.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -2124,7 +2128,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 500.0, 112.333328, 385.0, 48.0 ],
-									"text" : "jcom.parameter area/size/xy @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 x position\" @priority 21 @value/default 0.2 0.2 @range/clipmode both"
+									"text" : "jcom.parameter area/size/xy @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 x position\" @priority 21 @value/default 0.2 0.2 @range/clipmode both @repetitions/allow 0"
 								}
 
 							}
@@ -2139,7 +2143,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 40.333332, 112.333328, 440.0, 48.0 ],
-									"text" : "jcom.parameter area/xy @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 y position\" @priority 20 @range/clipmode both @value/default 0. 0."
+									"text" : "jcom.parameter area/xy @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 y position\" @priority 20 @range/clipmode both @value/default 0. 0. @repetitions/allow 0"
 								}
 
 							}
@@ -2333,16 +2337,16 @@
 ,
 									"patching_rect" : [ 561.0, 293.0, 57.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 9.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 9.0
+										"fontsize" : 9.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p priority"
@@ -2741,16 +2745,16 @@
 ,
 									"patching_rect" : [ 711.0, 390.0, 92.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 9.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 9.0
+										"fontsize" : 9.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p format"
@@ -3520,16 +3524,16 @@
 ,
 									"patching_rect" : [ 32.0, 316.5, 389.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p speed"
@@ -3956,7 +3960,7 @@
 							}
 , 							{
 								"name" : "DBAPspat.xml",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Holophon",
+								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -3997,18 +4001,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 177.0, 357.0, 62.0, 27.0 ],
+					"patching_rect" : [ 176.5, 359.0, 62.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p trajs",
@@ -4201,16 +4205,16 @@
 ,
 									"patching_rect" : [ 78.0, 102.0, 31.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 9.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 9.0
+										"fontsize" : 9.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p d2r"
@@ -4534,16 +4538,16 @@
 ,
 									"patching_rect" : [ 38.0, 162.0, 139.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p poltocarAP"
@@ -4746,16 +4750,16 @@
 ,
 									"patching_rect" : [ 110.0, 137.0, 68.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p cartopolXY"
@@ -4877,18 +4881,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 250.0, 357.0, 66.0, 27.0 ],
+					"patching_rect" : [ 249.5, 359.0, 66.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p polar"
@@ -5037,18 +5041,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 226.0, 311.0, 51.0, 17.0 ],
+					"patching_rect" : [ 225.5, 313.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p prepend"
@@ -5065,7 +5069,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 226.0, 257.0, 252.0, 48.0 ],
+					"patching_rect" : [ 225.5, 259.0, 252.0, 48.0 ],
 					"text" : "jcom.parameter blur @type decimal @range/bounds 0. 4.@ramp/drive scheduler @description blur @value/default 0."
 				}
 
@@ -5212,18 +5216,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 89.0, 298.0, 51.0, 17.0 ],
+					"patching_rect" : [ 88.5, 300.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p prepend"
@@ -5240,7 +5244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 164.0, 214.0, 321.0, 32.0 ],
+					"patching_rect" : [ 163.5, 216.0, 321.0, 32.0 ],
 					"text" : "jcom.parameter volume @type decimal @ramp/drive scheduler @description volume @value/default 0. @priority 10"
 				}
 
@@ -5387,18 +5391,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 96.0, 211.0, 51.0, 17.0 ],
+					"patching_rect" : [ 95.5, 213.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p prepend"
@@ -5415,8 +5419,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 96.0, 168.0, 395.0, 34.0 ],
-					"text" : "jcom.parameter weight @type array @description \"source weight list\" @ramp/drive queue @value/default 1. 1. 0 0 0 0 0 0 0 0 0"
+					"patching_rect" : [ 95.5, 170.0, 395.0, 34.0 ],
+					"text" : "jcom.parameter weight @type array @description \"source weight list\" @ramp/drive queue @value/default 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -5562,18 +5566,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 28.0, 184.0, 51.0, 17.0 ],
+					"patching_rect" : [ 27.5, 186.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p prepend"
@@ -5588,7 +5592,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.0, 365.0, 74.0, 17.0 ],
+					"patching_rect" : [ 333.5, 367.0, 74.0, 17.0 ],
 					"text" : "s #0_instance"
 				}
 
@@ -5615,7 +5619,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 368.0, 31.0, 17.0 ],
+					"patching_rect" : [ 26.5, 370.0, 31.0, 17.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -5629,7 +5637,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 334.0, 343.0, 46.0, 17.0 ],
+					"patching_rect" : [ 333.5, 345.0, 46.0, 17.0 ],
 					"text" : "thispoly~"
 				}
 
@@ -5643,7 +5651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 334.0, 322.0, 48.0, 17.0 ],
+					"patching_rect" : [ 333.5, 324.0, 48.0, 17.0 ],
 					"text" : "loadbang"
 				}
 
@@ -5688,7 +5696,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 410.0, 355.0, 74.0, 27.0 ],
+					"patching_rect" : [ 409.5, 357.0, 74.0, 27.0 ],
 					"text" : "jcom.model component"
 				}
 
@@ -5875,8 +5883,8 @@
 			}
 , 			{
 				"name" : "DBAPspat.xml",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Holophon",
-				"patcherrelativepath" : "../../Holophon",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
+				"patcherrelativepath" : "",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

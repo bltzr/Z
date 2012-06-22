@@ -1,51 +1,220 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
 <jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
- <!--TODO : TTContainer Description at mAddress-->
- <preset number="1" name="default">
-  <!---->
-  <Data address="numSources" value="2" priority="1"/>
-  <Data address="numAux" value="6" priority="2"/>
-  <Data address="numSpeakers" value="4" priority="3"/>
-  <Data address="rolloff" priority="4"/>
-  <Data address="gain" priority="4"/>
-  <Data address="speaker.4/position/xy" value="0.870035 0.352103" priority="4"/>
-  <Data address="speaker.2/position/xy" value="0.502031 0.942728" priority="4"/>
-  <Data address="speaker.1/position/xy" value="-0.474771 0.942728" priority="4"/>
-  <Data address="speaker.7/position/xy" value="-0.883665 -0.479315" priority="4"/>
-  <Data address="speaker.8/position/xy" value="0.924554 -0.538377" priority="4"/>
-  <Data address="speaker.5/position/xy" value="-0.270324 0.147656" priority="4"/>
-  <Data address="speaker.6/position/xy" value="0.311214 0.165829" priority="4"/>
-  <Data address="speaker.3/position/xy" value="-0.833689 0.311214" priority="4"/>
-  <Data address="source.1/trajectory/file" priority="7"/>
-  <Data address="source.2/trajectory/file" priority="7"/>
-  <Data address="source.2/area.1/sizey" priority="20"/>
-  <Data address="source.1/area.1/sizey" priority="20"/>
-  <Data address="source.2/area.1/y" priority="20"/>
-  <Data address="source.1/area.1/y" priority="20"/>
-  <Data address="source.2/area.1/x" priority="21"/>
-  <Data address="source.1/area.1/x" priority="21"/>
-  <Data address="source.1/area.1/sizex" priority="21"/>
-  <Data address="source.2/area.1/sizex" priority="21"/>
-  <Data address="source.1/trajectory/speed" priority="22"/>
-  <Data address="source.2/trajectory/speed" priority="22"/>
-  <Data address="source.1/trajectory/speed/variation" priority="23"/>
-  <Data address="source.2/trajectory/grain" priority="24"/>
-  <Data address="source.2/trajectory/direction" priority="25"/>
-  <Data address="source.1/trajectory/direction" priority="25"/>
-  <Data address="source.1/trajectory/mode" priority="30"/>
-  <Data address="source.2/trajectory/mode" priority="30"/>
-  <Data address="source.2/blur" priority="0"/>
-  <Data address="speaker.1/node/mute" priority="0"/>
-  <Data address="source.1/color" value="0.966387 0.176471 0.176471 1.000000" priority="0"/>
-  <Data address="source.1/weight" value="1.000000 1.000000 0 0 1.000000 1.000000 1.000000 1.000000" priority="0"/>
-  <Data address="model/mute" priority="0"/>
-  <Data address="source.1/blur" priority="0"/>
-  <Data address="source.1/volume" priority="0"/>
-  <Data address="source.2/weight" value="1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000" priority="0"/>
-  <Data address="source.4/node/mute" priority="0"/>
-  <Data address="source.2/color" value="0.196879 0.884754 0.311049 1.000000" priority="0"/>
-  <Data address="source.2/volume" priority="0"/>
-  <Data address="speaker.2/node/mute" priority="0"/>
-  <Data address="speaker.3/node/mute" priority="0"/>
+ <preset name="default">
+  <!--"edit a comment"-->
+  <command address="source.5/trajectory/choice">--- static ---</command>
+  <command address="source.7/trajectory/choice">--- static ---</command>
+  <command address="source.3/trajectory/choice">--- static ---</command>
+  <command address="source.1/trajectory/choice">--- static ---</command>
+  <command address="source.8/trajectory/choice">--- static ---</command>
+  <command address="source.4/trajectory/choice">--- static ---</command>
+  <command address="source.6/trajectory/choice">--- static ---</command>
+  <command address="source.2/trajectory/choice">--- static ---</command>
+  <command address="rolloff">6</command>
+  <command address="gain">1.000000</command>
+  <command address="speaker.4/position/xy">0.883665 0.583810</command>
+  <command address="speaker.8/position/xy">0.983617 -0.056791</command>
+  <command address="speaker.1/position/xy">-0.679218 0.983617</command>
+  <command address="speaker.2/position/xy">0.674675 0.979074</command>
+  <command address="speaker.6/position/xy">0.679218 0.370276</command>
+  <command address="speaker.3/position/xy">-0.892752 0.579266</command>
+  <command address="speaker.5/position/xy">-0.688305 0.370276</command>
+  <command address="speaker.11/position/xy">-0.047704 0.474771</command>
+  <command address="speaker.9/position/xy">-0.583810 -0.979074</command>
+  <command address="speaker.12/position/xy">-0.047704 0.161286</command>
+  <command address="speaker.7/position/xy">-0.983617 -0.043161</command>
+  <command address="speaker.10/position/xy">0.583810 -1.006333</command>
+  <command address="source.5/position/xy">0.000000 0.000000</command>
+  <command address="source.7/position/xy">0.000000 0.000000</command>
+  <command address="source.3/position/xy">0.000000 0.000000</command>
+  <command address="source.1/position/xy">0.000000 0.000000</command>
+  <command address="source.8/position/xy">0.000000 0.000000</command>
+  <command address="source.4/position/xy">0.000000 0.000000</command>
+  <command address="source.6/position/xy">0.000000 0.000000</command>
+  <command address="source.2/position/xy">0.000000 0.000000</command>
+  <command address="source.5/trajectory/file">DBAPspat.xml</command>
+  <command address="source.7/trajectory/file">DBAPspat.xml</command>
+  <command address="source.3/trajectory/file">DBAPspat.xml</command>
+  <command address="source.1/trajectory/file">DBAPspat.xml</command>
+  <command address="source.8/trajectory/file">DBAPspat.xml</command>
+  <command address="source.4/trajectory/file">DBAPspat.xml</command>
+  <command address="source.6/trajectory/file">DBAPspat.xml</command>
+  <command address="source.2/trajectory/file">DBAPspat.xml</command>
+  <command address="source.5/aux.5/gain">0.000000</command>
+  <command address="source.5/aux.3/gain">0.000000</command>
+  <command address="source.5/aux.1/gain">0.000000</command>
+  <command address="source.5/aux.4/gain">0.000000</command>
+  <command address="source.5/aux.2/gain">0.000000</command>
+  <command address="source.5/aux.6/gain">0.000000</command>
+  <command address="source.7/aux.5/gain">0.000000</command>
+  <command address="source.7/aux.3/gain">0.000000</command>
+  <command address="source.7/aux.1/gain">0.000000</command>
+  <command address="source.7/aux.4/gain">0.000000</command>
+  <command address="source.7/aux.2/gain">0.000000</command>
+  <command address="source.7/aux.6/gain">0.000000</command>
+  <command address="source.3/aux.5/gain">0.000000</command>
+  <command address="source.3/aux.3/gain">0.000000</command>
+  <command address="source.3/aux.1/gain">0.000000</command>
+  <command address="source.3/aux.4/gain">0.000000</command>
+  <command address="source.3/aux.2/gain">0.000000</command>
+  <command address="source.3/aux.6/gain">0.000000</command>
+  <command address="source.1/aux.5/gain">0.000000</command>
+  <command address="source.1/aux.3/gain">0.000000</command>
+  <command address="source.1/aux.1/gain">0.000000</command>
+  <command address="source.1/aux.4/gain">0.000000</command>
+  <command address="source.1/aux.2/gain">0.000000</command>
+  <command address="source.1/aux.6/gain">0.000000</command>
+  <command address="source.8/aux.5/gain">0.000000</command>
+  <command address="source.8/aux.3/gain">0.000000</command>
+  <command address="source.8/aux.1/gain">0.000000</command>
+  <command address="source.8/aux.4/gain">0.000000</command>
+  <command address="source.8/aux.2/gain">0.000000</command>
+  <command address="source.8/aux.6/gain">0.000000</command>
+  <command address="source.4/aux.5/gain">0.000000</command>
+  <command address="source.4/aux.3/gain">0.000000</command>
+  <command address="source.4/aux.1/gain">0.000000</command>
+  <command address="source.4/aux.4/gain">0.000000</command>
+  <command address="source.4/aux.2/gain">0.000000</command>
+  <command address="source.4/aux.6/gain">0.000000</command>
+  <command address="source.6/aux.5/gain">0.000000</command>
+  <command address="source.6/aux.3/gain">0.000000</command>
+  <command address="source.6/aux.1/gain">0.000000</command>
+  <command address="source.6/aux.4/gain">0.000000</command>
+  <command address="source.6/aux.2/gain">0.000000</command>
+  <command address="source.6/aux.6/gain">0.000000</command>
+  <command address="source.2/aux.5/gain">0.000000</command>
+  <command address="source.2/aux.3/gain">0.000000</command>
+  <command address="source.2/aux.1/gain">0.000000</command>
+  <command address="source.2/aux.4/gain">0.000000</command>
+  <command address="source.2/aux.2/gain">0.000000</command>
+  <command address="source.2/aux.6/gain">0.000000</command>
+  <command address="source.5/aux.5/prepost">0</command>
+  <command address="source.5/aux.3/prepost">0</command>
+  <command address="source.5/aux.1/prepost">0</command>
+  <command address="source.5/aux.4/prepost">0</command>
+  <command address="source.5/aux.2/prepost">0</command>
+  <command address="source.5/aux.6/prepost">0</command>
+  <command address="source.7/aux.5/prepost">0</command>
+  <command address="source.7/aux.3/prepost">0</command>
+  <command address="source.7/aux.1/prepost">0</command>
+  <command address="source.7/aux.4/prepost">0</command>
+  <command address="source.7/aux.2/prepost">0</command>
+  <command address="source.7/aux.6/prepost">0</command>
+  <command address="source.3/aux.5/prepost">0</command>
+  <command address="source.3/aux.3/prepost">0</command>
+  <command address="source.3/aux.1/prepost">0</command>
+  <command address="source.3/aux.4/prepost">0</command>
+  <command address="source.3/aux.2/prepost">0</command>
+  <command address="source.3/aux.6/prepost">0</command>
+  <command address="source.1/aux.5/prepost">0</command>
+  <command address="source.1/aux.3/prepost">0</command>
+  <command address="source.1/aux.1/prepost">0</command>
+  <command address="source.1/aux.4/prepost">0</command>
+  <command address="source.1/aux.2/prepost">0</command>
+  <command address="source.1/aux.6/prepost">0</command>
+  <command address="source.8/aux.5/prepost">0</command>
+  <command address="source.8/aux.3/prepost">0</command>
+  <command address="source.8/aux.1/prepost">0</command>
+  <command address="source.8/aux.4/prepost">0</command>
+  <command address="source.8/aux.2/prepost">0</command>
+  <command address="source.8/aux.6/prepost">0</command>
+  <command address="source.4/aux.5/prepost">0</command>
+  <command address="source.4/aux.3/prepost">0</command>
+  <command address="source.4/aux.1/prepost">0</command>
+  <command address="source.4/aux.4/prepost">0</command>
+  <command address="source.4/aux.2/prepost">0</command>
+  <command address="source.4/aux.6/prepost">0</command>
+  <command address="source.6/aux.5/prepost">0</command>
+  <command address="source.6/aux.3/prepost">0</command>
+  <command address="source.6/aux.1/prepost">0</command>
+  <command address="source.6/aux.4/prepost">0</command>
+  <command address="source.6/aux.2/prepost">0</command>
+  <command address="source.6/aux.6/prepost">0</command>
+  <command address="source.2/aux.5/prepost">0</command>
+  <command address="source.2/aux.3/prepost">0</command>
+  <command address="source.2/aux.1/prepost">0</command>
+  <command address="source.2/aux.4/prepost">0</command>
+  <command address="source.2/aux.2/prepost">0</command>
+  <command address="source.2/aux.6/prepost">0</command>
+  <command address="source.5/volume">0.000000</command>
+  <command address="source.7/volume">0.000000</command>
+  <command address="source.3/volume">0.000000</command>
+  <command address="source.1/volume">0.000000</command>
+  <command address="source.8/volume">0.000000</command>
+  <command address="source.4/volume">0.000000</command>
+  <command address="source.6/volume">0.000000</command>
+  <command address="source.2/volume">0.000000</command>
+  <command address="source.5/area/xy">0.000000 0.000000</command>
+  <command address="source.7/area/xy">0.000000 0.000000</command>
+  <command address="source.3/area/xy">0.000000 0.000000</command>
+  <command address="source.1/area/xy">0.000000 0.000000</command>
+  <command address="source.8/area/xy">0.000000 0.000000</command>
+  <command address="source.4/area/xy">0.000000 0.000000</command>
+  <command address="source.6/area/xy">0.000000 0.000000</command>
+  <command address="source.2/area/xy">0.000000 0.000000</command>
+  <command address="source.5/area/size/xy">0.200000 0.200000</command>
+  <command address="source.7/area/size/xy">0.200000 0.200000</command>
+  <command address="source.3/area/size/xy">0.200000 0.200000</command>
+  <command address="source.1/area/size/xy">0.200000 0.200000</command>
+  <command address="source.8/area/size/xy">0.200000 0.200000</command>
+  <command address="source.4/area/size/xy">0.200000 0.200000</command>
+  <command address="source.6/area/size/xy">0.200000 0.200000</command>
+  <command address="source.2/area/size/xy">0.200000 0.200000</command>
+  <command address="source.5/trajectory/speed">1.000000</command>
+  <command address="source.7/trajectory/speed">1.000000</command>
+  <command address="source.3/trajectory/speed">1.000000</command>
+  <command address="source.1/trajectory/speed">1.000000</command>
+  <command address="source.8/trajectory/speed">1.000000</command>
+  <command address="source.4/trajectory/speed">1.000000</command>
+  <command address="source.6/trajectory/speed">1.000000</command>
+  <command address="source.2/trajectory/speed">1.000000</command>
+  <command address="source.5/trajectory/speed/variation">0.000000</command>
+  <command address="source.7/trajectory/speed/variation">0.000000</command>
+  <command address="source.3/trajectory/speed/variation">0.000000</command>
+  <command address="source.1/trajectory/speed/variation">0.000000</command>
+  <command address="source.8/trajectory/speed/variation">0.000000</command>
+  <command address="source.4/trajectory/speed/variation">0.000000</command>
+  <command address="source.6/trajectory/speed/variation">0.000000</command>
+  <command address="source.2/trajectory/speed/variation">0.000000</command>
+  <command address="source.5/trajectory/grain">20</command>
+  <command address="source.7/trajectory/grain">20</command>
+  <command address="source.3/trajectory/grain">20</command>
+  <command address="source.1/trajectory/grain">20</command>
+  <command address="source.8/trajectory/grain">20</command>
+  <command address="source.4/trajectory/grain">20</command>
+  <command address="source.6/trajectory/grain">20</command>
+  <command address="source.2/trajectory/grain">20</command>
+  <command address="source.5/trajectory/direction">0</command>
+  <command address="source.7/trajectory/direction">0</command>
+  <command address="source.3/trajectory/direction">0</command>
+  <command address="source.1/trajectory/direction">0</command>
+  <command address="source.8/trajectory/direction">0</command>
+  <command address="source.4/trajectory/direction">0</command>
+  <command address="source.6/trajectory/direction">0</command>
+  <command address="source.2/trajectory/direction">0</command>
+  <command address="source.1/blur">0.000000</command>
+  <command address="source.2/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.1/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
+  <command address="source.1/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.2/blur">0.000000</command>
+  <command address="source.2/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
+  <command address="source.3/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.3/blur">0.000000</command>
+  <command address="source.3/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
+  <command address="source.4/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.4/blur">0.000000</command>
+  <command address="source.4/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
+  <command address="source.5/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.5/blur">0.000000</command>
+  <command address="source.5/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
+  <command address="source.6/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.6/blur">0.000000</command>
+  <command address="source.6/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
+  <command address="source.7/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.7/blur">0.000000</command>
+  <command address="source.7/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
+  <command address="source.8/color">1.000000 0.000000 0.000000 1.000000</command>
+  <command address="source.8/blur">0.000000</command>
+  <command address="source.8/weight">1.000000 1.000000 0 0 0 0 0 0 0 0 0</command>
  </preset>
 </jamoma>

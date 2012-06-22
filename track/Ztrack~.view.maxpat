@@ -114,7 +114,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1/Spat", "#2Spat(view)" ],
+					"args" : [ "/track.1/spat", "/track1Spat(view)" ],
 					"id" : "obj-9",
 					"maxclass" : "bpatcher",
 					"name" : "ZdbapSource.view.maxpat",

@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 1306.0, 132.0, 294.0, 245.0 ],
+		"rect" : [ 1120.0, 571.0, 294.0, 245.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -477,16 +477,16 @@
 ,
 									"patching_rect" : [ 396.0, 167.0, 76.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontname" : "Arial",
-										"digest" : "",
-										"default_fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 9.0,
 										"fontface" : 0,
 										"fontsize" : 9.0,
 										"description" : "",
-										"tags" : ""
+										"default_fontface" : 0,
+										"fontname" : "Arial",
+										"tags" : "",
+										"digest" : "",
+										"default_fontname" : "Arial",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p weights"
@@ -693,7 +693,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 788.0, 466.0, 67.0, 17.0 ],
-									"text" : "1 17 0."
+									"text" : "7 14 0."
 								}
 
 							}
@@ -1318,7 +1318,7 @@
 							}
 , 							{
 								"name" : "DBAPspat.xml",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
+								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Holophon",
 								"type" : "TEXT",
 								"implicit" : 1
 							}
@@ -1383,16 +1383,16 @@
 ,
 					"patching_rect" : [ 21.0, 130.0, 70.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Verdana",
-						"digest" : "",
-						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"description" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontname" : "Verdana",
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Verdana",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p messages",
@@ -1408,7 +1408,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "audio.connect", "audio.connect" ],
+					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1457,7 +1457,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 32,
 									"numoutlets" : 1,
-									"outlettype" : [ "audio.connect" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 640.0, 426.0, 437.5, 19.0 ],
 									"text" : "jcom.multi.in~",
 									"varname" : "multiinAux"
@@ -1472,7 +1472,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 32,
 									"numoutlets" : 1,
-									"outlettype" : [ "audio.connect" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 105.0, 421.0, 437.5, 19.0 ],
 									"text" : "jcom.multi.in~",
 									"varname" : "multiin"
@@ -2008,16 +2008,16 @@
 ,
 													"patching_rect" : [ 953.0, 383.0, 80.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p delete_thru"
@@ -2555,16 +2555,16 @@
 ,
 													"patching_rect" : [ 723.0, 383.0, 70.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p new_thru"
@@ -3200,16 +3200,16 @@
 ,
 													"patching_rect" : [ 148.0, 383.0, 128.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p connect_from_matrix"
@@ -3504,16 +3504,16 @@
 ,
 													"patching_rect" : [ 293.0, 383.0, 115.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p connect_to_matrix"
@@ -4051,16 +4051,16 @@
 ,
 													"patching_rect" : [ 418.0, 383.0, 80.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p new_matrix"
@@ -4287,16 +4287,16 @@
 ,
 													"patching_rect" : [ 508.0, 383.0, 90.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p delete_matrix"
@@ -4479,16 +4479,16 @@
 ,
 													"patching_rect" : [ 838.0, 383.0, 80.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p delete_pass"
@@ -4870,16 +4870,16 @@
 ,
 													"patching_rect" : [ 608.0, 383.0, 70.0, 19.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontname" : "Verdana",
-														"digest" : "",
-														"default_fontname" : "Verdana",
-														"globalpatchername" : "",
 														"default_fontsize" : 10.0,
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"description" : "",
-														"tags" : ""
+														"default_fontface" : 0,
+														"fontname" : "Verdana",
+														"tags" : "",
+														"digest" : "",
+														"default_fontname" : "Verdana",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p new_pass"
@@ -5457,16 +5457,16 @@
 ,
 									"patching_rect" : [ 132.0, 100.0, 63.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontname" : "Verdana",
-										"digest" : "",
-										"default_fontname" : "Verdana",
-										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"description" : "",
-										"tags" : ""
+										"default_fontface" : 0,
+										"fontname" : "Verdana",
+										"tags" : "",
+										"digest" : "",
+										"default_fontname" : "Verdana",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p scripting"
@@ -5496,7 +5496,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 32,
-									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
+									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 409.0, 134.0, 437.5, 19.0 ],
 									"text" : "jcom.multi.out~",
 									"varname" : "multiout"
@@ -5510,7 +5510,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "audio.connect" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 409.0, 40.0, 25.0, 25.0 ]
 								}
 
@@ -5534,6 +5534,499 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 640.0, 505.0, 25.0, 25.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 35.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.1",
+									"varname" : "meter[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 80.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.2",
+									"varname" : "meter[2]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 125.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.3",
+									"varname" : "meter[3]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 170.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.4",
+									"varname" : "meter[4]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 215.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.5",
+									"varname" : "meter[5]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 260.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.6",
+									"varname" : "meter[6]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 305.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.7",
+									"varname" : "meter[7]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 350.0, 180.0, 130.0, 17.0 ],
+									"text" : "jcom.amplitudeMeter source.8",
+									"varname" : "meter[8]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-14",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 575.0, 325.0, 39.0, 27.0 ],
+									"text" : "jcom.thru~",
+									"varname" : "thru[14]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-16",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 620.0, 325.0, 39.0, 27.0 ],
+									"text" : "jcom.thru~",
+									"varname" : "thru[15]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-18",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 665.0, 325.0, 39.0, 27.0 ],
+									"text" : "jcom.thru~",
+									"varname" : "thru[16]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 710.0, 325.0, 39.0, 27.0 ],
+									"text" : "jcom.thru~",
+									"varname" : "thru[17]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-20",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 755.0, 325.0, 39.0, 27.0 ],
+									"text" : "jcom.thru~",
+									"varname" : "thru[18]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-21",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 800.0, 325.0, 39.0, 27.0 ],
+									"text" : "jcom.thru~",
+									"varname" : "thru[19]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 35.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 80.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[2]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 125.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[3]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 170.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[4]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 215.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[5]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 260.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[6]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 305.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[7]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 350.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[8]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 395.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[9]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-32",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 440.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[10]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 485.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[11]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-34",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 530.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[12]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 575.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[13]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-36",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 620.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[14]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 665.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[15]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 710.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[16]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 755.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[17]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 800.0, 265.0, 100.0, 17.0 ],
+									"text" : "pass~",
+									"varname" : "pass[18]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-41",
+									"maxclass" : "newobj",
+									"numinlets" : 8,
+									"numoutlets" : 19,
+									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "list" ],
+									"patching_rect" : [ 35.0, 235.0, 100.0, 17.0 ],
+									"text" : "matrix~ 8 18 1.",
+									"varname" : "matrix"
 								}
 
 							}
@@ -5576,6 +6069,18 @@
 							}
  ],
 						"dependency_cache" : [ 							{
+								"name" : "jcom.thru~.maxpat",
+								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/thru",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
+								"name" : "jcom.amplitudeMeter.maxpat",
+								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
+								"type" : "JSON",
+								"implicit" : 1
+							}
+, 							{
 								"name" : "jcom.multi.out~.maxpat",
 								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/multi.out%",
 								"type" : "JSON",
@@ -5588,11 +6093,7 @@
 								"implicit" : 1
 							}
 , 							{
-								"name" : "jcom.unpack≈.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "jcom.offset≈.mxo",
+								"name" : "jcom.return.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -5600,7 +6101,7 @@
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.pack≈.mxo",
+								"name" : "jcom.oscroute.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -5608,16 +6109,16 @@
 ,
 					"patching_rect" : [ 21.0, 162.0, 157.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontname" : "Arial",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 9.0,
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"description" : "",
-						"tags" : ""
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"tags" : "",
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Zdbapout"
@@ -5635,7 +6136,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 52.0, 233.0, 31.0 ],
-					"text" : "jcom.model @context model @description \"Distance-based amplitude panning, Z style\"",
+					"text" : "jcom.model @description \"Distance-based amplitude panning, Z style\"",
 					"varname" : "jcom.model"
 				}
 
@@ -5722,7 +6223,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "audio.connect" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 159.0, 130.0, 25.0, 25.0 ]
 				}
 
@@ -5808,6 +6309,20 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "jcom.thru~.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/thru",
+				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.amplitudeMeter.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jcom.multi.out~.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/multi.out%",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/multi.out%",
@@ -5844,8 +6359,8 @@
 			}
 , 			{
 				"name" : "DBAPspat.xml",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Holophon",
+				"patcherrelativepath" : "../../Holophon",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -5882,11 +6397,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.unpack≈.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.offset≈.mxo",
+				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -5894,7 +6405,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.pack≈.mxo",
+				"name" : "jcom.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -5915,10 +6426,6 @@
 			}
 , 			{
 				"name" : "jcom.dataspace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{

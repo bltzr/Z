@@ -5,16 +5,12 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='IR.1/file' type='generic' priority='0' mixweight='1'>0</item>
     <item name='IR.1/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='IR.1/reverse' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='IR.2/file' type='generic' priority='0' mixweight='1'>0</item>
     <item name='IR.2/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='IR.2/reverse' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='IR.3/file' type='generic' priority='0' mixweight='1'>0</item>
     <item name='IR.3/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='IR.3/reverse' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='IR.4/file' type='generic' priority='0' mixweight='1'>0</item>
     <item name='IR.4/gain' type='decimal' priority='0' mixweight='1'>0.000000</item>
     <item name='IR.4/reverse' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='SegmentSize' type='integer' priority='0' mixweight='1'>2048</item>

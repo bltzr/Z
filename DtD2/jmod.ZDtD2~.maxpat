@@ -1,7 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.469994, 0.509995, 300.0, 70.0 ],
+		"rect" : [ 754.244995, 551.451965, 300.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 93.0, 118.0, 1213.0, 734.0 ],
@@ -18,7 +18,22 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 458.0, 594.0, 24.0, 20.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -41,10 +56,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.0, 612.0, 149.0, 20.0 ],
+					"patching_rect" : [ 421.0, 626.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 54.0, 294.0, 12.0 ],
-					"text" : "0:0:0 / 0:1:39",
+					"text" : "0:0:0 / 0:1:26",
 					"textpos" : [ 10.0, 0.0 ]
 				}
 
@@ -314,6 +329,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -702,13 +718,13 @@
 ,
 					"patching_rect" : [ 145.0, 375.0, 268.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p routing"
@@ -988,13 +1004,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-5",
-					"items" : [ "cridesgrues.wav", ",", "envoldesgrues.wav", ",", "gouttiereglace.wav", ",", "grele.wav", ",", "grues.wav", ",", "Le gouffre EDF.aif", ",", "tournoiement.wav" ],
+					"items" : [ "ClimInria.wav", ",", "ClimProcheMaths1.wav", ",", "ClimProcheMaths2.wav", ",", "ClimTremblementsMaths.wav", ",", "ClimVibreeAigue.wav", ",", "ClimVibreeLongue.wav", ",", "DebutClimLaBri1.wav", ",", "GlouGlousClimHemixyxlia.wav", ",", "ImmeubleBizarreLointain.wav", ",", "Nappe.wav", ",", "NappeClimHemicyclia1.wav", ",", "NappeClimHemicyclia2.wav", ",", "NappeClimHemicycliaPorte.wav", ",", "zGrilleFermeture.wav", ",", "zGrilleOuverture.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 195.0, 400.0, 100.0, 17.0 ],
-					"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/Sons_Jean-Leon/sequences_stereo/",
+					"prefix" : "Servo:/Users/bltzr/Music/Sons/PrisesLaBRI/",
 					"prefix_mode" : 2,
 					"presentation" : 1,
 					"presentation_rect" : [ 22.0, 19.0, 170.0, 17.0 ],
@@ -1095,12 +1111,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-68",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 328.0, 604.0, 114.0, 34.0 ],
+					"numoutlets" : 7,
+					"outlettype" : [ "signal", "signal", "", "", "", "", "" ],
+					"patching_rect" : [ 328.0, 604.0, 117.0, 20.0 ],
 					"text" : "poly~ jalg.ZDtD2~ 1"
 				}
 
@@ -1383,6 +1398,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
 					"hidden" : 0,
@@ -1730,6 +1754,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 519.5, 533.0, 619.0, 533.0, 619.0, 533.0, 706.0, 533.0, 706.0, 581.0, 337.5, 581.0 ],
 					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-68", 6 ]
 				}
 
 			}

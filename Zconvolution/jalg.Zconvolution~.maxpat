@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 46.0, 44.0, 1322.0, 751.0 ],
+		"rect" : [ 171.0, 316.0, 1322.0, 751.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 46.0, 44.0, 1322.0, 751.0 ],
+		"defrect" : [ 171.0, 316.0, 1322.0, 751.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -878,13 +878,11 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-67",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 263.0, 309.0, 29.0 ],
-					"text" : "\"Servo:/Users/bltzr/Music/IRquadris/02- Churches/Cenakel Chapel/07 m-q 3.0m Cenakel Chapel/CC.3.wav\""
+					"patching_rect" : [ 161.0, 263.0, 311.0, 17.0 ]
 				}
 
 			}
@@ -1788,7 +1786,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-20",
-													"int" : 1,
 													"maxclass" : "gswitch",
 													"numinlets" : 3,
 													"numoutlets" : 1,
@@ -3238,7 +3235,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1012.0, 604.0, 181.0, 19.0 ],
+					"patching_rect" : [ 1012.0, 605.0, 181.0, 19.0 ],
 					"text" : "poly~ poly.tconvolution.maxpat 1"
 				}
 
@@ -4520,7 +4517,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-67", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 403.5, 195.0, 381.0, 195.0, 381.0, 189.0, 327.0, 189.0, 327.0, 252.0, 460.5, 252.0 ],
+					"midpoints" : [ 403.5, 195.0, 381.0, 195.0, 381.0, 189.0, 327.0, 189.0, 327.0, 252.0, 462.5, 252.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 

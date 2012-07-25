@@ -29,7 +29,7 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "track.1/gran" ],
+					"args" : [ "#1/gran", "#2granview)" ],
 					"id" : "obj-3",
 					"maxclass" : "bpatcher",
 					"name" : "Zgran~.view.maxpat",
@@ -114,7 +114,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "/track.1/spat", "/track1Spat(view)" ],
+					"args" : [ "#1/spat", "#2spat(view)" ],
 					"id" : "obj-9",
 					"maxclass" : "bpatcher",
 					"name" : "ZdbapSource.view.maxpat",

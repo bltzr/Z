@@ -676,7 +676,6 @@
 ,
 													"patching_rect" : [ 318.0, 93.0, 255.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
 														"default_fontsize" : 10.0,
@@ -685,7 +684,8 @@
 														"fontsize" : 10.0,
 														"tags" : "",
 														"globalpatchername" : "",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : ""
 													}
 ,
 													"text" : "p"
@@ -1021,7 +1021,6 @@
 ,
 													"patching_rect" : [ 242.0, 207.0, 32.0, 18.0 ],
 													"saved_object_attributes" : 													{
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontname" : "Arial",
 														"default_fontsize" : 10.0,
@@ -1030,7 +1029,8 @@
 														"fontsize" : 10.0,
 														"tags" : "",
 														"globalpatchername" : "",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : ""
 													}
 ,
 													"text" : "p init"
@@ -1532,7 +1532,6 @@
 ,
 									"patching_rect" : [ 133.0, 316.0, 100.0, 27.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 10.0,
@@ -1541,7 +1540,8 @@
 										"fontsize" : 10.0,
 										"tags" : "",
 										"globalpatchername" : "",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p SpatVerb"
@@ -2013,7 +2013,6 @@
 ,
 					"patching_rect" : [ 422.0, 302.0, 57.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
@@ -2022,7 +2021,8 @@
 						"fontsize" : 12.0,
 						"tags" : "",
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p aux"
@@ -2076,7 +2076,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 329.0, 504.0, 1035.0, 593.0 ],
+						"rect" : [ 141.0, 224.0, 1035.0, 593.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -2188,7 +2188,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 512.0, 171.0, 185.0, 18.0 ],
+									"patching_rect" : [ 500.0, 171.0, 185.0, 18.0 ],
 									"text" : "jcom.send #2/area/size/xy"
 								}
 
@@ -2216,7 +2216,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 548.0, 214.0, 18.0 ],
+									"patching_rect" : [ 37.5, 554.0, 214.0, 18.0 ],
 									"text" : "jcom.send #2/trajectory/direction"
 								}
 
@@ -2230,7 +2230,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 38.0, 485.0, 224.0, 18.0 ],
+									"patching_rect" : [ 38.5, 491.0, 224.0, 18.0 ],
 									"text" : "jcom.receive #2/trajectory/direction"
 								}
 
@@ -2244,7 +2244,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 456.0, 198.0, 18.0 ],
+									"patching_rect" : [ 37.0, 458.5, 198.0, 18.0 ],
 									"text" : "jcom.send #2/trajectory/grain"
 								}
 
@@ -2415,8 +2415,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 37.0, 416.5, 430.0, 34.0 ],
-									"text" : "jcom.parameter trajectory/grain @type decimal @ramp/drive queue @value/default 20 @description \"trajectory grain of the source\" @priority 24"
+									"patching_rect" : [ 37.0, 415.0, 448.0, 34.0 ],
+									"text" : "jcom.parameter trajectory/grain @type decimal @ramp/drive queue @value/default 20. @description \"trajectory grain of the source\" @priority 24"
 								}
 
 							}
@@ -2445,7 +2445,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 36.5, 508.5, 355.0, 34.0 ],
+									"patching_rect" : [ 37.0, 514.5, 355.0, 34.0 ],
 									"text" : "jcom.parameter trajectory/direction @type boolean @description \"invert trajectories\" @value/default 0 @priority 25"
 								}
 
@@ -2460,8 +2460,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 31.5, 325.5, 423.0, 34.0 ],
-									"text" : "jcom.parameter trajectory/speed/variation @type decimal @ramp/drive scheduler @description \"trajectory speed variation of the source\" @priority 23"
+									"patching_rect" : [ 31.5, 325.5, 469.0, 34.0 ],
+									"text" : "jcom.parameter trajectory/speed/variation @type decimal @ramp/drive scheduler @value/default 0. @description \"trajectory speed variation of the source\" @priority 23"
 								}
 
 							}
@@ -2794,7 +2794,6 @@
 ,
 					"patching_rect" : [ 418.0, 370.0, 62.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 9.0,
@@ -2803,7 +2802,8 @@
 						"fontsize" : 9.0,
 						"tags" : "",
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p trajs",
@@ -2996,7 +2996,6 @@
 ,
 									"patching_rect" : [ 78.0, 102.0, 31.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 9.0,
@@ -3005,7 +3004,8 @@
 										"fontsize" : 9.0,
 										"tags" : "",
 										"globalpatchername" : "",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p d2r"
@@ -3329,7 +3329,6 @@
 ,
 									"patching_rect" : [ 38.0, 162.0, 139.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
@@ -3338,7 +3337,8 @@
 										"fontsize" : 12.0,
 										"tags" : "",
 										"globalpatchername" : "",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p poltocarAP"
@@ -3541,7 +3541,6 @@
 ,
 									"patching_rect" : [ 110.0, 137.0, 68.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
@@ -3550,7 +3549,8 @@
 										"fontsize" : 12.0,
 										"tags" : "",
 										"globalpatchername" : "",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p cartopolXY"
@@ -3674,7 +3674,6 @@
 ,
 					"patching_rect" : [ 414.0, 434.0, 66.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 9.0,
@@ -3683,7 +3682,8 @@
 						"fontsize" : 9.0,
 						"tags" : "",
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p polar"

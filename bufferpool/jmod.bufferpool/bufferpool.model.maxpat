@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 829.0, 459.0, 667.0, 503.0 ],
+		"rect" : [ 91.0, 401.0, 667.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -51,8 +51,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.0, 362.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter mainfolder @type array @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \"",
+					"patching_rect" : [ 40.0, 362.0, 589.0, 31.0 ],
+					"text" : "jcom.parameter mainfolder @type generic @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @value/default none",
 					"varname" : "jcom.parameter.mxb[2]"
 				}
 
@@ -380,16 +380,16 @@
 ,
 					"patching_rect" : [ 337.0, 287.0, 225.0, 36.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Verdana",
 						"fontname" : "Verdana",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 9.0
+						"fontsize" : 9.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p coll_declaration"
@@ -1187,16 +1187,16 @@
 ,
 									"patching_rect" : [ 245.013519, 530.795166, 84.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
-										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p deletebuffer"
@@ -1988,16 +1988,16 @@
 ,
 									"patching_rect" : [ 655.72876, 581.080933, 234.0, 80.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
-										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p bufs",
@@ -2713,16 +2713,16 @@
 ,
 					"patching_rect" : [ 202.0, 444.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p addfile"
@@ -3328,16 +3328,16 @@
 ,
 									"patching_rect" : [ 96.046173, 475.658997, 133.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
-										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p generationfile"
@@ -3954,16 +3954,16 @@
 ,
 									"patching_rect" : [ 100.046173, 419.658997, 217.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
-										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p generationlist"
@@ -4556,16 +4556,16 @@
 ,
 									"patching_rect" : [ 642.590698, 325.196411, 80.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
-										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p calculindex"
@@ -5614,16 +5614,16 @@
 ,
 									"patching_rect" : [ 471.0, 206.0, 208.0, 80.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
-										"default_fontface" : 0,
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"tags" : "",
+										"globalpatchername" : "",
+										"default_fontface" : 0,
+										"digest" : ""
 									}
 ,
 									"text" : "p bufs",
@@ -6051,16 +6051,16 @@
 ,
 					"patching_rect" : [ 276.0, 445.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
-						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"tags" : "",
+						"globalpatchername" : "",
+						"default_fontface" : 0,
+						"digest" : ""
 					}
 ,
 					"text" : "p algobuffers"
@@ -6148,7 +6148,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 143.0, 594.0, 31.0 ],
-					"text" : "jcom.message type @type array @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"text" : "jcom.message type @type generic @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 					"varname" : "jcom.parameter.mxb[1]"
 				}
 
@@ -6244,7 +6244,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 202.0, 183.0, 342.0, 43.0 ],
-					"text" : "jcom.message path @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
+					"text" : "jcom.message path @type generic @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
 					"varname" : "jcom.parameter.mxb[10]"
 				}
 

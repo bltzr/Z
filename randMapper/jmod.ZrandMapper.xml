@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='edit' type='string' priority='0' mixweight='1'>edit</item>
+    <item name='enable' type='generic' priority='0' mixweight='1'>0</item>
+    <item name='function/parameter1' type='decimal' priority='5' mixweight='1'>1.100000</item>
+    <item name='function' type='string' priority='3' mixweight='1'>linear</item>
+    <item name='function/parameter2' type='decimal' priority='4' mixweight='1'>0</item>
+    <item name='function/symmetry' type='string' priority='3' mixweight='1'>point</item>
+    <item name='glide/dist/list' type='array' priority='0' mixweight='1'>1.000000 1.000000 </item>
+    <item name='glide/dist/size' type='integer' priority='10' mixweight='1'>2</item>
+    <item name='out/dist/list' type='array' priority='0' mixweight='1'>1.000000 1.000000 </item>
+    <item name='out/dist/size' type='integer' priority='10' mixweight='1'>2</item>
+    <item name='out/max' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='out/min' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='time/center' type='decimal' priority='0' mixweight='1'>0.499500</item>
+    <item name='time/deviation' type='decimal' priority='0' mixweight='1'>0.499500</item>
+    <item name='time/dist/list' type='array' priority='0' mixweight='1'>1. 1.</item>
+    <item name='time/dist/size' type='integer' priority='10' mixweight='1'>2</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>300 70 </item>
+  </preset>
+</jamoma>

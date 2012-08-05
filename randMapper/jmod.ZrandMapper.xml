@@ -11,8 +11,8 @@
     <item name='function' type='string' priority='3' mixweight='1'>linear</item>
     <item name='function/parameter2' type='decimal' priority='4' mixweight='1'>0</item>
     <item name='function/symmetry' type='string' priority='3' mixweight='1'>point</item>
-    <item name='glide/dist/list' type='array' priority='0' mixweight='1'>1.000000 1.000000 </item>
-    <item name='glide/dist/size' type='integer' priority='10' mixweight='1'>2</item>
+    <item name='glide/dist/list' type='array' priority='0' mixweight='1'>1.000000</item>
+    <item name='glide/dist/size' type='integer' priority='10' mixweight='1'>1</item>
     <item name='out/dist/list' type='array' priority='0' mixweight='1'>1.000000 1.000000 </item>
     <item name='out/dist/size' type='integer' priority='10' mixweight='1'>2</item>
     <item name='out/max' type='decimal' priority='0' mixweight='1'>1.000000</item>

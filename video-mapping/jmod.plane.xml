@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='color' type='array' priority='0' mixweight='1'>0</item>
+    <item name='enable' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='layer' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='position/x' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='position/y' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='position/z' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='scale/x' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='scale/y' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='scale/z' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='source.1/alpha' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='source.1/crop/x1' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='source.1/crop/x2' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='source.1/crop/y1' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='source.1/crop/y2' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='source.1/image' type='string' priority='0' mixweight='1'>0</item>
+    <item name='sturation' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>300 70 </item>
+  </preset>
+</jamoma>

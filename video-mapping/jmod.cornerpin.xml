@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='alpha' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='cornerpin/x1' type='decimal' priority='0' mixweight='1'>0.340000</item>
+    <item name='cornerpin/x2' type='decimal' priority='0' mixweight='1'>0.660000</item>
+    <item name='cornerpin/x3' type='decimal' priority='0' mixweight='1'>0.330000</item>
+    <item name='cornerpin/x4' type='decimal' priority='0' mixweight='1'>0.660000</item>
+    <item name='cornerpin/y1' type='decimal' priority='0' mixweight='1'>0.660000</item>
+    <item name='cornerpin/y2' type='decimal' priority='0' mixweight='1'>0.660000</item>
+    <item name='cornerpin/y3' type='decimal' priority='0' mixweight='1'>0.330000</item>
+    <item name='cornerpin/y4' type='decimal' priority='0' mixweight='1'>0.330000</item>
+    <item name='crop/x1' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='crop/x2' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='crop/y1@type' type='generic' priority='0' mixweight='1'>1.000000</item>
+    <item name='crop/y2' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='edgeblend/bottom' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='edgeblend/left' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='edgeblend/right' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='edgeblend/top' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='enable' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='flip' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='layer' type='integer' priority='0' mixweight='1'>200</item>
+    <item name='texture' type='generic' priority='0' mixweight='1'>i PensiveParakeet </item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>300 70 </item>
+  </preset>
+</jamoma>

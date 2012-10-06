@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='alpha' type='array' priority='0' mixweight='1'>1.000000</item>
+    <item name='blueCurve' type='array' priority='0' mixweight='1'>0</item>
+    <item name='blueCurve' type='array' priority='0' mixweight='1'>0</item>
+    <item name='color' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='enable' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='greenCurve' type='array' priority='0' mixweight='1'>0</item>
+    <item name='input' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='layer' type='integer' priority='0' mixweight='1'>115</item>
+    <item name='mix/a' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='mix/b' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='mix/g' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='mix/r' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='mixMode' type='string' priority='0' mixweight='1'>co.normal.jxs</item>
+    <item name='position/x' type='decimal' priority='0' mixweight='1'>-0.054000</item>
+    <item name='position/y' type='decimal' priority='0' mixweight='1'>-0.290000</item>
+    <item name='position/z' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='redCurve' type='array' priority='0' mixweight='1'>0</item>
+    <item name='scale/x' type='decimal' priority='0' mixweight='1'>0.414000</item>
+    <item name='scale/y' type='decimal' priority='0' mixweight='1'>0.450000</item>
+    <item name='scale/z' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='source.1/alpha' type='decimal' priority='0' mixweight='1'>0.968891</item>
+    <item name='source.1/crop/x1' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='source.1/crop/x2' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='source.1/crop/y1' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='source.1/crop/y2' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='source.1/image' type='string' priority='0' mixweight='1'>Servo:/Users/bltzr/Dropbox/lesBaltazars/Locus/3-Tinel/MatieresTinel/orange+veines-rouges.jpg</item>
+    <item name='source.2/alpha' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='source.2/crop/x1' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='source.2/crop/x2' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='source.2/crop/y1' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='source.2/crop/y2' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='source.2/image' type='string' priority='0' mixweight='1'>0</item>
+    <item name='sturation' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='view/color/border' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/size' type='array' priority='0' mixweight='1'>300 70 </item>
+  </preset>
+</jamoma>

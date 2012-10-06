@@ -1,0 +1,28 @@
+<jittershader name="crop + edgeblend">
+<param name="crop" type="vec4" default="0. 0. 1. 1.">
+<description>define crop param</description>
+</param>
+<param name="edge" type="vec4" default="0. 0. 0. 0.">
+<description>define edge size</description>
+</param>
+<param name="zoom" type="vec2" default="1. 1.">
+<description>zoom factor</description>
+</param>
+<param name="offset" type="vec2" default="0. 0.">
+<description>offset factor for zoom</description>
+</param>
+<param name="interp" type="float" default="0.">
+<description>interpolation on/off</description>
+</param>
+<param name="tex0" type="int" default="0" />
+<language name="glsl" version="1.0">
+<program name="vp" type="vertex" source="sh.passthrudim.vp.glsl" />
+<bind param="crop" program="fp" />
+<bind param="edge" program="fp" />
+<bind param="zoom" program="fp" />
+<bind param="offset" program="fp" />
+<bind param="interp" program="fp" />
+<bind param="tex0" program="fp" />
+<program name="fp" type="fragment" source="m_crop.fp.glsl" />
+</language>
+</jittershader>

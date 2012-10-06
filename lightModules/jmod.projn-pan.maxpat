@@ -1,7 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 420.0, 496.0, 150.0, 105.0 ],
+		"rect" : [ 198.0, 696.0, 150.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 498.0, 281.0, 682.0, 438.0 ],
@@ -40,6 +40,7 @@
 					"frgb" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 					"id" : "obj-27",
 					"keymode" : 1,
+					"linecount" : 2,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -47,8 +48,9 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"patching_rect" : [ 549.0, 330.0, 93.0, 50.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 61.0, 0.0, 67.0, 19.0 ],
-					"text" : "73 74 75"
+					"text" : "21 22 23 24 15 26 14 17"
 				}
 
 			}
@@ -125,7 +127,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 344.0, 46.0, 136.0, 75.0 ],
-					"text" : "jcom.message spread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "jcom.parameter spread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -157,7 +159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 514.0, 47.0, 146.0, 75.0 ],
-					"text" : "jcom.message intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "jcom.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -390,12 +392,12 @@
 ,
 					"patching_rect" : [ 36.0, 132.0, 42.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Verdana",
+						"globalpatchername" : "",
 						"default_fontname" : "Verdana"
 					}
 ,
@@ -485,8 +487,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 482.0, 106.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 482.0, 106.0, 0.0, 0.0 ]
+									"patching_rect" : [ 482.0, 106.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -498,8 +499,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 323.0, 103.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 323.0, 103.0, 0.0, 0.0 ]
+									"patching_rect" : [ 323.0, 103.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -511,8 +511,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.0, 106.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 240.0, 106.0, 0.0, 0.0 ]
+									"patching_rect" : [ 240.0, 106.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -933,12 +932,12 @@
 ,
 									"patching_rect" : [ 24.0, 306.0, 61.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
+										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontname" : "Arial"
 									}
 ,
@@ -1412,12 +1411,12 @@
 ,
 									"patching_rect" : [ 192.0, 205.0, 65.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"globalpatchername" : "",
 										"default_fontsize" : 10.0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
+										"fontname" : "Arial",
+										"globalpatchername" : "",
 										"default_fontname" : "Arial"
 									}
 ,
@@ -1989,12 +1988,12 @@
 ,
 					"patching_rect" : [ 59.0, 160.0, 491.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontname" : "Arial"
 					}
 ,
@@ -2180,7 +2179,7 @@
 					"patching_rect" : [ 23.0, 15.0, 150.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/svob"
+					"text" : "/contres"
 				}
 
 			}

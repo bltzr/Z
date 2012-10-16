@@ -165,16 +165,16 @@
 ,
 					"patching_rect" : [ 389.0, 128.0, 92.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p time_ambitus"
@@ -320,16 +320,16 @@
 ,
 					"patching_rect" : [ 344.0, 85.0, 102.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p pause_ambitus"
@@ -475,33 +475,19 @@
 ,
 					"patching_rect" : [ 296.0, 35.0, 108.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p volume_ambitus"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-19",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 237.0, 197.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -539,7 +525,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 468.0, 197.0, 112.0, 100.0 ],
+					"patching_rect" : [ 468.0, 197.0, 113.0, 100.0 ],
 					"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @value/default 0.5",
 					"varname" : "jmod.parameter.mxb[18]"
 				}
@@ -975,16 +961,16 @@
 ,
 													"patching_rect" : [ 88.0, 16.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -1080,16 +1066,16 @@
 ,
 									"patching_rect" : [ 75.0, 551.0, 39.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p curv"
@@ -1339,16 +1325,16 @@
 ,
 													"patching_rect" : [ 62.0, 38.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -1430,16 +1416,16 @@
 ,
 									"patching_rect" : [ 63.0, 408.0, 39.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p curv"
@@ -1824,16 +1810,16 @@
 ,
 													"patching_rect" : [ 33.0, 236.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -1963,16 +1949,16 @@
 ,
 													"patching_rect" : [ 185.0, 165.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -2297,16 +2283,16 @@
 ,
 									"patching_rect" : [ 555.0, 215.0, 68.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p convert"
@@ -2472,16 +2458,16 @@
 ,
 													"patching_rect" : [ 196.0, 30.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -2611,16 +2597,16 @@
 ,
 													"patching_rect" : [ 49.0, 103.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -2945,16 +2931,16 @@
 ,
 									"patching_rect" : [ 367.0, 211.0, 68.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p convert"
@@ -3862,7 +3848,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -3875,16 +3861,16 @@
 ,
 					"patching_rect" : [ 303.0, 328.0, 184.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p frag"
@@ -4114,16 +4100,16 @@
 ,
 									"patching_rect" : [ 69.0, 402.0, 100.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p initjcommap"
@@ -4317,16 +4303,16 @@
 ,
 													"patching_rect" : [ 219.0, 69.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -4456,16 +4442,16 @@
 ,
 													"patching_rect" : [ 51.0, 71.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"tags" : "",
-														"fontname" : "Arial",
-														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"fontname" : "Arial",
+														"tags" : "",
+														"default_fontsize" : 12.0,
+														"description" : "",
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"default_fontsize" : 12.0
+														"default_fontface" : 0
 													}
 ,
 													"text" : "p initjcommap"
@@ -4790,16 +4776,16 @@
 ,
 									"patching_rect" : [ 267.0, 280.0, 50.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontname" : "Arial",
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p convert"
@@ -5392,7 +5378,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -5405,16 +5391,16 @@
 ,
 					"patching_rect" : [ 204.0, 328.0, 83.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p fluct"
@@ -5725,15 +5711,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5762,8 +5739,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.random.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/random",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}

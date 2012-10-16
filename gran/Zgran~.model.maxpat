@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 475.0, 382.0, 1044.0, 631.0 ],
+		"rect" : [ -14.0, 240.0, 1044.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -362,10 +362,10 @@
 					"patching_rect" : [ 440.5, 242.0, 44.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
@@ -452,8 +452,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 440.5, 319.0, 332.0, 19.0 ],
-					"text" : "jcom.parameter position @type decimal @ramp/drive scheduler"
+					"patching_rect" : [ 440.5, 319.0, 351.0, 19.0 ],
+					"text" : "jcom.parameter position/val @type decimal @ramp/drive scheduler"
 				}
 
 			}
@@ -491,8 +491,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 465.5, 275.0, 384.0, 19.0 ],
-					"text" : "jcom.parameter length @type decimal @ramp/drive scheduler @priority 5"
+					"patching_rect" : [ 465.5, 275.0, 403.0, 19.0 ],
+					"text" : "jcom.parameter length/val @type decimal @ramp/drive scheduler @priority 5"
 				}
 
 			}
@@ -785,8 +785,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 87.0, 32.0, 279.0, 38.0 ],
-									"text" : "jcom.parameter density @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
+									"patching_rect" : [ 87.0, 31.0, 279.0, 38.0 ],
+									"text" : "jcom.parameter density/val @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
 									"varname" : "dispstart[1]"
 								}
 
@@ -1287,7 +1287,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -1309,10 +1309,10 @@
 					"patching_rect" : [ 196.0, 358.0, 35.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Verdana",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
@@ -1399,7 +1399,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 184.0, 130.0, 178.0, 31.0 ],
-									"text" : "jcom.parameter delay @type decimal @ramp/drive scheduler"
+									"text" : "jcom.parameter delay/val @type decimal @ramp/drive scheduler"
 								}
 
 							}
@@ -1412,8 +1412,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 135.0, 66.0, 113.0, 19.0 ],
-									"text" : "jcom.receive length"
+									"patching_rect" : [ 135.0, 66.0, 153.0, 19.0 ],
+									"text" : "jcom.receive length/val"
 								}
 
 							}
@@ -1682,10 +1682,10 @@
 					"patching_rect" : [ 297.0, 405.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Verdana",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
@@ -2095,7 +2095,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -2109,10 +2109,10 @@
 					"patching_rect" : [ 377.0, 405.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Verdana",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
@@ -2213,8 +2213,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 213.5, 156.0, 136.0, 67.0 ],
-									"text" : "jcom.parameter pitch @ramp/drive scheduler @type decimal @range/bounds 0. 4. @range/clipmode low"
+									"patching_rect" : [ 213.5, 156.0, 142.0, 67.0 ],
+									"text" : "jcom.parameter pitch/val @ramp/drive scheduler @type decimal @range/bounds 0. 4. @range/clipmode low"
 								}
 
 							}
@@ -2457,7 +2457,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -2471,10 +2471,10 @@
 					"patching_rect" : [ 456.0, 404.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Verdana",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
@@ -2597,12 +2597,13 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-70",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 199.0, 88.0, 205.0, 19.0 ],
-									"text" : "jcom.parameter amp @type decimal"
+									"patching_rect" : [ 199.0, 88.0, 205.0, 31.0 ],
+									"text" : "jcom.parameter amp/val @type decimal"
 								}
 
 							}
@@ -2841,7 +2842,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -2855,10 +2856,10 @@
 					"patching_rect" : [ 536.0, 404.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Verdana",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
@@ -2911,10 +2912,10 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"frozen_object_attributes" : 									{
-										"type" : "decimal",
 										"ramp/drive" : "none",
-										"range/bounds" : [ 0.0, 1.0 ],
 										"ramp/function" : "linear",
+										"type" : "decimal",
+										"range/bounds" : [ 0.0, 1.0 ],
 										"range/clipmode" : "low"
 									}
 ,
@@ -3262,7 +3263,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -3276,10 +3277,10 @@
 					"patching_rect" : [ 615.0, 402.0, 51.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Verdana",
-						"tags" : "",
 						"default_fontsize" : 9.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
@@ -3974,10 +3975,10 @@
 					"patching_rect" : [ 66.0, 247.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -4500,7 +4501,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "jcom.random.maxpat",
-												"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+												"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -4510,10 +4511,10 @@
 									"patching_rect" : [ 189.0, 310.0, 91.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
 										"globalpatchername" : "",
+										"tags" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
@@ -4819,10 +4820,10 @@
 									"patching_rect" : [ 178.0, 198.0, 111.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"fontname" : "Verdana",
-										"tags" : "",
 										"default_fontsize" : 9.0,
 										"description" : "",
 										"globalpatchername" : "",
+										"tags" : "",
 										"fontface" : 0,
 										"fontsize" : 9.0,
 										"default_fontface" : 0,
@@ -5395,10 +5396,10 @@
 													"patching_rect" : [ 50.0, 100.0, 519.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"fontname" : "Arial",
-														"tags" : "",
 														"default_fontsize" : 12.0,
 														"description" : "",
 														"globalpatchername" : "",
+														"tags" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
@@ -5729,10 +5730,10 @@
 													"patching_rect" : [ 312.0, 216.0, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"fontname" : "Arial",
-														"tags" : "",
 														"default_fontsize" : 12.0,
 														"description" : "",
 														"globalpatchername" : "",
+														"tags" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
@@ -6038,10 +6039,10 @@
 													"patching_rect" : [ 312.0, 316.0, 141.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"fontname" : "Arial",
-														"tags" : "",
 														"default_fontsize" : 12.0,
 														"description" : "",
 														"globalpatchername" : "",
+														"tags" : "",
 														"fontface" : 0,
 														"fontsize" : 12.0,
 														"default_fontface" : 0,
@@ -6475,10 +6476,10 @@
 									"patching_rect" : [ 47.0, 125.0, 57.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"fontname" : "Arial",
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
 										"globalpatchername" : "",
+										"tags" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
@@ -6615,7 +6616,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "jcom.random.maxpat",
-								"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
+								"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -6637,10 +6638,10 @@
 					"patching_rect" : [ 45.0, 181.0, 63.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
 						"globalpatchername" : "",
+						"tags" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
@@ -7052,8 +7053,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.random.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/random",
+				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}

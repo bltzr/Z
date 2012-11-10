@@ -261,8 +261,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.hub",
-					"text" : "jcom.hub @module_type control @description \"Triggering the Zlooper~ in a cycle mode\"",
+					"varname" : "jcom.model",
+					"text" : "jcom.model @module_type control @description \"Triggering the Zlooper~ in a cycle mode\"",
 					"numoutlets" : 2,
 					"fontsize" : 9.873845,
 					"outlettype" : [ "", "" ],

@@ -2287,7 +2287,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 228.0, 298.0, 17.0 ],
-					"text" : "jcom.hub @module_type audio @description \"Spat module\"",
+					"text" : "jcom.model @module_type audio @description \"Spat module\"",
 					"varname" : "jmod.hub"
 				}
 

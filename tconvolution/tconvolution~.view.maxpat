@@ -666,7 +666,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 474.0, 478.0, 148.0, 19.0 ],
-					"text" : "jcom.view IR.4/info/size"
+					"text" : "jcom.remote IR.4/info/size"
 				}
 
 			}
@@ -680,7 +680,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 478.0, 384.0, 148.0, 19.0 ],
-					"text" : "jcom.view IR.3/info/size"
+					"text" : "jcom.remote IR.3/info/size"
 				}
 
 			}
@@ -694,7 +694,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 476.0, 282.0, 148.0, 19.0 ],
-					"text" : "jcom.view IR.2/info/size"
+					"text" : "jcom.remote IR.2/info/size"
 				}
 
 			}
@@ -779,7 +779,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 322.0, 478.0, 146.0, 19.0 ],
-					"text" : "jcom.view out/amplitude.4",
+					"text" : "jcom.remote out/amplitude.4",
 					"varname" : "hue_angle[11]"
 				}
 
@@ -807,7 +807,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 325.0, 385.0, 146.0, 19.0 ],
-					"text" : "jcom.view out/amplitude.3",
+					"text" : "jcom.remote out/amplitude.3",
 					"varname" : "hue_angle[3]"
 				}
 
@@ -835,7 +835,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 320.0, 283.0, 146.0, 19.0 ],
-					"text" : "jcom.view out/amplitude.2",
+					"text" : "jcom.remote out/amplitude.2",
 					"varname" : "hue_angle[2]"
 				}
 
@@ -863,7 +863,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 322.0, 192.0, 146.0, 19.0 ],
-					"text" : "jcom.view out/amplitude.1",
+					"text" : "jcom.remote out/amplitude.1",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -958,7 +958,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 407.0, 535.0, 112.0, 19.0 ],
-					"text" : "jcom.view IR.4/gain",
+					"text" : "jcom.remote IR.4/gain",
 					"varname" : "preamp[2]"
 				}
 
@@ -993,7 +993,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 403.0, 445.0, 112.0, 19.0 ],
-					"text" : "jcom.view IR.3/gain",
+					"text" : "jcom.remote IR.3/gain",
 					"varname" : "preamp[3]"
 				}
 
@@ -1058,7 +1058,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 137.0, 536.0, 115.0, 19.0 ],
-					"text" : "jcom.view IR.4/file",
+					"text" : "jcom.remote IR.4/file",
 					"varname" : "hue_angle[9]"
 				}
 
@@ -1073,7 +1073,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 139.0, 435.0, 115.0, 19.0 ],
-					"text" : "jcom.view IR.3/file",
+					"text" : "jcom.remote IR.3/file",
 					"varname" : "hue_angle[10]"
 				}
 
@@ -1113,7 +1113,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 267.0, 532.0, 120.0, 19.0 ],
-					"text" : "jcom.view IR.4/buffer",
+					"text" : "jcom.remote IR.4/buffer",
 					"varname" : "hue_angle[7]"
 				}
 
@@ -1153,7 +1153,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 267.0, 442.0, 120.0, 19.0 ],
-					"text" : "jcom.view IR.3/buffer",
+					"text" : "jcom.remote IR.3/buffer",
 					"varname" : "hue_angle[8]"
 				}
 
@@ -1222,7 +1222,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 499.0, 482.0, 170.0, 20.0 ],
-									"text" : "jcom.view IR.4/info/channels"
+									"text" : "jcom.remote IR.4/info/channels"
 								}
 
 							}
@@ -1236,7 +1236,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 499.0, 414.0, 170.0, 20.0 ],
-									"text" : "jcom.view IR.3/info/channels"
+									"text" : "jcom.remote IR.3/info/channels"
 								}
 
 							}
@@ -1250,7 +1250,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 499.0, 349.0, 170.0, 20.0 ],
-									"text" : "jcom.view IR.2/info/channels"
+									"text" : "jcom.remote IR.2/info/channels"
 								}
 
 							}
@@ -1264,7 +1264,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 535.0, 211.0, 136.0, 20.0 ],
-									"text" : "jcom.view IR.4/info/size"
+									"text" : "jcom.remote IR.4/info/size"
 								}
 
 							}
@@ -1278,7 +1278,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 535.0, 144.0, 136.0, 20.0 ],
-									"text" : "jcom.view IR.3/info/size"
+									"text" : "jcom.remote IR.3/info/size"
 								}
 
 							}
@@ -1292,7 +1292,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 535.0, 84.0, 136.0, 20.0 ],
-									"text" : "jcom.view IR.2/info/size"
+									"text" : "jcom.remote IR.2/info/size"
 								}
 
 							}
@@ -1306,7 +1306,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 499.0, 288.0, 170.0, 20.0 ],
-									"text" : "jcom.view IR.1/info/channels"
+									"text" : "jcom.remote IR.1/info/channels"
 								}
 
 							}
@@ -1320,7 +1320,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 535.0, 21.0, 136.0, 20.0 ],
-									"text" : "jcom.view IR.1/info/size"
+									"text" : "jcom.remote IR.1/info/size"
 								}
 
 							}
@@ -1334,7 +1334,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.0, 310.0, 132.0, 19.0 ],
-									"text" : "jcom.view info/latency"
+									"text" : "jcom.remote info/latency"
 								}
 
 							}
@@ -1390,7 +1390,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 56.0, 403.5, 114.0, 19.0 ],
-									"text" : "jcom.view normalize",
+									"text" : "jcom.remote normalize",
 									"varname" : "saturation/active[4]"
 								}
 
@@ -1988,7 +1988,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 709.0, 19.0, 105.0, 34.0 ],
-													"text" : "jcom.view IR.4/info/filename"
+													"text" : "jcom.remote IR.4/info/filename"
 												}
 
 											}
@@ -2017,7 +2017,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 599.0, 62.0, 105.0, 34.0 ],
-													"text" : "jcom.view IR.3/info/filename"
+													"text" : "jcom.remote IR.3/info/filename"
 												}
 
 											}
@@ -2046,7 +2046,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 530.0, 20.0, 105.0, 34.0 ],
-													"text" : "jcom.view IR.2/info/filename"
+													"text" : "jcom.remote IR.2/info/filename"
 												}
 
 											}
@@ -2075,7 +2075,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 419.0, 61.0, 105.0, 34.0 ],
-													"text" : "jcom.view IR.1/info/filename"
+													"text" : "jcom.remote IR.1/info/filename"
 												}
 
 											}
@@ -2104,7 +2104,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 284.0, 39.0, 71.0, 34.0 ],
-													"text" : "jcom.view IR.4/mute"
+													"text" : "jcom.remote IR.4/mute"
 												}
 
 											}
@@ -2133,7 +2133,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 205.0, 39.0, 71.0, 34.0 ],
-													"text" : "jcom.view IR.3/mute"
+													"text" : "jcom.remote IR.3/mute"
 												}
 
 											}
@@ -2162,7 +2162,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 126.0, 39.0, 71.0, 34.0 ],
-													"text" : "jcom.view IR.2/mute"
+													"text" : "jcom.remote IR.2/mute"
 												}
 
 											}
@@ -2191,7 +2191,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 47.0, 39.0, 71.0, 34.0 ],
-													"text" : "jcom.view IR.1/mute"
+													"text" : "jcom.remote IR.1/mute"
 												}
 
 											}
@@ -3383,7 +3383,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 350.0, 128.0, 19.0 ],
-									"text" : "jcom.view IR.4/reverse",
+									"text" : "jcom.remote IR.4/reverse",
 									"varname" : "saturation/active[2]"
 								}
 
@@ -3416,7 +3416,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 318.0, 323.0, 128.0, 19.0 ],
-									"text" : "jcom.view IR.3/reverse",
+									"text" : "jcom.remote IR.3/reverse",
 									"varname" : "saturation/active[3]"
 								}
 
@@ -3449,7 +3449,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 319.0, 297.0, 128.0, 19.0 ],
-									"text" : "jcom.view IR.2/reverse",
+									"text" : "jcom.remote IR.2/reverse",
 									"varname" : "saturation/active[1]"
 								}
 
@@ -3501,7 +3501,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 22.0, 242.0, 152.0, 20.0 ],
-									"text" : "jcom.view info/maxlength"
+									"text" : "jcom.remote info/maxlength"
 								}
 
 							}
@@ -3644,7 +3644,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 86.0, 487.0, 109.0, 19.0 ],
-									"text" : "jcom.view channels",
+									"text" : "jcom.remote channels",
 									"varname" : "hue_angle[3]"
 								}
 
@@ -3680,7 +3680,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 353.0, 441.0, 131.0, 19.0 ],
-									"text" : "jcom.view SegmentSize",
+									"text" : "jcom.remote SegmentSize",
 									"varname" : "module_in[1]"
 								}
 
@@ -3695,7 +3695,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 319.0, 269.0, 128.0, 19.0 ],
-									"text" : "jcom.view IR.1/reverse",
+									"text" : "jcom.remote IR.1/reverse",
 									"varname" : "saturation/active"
 								}
 
@@ -4250,7 +4250,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 408.0, 339.0, 112.0, 19.0 ],
-					"text" : "jcom.view IR.2/gain",
+					"text" : "jcom.remote IR.2/gain",
 					"varname" : "preamp[1]"
 				}
 
@@ -4285,7 +4285,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 398.0, 250.0, 112.0, 19.0 ],
-					"text" : "jcom.view IR.1/gain",
+					"text" : "jcom.remote IR.1/gain",
 					"varname" : "preamp"
 				}
 
@@ -4339,7 +4339,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 262.0, 334.0, 120.0, 19.0 ],
-					"text" : "jcom.view IR.2/buffer",
+					"text" : "jcom.remote IR.2/buffer",
 					"varname" : "hue_angle[6]"
 				}
 
@@ -4354,7 +4354,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 480.0, 193.0, 148.0, 19.0 ],
-					"text" : "jcom.view IR.1/info/size"
+					"text" : "jcom.remote IR.1/info/size"
 				}
 
 			}
@@ -4410,7 +4410,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 270.0, 248.0, 120.0, 19.0 ],
-					"text" : "jcom.view IR.1/buffer",
+					"text" : "jcom.remote IR.1/buffer",
 					"varname" : "hue_angle[5]"
 				}
 
@@ -4475,7 +4475,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 126.0, 331.0, 115.0, 19.0 ],
-					"text" : "jcom.view IR.2/file",
+					"text" : "jcom.remote IR.2/file",
 					"varname" : "hue_angle[4]"
 				}
 
@@ -4576,7 +4576,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 130.0, 250.0, 115.0, 19.0 ],
-					"text" : "jcom.view IR.1/file",
+					"text" : "jcom.remote IR.1/file",
 					"varname" : "hue_angle"
 				}
 
@@ -4591,8 +4591,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 449.0, 84.0, 135.0, 19.0 ],
-					"text" : "jcom.hub @context view",
-					"varname" : "jcom.hub"
+					"text" : "jcom.view",
+					"varname" : "jcom.model"
 				}
 
 			}

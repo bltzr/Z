@@ -3791,7 +3791,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 56.0, 134.0, 119.0, 17.0 ],
-									"text" : "jcom.view source.*/position"
+									"text" : "jcom.remote source.*/position"
 								}
 
 							}
@@ -3833,7 +3833,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 188.0, 140.0, 119.0, 17.0 ],
-									"text" : "jcom.view source.*/position"
+									"text" : "jcom.remote source.*/position"
 								}
 
 							}
@@ -6730,7 +6730,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 425.0, 52.0, 108.0, 17.0 ],
-					"text" : "jcom.hub @context view"
+					"text" : "jcom.view"
 				}
 
 			}

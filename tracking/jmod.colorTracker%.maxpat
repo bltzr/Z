@@ -486,7 +486,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.0, 180.0, 428.0, 31.0 ],
-					"text" : "jcom.hub @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
+					"text" : "jcom.model @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
 					"varname" : "jmod.hub"
 				}
 

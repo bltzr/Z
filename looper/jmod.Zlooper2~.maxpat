@@ -6668,7 +6668,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 25.0, 230.0, 419.0, 20.0 ],
-					"text" : "jcom.hub @module_type audio @description \"Mono loop RAM audio player.\"",
+					"text" : "jcom.model @module_type audio @description \"Mono loop RAM audio player.\"",
 					"varname" : "jmod.hub"
 				}
 

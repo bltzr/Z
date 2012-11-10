@@ -152,7 +152,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 73.0, 219.5, 66.0, 31.0 ],
-					"text" : "jcom.view normalize",
+					"text" : "jcom.remote normalize",
 					"varname" : "saturation/active[4]"
 				}
 
@@ -876,7 +876,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 257.0, 44.0, 134.0, 19.0 ],
-									"text" : "jcom.view SegmentSize",
+									"text" : "jcom.remote SegmentSize",
 									"varname" : "module_in[1]"
 								}
 

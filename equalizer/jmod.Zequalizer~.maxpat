@@ -1357,8 +1357,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.hub",
-					"text" : "jcom.hub @module_type audio @description \"Multi-band equalizer\"",
+					"varname" : "jcom.model",
+					"text" : "jcom.model @module_type audio @description \"Multi-band equalizer\"",
 					"linecount" : 2,
 					"id" : "obj-29",
 					"fontname" : "Verdana",

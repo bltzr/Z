@@ -223,7 +223,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 54.0, 51.0, 18.0 ],
-					"text" : "jcom.hub"
+					"text" : "jcom.model"
 				}
 
 			}
@@ -933,7 +933,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 186.0, 253.0, 105.0, 20.0 ],
-									"text" : "jcom.view volume"
+									"text" : "jcom.remote volume"
 								}
 
 							}
@@ -1073,7 +1073,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 38.0, 39.0, 115.0, 19.0 ],
-									"text" : "jcom.view matrixList",
+									"text" : "jcom.remote matrixList",
 									"varname" : "matrixList"
 								}
 

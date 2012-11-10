@@ -210,7 +210,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "jmod.hub",
-					"text" : "jcom.hub @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
+					"text" : "jcom.model @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
 					"linecount" : 2,
 					"patching_rect" : [ 10.0, 155.0, 428.0, 31.0 ],
 					"id" : "obj-31",

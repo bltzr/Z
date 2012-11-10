@@ -127,7 +127,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 226.0, 140.0, 103.0, 17.0 ],
-					"text" : "jcom.view #1/bounds "
+					"text" : "jcom.remote #1/bounds "
 				}
 
 			}
@@ -141,7 +141,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 230.0, 27.0, 111.0, 17.0 ],
-					"text" : "jcom.view #1/threshold "
+					"text" : "jcom.remote #1/threshold "
 				}
 
 			}
@@ -172,7 +172,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 22.0, 178.0, 129.0, 17.0 ],
-					"text" : "jcom.view #1/trigger/down"
+					"text" : "jcom.remote #1/trigger/down"
 				}
 
 			}
@@ -186,7 +186,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 19.0, 136.0, 123.0, 17.0 ],
-					"text" : "jcom.view #1/trigger/up"
+					"text" : "jcom.remote #1/trigger/up"
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 23.0, 9.0, 190.0, 17.0 ],
-					"text" : "jcom.view #1/sensor @type decimal"
+					"text" : "jcom.remote #1/sensor @type decimal"
 				}
 
 			}

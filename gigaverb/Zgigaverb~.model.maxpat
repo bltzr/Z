@@ -57,7 +57,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 563.0, 384.0, 61.0, 29.0 ],
-					"text" : "jcom.view out/bypass"
+					"text" : "jcom.remote out/bypass"
 				}
 
 			}
@@ -467,7 +467,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 19.0, 50.0, 152.0, 29.0 ],
-					"text" : "jcom.hub @description \"Reverb module using gigaverb~ \""
+					"text" : "jcom.model @description \"Reverb module using gigaverb~ \""
 				}
 
 			}

@@ -28346,7 +28346,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 23.0, 243.0, 325.0, 34.0 ],
-					"text" : "jcom.hub @module_type audio @description \"dbap control module for Z- 2 sources\""
+					"text" : "jcom.model @module_type audio @description \"dbap control module for Z- 2 sources\""
 				}
 
 			}

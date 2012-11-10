@@ -125,8 +125,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 295.0, 331.0, 31.0 ],
-					"text" : "jcom.hub @module_type audio @description \"Reverb module using gigaverb~ \"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type audio @description \"Reverb module using gigaverb~ \"",
+					"varname" : "jcom.model"
 				}
 
 			}

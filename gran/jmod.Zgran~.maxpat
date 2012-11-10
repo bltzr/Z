@@ -841,8 +841,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 278.0, 354.0, 19.0 ],
-					"text" : "jcom.hub @module_type audio @description \"bufgranul~ mono\"",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type audio @description \"bufgranul~ mono\"",
+					"varname" : "jcom.model"
 				}
 
 			}

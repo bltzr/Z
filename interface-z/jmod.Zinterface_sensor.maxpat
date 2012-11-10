@@ -107,8 +107,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 166.0, 332.0, 17.0 ],
-					"text" : "jcom.hub @module_type control @description dd",
-					"varname" : "jcom.hub"
+					"text" : "jcom.model @module_type control @description dd",
+					"varname" : "jcom.model"
 				}
 
 			}

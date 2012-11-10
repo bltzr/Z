@@ -56,7 +56,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 165.0, 443.0, 146.0, 19.0 ],
-					"text" : "jcom.view out/amplitude.2"
+					"text" : "jcom.remote out/amplitude.2"
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 442.0, 146.0, 19.0 ],
-					"text" : "jcom.view out/amplitude.1"
+					"text" : "jcom.remote out/amplitude.1"
 				}
 
 			}
@@ -97,8 +97,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.0, 116.0, 135.0, 19.0 ],
-					"text" : "jcom.hub @context view",
-					"varname" : "jcom.hub"
+					"text" : "jcom.view",
+					"varname" : "jcom.model"
 				}
 
 			}
@@ -149,7 +149,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 244.0, 110.0, 19.0 ],
-					"text" : "jcom.view roomsize",
+					"text" : "jcom.remote roomsize",
 					"varname" : "bands[1]"
 				}
 
@@ -216,7 +216,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 324.0, 108.0, 19.0 ],
-					"text" : "jcom.view damping",
+					"text" : "jcom.remote damping",
 					"varname" : "bands[2]"
 				}
 
@@ -265,7 +265,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 189.0, 133.0, 103.0, 19.0 ],
-					"text" : "jcom.view revtime",
+					"text" : "jcom.remote revtime",
 					"varname" : "bands[3]"
 				}
 
@@ -335,7 +335,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 400.0, 89.0, 19.0 ],
-					"text" : "jcom.view clear",
+					"text" : "jcom.remote clear",
 					"varname" : "bands[6]"
 				}
 
@@ -350,7 +350,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 189.0, 218.0, 117.0, 19.0 ],
-					"text" : "jcom.view bandwidth",
+					"text" : "jcom.remote bandwidth",
 					"varname" : "bands[4]"
 				}
 
@@ -399,7 +399,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 189.0, 295.0, 90.0, 19.0 ],
-					"text" : "jcom.view early",
+					"text" : "jcom.remote early",
 					"varname" : "bands[5]"
 				}
 
@@ -448,7 +448,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 189.0, 396.0, 80.0, 19.0 ],
-					"text" : "jcom.view tail",
+					"text" : "jcom.remote tail",
 					"varname" : "bands[7]"
 				}
 

@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 940.0, 62.0, 822.0, 295.0 ],
+		"rect" : [ 718.0, 275.0, 820.0, 313.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,12 +30,40 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 157.5, 234.0, 73.0, 20.0 ],
+					"text" : "jcom.out~ 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 65.0, 234.0, 73.0, 20.0 ],
+					"text" : "jcom.out~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.0, 134.0, 100.0, 20.0 ],
+					"patching_rect" : [ 184.0, 137.5, 100.0, 20.0 ],
 					"text" : "prepend position"
 				}
 
@@ -49,7 +77,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 65.0, 167.0, 62.0, 20.0 ],
+					"patching_rect" : [ 65.0, 170.5, 92.0, 20.0 ],
 					"text" : "*~"
 				}
 
@@ -63,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 108.0, 128.5, 36.0, 20.0 ],
+					"patching_rect" : [ 138.0, 132.0, 36.0, 20.0 ],
 					"text" : "line~"
 				}
 
@@ -77,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 97.0, 66.0, 20.0 ],
+					"patching_rect" : [ 123.0, 100.5, 66.0, 20.0 ],
 					"text" : "pack 0. 10"
 				}
 
@@ -91,7 +119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 125.0, 58.0, 29.0, 20.0 ],
+					"patching_rect" : [ 140.0, 61.5, 29.0, 20.0 ],
 					"text" : "* 0."
 				}
 
@@ -106,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 169.0, 57.5, 601.0, 31.0 ],
+					"patching_rect" : [ 184.0, 61.0, 601.0, 31.0 ],
 					"text" : "jcom.parameter position @type decimal @range/bounds -1 1. @ramp/drive scheduler @description \"set the position of the panpot.  -1 == fully left, 0 == center, 1== fully right\" @value/default 0. @range/clipmode both",
 					"varname" : "position"
 				}
@@ -122,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 125.0, 16.0, 634.0, 31.0 ],
+					"patching_rect" : [ 140.0, 19.5, 634.0, 31.0 ],
 					"text" : "jcom.parameter volume @type decimal @range/bounds 0. 1. @ramp/drive scheduler @description \"set the volume\" @value/default 0. @range/clipmode low",
 					"varname" : "shape[2]"
 				}
@@ -138,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 272.0, 134.0, 524.0, 31.0 ],
+					"patching_rect" : [ 287.0, 137.5, 524.0, 31.0 ],
 					"text" : "jcom.parameter Mode @type string @description \"choose internal calculation mode for panning: fast uses a lookup table while precision performs trigonometric calculations\" @value/default PrecisionMode",
 					"varname" : "mode[1]"
 				}
@@ -154,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 194.0, 97.0, 602.0, 31.0 ],
+					"patching_rect" : [ 209.0, 100.5, 602.0, 31.0 ],
 					"text" : "jcom.parameter shape @type string @description \"Choose the panning function: linear, squareroot, or equal-power\" @value/default EqualPower",
 					"varname" : "shape[1]"
 				}
@@ -174,7 +202,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 1059.0, 262.0, 325.0, 283.0 ],
@@ -353,22 +381,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
-					"patching_rect" : [ 272.0, 171.5, 68.0, 19.0 ],
+					"patching_rect" : [ 287.0, 175.0, 68.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana"
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p modeMsg"
@@ -382,7 +409,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 244.0, 24.0, 24.0 ]
+					"patching_rect" : [ 39.0, 269.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -400,7 +427,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 1072.0, 269.0, 425.0, 284.0 ],
@@ -611,22 +638,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
-					"patching_rect" : [ 194.0, 167.0, 68.0, 19.0 ],
+					"patching_rect" : [ 209.0, 170.5, 68.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana"
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Verdana",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p shapeMsg"
@@ -664,7 +690,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 244.0, 24.0, 24.0 ]
+					"patching_rect" : [ 157.5, 269.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -675,7 +701,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 65.0, 244.0, 24.0, 24.0 ]
+					"patching_rect" : [ 65.0, 269.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -688,7 +714,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 65.0, 205.0, 107.0, 19.0 ],
+					"patching_rect" : [ 65.0, 208.5, 204.0, 19.0 ],
 					"text" : "jcom.panorama~ 1"
 				}
 
@@ -702,7 +728,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 39.0, 58.0, 75.0, 20.0 ],
+					"patching_rect" : [ 39.0, 61.5, 75.0, 20.0 ],
 					"text" : "jcom.model"
 				}
 
@@ -749,7 +775,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 281.5, 197.5, 74.5, 197.5 ],
+					"midpoints" : [ 296.5, 201.0, 74.5, 201.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -777,23 +803,14 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 178.5, 197.5, 74.5, 197.5 ],
+					"midpoints" : [ 193.5, 201.0, 74.5, 201.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-18", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 74.5, 237.0, 74.5, 237.0 ],
@@ -803,11 +820,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 203.5, 197.0, 74.5, 197.0 ],
+					"midpoints" : [ 218.5, 200.5, 74.5, 200.5 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -864,19 +908,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.panorama~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

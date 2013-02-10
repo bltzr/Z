@@ -4,10 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 933.0, 460.0, 486.0, 269.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -110,7 +111,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 278.5, 112.0, 85.0, 14.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.927094, 5.5, 74.854172, 12.5 ]
+					"presentation_rect" : [ 174.927094, 4.0, 74.854172, 12.5 ]
 				}
 
 			}
@@ -126,7 +127,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.0, 112.0, 85.0, 14.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.072922, 5.5, 74.854172, 12.5 ]
+					"presentation_rect" : [ 100.072922, 4.0, 74.854172, 12.5 ]
 				}
 
 			}
@@ -158,7 +159,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 50.0, 94.0, 217.0, 81.0 ],
@@ -184,7 +185,7 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-35",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -230,7 +231,7 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -296,7 +297,6 @@
 								"box" : 								{
 									"background" : 1,
 									"id" : "obj-2",
-									"ignoreclick" : 1,
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -343,26 +343,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "jcom.remote.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 281.0, 43.0, 48.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"tags" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p panel"
@@ -417,7 +412,7 @@
 					"patching_rect" : [ 0.0, -1.0, 300.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 35.0 ],
-					"text" : "waiting for a model/address"
+					"text" : "/track.1/vol"
 				}
 
 			}
@@ -502,31 +497,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.meter~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.textslider.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

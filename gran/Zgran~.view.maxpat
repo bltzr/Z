@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 100.0, 122.0, 997.0, 613.0 ],
+		"rect" : [ -1232.0, 106.0, 997.0, 613.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2281,7 +2281,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.384314, 0.462745, 0.65098, 1.0 ],
 					"bordercolor" : [ 0.831373, 0.05098, 0.031373, 1.0 ],
-					"buffername" : "DebutClimLaBri1.wav",
+					"buffername" : "NappeClimHemicycliaPorte.wav",
 					"clipdraw" : 1,
 					"grid" : 500.0,
 					"gridcolor" : [ 0.423529, 0.423529, 0.423529, 1.0 ],
@@ -3088,7 +3088,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 175.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ],
-					"text" : "/noModelAddress"
+					"text" : "/track.3/gran"
 				}
 
 			}
@@ -3100,7 +3100,7 @@
 					"fontsize" : 9.0,
 					"hint" : "select a buffer",
 					"id" : "obj-38",
-					"items" : "<empty>",
+					"items" : [ "Incubateur1.wav", ",", "Incubateur2.wav", ",", "Incubateur3.wav", ",", "Porte302Lent.wav", ",", "Porte302LongRapide.wav", ",", "PorteIncubateurVent1.wav", ",", "transfoGazLM.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3627,7 +3627,7 @@
 					"fontsize" : 9.0,
 					"hint" : "select a sub-folder of buffers",
 					"id" : "obj-71",
-					"items" : "<empty>",
+					"items" : [ "PrisesLaBRI", ",", "PrisesLille" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3747,7 +3747,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 100.0, 122.0, 207.0, 112.0 ],
+						"rect" : [ -537.0, 25.0, 207.0, 112.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -4093,7 +4093,7 @@
 									"fontsize" : 9.0,
 									"hint" : "select a collection of buffers",
 									"id" : "obj-15",
-									"items" : "<empty>",
+									"items" : "pool",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5211,38 +5211,6 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.random.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/random",
-				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.textslider.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.meter~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

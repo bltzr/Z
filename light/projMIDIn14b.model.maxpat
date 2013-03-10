@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 320.0, 84.0, 507.0, 431.0 ],
+		"rect" : [ 882.0, 412.0, 507.0, 431.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -27,6 +27,22 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 414.0, 235.0, 72.0, 20.0 ],
+					"text" : "jcom.preset",
+					"varname" : "_jcom_node[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -63,20 +79,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 102.0, 328.0, 32.5, 18.0 ],
 					"text" : "+ 64"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 84.714294, 275.0, 55.0, 18.0 ],
-					"text" : "change -1"
 				}
 
 			}
@@ -126,19 +128,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 97.0, 30.0, 18.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -179,8 +168,9 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.8, 0.169527, 0.245475, 0.8 ],
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 12.0,
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -368,7 +358,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 219.5, 68.0, 75.0, 18.0 ],
+					"patching_rect" : [ 378.5, 68.0, 89.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -512,7 +502,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 365.0, 273.0, 22.0, 22.0 ]
+					"patching_rect" : [ 335.0, 264.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -526,7 +516,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 218.0, 19.0, 19.0 ]
+					"patching_rect" : [ 335.0, 209.0, 19.0, 19.0 ]
 				}
 
 			}
@@ -540,7 +530,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 365.0, 244.0, 72.0, 20.0 ],
+					"patching_rect" : [ 335.0, 235.0, 72.0, 20.0 ],
 					"text" : "jcom.model",
 					"varname" : "_jcom_node"
 				}
@@ -2266,7 +2256,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-110", 0 ]
@@ -2353,15 +2343,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -2486,15 +2467,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2510,49 +2482,6 @@
 					"source" : [ "obj-77", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jalg.modulation.maxpat",
-				"bootpath" : "/Users/lesB/Documents/Z/light",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.random.maxpat",
-				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/random",
-				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vbap.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameterArray.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

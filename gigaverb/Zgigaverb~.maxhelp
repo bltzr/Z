@@ -1,10 +1,14 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 310.0, 97.0, 415.0, 554.0 ],
+		"appversion" : 		{
+			"major" : 6,
+			"minor" : 0,
+			"revision" : 8
+		}
+,
+		"rect" : [ 310.0, 97.0, 405.0, 432.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 310.0, 97.0, 415.0, 554.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -12,47 +16,24 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
+		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"args" : [  ],
-					"id" : "obj-18",
-					"maxclass" : "bpatcher",
-					"name" : "cueManager.view.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.0, 440.0, 300.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.0, 369.0, 113.0, 20.0 ],
-					"text" : "cueManager.model"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 101.0, 340.0, 26.0, 26.0 ]
 				}
 
@@ -64,6 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 167.666672, 307.0, 25.0, 56.0 ]
 				}
 
@@ -93,10 +75,14 @@
 					"outlettype" : [ "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 6,
+							"minor" : 0,
+							"revision" : 8
+						}
+,
 						"rect" : [ 25.0, 69.0, 260.0, 297.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 260.0, 297.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
 						"default_fontface" : 0,
@@ -104,12 +90,16 @@
 						"gridonopen" : 0,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
+						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -180,8 +170,8 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -189,8 +179,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -198,8 +188,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -207,8 +197,8 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [  ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -218,13 +208,16 @@
 ,
 					"patching_rect" : [ 141.0, 239.0, 57.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"digest" : "",
+						"fontface" : 0,
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p a_sound"
@@ -238,6 +231,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 139.0, 307.0, 25.0, 56.0 ]
 				}
 
@@ -262,6 +256,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 94.0, 234.0, 26.0, 26.0 ]
 				}
 
@@ -274,7 +269,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "signal", "signal" ],
+					"outlettype" : [ "", "signal", "" ],
 					"patching_rect" : [ 61.0, 276.0, 151.0, 18.0 ],
 					"text" : "Zgigaverb~.model /gigaVerb~"
 				}
@@ -304,7 +299,7 @@
 					"name" : "jcom.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 0.0, 410.0, 70.0 ],
+					"patching_rect" : [ 0.0, 0.0, 415.0, 70.0 ],
 					"varname" : "maxhelpui"
 				}
 
@@ -313,8 +308,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -322,8 +317,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -331,8 +326,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -340,6 +335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 150.5, 266.0, 202.5, 266.0 ],
 					"source" : [ "obj-15", 0 ]
@@ -349,8 +345,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -358,8 +354,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -367,6 +363,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 70.5, 269.5, 70.5, 269.5 ],
 					"source" : [ "obj-3", 0 ]
@@ -376,6 +373,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 103.5, 264.0, 136.0, 264.0, 136.0, 235.0, 150.5, 235.0 ],
 					"source" : [ "obj-30", 0 ]
@@ -385,11 +383,122 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 110.5, 374.0, 147.5, 374.0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "jcom.maxhelpui.maxpat",
+				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/maxhelpui",
+				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/maxhelpui",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.maxhelpuiButton.png",
+				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/maxhelpui",
+				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/maxhelpui",
+				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.maxhelpuiResize.js",
+				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/maxhelpui",
+				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/maxhelpui",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.jamomaPath.maxpat",
+				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/jamomaPath",
+				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/jamomaPath",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Zgigaverb~.view.maxpat",
+				"bootpath" : "/Users/lesB/Documents/Z/gigaverb",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.viewMuter.maxpat",
+				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/muters",
+				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/muters",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Zgigaverb~.model.maxpat",
+				"bootpath" : "/Users/lesB/Documents/Z/gigaverb",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.meter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "gigaverb~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.preset.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

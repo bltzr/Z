@@ -50,7 +50,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 129.319794, 388.0, 50.5, 18.0 ],
-					"presentation_rect" : [ 125.038727, 383.0, 0.0, 0.0 ],
 					"text" : "* 1."
 				}
 
@@ -65,7 +64,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 291.038727, 388.0, 50.5, 18.0 ],
-					"presentation_rect" : [ 286.959534, 388.0, 0.0, 0.0 ],
 					"text" : "* 1."
 				}
 
@@ -80,7 +78,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 449.959534, 395.0, 50.5, 18.0 ],
-					"presentation_rect" : [ 459.428589, 392.0, 0.0, 0.0 ],
 					"text" : "* 1."
 				}
 
@@ -95,7 +92,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 605.428589, 395.0, 50.5, 18.0 ],
-					"presentation_rect" : [ 605.428589, 395.0, 0.0, 0.0 ],
 					"text" : "* 1."
 				}
 
@@ -478,8 +474,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 642.928589, 680.0, 320.0, 33.0 ],
-					"text" : "jcom.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/allow 1"
+					"patching_rect" : [ 642.928589, 680.0, 333.0, 33.0 ],
+					"text" : "jcom.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/allow 1 @tag setup"
 				}
 
 			}
@@ -721,7 +717,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 82.0, 296.5, 275.0, 37.0 ],
-													"text" : "jcom.parameter holes @type integer @range/bounds 0 100 @range/clipmode both @description \"holes probability\" @ramp/drive scheduler",
+													"text" : "jcom.parameter holes @type integer @range/bounds 0 100 @range/clipmode both @description \"holes probability\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -800,7 +796,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 158.0, 26.0, 120.0, 97.0 ],
-																	"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive scheduler",
+																	"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive Max",
 																	"varname" : "jmod.parameter.mxb[1]"
 																}
 
@@ -817,7 +813,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 31.0, 26.0, 113.0, 97.0 ],
-																	"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive scheduler",
+																	"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive Max",
 																	"varname" : "jmod.parameter.mxb[11]"
 																}
 
@@ -948,7 +944,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 177.0, 33.0, 115.0, 87.0 ],
-																	"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive scheduler",
+																	"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive Max",
 																	"varname" : "jmod.parameter.mxb[1]"
 																}
 
@@ -965,7 +961,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 47.0, 32.0, 111.0, 87.0 ],
-																	"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive scheduler",
+																	"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive Max",
 																	"varname" : "jmod.parameter.mxb[11]"
 																}
 
@@ -1096,7 +1092,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 250.0, 33.0, 231.0, 47.0 ],
-																	"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive scheduler",
+																	"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive Max",
 																	"varname" : "jmod.parameter.mxb[1]"
 																}
 
@@ -1113,7 +1109,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 28.0, 33.0, 202.0, 47.0 ],
-																	"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive scheduler",
+																	"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive Max",
 																	"varname" : "jmod.parameter.mxb[11]"
 																}
 
@@ -1182,7 +1178,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 630.0, 172.0, 221.0, 47.0 ],
-													"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive scheduler",
+													"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[18]"
 												}
 
@@ -6768,7 +6764,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 147.319794, 61.0, 753.0, 20.0 ],
-					"text" : "jcom.parameter intensity @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "jcom.parameter intensity @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -6800,7 +6796,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 449.959534, 221.0, 390.0, 33.0 ],
-					"text" : "jcom.parameter B @type decimal @description \"blue value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "jcom.parameter B @type decimal @description \"blue value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -6816,7 +6812,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 291.038727, 170.0, 389.0, 33.0 ],
-					"text" : "jcom.parameter G @type decimal @description \"green value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "jcom.parameter G @type decimal @description \"green value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -6832,7 +6828,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.319794, 118.0, 388.0, 33.0 ],
-					"text" : "jcom.parameter R @type decimal @description \"red value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "jcom.parameter R @type decimal @description \"red value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -6847,8 +6843,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 830.788696, 576.0, 123.0, 29.0 ],
-					"text" : "jcom.parameter midiport @type string @priority 3"
+					"patching_rect" : [ 824.928589, 576.0, 151.0, 29.0 ],
+					"text" : "jcom.parameter midiport @type string @priority 3 @tag setup"
 				}
 
 			}
@@ -6862,8 +6858,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 70.038727, 541.0, 610.0, 20.0 ],
-					"text" : "jcom.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/allow 1"
+					"patching_rect" : [ 70.038727, 541.0, 675.0, 20.0 ],
+					"text" : "jcom.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/allow 1 @tag setup"
 				}
 
 			}
@@ -7092,7 +7088,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 830.788696, 617.0, 52.0, 18.0 ],
+					"patching_rect" : [ 824.928589, 617.0, 52.0, 18.0 ],
 					"text" : "jcom.thru"
 				}
 
@@ -7961,7 +7957,7 @@
 					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 63.311066, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 63.311066, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -7971,7 +7967,7 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 143.38414, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 143.38414, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -7981,7 +7977,7 @@
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 303.384125, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 303.384125, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -7991,7 +7987,7 @@
 					"destination" : [ "obj-58", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 223.38414, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 223.38414, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -8001,7 +7997,7 @@
 					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 458.731873, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 458.731873, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -8011,7 +8007,7 @@
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 383.283905, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 383.283905, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -8021,7 +8017,7 @@
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 614.200928, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 614.200928, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -8031,7 +8027,7 @@
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 840.288696, 668.0, 539.611816, 668.0 ],
+					"midpoints" : [ 834.428589, 668.0, 539.611816, 668.0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 

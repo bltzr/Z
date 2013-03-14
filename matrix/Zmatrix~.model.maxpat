@@ -194,7 +194,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 688.0, 194.0, 156.0, 51.0 ],
-					"text" : "jcom.parameter volume @type decimal @ramp/drive scheduler @description volume @priority 7 @value/default 1."
+					"text" : "jcom.parameter volume @type decimal @ramp/drive Max @description volume @priority 7 @value/default 1."
 				}
 
 			}
@@ -1472,7 +1472,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 210.0, 209.0, 313.0, 67.0 ],
-					"text" : "jcom.parameter interpolate @type decimal @range/clipmode both @ramp/drive scheduler @ramp/function linear @repetitions/allow 1 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
+					"text" : "jcom.parameter interpolate @type decimal @range/clipmode both @ramp/drive Max @ramp/function linear @repetitions/allow 1 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
 					"varname" : "interpolate"
 				}
 

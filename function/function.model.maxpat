@@ -1588,7 +1588,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 144.0, 140.0, 440.0, 29.0 ],
-					"text" : "jcom.parameter grain @type integer @range/bounds 25 200 @range/clipmode low @ramp/drive scheduler @description \"grain (in ms) of the function reading\" @value/default 40 @priority 13",
+					"text" : "jcom.parameter grain @type integer @range/bounds 25 200 @range/clipmode low @ramp/drive Max @description \"grain (in ms) of the function reading\" @value/default 40 @priority 13",
 					"varname" : "speed[1]"
 				}
 
@@ -1604,7 +1604,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 295.363647, 365.909088, 331.0, 29.0 ],
-					"text" : "jcom.parameter max @type decimal @ramp/drive scheduler @priority 5 @repetitions/allow 0"
+					"text" : "jcom.parameter max @type decimal @ramp/drive Max @priority 5 @repetitions/allow 0"
 				}
 
 			}
@@ -1619,7 +1619,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 250.181824, 328.0, 337.0, 29.0 ],
-					"text" : "jcom.parameter min @type decimal @ramp/drive scheduler @priority 6 @repetitions/allow 0"
+					"text" : "jcom.parameter min @type decimal @ramp/drive Max @priority 6 @repetitions/allow 0"
 				}
 
 			}
@@ -1913,7 +1913,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 171.0, 180.0, 443.0, 29.0 ],
-					"text" : "jcom.parameter speed @type decimal @range/bounds 0. 2. @range/clipmode none @ramp/drive scheduler @description \"speed of the function reading\" @value/default 1. @priority 12",
+					"text" : "jcom.parameter speed @type decimal @range/bounds 0. 2. @range/clipmode none @ramp/drive Max @description \"speed of the function reading\" @value/default 1. @priority 12",
 					"varname" : "speed"
 				}
 

@@ -100,7 +100,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 238.0, 425.0, 295.0, 43.0 ],
-					"text" : "jcom.parameter balance @type decimal @range/bounds -1 1 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
+					"text" : "jcom.parameter balance @type decimal @range/bounds -1 1 @range/clipmode both @ramp/drive Max @description \"Balance of the stereo signal\""
 				}
 
 			}
@@ -4554,7 +4554,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 472.0, 583.0, 149.0, 69.0 ],
-					"text" : "jcom.parameter pitch @type decimal @range/bounds 0. 20. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 35",
+					"text" : "jcom.parameter pitch @type decimal @range/bounds 0. 20. @range/clipmode both @repetitions/allow 0 @ramp/drive Max @description \"Select audio sample pitch.\" @priority 35",
 					"varname" : "pitch"
 				}
 

@@ -484,7 +484,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 47.0, 123.0, 225.0, 43.0 ],
-													"text" : "jcom.messageArray source.[4]/blur @type decimal @range/bounds 0. 4.@ramp/drive scheduler @description blur"
+													"text" : "jcom.messageArray source.[4]/blur @type decimal @range/bounds 0. 4.@ramp/drive Max @description blur"
 												}
 
 											}
@@ -499,7 +499,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 63.0, 242.0, 206.0, 43.0 ],
-													"text" : "jcom.messageArray source.[4]/volume @type decimal @ramp/drive scheduler @description volume"
+													"text" : "jcom.messageArray source.[4]/volume @type decimal @ramp/drive Max @description volume"
 												}
 
 											}

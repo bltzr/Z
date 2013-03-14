@@ -480,7 +480,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 440.5, 319.0, 351.0, 19.0 ],
-					"text" : "jcom.parameter position/val @type decimal @ramp/drive scheduler"
+					"text" : "jcom.parameter position/val @type decimal @ramp/drive Max"
 				}
 
 			}
@@ -519,7 +519,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 465.5, 275.0, 403.0, 19.0 ],
-					"text" : "jcom.parameter length/val @type decimal @ramp/drive scheduler @priority 5"
+					"text" : "jcom.parameter length/val @type decimal @ramp/drive Max @priority 5"
 				}
 
 			}
@@ -1494,7 +1494,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 30.0, 40.0, 332.0, 19.0 ],
-									"text" : "jcom.parameter delay/jit @type decimal @ramp/drive scheduler"
+									"text" : "jcom.parameter delay/jit @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -1509,7 +1509,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 184.0, 130.0, 178.0, 31.0 ],
-									"text" : "jcom.parameter delay/val @type decimal @ramp/drive scheduler"
+									"text" : "jcom.parameter delay/val @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -1845,7 +1845,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 90.0, 12.0, 187.0, 31.0 ],
-									"text" : "jcom.parameter position/jit @type decimal @ramp/drive scheduler"
+									"text" : "jcom.parameter position/jit @type decimal @ramp/drive Max"
 								}
 
 							}
@@ -2289,7 +2289,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 106.0, 39.0, 140.0, 67.0 ],
-									"text" : "jcom.parameter pitch/jit @ramp/drive scheduler @type decimal @range/bounds 0. 4. @range/clipmode low"
+									"text" : "jcom.parameter pitch/jit @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low"
 								}
 
 							}
@@ -2304,7 +2304,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 213.5, 156.0, 142.0, 67.0 ],
-									"text" : "jcom.parameter pitch/val @ramp/drive scheduler @type decimal @range/bounds 0. 4. @range/clipmode low"
+									"text" : "jcom.parameter pitch/val @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low"
 								}
 
 							}

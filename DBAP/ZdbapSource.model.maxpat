@@ -51,7 +51,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 44.0, 141.0, 435.0, 33.0 ],
-					"text" : "jcom.parameter position/y @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source  y position\" @value/default 0."
+					"text" : "jcom.parameter position/y @type decimal @ramp/drive Max @range/bounds -1. 1. @description \"source  y position\" @value/default 0."
 				}
 
 			}
@@ -66,7 +66,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 97.0, 458.0, 33.0 ],
-					"text" : "jcom.parameter position/x @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source  x position\" @value/default 0."
+					"text" : "jcom.parameter position/x @type decimal @ramp/drive Max @range/bounds -1. 1. @description \"source  x position\" @value/default 0."
 				}
 
 			}
@@ -5574,7 +5574,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 395.5, 73.0, 280.0, 40.0 ],
-									"text" : "jcom.parameter auxSpat/position/xy @type array @ramp/drive scheduler @range/bounds -1. 1. @description \"source  x/y position\" @priority 7 @value/default 0. 0."
+									"text" : "jcom.parameter auxSpat/position/xy @type array @ramp/drive Max @range/bounds -1. 1. @description \"source  x/y position\" @priority 7 @value/default 0. 0."
 								}
 
 							}
@@ -5633,7 +5633,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 43.0, 318.0, 309.0, 29.0 ],
-									"text" : "jcom.parameter aux.2/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "jcom.parameter aux.2/gain @type decimal @ramp/drive Max @description \"gain of the AUX send\" @priority 8 @value/default 0."
 								}
 
 							}
@@ -5691,7 +5691,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 37.5, 214.0, 309.0, 29.0 ],
-									"text" : "jcom.parameter aux.1/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "jcom.parameter aux.1/gain @type decimal @ramp/drive Max @description \"gain of the AUX send\" @priority 8 @value/default 0."
 								}
 
 							}
@@ -5721,7 +5721,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 14.75, 99.0, 214.0, 40.0 ],
-									"text" : "jcom.parameter auxSpat/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "jcom.parameter auxSpat/gain @type decimal @ramp/drive Max @description \"gain of the AUX send\" @priority 8 @value/default 0."
 								}
 
 							}
@@ -7540,7 +7540,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 500.0, 151.333328, 385.0, 47.0 ],
-									"text" : "jcom.parameter area/size/xy @type array @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 x position\" @priority 21 @value/default 0.2 0.2 @range/clipmode none"
+									"text" : "jcom.parameter area/size/xy @type array @ramp/drive Max @range/bounds -1. 1. @description \"source 1 x position\" @priority 21 @value/default 0.2 0.2 @range/clipmode none"
 								}
 
 							}
@@ -7555,7 +7555,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 10.0, 151.333328, 444.0, 33.0 ],
-									"text" : "jcom.parameter area/xy @type array @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 y position\" @priority 20 @range/clipmode none"
+									"text" : "jcom.parameter area/xy @type array @ramp/drive Max @range/bounds -1. 1. @description \"source 1 y position\" @priority 20 @range/clipmode none"
 								}
 
 							}
@@ -7993,7 +7993,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 61.5, 253.5, 423.0, 33.0 ],
-									"text" : "jcom.parameter trajectory/speed/variation @type decimal @ramp/drive scheduler @description \"trajectory speed variation of the source\" @priority 23"
+									"text" : "jcom.parameter trajectory/speed/variation @type decimal @ramp/drive Max @description \"trajectory speed variation of the source\" @priority 23"
 								}
 
 							}
@@ -8008,7 +8008,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 21.5, 214.5, 470.0, 33.0 ],
-									"text" : "jcom.parameter trajectory/speed @type decimal @range/bounds 0. 2. @ramp/drive scheduler @description \"trajectory speed of the source\" @value/default 1. @priority 22"
+									"text" : "jcom.parameter trajectory/speed @type decimal @range/bounds 0. 2. @ramp/drive Max @description \"trajectory speed of the source\" @value/default 1. @priority 22"
 								}
 
 							}
@@ -8708,7 +8708,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 549.5, 89.333313, 438.0, 33.0 ],
-									"text" : "jcom.message area/size/y @type decimal @ramp/drive scheduler @range/clipmode both @range/bounds -1. 1. @description \"source 1 y position\""
+									"text" : "jcom.message area/size/y @type decimal @ramp/drive Max @range/clipmode both @range/bounds -1. 1. @description \"source 1 y position\""
 								}
 
 							}
@@ -8723,7 +8723,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 522.5, 43.0, 440.5, 33.0 ],
-									"text" : "jcom.message area/size/x @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 x position\" @range/clipmode both"
+									"text" : "jcom.message area/size/x @type decimal @ramp/drive Max @range/bounds -1. 1. @description \"source 1 x position\" @range/clipmode both"
 								}
 
 							}
@@ -8738,7 +8738,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 56.0, 84.333344, 425.0, 33.0 ],
-									"text" : "jcom.message area/y @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 y position\" @range/clipmode both"
+									"text" : "jcom.message area/y @type decimal @ramp/drive Max @range/bounds -1. 1. @description \"source 1 y position\" @range/clipmode both"
 								}
 
 							}
@@ -8753,7 +8753,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 30.0, 43.0, 425.0, 33.0 ],
-									"text" : "jcom.message area/x @type decimal @ramp/drive scheduler @range/bounds -1. 1. @range/clipmode both @description \"source 1 x position\""
+									"text" : "jcom.message area/x @type decimal @ramp/drive Max @range/bounds -1. 1. @range/clipmode both @description \"source 1 x position\""
 								}
 
 							}
@@ -9819,7 +9819,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 38.0, 11.0, 253.0, 37.0 ],
-									"text" : "jcom.message position/distance @type decimal @range/bounds 0 360 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/allow 1",
+									"text" : "jcom.message position/distance @type decimal @range/bounds 0 360 @ramp/drive Max @description \"Polar coordinate position : distance \" @repetitions/allow 1",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
 
@@ -9836,7 +9836,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 78.0, 54.0, 222.0, 37.0 ],
-									"text" : "jcom.message position/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/allow 1",
+									"text" : "jcom.message position/angle @type decimal @ramp/drive Max @description \"Polar coordinate position : angle\" @repetitions/allow 1",
 									"varname" : "jmod.parameter.mxb[5]"
 								}
 
@@ -9957,7 +9957,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 127.0, 225.0, 374.0, 33.0 ],
-					"text" : "jcom.parameter blur @type decimal @range/bounds 0. 4.@ramp/drive scheduler @description blur @value/default 0."
+					"text" : "jcom.parameter blur @type decimal @range/bounds 0. 4.@ramp/drive Max @description blur @value/default 0."
 				}
 
 			}

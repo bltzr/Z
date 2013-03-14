@@ -58,28 +58,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 288.0, 475.0, 32.0, 18.0 ],
-					"text" : "sel 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-7",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 563.0, 384.0, 69.0, 29.0 ],
-					"text" : "jcom.remote out.*/bypass"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 557.333313, 384.0, 69.0, 29.0 ],
+					"text" : "jcom.receive out.*/bypass"
 				}
 
 			}
@@ -92,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.0, 500.0, 42.0, 15.0 ],
+					"patching_rect" : [ 288.0, 474.0, 42.0, 15.0 ],
 					"text" : "dry -90."
 				}
 
@@ -374,10 +360,10 @@
 					"id" : "obj-72",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 288.0, 455.0, 59.0, 19.0 ],
-					"text" : "jcom.init"
+					"text" : "loadbang"
 				}
 
 			}
@@ -488,7 +474,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.0, 50.0, 160.0, 29.0 ],
+					"patching_rect" : [ 19.0, 50.0, 162.0, 29.0 ],
 					"text" : "jcom.model @description \"Reverb module using gigaverb~ \""
 				}
 
@@ -505,19 +491,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 297.5, 516.0, 230.0, 516.0, 230.0, 454.0, 66.0, 454.0 ],
+					"midpoints" : [ 297.5, 492.0, 230.0, 492.0, 230.0, 454.0, 66.0, 454.0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -703,7 +680,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-72", 0 ]

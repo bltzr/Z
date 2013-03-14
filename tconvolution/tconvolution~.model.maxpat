@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 420.0, 621.0, 670.0, 340.0 ],
+		"rect" : [ 562.0, 611.0, 670.0, 340.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 471.0, 249.0, 73.0, 19.0 ],
+					"patching_rect" : [ 471.0, 231.0, 73.0, 19.0 ],
 					"text" : "jcom.out~ 4"
 				}
 
@@ -63,7 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 323.0, 249.0, 73.0, 19.0 ],
+					"patching_rect" : [ 323.0, 231.0, 73.0, 19.0 ],
 					"text" : "jcom.out~ 3"
 				}
 
@@ -91,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 175.0, 249.0, 73.0, 19.0 ],
+					"patching_rect" : [ 175.0, 231.0, 73.0, 19.0 ],
 					"text" : "jcom.out~ 2"
 				}
 
@@ -131,7 +131,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 471.0, 123.0, 24.0, 24.0 ]
 				}
 
@@ -143,7 +143,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 323.0, 123.0, 25.0, 25.0 ]
 				}
 
@@ -155,7 +155,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.0, 281.0, 24.0, 24.0 ]
+					"patching_rect" : [ 471.0, 263.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -166,7 +166,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.0, 280.0, 25.0, 25.0 ]
+					"patching_rect" : [ 323.0, 262.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -179,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 281.0, 118.0, 19.0 ],
+					"patching_rect" : [ 525.0, 263.0, 118.0, 19.0 ],
 					"text" : "<- signal outputs",
 					"textcolor" : [ 0.290196, 0.611765, 0.380392, 1.0 ]
 				}
@@ -194,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 27.0, 249.0, 73.0, 19.0 ],
+					"patching_rect" : [ 27.0, 231.0, 73.0, 19.0 ],
 					"text" : "jcom.out~ 1"
 				}
 
@@ -220,7 +220,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.0, 123.0, 24.0, 24.0 ]
 				}
 
@@ -232,7 +232,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 280.0, 24.0, 24.0 ]
+					"patching_rect" : [ 27.0, 262.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -243,7 +243,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 175.0, 123.0, 24.0, 24.0 ]
 				}
 
@@ -255,7 +255,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 280.0, 24.0, 24.0 ]
+					"patching_rect" : [ 175.0, 262.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -635,13 +635,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-46",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 471.0, 186.0, 139.0, 43.0 ],
-					"text" : "poly~ poly.tconvolution.maxpat 1 @args IR.4"
+					"patching_rect" : [ 471.0, 186.0, 139.0, 31.0 ],
+					"text" : "poly.tconvolution.maxpat IR.4"
 				}
 
 			}
@@ -1385,13 +1385,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-19",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 323.0, 186.0, 122.0, 43.0 ],
-					"text" : "poly~ poly.tconvolution.maxpat 1 @args IR.3"
+					"patching_rect" : [ 323.0, 186.0, 122.0, 31.0 ],
+					"text" : "poly.tconvolution.maxpat IR.3"
 				}
 
 			}
@@ -1400,13 +1400,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-18",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 175.0, 186.0, 139.0, 43.0 ],
-					"text" : "poly~ poly.tconvolution.maxpat 1 @args IR.2"
+					"patching_rect" : [ 174.0, 186.0, 139.0, 31.0 ],
+					"text" : "poly.tconvolution.maxpat IR.2"
 				}
 
 			}
@@ -1415,13 +1415,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-14",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 27.0, 186.0, 139.0, 43.0 ],
-					"text" : "poly~ poly.tconvolution.maxpat 1 @args IR.1"
+					"patching_rect" : [ 27.0, 186.0, 145.0, 31.0 ],
+					"text" : "poly.tconvolution.maxpat IR.1"
 				}
 
 			}
@@ -1629,6 +1629,73 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "poly.tconvolution.maxpat",
+				"bootpath" : "/Users/lesB/Documents/Z/tconvolution",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jcom.thru.maxpat",
+				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/thru",
+				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tconvolutionUB~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "!.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.in~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.out~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.preset.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

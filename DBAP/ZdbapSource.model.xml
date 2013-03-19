@@ -15,13 +15,12 @@
   <command address="volume">0.000000</command>
   <command address="area/xy">0. 0.</command>
   <command address="area/size/xy">2. 2.</command>
-  <command address="trajectory/speed">1.0</command>
+  <command address="trajectory/speed/val">1.0</command>
   <command address="trajectory/speed/variation">0.000000</command>
   <command address="trajectory/grain">20</command>
   <command address="trajectory/direction">0</command>
   <command address="position/y">0.</command>
   <command address="position/x">0.</command>
-  <command address="dbapNumber">1</command>
   <command address="dbapDestination">/Zdbap</command>
   <command address="color">1.000000 0.000000 0.000000 1.000000</command>
   <command address="blur">0.000000</command>

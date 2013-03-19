@@ -159,7 +159,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 72.0, 246.0, 47.0 ],
-									"text" : "jcom.parameter volume_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive Max						"varname" : "jmod.parameter.mxb[1]"
+									"text" : "jcom.parameter volume_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive scheduler",
+									"varname" : "jmod.parameter.mxb[1]"
 								}
 
 							}
@@ -175,7 +176,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 16.0, 246.0, 47.0 ],
-									"text" : "jcom.parameter volume_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive Max						"varname" : "jmod.parameter.mxb[2]"
+									"text" : "jcom.parameter volume_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive scheduler",
+									"varname" : "jmod.parameter.mxb[2]"
 								}
 
 							}
@@ -191,7 +193,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 416.0, 253.0, 47.0 ],
-									"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive Max						"varname" : "jmod.parameter.mxb[18]"
+									"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive scheduler",
+									"varname" : "jmod.parameter.mxb[18]"
 								}
 
 							}
@@ -224,7 +227,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 189.0, 246.0, 47.0 ],
-									"text" : "jcom.parameter time_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive Max						"varname" : "jmod.parameter.mxb[3]"
+									"text" : "jcom.parameter time_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive scheduler",
+									"varname" : "jmod.parameter.mxb[3]"
 								}
 
 							}
@@ -240,7 +244,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 133.0, 246.0, 47.0 ],
-									"text" : "jcom.parameter time_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive Max						"varname" : "jmod.parameter.mxb[4]"
+									"text" : "jcom.parameter time_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive scheduler",
+									"varname" : "jmod.parameter.mxb[4]"
 								}
 
 							}
@@ -256,7 +261,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 309.0, 246.0, 47.0 ],
-									"text" : "jcom.parameter pause_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive Max						"varname" : "jmod.parameter.mxb[5]"
+									"text" : "jcom.parameter pause_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive scheduler",
+									"varname" : "jmod.parameter.mxb[5]"
 								}
 
 							}
@@ -272,7 +278,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 252.0, 246.0, 47.0 ],
-									"text" : "jcom.parameter pause_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive Max						"varname" : "jmod.parameter.mxb[6]"
+									"text" : "jcom.parameter pause_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive scheduler",
+									"varname" : "jmod.parameter.mxb[6]"
 								}
 
 							}
@@ -280,7 +287,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 219.5, 68.0, 75.0, 18.0 ],
+					"patching_rect" : [ 124.0, 67.0, 75.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -304,12 +311,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.0, 326.0, 332.0, 33.0 ],
+					"patching_rect" : [ 51.0, 326.0, 317.0, 47.0 ],
 					"text" : "jcom.parameter MIDIChannel @type integer@description \"MIDI channel\" @priority 2 @repetitions/allow 1 @tag setup"
 				}
 
@@ -320,11 +327,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-77",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.0, 294.0, 283.0, 18.0 ],
+					"patching_rect" : [ 23.0, 294.0, 271.5, 29.0 ],
 					"text" : "jcom.parameter midiport @type string @priority 3 @tag setup"
 				}
 
@@ -354,7 +362,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.5, 68.0, 100.0, 18.0 ],
+					"patching_rect" : [ 229.0, 67.0, 100.0, 18.0 ],
 					"text" : "prepend array/resize"
 				}
 
@@ -368,7 +376,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.5, 68.0, 78.0, 18.0 ],
+					"patching_rect" : [ 31.0, 67.0, 78.0, 18.0 ],
 					"text" : "prepend voices"
 				}
 
@@ -396,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 181.5, 97.0, 113.0, 18.0 ],
+					"patching_rect" : [ 86.0, 96.0, 113.0, 18.0 ],
 					"text" : "poly~ jalg.modulation 4"
 				}
 
@@ -413,7 +421,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 6.5, 132.0, 288.0, 47.0 ],
-					"text" : "jcom.parameterArray intensity.[4] @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max}
+					"text" : "jcom.parameterArray intensity.[4] @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+				}
 
 			}
 , 			{
@@ -468,7 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.5, 14.0, 484.0, 33.0 ],
+					"patching_rect" : [ 6.5, 14.0, 485.0, 33.0 ],
 					"text" : "jcom.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/allow 0 @tag setup"
 				}
 
@@ -1145,7 +1154,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 303.0, 17.0, 136.0, 74.0 ],
-									"text" : "jcom.message spread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max				}
+									"text" : "jcom.message spread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+								}
 
 							}
 , 							{
@@ -1174,7 +1184,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 153.0, 17.0, 136.0, 74.0 ],
-									"text" : "jcom.message pan @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max				}
+									"text" : "jcom.message pan @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+								}
 
 							}
 , 							{
@@ -1231,7 +1242,8 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 473.0, 18.0, 146.0, 74.0 ],
-									"text" : "jcom.message intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max				}
+									"text" : "jcom.message intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+								}
 
 							}
 , 							{
@@ -2108,7 +2120,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 102.0, 97.0, 50.0, 18.0 ],
+					"patching_rect" : [ 6.5, 96.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2290,6 +2302,7 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 238.5, 125.0, 16.0, 125.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -2308,7 +2321,7 @@
 					"destination" : [ "obj-141", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.0, 57.0, 111.5, 57.0 ],
+					"midpoints" : [ 16.0, 57.0, 16.0, 57.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2318,6 +2331,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 16.0, 56.5, 238.5, 56.5 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2327,7 +2341,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.0, 57.0, 136.0, 57.0 ],
+					"midpoints" : [ 16.0, 57.0, 40.5, 57.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
 		"rect" : [ 148.0, 413.0, 667.0, 503.0 ],
@@ -52,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 40.0, 362.0, 589.0, 31.0 ],
-					"text" : "jcom.parameter mainfolder @type generic @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @value/default none",
+					"text" : "jcom.parameter mainfolder @type generic @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @value/default none @tag init",
 					"varname" : "jcom.parameter.mxb[2]"
 				}
 
@@ -70,7 +70,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 338.0, 114.0, 581.0, 226.0 ],
@@ -107,7 +107,7 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.403922, 0.109804, 0.701961, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -122,7 +122,7 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.403922, 0.109804, 0.701961, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -374,22 +374,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
 					"patching_rect" : [ 337.0, 287.0, 225.0, 36.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
 						"default_fontsize" : 9.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Verdana",
 						"fontsize" : 9.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p coll_declaration"
@@ -423,7 +422,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 84.0, 123.0, 1174.0, 640.0 ],
@@ -454,7 +453,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 666.0, 334.0, 166.0, 20.0 ],
+									"patching_rect" : [ 666.0, 334.0, 166.0, 19.0 ],
 									"text" : "regexp (//) @substitute :/"
 								}
 
@@ -482,7 +481,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 254.0, 68.0, 166.0, 20.0 ],
+									"patching_rect" : [ 254.0, 68.0, 166.0, 19.0 ],
 									"text" : "regexp (//) @substitute :/"
 								}
 
@@ -706,7 +705,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 629.0, 116.0, 640.0, 480.0 ],
@@ -1181,22 +1180,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 245.013519, 530.795166, 84.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p deletebuffer"
@@ -1213,7 +1211,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 818.059692, 485.167389, 260.0, 33.0 ],
+									"patching_rect" : [ 818.059692, 485.167389, 260.0, 31.0 ],
 									"text" : ";\n#0_xxx_addbuftp script connect inlet 0 $1 0; "
 								}
 
@@ -1499,7 +1497,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 558.0, 435.0, 692.0, 339.0 ],
@@ -1753,6 +1751,7 @@
 													"outlettype" : [ "", "", "", "", "" ],
 													"patching_rect" : [ 777.0, 147.0, 160.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"filename" : "patchdescribe.js",
 														"parameter_enable" : 0
 													}
 ,
@@ -2033,28 +2032,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "patchdescribe.js",
-												"bootpath" : "/Applications/Max6/examples/javascript/patcher-scripting",
-												"type" : "TEXT",
-												"implicit" : 1
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 655.72876, 581.080933, 234.0, 80.0 ],
+									"patching_rect" : [ 655.72876, 581.080933, 234.0, 78.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p bufs",
@@ -2170,7 +2162,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 282.059692, 361.167389, 360.0, 33.0 ],
+									"patching_rect" : [ 282.059692, 361.167389, 360.0, 31.0 ],
 									"text" : ";\r\n#0_xxx_addbuftp script new $1 newex $3 $2 $4 9 buffer~ $1 $5"
 								}
 
@@ -2758,28 +2750,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "patchdescribe.js",
-								"bootpath" : "/Applications/Max6/examples/javascript/patcher-scripting",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 202.0, 444.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p addfile"
@@ -2799,7 +2784,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 8
 						}
 ,
 						"rect" : [ 254.0, 399.0, 1080.0, 606.0 ],
@@ -2856,7 +2841,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 295.0, 60.0, 166.0, 20.0 ],
+									"patching_rect" : [ 295.0, 60.0, 166.0, 19.0 ],
 									"text" : "regexp (//) @substitute :/"
 								}
 
@@ -2929,7 +2914,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 204.0, 81.0, 991.0, 602.0 ],
@@ -3141,7 +3126,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 56.0, 330.0, 340.0, 33.0 ],
+													"patching_rect" : [ 56.0, 330.0, 340.0, 31.0 ],
 													"text" : ";\r\n#0_xxx_buftp script new $1 newex $3 $2 $4 9 buffer~ $1 $5"
 												}
 
@@ -3379,22 +3364,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 96.046173, 475.658997, 133.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p generationfile"
@@ -3414,7 +3398,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 29.0, 67.0, 866.0, 577.0 ],
@@ -3556,7 +3540,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 169.530457, 179.034973, 459.979034, 18.0 ],
-													"text" : "Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/L-oops"
+													"text" : "noneL-oops"
 												}
 
 											}
@@ -3709,7 +3693,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 107.0, 425.713257, 340.0, 33.0 ],
+													"patching_rect" : [ 107.0, 425.713257, 340.0, 31.0 ],
 													"text" : ";\r\n#0_xxx_buftp script new $1 newex $3 $2 $4 9 buffer~ $1 $5"
 												}
 
@@ -4005,22 +3989,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 100.046173, 419.658997, 217.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p generationlist"
@@ -4040,7 +4023,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 29.0, 67.0, 640.0, 480.0 ],
@@ -4607,22 +4590,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [  ]
+ ]
 									}
 ,
 									"patching_rect" : [ 642.590698, 325.196411, 80.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p calculindex"
@@ -4833,7 +4815,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 168.145554, 163.999786, 173.0, 33.0 ],
+									"patching_rect" : [ 168.145554, 163.999786, 173.0, 31.0 ],
 									"text" : ";\r\n#0_xxx_buftp clearbuff bang"
 								}
 
@@ -5108,7 +5090,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 61.9916, 289.37207, 100.0, 20.0 ],
-									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/L-oops/",
+									"prefix" : "noneL-oops",
 									"prefix_mode" : 2,
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
 								}
@@ -5142,7 +5124,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 115.063675, 208.31749, 100.0, 20.0 ],
-									"prefix" : "Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/",
+									"prefix" : "none",
 									"types" : "fold"
 								}
 
@@ -5175,7 +5157,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 5
+											"revision" : 8
 										}
 ,
 										"rect" : [ 87.0, 301.0, 1087.0, 540.0 ],
@@ -5427,6 +5409,7 @@
 													"outlettype" : [ "", "", "", "", "" ],
 													"patching_rect" : [ 777.0, 147.0, 160.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"filename" : "patchdescribe.js",
 														"parameter_enable" : 0
 													}
 ,
@@ -5635,14 +5618,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-54",
+													"id" : "obj-31",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 16.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu01.aif",
-													"varname" : "G-train_flak+wouu01.aif"
+													"text" : "buffer~ L-infra_vagues_ryth01.aif noneG-trains/L-infra_vagues_ryth01.aif"
 												}
 
 											}
@@ -5650,14 +5632,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-55",
+													"id" : "obj-32",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 32.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu02.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu02.aif",
-													"varname" : "G-train_flak+wouu02.aif"
+													"text" : "buffer~ L-noisz_pulse+vent01.aif noneG-trains/L-noisz_pulse+vent01.aif"
 												}
 
 											}
@@ -5665,14 +5646,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-56",
+													"id" : "obj-33",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 48.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu03.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu03.aif",
-													"varname" : "G-train_flak+wouu03.aif"
+													"text" : "buffer~ L-zii_gratt+tacs01.aif noneG-trains/L-zii_gratt+tacs01.aif"
 												}
 
 											}
@@ -5680,14 +5660,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-57",
+													"id" : "obj-34",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 64.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu04.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu04.aif",
-													"varname" : "G-train_flak+wouu04.aif"
+													"text" : "buffer~ L-zii_gratt+tacs02.aif noneG-trains/L-zii_gratt+tacs02.aif"
 												}
 
 											}
@@ -5695,14 +5674,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-59",
+													"id" : "obj-35",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 80.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu05.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu05.aif",
-													"varname" : "G-train_flak+wouu05.aif"
+													"text" : "buffer~ L-infra_vagues_ryth01.aif noneG-woop/L-infra_vagues_ryth01.aif"
 												}
 
 											}
@@ -5710,14 +5688,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-60",
+													"id" : "obj-36",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 96.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu06.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu06.aif",
-													"varname" : "G-train_flak+wouu06.aif"
+													"text" : "buffer~ L-noisz_pulse+vent01.aif noneG-woop/L-noisz_pulse+vent01.aif"
 												}
 
 											}
@@ -5725,14 +5702,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-61",
+													"id" : "obj-37",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 112.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu07.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu07.aif",
-													"varname" : "G-train_flak+wouu07.aif"
+													"text" : "buffer~ L-zii_gratt+tacs01.aif noneG-woop/L-zii_gratt+tacs01.aif"
 												}
 
 											}
@@ -5740,14 +5716,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-62",
+													"id" : "obj-38",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 128.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak+wouu08.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak+wouu08.aif",
-													"varname" : "G-train_flak+wouu08.aif"
+													"text" : "buffer~ L-zii_gratt+tacs02.aif noneG-woop/L-zii_gratt+tacs02.aif"
 												}
 
 											}
@@ -5755,14 +5730,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-63",
+													"id" : "obj-39",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 144.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak01.aif",
-													"varname" : "G-train_flak01.aif"
+													"text" : "buffer~ L-infra_vagues_ryth01.aif noneG-ziit/L-infra_vagues_ryth01.aif"
 												}
 
 											}
@@ -5770,14 +5744,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-64",
+													"id" : "obj-40",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 160.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak02.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak02.aif",
-													"varname" : "G-train_flak02.aif"
+													"text" : "buffer~ L-noisz_pulse+vent01.aif noneG-ziit/L-noisz_pulse+vent01.aif"
 												}
 
 											}
@@ -5785,14 +5758,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-65",
+													"id" : "obj-41",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 176.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak03.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak03.aif",
-													"varname" : "G-train_flak03.aif"
+													"text" : "buffer~ L-zii_gratt+tacs01.aif noneG-ziit/L-zii_gratt+tacs01.aif"
 												}
 
 											}
@@ -5800,14 +5772,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-66",
+													"id" : "obj-42",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 192.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-train_flak04.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-trains/G-train_flak04.aif",
-													"varname" : "G-train_flak04.aif"
+													"text" : "buffer~ L-zii_gratt+tacs02.aif noneG-ziit/L-zii_gratt+tacs02.aif"
 												}
 
 											}
@@ -5815,118 +5786,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-67",
+													"id" : "obj-43",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
 													"patching_rect" : [ 3.0, 208.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-vwoppowom01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-woop/G-vwoppowom01.aif",
-													"varname" : "G-vwoppowom01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-68",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 224.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-wepwa_ou01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-woop/G-wepwa_ou01.aif",
-													"varname" : "G-wepwa_ou01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-69",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 240.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-syn_seq_zwaat01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-ziit/G-syn_seq_zwaat01.aif",
-													"varname" : "G-syn_seq_zwaat01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-70",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 256.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-syn_seq_zwiit01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-ziit/G-syn_seq_zwiit01.aif",
-													"varname" : "G-syn_seq_zwiit01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-71",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 272.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-syn_seq_zwiit02.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-ziit/G-syn_seq_zwiit02.aif",
-													"varname" : "G-syn_seq_zwiit02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-72",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 288.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-zii_wii01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-ziit/G-zii_wii01.aif",
-													"varname" : "G-zii_wii01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-73",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 304.0, 600.0, 17.0 ],
-													"text" : "buffer~ G-ziit02.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/G-ziit/G-ziit02.aif",
-													"varname" : "G-ziit02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-74",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 320.0, 600.0, 17.0 ],
-													"text" : "buffer~ L-infra_vagues_ryth01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/L-oops/L-infra_vagues_ryth01.aif",
+													"text" : "buffer~ L-infra_vagues_ryth01.aif noneL-oops/L-infra_vagues_ryth01.aif",
 													"varname" : "L-infra_vagues_ryth01.aif"
 												}
 
@@ -5935,13 +5801,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-75",
+													"id" : "obj-44",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 336.0, 600.0, 17.0 ],
-													"text" : "buffer~ L-noisz_pulse+vent01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/L-oops/L-noisz_pulse+vent01.aif",
+													"patching_rect" : [ 3.0, 224.0, 600.0, 17.0 ],
+													"text" : "buffer~ L-noisz_pulse+vent01.aif noneL-oops/L-noisz_pulse+vent01.aif",
 													"varname" : "L-noisz_pulse+vent01.aif"
 												}
 
@@ -5950,13 +5816,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-76",
+													"id" : "obj-45",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 352.0, 600.0, 17.0 ],
-													"text" : "buffer~ L-zii_gratt+tacs01.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/L-oops/L-zii_gratt+tacs01.aif",
+													"patching_rect" : [ 3.0, 240.0, 600.0, 17.0 ],
+													"text" : "buffer~ L-zii_gratt+tacs01.aif noneL-oops/L-zii_gratt+tacs01.aif",
 													"varname" : "L-zii_gratt+tacs01.aif"
 												}
 
@@ -5965,13 +5831,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-77",
+													"id" : "obj-46",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 368.0, 600.0, 17.0 ],
-													"text" : "buffer~ L-zii_gratt+tacs02.aif Servo:/Users/bltzr/Music/SonsDivers/SonsTest/RAM/L-oops/L-zii_gratt+tacs02.aif",
+													"patching_rect" : [ 3.0, 256.0, 600.0, 17.0 ],
+													"text" : "buffer~ L-zii_gratt+tacs02.aif noneL-oops/L-zii_gratt+tacs02.aif",
 													"varname" : "L-zii_gratt+tacs02.aif"
 												}
 
@@ -6172,28 +6038,21 @@
 												}
 
 											}
- ],
-										"dependency_cache" : [ 											{
-												"name" : "patchdescribe.js",
-												"bootpath" : "/Applications/Max6/examples/javascript/patcher-scripting",
-												"type" : "TEXT",
-												"implicit" : 1
-											}
  ]
 									}
 ,
-									"patching_rect" : [ 471.0, 206.0, 208.0, 80.0 ],
+									"patching_rect" : [ 471.0, 206.0, 208.0, 78.0 ],
 									"saved_object_attributes" : 									{
-										"digest" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
 										"description" : "",
-										"tags" : "",
-										"globalpatchername" : "",
+										"digest" : "",
 										"fontface" : 0,
+										"fontname" : "Arial",
 										"fontsize" : 12.0,
-										"default_fontface" : 0
+										"globalpatchername" : "",
+										"tags" : ""
 									}
 ,
 									"text" : "p bufs",
@@ -6609,28 +6468,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "patchdescribe.js",
-								"bootpath" : "/Applications/Max6/examples/javascript/patcher-scripting",
-								"type" : "TEXT",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 276.0, 445.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"digest" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
+						"fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p algobuffers"
@@ -7027,30 +6879,6 @@
 					"source" : [ "obj-9", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "patchdescribe.js",
-				"bootpath" : "/Applications/Max6/examples/javascript/patcher-scripting",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max6/examples/javascript/patcher-scripting",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

@@ -175,10 +175,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 94.0, 429.0, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 
@@ -192,10 +188,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 424.0, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -210,7 +202,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 355.0, 50.0, 17.0 ],
-					"text" : "line 1. 40"
+					"text" : "line 0. 40"
 				}
 
 			}
@@ -3578,7 +3570,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 197.0, 180.0, 547.0, 317.0 ],
+						"rect" : [ 197.0, 180.0, 558.0, 420.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5221,22 +5213,6 @@
 					"source" : [ "obj-9", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.random.maxpat",
-				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/random",
-				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.receive.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

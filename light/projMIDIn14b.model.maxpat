@@ -246,7 +246,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 23.428574, 16.0, 246.0, 47.0 ],
+									"patching_rect" : [ 23.428574, 16.0, 240.0, 47.0 ],
 									"text" : "jcom.parameter volume_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive Max",
 									"varname" : "jmod.parameter.mxb[2]"
 								}
@@ -263,7 +263,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 23.428574, 416.0, 253.0, 47.0 ],
+									"patching_rect" : [ 23.428574, 416.0, 249.0, 47.0 ],
 									"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive Max",
 									"varname" : "jmod.parameter.mxb[18]"
 								}
@@ -297,7 +297,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 23.428574, 189.0, 246.0, 47.0 ],
+									"patching_rect" : [ 23.428574, 189.0, 240.0, 47.0 ],
 									"text" : "jcom.parameter time_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive Max",
 									"varname" : "jmod.parameter.mxb[3]"
 								}
@@ -314,7 +314,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 23.428574, 133.0, 246.0, 47.0 ],
+									"patching_rect" : [ 23.428574, 133.0, 240.0, 47.0 ],
 									"text" : "jcom.parameter time_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive Max",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
@@ -358,7 +358,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 378.5, 68.0, 89.0, 20.0 ],
+					"patching_rect" : [ 117.5, 65.0, 89.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -432,7 +432,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.5, 68.0, 100.0, 18.0 ],
+					"patching_rect" : [ 254.0, 65.0, 100.0, 18.0 ],
 					"text" : "prepend array/resize"
 				}
 
@@ -446,7 +446,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.5, 68.0, 78.0, 18.0 ],
+					"patching_rect" : [ 31.0, 67.0, 78.0, 18.0 ],
 					"text" : "prepend voices"
 				}
 
@@ -474,7 +474,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 181.5, 97.0, 113.0, 18.0 ],
+					"patching_rect" : [ 86.0, 96.0, 113.0, 18.0 ],
 					"text" : "poly~ jalg.modulation 4"
 				}
 
@@ -2190,7 +2190,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 102.0, 97.0, 50.0, 18.0 ],
+					"patching_rect" : [ 6.5, 96.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2351,6 +2351,7 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 263.5, 128.0, 16.0, 128.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -2369,7 +2370,7 @@
 					"destination" : [ "obj-141", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.0, 57.0, 111.5, 57.0 ],
+					"midpoints" : [ 16.0, 57.0, 16.0, 57.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2379,6 +2380,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 16.0, 55.5, 263.5, 55.5 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2388,7 +2390,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.0, 57.0, 136.0, 57.0 ],
+					"midpoints" : [ 16.0, 57.0, 40.5, 57.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 

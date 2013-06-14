@@ -110,7 +110,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 61.5, 527.5, 154.0, 33.0 ],
-					"text" : "jcom.remoteArray intensity.[4] @format array"
+					"text" : "j.remoteArray intensity.[4] @format array"
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 61.5, 315.5, 131.0, 20.0 ],
-					"text" : "jcom.remote arraySize"
+					"text" : "j.remote arraySize"
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.25, 161.0, 60.0, 20.0 ],
-					"text" : "jcom.thru"
+					"text" : "j.thru"
 				}
 
 			}
@@ -295,7 +295,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 25.5, 262.5, 63.0, 20.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}

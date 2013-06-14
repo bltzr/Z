@@ -766,7 +766,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 83.0, 330.0, 102.5, 20.0 ],
-					"text" : "jcom.multi.in~"
+					"text" : "j.multi.in~"
 				}
 
 			}
@@ -780,7 +780,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 83.0, 380.0, 104.5, 20.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
@@ -877,7 +877,7 @@
 					"bgmode" : 1,
 					"id" : "obj-19",
 					"maxclass" : "bpatcher",
-					"name" : "jcom.maxhelpui.maxpat",
+					"name" : "j.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 374.0, 70.0 ],
@@ -1113,28 +1113,28 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.maxhelpui.maxpat",
+				"name" : "j.maxhelpui.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/maxhelpui",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.maxhelpuiButton.png",
+				"name" : "j.maxhelpuiButton.png",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/maxhelpui",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.maxhelpuiResize.js",
+				"name" : "j.maxhelpuiResize.js",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/maxhelpui",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.jamomaPath.maxpat",
+				"name" : "j.jamomaPath.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/jamomaPath",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/jamomaPath",
 				"type" : "JSON",
@@ -1148,14 +1148,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.multi.out~.maxpat",
+				"name" : "j.multi.out~.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/multi.out%",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/multi.out%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.multi.in~.maxpat",
+				"name" : "j.multi.in~.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/multi.in%",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/multi.in%",
 				"type" : "JSON",
@@ -1169,34 +1169,34 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.viewMuter.maxpat",
+				"name" : "j.viewMuter.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/muters",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/muters",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.route.mxo",
+				"name" : "j.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1204,23 +1204,23 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.textslider.mxo",
+				"name" : "j.textslider.mxo",
 				"type" : "iLaX"
 			}
  ]

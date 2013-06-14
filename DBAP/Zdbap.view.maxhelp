@@ -64,14 +64,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.srMuter.maxpat",
+				"name" : "j.srMuter.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/muters",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/muters",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.viewMuter.maxpat",
+				"name" : "j.viewMuter.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/muters",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/muters",
 				"type" : "JSON",
@@ -92,14 +92,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.gl.widget.instance.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/jcom.gl",
-				"patcherrelativepath" : "../jcom.gl",
+				"name" : "j.gl.widget.instance.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/j.gl",
+				"patcherrelativepath" : "../j.gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.pi.maxpat",
+				"name" : "j.pi.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/pi",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/pi",
 				"type" : "JSON",
@@ -113,109 +113,109 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.gl.area.instance.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/jcom.gl",
-				"patcherrelativepath" : "../jcom.gl",
+				"name" : "j.gl.area.instance.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/j.gl",
+				"patcherrelativepath" : "../j.gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.gl.world.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/jcom.gl",
-				"patcherrelativepath" : "../jcom.gl",
+				"name" : "j.gl.world.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/j.gl",
+				"patcherrelativepath" : "../j.gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.gl.background.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/jcom.gl",
-				"patcherrelativepath" : "../jcom.gl",
+				"name" : "j.gl.background.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/j.gl",
+				"patcherrelativepath" : "../j.gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.gl.widgets.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/jcom.gl",
-				"patcherrelativepath" : "../jcom.gl",
+				"name" : "j.gl.widgets.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/j.gl",
+				"patcherrelativepath" : "../j.gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.thru.maxpat",
+				"name" : "j.thru.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/thru",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ZdbapSourceTraj.view.maxpat",
+				"name" : "ZdbapSourceTrajview.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/DBAP",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscinstance.mxo",
+				"name" : "j.oscinstance.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.textslider.mxo",
+				"name" : "j.textslider.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.dataspace.mxo",
+				"name" : "j.dataspace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.pass.mxo",
+				"name" : "j.pass.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.init.mxo",
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.savebang.mxo",
+				"name" : "j.savebang.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.dbap.mxo",
+				"name" : "j.dbap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.map.mxo",
+				"name" : "j.map.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
  ]

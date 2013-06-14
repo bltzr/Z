@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 157.5, 234.0, 73.0, 20.0 ],
-					"text" : "jcom.out~ 2"
+					"text" : "j.out~ 2"
 				}
 
 			}
@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 65.0, 234.0, 73.0, 20.0 ],
-					"text" : "jcom.out~ 1"
+					"text" : "j.out~ 1"
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 184.0, 61.0, 601.0, 31.0 ],
-					"text" : "jcom.parameter position @type decimal @range/bounds -1 1. @ramp/drive Max @description \"set the position of the panpot.  -1 == fully left, 0 == center, 1== fully right\" @value/default 0. @range/clipmode both",
+					"text" : "j.parameter position @type decimal @range/bounds -1 1. @ramp/drive Max @description \"set the position of the panpot.  -1 == fully left, 0 == center, 1== fully right\" @value/default 0. @range/clipmode both",
 					"varname" : "position"
 				}
 
@@ -151,7 +151,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 140.0, 19.5, 634.0, 31.0 ],
-					"text" : "jcom.parameter volume @type decimal @range/bounds 0. 1. @ramp/drive Max @description \"set the volume\" @value/default 0. @range/clipmode low",
+					"text" : "j.parameter volume @type decimal @range/bounds 0. 1. @ramp/drive Max @description \"set the volume\" @value/default 0. @range/clipmode low",
 					"varname" : "shape[2]"
 				}
 
@@ -167,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 287.0, 137.5, 524.0, 31.0 ],
-					"text" : "jcom.parameter Mode @type string @description \"choose internal calculation mode for panning: fast uses a lookup table while precision performs trigonometric calculations\" @value/default PrecisionMode",
+					"text" : "j.parameter Mode @type string @description \"choose internal calculation mode for panning: fast uses a lookup table while precision performs trigonometric calculations\" @value/default PrecisionMode",
 					"varname" : "mode[1]"
 				}
 
@@ -183,7 +183,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 209.0, 100.5, 602.0, 31.0 ],
-					"text" : "jcom.parameter shape @type string @description \"Choose the panning function: linear, squareroot, or equal-power\" @value/default EqualPower",
+					"text" : "j.parameter shape @type string @description \"Choose the panning function: linear, squareroot, or equal-power\" @value/default EqualPower",
 					"varname" : "shape[1]"
 				}
 
@@ -715,7 +715,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 65.0, 208.5, 204.0, 19.0 ],
-					"text" : "jcom.panorama~ 1"
+					"text" : "j.panorama~ 1"
 				}
 
 			}
@@ -729,7 +729,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 39.0, 61.5, 75.0, 20.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}

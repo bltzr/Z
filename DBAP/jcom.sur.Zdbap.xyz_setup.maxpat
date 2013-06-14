@@ -136,7 +136,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 195.0, 111.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 3",
+					"text" : "j.list2parameter 3",
 					"varname" : "list2parameter"
 				}
 
@@ -266,7 +266,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 391.0, 110.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter xyz.0 @type array @priority 4 @repetitions/allow 1 @description \"Position of voice 0 as xyz coodinate.\"",
+					"text" : "j.parameter xyz.0 @type array @priority 4 @repetitions/allow 1 @description \"Position of voice 0 as xyz coodinate.\"",
 					"varname" : "parameter"
 				}
 

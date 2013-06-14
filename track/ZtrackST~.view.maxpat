@@ -109,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 23.0, 49.0, 141.0, 18.0 ],
-					"text" : "jcom.oscroute model/address"
+					"text" : "j.oscroute model/address"
 				}
 
 			}
@@ -167,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 315.0, 61.0, 80.0, 18.0 ],
-					"text" : "jcom.viewMuter"
+					"text" : "j.viewMuter"
 				}
 
 			}
@@ -204,7 +204,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 276.0, 37.0, 119.0, 18.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}
@@ -314,7 +314,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.viewMuter.maxpat",
+				"name" : "j.viewMuter.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/muters",
 				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/muters",
 				"type" : "JSON",
@@ -335,7 +335,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.thru.maxpat",
+				"name" : "j.thru.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
@@ -356,7 +356,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.random.maxpat",
+				"name" : "j.random.maxpat",
 				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/random",
 				"patcherrelativepath" : "../../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/random",
 				"type" : "JSON",
@@ -370,35 +370,35 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.textslider.mxo",
+				"name" : "j.textslider.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.meter~.mxo",
+				"name" : "j.meter~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.init.mxo",
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
  ]

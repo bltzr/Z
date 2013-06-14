@@ -221,7 +221,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 674.0, 554.0, 49.0, 20.0 ],
-					"text" : "jcom.pi"
+					"text" : "j.pi"
 				}
 
 			}
@@ -427,7 +427,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 731.0, 118.0, 49.0, 20.0 ],
-					"text" : "jcom.pi"
+					"text" : "j.pi"
 				}
 
 			}
@@ -652,7 +652,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 106.0, 207.5, 325.0, 34.0 ],
-					"text" : "jcom.gl.widget src /handle @context toto @shape sphere @position 0 0 @color 0.5 0.5 0.5 0.5 @select_size 2"
+					"text" : "j.gl.widget src /handle @context toto @shape sphere @position 0 0 @color 0.5 0.5 0.5 0.5 @select_size 2"
 				}
 
 			}

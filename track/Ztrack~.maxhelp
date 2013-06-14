@@ -21,7 +21,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -32,7 +32,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -43,7 +43,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -54,7 +54,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -65,7 +65,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -76,7 +76,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -94,7 +94,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 232.0, 197.0, 91.0, 18.0 ],
-					"text" : "jcom.multi.out~",
+					"text" : "j.multi.out~",
 					"varname" : "multiout[1]"
 				}
 
@@ -5944,7 +5944,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -5955,7 +5955,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -5966,7 +5966,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-47",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -5977,7 +5977,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-48",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -5988,7 +5988,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6006,7 +6006,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 37.0, 320.0, 90.0, 18.0 ],
-					"text" : "jcom.multi.out~",
+					"text" : "j.multi.out~",
 					"varname" : "multiout[2]"
 				}
 
@@ -6031,7 +6031,7 @@
 					"bgmode" : 1,
 					"id" : "obj-21",
 					"maxclass" : "bpatcher",
-					"name" : "jcom.maxhelpui.maxpat",
+					"name" : "j.maxhelpui.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 672.0, 70.0 ],
@@ -6089,7 +6089,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 146.0, 103.0, 103.0, 17.0 ],
-									"text" : "jcom.oscroute /position"
+									"text" : "j.oscroute /position"
 								}
 
 							}
@@ -6103,7 +6103,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 78.0, 212.0, 17.0 ],
-									"text" : "jcom.oscroute speaker.* source.*"
+									"text" : "j.oscroute speaker.* source.*"
 								}
 
 							}
@@ -6259,7 +6259,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 96.0, 54.0, 100.0, 17.0 ],
-									"text" : "jcom.savebang"
+									"text" : "j.savebang"
 								}
 
 							}
@@ -6298,7 +6298,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 28.0, 21.0, 147.0, 17.0 ],
-									"text" : "jcom.initialized /cueManager 3000"
+									"text" : "j.initialized /cueManager 3000"
 								}
 
 							}
@@ -6435,7 +6435,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6446,7 +6446,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6457,7 +6457,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6468,7 +6468,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6479,7 +6479,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6490,7 +6490,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6501,7 +6501,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6512,7 +6512,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6530,7 +6530,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 79.0, 196.0, 91.0, 18.0 ],
-					"text" : "jcom.multi.out~",
+					"text" : "j.multi.out~",
 					"varname" : "multiout"
 				}
 
@@ -6689,7 +6689,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 329.5, 120.5, 129.0, 27.0 ],
-									"text" : "jcom.view /Zdbap(view)/speaker-setup"
+									"text" : "j.view /Zdbap(view)/speaker-setup"
 								}
 
 							}
@@ -6743,7 +6743,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 188.5, 120.5, 129.0, 27.0 ],
-									"text" : "jcom.view /Zdbap(view)/selection-mode"
+									"text" : "j.view /Zdbap(view)/selection-mode"
 								}
 
 							}

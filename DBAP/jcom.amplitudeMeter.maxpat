@@ -34,7 +34,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 64.0, 29.0, 131.0, 18.0 ],
-					"text" : "jcom.receive #1/volume"
+					"text" : "j.receive #1/volume"
 				}
 
 			}
@@ -62,7 +62,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 23.0, 129.0, 137.0, 18.0 ],
-					"text" : "jcom.return #1/out/amplitude"
+					"text" : "j.return #1/out/amplitude"
 				}
 
 			}

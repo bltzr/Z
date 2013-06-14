@@ -2575,7 +2575,7 @@
 										"fontname" : "Arial"
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -2793,7 +2793,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 165.0, 495.0, 95.0, 75.0 ],
-									"text" : "jcom.map @function power @input/min 0. @input/max 200 @output/min 0. @output/max 20."
+									"text" : "j.map @function power @input/min 0. @input/max 200 @output/min 0. @output/max 20."
 								}
 
 							}
@@ -3174,7 +3174,7 @@
 										"fontname" : "Arial"
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -3189,7 +3189,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 90.0, 210.0, 97.0, 70.0 ],
-									"text" : "jcom.map @function power @input/min -1. @output/max 0.6 @output/min -0.6"
+									"text" : "j.map @function power @input/min -1. @output/max 0.6 @output/min -0.6"
 								}
 
 							}
@@ -3663,7 +3663,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 115.0, 125.0, 68.0, 110.0 ],
-													"text" : "jcom.map @function tanh @input/min -20 @input/max 0. @output/min 0.001"
+													"text" : "j.map @function tanh @input/min -20 @input/max 0. @output/min 0.001"
 												}
 
 											}
@@ -4172,7 +4172,7 @@
 										"fontname" : "Arial"
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -4187,7 +4187,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 90.0, 210.0, 97.0, 70.0 ],
-									"text" : "jcom.map @function power @input/min -1. @output/max 0.3 @output/min -0.3"
+									"text" : "j.map @function power @input/min -1. @output/max 0.3 @output/min -0.3"
 								}
 
 							}
@@ -7933,7 +7933,7 @@
 					"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 					"fontsize" : 24.0,
 					"id" : "obj-68",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

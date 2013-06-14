@@ -102,7 +102,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 306.0, 440.200012, 346.0, 55.0 ],
-					"text" : "jcom.parameter #1/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter #1/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"varname" : "preamp"
 				}
 
@@ -145,7 +145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 306.0, 509.0, 311.0, 19.0 ],
-					"text" : "jcom.dataspace @dataspace gain @input db @output linear"
+					"text" : "j.dataspace @dataspace gain @input db @output linear"
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 73.0, 219.5, 68.0, 31.0 ],
-					"text" : "jcom.remote normalize",
+					"text" : "j.remote normalize",
 					"varname" : "saturation/active[4]"
 				}
 
@@ -176,7 +176,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 25.0, 88.199997, 190.0, 55.0 ],
-					"text" : "jcom.message #1/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+					"text" : "j.message #1/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
 					"varname" : "hue_angle[5]"
 				}
 
@@ -479,7 +479,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 235.0, 210.0, 59.0, 19.0 ],
-					"text" : "jcom.thru"
+					"text" : "j.thru"
 				}
 
 			}
@@ -543,7 +543,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 171.0, 120.0, 243.0, 19.0 ],
-									"text" : "jcom.return #1/info/filename  @type string "
+									"text" : "j.return #1/info/filename  @type string "
 								}
 
 							}
@@ -557,7 +557,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 114.0, 154.0, 219.0, 19.0 ],
-									"text" : "jcom.return #1/info/size  @type decimal "
+									"text" : "j.return #1/info/size  @type decimal "
 								}
 
 							}
@@ -571,7 +571,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 184.0, 241.0, 19.0 ],
-									"text" : "jcom.return #1/info/channels  @type integer "
+									"text" : "j.return #1/info/channels  @type integer "
 								}
 
 							}
@@ -777,7 +777,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 235.0, 89.0, 307.0, 55.0 ],
-					"text" : "jcom.parameter #1/file @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\" @value/default none",
+					"text" : "j.parameter #1/file @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\" @value/default none",
 					"varname" : "hue_angle"
 				}
 
@@ -793,7 +793,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 358.0, 154.0, 343.0, 31.0 ],
-					"text" : "jcom.message #1/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
+					"text" : "j.message #1/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -915,7 +915,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 257.0, 44.0, 142.0, 19.0 ],
-									"text" : "jcom.remote SegmentSize",
+									"text" : "j.remote SegmentSize",
 									"varname" : "module_in[1]"
 								}
 
@@ -931,7 +931,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 493.0, 37.0, 159.0, 43.0 ],
-									"text" : "jcom.parameter #1/reverse @type boolean @description \"Reverse IR on/off\"",
+									"text" : "j.parameter #1/reverse @type boolean @description \"Reverse IR on/off\"",
 									"varname" : "saturation/active"
 								}
 
@@ -1263,7 +1263,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 145.0, 227.0, 48.0, 17.0 ],
-									"text" : "jcom.thru"
+									"text" : "j.thru"
 								}
 
 							}

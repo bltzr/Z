@@ -404,7 +404,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 857.0, 522.0, 103.0, 20.0 ],
-					"text" : "jcom.oscinstance"
+					"text" : "j.oscinstance"
 				}
 
 			}

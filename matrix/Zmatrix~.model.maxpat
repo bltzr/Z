@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 47.0, 26.0, 62.0, 18.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 150.0, 31.0, 440.0, 31.0 ],
-					"text" : "jcom.parameter numSpeakers @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
+					"text" : "j.parameter numSpeakers @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
 					"varname" : "numSpeakers[1]"
 				}
 
@@ -146,7 +146,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 259.0, 70.0, 436.0, 31.0 ],
-					"text" : "jcom.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
+					"text" : "j.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
 					"varname" : "numSources[1]"
 				}
 
@@ -162,7 +162,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 570.0, 158.0, 229.0, 31.0 ],
-					"text" : "jcom.parameter matrixList @type array @description \"matrix list\" @priority 4",
+					"text" : "j.parameter matrixList @type array @description \"matrix list\" @priority 4",
 					"varname" : "matrixList[1]"
 				}
 
@@ -178,7 +178,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 461.0, 120.0, 231.0, 31.0 ],
-					"text" : "jcom.parameter matrix2List @type array @description \"matrix list\" @priority 5",
+					"text" : "j.parameter matrix2List @type array @description \"matrix list\" @priority 5",
 					"varname" : "matrixList[2]"
 				}
 
@@ -194,7 +194,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 688.0, 194.0, 156.0, 51.0 ],
-					"text" : "jcom.parameter volume @type decimal @ramp/drive Max @description volume @priority 7 @value/default 1."
+					"text" : "j.parameter volume @type decimal @ramp/drive Max @description volume @priority 7 @value/default 1."
 				}
 
 			}
@@ -231,7 +231,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 54.0, 61.0, 18.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -971,7 +971,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 186.0, 253.0, 117.0, 20.0 ],
-									"text" : "jcom.remote volume"
+									"text" : "j.remote volume"
 								}
 
 							}
@@ -1111,7 +1111,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 38.0, 39.0, 127.0, 19.0 ],
-									"text" : "jcom.remote matrixList",
+									"text" : "j.remote matrixList",
 									"varname" : "matrixList"
 								}
 
@@ -1420,7 +1420,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 84.0, 230.0, 98.5, 20.0 ],
-					"text" : "jcom.multi.in~"
+					"text" : "j.multi.in~"
 				}
 
 			}
@@ -1434,7 +1434,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 84.0, 145.0, 98.5, 20.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
@@ -1472,7 +1472,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 210.0, 209.0, 313.0, 67.0 ],
-					"text" : "jcom.parameter interpolate @type decimal @range/clipmode both @ramp/drive Max @ramp/function linear @repetitions/allow 1 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
+					"text" : "j.parameter interpolate @type decimal @range/clipmode both @ramp/drive Max @ramp/function linear @repetitions/allow 1 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
 					"varname" : "interpolate"
 				}
 

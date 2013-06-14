@@ -107,7 +107,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 560.0, 604.0, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -135,7 +135,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 563.0, 199.0, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -337,7 +337,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 370.0, 606.0, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -365,7 +365,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 368.0, 179.0, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -393,7 +393,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1465.0, 190.5, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -421,7 +421,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1512.0, 598.5, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -644,7 +644,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1320.0, 419.0, 161.0, 75.0 ],
-									"text" : "jcom.gl.widget src /source.6 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
+									"text" : "j.gl.widget src /source.6 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
 								}
 
 							}
@@ -658,7 +658,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1225.0, 191.5, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -686,7 +686,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1272.0, 599.5, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -909,7 +909,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1080.0, 420.0, 167.0, 75.0 ],
-									"text" : "jcom.gl.widget src /source.5 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
+									"text" : "j.gl.widget src /source.5 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
 								}
 
 							}
@@ -923,7 +923,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 991.0, 191.5, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -951,7 +951,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1038.0, 599.5, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -1174,7 +1174,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 847.0, 420.0, 161.0, 75.0 ],
-									"text" : "jcom.gl.widget src /source.4 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
+									"text" : "j.gl.widget src /source.4 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
 								}
 
 							}
@@ -1383,7 +1383,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 607.0, 423.5, 161.0, 75.0 ],
-									"text" : "jcom.gl.widget src /source.3 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
+									"text" : "j.gl.widget src /source.3 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
 								}
 
 							}
@@ -1840,7 +1840,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 109.0, 112.5, 325.0, 34.0 ],
-									"text" : "jcom.gl.widget src /handle @context toto @shape sphere @position 0 0 @color 0.5 0.5 0.5 0.5 @select_size 3"
+									"text" : "j.gl.widget src /handle @context toto @shape sphere @position 0 0 @color 0.5 0.5 0.5 0.5 @select_size 3"
 								}
 
 							}
@@ -1869,7 +1869,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 373.0, 423.5, 161.0, 75.0 ],
-									"text" : "jcom.gl.widget src /source.2 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
+									"text" : "j.gl.widget src /source.2 @context toto @shape sphere @position 5 0 @color 0.1 0.8 0.1 0.5 @select_size 2"
 								}
 
 							}
@@ -1884,7 +1884,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 153.0, 427.5, 161.0, 75.0 ],
-									"text" : "jcom.gl.widget src /source.1 @context toto @shape sphere @position -5 0 @color 0.8 0.1 0.1 0.5 @select_size 2"
+									"text" : "j.gl.widget src /source.1 @context toto @shape sphere @position -5 0 @color 0.8 0.1 0.1 0.5 @select_size 2"
 								}
 
 							}
@@ -3518,7 +3518,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 302.0, 138.0, 87.0, 34.0 ],
-									"text" : "jcom.oscroute /source.*"
+									"text" : "j.oscroute /source.*"
 								}
 
 							}
@@ -4239,7 +4239,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 233.0, 215.0, 49.0, 20.0 ],
-													"text" : "jcom.pi"
+													"text" : "j.pi"
 												}
 
 											}
@@ -4513,7 +4513,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 51.0, 193.0, 240.0, 48.0 ],
-									"text" : "jcom.gl.widgets 12 hp spk @context toto @shape cube @position 3 5 @color 0.8 0.8 0.1 0.5 @size 0.5"
+									"text" : "j.gl.widgets 12 hp spk @context toto @shape cube @position 3 5 @color 0.8 0.8 0.1 0.5 @size 0.5"
 								}
 
 							}
@@ -5174,7 +5174,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 145.0, 433.0, 20.0 ],
-					"text" : "jcom.gl.world @context toto @resolution 200 200 @camera 0. 0 26. @grid 0"
+					"text" : "j.gl.world @context toto @resolution 200 200 @camera 0. 0 26. @grid 0"
 				}
 
 			}

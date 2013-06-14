@@ -1234,7 +1234,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 511.0, 204.0, 135.0, 20.0 ],
-													"text" : "jcom.oscroute /speaker"
+													"text" : "j.oscroute /speaker"
 												}
 
 											}
@@ -1262,7 +1262,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 511.0, 152.0, 103.0, 20.0 ],
-													"text" : "jcom.oscinstance"
+													"text" : "j.oscinstance"
 												}
 
 											}
@@ -1333,7 +1333,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 28.0, 108.0, 164.0, 62.0 ],
-																	"text" : "jcom.map @function power @inputMin -10. @inputMax 10. @outputMin -0.025 @outputMax 0.025"
+																	"text" : "j.map @function power @inputMin -10. @inputMax 10. @outputMin -0.025 @outputMax 0.025"
 																}
 
 															}
@@ -2119,7 +2119,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 195.0, 188.0, 135.0, 20.0 ],
-													"text" : "jcom.oscroute /speaker"
+													"text" : "j.oscroute /speaker"
 												}
 
 											}
@@ -2161,7 +2161,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 195.0, 108.0, 103.0, 20.0 ],
-													"text" : "jcom.oscinstance"
+													"text" : "j.oscinstance"
 												}
 
 											}
@@ -3144,7 +3144,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 441.0, 244.0, 425.0, 34.0 ],
-									"text" : "jcom.gl.widgets 0 #1/hp speaker @context #0-world @shape cube @position 3 5 @color 0.5 0.5 0.5 0.5 @select_size 4 @size 1 @enable 0"
+									"text" : "j.gl.widgets 0 #1/hp speaker @context #0-world @shape cube @position 3 5 @color 0.5 0.5 0.5 0.5 @select_size 4 @size 1 @enable 0"
 								}
 
 							}
@@ -3398,7 +3398,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 22.0, 206.0, 383.0, 34.0 ],
-									"text" : "jcom.parameter weight @type array @description \"source weight list\" @ramp/drive queue"
+									"text" : "j.parameter weight @type array @description \"source weight list\" @ramp/drive queue"
 								}
 
 							}
@@ -3791,7 +3791,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 56.0, 134.0, 119.0, 17.0 ],
-									"text" : "jcom.remote source.*/position"
+									"text" : "j.remote source.*/position"
 								}
 
 							}
@@ -3833,7 +3833,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 188.0, 140.0, 119.0, 17.0 ],
-									"text" : "jcom.remote source.*/position"
+									"text" : "j.remote source.*/position"
 								}
 
 							}
@@ -4048,7 +4048,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 43.0, 513.0, 393.0, 34.0 ],
-													"text" : "jcom.parameter area.1/sizey @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter area.1/sizey @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -4063,7 +4063,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 39.0, 421.0, 393.0, 34.0 ],
-													"text" : "jcom.parameter area.1/sizex @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter area.1/sizex @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -4264,7 +4264,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 43.0, 310.0, 393.0, 34.0 ],
-													"text" : "jcom.parameter area.1/y @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter area.1/y @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -4279,7 +4279,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 39.0, 218.0, 393.0, 34.0 ],
-													"text" : "jcom.parameter area.1/x @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter area.1/x @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -4657,7 +4657,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 500.0, 266.5, 323.0, 48.0 ],
-									"text" : "jcom.gl.area #1/area #1/area.1 @context #0-world @shape plane @color 0.4 0.05 0.0.5 0.25 @select_size 2 @size 1.2 1.2 @poly_mode 1 1"
+									"text" : "j.gl.area #1/area #1/area.1 @context #0-world @shape plane @color 0.4 0.05 0.0.5 0.25 @select_size 2 @size 1.2 1.2 @poly_mode 1 1"
 								}
 
 							}
@@ -4980,7 +4980,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 57.0, 252.0, 244.0, 48.0 ],
-									"text" : "jcom.gl.widget #1/src #1/source.1 @context #0-world @shape sphere @color 0.8 0.1 0.1 0.5 @select_size 1 @size 0.5"
+									"text" : "j.gl.widget #1/src #1/source.1 @context #0-world @shape sphere @color 0.8 0.1 0.1 0.5 @select_size 1 @size 0.5"
 								}
 
 							}
@@ -5366,7 +5366,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 55.5, 91.0, 277.0, 19.0 ],
-					"text" : "jcom.dbap @dimensions 2 @num_sources 1"
+					"text" : "j.dbap @dimensions 2 @num_sources 1"
 				}
 
 			}
@@ -6252,7 +6252,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 676.0, 295.0, 135.0, 20.0 ],
-									"text" : "jcom.dbap visualisation"
+									"text" : "j.dbap visualisation"
 								}
 
 							}
@@ -6266,7 +6266,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 644.0, 264.0, 231.0, 20.0 ],
-									"text" : "jcom.gl.background @context #0-world"
+									"text" : "j.gl.background @context #0-world"
 								}
 
 							}
@@ -6280,7 +6280,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 10.0, 196.0, 470.0, 20.0 ],
-									"text" : "jcom.gl.world @context #0-world @resolution 445 445 @erase_color 0. 0. 0. 1."
+									"text" : "j.gl.world @context #0-world @resolution 445 445 @erase_color 0. 0. 0. 1."
 								}
 
 							}
@@ -6730,7 +6730,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 425.0, 52.0, 108.0, 17.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}

@@ -56,7 +56,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 277.0, 376.0, 100.0, 18.0 ],
-					"text" : "jcom.send"
+					"text" : "j.send"
 				}
 
 			}

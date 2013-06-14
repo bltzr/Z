@@ -37,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 218.0, 543.0, 100.0, 19.0 ],
-					"text" : "jcom.out~ 1",
+					"text" : "j.out~ 1",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -52,7 +52,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 89.0, 126.0, 70.0, 19.0 ],
-					"text" : "jcom.preset",
+					"text" : "j.preset",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -67,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 465.5, 213.0, 550.5, 19.0 ],
-					"text" : "jcom.parameter display/length @type decimal @priority 12 @repetitions/allow 0 @value/default 0",
+					"text" : "j.parameter display/length @type decimal @priority 12 @repetitions/allow 0 @value/default 0",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -82,7 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 453.0, 181.0, 507.0, 19.0 ],
-					"text" : "jcom.parameter display/start @type decimal @priority 13 @repetitions/allow 0 @value/default 0",
+					"text" : "j.parameter display/start @type decimal @priority 13 @repetitions/allow 0 @value/default 0",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -97,7 +97,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 393.0, 153.0, 127.0, 19.0 ],
-					"text" : "jcom.receive buffersize",
+					"text" : "j.receive buffersize",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -427,9 +427,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 81.0, 354.0, 19.0 ],
-					"text" : "jcom.model @description \"bufgranul~ mono\"",
+					"text" : "j.model @description \"bufgranul~ mono\"",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
-					"varname" : "jcom.model"
+					"varname" : "j.model"
 				}
 
 			}
@@ -480,7 +480,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 440.5, 319.0, 476.5, 19.0 ],
-					"text" : "jcom.parameter position/val @type decimal @ramp/drive Max @priority 6",
+					"text" : "j.parameter position/val @type decimal @ramp/drive Max @priority 6",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -520,7 +520,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 465.5, 275.0, 403.0, 19.0 ],
-					"text" : "jcom.parameter length/val @type decimal @ramp/drive Max @priority 5",
+					"text" : "j.parameter length/val @type decimal @ramp/drive Max @priority 5",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -549,7 +549,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 380.0, 136.0, 19.0 ],
-					"text" : "jcom.parameter voices",
+					"text" : "j.parameter voices",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -751,7 +751,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
 									"patching_rect" : [ 258.0, 491.0, 62.0, 19.0 ],
-									"text" : "jcom.init",
+									"text" : "j.init",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -841,7 +841,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 110.5, 217.0, 136.0, 19.0 ],
-									"text" : "jcom.receive pitch",
+									"text" : "j.receive pitch",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -856,7 +856,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 74.5, 538.0, 171.0, 19.0 ],
-									"text" : "jcom.message play @type none",
+									"text" : "j.message play @type none",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -873,7 +873,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 457.0, 266.0, 27.0 ],
-									"text" : "jcom.parameter continuous @type integer @repetitions/allow 1 @description \"One shot/ continuous play mode.\" @priority 28",
+									"text" : "j.parameter continuous @type integer @repetitions/allow 1 @description \"One shot/ continuous play mode.\" @priority 28",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "jmod.parameter.mxb[5]"
 								}
@@ -891,7 +891,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 87.0, 31.0, 279.0, 37.0 ],
-									"text" : "jcom.parameter density/val @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
+									"text" : "j.parameter density/val @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "dispstart[1]"
 								}
@@ -909,7 +909,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 85.0, 280.0, 37.0 ],
-									"text" : "jcom.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"jitterr around grain density\" @priority 24",
+									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"jitterr around grain density\" @priority 24",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "dispstart[2]"
 								}
@@ -1083,7 +1083,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 76.0, 194.0, 100.0, 17.0 ],
-									"text" : "jcom.random 0. 0.1",
+									"text" : "j.random 0. 0.1",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -1533,7 +1533,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 30.0, 40.0, 332.0, 19.0 ],
-									"text" : "jcom.parameter delay/jit @type decimal @ramp/drive Max",
+									"text" : "j.parameter delay/jit @type decimal @ramp/drive Max",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -1549,7 +1549,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 184.0, 130.0, 178.0, 31.0 ],
-									"text" : "jcom.parameter delay/val @type decimal @ramp/drive Max",
+									"text" : "j.parameter delay/val @type decimal @ramp/drive Max",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -1564,7 +1564,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 135.0, 66.0, 153.0, 19.0 ],
-									"text" : "jcom.receive length/val",
+									"text" : "j.receive length/val",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -1896,7 +1896,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 90.0, 12.0, 187.0, 31.0 ],
-									"text" : "jcom.parameter position/jit @type decimal @ramp/drive Max",
+									"text" : "j.parameter position/jit @type decimal @ramp/drive Max",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -2022,7 +2022,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 235.0, 75.0, 28.0 ],
-									"text" : "jcom.random 0",
+									"text" : "j.random 0",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -2355,7 +2355,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 106.0, 39.0, 140.0, 67.0 ],
-									"text" : "jcom.parameter pitch/jit @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low",
+									"text" : "j.parameter pitch/jit @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -2371,7 +2371,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 213.5, 156.0, 142.0, 67.0 ],
-									"text" : "jcom.parameter pitch/val @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low",
+									"text" : "j.parameter pitch/val @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -2386,7 +2386,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 233.0, 95.0, 17.0 ],
-									"text" : "jcom.random 0. 0.",
+									"text" : "j.random 0. 0.",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -2745,7 +2745,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 38.0, 29.0, 230.0, 19.0 ],
-									"text" : "jcom.parameter amp/jit @type decimal",
+									"text" : "j.parameter amp/jit @type decimal",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -2761,7 +2761,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 199.0, 88.0, 205.0, 31.0 ],
-									"text" : "jcom.parameter amp/val @type decimal",
+									"text" : "j.parameter amp/val @type decimal",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -2776,7 +2776,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 77.0, 179.0, 95.0, 17.0 ],
-									"text" : "jcom.random 0. 0.",
+									"text" : "j.random 0. 0.",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -3082,7 +3082,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 20.0, 27.0, 146.0, 19.0 ],
-									"text" : "jcom.parameter length/jit",
+									"text" : "j.parameter length/jit",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -3097,7 +3097,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 97.0, 179.0, 95.0, 17.0 ],
-									"text" : "jcom.random 0. 0.",
+									"text" : "j.random 0. 0.",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -3535,7 +3535,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 319.0, 205.0, 19.0 ],
-					"text" : "jcom.return currentBuffer @type array",
+					"text" : "j.return currentBuffer @type array",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -3550,7 +3550,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 154.0, 290.0, 225.0, 19.0 ],
-					"text" : "jcom.return buffersize @type decimal",
+					"text" : "j.return buffersize @type decimal",
 					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 				}
 
@@ -3602,7 +3602,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 474.0, 131.0, 135.0, 20.0 ],
-									"text" : "jcom.model component",
+									"text" : "j.model component",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 								}
 
@@ -3618,7 +3618,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 212.0, 57.0, 399.0, 17.0 ],
-									"text" : "jcom.parameter input @type array @description \"Select the input to record.\" @value/default none",
+									"text" : "j.parameter input @type array @description \"Select the input to record.\" @value/default none",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "jmod.parameter.mxb[16]"
 								}
@@ -3635,7 +3635,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 135.0, 30.0, 389.0, 17.0 ],
-									"text" : "jcom.parameter active @type integer @description \"Start and stop to record.\" @value/default 0",
+									"text" : "j.parameter active @type integer @description \"Start and stop to record.\" @value/default 0",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "jmod.parameter.mxb[17]"
 								}
@@ -4227,7 +4227,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 85.0, 72.0, 232.0, 17.0 ],
-									"text" : "jcom.parameter sound/buffer @type generic @priority 3",
+									"text" : "j.parameter sound/buffer @type generic @priority 3",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "sample/buffername[5]"
 								}
@@ -4274,7 +4274,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 189.0, 262.0, 249.0, 28.0 ],
-									"text" : "jcom.message sound/random @repetitions/allow 1 @description \"message to trigger menu change\"",
+									"text" : "j.message sound/random @repetitions/allow 1 @description \"message to trigger menu change\"",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "hue_angle[1]"
 								}
@@ -4365,7 +4365,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 144.0, 192.0, 94.0, 17.0 ],
-													"text" : "jcom.random 0 1",
+													"text" : "j.random 0 1",
 													"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 												}
 
@@ -5077,7 +5077,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 178.0, 169.0, 248.0, 17.0 ],
-									"text" : "jcom.parameter sound/enveloppe @type string @priority 31",
+									"text" : "j.parameter sound/enveloppe @type string @priority 31",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "sample/buffername[4]"
 								}
@@ -5094,7 +5094,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 67.0, 49.0, 371.0, 17.0 ],
-									"text" : "jcom.parameter sound/bufferpool @type generic @priority 1 @repetitions/allow 1 @tag init",
+									"text" : "j.parameter sound/bufferpool @type generic @priority 1 @repetitions/allow 1 @tag init",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "sample/buffername[3]"
 								}
@@ -5128,7 +5128,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 47.0, 24.0, 293.0, 17.0 ],
-									"text" : "jcom.parameter sound/folder @type generic @priority 2",
+									"text" : "j.parameter sound/folder @type generic @priority 2",
 									"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
 									"varname" : "sample/buffername[1]"
 								}

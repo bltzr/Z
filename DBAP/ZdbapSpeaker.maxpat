@@ -110,7 +110,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 35.0, 70.0, 27.0 ],
-					"text" : "jcom.model component"
+					"text" : "j.model component"
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 115.0, 26.0, 392.0, 43.0 ],
-					"text" : "jcom.parameter position/xy @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag mise",
+					"text" : "j.parameter position/xy @type array @priority 4 @repetitions/allow 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag mise",
 					"varname" : "parameter"
 				}
 

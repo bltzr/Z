@@ -48,7 +48,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 48.0, 27.0, 57.0, 17.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -193,7 +193,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 26.0, 28.0, 44.0, 17.0 ],
-									"text" : "jcom.init"
+									"text" : "j.init"
 								}
 
 							}
@@ -292,7 +292,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 42.0, 197.0, 48.0 ],
-					"text" : "jcom.parameter arraySize @type integer @range/bounds 1 10 @range/clipmode low @description \"the number of available functions\" @tag setup @repetitions/allow 0"
+					"text" : "j.parameter arraySize @type integer @range/bounds 1 10 @range/clipmode low @description \"the number of available functions\" @tag setup @repetitions/allow 0"
 				}
 
 			}
@@ -369,7 +369,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 53.0, 115.0, 17.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}

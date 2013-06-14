@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 49.0, 400.0, 631.0, 461.0 ],
+		"rect" : [ 233.0, 313.0, 631.0, 461.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -40,8 +41,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 145.0, 185.0 ],
@@ -187,11 +189,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 2,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 653.0, 187.0, 452.0, 66.0 ],
+						"rect" : [ 616.0, 166.0, 449.0, 62.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -210,7 +213,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"title" : "/projMIDI(view)",
+						"title" : "/IDI(view).2",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -289,158 +292,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 51.0, 112.0, 150.0, 20.0 ],
-									"text" : "jcom.remote MIDIChannel"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-10",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
-										}
-,
-										"rect" : [ 25.0, 69.0, 145.0, 185.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 0,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 0,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"boxanimatetime" : 200,
-										"imprint" : 0,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"boxes" : [ 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 10.0,
-													"id" : "obj-63",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 19.0, 84.0, 70.0, 18.0 ],
-													"text" : "prepend set 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 10.0,
-													"id" : "obj-62",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 19.0, 62.0, 49.0, 18.0 ],
-													"text" : "route set"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-2",
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 19.0, 21.0, 25.0, 25.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-12",
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 19.0, 131.0, 25.0, 25.0 ]
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-62", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-2", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-63", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-62", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-12", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-63", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 381.0, 150.0, 42.0, 18.0 ],
-									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"description" : "",
-										"digest" : "",
-										"fontface" : 0,
-										"fontname" : "Arial",
-										"fontsize" : 12.0,
-										"globalpatchername" : "",
-										"tags" : ""
-									}
-,
-									"text" : "p pssst"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-12",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 381.0, 119.0, 124.0, 20.0 ],
-									"text" : "jcom.remote intensity"
+									"text" : "j.remote MIDIChannel"
 								}
 
 							}
@@ -469,7 +321,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 105.0, 212.0, 104.0, 18.0 ],
-									"text" : "jcom.remote midiport"
+									"text" : "j.remote midiport"
 								}
 
 							}
@@ -478,7 +330,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-63",
-									"items" : [ "AU DLS Synth 1", ",", "BCF2000 Port 1", ",", "BCF2000 Port 2", ",", "BCF2000 Port 3", ",", "Fireface 400 (655) Port 1", ",", "Fireface 400 (655) Port 2", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "VMidi 1", ",", "VMidi 2", ",", "VMidi 3", ",", "VMidi 4", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -509,7 +361,7 @@
 									"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 									"fontsize" : 9.0,
 									"id" : "obj-54",
-									"maxclass" : "jcom.textslider",
+									"maxclass" : "j.textslider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -534,7 +386,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 437.0, 236.0, 84.0, 17.0 ],
-									"text" : "jcom.remote holes",
+									"text" : "j.remote holes",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -544,7 +396,7 @@
 									"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 									"fontsize" : 9.0,
 									"id" : "obj-36",
-									"maxclass" : "jcom.textslider",
+									"maxclass" : "j.textslider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -571,8 +423,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 935.0, 51.0, 325.0, 499.0 ],
@@ -744,7 +597,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 170.0, 233.0, 120.0, 27.0 ],
-													"text" : "jcom.remote pause_ambitus/deviation",
+													"text" : "j.remote pause_ambitus/deviation",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -761,7 +614,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 43.0, 233.0, 113.0, 27.0 ],
-													"text" : "jcom.remote pause_ambitus/center",
+													"text" : "j.remote pause_ambitus/center",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -1127,8 +980,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 253.0, 94.0, 351.0, 598.0 ],
@@ -1300,7 +1154,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 172.0, 235.0, 109.0, 27.0 ],
-													"text" : "jcom.remote time_ambitus/deviation",
+													"text" : "j.remote time_ambitus/deviation",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -1317,7 +1171,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 42.0, 234.0, 124.0, 27.0 ],
-													"text" : "jcom.remote time_ambitus/center",
+													"text" : "j.remote time_ambitus/center",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -1680,7 +1534,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 435.0, 173.0, 100.0, 17.0 ],
-									"text" : "jcom.remote hardness",
+									"text" : "j.remote hardness",
 									"varname" : "jmod.parameter.mxb[18]"
 								}
 
@@ -1696,7 +1550,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 267.0, 236.0, 106.0, 17.0 ],
-									"text" : "jcom.remote mod-mode",
+									"text" : "j.remote mod-mode",
 									"varname" : "mod_mode"
 								}
 
@@ -1715,8 +1569,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 2,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 310.0, 195.0, 395.0, 603.0 ],
@@ -1887,7 +1742,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 170.0, 233.0, 167.0, 17.0 ],
-													"text" : "jcom.remote volume_ambitus/deviation",
+													"text" : "j.remote volume_ambitus/deviation",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -1903,7 +1758,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 36.0, 297.0, 156.0, 17.0 ],
-													"text" : "jcom.remote volume_ambitus/center",
+													"text" : "j.remote volume_ambitus/center",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -2414,7 +2269,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 170.0, 49.0, 127.0, 20.0 ],
-									"text" : "jcom.remote startCC"
+									"text" : "j.remote startCC"
 								}
 
 							}
@@ -2437,15 +2292,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -2696,8 +2542,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 172.499969, 57.0, 63.0, 20.0 ],
-					"text" : "jcom.view",
-					"varname" : "_jcom_node"
+					"text" : "j.view",
+					"varname" : "_j_node"
 				}
 
 			}
@@ -2712,14 +2558,14 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 264.0, 72.0, 124.0, 20.0 ],
-					"text" : "jcom.remote intensity"
+					"text" : "j.remote intensity"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-125",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

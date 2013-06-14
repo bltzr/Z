@@ -37,7 +37,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 12.0, 187.0, 159.0, 19.0 ],
-					"text" : "jcom.receive out.1/amplitude"
+					"text" : "j.receive out.1/amplitude"
 				}
 
 			}
@@ -47,7 +47,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -67,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 73.0, 144.0, 80.0, 18.0 ],
-					"text" : "jcom.viewMuter"
+					"text" : "j.viewMuter"
 				}
 
 			}
@@ -76,7 +76,7 @@
 					"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 					"fontsize" : 9.0,
 					"id" : "obj-9",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -276,7 +276,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 170.0, 233.0, 120.0, 27.0 ],
-									"text" : "jcom.remote pause_ambitus/deviation",
+									"text" : "j.remote pause_ambitus/deviation",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -293,7 +293,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 43.0, 233.0, 113.0, 27.0 ],
-									"text" : "jcom.remote pause_ambitus/center",
+									"text" : "j.remote pause_ambitus/center",
 									"varname" : "jmod.parameter.mxb[11]"
 								}
 
@@ -832,7 +832,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 172.0, 234.0, 109.0, 27.0 ],
-									"text" : "jcom.remote time_ambitus/deviation",
+									"text" : "j.remote time_ambitus/deviation",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -849,7 +849,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 42.0, 234.0, 111.0, 27.0 ],
-									"text" : "jcom.remote time_ambitus/center",
+									"text" : "j.remote time_ambitus/center",
 									"varname" : "jmod.parameter.mxb[11]"
 								}
 
@@ -1212,7 +1212,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 196.0, 208.0, 98.0, 17.0 ],
-					"text" : "jcom.remote hardness",
+					"text" : "j.remote hardness",
 					"varname" : "jmod.parameter.mxb[18]"
 				}
 
@@ -1228,7 +1228,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 214.0, 118.0, 104.0, 17.0 ],
-					"text" : "jcom.remote mod-mode",
+					"text" : "j.remote mod-mode",
 					"varname" : "mod_mode"
 				}
 
@@ -1419,7 +1419,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 170.0, 233.0, 165.0, 17.0 ],
-									"text" : "jcom.remote volume_ambitus/deviation",
+									"text" : "j.remote volume_ambitus/deviation",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -1435,7 +1435,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 36.0, 298.0, 154.0, 17.0 ],
-									"text" : "jcom.remote volume_ambitus/center",
+									"text" : "j.remote volume_ambitus/center",
 									"varname" : "jmod.parameter.mxb[11]"
 								}
 
@@ -1915,8 +1915,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 116.0, 141.0, 20.0 ],
-					"text" : "jcom.view",
-					"varname" : "jcom.model"
+					"text" : "j.view",
+					"varname" : "j.model"
 				}
 
 			}
@@ -1964,7 +1964,7 @@
 				"box" : 				{
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-62",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

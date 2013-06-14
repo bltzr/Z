@@ -154,7 +154,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 22.0, 56.0, 171.0, 20.0 ],
-									"text" : "jcom.oscroute model/address"
+									"text" : "j.oscroute model/address"
 								}
 
 							}
@@ -325,7 +325,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 189.0, 26.0, 57.0, 17.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -417,7 +417,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 585.0, 202.0, 187.0, 19.0 ],
-									"text" : "jcom.message auxList @type array",
+									"text" : "j.message auxList @type array",
 									"varname" : "voices[1]"
 								}
 
@@ -496,7 +496,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 51.0, 145.0, 225.0, 43.0 ],
-													"text" : "jcom.messageArray source.[4]/blur @type decimal @range/bounds 0. 4.@ramp/drive Max @description blur"
+													"text" : "j.messageArray source.[4]/blur @type decimal @range/bounds 0. 4.@ramp/drive Max @description blur"
 												}
 
 											}
@@ -511,7 +511,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 67.0, 264.0, 206.0, 43.0 ],
-													"text" : "jcom.messageArray source.[4]/volume @type decimal @ramp/drive Max @description volume"
+													"text" : "j.messageArray source.[4]/volume @type decimal @ramp/drive Max @description volume"
 												}
 
 											}
@@ -526,7 +526,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 22.0, 45.0, 301.0, 33.0 ],
-													"text" : "jcom.messageArray source.[4]/weights @type array @description \"source weight list\" @ramp/drive queue"
+													"text" : "j.messageArray source.[4]/weights @type array @description \"source weight list\" @ramp/drive queue"
 												}
 
 											}
@@ -839,7 +839,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 72.0, 159.0, 252.0, 43.0 ],
-									"text" : "jcom.messageArray source.[4]/position/xy @type array @repetitions/allow 0 @description \"Position of source as xy coodinate.\"",
+									"text" : "j.messageArray source.[4]/position/xy @type array @repetitions/allow 0 @description \"Position of source as xy coodinate.\"",
 									"varname" : "parameter[1]"
 								}
 
@@ -898,7 +898,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 469.0, 253.0, 309.0, 43.0 ],
-									"text" : "jcom.parameterArray speaker.[4]/position/xy @type array @priority 4 @repetitions/allow 1 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag init",
+									"text" : "j.parameterArray speaker.[4]/position/xy @type array @priority 4 @repetitions/allow 1 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag init",
 									"varname" : "parameter"
 								}
 
@@ -914,7 +914,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 562.0, 109.0, 278.0, 55.0 ],
-									"text" : "jcom.parameter numAux @type integer @range/bounds 1 8 @range/clipmode both @value/default 6 @description \"The number of  aux sends.\" @priority 5 @repetitions/allow 0 @tag setup",
+									"text" : "j.parameter numAux @type integer @range/bounds 1 8 @range/clipmode both @value/default 6 @description \"The number of  aux sends.\" @priority 5 @repetitions/allow 0 @tag setup",
 									"varname" : "voices[4]"
 								}
 
@@ -1088,7 +1088,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 79.0, 219.0, 116.0, 17.0 ],
-													"text" : "jcom.send source.*/weight"
+													"text" : "j.send source.*/weight"
 												}
 
 											}
@@ -1320,7 +1320,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 22.0, 422.973145, 406.0, 19.0 ],
-									"text" : "jcom.message info @type none @description \"get info from DBAP\" @priority 3",
+									"text" : "j.message info @type none @description \"get info from DBAP\" @priority 3",
 									"varname" : "voices[6]"
 								}
 
@@ -1336,7 +1336,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 39.0, 291.793304, 162.0, 79.0 ],
-									"text" : "jcom.parameter gain @type float @range/bounds 0. 1. @range/clipmode low @description \"DBAP Master gain\" @priority 3 @value/default 1. @tag setup",
+									"text" : "j.parameter gain @type float @range/bounds 0. 1. @range/clipmode low @description \"DBAP Master gain\" @priority 3 @value/default 1. @tag setup",
 									"varname" : "voices[5]"
 								}
 
@@ -1352,7 +1352,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 469.0, 49.620422, 371.0, 43.0 ],
-									"text" : "jcom.parameter numSpeakers @type integer @range/bounds 1 32 @range/clipmode both @value/default 4 @description \"The number of  speakers.\" @priority 5 @repetitions/allow 0 @tag setup",
+									"text" : "j.parameter numSpeakers @type integer @range/bounds 1 32 @range/clipmode both @value/default 4 @description \"The number of  speakers.\" @priority 5 @repetitions/allow 0 @tag setup",
 									"varname" : "voices[2]"
 								}
 
@@ -1368,7 +1368,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 221.0, 303.793304, 209.0, 67.0 ],
-									"text" : "jcom.parameter rolloff @type decimal @range/bounds 1 36 @range/clipmode both @description \"Rolloff in dB with doubling of distance.\" @priority 2 @value/default 6. @tag setup",
+									"text" : "j.parameter rolloff @type decimal @range/bounds 1 36 @range/clipmode both @description \"Rolloff in dB with doubling of distance.\" @priority 2 @value/default 6. @tag setup",
 									"varname" : "voices[3]"
 								}
 
@@ -1384,7 +1384,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 22.0, 19.613495, 316.0, 55.0 ],
-									"text" : "jcom.parameter numSources @type integer @range/bounds 1 32 @range/clipmode both @description \"The number of sources to process.\" @priority 1 @value/default 4 @repetitions/allow 0 @tag setup",
+									"text" : "j.parameter numSources @type integer @range/bounds 1 32 @range/clipmode both @description \"The number of sources to process.\" @priority 1 @value/default 4 @repetitions/allow 0 @tag setup",
 									"varname" : "voices"
 								}
 
@@ -1566,7 +1566,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 423.0, 482.0, 143.0, 19.0 ],
-									"text" : "jcom.dbap @dimensions 2"
+									"text" : "j.dbap @dimensions 2"
 								}
 
 							}
@@ -2092,7 +2092,7 @@
 									"numoutlets" : 32,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 409.0, 86.0, 437.5, 19.0 ],
-									"text" : "jcom.multi.out~",
+									"text" : "j.multi.out~",
 									"varname" : "multiout"
 								}
 
@@ -2120,7 +2120,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 640.0, 426.0, 437.5, 19.0 ],
-									"text" : "jcom.multi.in~",
+									"text" : "j.multi.in~",
 									"varname" : "multiinAux"
 								}
 
@@ -2135,7 +2135,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 35.0, 426.0, 437.5, 19.0 ],
-									"text" : "jcom.multi.in~",
+									"text" : "j.multi.in~",
 									"varname" : "multiin"
 								}
 
@@ -2316,7 +2316,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 228.0, 90.0, 20.0 ],
-																	"text" : "jcom.send eq.*"
+																	"text" : "j.send eq.*"
 																}
 
 															}
@@ -2982,7 +2982,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 168.0, 39.613495, 147.0, 19.0 ],
-													"text" : "jcom.receive numSpeakers",
+													"text" : "j.receive numSpeakers",
 													"varname" : "voices[3]"
 												}
 
@@ -2997,7 +2997,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 454.399994, 39.613495, 119.0, 19.0 ],
-													"text" : "jcom.receive numAux",
+													"text" : "j.receive numAux",
 													"varname" : "voices[1]"
 												}
 
@@ -3012,7 +3012,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 267.0, 82.613495, 140.0, 19.0 ],
-													"text" : "jcom.receive numSources",
+													"text" : "j.receive numSources",
 													"varname" : "voices"
 												}
 
@@ -3882,7 +3882,7 @@
 																	"patching_rect" : [ 282.0, 252.0, 292.0, 31.0 ],
 																	"presentation" : 0,
 																	"presentation_rect" : [ 0.0, 0.0, 0.0, 0.0 ],
-																	"text" : "sprintf script newobject newobj @text jcom.thru~ @varname thru[%ld] @patching_position %ld 325",
+																	"text" : "sprintf script newobject newobj @text j.thru~ @varname thru[%ld] @patching_position %ld 325",
 																	"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
 																}
 
@@ -5286,7 +5286,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 352.0, 99.0, 187.0, 31.0 ],
-																	"text" : "sprintf symout \"jcom.amplitudeMeter source.%i\""
+																	"text" : "sprintf symout \"j.amplitudeMeter source.%i\""
 																}
 
 															}
@@ -7407,8 +7407,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 52.0, 225.0, 31.0 ],
-					"text" : "jcom.model @description \"Distance-based amplitude panning, Z style\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @description \"Distance-based amplitude panning, Z style\"",
+					"varname" : "j.hub"
 				}
 
 			}

@@ -610,7 +610,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 51.0, 112.0, 150.0, 20.0 ],
-									"text" : "jcom.remote MIDIChannel"
+									"text" : "j.remote MIDIChannel"
 								}
 
 							}
@@ -795,7 +795,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 381.0, 119.0, 124.0, 20.0 ],
-									"text" : "jcom.remote intensity"
+									"text" : "j.remote intensity"
 								}
 
 							}
@@ -810,7 +810,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 805.0, 78.0, 91.0, 20.0 ],
-									"text" : "jcom.remote W"
+									"text" : "j.remote W"
 								}
 
 							}
@@ -868,7 +868,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 105.0, 212.0, 104.0, 18.0 ],
-									"text" : "jcom.remote midiport"
+									"text" : "j.remote midiport"
 								}
 
 							}
@@ -1089,7 +1089,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 366.0, 37.0, 151.0, 20.0 ],
-													"text" : "jcom.remote luminance"
+													"text" : "j.remote luminance"
 												}
 
 											}
@@ -1104,7 +1104,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 197.0, 37.0, 135.0, 20.0 ],
-													"text" : "jcom.remote saturation"
+													"text" : "j.remote saturation"
 												}
 
 											}
@@ -1119,7 +1119,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 37.666668, 37.0, 146.0, 20.0 ],
-													"text" : "jcom.remote hue"
+													"text" : "j.remote hue"
 												}
 
 											}
@@ -1283,7 +1283,7 @@
 									"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 									"fontsize" : 9.0,
 									"id" : "obj-54",
-									"maxclass" : "jcom.textslider",
+									"maxclass" : "j.textslider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -1308,7 +1308,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 437.0, 236.0, 84.0, 17.0 ],
-									"text" : "jcom.remote holes",
+									"text" : "j.remote holes",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -1318,7 +1318,7 @@
 									"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 									"fontsize" : 9.0,
 									"id" : "obj-36",
-									"maxclass" : "jcom.textslider",
+									"maxclass" : "j.textslider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -1518,7 +1518,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 170.0, 233.0, 120.0, 27.0 ],
-													"text" : "jcom.remote pause_ambitus/deviation",
+													"text" : "j.remote pause_ambitus/deviation",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -1535,7 +1535,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 43.0, 233.0, 113.0, 27.0 ],
-													"text" : "jcom.remote pause_ambitus/center",
+													"text" : "j.remote pause_ambitus/center",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -2074,7 +2074,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 172.0, 235.0, 109.0, 27.0 ],
-													"text" : "jcom.remote time_ambitus/deviation",
+													"text" : "j.remote time_ambitus/deviation",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -2091,7 +2091,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 42.0, 234.0, 124.0, 27.0 ],
-													"text" : "jcom.remote time_ambitus/center",
+													"text" : "j.remote time_ambitus/center",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -2454,7 +2454,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 435.0, 173.0, 100.0, 17.0 ],
-									"text" : "jcom.remote hardness",
+									"text" : "j.remote hardness",
 									"varname" : "jmod.parameter.mxb[18]"
 								}
 
@@ -2470,7 +2470,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 267.0, 236.0, 106.0, 17.0 ],
-									"text" : "jcom.remote mod-mode",
+									"text" : "j.remote mod-mode",
 									"varname" : "mod_mode"
 								}
 
@@ -2661,7 +2661,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 170.0, 233.0, 167.0, 17.0 ],
-													"text" : "jcom.remote volume_ambitus/deviation",
+													"text" : "j.remote volume_ambitus/deviation",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -2677,7 +2677,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 36.0, 297.0, 156.0, 17.0 ],
-													"text" : "jcom.remote volume_ambitus/center",
+													"text" : "j.remote volume_ambitus/center",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -3189,7 +3189,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 170.0, 49.0, 127.0, 20.0 ],
-									"text" : "jcom.remote startCCs"
+									"text" : "j.remote startCCs"
 								}
 
 							}
@@ -3656,8 +3656,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 323.499969, 45.0, 63.0, 20.0 ],
-					"text" : "jcom.view",
-					"varname" : "_jcom_node"
+					"text" : "j.view",
+					"varname" : "_j_node"
 				}
 
 			}
@@ -3672,7 +3672,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 429.0, 69.0, 124.0, 20.0 ],
-					"text" : "jcom.remote intensity"
+					"text" : "j.remote intensity"
 				}
 
 			}
@@ -3687,7 +3687,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 590.571289, 234.0, 91.0, 20.0 ],
-					"text" : "jcom.remote W"
+					"text" : "j.remote W"
 				}
 
 			}
@@ -3702,7 +3702,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 499.857117, 234.0, 88.0, 20.0 ],
-					"text" : "jcom.remote B"
+					"text" : "j.remote B"
 				}
 
 			}
@@ -3717,7 +3717,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 408.857086, 234.0, 89.0, 20.0 ],
-					"text" : "jcom.remote G"
+					"text" : "j.remote G"
 				}
 
 			}
@@ -3732,14 +3732,14 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 317.999969, 234.0, 89.0, 20.0 ],
-					"text" : "jcom.remote R"
+					"text" : "j.remote R"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-125",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

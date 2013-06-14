@@ -70,7 +70,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 47.0, 286.0, 100.0, 19.0 ],
-					"text" : "jcom.viewMuter"
+					"text" : "j.viewMuter"
 				}
 
 			}
@@ -250,7 +250,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.0, 197.0, 134.0, 18.0 ],
-					"text" : "jcom.remote volume"
+					"text" : "j.remote volume"
 				}
 
 			}
@@ -277,7 +277,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1137,7 +1137,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 205.0, 395.0, 143.0, 19.0 ],
-													"text" : "jcom.remote matrix2List",
+													"text" : "j.remote matrix2List",
 													"varname" : "matrixList"
 												}
 
@@ -2168,7 +2168,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 205.0, 395.0, 142.0, 19.0 ],
-									"text" : "jcom.remote matrixList",
+									"text" : "j.remote matrixList",
 									"varname" : "matrixList"
 								}
 
@@ -3093,7 +3093,7 @@
 				"box" : 				{
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-37",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -3114,8 +3114,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 260.0, 135.0, 19.0 ],
-					"text" : "jcom.view",
-					"varname" : "jcom.model"
+					"text" : "j.view",
+					"varname" : "j.model"
 				}
 
 			}
@@ -3167,7 +3167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 538.0, 21.0, 134.0, 19.0 ],
-					"text" : "jcom.remote numSpeakers",
+					"text" : "j.remote numSpeakers",
 					"varname" : "numSpeakers"
 				}
 
@@ -3182,7 +3182,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 539.0, 92.0, 127.0, 19.0 ],
-					"text" : "jcom.remote numSources",
+					"text" : "j.remote numSources",
 					"varname" : "numSources"
 				}
 
@@ -3197,7 +3197,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 188.0, 252.0, 119.0, 19.0 ],
-					"text" : "jcom.remote interpolate",
+					"text" : "j.remote interpolate",
 					"varname" : "interpolate"
 				}
 

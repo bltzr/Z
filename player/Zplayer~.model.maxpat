@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 37.0, 241.0, 57.0, 17.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -64,7 +64,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 102.0, 430.0, 174.0, 17.0 ],
-					"text" : "jcom.return out/amplitude @type decimal"
+					"text" : "j.return out/amplitude @type decimal"
 				}
 
 			}
@@ -267,7 +267,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 272.0, 113.0, 167.0, 29.0 ],
-									"text" : "jcom.dataspace @dataspace pitch @input midi @output speed"
+									"text" : "j.dataspace @dataspace pitch @input midi @output speed"
 								}
 
 							}
@@ -282,7 +282,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 272.0, 89.0, 123.0, 19.0 ],
-									"text" : "jcom.remote transposition"
+									"text" : "j.remote transposition"
 								}
 
 							}
@@ -390,7 +390,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 211.0, 77.0, 121.0, 18.0 ],
-													"text" : "jcom.remote unit/finished"
+													"text" : "j.remote unit/finished"
 												}
 
 											}
@@ -434,7 +434,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 26.0, 21.0, 333.0, 18.0 ],
-													"text" : "jcom.parameter playmode @type string @value/default play @priority 20"
+													"text" : "j.parameter playmode @type string @value/default play @priority 20"
 												}
 
 											}
@@ -562,11 +562,11 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "jcom.parameter.mxo",
+												"name" : "j.parameter.mxo",
 												"type" : "iLaX"
 											}
 , 											{
-												"name" : "jcom.remote.mxo",
+												"name" : "j.remote.mxo",
 												"type" : "iLaX"
 											}
  ]
@@ -629,7 +629,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 191.0, 375.0, 153.0, 18.0 ],
-									"text" : "jcom.message play @type none"
+									"text" : "j.message play @type none"
 								}
 
 							}
@@ -658,7 +658,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 409.0, 12.0, 120.0, 17.0 ],
-									"text" : "jcom.remote sound/duration"
+									"text" : "j.remote sound/duration"
 								}
 
 							}
@@ -709,7 +709,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 12.0, 9.0, 290.0, 17.0 ],
-													"text" : "jcom.message sound/number/play @type integer @repetitions/allow 0"
+													"text" : "j.message sound/number/play @type integer @repetitions/allow 0"
 												}
 
 											}
@@ -724,7 +724,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 35.0, 223.0, 275.0, 17.0 ],
-													"text" : "jcom.return sound/number @type integer @repetitions/allow 0"
+													"text" : "j.return sound/number @type integer @repetitions/allow 0"
 												}
 
 											}
@@ -739,7 +739,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 85.0, 198.0, 180.0, 17.0 ],
-													"text" : "jcom.return sound/duration @type decimal"
+													"text" : "j.return sound/duration @type decimal"
 												}
 
 											}
@@ -852,7 +852,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 35.0, 33.0, 88.0, 17.0 ],
-													"text" : "jcom.remote corpus"
+													"text" : "j.remote corpus"
 												}
 
 											}
@@ -1065,15 +1065,15 @@
 												"type" : "iLaX"
 											}
 , 											{
-												"name" : "jcom.remote.mxo",
+												"name" : "j.remote.mxo",
 												"type" : "iLaX"
 											}
 , 											{
-												"name" : "jcom.return.mxo",
+												"name" : "j.return.mxo",
 												"type" : "iLaX"
 											}
 , 											{
-												"name" : "jcom.message.mxo",
+												"name" : "j.message.mxo",
 												"type" : "iLaX"
 											}
  ]
@@ -1109,7 +1109,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 214.128983, 54.0, 203.0, 27.0 ],
-									"text" : "jcom.parameter density/variation @type decimal @value/default 0."
+									"text" : "j.parameter density/variation @type decimal @value/default 0."
 								}
 
 							}
@@ -1125,7 +1125,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 58.0, 213.0, 225.0, 38.0 ],
-									"text" : "jcom.parameter density @type decimal @range/bounds 0 10 arange/clipmode low @ramp/drive Max @priority 5 @value/default 1."
+									"text" : "j.parameter density @type decimal @range/bounds 0 10 arange/clipmode low @ramp/drive Max @priority 5 @value/default 1."
 								}
 
 							}
@@ -1141,7 +1141,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 779.0, 104.0, 232.0, 38.0 ],
-									"text" : "jcom.parameter grain/duration/variation @type decimal @range/clipmode both @ramp/drive queue @priority 7 @value/default 0."
+									"text" : "j.parameter grain/duration/variation @type decimal @range/clipmode both @ramp/drive queue @priority 7 @value/default 0."
 								}
 
 							}
@@ -1157,7 +1157,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 666.0, 61.0, 323.0, 27.0 ],
-									"text" : "jcom.parameter grain/position/variation @type decimal @range/clipmode both @ramp/drive queue @priority 7 @value/default 0."
+									"text" : "j.parameter grain/position/variation @type decimal @range/clipmode both @ramp/drive queue @priority 7 @value/default 0."
 								}
 
 							}
@@ -1173,7 +1173,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 384.0, 193.0, 291.0, 48.0 ],
-									"text" : "jcom.parameter grain/duration @type decimal @range/bounds 0. 1500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain size [ms], 0 = natural size\" @priority 5 @value/default 242"
+									"text" : "j.parameter grain/duration @type decimal @range/bounds 0. 1500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain size [ms], 0 = natural size\" @priority 5 @value/default 242"
 								}
 
 							}
@@ -1189,7 +1189,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 59.0, 169.0, 248.0, 27.0 ],
-									"text" : "jcom.parameter grain/position @type decimal @range/clipmode both @ramp/drive Max @priority 5"
+									"text" : "j.parameter grain/position @type decimal @range/clipmode both @ramp/drive Max @priority 5"
 								}
 
 							}
@@ -1204,7 +1204,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 510.0, 292.0, 368.0, 17.0 ],
-									"text" : "jcom.parameter sound @type string @repetitions/allow 0 @priority 2 @value/default none"
+									"text" : "j.parameter sound @type string @repetitions/allow 0 @priority 2 @value/default none"
 								}
 
 							}
@@ -1908,7 +1908,7 @@
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.parameter.mxo",
+								"name" : "j.parameter.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -1932,19 +1932,19 @@
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.remote.mxo",
+								"name" : "j.remote.mxo",
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.return.mxo",
+								"name" : "j.return.mxo",
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.message.mxo",
+								"name" : "j.message.mxo",
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.dataspace.mxo",
+								"name" : "j.dataspace.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -2203,7 +2203,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 386.0, 50.0, 121.0, 17.0 ],
-									"text" : "jcom.remote sound/duration"
+									"text" : "j.remote sound/duration"
 								}
 
 							}
@@ -2219,7 +2219,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 386.097565, 97.485443, 350.0, 43.0 ],
-									"text" : "jcom.parameter grain/duration/max @type decimal @range/bounds 0. 1500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @priority 7"
+									"text" : "j.parameter grain/duration/max @type decimal @range/bounds 0. 1500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @priority 7"
 								}
 
 							}
@@ -2235,7 +2235,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 34.0, 13.281555, 328.0, 55.0 ],
-									"text" : "jcom.parameter grain/onset/variation @type decimal @range/bounds 0. 500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain start random variation [ms]\" @priority 7"
+									"text" : "j.parameter grain/onset/variation @type decimal @range/bounds 0. 500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain start random variation [ms]\" @priority 7"
 								}
 
 							}
@@ -2251,7 +2251,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 397.097565, 172.834961, 305.0, 67.0 ],
-									"text" : "jcom.parameter transposition/variation @type decimal @range/bounds -36 36 @range/clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition random variation [half-tones]\" @priority 7 @value/default 0."
+									"text" : "j.parameter transposition/variation @type decimal @range/bounds -36 36 @range/clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition random variation [half-tones]\" @priority 7 @value/default 0."
 								}
 
 							}
@@ -2267,7 +2267,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 35.0, 201.388336, 300.0, 43.0 ],
-									"text" : "jcom.parameter reverse @type decimal @range/bounds 0 100 @range/clipmode both @ramp/drive Max @description \"Reverse probability [0-100]\" @priority 7 @value/default 0"
+									"text" : "j.parameter reverse @type decimal @range/bounds 0 100 @range/clipmode both @ramp/drive Max @description \"Reverse probability [0-100]\" @priority 7 @value/default 0"
 								}
 
 							}
@@ -2283,7 +2283,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 35.0, 109.834961, 316.0, 55.0 ],
-									"text" : "jcom.parameter transposition @type decimal @range/bounds -36 36 @range/clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition [half-tones]\" @value/default 0. @priority 5"
+									"text" : "j.parameter transposition @type decimal @range/bounds -36 36 @range/clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition [half-tones]\" @value/default 0. @priority 5"
 								}
 
 							}
@@ -2423,11 +2423,11 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "jcom.parameter.mxo",
+								"name" : "j.parameter.mxo",
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.remote.mxo",
+								"name" : "j.remote.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -2825,7 +2825,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.0, 22.0, 55.0, 20.0 ],
-									"text" : "jcom.init"
+									"text" : "j.init"
 								}
 
 							}
@@ -2840,7 +2840,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 60.0, 52.0, 83.0, 17.0 ],
-									"text" : "jcom.message init"
+									"text" : "j.message init"
 								}
 
 							}
@@ -2903,11 +2903,11 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "jcom.message.mxo",
+								"name" : "j.message.mxo",
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.init.mxo",
+								"name" : "j.init.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -2964,7 +2964,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 219.0, 55.0, 17.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -2980,7 +2980,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 284.0, 74.0, 58.0 ],
-					"text" : "jcom.parameter interp @type boolean @value/default 0"
+					"text" : "j.parameter interp @type boolean @value/default 0"
 				}
 
 			}
@@ -3024,7 +3024,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 137.0, 79.0, 140.0, 27.0 ],
-					"text" : "jcom.message watchdog-report @type boolean"
+					"text" : "j.message watchdog-report @type boolean"
 				}
 
 			}
@@ -3040,7 +3040,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 101.0, 44.0, 171.0, 27.0 ],
-					"text" : "jcom.parameter speedlim @type integer @value/default 0"
+					"text" : "j.parameter speedlim @type integer @value/default 0"
 				}
 
 			}
@@ -3825,7 +3825,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 283.0, 20.0, 138.0, 48.0 ],
-					"text" : "jcom.parameter corpus @type string @description @priority 1 \"Choose corpus by its name\" @priority 1 @value/default none"
+					"text" : "j.parameter corpus @type string @description @priority 1 \"Choose corpus by its name\" @priority 1 @value/default none"
 				}
 
 			}
@@ -3949,7 +3949,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 101.0, 171.0, 176.0, 17.0 ],
-					"text" : "jcom.message play-segment @type array"
+					"text" : "j.message play-segment @type array"
 				}
 
 			}
@@ -3980,7 +3980,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 65.0, 8.0, 203.0, 27.0 ],
-					"text" : "jcom.message play-unit @type integer @description \"play an unit by its number\""
+					"text" : "j.message play-unit @type integer @description \"play an unit by its number\""
 				}
 
 			}
@@ -4044,7 +4044,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 220.0, 30.0, 275.0, 48.0 ],
-									"text" : "jcom.parameter release @type decimal @range/bounds 0. 100. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Release time [ms]\" @value/default 10 @priority 6"
+									"text" : "j.parameter release @type decimal @range/bounds 0. 100. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Release time [ms]\" @value/default 10 @priority 6"
 								}
 
 							}
@@ -4060,7 +4060,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 198.0, 156.0, 289.0, 48.0 ],
-									"text" : "jcom.parameter attack @type decimal @range/bounds 0. 100. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Attack  time [ms]\" @value/default 10 @priority 6"
+									"text" : "j.parameter attack @type decimal @range/bounds 0. 100. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Attack  time [ms]\" @value/default 10 @priority 6"
 								}
 
 							}
@@ -4076,7 +4076,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 321.0, 214.0, 166.0, 27.0 ],
-									"text" : "jcom.parameter window @type string @value/default trzoid @priority 6"
+									"text" : "j.parameter window @type string @value/default trzoid @priority 6"
 								}
 
 							}
@@ -4462,7 +4462,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 196.0, 83.0, 353.0, 38.0 ],
-													"text" : "jcom.parameter gain/variation @type decimal @range/bounds 0 15 @range/clipmode low @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification random variation [dB]\" @value/default 0 @priority 9"
+													"text" : "j.parameter gain/variation @type decimal @range/bounds 0 15 @range/clipmode low @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification random variation [dB]\" @value/default 0 @priority 9"
 												}
 
 											}
@@ -4478,7 +4478,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 168.0, 30.0, 335.0, 38.0 ],
-													"text" : "jcom.parameter gain @type decimal @range/bounds -48. 15. @range/clipmode high @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification [dB]\" @value/default 0. @priority 2"
+													"text" : "j.parameter gain @type decimal @range/bounds -48. 15. @range/clipmode high @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification [dB]\" @value/default 0. @priority 2"
 												}
 
 											}
@@ -4617,7 +4617,7 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "jcom.parameter.mxo",
+												"name" : "j.parameter.mxo",
 												"type" : "iLaX"
 											}
 , 											{
@@ -7219,7 +7219,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 223.0, 241.0, 156.0, 17.0 ],
-													"text" : "jcom.return unit/count @type integer"
+													"text" : "j.return unit/count @type integer"
 												}
 
 											}
@@ -7234,7 +7234,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 30.0, 265.0, 157.0, 17.0 ],
-													"text" : "jcom.return unit/finished @type none"
+													"text" : "j.return unit/finished @type none"
 												}
 
 											}
@@ -7786,7 +7786,7 @@
 												"type" : "iLaX"
 											}
 , 											{
-												"name" : "jcom.return.mxo",
+												"name" : "j.return.mxo",
 												"type" : "iLaX"
 											}
  ]
@@ -8009,7 +8009,7 @@
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.return.mxo",
+								"name" : "j.return.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -8025,7 +8025,7 @@
 								"type" : "iLaX"
 							}
 , 							{
-								"name" : "jcom.parameter.mxo",
+								"name" : "j.parameter.mxo",
 								"type" : "iLaX"
 							}
 , 							{
@@ -8459,7 +8459,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8475,7 +8475,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8483,7 +8483,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8503,11 +8503,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.init.mxo",
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -8515,15 +8515,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.dataspace.mxo",
+				"name" : "j.dataspace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
  ]

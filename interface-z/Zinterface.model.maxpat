@@ -284,7 +284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 17.0, 101.0, 223.0, 41.0 ],
-					"text" : "jcom.parameter MIDIport @priority 1 @type generic @repetitions/allow 1 @description \"Port to receive MIDI messages on.\" @tag setup"
+					"text" : "j.parameter MIDIport @priority 1 @type generic @repetitions/allow 1 @description \"Port to receive MIDI messages on.\" @tag setup"
 				}
 
 			}
@@ -298,7 +298,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 44.0, 19.0, 62.0, 18.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -335,7 +335,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 20.0, 42.0, 51.0, 18.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}

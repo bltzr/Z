@@ -381,7 +381,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 233.0, 215.0, 49.0, 20.0 ],
-													"text" : "jcom.pi"
+													"text" : "j.pi"
 												}
 
 											}
@@ -655,7 +655,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 51.0, 193.0, 240.0, 48.0 ],
-									"text" : "jcom.gl.widgets 12 hp spk @context toto @shape cube @position 3 5 @color 0.8 0.8 0.1 0.5 @select_size 2"
+									"text" : "j.gl.widgets 12 hp spk @context toto @shape cube @position 3 5 @color 0.8 0.8 0.1 0.5 @select_size 2"
 								}
 
 							}
@@ -1557,7 +1557,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 455.0, 559.0, 325.0, 34.0 ],
-					"text" : "jcom.gl.widget src handle @context toto @shape sphere @position 0 3 @color 0.5 0.5 0.5 0.5 @select_size 2"
+					"text" : "j.gl.widget src handle @context toto @shape sphere @position 0 3 @color 0.5 0.5 0.5 0.5 @select_size 2"
 				}
 
 			}
@@ -2226,7 +2226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 770.0, 291.0, 322.0, 34.0 ],
-					"text" : "jcom.gl.widget src source.2 @context toto @shape sphere @position 3 3 @color 0.1 0.8 0.1 0.5 @select_size 2"
+					"text" : "j.gl.widget src source.2 @context toto @shape sphere @position 3 3 @color 0.1 0.8 0.1 0.5 @select_size 2"
 				}
 
 			}
@@ -2493,7 +2493,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 145.0, 433.0, 20.0 ],
-					"text" : "jcom.gl.world @context toto @resolution 200 200 @camera 0. 0 26. @grid 0"
+					"text" : "j.gl.world @context toto @resolution 200 200 @camera 0. 0 26. @grid 0"
 				}
 
 			}
@@ -2508,7 +2508,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 770.0, 202.0, 325.0, 34.0 ],
-					"text" : "jcom.gl.widget src source.1 @context toto @shape sphere @position -3 3 @color 0.8 0.1 0.1 0.5 @select_size 2"
+					"text" : "j.gl.widget src source.1 @context toto @shape sphere @position -3 3 @color 0.8 0.1 0.1 0.5 @select_size 2"
 				}
 
 			}

@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 471.0, 231.0, 73.0, 19.0 ],
-					"text" : "jcom.out~ 4"
+					"text" : "j.out~ 4"
 				}
 
 			}
@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 471.0, 155.0, 66.0, 19.0 ],
-					"text" : "jcom.in~ 4"
+					"text" : "j.in~ 4"
 				}
 
 			}
@@ -64,7 +64,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 323.0, 231.0, 73.0, 19.0 ],
-					"text" : "jcom.out~ 3"
+					"text" : "j.out~ 3"
 				}
 
 			}
@@ -78,7 +78,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 323.0, 155.0, 66.0, 19.0 ],
-					"text" : "jcom.in~ 3"
+					"text" : "j.in~ 3"
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 175.0, 231.0, 73.0, 19.0 ],
-					"text" : "jcom.out~ 2"
+					"text" : "j.out~ 2"
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 174.0, 157.0, 66.0, 19.0 ],
-					"text" : "jcom.in~ 2"
+					"text" : "j.in~ 2"
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 52.0, 25.0, 70.0, 19.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -195,7 +195,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 27.0, 231.0, 73.0, 19.0 ],
-					"text" : "jcom.out~ 1"
+					"text" : "j.out~ 1"
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 27.0, 155.0, 66.0, 19.0 ],
-					"text" : "jcom.in~ 1"
+					"text" : "j.in~ 1"
 				}
 
 			}
@@ -284,7 +284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 24.0, 51.0, 67.0, 19.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -300,7 +300,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 141.0, 27.0, 253.0, 31.0 ],
-					"text" : "jcom.parameter SegmentSize @tag setup @repetitions/allow 1 @type integer @priority 1",
+					"text" : "j.parameter SegmentSize @tag setup @repetitions/allow 1 @type integer @priority 1",
 					"varname" : "module_in[1]"
 				}
 
@@ -316,7 +316,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 414.0, 27.5, 196.0, 43.0 ],
-					"text" : "jcom.parameter normalize @type boolean @description \"Automatically normalize IRs on load.\"",
+					"text" : "j.parameter normalize @type boolean @description \"Automatically normalize IRs on load.\"",
 					"varname" : "saturation/active[4]"
 				}
 
@@ -472,7 +472,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 97.0, 120.0, 158.0, 31.0 ],
-									"text" : "jcom.return info/latency @type decimal"
+									"text" : "j.return info/latency @type decimal"
 								}
 
 							}
@@ -486,7 +486,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 36.0, 163.0, 227.0, 19.0 ],
-									"text" : "jcom.return info/maxlength @type decimal"
+									"text" : "j.return info/maxlength @type decimal"
 								}
 
 							}
@@ -691,7 +691,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 34.0, 40.0, 82.0, 33.0 ],
-									"text" : "jcom.receive out.*/mute"
+									"text" : "j.receive out.*/mute"
 								}
 
 							}
@@ -706,7 +706,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 142.0, 38.0, 254.0, 55.0 ],
-									"text" : "jcom.parameter channels @repetitions/allow 1 @type integer @range/bounds 1 4 @range/clipmode both @priority 4 @description \"Number of active processing channels\"",
+									"text" : "j.parameter channels @repetitions/allow 1 @type integer @range/bounds 1 4 @range/clipmode both @priority 4 @description \"Number of active processing channels\"",
 									"varname" : "hue_angle[4]"
 								}
 
@@ -777,7 +777,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 276.0, 491.0, 129.0, 19.0 ],
-									"text" : "jcom.send IR.4/mute",
+									"text" : "j.send IR.4/mute",
 									"varname" : "hue_angle[3]"
 								}
 
@@ -792,7 +792,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 199.0, 444.0, 129.0, 19.0 ],
-									"text" : "jcom.send IR.3/mute",
+									"text" : "j.send IR.3/mute",
 									"varname" : "hue_angle[2]"
 								}
 
@@ -807,7 +807,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 130.0, 408.0, 129.0, 19.0 ],
-									"text" : "jcom.send IR.2/mute",
+									"text" : "j.send IR.2/mute",
 									"varname" : "hue_angle[1]"
 								}
 
@@ -822,7 +822,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 59.0, 367.0, 129.0, 19.0 ],
-									"text" : "jcom.send IR.1/mute",
+									"text" : "j.send IR.1/mute",
 									"varname" : "hue_angle[6]"
 								}
 
@@ -1639,7 +1639,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.thru.maxpat",
+				"name" : "j.thru.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/thru",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/thru",
 				"type" : "JSON",
@@ -1650,27 +1650,27 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.dataspace.mxo",
+				"name" : "j.dataspace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1678,23 +1678,23 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.in~.mxo",
+				"name" : "j.in~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.out~.mxo",
+				"name" : "j.out~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
  ]

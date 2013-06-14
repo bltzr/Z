@@ -80,7 +80,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 443.444458, 125.0, 100.0, 20.0 ],
-					"text" : "jcom.namespace"
+					"text" : "j.namespace"
 				}
 
 			}
@@ -104,7 +104,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-48",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -117,7 +117,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -165,7 +165,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 812.70343, 464.0, 216.0, 20.0 ],
-					"text" : "jcom.send /track.1/eq/filter.2/frequency"
+					"text" : "j.send /track.1/eq/filter.2/frequency"
 				}
 
 			}
@@ -179,14 +179,14 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 670.425232, 401.0, 99.444458, 20.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -199,7 +199,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -212,7 +212,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -225,7 +225,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -238,7 +238,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -251,7 +251,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -271,14 +271,14 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 553.425232, 401.0, 94.278198, 20.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-37",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -291,7 +291,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-40",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -304,7 +304,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-42",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -317,7 +317,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-43",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -330,7 +330,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -343,7 +343,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -363,14 +363,14 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 340.0, 292.0, 202.008972, 20.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -383,7 +383,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -396,7 +396,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -409,7 +409,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -422,7 +422,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -435,7 +435,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -448,7 +448,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -461,7 +461,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -494,7 +494,7 @@
 					"fontsize" : 9.0,
 					"id" : "obj-39",
 					"knobcolor" : [ 0.733333, 0.137255, 0.137255, 1.0 ],
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -820,7 +820,7 @@
 					"id" : "obj-49",
 					"ignoreclick" : 1,
 					"knobcolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -953,7 +953,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 450.5, 359.0, 408.5, 20.0 ],
-									"text" : "jcom.multi.in~"
+									"text" : "j.multi.in~"
 								}
 
 							}
@@ -994,7 +994,7 @@
 									"numoutlets" : 32,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 310.0, 423.0, 111.008972, 20.0 ],
-									"text" : "jcom.multi.out~"
+									"text" : "j.multi.out~"
 								}
 
 							}
@@ -1022,7 +1022,7 @@
 									"numoutlets" : 32,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 450.5, 266.0, 408.5, 20.0 ],
-									"text" : "jcom.multi.out~"
+									"text" : "j.multi.out~"
 								}
 
 							}
@@ -1404,7 +1404,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 119.0, 329.0, 52.0, 18.0 ],
-									"text" : "jcom.thru"
+									"text" : "j.thru"
 								}
 
 							}
@@ -1419,7 +1419,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 33.0, 266.0, 105.0, 40.0 ],
-									"text" : "jcom.oscroute mod/out.* eq/out.* gran/out.* spat/out"
+									"text" : "j.oscroute mod/out.* eq/out.* gran/out.* spat/out"
 								}
 
 							}
@@ -1447,7 +1447,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "int", "float", "float", "float", "float", "" ],
 									"patching_rect" : [ 27.0, 105.0, 95.0, 19.0 ],
-									"text" : "jcom.stats 50 50"
+									"text" : "j.stats 50 50"
 								}
 
 							}
@@ -1549,7 +1549,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 47.5, 498.5, 173.0, 18.0 ],
-													"text" : "jcom.send /track.*/gran/play"
+													"text" : "j.send /track.*/gran/play"
 												}
 
 											}
@@ -1626,7 +1626,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 32.0, 429.5, 173.0, 18.0 ],
-													"text" : "jcom.send /track.*/gran/density/val"
+													"text" : "j.send /track.*/gran/density/val"
 												}
 
 											}
@@ -1652,7 +1652,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 32.0, 356.5, 173.0, 18.0 ],
-													"text" : "jcom.send /track.*/gran/continuous"
+													"text" : "j.send /track.*/gran/continuous"
 												}
 
 											}
@@ -1694,7 +1694,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 32.0, 268.5, 173.0, 18.0 ],
-													"text" : "jcom.send /track.*/gran/length/val"
+													"text" : "j.send /track.*/gran/length/val"
 												}
 
 											}
@@ -1708,7 +1708,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 32.0, 204.5, 173.0, 18.0 ],
-													"text" : "jcom.send /track.*/gran/position/val"
+													"text" : "j.send /track.*/gran/position/val"
 												}
 
 											}
@@ -1750,7 +1750,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 39.0, 120.5, 173.0, 18.0 ],
-													"text" : "jcom.send /track.*/gran/sound/buffer"
+													"text" : "j.send /track.*/gran/sound/buffer"
 												}
 
 											}
@@ -1764,7 +1764,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 39.0, 56.5, 173.0, 18.0 ],
-													"text" : "jcom.send /track.*/gran/sound/folder"
+													"text" : "j.send /track.*/gran/sound/folder"
 												}
 
 											}
@@ -2755,7 +2755,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 27.0, 54.0, 163.0, 20.0 ],
-													"text" : "jcom.oscroute /TriggerPoints"
+													"text" : "j.oscroute /TriggerPoints"
 												}
 
 											}
@@ -3024,7 +3024,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 444.0, 118.0, 56.0, 18.0 ],
-													"text" : "jcom.send"
+													"text" : "j.send"
 												}
 
 											}
@@ -3172,7 +3172,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 9.0, 94.0, 164.0, 20.0 ],
-																	"text" : "jcom.receive"
+																	"text" : "j.receive"
 																}
 
 															}
@@ -3572,7 +3572,7 @@
 																					"numoutlets" : 3,
 																					"outlettype" : [ "", "", "" ],
 																					"patching_rect" : [ 57.0, 234.0, 278.0, 20.0 ],
-																					"text" : "jcom.namespace @filter/list parameter @update 0"
+																					"text" : "j.namespace @filter/list parameter @update 0"
 																				}
 
 																			}
@@ -4534,7 +4534,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 38.0, 149.0, 116.0, 33.0 ],
-																	"text" : "jcom.namespace @output attributes"
+																	"text" : "j.namespace @output attributes"
 																}
 
 															}
@@ -4564,7 +4564,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 403.0, 175.0, 158.0, 47.0 ],
-																	"text" : "jcom.namespace @depth 1 @filter/list message @update 0 @sort priority"
+																	"text" : "j.namespace @depth 1 @filter/list message @update 0 @sort priority"
 																}
 
 															}
@@ -4580,7 +4580,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 240.0, 175.0, 162.0, 47.0 ],
-																	"text" : "jcom.namespace @depth 1 @filter/list return @update 0 @sort priority"
+																	"text" : "j.namespace @depth 1 @filter/list return @update 0 @sort priority"
 																}
 
 															}
@@ -4637,7 +4637,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 563.0, 175.0, 158.0, 47.0 ],
-																	"text" : "jcom.namespace @depth 1 @filter/list parameter @update 0 @sort priority"
+																	"text" : "j.namespace @depth 1 @filter/list parameter @update 0 @sort priority"
 																}
 
 															}
@@ -4652,7 +4652,7 @@
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
 																	"patching_rect" : [ 738.0, 176.0, 161.0, 33.0 ],
-																	"text" : "jcom.namespace @depth 1 @update 0 @sort priority"
+																	"text" : "j.namespace @depth 1 @update 0 @sort priority"
 																}
 
 															}
@@ -5925,7 +5925,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 719.0, 272.0, 105.0, 18.0 ],
-									"text" : "jcom.oscroute /minuit"
+									"text" : "j.oscroute /minuit"
 								}
 
 							}
@@ -6424,7 +6424,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 30.0, 60.0, 107.0, 18.0 ],
-													"text" : "jcom.oscroute /Virage"
+													"text" : "j.oscroute /Virage"
 												}
 
 											}
@@ -9152,7 +9152,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 491.5, 197.5, 59.0, 20.0 ],
-									"text" : "jcom.cue"
+									"text" : "j.cue"
 								}
 
 							}
@@ -9251,7 +9251,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 180.0, 178.0, 107.0, 20.0 ],
-																	"text" : "jcom.random 0. 1."
+																	"text" : "j.random 0. 1."
 																}
 
 															}
@@ -9265,7 +9265,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 178.0, 107.0, 20.0 ],
-																	"text" : "jcom.random 0. 1."
+																	"text" : "j.random 0. 1."
 																}
 
 															}
@@ -9475,7 +9475,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 31.0, 204.0, 135.0, 20.0 ],
-													"text" : "jcom.send"
+													"text" : "j.send"
 												}
 
 											}
@@ -9598,7 +9598,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 29.5, 197.5, 164.0, 33.0 ],
-									"text" : "jcom.send /track.*/spat/dbapDestination"
+									"text" : "j.send /track.*/spat/dbapDestination"
 								}
 
 							}
@@ -9613,7 +9613,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 236.5, 116.0, 114.0, 17.0 ],
-									"text" : "jcom.initialized /pool 2000"
+									"text" : "j.initialized /pool 2000"
 								}
 
 							}
@@ -9735,7 +9735,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 460.0, 57.0, 146.0, 17.0 ],
-									"text" : "jcom.send /track.*/eq/preset/recall"
+									"text" : "j.send /track.*/eq/preset/recall"
 								}
 
 							}
@@ -10133,7 +10133,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -10146,7 +10146,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -10906,7 +10906,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.viewMuter.maxpat",
+				"name" : "j.viewMuter.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/muters",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/muters",
 				"type" : "JSON",
@@ -10934,7 +10934,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.thru.maxpat",
+				"name" : "j.thru.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/thru",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/thru",
 				"type" : "JSON",
@@ -10948,7 +10948,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.random.maxpat",
+				"name" : "j.random.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/random",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/random",
 				"type" : "JSON",
@@ -10983,7 +10983,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.initialized.maxpat",
+				"name" : "j.initialized.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/initialized",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/initialized",
 				"type" : "JSON",
@@ -11032,14 +11032,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.datetime.maxpat",
+				"name" : "j.datetime.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/datetime",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/datetime",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.multi.in~.maxpat",
+				"name" : "j.multi.in~.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/multi.in%",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/multi.in%",
 				"type" : "JSON",
@@ -11074,14 +11074,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.thru~.maxpat",
+				"name" : "j.thru~.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/thru",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.multi.out~.maxpat",
+				"name" : "j.multi.out~.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/multi.out%",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/multi.out%",
 				"type" : "JSON",
@@ -11123,14 +11123,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.position2ambimonitor.maxpat",
+				"name" : "j.position2ambimonitor.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/position2ambimonitor",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/position2ambimonitor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.ambimonitor2position.maxpat",
+				"name" : "j.ambimonitor2position.maxpat",
 				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/ambimonitor2position",
 				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/ambimonitor2position",
 				"type" : "JSON",
@@ -11158,91 +11158,91 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.meter~.mxo",
+				"name" : "j.meter~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.textslider.mxo",
+				"name" : "j.textslider.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.init.mxo",
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscroute.mxo",
+				"name" : "j.oscroute.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.map.mxo",
+				"name" : "j.map.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.dataspace.mxo",
+				"name" : "j.dataspace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.dbap.mxo",
+				"name" : "j.dbap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.oscinstance.mxo",
+				"name" : "j.oscinstance.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.send.mxo",
+				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.message.mxo",
+				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.model.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameter.mxo",
+				"name" : "j.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.cue.mxo",
+				"name" : "j.cue.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.namespace.mxo",
+				"name" : "j.namespace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "j.return.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.in~.mxo",
+				"name" : "j.in~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.folder.mxo",
+				"name" : "j.folder.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.savebang.mxo",
+				"name" : "j.savebang.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -11250,23 +11250,23 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.preset.mxo",
+				"name" : "j.preset.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.out~.mxo",
+				"name" : "j.out~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.parameterArray.mxo",
+				"name" : "j.parameterArray.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.stats.mxo",
+				"name" : "j.stats.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.messageArray.mxo",
+				"name" : "j.messageArray.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -11286,7 +11286,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remoteArray.mxo",
+				"name" : "j.remoteArray.mxo",
 				"type" : "iLaX"
 			}
 , 			{

@@ -110,7 +110,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 369.0, 105.0, 100.0, 18.0 ],
-									"text" : "jcom.savebang"
+									"text" : "j.savebang"
 								}
 
 							}
@@ -153,7 +153,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 271.0, 56.0, 100.0, 18.0 ],
-									"text" : "jcom.oscroute /*"
+									"text" : "j.oscroute /*"
 								}
 
 							}
@@ -167,7 +167,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 258.0, 88.0, 100.0, 18.0 ],
-									"text" : "jcom.oscinstance"
+									"text" : "j.oscinstance"
 								}
 
 							}
@@ -249,7 +249,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 128.0, 101.0, 100.0, 18.0 ],
-									"text" : "jcom.savebang"
+									"text" : "j.savebang"
 								}
 
 							}
@@ -292,7 +292,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 30.0, 52.0, 100.0, 18.0 ],
-									"text" : "jcom.oscroute /*"
+									"text" : "j.oscroute /*"
 								}
 
 							}
@@ -306,7 +306,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 17.0, 84.0, 100.0, 18.0 ],
-									"text" : "jcom.oscinstance"
+									"text" : "j.oscinstance"
 								}
 
 							}
@@ -595,7 +595,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.0, 136.0, 142.0, 18.0 ],
-					"text" : "jcom.multi.in~",
+					"text" : "j.multi.in~",
 					"varname" : "multi"
 				}
 
@@ -676,7 +676,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 29.0, 64.0, 51.0, 18.0 ],
-					"text" : "jcom.hub"
+					"text" : "j.hub"
 				}
 
 			}

@@ -149,7 +149,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 113.0, 182.0, 100.0, 17.0 ],
-									"text" : "jcom.remote position"
+									"text" : "j.remote position"
 								}
 
 							}
@@ -379,7 +379,7 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "jcom.remote.mxo",
+								"name" : "j.remote.mxo",
 								"type" : "iLaX"
 							}
  ]
@@ -413,7 +413,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 227.0, 60.0, 128.0, 17.0 ],
-					"text" : "jcom.remote trajectory/choice"
+					"text" : "j.remote trajectory/choice"
 				}
 
 			}
@@ -455,7 +455,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 127.0, 61.0, 110.0, 17.0 ],
-					"text" : "jcom.remote area/size/xy"
+					"text" : "j.remote area/size/xy"
 				}
 
 			}
@@ -483,7 +483,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 363.0, 59.0, 83.0, 17.0 ],
-					"text" : "jcom.receive color"
+					"text" : "j.receive color"
 				}
 
 			}
@@ -1122,7 +1122,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 25.0, 61.0, 100.0, 17.0 ],
-					"text" : "jcom.remote area/xy"
+					"text" : "j.remote area/xy"
 				}
 
 			}
@@ -1155,7 +1155,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 24.0, 122.0, 311.0, 20.0 ],
-					"text" : "jcom.gl.area.instance #1 #2 #3"
+					"text" : "j.gl.area.instance #1 #2 #3"
 				}
 
 			}
@@ -1369,36 +1369,36 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.gl.area.instance.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/jcom.gl",
-				"patcherrelativepath" : "../jcom.gl",
+				"name" : "j.gl.area.instance.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/j.gl",
+				"patcherrelativepath" : "../j.gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.gl.widget.instance.maxpat",
-				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/jcom.gl",
-				"patcherrelativepath" : "../jcom.gl",
+				"name" : "j.gl.widget.instance.maxpat",
+				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/UserLib/Z/j.gl",
+				"patcherrelativepath" : "../j.gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.pi.maxpat",
+				"name" : "j.pi.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/pi",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/pi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.pass.mxo",
+				"name" : "j.pass.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.receive.mxo",
+				"name" : "j.receive.mxo",
 				"type" : "iLaX"
 			}
  ]

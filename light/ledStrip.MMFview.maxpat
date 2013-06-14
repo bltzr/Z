@@ -276,7 +276,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 624.5, 239.0, 76.0, 18.0 ],
-					"text" : "jcom.remote W"
+					"text" : "j.remote W"
 				}
 
 			}
@@ -290,7 +290,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 491.5, 224.0, 76.0, 18.0 ],
-					"text" : "jcom.remote B"
+					"text" : "j.remote B"
 				}
 
 			}
@@ -304,7 +304,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 407.5, 224.0, 76.0, 18.0 ],
-					"text" : "jcom.remote G"
+					"text" : "j.remote G"
 				}
 
 			}
@@ -318,7 +318,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 318.5, 224.0, 76.0, 18.0 ],
-					"text" : "jcom.remote R"
+					"text" : "j.remote R"
 				}
 
 			}
@@ -541,7 +541,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 77.5, 314.5, 156.0, 18.0 ],
-					"text" : "jcom.remote intensity"
+					"text" : "j.remote intensity"
 				}
 
 			}
@@ -596,7 +596,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 77.5, 179.0, 63.0, 20.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}
@@ -624,7 +624,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 77.5, 92.0, 73.0, 20.0 ],
-					"text" : "jcom.thru"
+					"text" : "j.thru"
 				}
 
 			}
@@ -638,7 +638,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 77.5, 70.0, 147.0, 20.0 ],
-					"text" : "jcom.oscroute LED /LED"
+					"text" : "j.oscroute LED /LED"
 				}
 
 			}

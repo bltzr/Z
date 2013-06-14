@@ -42,7 +42,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 131.0, 58.0, 83.0, 17.0 ],
-					"text" : "jcom.receive color"
+					"text" : "j.receive color"
 				}
 
 			}
@@ -539,7 +539,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 25.0, 61.0, 100.0, 17.0 ],
-					"text" : "jcom.remote position/xy"
+					"text" : "j.remote position/xy"
 				}
 
 			}
@@ -573,7 +573,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 25.0, 114.0, 227.0, 34.0 ],
-					"text" : "jcom.gl.widget.instance #1 #2 #3"
+					"text" : "j.gl.widget.instance #1 #2 #3"
 				}
 
 			}

@@ -34,7 +34,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[8]",
-					"text" : "jcom.message multicoll @repetitions/allow 1 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
+					"text" : "j.message multicoll @repetitions/allow 1 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
 					"linecount" : 2,
 					"id" : "obj-4",
 					"numinlets" : 1,
@@ -50,7 +50,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[7]",
-					"text" : "jcom.message coll @repetitions/allow 1 @description \"load a bunch of files itemised in a collection\"",
+					"text" : "j.message coll @repetitions/allow 1 @description \"load a bunch of files itemised in a collection\"",
 					"id" : "obj-2",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -65,7 +65,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[6]",
-					"text" : "jcom.message folder @repetitions/allow 1 @description \"load a folder of sound file\"",
+					"text" : "j.message folder @repetitions/allow 1 @description \"load a folder of sound file\"",
 					"linecount" : 2,
 					"id" : "obj-34",
 					"numinlets" : 1,
@@ -81,7 +81,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[5]",
-					"text" : "jcom.message file @repetitions/allow 1 @description \"load a single sound file\"",
+					"text" : "j.message file @repetitions/allow 1 @description \"load a single sound file\"",
 					"linecount" : 2,
 					"id" : "obj-23",
 					"numinlets" : 1,
@@ -132,7 +132,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[4]",
-					"text" : "jcom.parameter mono @repetitions/allow 1 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
+					"text" : "j.parameter mono @repetitions/allow 1 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
 					"linecount" : 2,
 					"id" : "obj-57",
 					"numinlets" : 1,
@@ -180,7 +180,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[3]",
-					"text" : "jcom.message write @repetitions/allow 1 @description \"write text file\"",
+					"text" : "j.message write @repetitions/allow 1 @description \"write text file\"",
 					"id" : "obj-41",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -213,7 +213,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[2]",
-					"text" : "jcom.message clear @repetitions/allow 1 @description \"delete all buffers\"",
+					"text" : "j.message clear @repetitions/allow 1 @description \"delete all buffers\"",
 					"id" : "obj-31",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -378,7 +378,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[1]",
-					"text" : "jcom.message read @repetitions/allow 1 @description \"read text file\"",
+					"text" : "j.message read @repetitions/allow 1 @description \"read text file\"",
 					"id" : "obj-19",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -393,7 +393,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle",
-					"text" : "jcom.parameter buffers_list @repetitions/allow 1 @type array @description \"list of buffers\" @priority 2",
+					"text" : "j.parameter buffers_list @repetitions/allow 1 @type array @description \"list of buffers\" @priority 2",
 					"linecount" : 2,
 					"id" : "obj-29",
 					"numinlets" : 1,
@@ -422,7 +422,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.in",
+					"text" : "j.in",
 					"id" : "obj-24",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -450,7 +450,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.pass open",
+					"text" : "j.pass open",
 					"id" : "obj-27",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -6470,7 +6470,7 @@
 , 											{
 												"box" : 												{
 													"maxclass" : "newobj",
-													"text" : "jcom.oscroute /file /clear /coll /folder /multicoll /samplor /mono /read /write /dump /verbose /buffers_list",
+													"text" : "j.oscroute /file /clear /coll /folder /multicoll /samplor /mono /read /write /dump /verbose /buffers_list",
 													"id" : "obj-39",
 													"numinlets" : 1,
 													"fontname" : "Verdana",
@@ -7376,7 +7376,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /view/panel",
+									"text" : "j.oscroute /view/panel",
 									"id" : "obj-1",
 									"numinlets" : 1,
 									"fontname" : "Arial",
@@ -7617,8 +7617,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.hub",
-					"text" : "jcom.hub jmod.multibuf @module_type control @description \"This module doesn't do much yet\"",
+					"varname" : "j.hub",
+					"text" : "j.hub jmod.multibuf @module_type control @description \"This module doesn't do much yet\"",
 					"linecount" : 2,
 					"id" : "obj-37",
 					"numinlets" : 1,
@@ -7669,7 +7669,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"text" : "/editing_this_module",
 					"id" : "obj-16",
 					"numinlets" : 1,

@@ -37,8 +37,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 88.17981, 78.0, 109.0, 19.0 ],
-					"text" : "jcom.remote reload",
-					"varname" : "jcom.parameter.mxb[3]"
+					"text" : "j.remote reload",
+					"varname" : "j.parameter.mxb[3]"
 				}
 
 			}
@@ -441,8 +441,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 24.32019, 477.0, 132.0, 19.0 ],
-					"text" : "jcom.remote mainfolder",
-					"varname" : "jcom.parameter.mxb[2]"
+					"text" : "j.remote mainfolder",
+					"varname" : "j.parameter.mxb[2]"
 				}
 
 			}
@@ -1969,8 +1969,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 143.5, 216.0, 100.0, 19.0 ],
-					"text" : "jcom.remote type",
-					"varname" : "jcom.parameter.mxb[1]"
+					"text" : "j.remote type",
+					"varname" : "j.parameter.mxb[1]"
 				}
 
 			}
@@ -1984,8 +1984,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 9.0, 78.0, 61.0, 19.0 ],
-					"text" : "jcom.view",
-					"varname" : "jcom.hub"
+					"text" : "j.view",
+					"varname" : "j.hub"
 				}
 
 			}
@@ -2036,8 +2036,8 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 10.5, 296.0, 101.0, 19.0 ],
-					"text" : "jcom.remote path",
-					"varname" : "jcom.parameter.mxb[10]"
+					"text" : "j.remote path",
+					"varname" : "j.parameter.mxb[10]"
 				}
 
 			}
@@ -2084,7 +2084,7 @@
 					"bordercolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-78",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -2287,15 +2287,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.ui.mxo",
+				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ]

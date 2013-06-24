@@ -29,7 +29,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 154.0, 104.0, 157.0, 27.0 ],
-					"text" : "jcom.parameter #1/bounds @type array @value/default 0 1024"
+					"text" : "j.parameter #1/bounds @type array @value/default 0 1024"
 				}
 
 			}
@@ -44,7 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 48.0, 212.0, 208.0, 27.0 ],
-					"text" : "jcom.parameter #1/threshold @type decimal @tag setup @value/default 0.05"
+					"text" : "j.parameter #1/threshold @type decimal @tag setup @value/default 0.05"
 				}
 
 			}
@@ -72,7 +72,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 103.0, 340.0, 202.0, 17.0 ],
-					"text" : "jcom.return #1/trigger/down @type none"
+					"text" : "j.return #1/trigger/down @type none"
 				}
 
 			}
@@ -86,7 +86,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 317.0, 190.0, 17.0 ],
-					"text" : "jcom.return #1/trigger/up @type none"
+					"text" : "j.return #1/trigger/up @type none"
 				}
 
 			}
@@ -100,7 +100,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 47.0, 188.0, 190.0, 17.0 ],
-					"text" : "jcom.return #1/sensor @type decimal"
+					"text" : "j.return #1/sensor @type decimal"
 				}
 
 			}

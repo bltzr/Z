@@ -36,7 +36,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 64.0, 386.0, 73.0, 20.0 ],
-					"text" : "jcom.in~ 1"
+					"text" : "j.in~ 1"
 				}
 
 			}
@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 64.0, 471.0, 73.0, 20.0 ],
-					"text" : "jcom.out~ 1"
+					"text" : "j.out~ 1"
 				}
 
 			}
@@ -100,7 +100,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 164.0, 145.0, 135.0, 20.0 ],
-									"text" : "jcom.model component"
+									"text" : "j.model component"
 								}
 
 							}
@@ -116,7 +116,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 77.0, 58.0, 331.0, 37.0 ],
-									"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @value/default 1.",
+									"text" : "j.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @value/default 1.",
 									"varname" : "jmod.parameter.mxb[2]"
 								}
 
@@ -133,7 +133,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.0, 18.0, 401.0, 27.0 ],
-									"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @value/default 0.5",
+									"text" : "j.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @value/default 0.5",
 									"varname" : "jmod.parameter.mxb[3]"
 								}
 
@@ -246,7 +246,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 141.0, 168.0, 135.0, 20.0 ],
-									"text" : "jcom.model component"
+									"text" : "j.model component"
 								}
 
 							}
@@ -262,7 +262,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 55.0, 81.0, 429.0, 27.0 ],
-									"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @value/default 1.",
+									"text" : "j.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @value/default 1.",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
 
@@ -279,7 +279,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 37.0, 37.0, 437.0, 27.0 ],
-									"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @value/default 0.5",
+									"text" : "j.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @value/default 0.5",
 									"varname" : "jmod.parameter.mxb[5]"
 								}
 
@@ -392,7 +392,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 215.0, 156.0, 135.0, 20.0 ],
-									"text" : "jcom.model component"
+									"text" : "j.model component"
 								}
 
 							}
@@ -408,7 +408,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 97.0, 67.0, 411.0, 27.0 ],
-									"text" : "jcom.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @value/default 1.",
+									"text" : "j.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @value/default 1.",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -425,7 +425,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 45.0, 32.0, 446.0, 27.0 ],
-									"text" : "jcom.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @value/default 0.",
+									"text" : "j.parameter center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @value/default 0.",
 									"varname" : "jmod.parameter.mxb[11]"
 								}
 
@@ -527,7 +527,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 468.0, 197.0, 113.0, 97.0 ],
-					"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @value/default 0.5",
+					"text" : "j.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @value/default 0.5",
 					"varname" : "jmod.parameter.mxb[18]"
 				}
 
@@ -544,7 +544,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 43.0, 222.0, 187.0, 47.0 ],
-					"text" : "jcom.parameter mod-mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\" @value/default 0",
+					"text" : "j.parameter mod-mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\" @value/default 0",
 					"varname" : "mod_mode"
 				}
 
@@ -582,7 +582,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 40.0, 149.0, 20.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -973,7 +973,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -1024,7 +1024,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 27.0, 68.0, 120.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -1331,7 +1331,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -1368,7 +1368,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 27.0, 68.0, 120.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -1622,7 +1622,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 594.0, 271.0, 171.0, 17.0 ],
-									"text" : "jcom.random 200 1200"
+									"text" : "j.random 200 1200"
 								}
 
 							}
@@ -1810,7 +1810,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -1948,7 +1948,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -1962,7 +1962,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 143.0, 202.0, 120.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -1976,7 +1976,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 10.0, 266.0, 120.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -2451,7 +2451,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -2589,7 +2589,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -2603,7 +2603,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 148.0, 72.0, 120.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -2617,7 +2617,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 20.0, 136.0, 120.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -2984,7 +2984,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 334.0, 275.0, 171.0, 17.0 ],
-									"text" : "jcom.random 200 1200"
+									"text" : "j.random 200 1200"
 								}
 
 							}
@@ -4075,7 +4075,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -4103,7 +4103,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 69.0, 432.0, 144.0, 19.0 ],
-									"text" : "jcom.map @function power"
+									"text" : "j.map @function power"
 								}
 
 							}
@@ -4277,7 +4277,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -4415,7 +4415,7 @@
 														"tags" : ""
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -4429,7 +4429,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 188.0, 104.0, 133.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -4443,7 +4443,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 20.0, 110.0, 133.0, 17.0 ],
-													"text" : "jcom.map @function power"
+													"text" : "j.map @function power"
 												}
 
 											}
@@ -4838,7 +4838,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.0, 326.0, 121.0, 17.0 ],
-									"text" : "jcom.random 0. 1."
+									"text" : "j.random 0. 1."
 								}
 
 							}
@@ -4852,7 +4852,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 199.0, 326.0, 133.0, 17.0 ],
-									"text" : "jcom.random 200 1200"
+									"text" : "j.random 200 1200"
 								}
 
 							}
@@ -5416,7 +5416,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 59.0, 147.0, 150.0, 18.0 ],
-					"text" : "jcom.parameter enable $1"
+					"text" : "j.parameter enable $1"
 				}
 
 			}

@@ -126,7 +126,7 @@
 					"patching_rect" : [ 35.0, 300.0, 218.0, 33.0 ],
 					"id" : "obj-2",
 					"numinlets" : 4,
-					"name" : "jcom.buffer_selector.maxpat"
+					"name" : "j.buffer_selector.maxpat"
 				}
 
 			}

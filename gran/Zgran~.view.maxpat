@@ -65,7 +65,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 335.0, 17.0, 159.0, 19.0 ],
-					"text" : "jcom.receive out.1/amplitude"
+					"text" : "j.receive out.1/amplitude"
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-18",
 					"ignoreclick" : 1,
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -96,7 +96,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 200.0, 308.0, 100.0, 17.0 ],
-					"text" : "jcom.remote density/jit",
+					"text" : "j.remote density/jit",
 					"varname" : "dispstart[2]"
 				}
 
@@ -1755,7 +1755,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 406.0, 404.0, 149.0, 19.0 ],
-					"text" : "jcom.remote display/length"
+					"text" : "j.remote display/length"
 				}
 
 			}
@@ -1769,7 +1769,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 406.0, 375.0, 141.0, 19.0 ],
-					"text" : "jcom.remote display/start"
+					"text" : "j.remote display/start"
 				}
 
 			}
@@ -1792,7 +1792,7 @@
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
 					"fontsize" : 7.0,
 					"id" : "obj-103",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1867,7 +1867,7 @@
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
 					"fontsize" : 7.0,
 					"id" : "obj-118",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1949,7 +1949,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 609.0, 211.0, 154.0, 17.0 ],
-					"text" : "jcom.remote sound/enveloppe",
+					"text" : "j.remote sound/enveloppe",
 					"varname" : "sample/buffername[3]"
 				}
 
@@ -1964,7 +1964,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 132.0, 436.0, 133.0, 19.0 ],
-					"text" : "jcom.remote play"
+					"text" : "j.remote play"
 				}
 
 			}
@@ -2015,7 +2015,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 325.0, 541.0, 114.0, 17.0 ],
-					"text" : "jcom.remote record/active",
+					"text" : "j.remote record/active",
 					"varname" : "jmod.parameter.mxb[17]"
 				}
 
@@ -2099,7 +2099,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 142.0, 541.0, 107.0, 17.0 ],
-					"text" : "jcom.remote density/val",
+					"text" : "j.remote density/val",
 					"varname" : "dispstart[1]"
 				}
 
@@ -2114,7 +2114,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 427.0, 223.0, 145.0, 19.0 ],
-					"text" : "jcom.remote currentBuffer"
+					"text" : "j.remote currentBuffer"
 				}
 
 			}
@@ -2128,7 +2128,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 491.0, 520.0, 136.0, 19.0 ],
-					"text" : "jcom.remote delay/jit"
+					"text" : "j.remote delay/jit"
 				}
 
 			}
@@ -2142,7 +2142,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 427.0, 140.0, 143.0, 17.0 ],
-					"text" : "jcom.remote sound/random",
+					"text" : "j.remote sound/random",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -2179,7 +2179,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.698039 ],
 					"fontsize" : 7.0,
 					"id" : "obj-3",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -2201,8 +2201,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 278.0, 61.0, 19.0 ],
-					"text" : "jcom.view",
-					"varname" : "jcom.model"
+					"text" : "j.view",
+					"varname" : "j.model"
 				}
 
 			}
@@ -2329,7 +2329,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 144.0, 192.0, 94.0, 17.0 ],
-									"text" : "jcom.random 0 1"
+									"text" : "j.random 0 1"
 								}
 
 							}
@@ -2706,7 +2706,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 599.0, 105.0, 112.0, 17.0 ],
-					"text" : "jcom.remote sound/buffer",
+					"text" : "j.remote sound/buffer",
 					"varname" : "sample/buffername[2]"
 				}
 
@@ -2716,7 +2716,7 @@
 					"background" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-37",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -2772,7 +2772,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 132.0, 496.0, 106.0, 17.0 ],
-					"text" : "jcom.remote continuous",
+					"text" : "j.remote continuous",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -2787,7 +2787,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 687.0, 311.0, 176.0, 19.0 ],
-					"text" : "jcom.remote position/val"
+					"text" : "j.remote position/val"
 				}
 
 			}
@@ -2812,7 +2812,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 479.0, 487.0, 148.0, 19.0 ],
-					"text" : "jcom.remote position/jit"
+					"text" : "j.remote position/jit"
 				}
 
 			}
@@ -3199,7 +3199,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 156.0, 464.0, 141.0, 19.0 ],
-					"text" : "jcom.remote pitch/val"
+					"text" : "j.remote pitch/val"
 				}
 
 			}
@@ -3241,7 +3241,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 673.0, 52.0, 112.0, 17.0 ],
-					"text" : "jcom.remote sound/folder",
+					"text" : "j.remote sound/folder",
 					"varname" : "sample/buffername[1]"
 				}
 
@@ -3276,7 +3276,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 484.0, 550.0, 146.0, 19.0 ],
-					"text" : "jcom.remote length/jit"
+					"text" : "j.remote length/jit"
 				}
 
 			}
@@ -3290,7 +3290,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 574.0, 390.0, 168.25, 19.0 ],
-					"text" : "jcom.remote length/val"
+					"text" : "j.remote length/val"
 				}
 
 			}
@@ -3405,7 +3405,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 174.0, 118.669922, 110.0, 17.0 ],
-									"text" : "jcom.remote record/input",
+									"text" : "j.remote record/input",
 									"varname" : "jmod.parameter.mxb[16]"
 								}
 
@@ -3691,7 +3691,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 137.0, 208.0, 136.0, 19.0 ],
-									"text" : "jcom.remote voices"
+									"text" : "j.remote voices"
 								}
 
 							}
@@ -3757,7 +3757,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 173.0, 166.0, 136.0, 19.0 ],
-									"text" : "jcom.remote delay/val"
+									"text" : "j.remote delay/val"
 								}
 
 							}
@@ -3773,7 +3773,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 190.0, 40.0, 129.0, 17.0 ],
-									"text" : "jcom.remote sound/bufferpool",
+									"text" : "j.remote sound/bufferpool",
 									"varname" : "sample/buffername[3]"
 								}
 
@@ -3900,7 +3900,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 160.0, 270.0, 144.0, 19.0 ],
-									"text" : "jcom.remote pitch/jit"
+									"text" : "j.remote pitch/jit"
 								}
 
 							}
@@ -3962,7 +3962,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 159.0, 331.0, 230.0, 19.0 ],
-									"text" : "jcom.remote amp/jit @type decimal"
+									"text" : "j.remote amp/jit @type decimal"
 								}
 
 							}
@@ -4011,7 +4011,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 159.0, 300.0, 205.0, 19.0 ],
-									"text" : "jcom.remote amp/val @type decimal"
+									"text" : "j.remote amp/val @type decimal"
 								}
 
 							}

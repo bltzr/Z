@@ -1815,7 +1815,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1170.0, 434.0, 107.0, 20.0 ],
-					"text" : "print jcom.gl.world"
+					"text" : "print j.gl.world"
 				}
 
 			}
@@ -2409,7 +2409,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 183.0, 218.0, 107.0, 20.0 ],
-													"text" : "print jcom.gl.world"
+													"text" : "print j.gl.world"
 												}
 
 											}

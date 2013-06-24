@@ -28,7 +28,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 883.0, 235.0, 100.0, 20.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -43,7 +43,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 59.0, 269.0, 27.0 ],
-					"text" : "jcom.parameter trigger @type integer @range/bounds 0 127 @value 1 @repetitions/allow 1 @description \"Trigger mode\""
+					"text" : "j.parameter trigger @type integer @range/bounds 0 127 @value 1 @repetitions/allow 1 @description \"Trigger mode\""
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 89.0, 316.0, 27.0 ],
-					"text" : "jcom.parameter rate @type decimal @range/bounds 20. 1000. @value 1000 @repetitions/allow 1 @description \"Trigger rate in beat mode [ms]\""
+					"text" : "j.parameter rate @type decimal @range/bounds 20. 1000. @value 1000 @repetitions/allow 1 @description \"Trigger rate in beat mode [ms]\""
 				}
 
 			}
@@ -73,7 +73,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 119.0, 310.0, 27.0 ],
-					"text" : "jcom.parameter rate_std @type decimal @range/bounds 0. 250. @repetitions/allow 1 @description \"Trigger rate random variation [ms]\""
+					"text" : "j.parameter rate_std @type decimal @range/bounds 0. 250. @repetitions/allow 1 @description \"Trigger rate random variation [ms]\""
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 29.0, 340.0, 27.0 ],
-					"text" : "jcom.parameter num-nearest @type integer @range/bounds 0 127 @repetitions/allow 1 @description \"Random selection from k nearest neighbours \""
+					"text" : "j.parameter num-nearest @type integer @range/bounds 0 127 @repetitions/allow 1 @description \"Random selection from k nearest neighbours \""
 				}
 
 			}

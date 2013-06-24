@@ -37,7 +37,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 71.0, 63.0, 73.0, 17.0 ],
-					"text" : "jcom.viewMuter"
+					"text" : "j.viewMuter"
 				}
 
 			}
@@ -116,7 +116,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 40.0, 108.0, 17.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 403.5, 142.5, 161.0, 20.0 ],
-					"text" : "jcom.remote trajectory/menu"
+					"text" : "j.remote trajectory/menu"
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 179.5, 167.5, 177.0, 20.0 ],
-					"text" : "jcom.remote trajectory/direction"
+					"text" : "j.remote trajectory/direction"
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 377.5, 91.5, 213.0, 20.0 ],
-					"text" : "jcom.remote trajectory/speed/variation"
+					"text" : "j.remote trajectory/speed/variation"
 				}
 
 			}
@@ -611,7 +611,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 183.5, 92.5, 164.0, 20.0 ],
-					"text" : "jcom.remote trajectory/speed"
+					"text" : "j.remote trajectory/speed"
 				}
 
 			}
@@ -782,7 +782,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 433.5, 224.5, 167.0, 20.0 ],
-					"text" : "jcom.remote trajectory/choice"
+					"text" : "j.remote trajectory/choice"
 				}
 
 			}
@@ -1097,18 +1097,18 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "jcom.viewMuter.maxpat",
+				"name" : "j.viewMuter.maxpat",
 				"bootpath" : "/Users/bltzr/Documents/dev/Jamoma/Modules/Modular/Max/library/components/muters",
 				"patcherrelativepath" : "../../../Modules/Modular/Max/library/components/muters",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jcom.remote.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.view.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ]

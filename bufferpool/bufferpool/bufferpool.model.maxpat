@@ -36,8 +36,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 337.0, 416.0, 288.0, 19.0 ],
-					"text" : "jcom.message reload @type none @repetitions/allow 1",
-					"varname" : "jcom.parameter.mxb[3]"
+					"text" : "j.message reload @type none @repetitions/allow 1",
+					"varname" : "j.parameter.mxb[3]"
 				}
 
 			}
@@ -52,8 +52,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 40.0, 362.0, 589.0, 31.0 ],
-					"text" : "jcom.parameter mainfolder @type generic @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @value/default none @tag init",
-					"varname" : "jcom.parameter.mxb[2]"
+					"text" : "j.parameter mainfolder @type generic @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @value/default none @tag init",
+					"varname" : "j.parameter.mxb[2]"
 				}
 
 			}
@@ -6555,7 +6555,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 18.5, 239.0, 472.0, 20.0 ],
-					"text" : "jcom.oscroute /type /path /mainfolder /reload"
+					"text" : "j.oscroute /type /path /mainfolder /reload"
 				}
 
 			}
@@ -6570,8 +6570,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 143.0, 594.0, 31.0 ],
-					"text" : "jcom.message type @type generic @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
-					"varname" : "jcom.parameter.mxb[1]"
+					"text" : "j.message type @type generic @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"varname" : "j.parameter.mxb[1]"
 				}
 
 			}
@@ -6585,8 +6585,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 77.0, 444.0, 19.0 ],
-					"text" : "jcom.model @description \"A module for autogenerating buffers from folders and files\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @description \"A module for autogenerating buffers from folders and files\"",
+					"varname" : "j.hub"
 				}
 
 			}
@@ -6666,8 +6666,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 202.0, 183.0, 342.0, 43.0 ],
-					"text" : "jcom.message path @type generic @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
-					"varname" : "jcom.parameter.mxb[10]"
+					"text" : "j.message path @type generic @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
+					"varname" : "j.parameter.mxb[10]"
 				}
 
 			}

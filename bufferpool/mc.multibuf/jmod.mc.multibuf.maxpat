@@ -53,7 +53,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[9]",
-					"text" : "jcom.message merge @repetitions/allow 1 @description \"merge a bank file with current banks\"",
+					"text" : "j.message merge @repetitions/allow 1 @description \"merge a bank file with current banks\"",
 					"patching_rect" : [ 666.0, 234.0, 493.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-9",
@@ -493,7 +493,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[8]",
-					"text" : "jcom.message multicoll @repetitions/allow 1 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
+					"text" : "j.message multicoll @repetitions/allow 1 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
 					"linecount" : 2,
 					"patching_rect" : [ 664.0, 285.0, 532.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -509,7 +509,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[7]",
-					"text" : "jcom.message coll @repetitions/allow 1 @description \"load a bunch of files itemised in a collection\"",
+					"text" : "j.message coll @repetitions/allow 1 @description \"load a bunch of files itemised in a collection\"",
 					"patching_rect" : [ 664.0, 264.0, 511.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-2",
@@ -524,7 +524,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[6]",
-					"text" : "jcom.message folder @repetitions/allow 1 @description \"load a folder of sound file\"",
+					"text" : "j.message folder @repetitions/allow 1 @description \"load a folder of sound file\"",
 					"linecount" : 2,
 					"patching_rect" : [ 395.0, 221.0, 224.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -540,7 +540,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[5]",
-					"text" : "jcom.message file @repetitions/allow 1 @description \"load a single sound file\"",
+					"text" : "j.message file @repetitions/allow 1 @description \"load a single sound file\"",
 					"linecount" : 2,
 					"patching_rect" : [ 367.0, 181.0, 219.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -591,7 +591,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[4]",
-					"text" : "jcom.parameter mono @repetitions/allow 1 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
+					"text" : "j.parameter mono @repetitions/allow 1 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
 					"linecount" : 2,
 					"patching_rect" : [ 662.0, 45.0, 525.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -639,7 +639,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[3]",
-					"text" : "jcom.message write @repetitions/allow 1 @description \"write text file\"",
+					"text" : "j.message write @repetitions/allow 1 @description \"write text file\"",
 					"patching_rect" : [ 666.0, 192.0, 457.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-41",
@@ -672,7 +672,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[2]",
-					"text" : "jcom.message clear @repetitions/allow 1 @description \"delete all buffers\"",
+					"text" : "j.message clear @repetitions/allow 1 @description \"delete all buffers\"",
 					"patching_rect" : [ 665.0, 147.0, 457.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-31",
@@ -795,7 +795,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[1]",
-					"text" : "jcom.message read @repetitions/allow 1 @description \"read text file\"",
+					"text" : "j.message read @repetitions/allow 1 @description \"read text file\"",
 					"patching_rect" : [ 665.0, 105.0, 457.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-19",
@@ -823,7 +823,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.in",
+					"text" : "j.in",
 					"patching_rect" : [ 115.0, 195.0, 56.0, 19.0 ],
 					"outlettype" : [ "", "" ],
 					"id" : "obj-24",
@@ -851,7 +851,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.pass open",
+					"text" : "j.pass open",
 					"patching_rect" : [ 115.0, 220.0, 95.0, 19.0 ],
 					"outlettype" : [ "", "" ],
 					"id" : "obj-27",
@@ -11418,7 +11418,7 @@
 , 											{
 												"box" : 												{
 													"maxclass" : "newobj",
-													"text" : "jcom.oscroute /file /clear /coll /folder /multicoll /samplor /mono /read /write /merge",
+													"text" : "j.oscroute /file /clear /coll /folder /multicoll /samplor /mono /read /write /merge",
 													"patching_rect" : [ 242.0, 43.0, 676.0, 17.0 ],
 													"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 													"id" : "obj-39",
@@ -12117,7 +12117,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /view/panel",
+									"text" : "j.oscroute /view/panel",
 									"patching_rect" : [ 7.0, 32.0, 121.0, 17.0 ],
 									"outlettype" : [ "", "" ],
 									"id" : "obj-1",
@@ -12331,8 +12331,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.hub",
-					"text" : "jcom.hub jmod.mc.multibuf @module_type control @description \"This module doesn't do much yet\"",
+					"varname" : "j.hub",
+					"text" : "j.hub jmod.mc.multibuf @module_type control @description \"This module doesn't do much yet\"",
 					"linecount" : 2,
 					"patching_rect" : [ 15.0, 140.0, 302.0, 31.0 ],
 					"outlettype" : [ "", "" ],
@@ -12383,7 +12383,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"text" : "/editing_this_module",
 					"presentation" : 1,
 					"outlettype" : [ "" ],

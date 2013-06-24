@@ -864,7 +864,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 47.5, 149.0, 63.0, 20.0 ],
-					"text" : "jcom.view"
+					"text" : "j.view"
 				}
 
 			}
@@ -929,7 +929,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 57.5, 462.714539, 170.0, 18.0 ],
-					"text" : "jcom.remote spat/aux.3/gain"
+					"text" : "j.remote spat/aux.3/gain"
 				}
 
 			}
@@ -958,7 +958,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 47.5, 62.0, 147.0, 20.0 ],
-					"text" : "jcom.oscroute track /track"
+					"text" : "j.oscroute track /track"
 				}
 
 			}
@@ -986,7 +986,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 57.5, 303.0, 182.0, 18.0 ],
-					"text" : "jcom.remote spat/auxSpat/gain"
+					"text" : "j.remote spat/auxSpat/gain"
 				}
 
 			}
@@ -1000,7 +1000,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 57.5, 410.714539, 170.0, 18.0 ],
-					"text" : "jcom.remote spat/aux.2/gain"
+					"text" : "j.remote spat/aux.2/gain"
 				}
 
 			}
@@ -1014,7 +1014,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 57.5, 358.5, 170.0, 18.0 ],
-					"text" : "jcom.remote spat/aux.1/gain"
+					"text" : "j.remote spat/aux.1/gain"
 				}
 
 			}
@@ -1029,14 +1029,14 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 20.5, 258.0, 185.0, 18.0 ],
-					"text" : "jcom.remote spat/out/amplitude"
+					"text" : "j.remote spat/out/amplitude"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-112",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1192,7 +1192,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 37.0, 187.5, 156.0, 18.0 ],
-					"text" : "jcom.remote spat/volume"
+					"text" : "j.remote spat/volume"
 				}
 
 			}

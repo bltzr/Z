@@ -18,7 +18,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /buffername",
+					"text" : "j.oscroute /buffername",
 					"linecount" : 2,
 					"fontsize" : 10.0,
 					"outlettype" : [ "", "" ],
@@ -501,7 +501,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /active /mode",
+									"text" : "j.oscroute /active /mode",
 									"fontsize" : 10.0,
 									"outlettype" : [ "", "", "" ],
 									"id" : "obj-23",
@@ -1629,7 +1629,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /start /stop",
+					"text" : "j.oscroute /start /stop",
 					"fontsize" : 9.0,
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-28",
@@ -1736,7 +1736,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /sf_open /loop /play /sample /reverse /speed/ratio /speed/active /direct /loopsync",
+					"text" : "j.oscroute /sf_open /loop /play /sample /reverse /speed/ratio /speed/active /direct /loopsync",
 					"fontsize" : 9.0,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "" ],
 					"id" : "obj-37",

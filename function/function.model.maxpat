@@ -42,7 +42,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 500.0, 599.0, 89.0, 18.0 ],
-					"text" : "jcom.send enable"
+					"text" : "j.send enable"
 				}
 
 			}
@@ -99,7 +99,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 602.0, 575.0, 79.0, 41.0 ],
-					"text" : "prepend jcom.parameter enable"
+					"text" : "prepend j.parameter enable"
 				}
 
 			}
@@ -677,7 +677,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 172.0, 283.0, 406.0, 29.0 ],
-					"text" : "jcom.parameter loop @type boolean @priority 14 @description \"switch loop mode on/off\" @value/default 0",
+					"text" : "j.parameter loop @type boolean @priority 14 @description \"switch loop mode on/off\" @value/default 0",
 					"varname" : "switch[2]"
 				}
 
@@ -762,7 +762,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 79.0, 18.0 ],
-									"text" : "jcom.remote grain",
+									"text" : "j.remote grain",
 									"varname" : "speed[2]"
 								}
 
@@ -896,7 +896,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 189.0, 465.0, 385.0, 18.0 ],
-					"text" : "jcom.parameter ramp @type boolean @priority 15 @description \"switch ramp on/off\"",
+					"text" : "j.parameter ramp @type boolean @priority 15 @description \"switch ramp on/off\"",
 					"varname" : "switch[1]"
 				}
 
@@ -1247,7 +1247,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 480.0, 521.0, 62.0, 18.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -1289,7 +1289,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 379.181824, 398.636353, 255.0, 18.0 ],
-					"text" : "jcom.parameter points @type array @priority 14"
+					"text" : "j.parameter points @type array @priority 14"
 				}
 
 			}
@@ -1387,7 +1387,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 75.0, 26.0, 47.0, 18.0 ],
-									"text" : "jcom.init"
+									"text" : "j.init"
 								}
 
 							}
@@ -1588,7 +1588,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 144.0, 140.0, 440.0, 29.0 ],
-					"text" : "jcom.parameter grain @type integer @range/bounds 25 200 @range/clipmode low @ramp/drive Max @description \"grain (in ms) of the function reading\" @value/default 40 @priority 13",
+					"text" : "j.parameter grain @type integer @range/bounds 25 200 @range/clipmode low @ramp/drive Max @description \"grain (in ms) of the function reading\" @value/default 40 @priority 13",
 					"varname" : "speed[1]"
 				}
 
@@ -1604,7 +1604,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 295.363647, 365.909088, 331.0, 29.0 ],
-					"text" : "jcom.parameter max @type decimal @ramp/drive Max @priority 5 @repetitions/allow 0"
+					"text" : "j.parameter max @type decimal @ramp/drive Max @priority 5 @repetitions/allow 0"
 				}
 
 			}
@@ -1619,7 +1619,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 250.181824, 328.0, 337.0, 29.0 ],
-					"text" : "jcom.parameter min @type decimal @ramp/drive Max @priority 6 @repetitions/allow 0"
+					"text" : "j.parameter min @type decimal @ramp/drive Max @priority 6 @repetitions/allow 0"
 				}
 
 			}
@@ -1675,7 +1675,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.0, 386.0, 100.0, 18.0 ],
-					"text" : "jcom.return position"
+					"text" : "j.return position"
 				}
 
 			}
@@ -1689,7 +1689,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 297.181854, 493.636353, 224.0, 18.0 ],
-					"text" : "jcom.parameter target @type string @priority 13"
+					"text" : "j.parameter target @type string @priority 13"
 				}
 
 			}
@@ -1726,7 +1726,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 564.0, 523.0, 51.0, 18.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -1755,7 +1755,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 21.0, 467.0, 100.0, 18.0 ],
 					"save2" : [ "#X", "nbfunctions", 1, "\u003b", "#X", "name", "/func.3", "\u003b", "#X", "domainAndRange", 0.0, 10000.0, 0.0, 1.0, "\u003b" ],
-					"text" : "mxj ej.fplay 0"
+					"text" : "mxj ejfplay 0"
 				}
 
 			}
@@ -1783,7 +1783,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 296.636383, 559.363647, 56.0, 18.0 ],
-					"text" : "jcom.send"
+					"text" : "j.send"
 				}
 
 			}
@@ -1881,7 +1881,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 20.0, 79.0, 444.0, 18.0 ],
-					"text" : "jcom.parameter enable @type boolean @priority 15 @description \"enable/disable function\"",
+					"text" : "j.parameter enable @type boolean @priority 15 @description \"enable/disable function\"",
 					"varname" : "switch"
 				}
 
@@ -1897,7 +1897,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 173.0, 231.0, 413.0, 29.0 ],
-					"text" : "jcom.parameter duration @type decimal @range/bounds 0. 20. @range/clipmode low @ramp/drive none @description \"duration of the function\" @value/default 10. @priority 4",
+					"text" : "j.parameter duration @type decimal @range/bounds 0. 20. @range/clipmode low @ramp/drive none @description \"duration of the function\" @value/default 10. @priority 4",
 					"varname" : "duration"
 				}
 
@@ -1913,7 +1913,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 171.0, 180.0, 443.0, 29.0 ],
-					"text" : "jcom.parameter speed @type decimal @range/bounds 0. 2. @range/clipmode none @ramp/drive Max @description \"speed of the function reading\" @value/default 1. @priority 12",
+					"text" : "j.parameter speed @type decimal @range/bounds 0. 2. @range/clipmode none @ramp/drive Max @description \"speed of the function reading\" @value/default 1. @priority 12",
 					"varname" : "speed"
 				}
 

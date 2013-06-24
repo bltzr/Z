@@ -868,7 +868,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.698039 ],
 					"fontsize" : 9.0,
 					"id" : "obj-23",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -885,7 +885,7 @@
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
 					"fontsize" : 9.0,
 					"id" : "obj-53",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1159,7 +1159,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 105.0, 85.0, 68.0, 110.0 ],
-													"text" : "jcom.map @function tanh @input/min -20 @input/max 0. @output/min 0.001"
+													"text" : "j.map @function tanh @input/min -20 @input/max 0. @output/min 0.001"
 												}
 
 											}
@@ -1331,7 +1331,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 85.0, 485.0, 68.0, 110.0 ],
-									"text" : "jcom.map @function tanh @input/min -200 @input/max 0. @output/min 0.001"
+									"text" : "j.map @function tanh @input/min -200 @input/max 0. @output/min 0.001"
 								}
 
 							}
@@ -1732,7 +1732,7 @@
 										"fontsize" : 12.0
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -1747,7 +1747,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 90.0, 210.0, 97.0, 70.0 ],
-									"text" : "jcom.map @function power @input/min -1. @output/max 0.3 @output/min -0.3"
+									"text" : "j.map @function power @input/min -1. @output/max 0.3 @output/min -0.3"
 								}
 
 							}
@@ -2186,7 +2186,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 473.0, 111.0, 18.0 ],
-									"text" : "sprintf lookfor jcom.%s"
+									"text" : "sprintf lookfor j.%s"
 								}
 
 							}
@@ -2246,7 +2246,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 71.0, 505.0, 100.0, 41.0 ],
-									"text" : "jcom.namespace+ @lookfor jcom.parameter"
+									"text" : "j.namespace+ @lookfor j.parameter"
 								}
 
 							}

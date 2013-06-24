@@ -255,7 +255,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 153.0, 164.0, 177.0, 31.0 ],
-					"text" : "poly~ jcom.gl.widget.instance #1 args #2 #3 #0_"
+					"text" : "poly~ j.gl.widget.instance #1 args #2 #3 #0_"
 				}
 
 			}

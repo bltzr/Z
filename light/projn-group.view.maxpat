@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 2,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 682.0, 690.0, 331.0, 169.0 ],
+		"rect" : [ 405.0, 213.0, 448.0, 281.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -57,7 +58,7 @@
 					"patching_rect" : [ 179.0, 6.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.0, 1.0, 61.0, 15.0 ],
-					"text" : "245 246 247"
+					"text" : "5 7 9"
 				}
 
 			}
@@ -67,20 +68,20 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
-					"linecount" : 7,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 179.0, 56.0, 132.0, 100.0 ],
-					"text" : "jcom.remote startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/allow 1 @tag/setup"
+					"patching_rect" : [ 179.0, 56.0, 132.0, 33.0 ],
+					"text" : "j.remote startChannels"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -98,13 +99,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-42",
-					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 5.0, 98.0, 172.0, 60.0 ],
-					"text" : "jcom.remote intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"patching_rect" : [ 5.0, 98.0, 172.0, 20.0 ],
+					"text" : "j.remote intensity"
 				}
 
 			}
@@ -144,8 +144,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 33.0, 41.0, 71.0, 20.0 ],
-					"text" : "jcom.view",
-					"varname" : "_jcom_node"
+					"text" : "j.view",
+					"varname" : "_j_node"
 				}
 
 			}
@@ -153,14 +153,14 @@
 				"box" : 				{
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-5",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
-					"text" : "/pro..oup"
+					"text" : "/salle"
 				}
 
 			}
@@ -227,23 +227,6 @@
 					"source" : [ "obj-7", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.textslider.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

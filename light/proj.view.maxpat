@@ -37,7 +37,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 172.0, 34.0, 100.0, 18.0 ],
-					"text" : "jcom.oscinstance"
+					"text" : "j.oscinstance"
 				}
 
 			}
@@ -87,7 +87,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 42.0, 44.0, 100.0, 18.0 ],
-									"text" : "jcom.oscinstance"
+									"text" : "j.oscinstance"
 								}
 
 							}
@@ -159,7 +159,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 42.0, 73.0, 143.0, 47.0 ],
-									"text" : "jcom.namespace @output brothers @format umenu_prefix"
+									"text" : "j.namespace @output brothers @format umenu_prefix"
 								}
 
 							}
@@ -345,7 +345,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 269.0, 34.0, 226.0, 18.0 ],
-					"text" : "jcom.parameter modelInstance @type string"
+					"text" : "j.parameter modelInstance @type string"
 				}
 
 			}
@@ -386,7 +386,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -426,7 +426,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 303.0, 95.0, 179.0, 20.0 ],
-					"text" : "jcom.remote startChannel"
+					"text" : "j.remote startChannel"
 				}
 
 			}
@@ -441,7 +441,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 351.0, 140.0, 151.0, 20.0 ],
-					"text" : "jcom.remote intensity"
+					"text" : "j.remote intensity"
 				}
 
 			}
@@ -455,7 +455,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 103.0, 117.0, 100.0, 18.0 ],
-					"text" : "jcom.preset"
+					"text" : "j.preset"
 				}
 
 			}
@@ -495,8 +495,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 49.0, 142.0, 63.0, 20.0 ],
-					"text" : "jcom.view",
-					"varname" : "_jcom_node"
+					"text" : "j.view",
+					"varname" : "_j_node"
 				}
 
 			}
@@ -504,7 +504,7 @@
 				"box" : 				{
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-13",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

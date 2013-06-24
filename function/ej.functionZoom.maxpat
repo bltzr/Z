@@ -618,7 +618,7 @@
 , 			{
 				"box" : 				{
 					"embedstate" : [ [ "CreateNFunctions", 1, "function0", 0, 1, 0, 1000 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "snap2grid", 0 ], [ "bordersync", 0 ], [ "clickmove", 1 ], [ "ghost", 20 ], [ "legend", 1 ], [ "grid", 0 ], [ "clicksustain", 1 ], [ "mousereport", 1 ], [ "autocursor", 1 ], [ "movemode", 0 ], [ "nbfunction", 1 ], [ "hiddenpoint", 0 ], [ "mode", 1 ], [ "autosustain", 0 ], [ "notifyrecalled", 0 ], [ "timedisplay", 0 ], [ "clickadd", 1 ], [ "numcurvepoints", 12 ] ],
-					"filename" : "ej.function.js",
+					"filename" : "ejfunction.js",
 					"id" : "obj-12",
 					"jsarguments" : [  ],
 					"maxclass" : "jsui",
@@ -627,7 +627,7 @@
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 26.0, 40.0, 571.0, 290.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 571.0, 290.0 ],
-					"varname" : "ej.lui-2144028"
+					"varname" : "ejlui-2144028"
 				}
 
 			}

@@ -535,7 +535,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 277.0, 414.0, 202.0, 20.0 ],
-					"text" : "jcom.gl.background @context toto"
+					"text" : "j.gl.background @context toto"
 				}
 
 			}
@@ -1166,7 +1166,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 233.0, 215.0, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -1440,7 +1440,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 812.0, 146.0, 240.0, 48.0 ],
-					"text" : "jcom.gl.widgets 12 hp spk @context toto @shape cube @position 3 5 @color 0.8 0.8 0.1 0.5 @select_size 2"
+					"text" : "j.gl.widgets 12 hp spk @context toto @shape cube @position 3 5 @color 0.8 0.8 0.1 0.5 @select_size 2"
 				}
 
 			}
@@ -1576,7 +1576,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 794.0, 697.0, 280.0, 34.0 ],
-					"text" : "jcom.gl.area areas B @context toto @shape plane @position 2. 2. @size 2. 2. @color 0.5 0.3 0.1"
+					"text" : "j.gl.area areas B @context toto @shape plane @position 2. 2. @size 2. 2. @color 0.5 0.3 0.1"
 				}
 
 			}
@@ -1697,7 +1697,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 794.0, 406.0, 322.0, 34.0 ],
-					"text" : "jcom.gl.widget src source.2 @context toto @shape sphere @position -3 -3 @color 0.1 0.8 0.1 0.5 @select_size 2"
+					"text" : "j.gl.widget src source.2 @context toto @shape sphere @position -3 -3 @color 0.1 0.8 0.1 0.5 @select_size 2"
 				}
 
 			}
@@ -1856,7 +1856,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 794.0, 579.0, 297.0, 34.0 ],
-					"text" : "jcom.gl.area areas A @context toto @shape circle @position -2. -2. @size 2. 2. @color 0.1 0.5 0.3 0.1"
+					"text" : "j.gl.area areas A @context toto @shape circle @position -2. -2. @size 2. 2. @color 0.1 0.5 0.3 0.1"
 				}
 
 			}
@@ -2036,7 +2036,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 145.0, 433.0, 20.0 ],
-					"text" : "jcom.gl.world @context toto @resolution 200 200 @camera 10. 7.5 50. @grid 0"
+					"text" : "j.gl.world @context toto @resolution 200 200 @camera 10. 7.5 50. @grid 0"
 				}
 
 			}
@@ -2051,7 +2051,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 794.0, 316.0, 325.0, 34.0 ],
-					"text" : "jcom.gl.widget src source.1 @context toto @shape sphere @position -3 3 @color 0.8 0.1 0.1 0.5 @select_size 2"
+					"text" : "j.gl.widget src source.1 @context toto @shape sphere @position -3 3 @color 0.8 0.1 0.1 0.5 @select_size 2"
 				}
 
 			}

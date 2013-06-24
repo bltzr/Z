@@ -1600,7 +1600,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 267.0, 59.0, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}
@@ -1614,7 +1614,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 276.0, 551.0, 49.0, 20.0 ],
-									"text" : "jcom.pi"
+									"text" : "j.pi"
 								}
 
 							}

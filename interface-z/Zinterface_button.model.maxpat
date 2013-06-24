@@ -28,7 +28,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 23.0, 170.0, 160.0, 17.0 ],
-					"text" : "jcom.return #1 @type integer"
+					"text" : "j.return #1 @type integer"
 				}
 
 			}

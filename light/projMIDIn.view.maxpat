@@ -96,7 +96,7 @@
 					"presentation_rect" : [ 1.456543, 18.0, 147.0, 85.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 5,
+					"size" : 10,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -207,7 +207,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1065.0, 44.0, 150.0, 262.0 ],
+						"rect" : [ 914.0, 90.0, 150.0, 265.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -226,7 +226,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"title" : "/projMIDIn(view)",
+						"title" : "/IDIn(view).1",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -325,8 +325,7 @@
 									"presentation_rect" : [ 2.626221, 228.0, 142.0, 28.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"settype" : 0,
-									"size" : 5,
+									"size" : 10,
 									"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -433,7 +432,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-63",
-									"items" : [ "AU DLS Synth 1", ",", "VMidi 1", ",", "VMidi 2", ",", "VMidi 3", ",", "VMidi 4", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "BCF2000 Port 1", ",", "BCF2000 Port 2", ",", "BCF2000 Port 3", ",", "Fireface 400 (655) Port 1", ",", "Fireface 400 (655) Port 2", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2335,6 +2334,7 @@
 									"frgb" : 0.0,
 									"id" : "obj-24",
 									"keymode" : 1,
+									"linecount" : 2,
 									"lines" : 1,
 									"maxclass" : "textedit",
 									"numinlets" : 1,
@@ -2344,7 +2344,7 @@
 									"patching_rect" : [ 17.0, 91.0, 88.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.626221, 19.0, 139.0, 19.0 ],
-									"text" : "32 33 34 35 36"
+									"text" : "48 40 32 24 16 52 44 36 28 20"
 								}
 
 							}
@@ -2796,7 +2796,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/vent.cour"
+					"text" : "/LEDs"
 				}
 
 			}

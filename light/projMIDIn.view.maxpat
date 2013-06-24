@@ -95,7 +95,7 @@
 					"presentation_rect" : [ 1.456543, 18.0, 147.0, 85.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 10,
+					"size" : 7,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -323,8 +323,7 @@
 									"presentation_rect" : [ 2.626221, 228.0, 142.0, 28.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"settype" : 0,
-									"size" : 10,
+									"size" : 7,
 									"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -431,7 +430,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-63",
-									"items" : [ "AU DLS Synth 1", ",", "BCF2000 Port 1", ",", "BCF2000 Port 2", ",", "BCF2000 Port 3", ",", "Fireface 400 (655) Port 1", ",", "Fireface 400 (655) Port 2", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "Fireface 400 (655) Port 1", ",", "Fireface 400 (655) Port 2", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2340,7 +2339,7 @@
 									"patching_rect" : [ 17.0, 91.0, 88.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.626221, 19.0, 139.0, 19.0 ],
-									"text" : "48 40 32 24 16 52 44 36 28 20"
+									"text" : "61 62 63 64 65 66 67"
 								}
 
 							}
@@ -2792,7 +2791,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/LEDs"
+					"text" : "/brumis"
 				}
 
 			}

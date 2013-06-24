@@ -145,13 +145,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-42",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 203.0, 44.0, 151.0, 74.0 ],
-					"text" : "jcom.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"patching_rect" : [ 203.0, 22.0, 151.0, 87.0 ],
+					"text" : "jcom.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max @value/default 0."
 				}
 
 			}
@@ -300,19 +300,6 @@
 					"source" : [ "obj-6", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jcom.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.preset.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

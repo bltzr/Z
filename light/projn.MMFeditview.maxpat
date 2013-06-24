@@ -150,11 +150,10 @@
 					"patching_rect" : [ 105.357086, 307.45752, 100.0, 42.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 337.071472, 294.552094, 85.0 ],
+					"presentation_rect" : [ 1.0, 337.071472, 294.552094, 85.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"settype" : 0,
-					"size" : 7,
+					"size" : 10,
 					"slidercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "multi"
 				}
@@ -172,7 +171,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 319.5, 540.45752, 70.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 300.357178, 294.552094, 36.714287 ],
+					"presentation_rect" : [ 1.0, 300.357178, 294.552094, 36.714287 ],
 					"text" : "holes",
 					"textcolor" : [ 0.0, 0.243137, 0.976471, 1.0 ],
 					"textpos" : [ 90.0, 3.0 ],
@@ -211,7 +210,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 42.357086, 37.0, 338.142914, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, -0.431732, 294.552094, 50.0 ],
+					"presentation_rect" : [ 1.0, -0.431732, 294.552094, 50.0 ],
 					"spacing_y" : 0.0,
 					"tabcolor" : [ 0.45098, 0.423529, 0.423529, 1.0 ],
 					"tabs" : [ "brumis", "LEDs", "vent.jar", "vent.loin", "vent.cour" ],
@@ -303,7 +302,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 319.5, 459.45752, 70.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 257.642883, 294.552094, 36.714287 ],
+					"presentation_rect" : [ 1.0, 257.642883, 294.552094, 36.714287 ],
 					"text" : "hardness",
 					"textcolor" : [ 0.0, 0.243137, 0.976471, 1.0 ],
 					"textpos" : [ 90.0, 3.0 ],
@@ -382,7 +381,7 @@
 					"patching_rect" : [ 311.5, 142.45752, 95.0, 33.0 ],
 					"prefix" : "symbol",
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 52.568268, 294.552094, 33.0 ],
+					"presentation_rect" : [ 1.0, 52.568268, 294.552094, 33.0 ],
 					"textcolor" : [ 0.866667, 0.905882, 0.964706, 1.0 ],
 					"textcolor2" : [ 0.866667, 0.905882, 0.964706, 1.0 ],
 					"togcolor" : [ 0.831373, 0.05098, 0.031373, 1.0 ],
@@ -2068,7 +2067,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 316.5, 375.45752, 114.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 105.109436, 210.753723, 103.611046, 26.0 ],
+					"presentation_rect" : [ 103.109436, 210.753723, 103.611046, 26.0 ],
 					"text" : "pause time",
 					"textcolor" : [ 0.070588, 0.113725, 1.0, 1.0 ]
 				}
@@ -2085,7 +2084,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 330.0, 285.45752, 57.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.387604, 156.072845, 47.300694, 26.0 ],
+					"presentation_rect" : [ 129.387604, 156.072845, 47.300694, 26.0 ],
 					"text" : "time",
 					"textcolor" : [ 0.070588, 0.113725, 1.0, 1.0 ]
 				}
@@ -2102,7 +2101,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 318.5, 395.45752, 78.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 202.942139, 294.552094, 46.932926 ],
+					"presentation_rect" : [ 1.0, 202.942139, 294.552094, 46.932926 ],
 					"size" : 2000.0,
 					"varname" : "Palvtt2"
 				}
@@ -2119,7 +2118,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 319.5, 323.45752, 78.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 148.261261, 294.552094, 46.869301 ],
+					"presentation_rect" : [ 1.0, 148.261261, 294.552094, 46.869301 ],
 					"size" : 2000.0,
 					"varname" : "Palvtt"
 				}
@@ -2136,7 +2135,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 330.0, 222.45752, 82.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.873123, 101.391998, 72.07724, 26.0 ],
+					"presentation_rect" : [ 115.873123, 101.391998, 72.07724, 26.0 ],
 					"text" : "volume",
 					"textcolor" : [ 0.070588, 0.113725, 1.0, 1.0 ]
 				}
@@ -2153,7 +2152,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 318.5, 248.45752, 78.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 92.018097, 294.552094, 48.43161 ],
+					"presentation_rect" : [ 1.0, 92.018097, 294.552094, 48.43161 ],
 					"size" : 1000.0,
 					"varname" : "Palvvv"
 				}

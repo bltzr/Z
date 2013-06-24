@@ -66,9 +66,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 465.5, 213.0, 550.5, 19.0 ],
-					"text" : "jcom.parameter display/length @type decimal @priority 12 @repetitions/allow 0 @value/default 0",
-					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
+					"patching_rect" : [ 465.5, 213.0, 451.5, 19.0 ],
+					"text" : "jcom.message display/length @type decimal @priority 12 @repetitions/allow 0"
 				}
 
 			}
@@ -81,9 +80,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 453.0, 181.0, 507.0, 19.0 ],
-					"text" : "jcom.parameter display/start @type decimal @priority 13 @repetitions/allow 0 @value/default 0",
-					"textcolor" : [ 0.95, 0.95, 0.95, 1.0 ]
+					"patching_rect" : [ 453.0, 181.0, 408.0, 19.0 ],
+					"text" : "jcom.message display/start @type decimal @priority 13 @repetitions/allow 0"
 				}
 
 			}
@@ -5225,7 +5223,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 465.0, 195.0, 50.0, 27.0 ],
+													"patching_rect" : [ 465.0, 195.0, 50.0, 16.0 ],
 													"text" : "0"
 												}
 

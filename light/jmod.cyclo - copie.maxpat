@@ -35,7 +35,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -49,7 +49,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -64,7 +64,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -79,7 +79,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -900,7 +900,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 248.0, 520.0, 179.0, 48.0 ],
-					"text" : "jcom.parameter startChannel @type integer @range/bounds 0 512 @range/clipmode both"
+					"text" : "j.parameter startChannel @type integer @range/bounds 0 512 @range/clipmode both"
 				}
 
 			}
@@ -968,7 +968,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 692.0, 339.0, 128.0, 89.0 ],
-					"text" : "jcom.parameter panY @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panY @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -984,7 +984,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 377.0, 341.0, 128.0, 89.0 ],
-					"text" : "jcom.parameter panX @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panX @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1000,7 +1000,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 515.0, 334.0, 160.0, 75.0 ],
-					"text" : "jcom.parameter panSpread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panSpread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1379,7 +1379,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 21.0, 64.0, 106.0, 29.0 ],
-									"text" : "jcom.map @function power"
+									"text" : "j.map @function power"
 								}
 
 							}
@@ -1473,7 +1473,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 140.0, 326.0, 151.0, 75.0 ],
-					"text" : "jcom.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1489,7 +1489,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 456.0, 244.0, 161.0, 75.0 ],
-					"text" : "jcom.parameter heatSpread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter heatSpread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1505,7 +1505,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 291.0, 201.0, 133.0, 75.0 ],
-					"text" : "jcom.parameter heat @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter heat @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -2369,15 +2369,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 21.0, 129.0, 139.0, 20.0 ],
-					"text" : "jcom.model @type light",
-					"varname" : "_jcom_node"
+					"text" : "j.model @type light",
+					"varname" : "_j_node"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-19",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

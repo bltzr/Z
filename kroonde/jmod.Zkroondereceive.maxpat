@@ -74,7 +74,7 @@
 					"patching_rect" : [ 20.0, 40.0, 120.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 30.0, 120.0, 17.0 ],
-					"text" : "jcom.oscroute /kroonde"
+					"text" : "j.oscroute /kroonde"
 				}
 
 			}

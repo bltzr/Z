@@ -25,7 +25,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 300.0, 217.0, 17.0 ],
-					"text" : "jcom.parameter trigger/thresvalues @type array"
+					"text" : "j.parameter trigger/thresvalues @type array"
 				}
 
 			}
@@ -39,7 +39,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 562.0, 240.0, 190.0, 17.0 ],
-					"text" : "jcom.parameter threshold @type decimal"
+					"text" : "j.parameter threshold @type decimal"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 98.0, 234.0, 45.0, 18.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -107,8 +107,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 166.0, 332.0, 17.0 ],
-					"text" : "jcom.model @module_type control @description dd",
-					"varname" : "jcom.model"
+					"text" : "j.model @module_type control @description dd",
+					"varname" : "j.model"
 				}
 
 			}
@@ -185,7 +185,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 96.0, 256.0, 336.0, 17.0 ],
-					"text" : "jcom.oscroute /ctrl/nbr /threshold /trigger/thresvalues"
+					"text" : "j.oscroute /ctrl/nbr /threshold /trigger/thresvalues"
 				}
 
 			}
@@ -199,7 +199,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 226.0, 566.0, 107.0, 17.0 ],
-					"text" : "jcom.return trigger/down"
+					"text" : "j.return trigger/down"
 				}
 
 			}
@@ -213,7 +213,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 100.0, 566.0, 96.0, 17.0 ],
-					"text" : "jcom.return trigger/up"
+					"text" : "j.return trigger/up"
 				}
 
 			}
@@ -227,7 +227,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 168.0, 440.0, 190.0, 17.0 ],
-					"text" : "jcom.return sensor @type decimal"
+					"text" : "j.return sensor @type decimal"
 				}
 
 			}
@@ -241,7 +241,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 560.0, 170.0, 190.0, 17.0 ],
-					"text" : "jcom.parameter ctrl/nbr @type integer"
+					"text" : "j.parameter ctrl/nbr @type integer"
 				}
 
 			}
@@ -842,7 +842,7 @@
 				"box" : 				{
 					"fontsize" : 9.0,
 					"id" : "obj-51",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

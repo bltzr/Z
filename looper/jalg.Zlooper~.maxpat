@@ -527,7 +527,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /env",
+									"text" : "j.oscroute /env",
 									"id" : "obj-21",
 									"fontname" : "Arial",
 									"numinlets" : 1,
@@ -1989,7 +1989,7 @@
 , 															{
 																"box" : 																{
 																	"maxclass" : "newobj",
-																	"text" : "jcom.oscroute /display/start /display/length /selection/start /selection/end /direction /triggermode",
+																	"text" : "j.oscroute /display/start /display/length /selection/start /selection/end /direction /triggermode",
 																	"id" : "obj-30",
 																	"fontname" : "Arial",
 																	"numinlets" : 1,
@@ -2320,7 +2320,7 @@
 , 											{
 												"box" : 												{
 													"maxclass" : "newobj",
-													"text" : "jcom.oscroute /sound/buffer /record",
+													"text" : "j.oscroute /sound/buffer /record",
 													"id" : "obj-13",
 													"fontname" : "Arial",
 													"numinlets" : 1,
@@ -2334,7 +2334,7 @@
 , 											{
 												"box" : 												{
 													"maxclass" : "newobj",
-													"text" : "jcom.oscroute /active /input",
+													"text" : "j.oscroute /active /input",
 													"id" : "obj-15",
 													"fontname" : "Arial",
 													"numinlets" : 1,
@@ -2458,7 +2458,7 @@
 , 											{
 												"box" : 												{
 													"maxclass" : "newobj",
-													"text" : "jcom.oscroute /normalize",
+													"text" : "j.oscroute /normalize",
 													"id" : "obj-25",
 													"fontname" : "Arial",
 													"numinlets" : 1,
@@ -3278,7 +3278,7 @@
 , 											{
 												"box" : 												{
 													"maxclass" : "newobj",
-													"text" : "jcom.oscroute /loopmode /direction /play /pitch",
+													"text" : "j.oscroute /loopmode /direction /play /pitch",
 													"id" : "obj-2",
 													"fontname" : "Arial",
 													"numinlets" : 1,

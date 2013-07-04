@@ -405,7 +405,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /inputnumber /inputname /audio/gain /enveloppe/attack /enveloppe/release",
+					"text" : "j.oscroute /inputnumber /inputname /audio/gain /enveloppe/attack /enveloppe/release",
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"fontname" : "Arial",

@@ -127,7 +127,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "wait_time[5]",
-					"text" : "jcom.parameter subdivision @repetitions/allow 1 @type integer @description \"tap subdivision\"",
+					"text" : "j.parameter subdivision @repetitions/allow 1 @type integer @description \"tap subdivision\"",
 					"linecount" : 2,
 					"numoutlets" : 3,
 					"fontsize" : 9.873845,
@@ -174,7 +174,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "wait_time[4]",
-					"text" : "jcom.return bpm @type decimal @description \"BPM calculated from input\"",
+					"text" : "j.return bpm @type decimal @description \"BPM calculated from input\"",
 					"numoutlets" : 2,
 					"fontsize" : 9.873845,
 					"outlettype" : [ "", "" ],
@@ -189,7 +189,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "wait_time[2]",
-					"text" : "jcom.message trigger @repetitions/allow 1 @description trigger",
+					"text" : "j.message trigger @repetitions/allow 1 @description trigger",
 					"numoutlets" : 3,
 					"fontsize" : 9.873845,
 					"outlettype" : [ "", "", "" ],
@@ -204,7 +204,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "wait_time[1]",
-					"text" : "jcom.oscroute /trigger /subdivision",
+					"text" : "j.oscroute /trigger /subdivision",
 					"numoutlets" : 3,
 					"fontsize" : 9.873845,
 					"outlettype" : [ "", "", "" ],
@@ -233,7 +233,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.in",
+					"text" : "j.in",
 					"numoutlets" : 2,
 					"fontsize" : 9.873845,
 					"outlettype" : [ "", "" ],
@@ -261,8 +261,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.model",
-					"text" : "jcom.model @module_type control @description \"Triggering the Zlooper~ in a cycle mode\"",
+					"varname" : "j.model",
+					"text" : "j.model @module_type control @description \"Triggering the Zlooper~ in a cycle mode\"",
 					"numoutlets" : 2,
 					"fontsize" : 9.873845,
 					"outlettype" : [ "", "" ],
@@ -298,7 +298,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"text" : "/editing_this_module",
 					"has_freeze" : 1,
 					"numoutlets" : 1,

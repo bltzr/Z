@@ -43,7 +43,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 355.0, 43.000008, 115.0, 19.0 ],
-					"text" : "jcom.oscroute /view"
+					"text" : "j.oscroute /view"
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 491.0, 14.0, 162.0, 20.0 ],
-					"text" : "jcom.oscroute /sound"
+					"text" : "j.oscroute /sound"
 				}
 
 			}
@@ -123,7 +123,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 94.0, 112.0, 303.0, 20.0 ],
-									"text" : "jcom.oscroute /audio/mute /audio/gain"
+									"text" : "j.oscroute /audio/mute /audio/gain"
 								}
 
 							}
@@ -228,7 +228,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 48.0, 498.0, 394.0, 27.0 ],
-					"text" : "jcom.parameter direction @type integer @repetitions/allow 0 @description \"Select the way the file should be played (forward or backward).\" @priority 27",
+					"text" : "j.parameter direction @type integer @repetitions/allow 0 @description \"Select the way the file should be played (forward or backward).\" @priority 27",
 					"varname" : "direction"
 				}
 
@@ -244,7 +244,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 140.0, 661.0, 381.0, 17.0 ],
-					"text" : "jcom.parameter record/input @type array @description \"Select the input to record.\"",
+					"text" : "j.parameter record/input @type array @description \"Select the input to record.\"",
 					"varname" : "jmod.parameter.mxb[16]"
 				}
 
@@ -299,7 +299,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 80.0, 545.0, 401.0, 27.0 ],
-					"text" : "jcom.parameter pitch @type decimal @range/bounds 0.01 20. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 8",
+					"text" : "j.parameter pitch @type decimal @range/bounds 0.01 20. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 8",
 					"varname" : "pitch"
 				}
 
@@ -316,7 +316,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 672.0, 678.0, 412.0, 27.0 ],
-					"text" : "jcom.parameter selection/start @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 0 @description \"Start of the selected region\" @priority 6",
+					"text" : "j.parameter selection/start @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 0 @description \"Start of the selected region\" @priority 6",
 					"varname" : "selstart"
 				}
 
@@ -331,7 +331,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 356.0, 13.0, 100.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -347,7 +347,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 698.0, 711.0, 390.0, 27.0 ],
-					"text" : "jcom.parameter selection/end @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 0 @description \"size of the selected region\" @priority 7",
+					"text" : "j.parameter selection/end @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 0 @description \"size of the selected region\" @priority 7",
 					"varname" : "selend"
 				}
 
@@ -523,7 +523,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 55.0, 730.0, 385.0, 17.0 ],
-					"text" : "jcom.parameter record/active @type integer @description \"Start and stop to record.\"",
+					"text" : "j.parameter record/active @type integer @description \"Start and stop to record.\"",
 					"varname" : "jmod.parameter.mxb[17]"
 				}
 
@@ -934,7 +934,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 799.0, 512.0, 200.0, 27.0 ],
-					"text" : "jcom.message selection/all @type none @description \"select of the entire buffer\"",
+					"text" : "j.message selection/all @type none @description \"select of the entire buffer\"",
 					"varname" : "selstart[1]"
 				}
 
@@ -965,7 +965,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 680.0, 50.0, 271.0, 17.0 ],
-					"text" : "jcom.parameter buffername @type array @priority 20",
+					"text" : "j.parameter buffername @type array @priority 20",
 					"varname" : "sample/buffername"
 				}
 
@@ -981,7 +981,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 25.0, 295.0, 444.0, 28.0 ],
-					"text" : "jcom.message changeitem @type string @repetitions/allow 1 @description \"message to trigger change item from buffer menu : random, next or prev\"",
+					"text" : "j.message changeitem @type string @repetitions/allow 1 @description \"message to trigger change item from buffer menu : random, next or prev\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -1359,7 +1359,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 148.0, 278.0, 94.0, 17.0 ],
-									"text" : "jcom.random 0 1"
+									"text" : "j.random 0 1"
 								}
 
 							}
@@ -2130,7 +2130,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 654.0, 361.0, 218.0, 34.0 ],
-					"text" : "jcom.parameter env @type array @description \"Enveloppe shape\"",
+					"text" : "j.parameter env @type array @description \"Enveloppe shape\"",
 					"varname" : "loop[1]"
 				}
 
@@ -2160,7 +2160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 42.0, 425.0, 320.0, 27.0 ],
-					"text" : "jcom.parameter play @type integer @repetitions/allow 1 @description \"Play current sound.\" @priority 10",
+					"text" : "j.parameter play @type integer @repetitions/allow 1 @description \"Play current sound.\" @priority 10",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -2177,7 +2177,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1047.0, 285.0, 286.0, 27.0 ],
-					"text" : "jcom.parameter sound/buffer @type string @priority 3 @description \"name of the chosen buffer\"",
+					"text" : "j.parameter sound/buffer @type string @priority 3 @description \"name of the chosen buffer\"",
 					"varname" : "sample/buffername[2]"
 				}
 
@@ -2194,7 +2194,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 870.0, 215.0, 310.0, 27.0 ],
-					"text" : "jcom.parameter sound/folder @type string @priority 2 @description \"name of the chosen folder\"",
+					"text" : "j.parameter sound/folder @type string @priority 2 @description \"name of the chosen folder\"",
 					"varname" : "sample/buffername[1]"
 				}
 
@@ -2813,7 +2813,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 18.0, 52.0, 300.0, 17.0 ],
-									"text" : "jcom.oscroute /folder /buffer /bufferpool"
+									"text" : "j.oscroute /folder /buffer /bufferpool"
 								}
 
 							}
@@ -4503,7 +4503,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 129.0, 55.0, 307.0, 17.0 ],
-									"text" : "jcom.parameter sound/bufferpool @type array @priority 1",
+									"text" : "j.parameter sound/bufferpool @type array @priority 1",
 									"varname" : "sample/buffername[3]"
 								}
 
@@ -5854,7 +5854,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 616.0, 612.0, 405.0, 27.0 ],
-					"text" : "jcom.parameter display/start @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/allow 0 @description \"Start of the diplayed region (ms)\" @priority 4",
+					"text" : "j.parameter display/start @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/allow 0 @description \"Start of the diplayed region (ms)\" @priority 4",
 					"varname" : "dispstart"
 				}
 
@@ -5871,7 +5871,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 642.0, 646.0, 403.0, 27.0 ],
-					"text" : "jcom.parameter display/length @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/allow 0 @description \"End of the diplayed region (ms)\" @priority 5",
+					"text" : "j.parameter display/length @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/allow 0 @description \"End of the diplayed region (ms)\" @priority 5",
 					"varname" : "dispend"
 				}
 
@@ -5903,7 +5903,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -6184,7 +6184,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 25.0, 230.0, 419.0, 20.0 ],
-					"text" : "jcom.model @module_type audio @description \"Mono loop RAM audio player.\"",
+					"text" : "j.model @module_type audio @description \"Mono loop RAM audio player.\"",
 					"varname" : "jmod.hub"
 				}
 
@@ -6227,7 +6227,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 80.0, 585.0, 380.0, 27.0 ],
-					"text" : "jcom.parameter loopmode @type integer @repetitions/allow 0 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 9",
+					"text" : "j.parameter loopmode @type integer @repetitions/allow 0 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 9",
 					"varname" : "loop"
 				}
 
@@ -6286,7 +6286,7 @@
 					"has_panel" : 1,
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-142",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

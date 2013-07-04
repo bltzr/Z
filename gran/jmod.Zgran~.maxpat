@@ -29,7 +29,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 282.0, 471.0, 183.0, 20.0 ],
-					"text" : "jcom.oscroute /sound/enveloppe"
+					"text" : "j.oscroute /sound/enveloppe"
 				}
 
 			}
@@ -57,7 +57,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 368.000031, 115.0, 19.0 ],
-					"text" : "jcom.oscroute /view"
+					"text" : "j.oscroute /view"
 				}
 
 			}
@@ -392,7 +392,7 @@
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
 					"fontsize" : 7.0,
 					"id" : "obj-103",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -430,7 +430,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 595.0, 650.0, 232.0, 27.0 ],
-					"text" : "jcom.parameter record/input @type array @description \"Select the input to record.\"",
+					"text" : "j.parameter record/input @type array @description \"Select the input to record.\"",
 					"varname" : "jmod.parameter.mxb[16]"
 				}
 
@@ -483,7 +483,7 @@
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
 					"fontsize" : 7.0,
 					"id" : "obj-118",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -566,7 +566,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 609.0, 211.0, 154.0, 27.0 ],
-					"text" : "jcom.parameter sound/enveloppe @type string @priority 31",
+					"text" : "j.parameter sound/enveloppe @type string @priority 31",
 					"varname" : "sample/buffername[3]"
 				}
 
@@ -581,7 +581,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 135.0, 558.0, 133.0, 19.0 ],
-					"text" : "jcom.message play"
+					"text" : "j.message play"
 				}
 
 			}
@@ -632,7 +632,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 713.0, 385.0, 17.0 ],
-					"text" : "jcom.parameter record/active @type integer @description \"Start and stop to record.\"",
+					"text" : "j.parameter record/active @type integer @description \"Start and stop to record.\"",
 					"varname" : "jmod.parameter.mxb[17]"
 				}
 
@@ -728,7 +728,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 145.0, 663.0, 279.0, 38.0 ],
-					"text" : "jcom.parameter density @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
+					"text" : "j.parameter density @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
 					"varname" : "dispstart[1]"
 				}
 
@@ -743,7 +743,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 275.0, 420.0, 242.0, 19.0 ],
-					"text" : "jcom.parameter currentBuffer @type array"
+					"text" : "j.parameter currentBuffer @type array"
 				}
 
 			}
@@ -767,7 +767,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 491.0, 520.0, 136.0, 19.0 ],
-					"text" : "jcom.parameter delay/jit"
+					"text" : "j.parameter delay/jit"
 				}
 
 			}
@@ -782,7 +782,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 357.0, 159.0, 304.0, 28.0 ],
-					"text" : "jcom.message sound/random @repetitions/allow 1 @description \"message to trigger menu change\"",
+					"text" : "j.message sound/random @repetitions/allow 1 @description \"message to trigger menu change\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -819,7 +819,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.698039 ],
 					"fontsize" : 7.0,
 					"id" : "obj-3",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -841,8 +841,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 278.0, 354.0, 19.0 ],
-					"text" : "jcom.model @module_type audio @description \"bufgranul~ mono\"",
-					"varname" : "jcom.model"
+					"text" : "j.model @module_type audio @description \"bufgranul~ mono\"",
+					"varname" : "j.model"
 				}
 
 			}
@@ -961,7 +961,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 144.0, 192.0, 94.0, 17.0 ],
-									"text" : "jcom.random 0 1"
+									"text" : "j.random 0 1"
 								}
 
 							}
@@ -1345,7 +1345,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 599.0, 105.0, 286.0, 17.0 ],
-					"text" : "jcom.parameter sound/buffer @type array @priority 3",
+					"text" : "j.parameter sound/buffer @type array @priority 3",
 					"varname" : "sample/buffername[2]"
 				}
 
@@ -1358,7 +1358,7 @@
 					"has_mute" : 1,
 					"has_panel" : 1,
 					"id" : "obj-37",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1416,7 +1416,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 135.0, 618.0, 254.0, 38.0 ],
-					"text" : "jcom.parameter continuous @type integer @repetitions/allow 1 @description \"One shot/ continuous play mode.\" @priority 28",
+					"text" : "j.parameter continuous @type integer @repetitions/allow 1 @description \"One shot/ continuous play mode.\" @priority 28",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -1439,7 +1439,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 687.0, 311.0, 167.0, 19.0 ],
-					"text" : "jcom.parameter position"
+					"text" : "j.parameter position"
 				}
 
 			}
@@ -1473,7 +1473,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 479.0, 487.0, 148.0, 19.0 ],
-					"text" : "jcom.parameter position/jit"
+					"text" : "j.parameter position/jit"
 				}
 
 			}
@@ -1487,7 +1487,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 310.0, 390.0, 232.0, 19.0 ],
-					"text" : "jcom.parameter buffersize @type decimal"
+					"text" : "j.parameter buffersize @type decimal"
 				}
 
 			}
@@ -1501,14 +1501,14 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 480.0, 121.0, 19.0 ],
-					"text" : "jcom.meter_receive 1"
+					"text" : "j.meter_receive 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-54",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -2003,7 +2003,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 25.0, 50.0, 206.0, 17.0 ],
-									"text" : "jcom.oscroute /voices /density /continuous"
+									"text" : "j.oscroute /voices /density /continuous"
 								}
 
 							}
@@ -2186,7 +2186,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 40.0, 65.0, 111.0, 17.0 ],
-													"text" : "jcom.oscroute /jit /jit:"
+													"text" : "j.oscroute /jit /jit:"
 												}
 
 											}
@@ -2266,7 +2266,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 65.0, 150.0, 100.0, 17.0 ],
-													"text" : "jcom.random 0. 0.1"
+													"text" : "j.random 0. 0.1"
 												}
 
 											}
@@ -2677,7 +2677,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 90.0, 72.0, 105.0, 28.0 ],
-													"text" : "jcom.oscroute /jit /jit:"
+													"text" : "j.oscroute /jit /jit:"
 												}
 
 											}
@@ -3069,7 +3069,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 90.0, 72.0, 110.0, 17.0 ],
-													"text" : "jcom.oscroute /jit /jit:"
+													"text" : "j.oscroute /jit /jit:"
 												}
 
 											}
@@ -3134,7 +3134,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 90.0, 235.0, 75.0, 28.0 ],
-													"text" : "jcom.random 0"
+													"text" : "j.random 0"
 												}
 
 											}
@@ -3449,7 +3449,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 90.0, 233.0, 95.0, 17.0 ],
-													"text" : "jcom.random 0. 0."
+													"text" : "j.random 0. 0."
 												}
 
 											}
@@ -3489,7 +3489,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 90.0, 72.0, 154.0, 17.0 ],
-													"text" : "jcom.oscroute /jit /jit:"
+													"text" : "j.oscroute /jit /jit:"
 												}
 
 											}
@@ -3803,7 +3803,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 62.0, 227.0, 95.0, 17.0 ],
-													"text" : "jcom.random 0. 0."
+													"text" : "j.random 0. 0."
 												}
 
 											}
@@ -3857,7 +3857,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 90.0, 72.0, 154.0, 17.0 ],
-													"text" : "jcom.oscroute /jit /jit:"
+													"text" : "j.oscroute /jit /jit:"
 												}
 
 											}
@@ -4115,7 +4115,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 92.0, 207.0, 95.0, 17.0 ],
-													"text" : "jcom.random 0. 0."
+													"text" : "j.random 0. 0."
 												}
 
 											}
@@ -4197,7 +4197,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 90.0, 72.0, 154.0, 17.0 ],
-													"text" : "jcom.oscroute /jit /jit:"
+													"text" : "j.oscroute /jit /jit:"
 												}
 
 											}
@@ -4556,7 +4556,7 @@
 									"numoutlets" : 11,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 210.0, 70.0, 774.0, 17.0 ],
-									"text" : "jcom.oscroute /play /delay /position /pitch /amp /length /pan /dist /buffer /envbuffer"
+									"text" : "j.oscroute /play /delay /position /pitch /amp /length /pan /dist /buffer /envbuffer"
 								}
 
 							}
@@ -5319,7 +5319,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 159.0, 586.0, 136.0, 19.0 ],
-					"text" : "jcom.parameter detune"
+					"text" : "j.parameter detune"
 				}
 
 			}
@@ -5347,7 +5347,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 165.0, 316.0, 61.0, 19.0 ],
-					"text" : "jcom.in~"
+					"text" : "j.in~"
 				}
 
 			}
@@ -5717,7 +5717,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 497.0, 43.0, 293.0, 17.0 ],
-					"text" : "jcom.parameter sound/folder @type array @priority 2",
+					"text" : "j.parameter sound/folder @type array @priority 2",
 					"varname" : "sample/buffername[1]"
 				}
 
@@ -5732,7 +5732,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 164.0, 390.0, 80.0, 19.0 ],
-					"text" : "jcom.out~ 1"
+					"text" : "j.out~ 1"
 				}
 
 			}
@@ -5788,7 +5788,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 484.0, 550.0, 146.0, 19.0 ],
-					"text" : "jcom.parameter length/jit"
+					"text" : "j.parameter length/jit"
 				}
 
 			}
@@ -5802,7 +5802,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 574.0, 390.0, 255.0, 19.0 ],
-					"text" : "jcom.parameter length @type integer"
+					"text" : "j.parameter length @type integer"
 				}
 
 			}
@@ -6164,7 +6164,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 137.0, 208.0, 136.0, 19.0 ],
-									"text" : "jcom.parameter voices"
+									"text" : "j.parameter voices"
 								}
 
 							}
@@ -6240,7 +6240,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 173.0, 166.0, 136.0, 19.0 ],
-									"text" : "jcom.parameter delay"
+									"text" : "j.parameter delay"
 								}
 
 							}
@@ -6256,7 +6256,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 190.0, 40.0, 258.0, 17.0 ],
-									"text" : "jcom.parameter sound/bufferpool @type array @priority 1",
+									"text" : "j.parameter sound/bufferpool @type array @priority 1",
 									"varname" : "sample/buffername[3]"
 								}
 
@@ -6322,7 +6322,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 140.0, 355.0, 280.0, 38.0 ],
-									"text" : "jcom.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"jitterr around grain density\" @priority 24",
+									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"jitterr around grain density\" @priority 24",
 									"varname" : "dispstart[2]"
 								}
 
@@ -6406,7 +6406,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 160.0, 270.0, 144.0, 19.0 ],
-									"text" : "jcom.parameter detune/jit"
+									"text" : "j.parameter detune/jit"
 								}
 
 							}
@@ -6467,7 +6467,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 160.0, 320.0, 230.0, 19.0 ],
-									"text" : "jcom.parameter amp/jit @type decimal"
+									"text" : "j.parameter amp/jit @type decimal"
 								}
 
 							}
@@ -6515,7 +6515,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 159.0, 300.0, 205.0, 19.0 ],
-									"text" : "jcom.parameter amp @type decimal"
+									"text" : "j.parameter amp @type decimal"
 								}
 
 							}
@@ -6887,7 +6887,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 297.0, 77.0, 183.0, 19.0 ],
-									"text" : "jcom.oscroute /active /input"
+									"text" : "j.oscroute /active /input"
 								}
 
 							}
@@ -6915,7 +6915,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 15.0, 75.0, 195.0, 17.0 ],
-									"text" : "jcom.oscroute /folder /buffer /bufferpool"
+									"text" : "j.oscroute /folder /buffer /bufferpool"
 								}
 
 							}
@@ -8561,7 +8561,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 40.0, 579.0, 20.0 ],
-									"text" : "jcom.oscroute /sound /record"
+									"text" : "j.oscroute /sound /record"
 								}
 
 							}

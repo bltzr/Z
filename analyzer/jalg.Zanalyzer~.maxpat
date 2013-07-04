@@ -279,7 +279,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /hopesize",
+					"text" : "j.oscroute /hopesize",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 2,
@@ -335,7 +335,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /threshold/low /threshold/hight /reattack/period /reattack/dynamic /vibrato/period /vibrato/interval /npartial",
+					"text" : "j.oscroute /threshold/low /threshold/hight /reattack/period /reattack/dynamic /vibrato/period /vibrato/interval /npartial",
 					"numinlets" : 1,
 					"fontsize" : 12.0,
 					"numoutlets" : 8,

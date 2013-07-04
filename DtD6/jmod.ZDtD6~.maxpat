@@ -29,7 +29,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 606.0, 494.0, 100.0, 34.0 ],
-					"text" : "jcom.send #1/play"
+					"text" : "j.send #1/play"
 				}
 
 			}
@@ -43,14 +43,14 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 437.0, 652.0, 437.5, 20.0 ],
-					"text" : "jcom.multi.in~"
+					"text" : "j.multi.in~"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-53",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -63,7 +63,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -76,7 +76,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -89,7 +89,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -110,7 +110,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 136.0, 696.0, 169.0, 79.0 ],
-					"text" : "jcom.parameter balance/range @type decimal @range/bounds 0 1 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
+					"text" : "j.parameter balance/range @type decimal @range/bounds 0 1 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
 				}
 
 			}
@@ -365,7 +365,7 @@
 				"box" : 				{
 					"fontsize" : 9.0,
 					"id" : "obj-37",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -389,7 +389,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 780.0, 616.0, 330.0, 27.0 ],
-					"text" : "jcom.parameter pause @type boolean @repetitions/allow 1 @description \"Play current sound.\" @priority 36",
+					"text" : "j.parameter pause @type boolean @repetitions/allow 1 @description \"Play current sound.\" @priority 36",
 					"varname" : "jmod.parameter.mxb[1]"
 				}
 
@@ -431,8 +431,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 518.0, 119.0, 579.0, 28.0 ],
-					"text" : "jcom.message type @type string @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
-					"varname" : "jcom.parameter.mxb[1]"
+					"text" : "j.message type @type string @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"varname" : "j.parameter.mxb[1]"
 				}
 
 			}
@@ -468,7 +468,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 564.0, 278.0, 401.0, 38.0 ],
-					"text" : "jcom.parameter pitch @type decimal @range/bounds 0. 20. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 35",
+					"text" : "j.parameter pitch @type decimal @range/bounds 0. 20. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 35",
 					"varname" : "pitch"
 				}
 
@@ -484,8 +484,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 237.0, 430.0, 461.0, 31.0 ],
-					"text" : "jcom.parameter selectedfile @type string @repetitions/allow 0 @description \"path of the soundfile played \" @priority 11",
-					"varname" : "jcom.parameter.mxb[3]"
+					"text" : "j.parameter selectedfile @type string @repetitions/allow 0 @description \"path of the soundfile played \" @priority 11",
+					"varname" : "j.parameter.mxb[3]"
 				}
 
 			}
@@ -531,7 +531,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 120.0, 285.0, 49.0, 20.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -783,7 +783,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 56.0, 229.0, 324.0, 20.0 ],
-									"text" : "jcom.oscroute /type /path /mainfolder"
+									"text" : "j.oscroute /type /path /mainfolder"
 								}
 
 							}
@@ -987,8 +987,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 24.0, 214.0, 440.0, 19.0 ],
-					"text" : "jcom.model @module_type audio @description \"2 channel DtD Z module\"",
-					"varname" : "jcom.model"
+					"text" : "j.model @module_type audio @description \"2 channel DtD Z module\"",
+					"varname" : "j.model"
 				}
 
 			}
@@ -1002,14 +1002,14 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 120.0, 313.0, 274.0, 20.0 ],
-					"text" : "jcom.oscroute /audio/mute"
+					"text" : "j.oscroute /audio/mute"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1022,7 +1022,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1119,7 +1119,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 564.0, 238.0, 335.0, 27.0 ],
-					"text" : "jcom.parameter play @type boolean @repetitions/allow 1 @description \"Play current sound.\" @priority 36",
+					"text" : "j.parameter play @type boolean @repetitions/allow 1 @description \"Play current sound.\" @priority 36",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -1135,7 +1135,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 13.0, 587.0, 145.0, 104.0 ],
-					"text" : "jcom.parameter balance/angle @type decimal @range/bounds -180 180 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
+					"text" : "j.parameter balance/angle @type decimal @range/bounds -180 180 @range/clipmode both @ramp/drive scheduler @description \"Balance of the stereo signal\""
 				}
 
 			}
@@ -1227,7 +1227,7 @@
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 479.0, 472.0, 147.0, 19.0 ],
 					"text" : "t l 0",
-					"varname" : "jcom.parameter.mxb[6]"
+					"varname" : "j.parameter.mxb[6]"
 				}
 
 			}
@@ -1242,8 +1242,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 385.0, 182.0, 613.0, 28.0 ],
-					"text" : "jcom.message path @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing the sound files \"",
-					"varname" : "jcom.parameter.mxb[10]"
+					"text" : "j.message path @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing the sound files \"",
+					"varname" : "j.parameter.mxb[10]"
 				}
 
 			}
@@ -1258,7 +1258,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 479.0, 494.0, 107.0, 19.0 ],
 					"text" : "prepend symbol",
-					"varname" : "jcom.parameter.mxb[5]"
+					"varname" : "j.parameter.mxb[5]"
 				}
 
 			}
@@ -1298,8 +1298,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 146.0, 540.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter mainfolder @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 10",
-					"varname" : "jcom.parameter.mxb[2]"
+					"text" : "j.parameter mainfolder @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 10",
+					"varname" : "j.parameter.mxb[2]"
 				}
 
 			}
@@ -1332,7 +1332,7 @@
 					"has_gain" : 1,
 					"has_mute" : 1,
 					"id" : "obj-78",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -1440,7 +1440,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 564.0, 380.0, 380.0, 27.0 ],
-					"text" : "jcom.parameter loopmode @type boolean @repetitions/allow 0 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 34",
+					"text" : "j.parameter loopmode @type boolean @repetitions/allow 0 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 34",
 					"varname" : "loop"
 				}
 

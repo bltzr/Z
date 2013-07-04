@@ -363,7 +363,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.dataspace @dataspace gain @input db @output linear",
+									"text" : "j.dataspace @dataspace gain @input db @output linear",
 									"id" : "obj-25",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -881,7 +881,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /IR/open /IR/mute /IR/buffer /IR/gain /IR/reverse",
+					"text" : "j.oscroute /IR/open /IR/mute /IR/buffer /IR/gain /IR/reverse",
 					"id" : "obj-54",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -895,7 +895,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscinstance",
+					"text" : "j.oscinstance",
 					"id" : "obj-11",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -2352,7 +2352,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.thru",
+									"text" : "j.thru",
 									"id" : "obj-4",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3383,7 +3383,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[3]",
-									"text" : "jcom.message IR.4/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
+									"text" : "j.message IR.4/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
 									"linecount" : 2,
 									"id" : "obj-20",
 									"fontname" : "Verdana",
@@ -3399,7 +3399,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[2]",
-									"text" : "jcom.message IR.3/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
+									"text" : "j.message IR.3/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
 									"linecount" : 2,
 									"id" : "obj-19",
 									"fontname" : "Verdana",
@@ -3415,7 +3415,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[1]",
-									"text" : "jcom.message IR.2/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
+									"text" : "j.message IR.2/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
 									"linecount" : 2,
 									"id" : "obj-15",
 									"fontname" : "Verdana",
@@ -3431,7 +3431,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[6]",
-									"text" : "jcom.message IR.1/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
+									"text" : "j.message IR.1/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
 									"linecount" : 2,
 									"id" : "obj-72",
 									"fontname" : "Verdana",
@@ -4293,7 +4293,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /audio/mute /channels /SegmentSize /normalize",
+					"text" : "j.oscroute /audio/mute /channels /SegmentSize /normalize",
 					"id" : "obj-10",
 					"fontname" : "Verdana",
 					"numinlets" : 1,

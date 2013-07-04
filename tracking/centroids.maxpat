@@ -138,7 +138,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /minbounds",
+					"text" : "j.oscroute /minbounds",
 					"patching_rect" : [ 101.0, 44.0, 151.0, 20.0 ],
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],

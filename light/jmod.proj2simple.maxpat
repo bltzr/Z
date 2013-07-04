@@ -21,7 +21,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -135,7 +135,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 605.0, 144.0, 218.0, 48.0 ],
-					"text" : "jcom.parameter startChannel.2 @type integer @range/bounds 0 512 @range/clipmode both @tag setup"
+					"text" : "j.parameter startChannel.2 @type integer @range/bounds 0 512 @range/clipmode both @tag setup"
 				}
 
 			}
@@ -151,14 +151,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 522.0, 45.0, 170.0, 75.0 ],
-					"text" : "jcom.parameter intensity.2 @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter intensity.2 @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -267,7 +267,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 286.0, 143.0, 218.0, 48.0 ],
-					"text" : "jcom.parameter startChannel.1 @type integer @range/bounds 0 512 @range/clipmode both @tag setup"
+					"text" : "j.parameter startChannel.1 @type integer @range/bounds 0 512 @range/clipmode both @tag setup"
 				}
 
 			}
@@ -283,7 +283,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 203.0, 44.0, 170.0, 75.0 ],
-					"text" : "jcom.parameter intensity.1 @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter intensity.1 @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -323,15 +323,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 26.0, 171.0, 59.0, 20.0 ],
-					"text" : "jcom.model",
-					"varname" : "_jcom_node"
+					"text" : "j.model",
+					"varname" : "_j_node"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

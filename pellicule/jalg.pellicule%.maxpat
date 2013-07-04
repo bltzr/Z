@@ -223,7 +223,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 856.0, 206.0, 295.0, 20.0 ],
-					"text" : "jcom.oscroute /video/mute /video/freeze /view/freeze"
+					"text" : "j.oscroute /video/mute /video/freeze /view/freeze"
 				}
 
 			}
@@ -1778,7 +1778,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 7.0, 50.0, 867.0, 20.0 ],
-					"text" : "jcom.oscroute /play /stop /loop/points /time /frame /rate /pause /movie /loop/mode /eject"
+					"text" : "j.oscroute /play /stop /loop/points /time /frame /rate /pause /movie /loop/mode /eject"
 				}
 
 			}
@@ -2001,7 +2001,7 @@
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 855.0, 107.0, 232.0, 31.0 ],
-					"text" : "jcom.pass /deinterlace /highquality /singlefield /unique /colormode /dim /interp"
+					"text" : "j.pass /deinterlace /highquality /singlefield /unique /colormode /dim /interp"
 				}
 
 			}

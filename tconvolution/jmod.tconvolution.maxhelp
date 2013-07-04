@@ -434,7 +434,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /file",
+									"text" : "j.oscroute /file",
 									"id" : "obj-1",
 									"fontname" : "Verdana",
 									"numinlets" : 1,

@@ -47,7 +47,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"id" : "obj-53",
 					"presentation_rect" : [ 3.0, 61.0, 80.0, 4.0 ],
 					"numinlets" : 1,
@@ -59,7 +59,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"id" : "obj-54",
 					"presentation_rect" : [ 3.0, 38.0, 80.0, 4.0 ],
 					"numinlets" : 1,
@@ -193,7 +193,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.init",
+					"text" : "j.init",
 					"id" : "obj-31",
 					"fontname" : "Arial",
 					"numinlets" : 1,
@@ -245,7 +245,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "preamp[1]",
-					"text" : "jcom.parameter IR.2/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter IR.2/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"linecount" : 3,
 					"id" : "obj-28",
 					"fontname" : "Verdana",
@@ -295,7 +295,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "preamp",
-					"text" : "jcom.parameter IR.1/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter IR.1/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"linecount" : 3,
 					"id" : "obj-24",
 					"fontname" : "Verdana",
@@ -434,7 +434,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[6]",
-					"text" : "jcom.message IR.2/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+					"text" : "j.message IR.2/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
 					"linecount" : 2,
 					"id" : "obj-72",
 					"fontname" : "Verdana",
@@ -491,7 +491,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /IR/info/size",
+					"text" : "j.oscroute /IR/info/size",
 					"id" : "obj-87",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -505,7 +505,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscinstance",
+					"text" : "j.oscinstance",
 					"id" : "obj-88",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -571,7 +571,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[5]",
-					"text" : "jcom.message IR.1/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+					"text" : "j.message IR.1/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
 					"linecount" : 2,
 					"id" : "obj-84",
 					"fontname" : "Verdana",
@@ -637,7 +637,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[4]",
-					"text" : "jcom.message IR.2/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"text" : "j.message IR.2/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 					"linecount" : 2,
 					"id" : "obj-71",
 					"fontname" : "Verdana",
@@ -833,7 +833,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "saturation/active[4]",
-									"text" : "jcom.parameter normalize @type boolean @description \"Automatically normalize IRs on load.\"",
+									"text" : "j.parameter normalize @type boolean @description \"Automatically normalize IRs on load.\"",
 									"id" : "obj-20",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -2564,7 +2564,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "preamp[2]",
-									"text" : "jcom.parameter IR.4/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+									"text" : "j.parameter IR.4/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 									"linecount" : 3,
 									"id" : "obj-57",
 									"fontname" : "Verdana",
@@ -2640,7 +2640,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "preamp[1]",
-									"text" : "jcom.parameter IR.3/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+									"text" : "j.parameter IR.3/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 									"linecount" : 3,
 									"id" : "obj-45",
 									"fontname" : "Verdana",
@@ -2806,7 +2806,7 @@
 							}
 , 							{
 								"box" : 								{
-									"maxclass" : "jcom.meter~",
+									"maxclass" : "j.meter~",
 									"id" : "obj-22",
 									"presentation_rect" : [ 14.0, 163.0, 80.0, 4.0 ],
 									"numinlets" : 1,
@@ -2818,7 +2818,7 @@
 							}
 , 							{
 								"box" : 								{
-									"maxclass" : "jcom.meter~",
+									"maxclass" : "j.meter~",
 									"id" : "obj-25",
 									"presentation_rect" : [ 14.0, 137.0, 80.0, 4.0 ],
 									"numinlets" : 1,
@@ -2830,7 +2830,7 @@
 							}
 , 							{
 								"box" : 								{
-									"maxclass" : "jcom.meter~",
+									"maxclass" : "j.meter~",
 									"id" : "obj-53",
 									"presentation_rect" : [ 14.0, 113.0, 80.0, 4.0 ],
 									"numinlets" : 1,
@@ -2842,7 +2842,7 @@
 							}
 , 							{
 								"box" : 								{
-									"maxclass" : "jcom.meter~",
+									"maxclass" : "j.meter~",
 									"id" : "obj-54",
 									"presentation_rect" : [ 14.0, 89.0, 80.0, 4.0 ],
 									"numinlets" : 1,
@@ -3108,7 +3108,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /filename /size /channels",
+									"text" : "j.oscroute /filename /size /channels",
 									"id" : "obj-17",
 									"fontname" : "Arial",
 									"numinlets" : 1,
@@ -3122,7 +3122,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /IR/info /IR/mute",
+									"text" : "j.oscroute /IR/info /IR/mute",
 									"id" : "obj-18",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3136,7 +3136,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscinstance",
+									"text" : "j.oscinstance",
 									"id" : "obj-88",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3255,7 +3255,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "saturation/active[2]",
-									"text" : "jcom.parameter IR.4/reverse @type boolean @description \"Reverse IR on/off\"",
+									"text" : "j.parameter IR.4/reverse @type boolean @description \"Reverse IR on/off\"",
 									"id" : "obj-11",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3288,7 +3288,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "saturation/active[3]",
-									"text" : "jcom.parameter IR.3/reverse @type boolean @description \"Reverse IR on/off\"",
+									"text" : "j.parameter IR.3/reverse @type boolean @description \"Reverse IR on/off\"",
 									"id" : "obj-14",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3321,7 +3321,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "saturation/active[1]",
-									"text" : "jcom.parameter IR.2/reverse @type boolean @description \"Reverse IR on/off\"",
+									"text" : "j.parameter IR.2/reverse @type boolean @description \"Reverse IR on/off\"",
 									"id" : "obj-5",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3430,7 +3430,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[9]",
-									"text" : "jcom.message IR.4/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+									"text" : "j.message IR.4/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 									"linecount" : 2,
 									"id" : "obj-111",
 									"fontname" : "Verdana",
@@ -3474,7 +3474,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[10]",
-									"text" : "jcom.message IR.3/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+									"text" : "j.message IR.3/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 									"linecount" : 2,
 									"id" : "obj-116",
 									"fontname" : "Verdana",
@@ -3515,7 +3515,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[7]",
-									"text" : "jcom.message IR.4/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+									"text" : "j.message IR.4/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
 									"linecount" : 2,
 									"id" : "obj-76",
 									"fontname" : "Verdana",
@@ -3556,7 +3556,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[8]",
-									"text" : "jcom.message IR.3/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+									"text" : "j.message IR.3/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
 									"linecount" : 2,
 									"id" : "obj-90",
 									"fontname" : "Verdana",
@@ -3590,7 +3590,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /maxlength /latency",
+									"text" : "j.oscroute /maxlength /latency",
 									"id" : "obj-89",
 									"fontname" : "Arial",
 									"numinlets" : 1,
@@ -3604,7 +3604,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.oscroute /info",
+									"text" : "j.oscroute /info",
 									"id" : "obj-87",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3764,7 +3764,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[3]",
-									"text" : "jcom.parameter channels @repetitions/allow 1 @type integer @range/bounds 1 4 @range/clipmode both @priority 4 @description \"Number of active processing channels\"",
+									"text" : "j.parameter channels @repetitions/allow 1 @type integer @range/bounds 1 4 @range/clipmode both @priority 4 @description \"Number of active processing channels\"",
 									"linecount" : 2,
 									"id" : "obj-31",
 									"fontname" : "Verdana",
@@ -3800,7 +3800,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "module_in[1]",
-									"text" : "jcom.parameter SegmentSize @repetitions/allow 1 @type integer",
+									"text" : "j.parameter SegmentSize @repetitions/allow 1 @type integer",
 									"id" : "obj-86",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3816,7 +3816,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "saturation/active",
-									"text" : "jcom.parameter IR.1/reverse @type boolean @description \"Reverse IR on/off\"",
+									"text" : "j.parameter IR.1/reverse @type boolean @description \"Reverse IR on/off\"",
 									"id" : "obj-47",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -3914,7 +3914,7 @@
 										"boxes" : [ 											{
 												"box" : 												{
 													"maxclass" : "newobj",
-													"text" : "jcom.oscroute /view/panel",
+													"text" : "j.oscroute /view/panel",
 													"id" : "obj-2",
 													"fontname" : "Verdana",
 													"numinlets" : 1,
@@ -4865,7 +4865,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.out~ 4",
+					"text" : "j.out~ 4",
 					"id" : "obj-7",
 					"fontname" : "Verdana",
 					"numinlets" : 4,
@@ -4879,7 +4879,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.in~ 4",
+					"text" : "j.in~ 4",
 					"id" : "obj-8",
 					"fontname" : "Verdana",
 					"numinlets" : 4,
@@ -5055,7 +5055,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "for jcom.return only",
+									"text" : "for j.return only",
 									"id" : "obj-2",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -5209,7 +5209,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "If you need to return messages from your algorithm to the rest of the world. you can specify type, range... etc as in jcom.parameter or jcom.message",
+									"text" : "If you need to return messages from your algorithm to the rest of the world. you can specify type, range... etc as in j.parameter or j.message",
 									"linecount" : 3,
 									"id" : "obj-4",
 									"fontname" : "Verdana",
@@ -5224,7 +5224,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "jcom.return:",
+									"text" : "j.return:",
 									"id" : "obj-5",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -5238,7 +5238,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "If you need to send messages to or within the patch, but it's not required that they be stored or retrieveable, use jcom.message.",
+									"text" : "If you need to send messages to or within the patch, but it's not required that they be stored or retrieveable, use j.message.",
 									"linecount" : 2,
 									"id" : "obj-6",
 									"fontname" : "Verdana",
@@ -5253,7 +5253,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "jcom.message:",
+									"text" : "j.message:",
 									"id" : "obj-7",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -5281,7 +5281,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "jcom.parameter:",
+									"text" : "j.parameter:",
 									"id" : "obj-9",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -5379,7 +5379,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "Attributes for jcom.parameter and jcom.message:",
+									"text" : "Attributes for j.parameter and j.message:",
 									"id" : "obj-51",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -5411,7 +5411,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle",
-					"text" : "jcom.message IR.1/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"text" : "j.message IR.1/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 					"linecount" : 2,
 					"id" : "obj-29",
 					"fontname" : "Verdana",
@@ -5454,8 +5454,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.model",
-					"text" : "jcom.model @module_type audio @description \"4 channels convolution based on tconvolution.mxo\"",
+					"varname" : "j.model",
+					"text" : "j.model @module_type audio @description \"4 channels convolution based on tconvolution.mxo\"",
 					"id" : "obj-37",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -5505,7 +5505,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"text" : "/editing_this_module",
 					"has_bypass" : 1,
 					"id" : "obj-16",

@@ -65,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 592.0, 30.0, 100.0, 18.0 ],
-					"text" : "jcom.model"
+					"text" : "j.model"
 				}
 
 			}
@@ -135,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 793.0, 49.0, 110.0, 18.0 ],
-					"text" : "jcom.parameterCreate"
+					"text" : "j.parameterCreate"
 				}
 
 			}
@@ -149,7 +149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 583.0, 81.0, 100.0, 18.0 ],
-					"text" : "js ej.fplay.js"
+					"text" : "js ejfplay.js"
 				}
 
 			}
@@ -240,8 +240,8 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 332.0, 31.0 ],
-									"text" : "jcom.parameter edit @repetitions/allow 1 @type string @description \"Choose operation mode (active, edit, bypass)\"",
-									"varname" : "jcom.parameter[10]"
+									"text" : "j.parameter edit @repetitions/allow 1 @type string @description \"Choose operation mode (active, edit, bypass)\"",
+									"varname" : "j.parameter[10]"
 								}
 
 							}
@@ -469,7 +469,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 663.0, 620.0, 56.0, 18.0 ],
-					"text" : "jcom.send"
+					"text" : "j.send"
 				}
 
 			}
@@ -835,7 +835,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 733.0, 394.0, 172.0, 18.0 ],
-					"text" : "jcom.receive /address:range/bounds"
+					"text" : "j.receive /address:range/bounds"
 				}
 
 			}
@@ -894,7 +894,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 650.0, 193.0, 167.0, 48.0 ],
-					"text" : "jcom.namespace @address / @lookfor jcom.parameter @format umenu"
+					"text" : "j.namespace @address / @lookfor j.parameter @format umenu"
 				}
 
 			}
@@ -1088,7 +1088,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 107.0, 617.0, 157.0, 18.0 ],
-					"text" : "jcom.ramp"
+					"text" : "j.ramp"
 				}
 
 			}
@@ -1118,7 +1118,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 184.0, 77.0, 100.0, 18.0 ],
-					"text" : "jcom.metro 25 4"
+					"text" : "j.metro 25 4"
 				}
 
 			}
@@ -1464,7 +1464,7 @@
 , 			{
 				"box" : 				{
 					"embedstate" : [ [ "CreateNFunctions", 1, "function0", 80.0, 127.0, 0, 8000.0 ], [ "SetColor", 0, "brgb", 204, 204, 204 ], [ "SetColor", 0, "frgb", 82, 82, 82 ], [ "SetColor", 0, "rgb2", 107, 107, 107 ], [ "SetColor", 0, "rgb3", 255, 0, 0 ], [ "SetColor", 0, "rgb4", 51, 51, 51 ], [ "SetColor", 0, "rgb5", 128, 128, 128 ], [ "SetColor", 0, "rgb6", 107, 107, 107 ], [ "fsaa", 1 ], [ "redrawon" ], [ "legend", 1 ], [ "clickmove", 1 ], [ "bordersync", 0 ], [ "movemode", 0 ], [ "snap2grid", 0 ], [ "autosustain", 0 ], [ "notifyrecalled", 0 ], [ "clickadd", 1 ], [ "autocursor", 1 ], [ "numcurvepoints", 12 ], [ "clicksustain", 1 ], [ "mode", 1 ], [ "ghost", 20 ], [ "nbfunction", 1 ], [ "grid", 0 ], [ "hiddenpoint", 0 ], [ "timedisplay", 0 ], [ "mousereport", 1 ] ],
-					"filename" : "ej.function.js",
+					"filename" : "ejfunction.js",
 					"id" : "obj-12",
 					"jsarguments" : [  ],
 					"maxclass" : "jsui",
@@ -1474,7 +1474,7 @@
 					"patching_rect" : [ 48.0, 251.0, 571.0, 290.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 106.0, 571.0, 290.0 ],
-					"varname" : "ej.lui-2144028"
+					"varname" : "ejlui-2144028"
 				}
 
 			}
@@ -1503,7 +1503,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 38.0, 7.0, 215.0, 41.0 ],
-					"text" : "jcom.parameter switch @type boolean @priority 15 @description \"switch function on/off\"",
+					"text" : "j.parameter switch @type boolean @priority 15 @description \"switch function on/off\"",
 					"varname" : "switch"
 				}
 
@@ -1519,7 +1519,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 402.0, 217.0, 228.0, 29.0 ],
-					"text" : "jcom.message sync @type generic @description \"allows to sync the function(s) with the editor\"",
+					"text" : "j.message sync @type generic @description \"allows to sync the function(s) with the editor\"",
 					"varname" : "sync"
 				}
 

@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 295.0, 44.0, 1002.0, 712.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 314.0, 44.0, 1002.0, 712.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 295.0, 44.0, 1002.0, 712.0 ],
+		"defrect" : [ 314.0, 44.0, 1002.0, 712.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -17,6 +23,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -257,7 +264,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 32,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 665.0, 561.0, 287.0, 18.0 ],
 					"text" : "jcom.multi.out~"
 				}
@@ -270,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 715.0, 441.0, 23.0, 23.0 ]
+					"patching_rect" : [ 745.0, 435.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -283,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 715.0, 471.0, 130.0, 20.0 ],
+					"patching_rect" : [ 745.0, 465.0, 130.0, 20.0 ],
 					"text" : "prepend view_update"
 				}
 
@@ -296,7 +303,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 715.0, 501.0, 94.0, 20.0 ],
+					"patching_rect" : [ 745.0, 495.0, 94.0, 20.0 ],
 					"text" : "s toZdbapin"
 				}
 
@@ -420,7 +427,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 386.0, 100.0, 300.0, 70.0 ],
+					"patching_rect" : [ 324.0, 88.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 145.0, 300.0, 70.0 ],
 					"varname" : "/QManager"
@@ -436,8 +443,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "signal", "signal" ],
-					"patching_rect" : [ 325.0, 286.0, 300.0, 140.0 ],
-					"presentation_rect" : [ 566.0, 183.0, 300.0, 140.0 ]
+					"patching_rect" : [ 324.0, 250.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 566.0, 183.0, 300.0, 140.0 ],
+					"varname" : "jmod.Zdbapin2"
 				}
 
 			}
@@ -511,7 +519,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-15",
 					"linecount" : 8,
 					"maxclass" : "comment",
@@ -526,7 +534,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-19",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -541,7 +549,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -581,7 +589,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 17.334082,
-					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -595,7 +603,7 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -625,7 +633,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 100.0, 150.0, 35.0 ],
+					"patching_rect" : [ 466.0, 35.0, 150.0, 35.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ]
 				}
 
@@ -638,7 +646,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 32,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 420.0, 566.0, 240.0, 18.0 ],
 					"text" : "jcom.multi.out~"
 				}
@@ -652,8 +660,8 @@
 					"name" : "jmod.Zdbapout.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 14.0, 456.0, 300.0, 70.0 ],
+					"outlettype" : [ "", "audio.connect", "audio.connect" ],
+					"patching_rect" : [ 16.0, 459.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
 				}
 
@@ -667,7 +675,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "signal", "signal" ],
-					"patching_rect" : [ 325.0, 206.0, 300.0, 70.0 ],
+					"patching_rect" : [ 324.0, 170.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 551.0, 16.0, 300.0, 70.0 ]
 				}
 
@@ -680,8 +688,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 32,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 297.0, 435.0, 364.0, 18.0 ],
+					"outlettype" : [ "audio.connect" ],
+					"patching_rect" : [ 298.0, 438.0, 422.0, 18.0 ],
 					"text" : "jcom.multi.in~"
 				}
 
@@ -695,7 +703,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "signal" ],
-					"patching_rect" : [ 18.0, 140.0, 300.0, 140.0 ],
+					"patching_rect" : [ 17.0, 87.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
 				}
 
@@ -708,9 +716,10 @@
 					"name" : "jmod.Zdbapin.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "jit_matrix", "" ],
-					"patching_rect" : [ 18.0, 283.0, 300.0, 140.0 ],
-					"presentation_rect" : [ 355.0, 151.0, 300.0, 140.0 ]
+					"outlettype" : [ "", "jit_matrix", "signal" ],
+					"patching_rect" : [ 17.0, 247.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 355.0, 151.0, 300.0, 140.0 ],
+					"varname" : "jmod.Zdbapin"
 				}
 
 			}
@@ -951,7 +960,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 1 ],
+					"destination" : [ "obj-3", 2 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-5", 1 ]
@@ -1151,7 +1160,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 2 ],
 					"hidden" : 0,
-					"midpoints" : [ 615.5, 433.0, 328.758057, 433.0 ],
+					"midpoints" : [ 614.5, 433.0, 333.5, 433.0 ],
 					"source" : [ "obj-8", 3 ]
 				}
 
@@ -1160,7 +1169,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 521.833313, 429.0, 317.629028, 429.0 ],
+					"midpoints" : [ 520.833313, 429.0, 320.5, 429.0 ],
 					"source" : [ "obj-8", 2 ]
 				}
 

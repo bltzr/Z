@@ -1,7 +1,13 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 84.711792, 83.913025, 150.0, 35.0 ],
+		"appversion" : 		{
+			"major" : 5,
+			"minor" : 1,
+			"revision" : 9
+		}
+,
+		"rect" : [ 409.0, 33.0, 150.0, 35.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 100.0, 122.0, 1001.0, 684.0 ],
@@ -156,6 +162,12 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 29.0, 67.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 29.0, 67.0, 640.0, 480.0 ],
@@ -218,7 +230,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-22",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -259,7 +271,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-30",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -398,13 +410,13 @@
 ,
 					"patching_rect" : [ 420.0, 615.0, 50.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p fill_text"
@@ -436,7 +448,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 150.0, 530.0, 561.0, 31.0 ],
-					"text" : "jcom.parameter mainfolder @type array @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \"",
+					"text" : "jcom.parameter mainfolder @type generic @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \"",
 					"varname" : "jcom.parameter.mxb[2]"
 				}
 
@@ -466,6 +478,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 338.0, 114.0, 581.0, 226.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 338.0, 114.0, 581.0, 226.0 ],
@@ -747,13 +765,13 @@
 ,
 					"patching_rect" : [ 546.0, 261.0, 225.0, 36.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 9.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 9.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
-						"fontname" : "Verdana",
-						"default_fontsize" : 9.0
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p coll_declaration"
@@ -786,6 +804,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 459.0, 138.0, 564.0, 136.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 459.0, 138.0, 564.0, 136.0 ],
@@ -909,6 +933,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 22.0, 228.0, 295.0, 240.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 22.0, 228.0, 295.0, 240.0 ],
@@ -1138,13 +1168,13 @@
 ,
 									"patching_rect" : [ 440.0, 110.0, 65.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p folderlist"
@@ -1162,6 +1192,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 35.0, 146.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 35.0, 146.0, 640.0, 480.0 ],
@@ -1446,13 +1482,13 @@
 ,
 									"patching_rect" : [ 385.0, 140.0, 51.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p filelist"
@@ -1540,6 +1576,12 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 369.0, 116.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 369.0, 116.0, 640.0, 480.0 ],
@@ -1748,13 +1790,13 @@
 ,
 									"patching_rect" : [ 20.0, 85.0, 84.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p addedfilelist"
@@ -1765,7 +1807,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-18",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1779,7 +1821,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1793,7 +1835,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-17",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -1808,7 +1850,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-16",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1822,7 +1864,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1836,7 +1878,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1850,7 +1892,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1864,7 +1906,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1878,7 +1920,7 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-5",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -1944,7 +1986,7 @@
 									"background" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.658824, 0.658824, 0.658824, 1.0 ],
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-29",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1983,7 +2025,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-25",
-									"items" : [ "0divers", ",", "0harmoniq", ",", "gramoClass", ",", "0P-acco_doux" ],
+									"items" : [ "0.0000divers", ",", "0.0000harmoniq", ",", "gramoClass", ",", "0.0000P-acco_doux" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2184,13 +2226,13 @@
 ,
 					"patching_rect" : [ 25.0, 361.0, 48.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p more"
@@ -2249,6 +2291,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 84.0, 123.0, 1174.0, 640.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 84.0, 123.0, 1174.0, 640.0 ],
@@ -2524,6 +2572,12 @@
 									"outlettype" : [ "bang", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 629.0, 116.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 629.0, 116.0, 640.0, 480.0 ],
@@ -2997,13 +3051,13 @@
 ,
 									"patching_rect" : [ 245.013519, 530.795166, 84.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p deletebuffer"
@@ -3303,6 +3357,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 558.0, 435.0, 692.0, 339.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 558.0, 435.0, 692.0, 339.0 ],
@@ -3770,13 +3830,13 @@
 ,
 									"patching_rect" : [ 655.72876, 581.080933, 234.0, 80.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p bufs",
@@ -4479,13 +4539,13 @@
 ,
 					"patching_rect" : [ 312.0, 453.0, 62.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p addfile"
@@ -4502,6 +4562,12 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 5,
+							"minor" : 1,
+							"revision" : 9
+						}
+,
 						"rect" : [ 520.0, 573.0, 1080.0, 606.0 ],
 						"bglocked" : 0,
 						"defrect" : [ 520.0, 573.0, 1080.0, 606.0 ],
@@ -4624,6 +4690,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 204.0, 81.0, 991.0, 602.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 204.0, 81.0, 991.0, 602.0 ],
@@ -5074,13 +5146,13 @@
 ,
 									"patching_rect" : [ 96.046173, 475.658997, 133.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p generationfile"
@@ -5097,6 +5169,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 29.0, 67.0, 866.0, 577.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 29.0, 67.0, 866.0, 577.0 ],
@@ -5234,7 +5312,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 169.530457, 179.034973, 459.979034, 18.0 ],
-													"text" : "0P-acco_doux"
+													"text" : "0.0000P-acco_doux"
 												}
 
 											}
@@ -5684,13 +5762,13 @@
 ,
 									"patching_rect" : [ 100.046173, 419.658997, 217.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p generationlist"
@@ -5707,6 +5785,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 29.0, 67.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 29.0, 67.0, 640.0, 480.0 ],
@@ -6267,13 +6351,13 @@
 ,
 									"patching_rect" : [ 642.590698, 325.196411, 80.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p calculindex"
@@ -6758,7 +6842,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"patching_rect" : [ 61.9916, 289.37207, 100.0, 20.0 ],
-									"prefix" : "0P-acco_doux",
+									"prefix" : "0.0000P-acco_doux",
 									"prefix_mode" : 2,
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
 								}
@@ -6791,7 +6875,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"patching_rect" : [ 115.063675, 208.31749, 100.0, 20.0 ],
-									"prefix" : "0",
+									"prefix" : "0.0000",
 									"types" : "fold"
 								}
 
@@ -6821,6 +6905,12 @@
 									"numoutlets" : 0,
 									"patcher" : 									{
 										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 5,
+											"minor" : 1,
+											"revision" : 9
+										}
+,
 										"rect" : [ 12.0, 217.0, 1087.0, 540.0 ],
 										"bglocked" : 0,
 										"defrect" : [ 12.0, 217.0, 1087.0, 540.0 ],
@@ -7100,6 +7190,234 @@
 												}
 
 											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 16.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-debut.wav 0.0000divers/Liszt-debut.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 32.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-envole.wav 0.0000divers/Liszt-envole.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 48.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-intro.wav 0.0000divers/Liszt-intro.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 64.0, 600.0, 17.0 ],
+													"text" : "buffer~ Tosca.wav 0.0000divers/Tosca.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-23",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 80.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-debut.wav 0.0000harmoniq/Liszt-debut.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 96.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-envole.wav 0.0000harmoniq/Liszt-envole.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-25",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 112.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-intro.wav 0.0000harmoniq/Liszt-intro.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-26",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 128.0, 600.0, 17.0 ],
+													"text" : "buffer~ Tosca.wav 0.0000harmoniq/Tosca.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-27",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 144.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-debut.wav 0.0000harmoniq/gramoClass/Liszt-debut.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-28",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 160.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-envole.wav 0.0000harmoniq/gramoClass/Liszt-envole.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-29",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 176.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-intro.wav 0.0000harmoniq/gramoClass/Liszt-intro.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-30",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 192.0, 600.0, 17.0 ],
+													"text" : "buffer~ Tosca.wav 0.0000harmoniq/gramoClass/Tosca.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-31",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 208.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-debut.wav 0.0000P-acco_doux/Liszt-debut.wav",
+													"varname" : "Liszt-debut.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-32",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 224.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-envole.wav 0.0000P-acco_doux/Liszt-envole.wav",
+													"varname" : "Liszt-envole.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-33",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 240.0, 600.0, 17.0 ],
+													"text" : "buffer~ Liszt-intro.wav 0.0000P-acco_doux/Liszt-intro.wav",
+													"varname" : "Liszt-intro.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-34",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 256.0, 600.0, 17.0 ],
+													"text" : "buffer~ Tosca.wav 0.0000P-acco_doux/Tosca.wav",
+													"varname" : "Tosca.wav"
+												}
+
+											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
@@ -7295,13 +7613,13 @@
 ,
 									"patching_rect" : [ 471.0, 206.0, 208.0, 80.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p bufs",
@@ -7712,13 +8030,13 @@
 ,
 					"patching_rect" : [ 386.0, 454.0, 80.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p algobuffers"
@@ -7820,7 +8138,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 468.0, 99.0, 594.0, 31.0 ],
-					"text" : "jcom.message type @type array @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"text" : "jcom.message type @type generic @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 					"varname" : "jcom.parameter.mxb[1]"
 				}
 
@@ -7929,8 +8247,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 335.0, 165.0, 591.0, 31.0 ],
-					"text" : "jcom.message path @type array @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
+					"patching_rect" : [ 335.0, 165.0, 605.0, 31.0 ],
+					"text" : "jcom.message path @type generic @repetitions/allow 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
 					"varname" : "jcom.parameter.mxb[10]"
 				}
 
@@ -7940,7 +8258,7 @@
 					"bordercolor" : [ 0.235294, 0.235294, 0.235294, 0.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-15",
 					"lines" : 1,
 					"maxclass" : "textedit",
@@ -7974,7 +8292,6 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.93, 0.93, 0.93, 1.0 ],
-					"bordercolor" : [ 0.6, 0.6, 0.6, 1.0 ],
 					"has_panel" : 1,
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-78",
@@ -7986,8 +8303,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 35.0 ],
-					"text" : "/bufferpool",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "/bufferpool"
 				}
 
 			}

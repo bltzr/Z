@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 848.0, 200.0, 1013.0, 793.0 ],
+		"rect" : [ 1668.0, 162.0, 1013.0, 793.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -109,8 +110,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 513.0, 411.0 ],
@@ -270,7 +272,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-78",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -539,20 +541,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.605499, 125.5, 62.0, 18.0 ],
-					"text" : "j.preset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -562,8 +550,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 402.0, 318.0 ],
@@ -682,8 +671,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 470.0, 392.0, 896.0, 704.0 ],
@@ -736,8 +726,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 935.0, 51.0, 301.0, 193.0 ],
@@ -807,7 +798,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-10",
-																	"linecount" : 9,
+																	"linecount" : 8,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
@@ -884,8 +875,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 253.0, 94.0, 360.0, 211.0 ],
@@ -955,7 +947,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-10",
-																	"linecount" : 8,
+																	"linecount" : 7,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
@@ -1032,8 +1024,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 842.0, 236.0, 516.0, 163.0 ],
@@ -1091,7 +1084,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 250.0, 33.0, 231.0, 47.0 ],
+																	"patching_rect" : [ 250.0, 33.0, 234.0, 47.0 ],
 																	"text" : "j.parameter deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive Max",
 																	"varname" : "jmod.parameter.mxb[1]"
 																}
@@ -1196,8 +1189,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 482.0, 468.0 ],
@@ -1509,8 +1503,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 10.0, 59.0, 286.0, 203.0 ],
@@ -1759,8 +1754,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 10.0, 59.0, 283.0, 177.0 ],
@@ -2009,8 +2005,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 10.0, 59.0, 282.0, 190.0 ],
@@ -2284,8 +2281,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 627.0, 429.0, 437.0, 174.0 ],
@@ -2320,8 +2318,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -2888,8 +2887,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 586.0, 246.0, 544.0, 334.0 ],
@@ -2980,8 +2980,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 29.0, 67.0, 308.0, 300.0 ],
@@ -3173,8 +3174,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 29.0, 67.0, 239.0, 224.0 ],
@@ -3593,8 +3595,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 182.0, 253.0, 536.0, 338.0 ],
@@ -3685,8 +3688,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 296.0, 239.0 ],
@@ -3878,8 +3882,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 257.0, 204.0 ],
@@ -4857,8 +4862,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 59.0, 142.0, 531.0, 301.0 ],
@@ -4893,8 +4899,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 10.0, 59.0, 276.0, 198.0 ],
@@ -5143,8 +5150,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 10.0, 59.0, 275.0, 184.0 ],
@@ -5393,8 +5401,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 1007.0, 99.0, 362.0, 254.0 ],
@@ -5485,8 +5494,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 25.0, 69.0, 287.0, 321.0 ],
@@ -5693,8 +5703,9 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 6,
-																			"minor" : 0,
-																			"revision" : 8
+																			"minor" : 1,
+																			"revision" : 3,
+																			"architecture" : "x86"
 																		}
 ,
 																		"rect" : [ 132.0, 468.0, 307.0, 345.0 ],
@@ -6827,7 +6838,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 129.319794, 118.0, 388.0, 33.0 ],
+					"patching_rect" : [ 129.319794, 118.0, 391.0, 33.0 ],
 					"text" : "j.parameter R @type decimal @description \"red value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 				}
 
@@ -8112,6 +8123,41 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.thru.maxpat",
+				"bootpath" : "/Users/bltzr/Dropbox/jamomapackage/Jamoma/patchers/components/thru",
+				"patcherrelativepath" : "../../../../Dropbox/jamomapackage/Jamoma/patchers/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.random.maxpat",
+				"bootpath" : "/Users/bltzr/Dropbox/jamomapackage/Jamoma/patchers/components/random",
+				"patcherrelativepath" : "../../../../Dropbox/jamomapackage/Jamoma/patchers/components/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

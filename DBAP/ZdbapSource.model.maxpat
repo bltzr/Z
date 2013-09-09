@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1001.0, 326.0, 523.0, 438.0 ],
+		"rect" : [ 1993.0, 278.0, 523.0, 438.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -27,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 252.0, 67.0, 19.0 ],
-					"text" : "j.preset"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -83,8 +70,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 616.0, 146.0, 570.0, 443.0 ],
@@ -199,8 +187,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 787.0, 75.0, 288.0, 155.0 ],
@@ -959,13 +948,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "audio.connect" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1089.0, 500.0, 548.0, 229.0 ],
@@ -1025,8 +1015,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1197.0, 264.0, 322.0, 268.0 ],
@@ -1398,7 +1389,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 32,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "audio.connect" ],
 									"patching_rect" : [ 24.0, 147.0, 73.166664, 18.0 ],
 									"text" : "j.multi.in~",
 									"varname" : "multi"
@@ -1448,8 +1439,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 419.0, 44.0, 474.0, 466.0 ],
@@ -1983,7 +1975,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 24.0, 25.0, 25.0 ],
 									"varname" : "in"
 								}
@@ -2153,7 +2145,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.5, 284.0, 23.0, 23.0 ]
 				}
 
@@ -2177,7 +2169,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 284.0, 23.0, 23.0 ]
+					"patching_rect" : [ 16.0, 249.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -2193,8 +2185,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 105.0, 153.0, 334.0, 177.0 ],
@@ -2354,8 +2347,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 620.0, 46.0, 249.0, 128.0 ],
@@ -2485,12 +2479,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-49",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 319.0, 67.0, 19.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 16.0, 284.0, 73.0, 43.0 ],
+					"text" : "j.model @amenities preset"
 				}
 
 			}
@@ -2506,8 +2501,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 620.0, 46.0, 249.0, 128.0 ],
@@ -2644,8 +2640,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 271.0, 129.0 ],
@@ -2782,8 +2779,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 785.0, 68.0, 250.0, 122.0 ],
@@ -2988,8 +2986,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 846.0, 199.0, 714.0, 636.0 ],
@@ -3024,8 +3023,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 643.0, 371.0 ],
@@ -3376,7 +3376,6 @@
 									}
 ,
 									"patching_rect" : [ 43.0, 471.990234, 367.0, 20.0 ],
-									"presentation_rect" : [ 40.0, 471.990234, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -3404,7 +3403,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 353.0, 424.0, 32.0, 18.0 ],
-									"presentation_rect" : [ 350.0, 424.0, 0.0, 0.0 ],
 									"text" : "b 1"
 								}
 
@@ -3452,8 +3450,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3567,8 +3566,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -3949,8 +3949,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4331,8 +4332,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -4367,8 +4369,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 316.0, 261.0 ],
@@ -4718,8 +4721,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 316.0, 261.0 ],
@@ -5069,8 +5073,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 316.0, 261.0 ],
@@ -5420,8 +5425,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 50.0, 94.0, 316.0, 261.0 ],
@@ -5793,8 +5799,8 @@
 													"id" : "obj-88",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "", "", "", "" ],
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 144.0, 156.0, 18.0 ],
 													"text" : "j.dbap @num_destinations 4"
 												}
@@ -6255,8 +6261,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 804.0, 262.0, 370.0, 342.0 ],
@@ -6347,8 +6354,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 226.0, 325.0 ],
@@ -7140,8 +7148,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 694.0, 228.0, 969.0, 474.0 ],
@@ -7190,8 +7199,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -7226,8 +7236,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 25.0, 69.0, 141.0, 175.0 ],
@@ -7692,8 +7703,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 520.0, 274.0 ],
@@ -7852,8 +7864,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 488.0, 146.0 ],
@@ -8127,8 +8140,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 735.0, 73.0, 278.0, 369.0 ],
@@ -8441,7 +8455,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-17",
-									"linecount" : 8,
+									"linecount" : 7,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -8538,8 +8552,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 22.0, 355.0, 380.0, 392.0 ],
@@ -9588,8 +9603,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 779.0, 386.0, 340.0, 230.0 ],
@@ -9638,8 +9654,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 50.0, 94.0, 178.0, 259.0 ],
@@ -9812,8 +9829,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 1003.0, 189.0, 159.0, 234.0 ],
@@ -10118,8 +10136,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 164.0, 141.0 ],
@@ -10686,6 +10705,112 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "hololive.player.maxpat",
+				"bootpath" : "/Users/bltzr/dev/JamomaUserLibs/Holophon/hololive.player-0.4.1",
+				"patcherrelativepath" : "../../Holophon/hololive.player-0.4.1",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "DBAPspat.xml",
+				"bootpath" : "/Users/bltzr/dev/JamomaUserLibs/Z/DBAP",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sw.maxpat",
+				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "holo.car2pol.maxpat",
+				"bootpath" : "/Users/bltzr/dev/JamomaUserLibs/Holophon/HololiveEditor",
+				"patcherrelativepath" : "../../Holophon/HololiveEditor",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.random.maxpat",
+				"bootpath" : "/Users/bltzr/Dropbox/jamomapackage/Jamoma/patchers/components/random",
+				"patcherrelativepath" : "../../../../Dropbox/jamomapackage/Jamoma/patchers/components/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.datetime.maxpat",
+				"bootpath" : "/Users/bltzr/Dropbox/jamomapackage/Jamoma/patchers/components/datetime",
+				"patcherrelativepath" : "../../../../Dropbox/jamomapackage/Jamoma/patchers/components/datetime",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.multi.in~.maxpat",
+				"bootpath" : "/Users/bltzr/Dropbox/jamomapackage/Jamoma/patchers/components/multi.in%",
+				"patcherrelativepath" : "../../../../Dropbox/jamomapackage/Jamoma/patchers/components/multi.in%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.folder.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.pack≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.offset≈.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.savebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.meter~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscinstance.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

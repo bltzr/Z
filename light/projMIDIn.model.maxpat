@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 975.0, 520.0, 491.0, 397.0 ],
+		"rect" : [ -1320.0, 223.0, 491.0, 397.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -27,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 405.5, 268.0, 62.0, 18.0 ],
-					"text" : "j.preset"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -108,11 +95,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 303.0, 564.0 ],
+						"rect" : [ 213.0, 69.0, 303.0, 564.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -287,7 +275,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 124.0, 67.0, 75.0, 18.0 ],
+					"patching_rect" : [ 23.0, 67.0, 75.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -311,12 +299,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.0, 326.0, 317.0, 47.0 ],
+					"patching_rect" : [ 51.0, 326.0, 332.0, 33.0 ],
 					"text" : "j.parameter MIDIChannel @type integer@description \"MIDI channel\" @priority 2 @repetitions/allow 1 @tag setup"
 				}
 
@@ -327,12 +315,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-77",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.0, 294.0, 271.5, 29.0 ],
+					"patching_rect" : [ 23.0, 294.0, 278.5, 18.0 ],
 					"text" : "j.parameter midiport @type string @priority 3 @tag setup"
 				}
 
@@ -376,7 +363,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 67.0, 78.0, 18.0 ],
+					"patching_rect" : [ 123.25, 67.0, 78.0, 18.0 ],
 					"text" : "prepend voices"
 				}
 
@@ -404,7 +391,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 86.0, 96.0, 113.0, 18.0 ],
+					"patching_rect" : [ 105.75, 96.0, 113.0, 18.0 ],
 					"text" : "poly~ jalg.modulation 4"
 				}
 
@@ -495,8 +482,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1043.0, 354.0, 710.0, 566.0 ],
@@ -612,8 +600,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 342.0, 224.0 ],
@@ -1259,8 +1248,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 270.0, 367.0 ],
@@ -2341,7 +2331,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.0, 57.0, 40.5, 57.0 ],
+					"midpoints" : [ 16.0, 57.0, 132.75, 57.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 

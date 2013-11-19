@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 396.0, 86.0, 1044.0, 631.0 ],
+		"rect" : [ 1658.0, 97.0, 1044.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -38,20 +38,6 @@
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 218.0, 543.0, 100.0, 19.0 ],
 					"text" : "j.out~ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 89.0, 126.0, 70.0, 19.0 ],
-					"text" : "j.preset"
 				}
 
 			}
@@ -111,7 +97,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -666,7 +652,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1451,7 +1437,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -1802,7 +1788,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2232,7 +2218,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2626,7 +2612,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -2944,7 +2930,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3453,7 +3439,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -3478,20 +3464,6 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 474.0, 131.0, 135.0, 20.0 ],
-									"text" : "j.model component"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"color" : [ 1.0, 0.741176, 0.611765, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -3500,8 +3472,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 212.0, 57.0, 399.0, 17.0 ],
-									"text" : "j.parameter input @type array @description \"Select the input to record.\" @value/default none",
+									"patching_rect" : [ 212.0, 57.0, 410.0, 17.0 ],
+									"text" : "j.parameter record/input @type array @description \"Select the input to record.\" @value/default none",
 									"varname" : "jmod.parameter.mxb[16]"
 								}
 
@@ -3516,8 +3488,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 135.0, 30.0, 389.0, 17.0 ],
-									"text" : "j.parameter active @type integer @description \"Start and stop to record.\" @value/default 0",
+									"patching_rect" : [ 135.0, 30.0, 399.0, 17.0 ],
+									"text" : "j.parameter record/active @type integer @description \"Start and stop to record.\" @value/default 0",
 									"varname" : "jmod.parameter.mxb[17]"
 								}
 
@@ -4045,7 +4017,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86"
 						}
 ,
@@ -4156,7 +4128,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -4619,7 +4591,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -4979,7 +4951,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86"
 										}
 ,
@@ -5072,7 +5044,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -5525,7 +5497,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -5826,7 +5798,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 2,
+															"revision" : 3,
 															"architecture" : "x86"
 														}
 ,
@@ -7122,8 +7094,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.random.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma/patchers/components/random",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma/patchers/components/random",
+				"bootpath" : "/Users/bltzr/dev/Jamoma/Implementations/Max/Jamoma/patchers/components/random",
+				"patcherrelativepath" : "../../../Jamoma/Implementations/Max/Jamoma/patchers/components/random",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7133,10 +7105,6 @@
 			}
 , 			{
 				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -7156,7 +7124,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.preset.mxo",
+				"name" : "j.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{

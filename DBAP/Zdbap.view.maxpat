@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 464.0, 79.0, 300.0, 70.0 ],
@@ -120,11 +121,12 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 3,
+							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1180.0, 44.0, 261.0, 282.0 ],
+						"rect" : [ 813.0, 44.0, 262.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -145,6 +147,20 @@
 						"tags" : "",
 						"title" : "/Zdbap(view)",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 137.666626, 519.5, 27.0, 20.0 ],
+									"text" : "b 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -176,7 +192,7 @@
 									"fontsize" : 12.0,
 									"id" : "obj-14",
 									"maxclass" : "newobj",
-									"numinlets" : 0,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 225.0, 15.5, 42.0, 20.0 ],
@@ -398,8 +414,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 267.0, 331.0 ],
@@ -638,8 +655,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -798,8 +816,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 3,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 837.0, 44.0, 386.0, 691.0 ],
@@ -834,11 +853,12 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 664.0, 123.0, 367.0, 334.0 ],
+														"rect" : [ 451.0, 88.0, 367.0, 334.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -895,8 +915,8 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
 																	"outlettype" : [ "", "", "" ],
-																	"patching_rect" : [ 257.5, 32.5, 94.0, 33.0 ],
-																	"text" : "j.receive model/address"
+																	"patching_rect" : [ 257.5, 25.0, 94.0, 33.0 ],
+																	"text" : "j.receive model:address"
 																}
 
 															}
@@ -1220,7 +1240,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 37.5, 196.5, 50.0, 18.0 ],
-													"text" : "-1"
+													"text" : "12"
 												}
 
 											}
@@ -1237,8 +1257,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 865.0, 312.0, 640.0, 480.0 ],
@@ -1462,8 +1483,9 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 6,
-															"minor" : 0,
-															"revision" : 8
+															"minor" : 1,
+															"revision" : 3,
+															"architecture" : "x86"
 														}
 ,
 														"rect" : [ 800.0, 123.0, 215.0, 251.0 ],
@@ -2480,6 +2502,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2561,6 +2592,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-46", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -2771,7 +2811,7 @@
 					"patching_rect" : [ 0.0, -0.386505, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/noModelAddress"
+					"text" : "/Zdbap"
 				}
 
 			}
@@ -2908,65 +2948,6 @@
 					"source" : [ "obj-56", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.position2ambimonitor.maxpat",
-				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/position2ambimonitor",
-				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/position2ambimonitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ambimonitor2position.maxpat",
-				"bootpath" : "/Users/lesB/Documents/Jamoma/Implementations/Max/max/library/components/ambimonitor2position",
-				"patcherrelativepath" : "../../Jamoma/Implementations/Max/max/library/components/ambimonitor2position",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remoteArray.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscinstance.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.dataspace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.textslider.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

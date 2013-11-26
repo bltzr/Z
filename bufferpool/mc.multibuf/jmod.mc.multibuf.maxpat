@@ -53,7 +53,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[9]",
-					"text" : "j.message merge @repetitions/allow 1 @description \"merge a bank file with current banks\"",
+					"text" : "j.message merge @repetitions/filter 0 @description \"merge a bank file with current banks\"",
 					"patching_rect" : [ 666.0, 234.0, 493.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-9",
@@ -493,7 +493,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[8]",
-					"text" : "j.message multicoll @repetitions/allow 1 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
+					"text" : "j.message multicoll @repetitions/filter 0 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
 					"linecount" : 2,
 					"patching_rect" : [ 664.0, 285.0, 532.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -509,7 +509,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[7]",
-					"text" : "j.message coll @repetitions/allow 1 @description \"load a bunch of files itemised in a collection\"",
+					"text" : "j.message coll @repetitions/filter 0 @description \"load a bunch of files itemised in a collection\"",
 					"patching_rect" : [ 664.0, 264.0, 511.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-2",
@@ -524,7 +524,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[6]",
-					"text" : "j.message folder @repetitions/allow 1 @description \"load a folder of sound file\"",
+					"text" : "j.message folder @repetitions/filter 0 @description \"load a folder of sound file\"",
 					"linecount" : 2,
 					"patching_rect" : [ 395.0, 221.0, 224.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -540,7 +540,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[5]",
-					"text" : "j.message file @repetitions/allow 1 @description \"load a single sound file\"",
+					"text" : "j.message file @repetitions/filter 0 @description \"load a single sound file\"",
 					"linecount" : 2,
 					"patching_rect" : [ 367.0, 181.0, 219.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -591,7 +591,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[4]",
-					"text" : "j.parameter mono @repetitions/allow 1 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
+					"text" : "j.parameter mono @repetitions/filter 0 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
 					"linecount" : 2,
 					"patching_rect" : [ 662.0, 45.0, 525.0, 31.0 ],
 					"outlettype" : [ "", "", "" ],
@@ -639,7 +639,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[3]",
-					"text" : "j.message write @repetitions/allow 1 @description \"write text file\"",
+					"text" : "j.message write @repetitions/filter 0 @description \"write text file\"",
 					"patching_rect" : [ 666.0, 192.0, 457.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-41",
@@ -672,7 +672,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[2]",
-					"text" : "j.message clear @repetitions/allow 1 @description \"delete all buffers\"",
+					"text" : "j.message clear @repetitions/filter 0 @description \"delete all buffers\"",
 					"patching_rect" : [ 665.0, 147.0, 457.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-31",
@@ -795,7 +795,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[1]",
-					"text" : "j.message read @repetitions/allow 1 @description \"read text file\"",
+					"text" : "j.message read @repetitions/filter 0 @description \"read text file\"",
 					"patching_rect" : [ 665.0, 105.0, 457.0, 19.0 ],
 					"outlettype" : [ "", "", "" ],
 					"id" : "obj-19",

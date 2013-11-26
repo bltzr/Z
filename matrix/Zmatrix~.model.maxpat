@@ -1487,7 +1487,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 210.0, 209.0, 313.0, 67.0 ],
-					"text" : "j.parameter interpolate @type decimal @range/clipmode both @ramp/drive Max @ramp/function linear @repetitions/allow 1 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
+					"text" : "j.parameter interpolate @type decimal @range/clipmode both @ramp/drive Max @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
 					"varname" : "interpolate"
 				}
 

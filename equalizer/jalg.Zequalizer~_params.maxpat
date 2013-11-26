@@ -46,7 +46,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 465.0, 520.0, 31.0 ],
-					"text" : "j.parameter filter.0/gain @type decimal @range/bounds -24 24 @range/clipmode both @ramp/drive scheduler @repetitions/allow 0 @description \"Gain (dB)\" @priority 11"
+					"text" : "j.parameter filter.0/gain @type decimal @range/bounds -24 24 @range/clipmode both @ramp/drive scheduler @repetitions/filter 1 @description \"Gain (dB)\" @priority 11"
 				}
 
 			}
@@ -1214,7 +1214,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 520.0, 520.0, 31.0 ],
-					"text" : "j.parameter filter.0/freq @type decimal @range/bounds 30. 11025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 0 @description \"Center frequency (Hz)\" @priority 12"
+					"text" : "j.parameter filter.0/freq @type decimal @range/bounds 30. 11025. @range/clipmode both @ramp/drive scheduler @repetitions/filter 1 @description \"Center frequency (Hz)\" @priority 12"
 				}
 
 			}
@@ -1229,7 +1229,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 390.0, 525.0, 31.0 ],
-					"text" : "j.parameter filter.0/Q @type decimal @ramp/drive scheduler @range/bounds 0. 100. @range/clipmode both @repetitions/allow 0 @description \"Resonance (Q)\" @priority 10"
+					"text" : "j.parameter filter.0/Q @type decimal @ramp/drive scheduler @range/bounds 0. 100. @range/clipmode both @repetitions/filter 1 @description \"Resonance (Q)\" @priority 10"
 				}
 
 			}

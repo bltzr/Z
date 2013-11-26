@@ -864,7 +864,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 366.0, 97.0, 206.0, 75.0 ],
-					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/allow 0"
+					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/filter 1"
 				}
 
 			}
@@ -2637,7 +2637,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 408.0, 311.0, 189.0, 62.0 ],
-									"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/allow 1"
+									"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/filter 0"
 								}
 
 							}

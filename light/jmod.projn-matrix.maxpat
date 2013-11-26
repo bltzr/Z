@@ -1722,7 +1722,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 224.0, 22.0, 119.0, 103.0 ],
-									"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 1 @repetitions/allow 1"
+									"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 1 @repetitions/filter 0"
 								}
 
 							}

@@ -434,7 +434,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[6]",
-					"text" : "j.message IR.2/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+					"text" : "j.message IR.2/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
 					"linecount" : 2,
 					"id" : "obj-72",
 					"fontname" : "Verdana",
@@ -571,7 +571,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[5]",
-					"text" : "j.message IR.1/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+					"text" : "j.message IR.1/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
 					"linecount" : 2,
 					"id" : "obj-84",
 					"fontname" : "Verdana",
@@ -637,7 +637,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[4]",
-					"text" : "j.message IR.2/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"text" : "j.message IR.2/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 					"linecount" : 2,
 					"id" : "obj-71",
 					"fontname" : "Verdana",
@@ -1315,7 +1315,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "these 2 should be set @repetitions/allow 0, but it causes too much trouble on init... waiting for a fix",
+									"text" : "these 2 should be set @repetitions/filter 1, but it causes too much trouble on init... waiting for a fix",
 									"linecount" : 2,
 									"id" : "obj-64",
 									"fontname" : "Arial",
@@ -3430,7 +3430,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[9]",
-									"text" : "j.message IR.4/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+									"text" : "j.message IR.4/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 									"linecount" : 2,
 									"id" : "obj-111",
 									"fontname" : "Verdana",
@@ -3474,7 +3474,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[10]",
-									"text" : "j.message IR.3/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+									"text" : "j.message IR.3/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 									"linecount" : 2,
 									"id" : "obj-116",
 									"fontname" : "Verdana",
@@ -3515,7 +3515,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[7]",
-									"text" : "j.message IR.4/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+									"text" : "j.message IR.4/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
 									"linecount" : 2,
 									"id" : "obj-76",
 									"fontname" : "Verdana",
@@ -3556,7 +3556,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[8]",
-									"text" : "j.message IR.3/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+									"text" : "j.message IR.3/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
 									"linecount" : 2,
 									"id" : "obj-90",
 									"fontname" : "Verdana",
@@ -3764,7 +3764,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "hue_angle[3]",
-									"text" : "j.parameter channels @repetitions/allow 1 @type integer @range/bounds 1 4 @range/clipmode both @priority 4 @description \"Number of active processing channels\"",
+									"text" : "j.parameter channels @repetitions/filter 0 @type integer @range/bounds 1 4 @range/clipmode both @priority 4 @description \"Number of active processing channels\"",
 									"linecount" : 2,
 									"id" : "obj-31",
 									"fontname" : "Verdana",
@@ -3800,7 +3800,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "module_in[1]",
-									"text" : "j.parameter SegmentSize @repetitions/allow 1 @type integer",
+									"text" : "j.parameter SegmentSize @repetitions/filter 0 @type integer",
 									"id" : "obj-86",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -5411,7 +5411,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle",
-					"text" : "j.message IR.1/open @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"text" : "j.message IR.1/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 					"linecount" : 2,
 					"id" : "obj-29",
 					"fontname" : "Verdana",

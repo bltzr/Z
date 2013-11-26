@@ -16344,7 +16344,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 269.0, 76.0, 286.0, 38.0 ],
-													"text" : "j.message pivot/angle @range/bounds -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/allow 1",
+													"text" : "j.message pivot/angle @range/bounds -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[2]"
 												}
 
@@ -16361,7 +16361,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 57.0, 30.0, 300.0, 38.0 ],
-													"text" : "j.message pivot/amplitude @type decimal @range/bounds 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/allow 1",
+													"text" : "j.message pivot/amplitude @type decimal @range/bounds 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -16432,7 +16432,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 192.0, 457.0, 300.0, 38.0 ],
-													"text" : "j.message radial/size @type decimal @range/bounds 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/allow 1",
+													"text" : "j.message radial/size @type decimal @range/bounds 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[4]"
 												}
 
@@ -16449,7 +16449,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 165.0, 551.0, 275.0, 38.0 ],
-													"text" : "j.message radial/angle @range/bounds -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/allow 1",
+													"text" : "j.message radial/angle @range/bounds -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[5]"
 												}
 
@@ -17665,7 +17665,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 30.0, 436.0, 464.0, 27.0 ],
-													"text" : "j.message position.2/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/allow 1",
+													"text" : "j.message position.2/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[4]"
 												}
 
@@ -17682,7 +17682,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 78.0, 476.0, 466.0, 27.0 ],
-													"text" : "j.message position.2/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/allow 1",
+													"text" : "j.message position.2/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[5]"
 												}
 
@@ -19242,7 +19242,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 30.0, 393.0, 464.0, 27.0 ],
-													"text" : "j.message position.1/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/allow 1",
+													"text" : "j.message position.1/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[4]"
 												}
 
@@ -19259,7 +19259,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 78.0, 425.0, 466.0, 27.0 ],
-													"text" : "j.message position.1/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/allow 1",
+													"text" : "j.message position.1/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[5]"
 												}
 

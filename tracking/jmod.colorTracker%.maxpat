@@ -214,7 +214,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 311.0, 345.0, 31.0 ],
-					"text" : "j.parameter toleranceB @repetitions/allow 1 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceB @repetitions/filter 0 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[3]"
 				}
 
@@ -230,7 +230,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 236.0, 347.0, 31.0 ],
-					"text" : "j.parameter toleranceG @repetitions/allow 1 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceG @repetitions/filter 0 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -246,7 +246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 163.0, 345.0, 31.0 ],
-					"text" : "j.parameter toleranceR @repetitions/allow 1 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceR @repetitions/filter 0 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[2]"
 				}
 
@@ -456,7 +456,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 496.0, 21.0, 456.0, 19.0 ],
-					"text" : "j.parameter color @repetitions/allow 1 @type array @description \"Color to track\"",
+					"text" : "j.parameter color @repetitions/filter 0 @type array @description \"Color to track\"",
 					"varname" : "hue_angle"
 				}
 

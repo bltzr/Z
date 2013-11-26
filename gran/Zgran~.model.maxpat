@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1658.0, 97.0, 1044.0, 631.0 ],
+		"rect" : [ 489.0, 200.0, 1044.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -51,7 +51,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 465.5, 213.0, 395.0, 19.0 ],
-					"text" : "j.message display/length @type decimal @priority 12 @repetitions/allow 0"
+					"text" : "j.message display/length @type decimal @priority 12 @repetitions/filter 1"
 				}
 
 			}
@@ -65,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 453.0, 181.0, 379.0, 19.0 ],
-					"text" : "j.message display/start @type decimal @priority 13 @repetitions/allow 0"
+					"text" : "j.message display/start @type decimal @priority 13 @repetitions/filter 1"
 				}
 
 			}
@@ -97,7 +97,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -620,7 +620,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 373.0, 484.0, 579.0, 15.0 ],
-					"text" : "grain 1 155. 1. 0.5 54.104156 1. 1. 1. 0."
+					"text" : "grain 667 23490. 2.804099 0.525668 16821.689453 1. 1. 1. 0."
 				}
 
 			}
@@ -652,11 +652,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 805.0, 419.0, 462.0, 623.0 ],
+						"rect" : [ 1328.0, 366.0, 462.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -676,6 +676,36 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 9.0,
+									"id" : "obj-22",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 316.0, 161.0, 50.0, 26.0 ],
+									"presentation_rect" : [ 321.0, 161.0, 0.0, 0.0 ],
+									"text" : "3.183977"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 9.0,
+									"id" : "obj-21",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 255.0, 161.0, 50.0, 15.0 ],
+									"text" : "3.99293"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 9.0,
@@ -798,7 +828,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 110.5, 217.0, 136.0, 19.0 ],
-									"text" : "j.receive pitch"
+									"text" : "j.receive pitch/val"
 								}
 
 							}
@@ -828,7 +858,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 457.0, 266.0, 27.0 ],
-									"text" : "j.parameter continuous @type integer @repetitions/allow 1 @description \"One shot/ continuous play mode.\" @priority 28",
+									"text" : "j.parameter continuous @type integer @repetitions/filter 0 @description \"One shot/ continuous play mode.\" @priority 28",
 									"varname" : "jmod.parameter.mxb[5]"
 								}
 
@@ -845,7 +875,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 87.0, 31.0, 279.0, 37.0 ],
-									"text" : "j.parameter density/val @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
+									"text" : "j.parameter density/val @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/filter 1 @description \"desired grain density\" @priority 24",
 									"varname" : "dispstart[1]"
 								}
 
@@ -862,7 +892,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 157.0, 85.0, 280.0, 37.0 ],
-									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"jitterr around grain density\" @priority 24",
+									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/filter 1 @description \"jitterr around grain density\" @priority 24",
 									"varname" : "dispstart[2]"
 								}
 
@@ -1183,6 +1213,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-21", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-142", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1268,6 +1307,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-23", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -1437,7 +1485,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1788,7 +1836,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -2218,7 +2266,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -2612,7 +2660,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -2930,7 +2978,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -3439,7 +3487,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -4017,7 +4065,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -4109,7 +4157,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 189.0, 262.0, 249.0, 28.0 ],
-									"text" : "j.message sound/random @repetitions/allow 1 @description \"message to trigger menu change\"",
+									"text" : "j.message sound/random @repetitions/filter 0 @description \"message to trigger menu change\"",
 									"varname" : "hue_angle[1]"
 								}
 
@@ -4128,7 +4176,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -4591,7 +4639,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -4900,7 +4948,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 67.0, 49.0, 371.0, 17.0 ],
-									"text" : "j.parameter sound/bufferpool @type generic @priority 1 @repetitions/allow 1 @tag init",
+									"text" : "j.parameter sound/bufferpool @type generic @priority 1 @repetitions/filter 0 @tag init",
 									"varname" : "sample/buffername[3]"
 								}
 
@@ -4951,7 +4999,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -5044,7 +5092,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -5497,7 +5545,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -5798,7 +5846,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -7090,46 +7138,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.random.maxpat",
-				"bootpath" : "/Users/bltzr/dev/Jamoma/Implementations/Max/Jamoma/patchers/components/random",
-				"patcherrelativepath" : "../../../Jamoma/Implementations/Max/Jamoma/patchers/components/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bufGranul~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out~.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

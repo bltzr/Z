@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 891.0, 72.0, 737.0, 607.0 ],
+		"rect" : [ 891.0, 72.0, 764.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 109.0, 512.0, 34.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -175,8 +189,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 25.0, 88.199997, 190.0, 55.0 ],
-					"text" : "j.message #1/buffer @type generic @repetitions/allow 1 @description \"Open buffer window, displaying impulse response\"",
+					"patching_rect" : [ 25.0, 88.199997, 192.0, 55.0 ],
+					"text" : "j.message #1/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
 					"varname" : "hue_angle[5]"
 				}
 
@@ -194,8 +208,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 442.0, 111.0, 253.0, 294.0 ],
@@ -510,8 +525,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 164.0, 666.0, 467.0, 234.0 ],
@@ -777,7 +793,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 235.0, 89.0, 307.0, 55.0 ],
-					"text" : "j.parameter #1/file @type generic @repetitions/allow 1 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\" @value/default none",
+					"text" : "j.parameter #1/file @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\" @value/default none",
 					"varname" : "hue_angle"
 				}
 
@@ -793,7 +809,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 358.0, 154.0, 343.0, 31.0 ],
-					"text" : "j.message #1/mute @type integer @repetitions/allow 1 @description \"1 mutes processing of convolution for this IR\"",
+					"text" : "j.message #1/mute @type integer @repetitions/filter 0 @description \"1 mutes processing of convolution for this IR\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -881,8 +897,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 971.0, 60.0, 687.0, 554.0 ],
@@ -1765,9 +1782,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.0, 512.0, 83.0, 17.0 ],
-					"text" : "tconvolutionUB~"
+					"text" : "tconvolutionUB~~"
 				}
 
 			}
@@ -2078,6 +2095,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2139,6 +2165,34 @@
 					"source" : [ "obj-84", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.thru.maxpat",
+				"bootpath" : "/Users/tumble/dev/Jamoma/Implementations/Max/Jamoma/patchers/components/thru",
+				"patcherrelativepath" : "../../../Jamoma/Implementations/Max/Jamoma/patchers/components/thru",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.dataspace.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

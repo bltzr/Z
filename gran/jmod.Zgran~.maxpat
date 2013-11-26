@@ -728,7 +728,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 145.0, 663.0, 279.0, 38.0 ],
-					"text" : "j.parameter density @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"desired grain density\" @priority 24",
+					"text" : "j.parameter density @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/filter 1 @description \"desired grain density\" @priority 24",
 					"varname" : "dispstart[1]"
 				}
 
@@ -782,7 +782,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 357.0, 159.0, 304.0, 28.0 ],
-					"text" : "j.message sound/random @repetitions/allow 1 @description \"message to trigger menu change\"",
+					"text" : "j.message sound/random @repetitions/filter 0 @description \"message to trigger menu change\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -1416,7 +1416,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 135.0, 618.0, 254.0, 38.0 ],
-					"text" : "j.parameter continuous @type integer @repetitions/allow 1 @description \"One shot/ continuous play mode.\" @priority 28",
+					"text" : "j.parameter continuous @type integer @repetitions/filter 0 @description \"One shot/ continuous play mode.\" @priority 28",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -6322,7 +6322,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 140.0, 355.0, 280.0, 38.0 ],
-									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/allow 0 @description \"jitterr around grain density\" @priority 24",
+									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/filter 1 @description \"jitterr around grain density\" @priority 24",
 									"varname" : "dispstart[2]"
 								}
 

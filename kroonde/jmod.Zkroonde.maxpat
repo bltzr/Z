@@ -1475,7 +1475,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 116.0, 430.0, 259.0, 38.0 ],
-					"text" : "j.return sensor/value @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/allow 1 @description \"scaled value from the sensor\""
+					"text" : "j.return sensor/value @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/filter 0 @description \"scaled value from the sensor\""
 				}
 
 			}

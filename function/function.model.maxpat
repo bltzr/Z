@@ -1604,7 +1604,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 295.363647, 365.909088, 331.0, 29.0 ],
-					"text" : "j.parameter max @type decimal @ramp/drive Max @priority 5 @repetitions/allow 0"
+					"text" : "j.parameter max @type decimal @ramp/drive Max @priority 5 @repetitions/filter 1"
 				}
 
 			}
@@ -1619,7 +1619,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 250.181824, 328.0, 337.0, 29.0 ],
-					"text" : "j.parameter min @type decimal @ramp/drive Max @priority 6 @repetitions/allow 0"
+					"text" : "j.parameter min @type decimal @ramp/drive Max @priority 6 @repetitions/filter 1"
 				}
 
 			}

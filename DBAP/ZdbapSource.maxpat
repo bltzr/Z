@@ -2775,7 +2775,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 783.5, 197.5, 179.0, 74.0 ],
-									"text" : "j.parameter trajectory/file @type string @description \"trajectory file\" @priority 1 @value/default DBAPspat.xml @repetitions/allow 0 @priority 7"
+									"text" : "j.parameter trajectory/file @type string @description \"trajectory file\" @priority 1 @value/default DBAPspat.xml @repetitions/filter 1 @priority 7"
 								}
 
 							}
@@ -4706,7 +4706,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 38.0, 11.0, 253.0, 37.0 ],
-									"text" : "j.message position/distance @type decimal @range/bounds 0 360 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/allow 1",
+									"text" : "j.message position/distance @type decimal @range/bounds 0 360 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
 
@@ -4723,7 +4723,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 78.0, 54.0, 222.0, 37.0 ],
-									"text" : "j.message position/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/allow 1",
+									"text" : "j.message position/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[5]"
 								}
 

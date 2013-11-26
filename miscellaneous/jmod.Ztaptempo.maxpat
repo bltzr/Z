@@ -127,7 +127,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "wait_time[5]",
-					"text" : "j.parameter subdivision @repetitions/allow 1 @type integer @description \"tap subdivision\"",
+					"text" : "j.parameter subdivision @repetitions/filter 0 @type integer @description \"tap subdivision\"",
 					"linecount" : 2,
 					"numoutlets" : 3,
 					"fontsize" : 9.873845,
@@ -189,7 +189,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "wait_time[2]",
-					"text" : "j.message trigger @repetitions/allow 1 @description trigger",
+					"text" : "j.message trigger @repetitions/filter 0 @description trigger",
 					"numoutlets" : 3,
 					"fontsize" : 9.873845,
 					"outlettype" : [ "", "", "" ],

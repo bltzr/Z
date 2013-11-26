@@ -228,7 +228,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 48.0, 498.0, 394.0, 27.0 ],
-					"text" : "j.parameter direction @type integer @repetitions/allow 0 @description \"Select the way the file should be played (forward or backward).\" @priority 27",
+					"text" : "j.parameter direction @type integer @repetitions/filter 1 @description \"Select the way the file should be played (forward or backward).\" @priority 27",
 					"varname" : "direction"
 				}
 
@@ -299,7 +299,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 80.0, 545.0, 401.0, 27.0 ],
-					"text" : "j.parameter pitch @type decimal @range/bounds 0.01 20. @range/clipmode both @repetitions/allow 0 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 8",
+					"text" : "j.parameter pitch @type decimal @range/bounds 0.01 20. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 8",
 					"varname" : "pitch"
 				}
 
@@ -316,7 +316,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 672.0, 678.0, 412.0, 27.0 ],
-					"text" : "j.parameter selection/start @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 0 @description \"Start of the selected region\" @priority 6",
+					"text" : "j.parameter selection/start @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/filter 1 @description \"Start of the selected region\" @priority 6",
 					"varname" : "selstart"
 				}
 
@@ -347,7 +347,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 698.0, 711.0, 390.0, 27.0 ],
-					"text" : "j.parameter selection/end @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/allow 0 @description \"size of the selected region\" @priority 7",
+					"text" : "j.parameter selection/end @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/filter 1 @description \"size of the selected region\" @priority 7",
 					"varname" : "selend"
 				}
 
@@ -981,7 +981,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 25.0, 295.0, 444.0, 28.0 ],
-					"text" : "j.message changeitem @type string @repetitions/allow 1 @description \"message to trigger change item from buffer menu : random, next or prev\"",
+					"text" : "j.message changeitem @type string @repetitions/filter 0 @description \"message to trigger change item from buffer menu : random, next or prev\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -2160,7 +2160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 42.0, 425.0, 320.0, 27.0 ],
-					"text" : "j.parameter play @type integer @repetitions/allow 1 @description \"Play current sound.\" @priority 10",
+					"text" : "j.parameter play @type integer @repetitions/filter 0 @description \"Play current sound.\" @priority 10",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -5854,7 +5854,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 616.0, 612.0, 405.0, 27.0 ],
-					"text" : "j.parameter display/start @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/allow 0 @description \"Start of the diplayed region (ms)\" @priority 4",
+					"text" : "j.parameter display/start @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/filter 1 @description \"Start of the diplayed region (ms)\" @priority 4",
 					"varname" : "dispstart"
 				}
 
@@ -5871,7 +5871,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 642.0, 646.0, 403.0, 27.0 ],
-					"text" : "j.parameter display/length @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/allow 0 @description \"End of the diplayed region (ms)\" @priority 5",
+					"text" : "j.parameter display/length @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/filter 1 @description \"End of the diplayed region (ms)\" @priority 5",
 					"varname" : "dispend"
 				}
 
@@ -6227,7 +6227,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 80.0, 585.0, 380.0, 27.0 ],
-					"text" : "j.parameter loopmode @type integer @repetitions/allow 0 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 9",
+					"text" : "j.parameter loopmode @type integer @repetitions/filter 1 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 9",
 					"varname" : "loop"
 				}
 

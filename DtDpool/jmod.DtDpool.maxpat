@@ -509,7 +509,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 14.0, 362.0, 458.0, 31.0 ],
-					"text" : "j.parameter mainfolder @type array @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 30",
+					"text" : "j.parameter mainfolder @type array @repetitions/filter 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 30",
 					"varname" : "j.parameter.mxb[2]"
 				}
 
@@ -525,7 +525,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 561.0, 175.0, 463.0, 28.0 ],
-					"text" : "j.message type @type string @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"text" : "j.message type @type string @repetitions/filter 0 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
 					"varname" : "j.parameter.mxb[1]"
 				}
 
@@ -582,7 +582,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 427.0, 238.0, 626.0, 17.0 ],
-					"text" : "j.message path @type array @repetitions/allow 0 @description \"path of the parent folder dropped in, containing the sound files \"",
+					"text" : "j.message path @type array @repetitions/filter 1 @description \"path of the parent folder dropped in, containing the sound files \"",
 					"varname" : "j.parameter.mxb[10]"
 				}
 

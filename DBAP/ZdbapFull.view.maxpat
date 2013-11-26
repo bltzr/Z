@@ -3947,7 +3947,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 713.0, 380.0, 198.0, 27.0 ],
-					"text" : "j.parameter source-selected @type integer @repetitions/allow 0"
+					"text" : "j.parameter source-selected @type integer @repetitions/filter 1"
 				}
 
 			}

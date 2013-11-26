@@ -240,7 +240,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 100.0, 332.0, 31.0 ],
-									"text" : "j.parameter edit @repetitions/allow 1 @type string @description \"Choose operation mode (active, edit, bypass)\"",
+									"text" : "j.parameter edit @repetitions/filter 0 @type string @description \"Choose operation mode (active, edit, bypass)\"",
 									"varname" : "j.parameter[10]"
 								}
 

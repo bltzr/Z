@@ -875,7 +875,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 12.0, 9.0, 290.0, 17.0 ],
-																	"text" : "j.message sound/number/play @type integer @repetitions/allow 0"
+																	"text" : "j.message sound/number/play @type integer @repetitions/filter 1"
 																}
 
 															}
@@ -890,7 +890,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 35.0, 223.0, 275.0, 17.0 ],
-																	"text" : "j.return sound/number @type integer @repetitions/allow 0"
+																	"text" : "j.return sound/number @type integer @repetitions/filter 1"
 																}
 
 															}

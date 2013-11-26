@@ -34,7 +34,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[8]",
-					"text" : "j.message multicoll @repetitions/allow 1 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
+					"text" : "j.message multicoll @repetitions/filter 0 @description \"load a bunch of bunches of files itemised in a collection of collections\"",
 					"linecount" : 2,
 					"id" : "obj-4",
 					"numinlets" : 1,
@@ -50,7 +50,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[7]",
-					"text" : "j.message coll @repetitions/allow 1 @description \"load a bunch of files itemised in a collection\"",
+					"text" : "j.message coll @repetitions/filter 0 @description \"load a bunch of files itemised in a collection\"",
 					"id" : "obj-2",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -65,7 +65,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[6]",
-					"text" : "j.message folder @repetitions/allow 1 @description \"load a folder of sound file\"",
+					"text" : "j.message folder @repetitions/filter 0 @description \"load a folder of sound file\"",
 					"linecount" : 2,
 					"id" : "obj-34",
 					"numinlets" : 1,
@@ -81,7 +81,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[5]",
-					"text" : "j.message file @repetitions/allow 1 @description \"load a single sound file\"",
+					"text" : "j.message file @repetitions/filter 0 @description \"load a single sound file\"",
 					"linecount" : 2,
 					"id" : "obj-23",
 					"numinlets" : 1,
@@ -132,7 +132,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[4]",
-					"text" : "j.parameter mono @repetitions/allow 1 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
+					"text" : "j.parameter mono @repetitions/filter 0 @type boolean @description \"load only 1rst channel of each sound file\" @priority 1",
 					"linecount" : 2,
 					"id" : "obj-57",
 					"numinlets" : 1,
@@ -180,7 +180,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[3]",
-					"text" : "j.message write @repetitions/allow 1 @description \"write text file\"",
+					"text" : "j.message write @repetitions/filter 0 @description \"write text file\"",
 					"id" : "obj-41",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -213,7 +213,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[2]",
-					"text" : "j.message clear @repetitions/allow 1 @description \"delete all buffers\"",
+					"text" : "j.message clear @repetitions/filter 0 @description \"delete all buffers\"",
 					"id" : "obj-31",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -378,7 +378,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle[1]",
-					"text" : "j.message read @repetitions/allow 1 @description \"read text file\"",
+					"text" : "j.message read @repetitions/filter 0 @description \"read text file\"",
 					"id" : "obj-19",
 					"numinlets" : 1,
 					"fontname" : "Verdana",
@@ -393,7 +393,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "hue_angle",
-					"text" : "j.parameter buffers_list @repetitions/allow 1 @type array @description \"list of buffers\" @priority 2",
+					"text" : "j.parameter buffers_list @repetitions/filter 0 @type array @description \"list of buffers\" @priority 2",
 					"linecount" : 2,
 					"id" : "obj-29",
 					"numinlets" : 1,

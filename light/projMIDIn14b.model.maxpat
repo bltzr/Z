@@ -200,7 +200,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 477.0, 247.0, 60.0 ],
-									"text" : "j.parameter mod-instances @type array @description \"Instances to include in the fluct/frag random generators\" @priority 2 @repetitions/allow 1"
+									"text" : "j.parameter mod-instances @type array @description \"Instances to include in the fluct/frag random generators\" @priority 2 @repetitions/filter 0"
 								}
 
 							}
@@ -374,7 +374,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 153.5, 343.0, 329.0, 33.0 ],
-					"text" : "j.parameter MIDIChannel @type integer@description \"MIDI channel\" @priority 2 @repetitions/allow 1 @tag setup"
+					"text" : "j.parameter MIDIChannel @type integer@description \"MIDI channel\" @priority 2 @repetitions/filter 0 @tag setup"
 				}
 
 			}
@@ -405,7 +405,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 302.0, 132.0, 184.0, 60.0 ],
-					"text" : "j.parameter startChannels @type array @description \"MIDI start channels\" @priority 2 @repetitions/allow 1 @tag setup"
+					"text" : "j.parameter startChannels @type array @description \"MIDI start channels\" @priority 2 @repetitions/filter 0 @tag setup"
 				}
 
 			}
@@ -534,7 +534,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.5, 14.0, 479.5, 33.0 ],
-					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/allow 0 @tag setup"
+					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/filter 1 @tag setup"
 				}
 
 			}

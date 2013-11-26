@@ -281,7 +281,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "max_bands",
-									"text" : "t max_bands @type integer @range/bounds 1 24 @range/clipmode both @repetitions/allow 0 @ramp/drive none @description \"Maximum Number of bands of the filter\"",
+									"text" : "t max_bands @type integer @range/bounds 1 24 @range/clipmode both @repetitions/filter 1 @ramp/drive none @description \"Maximum Number of bands of the filter\"",
 									"linecount" : 3,
 									"id" : "obj-8",
 									"fontname" : "Verdana",
@@ -545,7 +545,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "bands",
-					"text" : "j.parameter bands @type integer @repetitions/allow 1 @priority 1 @description \"Number of bands of the filter\"",
+					"text" : "j.parameter bands @type integer @repetitions/filter 0 @priority 1 @description \"Number of bands of the filter\"",
 					"linecount" : 2,
 					"id" : "obj-12",
 					"fontname" : "Verdana",

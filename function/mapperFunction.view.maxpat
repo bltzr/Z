@@ -1277,7 +1277,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 34.0, 51.0, 332.0, 31.0 ],
-									"text" : "j.parameter edit @repetitions/allow 1 @type string @description \"Choose operation mode (active, edit, bypass)\"",
+									"text" : "j.parameter edit @repetitions/filter 0 @type string @description \"Choose operation mode (active, edit, bypass)\"",
 									"varname" : "j.parameter[10]"
 								}
 
@@ -1680,7 +1680,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 39.0, 592.0, 166.0, 41.0 ],
-					"text" : "j.parameter modelInstance @type string @repetitions/allow 1 @priority 1"
+					"text" : "j.parameter modelInstance @type string @repetitions/filter 0 @priority 1"
 				}
 
 			}
@@ -1724,7 +1724,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 217.0, 586.0, 206.0, 52.0 ],
-					"text" : "j.parameter submodelInstance @type integer @range/bounds 1 10 @range/clipmode both @repetitions/allow 0 @priority 2"
+					"text" : "j.parameter submodelInstance @type integer @range/bounds 1 10 @range/clipmode both @repetitions/filter 1 @priority 2"
 				}
 
 			}

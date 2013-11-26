@@ -305,7 +305,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 238.928589, 629.0, 353.0, 33.0 ],
-					"text" : "j.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/allow 1 @value/default 1"
+					"text" : "j.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/filter 0 @value/default 1"
 				}
 
 			}
@@ -467,7 +467,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 374.384155, 44.5, 229.0, 47.0 ],
-					"text" : "j.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/allow 1"
+					"text" : "j.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/filter 0"
 				}
 
 			}

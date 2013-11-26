@@ -17473,7 +17473,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 55.0, 359.0, 464.0, 27.0 ],
-													"text" : "j.message position.1/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/allow 1",
+													"text" : "j.message position.1/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[4]"
 												}
 
@@ -17490,7 +17490,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 103.0, 391.0, 466.0, 27.0 ],
-													"text" : "j.message position.1/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/allow 1",
+													"text" : "j.message position.1/angle @type decimal @ramp/drive scheduler @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[5]"
 												}
 

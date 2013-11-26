@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -35,7 +35,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 311.0, 49.0, 18.0 ],
+					"patching_rect" : [ 6.0, 324.0, 49.0, 18.0 ],
 					"text" : "s toDMX"
 				}
 
@@ -49,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 285.0, 49.0, 18.0 ],
+					"patching_rect" : [ 6.0, 298.0, 49.0, 18.0 ],
 					"text" : "zl rev"
 				}
 
@@ -63,7 +63,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 6.5, 235.0, 34.0, 18.0 ],
+					"patching_rect" : [ 6.5, 248.0, 34.0, 18.0 ],
 					"text" : "i"
 				}
 
@@ -77,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 141.0, 188.0, 56.0, 18.0 ],
+					"patching_rect" : [ 141.0, 201.0, 56.0, 18.0 ],
 					"text" : "t b i"
 				}
 
@@ -91,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.5, 211.0, 180.5, 18.0 ],
+					"patching_rect" : [ 140.5, 224.0, 180.5, 18.0 ],
 					"text" : "zl reg"
 				}
 
@@ -105,7 +105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.5, 235.0, 56.0, 18.0 ],
+					"patching_rect" : [ 140.5, 248.0, 56.0, 18.0 ],
 					"text" : "zl nth"
 				}
 
@@ -123,7 +123,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -158,7 +158,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 477.0, 247.0, 60.0 ],
-									"text" : "j.parameter mod-instances @type array @description \"Instances to include in the fluct/frag random generators\" @priority 2 @repetitions/allow 1"
+									"text" : "j.parameter mod-instances @type array @description \"Instances to include in the fluct/frag random generators\" @priority 2 @repetitions/filter 0"
 								}
 
 							}
@@ -332,7 +332,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 302.0, 118.5, 177.0, 74.0 ],
-					"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/allow 1 @tag setup"
+					"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/filter 0 @tag setup"
 				}
 
 			}
@@ -373,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 6.5, 188.0, 37.0, 18.0 ],
+					"patching_rect" : [ 6.5, 201.0, 37.0, 18.0 ],
 					"text" : "* 1."
 				}
 
@@ -398,13 +398,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-31",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 6.5, 132.0, 288.0, 47.0 ],
-					"text" : "j.parameterArray intensity.[4] @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"patching_rect" : [ 6.5, 132.0, 288.0, 60.0 ],
+					"text" : "j.parameterArray intensity.[4] @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max @repetitions/filter 1"
 				}
 
 			}
@@ -415,7 +415,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 311.0, 294.0, 22.0, 22.0 ]
+					"patching_rect" : [ 311.0, 307.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -429,7 +429,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 242.0, 19.0, 19.0 ]
+					"patching_rect" : [ 311.0, 255.0, 19.0, 19.0 ]
 				}
 
 			}
@@ -443,7 +443,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 311.0, 268.0, 72.0, 20.0 ],
+					"patching_rect" : [ 311.0, 281.0, 72.0, 20.0 ],
 					"text" : "j.model",
 					"varname" : "_j_node"
 				}
@@ -461,7 +461,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.5, 7.0, 465.0, 47.0 ],
-					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/allow 0 @tag setup"
+					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/filter 1 @tag setup"
 				}
 
 			}
@@ -479,7 +479,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -597,7 +597,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -1245,7 +1245,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -2133,7 +2133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 6.5, 211.0, 37.0, 18.0 ],
+					"patching_rect" : [ 6.5, 224.0, 37.0, 18.0 ],
 					"text" : "* 255."
 				}
 
@@ -2147,7 +2147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 261.0, 153.5, 18.0 ],
+					"patching_rect" : [ 6.0, 274.0, 153.5, 18.0 ],
 					"text" : "zl join"
 				}
 

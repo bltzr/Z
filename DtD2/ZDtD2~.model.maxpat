@@ -186,7 +186,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 161.0, 581.0, 131.0, 48.0 ],
-					"text" : "j.parameter pause @type boolean @repetitions/allow 1 @description \"Play current sound.\" @priority 37",
+					"text" : "j.parameter pause @type boolean @repetitions/filter 0 @description \"Play current sound.\" @priority 37",
 					"varname" : "jmod.parameter.mxb[2]"
 				}
 
@@ -257,7 +257,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 226.0, 67.0, 318.0, 31.0 ],
-					"text" : "j.parameter file/name @type string @repetitions/allow 0 @description \"name of the soundfile played \" @priority 31",
+					"text" : "j.parameter file/name @type string @repetitions/filter 1 @description \"name of the soundfile played \" @priority 31",
 					"varname" : "j.parameter.mxb[7]"
 				}
 
@@ -4554,7 +4554,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 472.0, 583.0, 149.0, 69.0 ],
-					"text" : "j.parameter pitch @type decimal @range/bounds 0. 20. @range/clipmode both @repetitions/allow 0 @ramp/drive Max @description \"Select audio sample pitch.\" @priority 35",
+					"text" : "j.parameter pitch @type decimal @range/bounds 0. 20. @range/clipmode both @repetitions/filter 1 @ramp/drive Max @description \"Select audio sample pitch.\" @priority 35",
 					"varname" : "pitch"
 				}
 
@@ -4571,7 +4571,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 290.0, 191.0, 243.0, 27.0 ],
-					"text" : "j.parameter play @type boolean @repetitions/allow 0 @description \"Play current sound.\" @priority 36",
+					"text" : "j.parameter play @type boolean @repetitions/filter 1 @description \"Play current sound.\" @priority 36",
 					"varname" : "jmod.parameter.mxb[5]"
 				}
 
@@ -4587,7 +4587,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 135.0, 23.0, 367.0, 28.0 ],
-					"text" : "j.parameter path @type array @repetitions/allow 0 @description \"path of the parent folder dropped in, containing the sound files \" @priority 30",
+					"text" : "j.parameter path @type array @repetitions/filter 1 @description \"path of the parent folder dropped in, containing the sound files \" @priority 30",
 					"varname" : "j.parameter.mxb[10]"
 				}
 
@@ -4621,7 +4621,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 313.0, 231.0, 286.0, 27.0 ],
-					"text" : "j.parameter ramp/mode @type integer @repetitions/allow 1 @description \"Enveloppe mode : cut, fadein, fadeout\" @priority 32",
+					"text" : "j.parameter ramp/mode @type integer @repetitions/filter 0 @description \"Enveloppe mode : cut, fadein, fadeout\" @priority 32",
 					"varname" : "loop[2]"
 				}
 
@@ -4638,7 +4638,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 315.0, 582.0, 145.0, 69.0 ],
-					"text" : "j.parameter loop @type boolean @repetitions/allow 0 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 34",
+					"text" : "j.parameter loop @type boolean @repetitions/filter 1 @description \"Select the loopmode the file should be played (one shot or looped).\" @priority 34",
 					"varname" : "loop"
 				}
 

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ -811.0, 240.0, 488.0, 349.0 ],
+		"rect" : [ 366.0, 229.0, 488.0, 349.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -331,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 302.0, 118.5, 177.0, 74.0 ],
+					"patching_rect" : [ 302.0, 132.0, 177.0, 74.0 ],
 					"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/filter 0 @tag setup"
 				}
 
@@ -483,9 +483,9 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -1137.0, 217.0, 710.0, 566.0 ],
+						"rect" : [ 462.0, 216.0, 710.0, 566.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 1,
+						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1138,7 +1138,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 303.0, 17.0, 136.0, 74.0 ],
+									"patching_rect" : [ 367.0, 17.0, 136.0, 74.0 ],
 									"text" : "j.message spread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 								}
 
@@ -1168,7 +1168,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 153.0, 17.0, 136.0, 74.0 ],
+									"patching_rect" : [ 185.0, 17.0, 136.0, 74.0 ],
 									"text" : "j.message pan @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 								}
 
@@ -1226,7 +1226,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 473.0, 18.0, 146.0, 74.0 ],
+									"patching_rect" : [ 541.0, 17.0, 146.0, 74.0 ],
 									"text" : "j.message intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 								}
 

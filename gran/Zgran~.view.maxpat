@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 825.0, 241.0, 997.0, 613.0 ],
@@ -28,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 449.0, 54.0, 98.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 124.0, 5.0, 124.0, 11.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -63,25 +78,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 335.0, 17.0, 159.0, 19.0 ],
-					"text" : "j.receive out.1/amplitude"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "amplitude of output signal 1",
-					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-18",
-					"ignoreclick" : 1,
-					"maxclass" : "j.meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 335.0, 46.0, 85.0, 14.5 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 124.0, 2.0, 121.854172, 12.5 ]
+					"text" : "j.receive~ audio/out.1"
 				}
 
 			}
@@ -147,8 +146,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1149.0, 195.0, 672.0, 524.0 ],
@@ -267,8 +267,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 478.0, 112.0, 562.0, 300.0 ],
@@ -719,8 +720,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 800.0, 218.0, 640.0, 480.0 ],
@@ -1019,8 +1021,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 29.0, 67.0, 640.0, 480.0 ],
@@ -1915,7 +1918,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.384314, 0.462745, 0.65098, 1.0 ],
 					"bordercolor" : [ 0.831373, 0.05098, 0.031373, 1.0 ],
-					"buffername" : "ClimVibreeAigue.wav",
+					"buffername" : "RigoleBoucheTarnAigu.wav",
 					"clipdraw" : 1,
 					"grid" : 500.0,
 					"gridcolor" : [ 0.423529, 0.423529, 0.423529, 1.0 ],
@@ -2259,8 +2262,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 663.0, 214.0, 640.0, 480.0 ],
@@ -2735,7 +2739,7 @@
 					"fontsize" : 9.0,
 					"hint" : "select a buffer",
 					"id" : "obj-38",
-					"items" : [ "ClimInria.wav", ",", "ClimProcheMaths1.wav", ",", "ClimProcheMaths2.wav", ",", "ClimTremblementsMaths.wav", ",", "ClimVibreeAigue.wav", ",", "ClimVibreeLongue.wav", ",", "DebutClimLaBri.wav", ",", "NappeClim.wav", ",", "NappeClimHemicyclia1.wav", ",", "NappeClimHemicyclia2.wav", ",", "NappeClimHemicycliaPorte.wav", ",", "VentilationCloitre-Grave.L.wav", ",", "VentilationCloitre-Grave.R.wav" ],
+					"items" : [ "AmbianceRuePluieGouttiere.wav", ",", "EauAgiteeCentrale.wav", ",", "gouttesBrumiFort.wav", ",", "gouttesBrumiMulti.wav", ",", "RigoleBoucheTarn.wav", ",", "RigoleBoucheTarnAigu.wav", ",", "RigoleRiviere.wav", ",", "RigoleRiviereProche1.wav", ",", "RigoleRiviereProche2.L.wav", ",", "RigoleRiviereRigolo.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2848,8 +2852,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1412.0, 180.0, 238.0, 375.0 ],
@@ -2871,7 +2876,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3370,8 +3374,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 0.0, 44.0, 207.0, 112.0 ],
@@ -3437,8 +3442,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 29.0, 67.0, 258.0, 227.0 ],
@@ -4437,7 +4443,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]

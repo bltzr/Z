@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 4,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 622.0, 448.0, 862.0, 424.0 ],
@@ -27,35 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"linecount" : 7,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 748.0, 262.0, 108.0, 85.0 ],
-					"text" : "jcom.parameter gain @type decimal @ramp/drive Max @description volume @priority gain @value/default 1. @value/stepsize"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 47.0, 26.0, 62.0, 18.0 ],
-					"text" : "j.preset"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "button",
@@ -160,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 259.0, 70.0, 436.0, 31.0 ],
+					"patching_rect" : [ 259.0, 70.0, 438.0, 31.0 ],
 					"text" : "j.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
 					"varname" : "numSources[1]"
 				}
@@ -291,8 +263,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 256.0, 345.0 ],
@@ -341,8 +314,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 6,
-											"minor" : 0,
-											"revision" : 8
+											"minor" : 1,
+											"revision" : 4,
+											"architecture" : "x86"
 										}
 ,
 										"rect" : [ 25.0, 69.0, 201.0, 226.0 ],
@@ -939,8 +913,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 4,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 582.0, 338.0, 364.0, 415.0 ],
@@ -1486,7 +1461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 209.0, 313.0, 67.0 ],
+					"patching_rect" : [ 210.0, 209.0, 293.0, 67.0 ],
 					"text" : "j.parameter interpolate @type decimal @range/clipmode both @ramp/drive Max @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
 					"varname" : "interpolate"
 				}

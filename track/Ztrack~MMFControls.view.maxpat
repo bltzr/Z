@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,40 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 752.0, 74.07489, 100.0, 20.0 ],
+					"text" : "s show-srcs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 16.0,
+					"id" : "obj-4",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 752.0, 26.932159, 53.0, 35.285461 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 433.0, 33.0, 50.0, 33.0 ],
+					"rounded" : 2.0,
+					"text" : "show",
+					"texton" : "src",
+					"varname" : "show-src"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.74902, 0.505882, 0.133333, 0.8 ],
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -54,7 +88,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 328.5, 550.0, 153.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.77681, 352.094269, 323.180817, 37.482986 ],
+					"presentation_rect" : [ 108.77681, 274.181305, 323.180817, 37.482986 ],
 					"text" : "random_delay",
 					"varname" : "randomdelay"
 				}
@@ -86,7 +120,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 329.5, 497.0, 154.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.77681, 272.748444, 322.223206, 38.692799 ],
+					"presentation_rect" : [ 108.77681, 315.168213, 322.223206, 38.692799 ],
 					"text" : "position_randomness",
 					"varname" : "positionrandom"
 				}
@@ -133,7 +167,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 329.5, 522.0, 153.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.77681, 313.701111, 322.114746, 36.926128 ],
+					"presentation_rect" : [ 108.77681, 355.12088, 322.114746, 36.926128 ],
 					"text" : "length_randomness",
 					"varname" : "ototo"
 				}
@@ -236,7 +270,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 752.0, 111.0, 121.0, 17.0 ],
 					"text" : "mmf.umenu EnvMode",
 					"varname" : "patcher[3]"
@@ -307,7 +341,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -864,7 +898,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1421,7 +1455,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1989,7 +2023,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 761.0, 298.0, 57.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.038193, 161.369431, 47.300694, 26.0 ],
+					"presentation_rect" : [ 236.038193, 159.369431, 47.300694, 26.0 ],
 					"text" : "time",
 					"textcolor" : [ 0.070588, 0.113725, 1.0, 1.0 ]
 				}
@@ -2006,7 +2040,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 756.0, 392.0, 78.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.77681, 196.732391, 325.223206, 41.76704 ],
+					"presentation_rect" : [ 108.77681, 196.732391, 322.223206, 41.76704 ],
 					"size" : 2000.0,
 					"varname" : "alvtt2"
 				}
@@ -2023,7 +2057,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 757.0, 320.0, 78.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.77681, 154.971817, 325.223206, 41.710419 ],
+					"presentation_rect" : [ 108.77681, 152.971817, 322.223206, 41.710419 ],
 					"size" : 2000.0,
 					"varname" : "alvtt"
 				}
@@ -2040,7 +2074,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 754.0, 221.0, 82.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 223.649918, 121.391998, 72.07724, 26.0 ],
+					"presentation_rect" : [ 223.649918, 116.391998, 72.07724, 26.0 ],
 					"text" : "volume",
 					"textcolor" : [ 0.070588, 0.113725, 1.0, 1.0 ]
 				}
@@ -2057,7 +2091,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 756.0, 245.0, 78.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.77681, 112.018097, 325.223206, 43.100769 ],
+					"presentation_rect" : [ 108.77681, 107.018097, 322.223206, 43.100769 ],
 					"size" : 1000.0,
 					"varname" : "alvvv"
 				}
@@ -2233,7 +2267,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -2581,7 +2615,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -2915,7 +2949,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -3277,7 +3311,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -3652,7 +3686,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -4322,7 +4356,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -4671,7 +4705,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 230.5, 289.57489, 46.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 433.0, 34.0, 50.0, 403.0 ],
+					"presentation_rect" : [ 433.0, 61.0, 50.0, 376.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.49868, 0.501961, 0.157237, 1.0 ],
@@ -5198,6 +5232,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

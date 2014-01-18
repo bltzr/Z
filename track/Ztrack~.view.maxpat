@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -39,7 +39,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 434.0, 300.0, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 385.0, 300.0, 210.0 ]
+					"presentation_rect" : [ 1.0, 411.0, 300.0, 210.0 ]
 				}
 
 			}
@@ -54,7 +54,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 10.0, 300.0, 175.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 0.0, 300.0, 175.0 ]
+					"presentation_rect" : [ 1.0, 26.0, 300.0, 175.0 ]
 				}
 
 			}
@@ -69,7 +69,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 274.0, 300.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 245.0, 300.0, 140.0 ]
+					"presentation_rect" : [ 1.0, 271.0, 300.0, 140.0 ]
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 193.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 175.0, 300.0, 70.0 ]
+					"presentation_rect" : [ 1.0, 201.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -122,6 +122,20 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 17.0, 41.0, 36.0, 18.0 ],
 					"text" : "j.view"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "j.ui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 55.0, 7.0, 300.0, 70.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 4.0, 300.0, 630.0 ],
+					"text" : "/track.1"
 				}
 
 			}

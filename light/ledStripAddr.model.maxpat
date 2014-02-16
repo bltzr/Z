@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -157,8 +157,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.0, 16.0, 260.0, 20.0 ],
-					"text" : "j.parameter reverse @type boolean @priority 1"
+					"patching_rect" : [ 19.0, 16.0, 463.0, 20.0 ],
+					"text" : "j.parameter reverse @type boolean @priority 1 @tag setup"
 				}
 
 			}
@@ -281,13 +281,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 157.0, 389.0, 105.0, 33.0 ],
-					"text" : "j.parameter offset @type integer"
+					"patching_rect" : [ 157.0, 389.0, 105.0, 47.0 ],
+					"text" : "j.parameter offset @type integer @tag setup"
 				}
 
 			}
@@ -328,8 +328,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 293.0, 286.0, 180.0, 20.0 ],
-					"text" : "j.parameter size @type integer"
+					"patching_rect" : [ 293.0, 286.0, 247.0, 20.0 ],
+					"text" : "j.parameter size @type integer @tag setup"
 				}
 
 			}

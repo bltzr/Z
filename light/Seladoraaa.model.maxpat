@@ -263,7 +263,11 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 329.0, 23.788208, 151.0, 74.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text" : "j.message luminance @type decimal @range 0. 1. @clipmode both @ramp/drive queue"
+=======
+									"text" : "j.message luminance @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive queue"
+>>>>>>> 97a6aea... last changes
 =======
 									"text" : "j.message luminance @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive queue"
 >>>>>>> 97a6aea... last changes
@@ -283,7 +287,11 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 174.0, 24.788208, 135.0, 87.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text" : "j.message saturation @type decimal @range 0. 1. @clipmode both @ramp/drive queue"
+=======
+									"text" : "j.message saturation @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive queue"
+>>>>>>> 97a6aea... last changes
 =======
 									"text" : "j.message saturation @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive queue"
 >>>>>>> 97a6aea... last changes
@@ -303,7 +311,11 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.0, 31.788208, 140.0, 74.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"text" : "j.message hue @type decimal @range 0. 360. @clipmode wrap @ramp/drive queue"
+=======
+									"text" : "j.message hue @type decimal @range/bounds 0. 360. @range/clipmode wrap @ramp/drive queue"
+>>>>>>> 97a6aea... last changes
 =======
 									"text" : "j.message hue @type decimal @range/bounds 0. 360. @range/clipmode wrap @ramp/drive queue"
 >>>>>>> 97a6aea... last changes
@@ -490,7 +502,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 642.928589, 680.0, 333.0, 33.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/filter 0 @tags setup"
+=======
+					"text" : "j.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/filter 0 @tag setup"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/filter 0 @tag setup"
 >>>>>>> 97a6aea... last changes
@@ -618,7 +634,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 147.319794, 61.0, 753.0, 20.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max"
+=======
+					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 >>>>>>> 97a6aea... last changes
@@ -638,7 +658,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 605.428589, 273.0, 389.0, 33.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter W @type decimal @description \"indigo value\" @range 0. 1. @clipmode both @ramp/drive none"
+=======
+					"text" : "j.parameter W @type decimal @description \"indigo value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive none"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter W @type decimal @description \"indigo value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive none"
 >>>>>>> 97a6aea... last changes
@@ -658,7 +682,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 449.959534, 221.0, 390.0, 33.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter B @type decimal @description \"blue value\" @range 0. 1. @clipmode both @ramp/drive Max"
+=======
+					"text" : "j.parameter B @type decimal @description \"blue value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter B @type decimal @description \"blue value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 >>>>>>> 97a6aea... last changes
@@ -678,7 +706,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 291.038727, 170.0, 389.0, 33.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter G @type decimal @description \"green value\" @range 0. 1. @clipmode both @ramp/drive Max"
+=======
+					"text" : "j.parameter G @type decimal @description \"green value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter G @type decimal @description \"green value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 >>>>>>> 97a6aea... last changes
@@ -698,7 +730,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.319794, 118.0, 391.0, 33.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter R @type decimal @description \"red value\" @range 0. 1. @clipmode both @ramp/drive Max"
+=======
+					"text" : "j.parameter R @type decimal @description \"red value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter R @type decimal @description \"red value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
 >>>>>>> 97a6aea... last changes
@@ -718,7 +754,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 824.928589, 576.0, 151.0, 29.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter midiport @type string @priority 3 @tags setup"
+=======
+					"text" : "j.parameter midiport @type string @priority 3 @tag setup"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter midiport @type string @priority 3 @tag setup"
 >>>>>>> 97a6aea... last changes
@@ -737,7 +777,11 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 70.038727, 541.0, 675.0, 20.0 ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"text" : "j.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/filter 0 @tags setup"
+=======
+					"text" : "j.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/filter 0 @tag setup"
+>>>>>>> 97a6aea... last changes
 =======
 					"text" : "j.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/filter 0 @tag setup"
 >>>>>>> 97a6aea... last changes

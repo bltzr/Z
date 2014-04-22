@@ -9,7 +9,11 @@
 		}
 ,
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"rect" : [ 115.0, 44.0, 901.0, 271.0 ],
+=======
+		"rect" : [ 25.0, 69.0, 569.0, 216.0 ],
+>>>>>>> 97a6aea... last changes
 =======
 		"rect" : [ 25.0, 69.0, 569.0, 216.0 ],
 >>>>>>> 97a6aea... last changes
@@ -35,6 +39,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"id" : "obj-20",
 					"maxclass" : "message",
@@ -85,6 +90,8 @@
 					"patching_rect" : [ 32.0, 147.508301, 100.0, 20.0 ],
 					"text" : "pak 0 255"
 =======
+=======
+>>>>>>> 97a6aea... last changes
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -92,6 +99,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.0, 72.0, 55.0, 20.0 ],
 					"text" : "r toDMX"
+<<<<<<< HEAD
+>>>>>>> 97a6aea... last changes
+=======
 >>>>>>> 97a6aea... last changes
 				}
 
@@ -101,7 +111,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"id" : "obj-18",
+=======
+					"id" : "obj-2",
+>>>>>>> 97a6aea... last changes
 =======
 					"id" : "obj-2",
 >>>>>>> 97a6aea... last changes
@@ -110,7 +124,11 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"patching_rect" : [ 32.0, 179.508301, 100.0, 20.0 ],
+=======
+					"patching_rect" : [ 32.0, 104.0, 100.0, 20.0 ],
+>>>>>>> 97a6aea... last changes
 =======
 					"patching_rect" : [ 32.0, 104.0, 100.0, 20.0 ],
 >>>>>>> 97a6aea... last changes
@@ -122,6 +140,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -216,6 +235,8 @@
 					"patching_rect" : [ 105.0, 27.0, 55.0, 20.0 ],
 					"text" : "r toDMX"
 =======
+=======
+>>>>>>> 97a6aea... last changes
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -223,6 +244,9 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 140.0, 423.0, 20.0 ],
 					"text" : "imp.artnet.controller @auto 0 @unicast 1 @unicast_ip 10.0.0.10 @universe 0"
+<<<<<<< HEAD
+>>>>>>> 97a6aea... last changes
+=======
 >>>>>>> 97a6aea... last changes
 				}
 
@@ -230,6 +254,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
@@ -263,10 +288,15 @@
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
 =======
+=======
+>>>>>>> 97a6aea... last changes
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
+<<<<<<< HEAD
+>>>>>>> 97a6aea... last changes
+=======
 >>>>>>> 97a6aea... last changes
 				}
 
@@ -274,7 +304,11 @@
 , 			{
 				"patchline" : 				{
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"destination" : [ "obj-8", 0 ],
+=======
+					"destination" : [ "obj-2", 0 ],
+>>>>>>> 97a6aea... last changes
 =======
 					"destination" : [ "obj-2", 0 ],
 >>>>>>> 97a6aea... last changes
@@ -284,6 +318,7 @@
 				}
 
 			}
+<<<<<<< HEAD
 <<<<<<< HEAD
 , 			{
 				"patchline" : 				{
@@ -387,6 +422,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+=======
+ ],
+		"dependency_cache" : [ 			{
+>>>>>>> 97a6aea... last changes
 =======
  ],
 		"dependency_cache" : [ 			{

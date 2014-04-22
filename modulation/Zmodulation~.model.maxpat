@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -36,7 +36,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 143.0, 16.0, 100.0, 20.0 ],
+					"patching_rect" : [ 90.0, 17.0, 100.0, 20.0 ],
 					"text" : "Zmodulation"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 101.0, 51.0, 73.0, 20.0 ],
+					"patching_rect" : [ 48.0, 52.0, 73.0, 20.0 ],
 					"text" : "j.in~ 1"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 101.0, 103.0, 73.0, 20.0 ],
+					"patching_rect" : [ 48.0, 104.0, 73.0, 20.0 ],
 					"text" : "j.out~ 1"
 				}
 
@@ -76,7 +76,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 133.0, 25.0, 25.0 ]
+					"patching_rect" : [ 48.0, 134.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -87,8 +87,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.0, 16.0, 25.0, 25.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 48.0, 17.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -99,7 +99,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 69.0, 25.0, 25.0 ]
+					"patching_rect" : [ 202.0, 138.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -111,7 +111,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 11.0, 25.0, 25.0 ]
+					"patching_rect" : [ 202.0, 80.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -124,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 36.0, 40.0, 49.0, 20.0 ],
+					"patching_rect" : [ 202.0, 109.0, 49.0, 20.0 ],
 					"text" : "j.model"
 				}
 
@@ -138,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 224.0, 51.0, 50.0, 17.0 ],
+					"patching_rect" : [ 171.0, 52.0, 50.0, 17.0 ],
 					"text" : "line~ 1."
 				}
 
@@ -152,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 101.0, 79.0, 142.0, 17.0 ],
+					"patching_rect" : [ 48.0, 80.0, 142.0, 17.0 ],
 					"text" : "*~"
 				}
 
@@ -229,45 +229,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "Zmodulation.maxpat",
-				"bootpath" : "/Users/bltzr/dev/JamomaUserLibs/Z/modulation",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.random.maxpat",
-				"bootpath" : "/Users/bltzr/dev/Jamoma/Implementations/Max/Jamoma/patchers/components/random",
-				"patcherrelativepath" : "../../../Jamoma/Implementations/Max/Jamoma/patchers/components/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

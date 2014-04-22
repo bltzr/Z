@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -116,20 +116,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 519.0, 337.0, 17.0 ],
-					"text" : "Version 1.0test3, (c) 1999-2004 Juhana Sadeharju / Olaf Matthes"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
 					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -204,7 +190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 486.0, 129.0, 33.0 ],
+					"patching_rect" : [ 39.0, 50.0, 129.0, 33.0 ],
 					"text" : "gigaverb~"
 				}
 
@@ -244,7 +230,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 56.5, 375.0, 26.0, 26.0 ]
 				}
 
@@ -399,21 +385,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"frgb" : 0.0,
-					"id" : "obj-8",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 549.0, 489.0, 315.0, 27.0 ],
-					"text" : "A mono in, stereo out reverb implementation by Juhana Sadeharju (kouhia@nic.funet.fi). Max/MSP-ified by Olaf Matthes."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-82",
@@ -436,7 +407,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 19.0, 26.0, 26.0 ]
+					"patching_rect" : [ 743.0, 443.0, 26.0, 26.0 ]
 				}
 
 			}
@@ -447,7 +418,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 84.0, 26.0, 26.0 ]
+					"patching_rect" : [ 743.0, 508.0, 26.0, 26.0 ]
 				}
 
 			}
@@ -461,7 +432,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.0, 50.0, 162.0, 29.0 ],
+					"patching_rect" : [ 743.0, 474.0, 162.0, 29.0 ],
 					"text" : "j.model @description \"Reverb module using gigaverb~ \""
 				}
 

@@ -1029,7 +1029,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "audio.connect", "" ],
 									"patching_rect" : [ 91.0, 167.0, 52.0, 20.0 ],
-									"text" : "j.offset≈"
+									"text" : "j.offset="
 								}
 
 							}
@@ -1064,13 +1064,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 2,
+									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "audio.connect", "" ],
-									"patching_rect" : [ 91.0, 130.0, 56.5, 29.0 ],
-									"text" : "j.pack≈ #2",
+									"patching_rect" : [ 91.0, 130.0, 52.5, 18.0 ],
+									"text" : "j.pack= 1",
 									"varname" : "multi"
 								}
 
@@ -1654,7 +1653,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 177.0, 75.0, 25.0, 25.0 ],
 									"varname" : "in"
 								}
@@ -1860,7 +1859,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.5, 284.0, 23.0, 23.0 ]
 				}
 
@@ -1872,7 +1871,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 350.0, 23.0, 23.0 ]
+					"patching_rect" : [ 360.0, 359.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -1884,7 +1883,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 249.0, 23.0, 23.0 ]
+					"patching_rect" : [ 360.0, 314.0, 23.0, 23.0 ]
 				}
 
 			}
@@ -2194,12 +2193,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-49",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 284.0, 73.0, 43.0 ],
+					"patching_rect" : [ 360.0, 338.0, 141.0, 19.0 ],
 					"text" : "j.model @amenities preset"
 				}
 
@@ -2325,7 +2323,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 125.0, 266.0, 44.0, 19.0 ],
+					"patching_rect" : [ 125.0, 262.0, 44.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -9318,7 +9316,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 331.5, 314.0, 62.0, 27.0 ],
+					"patching_rect" : [ 16.0, 262.0, 62.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -10192,7 +10190,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 431.0, 314.0, 66.0, 27.0 ],
+					"patching_rect" : [ 16.0, 303.0, 66.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",

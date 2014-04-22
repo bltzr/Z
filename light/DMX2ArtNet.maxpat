@@ -8,7 +8,11 @@
 			"architecture" : "x86"
 		}
 ,
+<<<<<<< HEAD
 		"rect" : [ 115.0, 44.0, 901.0, 271.0 ],
+=======
+		"rect" : [ 25.0, 69.0, 569.0, 216.0 ],
+>>>>>>> 97a6aea... last changes
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,6 +35,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -79,6 +84,15 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.0, 147.508301, 100.0, 20.0 ],
 					"text" : "pak 0 255"
+=======
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 32.0, 72.0, 55.0, 20.0 ],
+					"text" : "r toDMX"
+>>>>>>> 97a6aea... last changes
 				}
 
 			}
@@ -86,12 +100,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 					"id" : "obj-18",
+=======
+					"id" : "obj-2",
+>>>>>>> 97a6aea... last changes
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 32.0, 179.508301, 100.0, 20.0 ],
+=======
+					"patching_rect" : [ 32.0, 104.0, 100.0, 20.0 ],
+>>>>>>> 97a6aea... last changes
 					"text" : "prepend channel"
 				}
 
@@ -100,6 +122,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+<<<<<<< HEAD
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -192,12 +215,22 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 27.0, 55.0, 20.0 ],
 					"text" : "r toDMX"
+=======
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 32.0, 140.0, 423.0, 20.0 ],
+					"text" : "imp.artnet.controller @auto 0 @unicast 1 @unicast_ip 10.0.0.10 @universe 0"
+>>>>>>> 97a6aea... last changes
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-17", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -229,18 +262,29 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
+=======
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+>>>>>>> 97a6aea... last changes
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< HEAD
 					"destination" : [ "obj-8", 0 ],
+=======
+					"destination" : [ "obj-2", 0 ],
+>>>>>>> 97a6aea... last changes
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
 			}
+<<<<<<< HEAD
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 1 ],
@@ -343,6 +387,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+=======
+ ],
+		"dependency_cache" : [ 			{
+>>>>>>> 97a6aea... last changes
 				"name" : "imp.artnet.controller.mxo",
 				"type" : "iLaX"
 			}

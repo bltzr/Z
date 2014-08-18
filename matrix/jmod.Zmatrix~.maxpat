@@ -4107,7 +4107,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 558.0, 42.0, 440.0, 31.0 ],
-					"text" : "j.parameter numSpeakers @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
+					"text" : "j.parameter numSpeakers @type integer @range 0 32 @clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
 					"varname" : "numSpeakers"
 				}
 
@@ -4123,7 +4123,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 559.0, 113.0, 436.0, 31.0 ],
-					"text" : "j.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
+					"text" : "j.parameter numSources @type integer @range 0 32 @clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
 					"varname" : "numSources"
 				}
 
@@ -4139,7 +4139,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 187.0, 529.0, 366.0, 43.0 ],
-					"text" : "j.parameter interpolate @type decimal @range/clipmode both @ramp/drive scheduler @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\"",
+					"text" : "j.parameter interpolate @type decimal @clipmode both @ramp/drive scheduler @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\"",
 					"varname" : "interpolate"
 				}
 

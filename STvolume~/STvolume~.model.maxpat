@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 7,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 718.0, 275.0, 820.0, 313.0 ],
+		"rect" : [ 620.0, 301.0, 818.0, 305.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -134,8 +135,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 184.0, 61.0, 601.0, 31.0 ],
-					"text" : "j.parameter position @type decimal @range/bounds -1 1. @ramp/drive Max @description \"set the position of the panpot.  -1 == fully left, 0 == center, 1== fully right\" @value/default 0. @range/clipmode both",
+					"patching_rect" : [ 184.0, 61.0, 602.0, 31.0 ],
+					"text" : "j.parameter position @type decimal @range -1 1. @ramp/drive Max @description \"set the position of the panpot.  -1 == fully left, 0 == center, 1== fully right\" @clipmode both",
 					"varname" : "position"
 				}
 
@@ -145,13 +146,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.0, 19.5, 634.0, 31.0 ],
-					"text" : "j.parameter volume @type decimal @range/bounds 0. 1. @ramp/drive Max @description \"set the volume\" @value/default 0. @range/clipmode low",
+					"patching_rect" : [ 140.0, 19.5, 634.0, 19.0 ],
+					"text" : "j.parameter volume @type decimal @range 0. 1. @ramp/drive Max @description \"set the volume\" @clipmode low",
 					"varname" : "shape[2]"
 				}
 
@@ -166,8 +166,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 287.0, 137.5, 524.0, 31.0 ],
-					"text" : "j.parameter Mode @type string @description \"choose internal calculation mode for panning: fast uses a lookup table while precision performs trigonometric calculations\" @value/default PrecisionMode",
+					"patching_rect" : [ 287.0, 137.5, 525.0, 31.0 ],
+					"text" : "j.parameter Mode @type string @description \"choose internal calculation mode for panning: fast uses a lookup table while precision performs trigonometric calculations\"",
 					"varname" : "mode[1]"
 				}
 
@@ -177,13 +177,12 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-12",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 209.0, 100.5, 602.0, 31.0 ],
-					"text" : "j.parameter shape @type string @description \"Choose the panning function: linear, squareroot, or equal-power\" @value/default EqualPower",
+					"patching_rect" : [ 209.0, 100.5, 602.0, 19.0 ],
+					"text" : "j.parameter shape @type string @description \"Choose the panning function: linear, squareroot, or equal-power\"",
 					"varname" : "shape[1]"
 				}
 
@@ -201,8 +200,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1059.0, 262.0, 325.0, 283.0 ],
@@ -426,8 +426,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 8
+							"minor" : 1,
+							"revision" : 7,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 1072.0, 269.0, 425.0, 284.0 ],
@@ -678,7 +679,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 102.0, 24.0, 24.0 ]
 				}
 
@@ -908,6 +909,23 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.panorama~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out~.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

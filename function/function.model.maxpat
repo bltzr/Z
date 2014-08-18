@@ -677,7 +677,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 172.0, 283.0, 406.0, 29.0 ],
-					"text" : "j.parameter loop @type boolean @priority 14 @description \"switch loop mode on/off\" @value/default 0",
+					"text" : "j.parameter loop @type boolean @priority 14 @description \"switch loop mode on/off\" @default 0",
 					"varname" : "switch[2]"
 				}
 
@@ -1588,7 +1588,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 144.0, 140.0, 440.0, 29.0 ],
-					"text" : "j.parameter grain @type integer @range/bounds 25 200 @range/clipmode low @ramp/drive Max @description \"grain (in ms) of the function reading\" @value/default 40 @priority 13",
+					"text" : "j.parameter grain @type integer @range 25 200 @clipmode low @ramp/drive Max @description \"grain (in ms) of the function reading\" @default 40 @priority 13",
 					"varname" : "speed[1]"
 				}
 
@@ -1897,7 +1897,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 173.0, 231.0, 413.0, 29.0 ],
-					"text" : "j.parameter duration @type decimal @range/bounds 0. 20. @range/clipmode low @ramp/drive none @description \"duration of the function\" @value/default 10. @priority 4",
+					"text" : "j.parameter duration @type decimal @range 0. 20. @clipmode low @ramp/drive none @description \"duration of the function\" @default 10. @priority 4",
 					"varname" : "duration"
 				}
 
@@ -1913,7 +1913,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 171.0, 180.0, 443.0, 29.0 ],
-					"text" : "j.parameter speed @type decimal @range/bounds 0. 2. @range/clipmode none @ramp/drive Max @description \"speed of the function reading\" @value/default 1. @priority 12",
+					"text" : "j.parameter speed @type decimal @range 0. 2. @clipmode none @ramp/drive Max @description \"speed of the function reading\" @default 1. @priority 12",
 					"varname" : "speed"
 				}
 

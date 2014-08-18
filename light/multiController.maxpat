@@ -305,7 +305,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 238.928589, 629.0, 353.0, 33.0 ],
-					"text" : "j.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/filter 0 @value/default 1"
+					"text" : "j.parameter MIDIChannel @type integer @description \"MIDI channel\" @priority 2 @repetitions/filter 0 @default 1"
 				}
 
 			}
@@ -374,7 +374,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 148.88414, 149.0, 397.0, 33.0 ],
-					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -390,7 +390,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 60.5, 195.0, 472.0, 33.0 ],
-					"text" : "j.parameterArray control.[4] @type decimal @description \"control value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @format array"
+					"text" : "j.parameterArray control.[4] @type decimal @description \"control value\" @range 0. 1. @clipmode both @ramp/drive scheduler @format array"
 				}
 
 			}

@@ -172,7 +172,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 82.0, 296.5, 275.0, 37.0 ],
-									"text" : "j.parameter holes @type integer @range/bounds 0 100 @range/clipmode both @description \"holes probability\" @ramp/drive Max",
+									"text" : "j.parameter holes @type integer @range 0 100 @clipmode both @description \"holes probability\" @ramp/drive Max",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -238,7 +238,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 158.0, 26.0, 120.0, 107.0 ],
-													"text" : "j.parameter pause_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive Max",
+													"text" : "j.parameter pause_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -255,7 +255,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 31.0, 26.0, 113.0, 107.0 ],
-													"text" : "j.parameter pause_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive Max",
+													"text" : "j.parameter pause_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -373,7 +373,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 177.0, 33.0, 115.0, 97.0 ],
-													"text" : "j.parameter time_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive Max",
+													"text" : "j.parameter time_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"deviated time for random modulation.\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -390,7 +390,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 47.0, 32.0, 124.0, 77.0 ],
-													"text" : "j.parameter time_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive Max",
+													"text" : "j.parameter time_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center time for random modulation.\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -508,7 +508,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 250.0, 33.0, 234.0, 47.0 ],
-													"text" : "j.parameter volume_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive Max",
+													"text" : "j.parameter volume_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -525,7 +525,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 28.0, 33.0, 202.0, 47.0 ],
-													"text" : "j.parameter volume_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive Max",
+													"text" : "j.parameter volume_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center volume for random modulation.\" @ramp/drive Max",
 													"varname" : "jmod.parameter.mxb[11]"
 												}
 
@@ -594,7 +594,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 630.0, 172.0, 221.0, 47.0 ],
-									"text" : "j.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive Max",
+									"text" : "j.parameter hardness @type decimal @range 0. 1. @clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive Max",
 									"varname" : "jmod.parameter.mxb[18]"
 								}
 

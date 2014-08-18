@@ -29,7 +29,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 59.0, 269.0, 27.0 ],
-					"text" : "j.parameter trigger @type integer @range/bounds 0 127 @value 1 @repetitions/filter 0 @description \"Trigger mode\""
+					"text" : "j.parameter trigger @type integer @range 0 127 @value 1 @repetitions/filter 0 @description \"Trigger mode\""
 				}
 
 			}
@@ -44,7 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 89.0, 316.0, 27.0 ],
-					"text" : "j.parameter rate @type decimal @range/bounds 20. 1000. @value 1000 @repetitions/filter 0 @description \"Trigger rate in beat mode [ms]\""
+					"text" : "j.parameter rate @type decimal @range 20. 1000. @value 1000 @repetitions/filter 0 @description \"Trigger rate in beat mode [ms]\""
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 119.0, 310.0, 27.0 ],
-					"text" : "j.parameter rate_std @type decimal @range/bounds 0. 250. @repetitions/filter 0 @description \"Trigger rate random variation [ms]\""
+					"text" : "j.parameter rate_std @type decimal @range 0. 250. @repetitions/filter 0 @description \"Trigger rate random variation [ms]\""
 				}
 
 			}
@@ -74,7 +74,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 868.0, 29.0, 340.0, 27.0 ],
-					"text" : "j.parameter num-nearest @type integer @range/bounds 0 127 @repetitions/filter 0 @description \"Random selection from k nearest neighbours \""
+					"text" : "j.parameter num-nearest @type integer @range 0 127 @repetitions/filter 0 @description \"Random selection from k nearest neighbours \""
 				}
 
 			}

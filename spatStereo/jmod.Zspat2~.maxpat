@@ -823,7 +823,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 386.0, 348.0, 355.0, 27.0 ],
-					"text" : "j.parameter volume @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler @description \"Ouput Volume.\"",
+					"text" : "j.parameter volume @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler @description \"Ouput Volume.\"",
 					"varname" : "volume_pattr[1]"
 				}
 
@@ -1052,7 +1052,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 382.0, 482.0, 321.0, 38.0 ],
-					"text" : "j.parameter aux.1 @type decimal @ramp/drive scheduler @range/bounds 0. 1. @range/clipmode both @description \"Send level to aux 1.\"",
+					"text" : "j.parameter aux.1 @type decimal @ramp/drive scheduler @range 0. 1. @clipmode both @description \"Send level to aux 1.\"",
 					"varname" : "volume_pattr[2]"
 				}
 
@@ -1470,7 +1470,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 384.0, 610.0, 317.0, 27.0 ],
-					"text" : "j.parameter aux.2 @type decimal @range/bounds 0. 1. @ramp/drive scheduler @range/clipmode both @description \"Send level to aux 2.\"",
+					"text" : "j.parameter aux.2 @type decimal @range 0. 1. @ramp/drive scheduler @clipmode both @description \"Send level to aux 2.\"",
 					"varname" : "volume_pattr[3]"
 				}
 
@@ -1822,7 +1822,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 108.0, 264.0, 446.0, 27.0 ],
-									"text" : "j.parameter position2/x @type decimal @range/bounds -1. 1.@ramp/drive scheduler @description \"x-axis position\" @priority 34 @repetitions/filter 0",
+									"text" : "j.parameter position2/x @type decimal @range -1. 1.@ramp/drive scheduler @description \"x-axis position\" @priority 34 @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[18]"
 								}
 
@@ -1839,7 +1839,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 174.0, 224.0, 459.0, 27.0 ],
-									"text" : "j.parameter position2/y @type decimal @range/bounds -1. 1. @ramp/drive scheduler @description \"y-axis position\" @priority 33",
+									"text" : "j.parameter position2/y @type decimal @range -1. 1. @ramp/drive scheduler @description \"y-axis position\" @priority 33",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -1856,7 +1856,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 444.0, 186.0, 458.0, 27.0 ],
-									"text" : "j.parameter position2/rd @type decimal @range/bounds -1. 1. @range/clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 32",
+									"text" : "j.parameter position2/rd @type decimal @range -1. 1. @clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 32",
 									"varname" : "jmod.parameter.mxb[2]"
 								}
 
@@ -1873,7 +1873,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 506.0, 152.0, 464.0, 27.0 ],
-									"text" : "j.parameter position2/sps @type decimal @range/bounds -1. 1. @range/clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 31",
+									"text" : "j.parameter position2/sps @type decimal @range -1. 1. @clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 31",
 									"varname" : "jmod.parameter.mxb[3]"
 								}
 
@@ -1925,7 +1925,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 96.0, 354.0, 464.0, 27.0 ],
-									"text" : "j.message position2/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
+									"text" : "j.message position2/dist @type decimal @range 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
 
@@ -2685,7 +2685,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 845.0, 335.0, 410.0, 27.0 ],
-					"text" : "j.parameter timeambitus/max @type integer @range/bounds 0 2000 @description \"Ambitus speed for mooving algo\" @repetitions/filter 0",
+					"text" : "j.parameter timeambitus/max @type integer @range 0 2000 @description \"Ambitus speed for mooving algo\" @repetitions/filter 0",
 					"varname" : "jmod.parameter.mxb[8]"
 				}
 
@@ -4346,7 +4346,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 108.0, 264.0, 446.0, 27.0 ],
-									"text" : "j.parameter position/x @type decimal @range/bounds -1. 1.@ramp/drive scheduler @description \"x-axis position\" @priority 34 @repetitions/filter 0",
+									"text" : "j.parameter position/x @type decimal @range -1. 1.@ramp/drive scheduler @description \"x-axis position\" @priority 34 @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[18]"
 								}
 
@@ -4363,7 +4363,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 174.0, 224.0, 459.0, 27.0 ],
-									"text" : "j.parameter position/y @type decimal @range/bounds -1. 1. @ramp/drive scheduler @description \"y-axis position\" @priority 33 @repetitions/filter 0",
+									"text" : "j.parameter position/y @type decimal @range -1. 1. @ramp/drive scheduler @description \"y-axis position\" @priority 33 @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -4380,7 +4380,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 444.0, 186.0, 458.0, 27.0 ],
-									"text" : "j.parameter position/rd @type decimal @range/bounds -1. 1. @range/clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 32",
+									"text" : "j.parameter position/rd @type decimal @range -1. 1. @clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 32",
 									"varname" : "jmod.parameter.mxb[2]"
 								}
 
@@ -4397,7 +4397,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 506.0, 152.0, 464.0, 27.0 ],
-									"text" : "j.parameter position/sps @type decimal @range/bounds -1. 1. @range/clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 31",
+									"text" : "j.parameter position/sps @type decimal @range -1. 1. @clipmode both @ramp/drive scheduler @description \"y-axis position\" @priority 31",
 									"varname" : "jmod.parameter.mxb[3]"
 								}
 
@@ -4449,7 +4449,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 96.0, 354.0, 459.0, 27.0 ],
-									"text" : "j.message position/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
+									"text" : "j.message position/dist @type decimal @range 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
 
@@ -4941,7 +4941,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 808.0, 296.0, 429.0, 27.0 ],
-					"text" : "j.parameter timeambitus/min @type integer @range/bounds 0 2000 @description \"Ambitus speed for mooving algo\" @repetitions/filter 0",
+					"text" : "j.parameter timeambitus/min @type integer @range 0 2000 @description \"Ambitus speed for mooving algo\" @repetitions/filter 0",
 					"varname" : "jmod.parameter.mxb[6]"
 				}
 

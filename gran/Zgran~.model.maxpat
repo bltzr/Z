@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -40,7 +40,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -105,7 +105,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -139,7 +139,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 212.0, 57.0, 410.0, 17.0 ],
-													"text" : "j.parameter record/input @type array @description \"Select the input to record.\" @value/default none",
+													"text" : "j.parameter record/input @type array @description \"Select the input to record.\" @default none",
 													"varname" : "jmod.parameter.mxb[16]"
 												}
 
@@ -155,7 +155,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 135.0, 30.0, 399.0, 17.0 ],
-													"text" : "j.parameter record/active @type integer @description \"Start and stop to record.\" @value/default 0",
+													"text" : "j.parameter record/active @type integer @description \"Start and stop to record.\" @default 0",
 													"varname" : "jmod.parameter.mxb[17]"
 												}
 
@@ -785,7 +785,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1248,7 +1248,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1606,7 +1606,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x86"
 										}
 ,
@@ -1700,7 +1700,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -2153,7 +2153,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -2454,7 +2454,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 6,
+															"revision" : 7,
 															"architecture" : "x86"
 														}
 ,
@@ -3359,7 +3359,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3572,7 +3572,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -3647,7 +3647,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 247.0, 119.0, 18.0 ],
-									"text" : "pack range/bounds 0. 0."
+									"text" : "pack range 0. 0."
 								}
 
 							}
@@ -3661,7 +3661,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 247.0, 119.0, 18.0 ],
-									"text" : "pak range/bounds 5. 5."
+									"text" : "pak range 5. 5."
 								}
 
 							}
@@ -3775,7 +3775,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 160.0, 119.0, 18.0 ],
-									"text" : "pak range/bounds 5. 5."
+									"text" : "pak range 5. 5."
 								}
 
 							}
@@ -3789,7 +3789,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 174.0, 119.0, 18.0 ],
-									"text" : "pack range/bounds 0. 0."
+									"text" : "pack range 0. 0."
 								}
 
 							}
@@ -4043,7 +4043,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 261.5, 183.0, 479.0, 19.0 ],
-					"text" : "j.parameter position/val @type decimal @ramp/drive Max @priority 6 @range/clipmode both"
+					"text" : "j.parameter position/val @type decimal @ramp/drive Max @priority 6 @clipmode both"
 				}
 
 			}
@@ -4068,7 +4068,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 286.5, 139.0, 526.5, 19.0 ],
-					"text" : "j.parameter length/val @type decimal @ramp/drive Max @priority 5 @range/clipmode both"
+					"text" : "j.parameter length/val @type decimal @ramp/drive Max @priority 5 @clipmode both"
 				}
 
 			}
@@ -4206,18 +4206,18 @@
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1328.0, 366.0, 462.0, 623.0 ],
+						"rect" : [ 720.0, 128.0, 467.0, 682.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -4237,6 +4237,46 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-21",
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 110.5, 631.0, 25.0, 25.0 ],
+									"presentation_rect" : [ 111.0, 631.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 9.0,
+									"id" : "obj-22",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 183.5, 608.0, 50.0, 15.0 ],
+									"text" : "panic"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 183.5, 579.0, 171.0, 19.0 ],
+									"text" : "j.message stop @type none"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 9.0,
@@ -4406,7 +4446,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 87.0, 31.0, 279.0, 37.0 ],
-									"text" : "j.parameter density/val @type decimal @range/bounds 0. 30. @range/clipmode low @ramp/function linear @repetitions/filter 1 @description \"desired grain density\" @priority 24",
+									"text" : "j.parameter density/val @type decimal @range 0. 30. @clipmode low @ramp/function linear @repetitions/filter 1 @description \"desired grain density\" @priority 24",
 									"varname" : "dispstart[1]"
 								}
 
@@ -4422,8 +4462,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 157.0, 85.0, 280.0, 37.0 ],
-									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 30. @range/clipmode low @ramp/function linear @repetitions/filter 1 @description \"jitterr around grain density\" @priority 24",
+									"patching_rect" : [ 157.0, 85.0, 282.0, 37.0 ],
+									"text" : "j.parameter density/jit @type decimal @range 0. 30. @clipmode low @ramp/function linear @repetitions/filter 1 @description \"jitterr around grain density\" @priority 24",
 									"varname" : "dispstart[2]"
 								}
 
@@ -4519,7 +4559,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 579.0, 25.0, 25.0 ]
+									"patching_rect" : [ 50.0, 618.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -4825,6 +4865,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-63", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -4942,6 +4991,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -4998,7 +5056,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -5349,7 +5407,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -5383,7 +5441,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 90.0, 12.0, 187.0, 43.0 ],
-									"text" : "j.parameter position/jit @type decimal @ramp/drive Max @range/clipmode both"
+									"text" : "j.parameter position/jit @type decimal @ramp/drive Max @clipmode both"
 								}
 
 							}
@@ -5779,7 +5837,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -5821,13 +5879,13 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-4",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 106.0, 39.0, 140.0, 67.0 ],
-									"text" : "j.parameter pitch/jit @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low"
+									"text" : "j.parameter pitch/jit @ramp/drive Max @type decimal @range 0. 4. @clipmode low"
 								}
 
 							}
@@ -5836,13 +5894,13 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-59",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 213.5, 156.0, 142.0, 67.0 ],
-									"text" : "j.parameter pitch/val @ramp/drive Max @type decimal @range/bounds 0. 4. @range/clipmode low"
+									"text" : "j.parameter pitch/val @ramp/drive Max @type decimal @range 0. 4. @clipmode low"
 								}
 
 							}
@@ -6173,7 +6231,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -6207,7 +6265,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 38.0, 29.0, 230.0, 31.0 ],
-									"text" : "j.parameter amp/jit @type decimal @range/clipmode low"
+									"text" : "j.parameter amp/jit @type decimal @clipmode low"
 								}
 
 							}
@@ -6222,7 +6280,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 199.0, 88.0, 205.0, 31.0 ],
-									"text" : "j.parameter amp/val @type decimal @range/clipmode low"
+									"text" : "j.parameter amp/val @type decimal @clipmode low"
 								}
 
 							}
@@ -6493,7 +6551,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -6527,7 +6585,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 28.0, 27.0, 146.0, 31.0 ],
-									"text" : "j.parameter length/jit @range/clipmode both"
+									"text" : "j.parameter length/jit @clipmode both"
 								}
 
 							}
@@ -7107,6 +7165,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 1 ]
 				}
 
 			}

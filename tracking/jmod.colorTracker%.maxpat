@@ -185,7 +185,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 92.0, 586.0, 452.0, 19.0 ],
-					"text" : "j.return position/y @description \"y position \" @type decimal @range/clipmode both"
+					"text" : "j.return position/y @description \"y position \" @type decimal @clipmode both"
 				}
 
 			}
@@ -214,7 +214,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 311.0, 345.0, 31.0 ],
-					"text" : "j.parameter toleranceB @repetitions/filter 0 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceB @repetitions/filter 0 @type integer @range 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[3]"
 				}
 
@@ -230,7 +230,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 236.0, 347.0, 31.0 ],
-					"text" : "j.parameter toleranceG @repetitions/filter 0 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceG @repetitions/filter 0 @type integer @range 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -246,7 +246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 163.0, 345.0, 31.0 ],
-					"text" : "j.parameter toleranceR @repetitions/filter 0 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceR @repetitions/filter 0 @type integer @range 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[2]"
 				}
 
@@ -414,7 +414,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 554.0, 452.0, 19.0 ],
-					"text" : "j.return position/x @description \"x position \" @type decimal @range/clipmode both"
+					"text" : "j.return position/x @description \"x position \" @type decimal @clipmode both"
 				}
 
 			}

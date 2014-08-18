@@ -116,7 +116,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 306.0, 440.200012, 346.0, 55.0 ],
-					"text" : "j.parameter #1/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter #1/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"varname" : "preamp"
 				}
 
@@ -793,7 +793,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 235.0, 89.0, 307.0, 55.0 ],
-					"text" : "j.parameter #1/file @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\" @value/default none",
+					"text" : "j.parameter #1/file @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\" @default none",
 					"varname" : "hue_angle"
 				}
 

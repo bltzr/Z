@@ -43,7 +43,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 445.0, 270.0, 431.0, 27.0 ],
-					"text" : "j.parameter enveloppe/attack @type decimal @description \"Attack of the enveloppe folower in ms\" @repetitions/filter 0 @range/bounds 0. 2000.",
+					"text" : "j.parameter enveloppe/attack @type decimal @description \"Attack of the enveloppe folower in ms\" @repetitions/filter 0 @range 0. 2000.",
 					"varname" : "jmod.parameter.mxb[3]"
 				}
 
@@ -113,7 +113,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 445.0, 330.0, 436.0, 27.0 ],
-					"text" : "j.parameter enveloppe/release @type decimal @description \"Release of the enveloppe folower in ms\" @repetitions/filter 0 @range/bounds 0. 10000.",
+					"text" : "j.parameter enveloppe/release @type decimal @description \"Release of the enveloppe folower in ms\" @repetitions/filter 0 @range 0. 10000.",
 					"varname" : "jmod.parameter.mxb[4]"
 				}
 
@@ -351,7 +351,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 290.0, 390.0, 434.0, 27.0 ],
-					"text" : "j.return enveloppe @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Enveloppe follower\"",
+					"text" : "j.return enveloppe @type decimal @range 0. 1. @clipmode both @description \"Enveloppe follower\"",
 					"varname" : "jmod.parameter.mxb[2]"
 				}
 

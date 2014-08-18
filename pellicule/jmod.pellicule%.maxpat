@@ -2027,7 +2027,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 762.0, 391.679626, 310.0, 30.0 ],
-					"text" : "j.parameter rate @type decimal @repetitions/filter 0 @priority 4 @description \"Set player rate\" @value/default 1."
+					"text" : "j.parameter rate @type decimal @repetitions/filter 0 @priority 4 @description \"Set player rate\" @default 1."
 				}
 
 			}
@@ -2246,7 +2246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 790.0, 220.679626, 355.0, 30.0 ],
-					"text" : "j.parameter loop/mode @type string @repetitions/filter 0 @priority 2 @description \"Set loop attribute.\" @value/default none",
+					"text" : "j.parameter loop/mode @type string @repetitions/filter 0 @priority 2 @description \"Set loop attribute.\" @default none",
 					"varname" : "loop"
 				}
 

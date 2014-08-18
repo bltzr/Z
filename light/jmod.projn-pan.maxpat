@@ -152,7 +152,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 344.0, 46.0, 136.0, 75.0 ],
-					"text" : "j.message spread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.message spread @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -168,7 +168,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 194.0, 46.0, 136.0, 75.0 ],
-					"text" : "j.parameter pan @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter pan @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -184,7 +184,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 514.0, 47.0, 146.0, 75.0 ],
-					"text" : "j.message intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.message intensity @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}

@@ -101,7 +101,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 171.38414, 51.0, 390.0, 33.0 ],
-					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max"
 				}
 
 			}

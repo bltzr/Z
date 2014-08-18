@@ -129,7 +129,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 695.0, 100.0, 581.0, 29.0 ],
-					"text" : "j.parameter respect @type decimal @range/bounds -120 120 @ramp/drive scheduler @description \"spectral respect in tone cents\" @priority 1"
+					"text" : "j.parameter respect @type decimal @range -120 120 @ramp/drive scheduler @description \"spectral respect in tone cents\" @priority 1"
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 694.0, 36.0, 578.0, 29.0 ],
-					"text" : "j.parameter transpose @type decimal @range/bounds -120 120 @ramp/drive scheduler @description \"transposition in tone cents\" @priority 1"
+					"text" : "j.parameter transpose @type decimal @range -120 120 @ramp/drive scheduler @description \"transposition in tone cents\" @priority 1"
 				}
 
 			}
@@ -504,7 +504,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 573.0, 757.0, 669.0, 18.0 ],
-									"text" : "j.parameter randomness/granular @type integer @range/bounds 0 100 @range/clipmode both @ramp/drive scheduler @priority 18"
+									"text" : "j.parameter randomness/granular @type integer @range 0 100 @clipmode both @ramp/drive scheduler @priority 18"
 								}
 
 							}
@@ -518,7 +518,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 559.0, 728.0, 634.0, 18.0 ],
-									"text" : "j.parameter randomness/frequency @type integer @range/bounds 0 1000 @range/clipmode low @ramp/drive scheduler @priority 17"
+									"text" : "j.parameter randomness/frequency @type integer @range 0 1000 @clipmode low @ramp/drive scheduler @priority 17"
 								}
 
 							}
@@ -532,7 +532,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 549.0, 685.0, 594.0, 18.0 ],
-									"text" : "j.parameter interpolation/time @type integer @range/bounds 0 1000 @range/clipmode low @ramp/drive scheduler @priority 16"
+									"text" : "j.parameter interpolation/time @type integer @range 0 1000 @clipmode low @ramp/drive scheduler @priority 16"
 								}
 
 							}
@@ -546,7 +546,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 549.0, 664.0, 567.0, 18.0 ],
-									"text" : "j.parameter period/max @type integer @range/bounds 0 1000 @range/clipmode low @ramp/drive scheduler @priority 15"
+									"text" : "j.parameter period/max @type integer @range 0 1000 @clipmode low @ramp/drive scheduler @priority 15"
 								}
 
 							}
@@ -560,7 +560,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 550.0, 645.0, 564.0, 18.0 ],
-									"text" : "j.parameter period/min @type integer @range/bounds 0 1000 @range/clipmode low @ramp/drive scheduler @priority 14"
+									"text" : "j.parameter period/min @type integer @range 0 1000 @clipmode low @ramp/drive scheduler @priority 14"
 								}
 
 							}
@@ -574,7 +574,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 549.0, 625.0, 495.0, 18.0 ],
-									"text" : "j.parameter pitch/transpose @type integer @range/bounds -120 120 @ramp/drive scheduler @priority 13"
+									"text" : "j.parameter pitch/transpose @type integer @range -120 120 @ramp/drive scheduler @priority 13"
 								}
 
 							}
@@ -616,7 +616,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 551.0, 495.0, 557.0, 18.0 ],
-									"text" : "j.parameter speed/min @type decimal @range/bounds 0. 2. @range/clipmode low @ramp/drive scheduler @priority 12"
+									"text" : "j.parameter speed/min @type decimal @range 0. 2. @clipmode low @ramp/drive scheduler @priority 12"
 								}
 
 							}
@@ -630,7 +630,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 550.0, 475.0, 557.0, 18.0 ],
-									"text" : "j.parameter speed/min @type decimal @range/bounds 0. 2. @range/clipmode low @ramp/drive scheduler @priority 11"
+									"text" : "j.parameter speed/min @type decimal @range 0. 2. @clipmode low @ramp/drive scheduler @priority 11"
 								}
 
 							}
@@ -644,7 +644,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 550.0, 452.0, 563.0, 18.0 ],
-									"text" : "j.parameter delay/max @type integer @range/bounds 0 1000 @range/clipmode low @ramp/drive scheduler @priority 10"
+									"text" : "j.parameter delay/max @type integer @range 0 1000 @clipmode low @ramp/drive scheduler @priority 10"
 								}
 
 							}

@@ -1166,7 +1166,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 338.0, 241.0, 179.0, 48.0 ],
-					"text" : "j.parameter startChannel @type integer @range/bounds 0 512 @range/clipmode both"
+					"text" : "j.parameter startChannel @type integer @range 0 512 @clipmode both"
 				}
 
 			}
@@ -1234,7 +1234,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 802.0, 89.0, 128.0, 89.0 ],
-					"text" : "j.parameter panY @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panY @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1250,7 +1250,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 541.0, 89.0, 128.0, 89.0 ],
-					"text" : "j.parameter panX @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panX @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1266,7 +1266,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 549.0, 229.0, 358.0, 34.0 ],
-					"text" : "j.parameter panSpread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panSpread @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1739,7 +1739,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 175.0, 148.0, 151.0, 75.0 ],
-					"text" : "j.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter intensity @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1755,7 +1755,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 49.0, 306.0, 161.0, 75.0 ],
-					"text" : "j.parameter heatSpread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter heatSpread @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1771,7 +1771,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 344.0, 106.0, 133.0, 75.0 ],
-					"text" : "j.parameter heat @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter heat @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}

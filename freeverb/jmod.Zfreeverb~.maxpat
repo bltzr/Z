@@ -228,7 +228,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 425.0, 30.0, 584.0, 43.0 ],
-					"text" : "j.parameter roomsize @type decimal @repetitions/filter 0 @range/bounds 0. 10. @description \"The size of the room to be simulated: larger values result in a longer reverb tail. Values above 1. will result in feedback or 'room resonance' (i.e. the reverb getting louder and louder).\"",
+					"text" : "j.parameter roomsize @type decimal @repetitions/filter 0 @range 0. 10. @description \"The size of the room to be simulated: larger values result in a longer reverb tail. Values above 1. will result in feedback or 'room resonance' (i.e. the reverb getting louder and louder).\"",
 					"varname" : "bands[1]"
 				}
 
@@ -427,7 +427,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 430.0, 110.0, 584.0, 43.0 ],
-					"text" : "j.parameter damping @type decimal @repetitions/filter 0 @range/bounds 0. 1. @description \"The amount of damping of the room's surfaces. 0 means nearly no damping, resulting on a lot of refelction (long reverb), 1. means high damping of signals (short reverb).\"",
+					"text" : "j.parameter damping @type decimal @repetitions/filter 0 @range 0. 1. @description \"The amount of damping of the room's surfaces. 0 means nearly no damping, resulting on a lot of refelction (long reverb), 1. means high damping of signals (short reverb).\"",
 					"varname" : "bands[2]"
 				}
 
@@ -491,7 +491,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 430.0, 190.0, 584.0, 43.0 ],
-					"text" : "j.parameter width @type decimal @repetitions/filter 0 @range/bounds 0. 1. @description \"The stereo width of the reverb, i.e. how much the reverb part from left and right channel mix. Turning this to 1 (nearly) gives two seperate mono reverbs.\"",
+					"text" : "j.parameter width @type decimal @repetitions/filter 0 @range 0. 1. @description \"The stereo width of the reverb, i.e. how much the reverb part from left and right channel mix. Turning this to 1 (nearly) gives two seperate mono reverbs.\"",
 					"varname" : "bands[3]"
 				}
 
@@ -559,7 +559,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 425.0, 275.0, 601.0, 31.0 ],
-					"text" : "j.parameter freeze @type integer @repetitions/filter 0 @range/bounds 0 1 @description \"Start and stop freeze mode (off by default). If on, reverb tail gets freezed (sample and hold).\"",
+					"text" : "j.parameter freeze @type integer @repetitions/filter 0 @range 0 1 @description \"Start and stop freeze mode (off by default). If on, reverb tail gets freezed (sample and hold).\"",
 					"varname" : "bands[6]"
 				}
 

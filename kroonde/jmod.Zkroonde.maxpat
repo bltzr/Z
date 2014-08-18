@@ -1159,7 +1159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 504.0, 156.0, 402.0, 27.0 ],
-					"text" : "j.parameter sensor/nbr @type integer @range/bounds 1 16 @range/clipmode both @description \"number of the sensor\""
+					"text" : "j.parameter sensor/nbr @type integer @range 1 16 @clipmode both @description \"number of the sensor\""
 				}
 
 			}
@@ -1318,7 +1318,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 520.0, 492.0, 378.0, 27.0 ],
-					"text" : "j.parameter range/low @type integer @range/bounds 0 1024 @range/clipmode both @description \"lower value for incoming data to trigger tilt/low\""
+					"text" : "j.parameter range/low @type integer @range 0 1024 @clipmode both @description \"lower value for incoming data to trigger tilt/low\""
 				}
 
 			}
@@ -1333,7 +1333,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 518.0, 460.0, 374.0, 27.0 ],
-					"text" : "j.parameter range/high @type integer @range/bounds 0 1024 @range/clipmode both @description \"higher value for incoming data to trigger tilt/high\""
+					"text" : "j.parameter range/high @type integer @range 0 1024 @clipmode both @description \"higher value for incoming data to trigger tilt/high\""
 				}
 
 			}
@@ -1376,7 +1376,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 510.0, 294.0, 393.0, 27.0 ],
-					"text" : "j.parameter calibration/high @type integer @range/bounds 0 1024 @range/clipmode both @description \"higher value for incoming data from sensor\""
+					"text" : "j.parameter calibration/high @type integer @range 0 1024 @clipmode both @description \"higher value for incoming data from sensor\""
 				}
 
 			}
@@ -1391,7 +1391,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 482.0, 328.0, 401.0, 27.0 ],
-					"text" : "j.parameter calibration/low @type integer @range/bounds 0 1024 @range/clipmode both @description \"lower value for incoming data from sensor\""
+					"text" : "j.parameter calibration/low @type integer @range 0 1024 @clipmode both @description \"lower value for incoming data from sensor\""
 				}
 
 			}
@@ -1475,7 +1475,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 116.0, 430.0, 259.0, 38.0 ],
-					"text" : "j.return sensor/value @type decimal @range/bounds 0. 1. @range/clipmode both @repetitions/filter 0 @description \"scaled value from the sensor\""
+					"text" : "j.return sensor/value @type decimal @range 0. 1. @clipmode both @repetitions/filter 0 @description \"scaled value from the sensor\""
 				}
 
 			}

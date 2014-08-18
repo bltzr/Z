@@ -6551,7 +6551,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 62.0, 143.0, 191.0, 43.0 ],
-									"text" : "j.return modifier/shift @type boolean @range/bounds 0 1 @description \"Shift key pressed\""
+									"text" : "j.return modifier/shift @type boolean @range 0 1 @description \"Shift key pressed\""
 								}
 
 							}
@@ -6566,7 +6566,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 195.0, 250.0, 191.0, 43.0 ],
-									"text" : "j.return modifier/alt @type boolean @range/bounds 0 1 @description \"Alt key pressed\""
+									"text" : "j.return modifier/alt @type boolean @range 0 1 @description \"Alt key pressed\""
 								}
 
 							}
@@ -6581,7 +6581,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 130.0, 200.0, 191.0, 43.0 ],
-									"text" : "j.return modifier/caps @type boolean @range/bounds 0 1 @description \"Caps key pressed\""
+									"text" : "j.return modifier/caps @type boolean @range 0 1 @description \"Caps key pressed\""
 								}
 
 							}
@@ -6596,7 +6596,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 325.0, 200.0, 191.0, 43.0 ],
-									"text" : "j.return modifier/cmdFn @type boolean @range/bounds 0 1 @description \"Cmd/Fn key pressed\""
+									"text" : "j.return modifier/cmdFn @type boolean @range 0 1 @description \"Cmd/Fn key pressed\""
 								}
 
 							}
@@ -6611,7 +6611,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 255.0, 145.0, 191.0, 43.0 ],
-									"text" : "j.return modifier/ctrl @type boolean @range/bounds 0 1 @description \"Ctrl key pressed\""
+									"text" : "j.return modifier/ctrl @type boolean @range 0 1 @description \"Ctrl key pressed\""
 								}
 
 							}

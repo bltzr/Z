@@ -695,7 +695,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 142.0, 38.0, 254.0, 55.0 ],
-									"text" : "j.parameter channels @repetitions/filter 0 @type integer @range/bounds 1 4 @range/clipmode both @priority 4 @description \"Number of active processing channels\"",
+									"text" : "j.parameter channels @repetitions/filter 0 @type integer @range 1 4 @clipmode both @priority 4 @description \"Number of active processing channels\"",
 									"varname" : "hue_angle[4]"
 								}
 

@@ -147,7 +147,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 72.0, 246.0, 47.0 ],
-									"text" : "j.parameter volume_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive scheduler",
+									"text" : "j.parameter volume_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive scheduler",
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -164,7 +164,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 16.0, 246.0, 47.0 ],
-									"text" : "j.parameter volume_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive scheduler",
+									"text" : "j.parameter volume_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center volume for random modulation.\" @ramp/drive scheduler",
 									"varname" : "jmod.parameter.mxb[2]"
 								}
 
@@ -181,7 +181,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 416.0, 253.0, 47.0 ],
-									"text" : "j.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive scheduler",
+									"text" : "j.parameter hardness @type decimal @range 0. 1. @clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive scheduler",
 									"varname" : "jmod.parameter.mxb[18]"
 								}
 
@@ -215,7 +215,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 189.0, 246.0, 47.0 ],
-									"text" : "j.parameter time_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive scheduler",
+									"text" : "j.parameter time_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"deviated time for random modulation.\" @ramp/drive scheduler",
 									"varname" : "jmod.parameter.mxb[3]"
 								}
 
@@ -232,7 +232,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 133.0, 246.0, 47.0 ],
-									"text" : "j.parameter time_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive scheduler",
+									"text" : "j.parameter time_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center time for random modulation.\" @ramp/drive scheduler",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
 
@@ -249,7 +249,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 309.0, 246.0, 47.0 ],
-									"text" : "j.parameter pause_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive scheduler",
+									"text" : "j.parameter pause_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive scheduler",
 									"varname" : "jmod.parameter.mxb[5]"
 								}
 
@@ -266,7 +266,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 252.0, 246.0, 47.0 ],
-									"text" : "j.parameter pause_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive scheduler",
+									"text" : "j.parameter pause_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive scheduler",
 									"varname" : "jmod.parameter.mxb[6]"
 								}
 
@@ -408,7 +408,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 6.5, 132.0, 288.0, 47.0 ],
-					"text" : "j.parameterArray intensity.[4] @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"text" : "j.parameterArray intensity.[4] @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -465,7 +465,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.5, 14.0, 485.0, 33.0 ],
-					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range/bounds 0 10 @range/clipmode low @priority 1 @repetitions/filter 1 @tag setup"
+					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range 0 10 @clipmode low @priority 1 @repetitions/filter 1 @tag setup"
 				}
 
 			}
@@ -1143,7 +1143,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 303.0, 17.0, 136.0, 74.0 ],
-									"text" : "j.message spread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+									"text" : "j.message spread @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 								}
 
 							}
@@ -1173,7 +1173,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 153.0, 17.0, 136.0, 74.0 ],
-									"text" : "j.message pan @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+									"text" : "j.message pan @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 								}
 
 							}
@@ -1231,7 +1231,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 473.0, 18.0, 146.0, 74.0 ],
-									"text" : "j.message intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+									"text" : "j.message intensity @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 								}
 
 							}

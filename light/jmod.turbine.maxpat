@@ -158,7 +158,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 392.0, 117.0, 214.0, 48.0 ],
-					"text" : "j.parameter startChannel @type integer @range/bounds 0 512 @range/clipmode both"
+					"text" : "j.parameter startChannel @type integer @range 0 512 @clipmode both"
 				}
 
 			}
@@ -174,7 +174,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 203.0, 44.0, 151.0, 75.0 ],
-					"text" : "j.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter intensity @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}

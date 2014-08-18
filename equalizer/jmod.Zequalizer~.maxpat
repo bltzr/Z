@@ -281,7 +281,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "max_bands",
-									"text" : "t max_bands @type integer @range/bounds 1 24 @range/clipmode both @repetitions/filter 1 @ramp/drive none @description \"Maximum Number of bands of the filter\"",
+									"text" : "t max_bands @type integer @range 1 24 @clipmode both @repetitions/filter 1 @ramp/drive none @description \"Maximum Number of bands of the filter\"",
 									"linecount" : 3,
 									"id" : "obj-8",
 									"fontname" : "Verdana",
@@ -289,7 +289,7 @@
 									"numinlets" : 1,
 									"fontsize" : 9.873845,
 									"numoutlets" : 14,
-									"outlettype" : [ "max_bands", "@type", "integer", "@range/bounds", "int", "int", "@range/clipmode", "both", "@repetitions/allow", "int", "@ramp/drive", "none", "@description", "Maximum Number of bands of the filter" ],
+									"outlettype" : [ "max_bands", "@type", "integer", "@range", "int", "int", "@clipmode", "both", "@repetitions/allow", "int", "@ramp/drive", "none", "@description", "Maximum Number of bands of the filter" ],
 									"patching_rect" : [ 405.0, 238.0, 341.0, 42.0 ]
 								}
 
@@ -555,7 +555,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 460.0, 125.0, 315.0, 31.0 ],
 					"frozen_object_attributes" : 					{
-						"range/bounds" : [ 1.0, 5.0 ]
+						"range" : [ 1.0, 5.0 ]
 					}
 
 				}

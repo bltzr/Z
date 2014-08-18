@@ -29,7 +29,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 154.0, 104.0, 157.0, 27.0 ],
-					"text" : "j.parameter #1/bounds @type array @value/default 0 1024"
+					"text" : "j.parameter #1/bounds @type array @default 0 1024"
 				}
 
 			}
@@ -44,7 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 48.0, 212.0, 208.0, 27.0 ],
-					"text" : "j.parameter #1/threshold @type decimal @tag setup @value/default 0.05"
+					"text" : "j.parameter #1/threshold @type decimal @tag setup @default 0.05"
 				}
 
 			}

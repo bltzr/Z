@@ -108,7 +108,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 540.0, 623.0, 315.0, 18.0 ],
-					"text" : "j.parameter loopsync/active @type boolean @value/default 0"
+					"text" : "j.parameter loopsync/active @type boolean @default 0"
 				}
 
 			}
@@ -328,7 +328,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 539.0, 551.0, 493.0, 17.0 ],
-					"text" : "j.parameter speed/ratio @type decimal @range/bounds 0. 2. @range/clipmode low @description \"playback speed\"",
+					"text" : "j.parameter speed/ratio @type decimal @range 0. 2. @clipmode low @description \"playback speed\"",
 					"varname" : "speed/ratio"
 				}
 
@@ -1054,7 +1054,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 749.0, 415.0, 304.0, 27.0 ],
-									"text" : "j.parameter sample/vzoom @type decimal @range/clipmode non @description @repetitions/filter 1 @ramp/drive none \"set vertical zoom\"",
+									"text" : "j.parameter sample/vzoom @type decimal @clipmode non @description @repetitions/filter 1 @ramp/drive none \"set vertical zoom\"",
 									"varname" : "sample/vzoom"
 								}
 
@@ -1168,7 +1168,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 749.0, 354.0, 324.0, 27.0 ],
-									"text" : "j.parameter sample/displaystart @type array @range/clipmode non @description @repetitions/filter 1 @ramp/drive none \"display start  time in ms\"",
+									"text" : "j.parameter sample/displaystart @type array @clipmode non @description @repetitions/filter 1 @ramp/drive none \"display start  time in ms\"",
 									"varname" : "sample/displaystart[1]"
 								}
 
@@ -1340,7 +1340,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 742.0, 287.0, 413.0, 27.0 ],
-									"text" : "j.parameter sample/displaystart @type decimal @range/bounds 0. 1000000. @range/clipmode low @description @repetitions/filter 1 @ramp/drive none \"display start  time in ms\"",
+									"text" : "j.parameter sample/displaystart @type decimal @range 0. 1000000. @clipmode low @description @repetitions/filter 1 @ramp/drive none \"display start  time in ms\"",
 									"varname" : "sample/displaystart"
 								}
 
@@ -1371,7 +1371,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 742.0, 220.0, 399.0, 27.0 ],
-									"text" : "j.parameter sample/displaylength @type decimal @range/bounds 0. 1000000. @range/clipmode low @description @repetitions/filter 1 @ramp/drive none \"display length in ms\"",
+									"text" : "j.parameter sample/displaylength @type decimal @range 0. 1000000. @clipmode low @description @repetitions/filter 1 @ramp/drive none \"display length in ms\"",
 									"varname" : "sample/displaylength"
 								}
 
@@ -1882,7 +1882,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 741.0, 157.0, 385.0, 27.0 ],
-									"text" : "j.parameter sample/stop @type decimal @range/bounds 0. 1000000. @range/clipmode low @description \"stoptime time in ms\" @repetitions/filter 1 @ramp/drive scheduler",
+									"text" : "j.parameter sample/stop @type decimal @range 0. 1000000. @clipmode low @description \"stoptime time in ms\" @repetitions/filter 1 @ramp/drive scheduler",
 									"varname" : "sample/stop"
 								}
 
@@ -1957,7 +1957,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 740.0, 94.0, 385.0, 27.0 ],
-									"text" : "j.parameter sample/start @type decimal @range/bounds 0. 1000000. @range/clipmode low @description \"start time in ms\" @repetitions/filter 1 @ramp/drive scheduler",
+									"text" : "j.parameter sample/start @type decimal @range 0. 1000000. @clipmode low @description \"start time in ms\" @repetitions/filter 1 @ramp/drive scheduler",
 									"varname" : "sample/start"
 								}
 

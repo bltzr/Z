@@ -210,7 +210,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 240.0, 160.0, 119.0, 18.0 ],
-									"text" : "pak range/bounds 5. 5."
+									"text" : "pak range 5. 5."
 								}
 
 							}
@@ -224,7 +224,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 135.0, 119.0, 18.0 ],
-									"text" : "pack range/bounds 0. 0."
+									"text" : "pack range 0. 0."
 								}
 
 							}
@@ -728,7 +728,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 145.0, 663.0, 279.0, 38.0 ],
-					"text" : "j.parameter density @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/filter 1 @description \"desired grain density\" @priority 24",
+					"text" : "j.parameter density @type decimal @range 0. 512. @clipmode both @ramp/function linear @repetitions/filter 1 @description \"desired grain density\" @priority 24",
 					"varname" : "dispstart[1]"
 				}
 
@@ -755,10 +755,10 @@
 						"ramp/drive" : "none",
 						"type" : "decimal",
 						"name" : "delay/jit",
-						"range/bounds" : [ 0.0, 1.0 ],
+						"range" : [ 0.0, 1.0 ],
 						"ramp/function" : "linear",
 						"dataspace" : "time",
-						"range/clipmode" : "low"
+						"clipmode" : "low"
 					}
 ,
 					"id" : "obj-21",
@@ -1430,7 +1430,7 @@
 						"type" : "decimal",
 						"ramp/function" : "linear",
 						"priority" : 4,
-						"range/clipmode" : "both"
+						"clipmode" : "both"
 					}
 ,
 					"id" : "obj-43",
@@ -1460,10 +1460,10 @@
 					"fontsize" : 10.0,
 					"frozen_object_attributes" : 					{
 						"ramp/drive" : "none",
-						"range/bounds" : [ 0.0, 1.0 ],
+						"range" : [ 0.0, 1.0 ],
 						"ramp/function" : "linear",
 						"priority" : 5,
-						"range/clipmode" : "both",
+						"clipmode" : "both",
 						"repetitions/allow" : 1
 					}
 ,
@@ -5307,9 +5307,9 @@
 						"ramp/drive" : "none",
 						"type" : "decimal",
 						"name" : "pitch",
-						"range/bounds" : [ 0.0, 1.0 ],
+						"range" : [ 0.0, 1.0 ],
 						"ramp/function" : "linear",
-						"range/clipmode" : "none",
+						"clipmode" : "none",
 						"repetitions/allow" : 0
 					}
 ,
@@ -5777,9 +5777,9 @@
 					"frozen_object_attributes" : 					{
 						"ramp/drive" : "none",
 						"type" : "decimal",
-						"range/bounds" : [ 0.0, 1.0 ],
+						"range" : [ 0.0, 1.0 ],
 						"ramp/function" : "linear",
-						"range/clipmode" : "low"
+						"clipmode" : "low"
 					}
 ,
 					"id" : "obj-77",
@@ -6228,10 +6228,10 @@
 										"ramp/drive" : "none",
 										"type" : "integer",
 										"name" : "delay",
-										"range/bounds" : [ 0.0, 10000.0 ],
+										"range" : [ 0.0, 10000.0 ],
 										"ramp/function" : "linear",
 										"dataspace" : "time",
-										"range/clipmode" : "low"
+										"clipmode" : "low"
 									}
 ,
 									"id" : "obj-18",
@@ -6322,7 +6322,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 140.0, 355.0, 280.0, 38.0 ],
-									"text" : "j.parameter density/jit @type decimal @range/bounds 0. 512. @range/clipmode both @ramp/function linear @repetitions/filter 1 @description \"jitterr around grain density\" @priority 24",
+									"text" : "j.parameter density/jit @type decimal @range 0. 512. @clipmode both @ramp/function linear @repetitions/filter 1 @description \"jitterr around grain density\" @priority 24",
 									"varname" : "dispstart[2]"
 								}
 
@@ -6397,7 +6397,7 @@
 										"type" : "decimal",
 										"name" : "pitch/jit",
 										"ramp/function" : "linear",
-										"range/clipmode" : "low"
+										"clipmode" : "low"
 									}
 ,
 									"id" : "obj-53",

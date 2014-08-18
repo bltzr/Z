@@ -117,7 +117,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 150.0, 31.0, 440.0, 31.0 ],
-					"text" : "j.parameter numSpeakers @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
+					"text" : "j.parameter numSpeakers @type integer @range 0 32 @clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
 					"varname" : "numSpeakers[1]"
 				}
 
@@ -133,7 +133,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 259.0, 70.0, 438.0, 31.0 ],
-					"text" : "j.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
+					"text" : "j.parameter numSources @type integer @range 0 32 @clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
 					"varname" : "numSources[1]"
 				}
 
@@ -181,7 +181,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 688.0, 194.0, 156.0, 51.0 ],
-					"text" : "j.parameter volume @type decimal @ramp/drive Max @description volume @priority 7 @value/default 1."
+					"text" : "j.parameter volume @type decimal @ramp/drive Max @description volume @priority 7 @default 1."
 				}
 
 			}
@@ -1462,7 +1462,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 210.0, 209.0, 293.0, 67.0 ],
-					"text" : "j.parameter interpolate @type decimal @range/clipmode both @ramp/drive Max @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\" @value/default 0. @priority 6",
+					"text" : "j.parameter interpolate @type decimal @clipmode both @ramp/drive Max @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\" @default 0. @priority 6",
 					"varname" : "interpolate"
 				}
 

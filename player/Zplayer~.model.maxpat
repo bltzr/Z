@@ -434,7 +434,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 26.0, 21.0, 333.0, 18.0 ],
-													"text" : "j.parameter playmode @type string @value/default play @priority 20"
+													"text" : "j.parameter playmode @type string @default play @priority 20"
 												}
 
 											}
@@ -614,7 +614,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 384.0, 167.0, 144.0, 18.0 ],
-									"text" : "prepend range/bounds 20."
+									"text" : "prepend range 20."
 								}
 
 							}
@@ -643,7 +643,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 514.0, 36.0, 144.0, 18.0 ],
-									"text" : "prepend range/bounds 0."
+									"text" : "prepend range 0."
 								}
 
 							}
@@ -1109,7 +1109,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 214.128983, 54.0, 203.0, 27.0 ],
-									"text" : "j.parameter density/variation @type decimal @value/default 0."
+									"text" : "j.parameter density/variation @type decimal @default 0."
 								}
 
 							}
@@ -1125,7 +1125,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 58.0, 213.0, 225.0, 38.0 ],
-									"text" : "j.parameter density @type decimal @range/bounds 0 10 arange/clipmode low @ramp/drive Max @priority 5 @value/default 1."
+									"text" : "j.parameter density @type decimal @range 0 10 aclipmode low @ramp/drive Max @priority 5 @default 1."
 								}
 
 							}
@@ -1141,7 +1141,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 779.0, 104.0, 232.0, 38.0 ],
-									"text" : "j.parameter grain/duration/variation @type decimal @range/clipmode both @ramp/drive queue @priority 7 @value/default 0."
+									"text" : "j.parameter grain/duration/variation @type decimal @clipmode both @ramp/drive queue @priority 7 @default 0."
 								}
 
 							}
@@ -1157,7 +1157,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 666.0, 61.0, 323.0, 27.0 ],
-									"text" : "j.parameter grain/position/variation @type decimal @range/clipmode both @ramp/drive queue @priority 7 @value/default 0."
+									"text" : "j.parameter grain/position/variation @type decimal @clipmode both @ramp/drive queue @priority 7 @default 0."
 								}
 
 							}
@@ -1173,7 +1173,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 384.0, 193.0, 291.0, 48.0 ],
-									"text" : "j.parameter grain/duration @type decimal @range/bounds 0. 1500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain size [ms], 0 = natural size\" @priority 5 @value/default 242"
+									"text" : "j.parameter grain/duration @type decimal @range 0. 1500. @clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain size [ms], 0 = natural size\" @priority 5 @default 242"
 								}
 
 							}
@@ -1189,7 +1189,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 59.0, 169.0, 248.0, 27.0 ],
-									"text" : "j.parameter grain/position @type decimal @range/clipmode both @ramp/drive Max @priority 5"
+									"text" : "j.parameter grain/position @type decimal @clipmode both @ramp/drive Max @priority 5"
 								}
 
 							}
@@ -1204,7 +1204,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 510.0, 292.0, 368.0, 17.0 ],
-									"text" : "j.parameter sound @type string @repetitions/filter 1 @priority 2 @value/default none"
+									"text" : "j.parameter sound @type string @repetitions/filter 1 @priority 2 @default none"
 								}
 
 							}
@@ -2188,7 +2188,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 386.0, 71.0, 144.0, 18.0 ],
-									"text" : "substitute set range/bounds 0."
+									"text" : "substitute set range 0."
 								}
 
 							}
@@ -2219,7 +2219,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 386.097565, 97.485443, 350.0, 43.0 ],
-									"text" : "j.parameter grain/duration/max @type decimal @range/bounds 0. 1500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @priority 7"
+									"text" : "j.parameter grain/duration/max @type decimal @range 0. 1500. @clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @priority 7"
 								}
 
 							}
@@ -2235,7 +2235,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 34.0, 13.281555, 328.0, 55.0 ],
-									"text" : "j.parameter grain/onset/variation @type decimal @range/bounds 0. 500. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain start random variation [ms]\" @priority 7"
+									"text" : "j.parameter grain/onset/variation @type decimal @range 0. 500. @clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Grain start random variation [ms]\" @priority 7"
 								}
 
 							}
@@ -2251,7 +2251,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 397.097565, 172.834961, 305.0, 67.0 ],
-									"text" : "j.parameter transposition/variation @type decimal @range/bounds -36 36 @range/clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition random variation [half-tones]\" @priority 7 @value/default 0."
+									"text" : "j.parameter transposition/variation @type decimal @range -36 36 @clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition random variation [half-tones]\" @priority 7 @default 0."
 								}
 
 							}
@@ -2267,7 +2267,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 35.0, 201.388336, 300.0, 43.0 ],
-									"text" : "j.parameter reverse @type decimal @range/bounds 0 100 @range/clipmode both @ramp/drive Max @description \"Reverse probability [0-100]\" @priority 7 @value/default 0"
+									"text" : "j.parameter reverse @type decimal @range 0 100 @clipmode both @ramp/drive Max @description \"Reverse probability [0-100]\" @priority 7 @default 0"
 								}
 
 							}
@@ -2283,7 +2283,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 35.0, 109.834961, 316.0, 55.0 ],
-									"text" : "j.parameter transposition @type decimal @range/bounds -36 36 @range/clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition [half-tones]\" @value/default 0. @priority 5"
+									"text" : "j.parameter transposition @type decimal @range -36 36 @clipmode none @ramp/drive Max @dataspace pitch @dataspace/unit midi @description \"Pitch transposition [half-tones]\" @default 0. @priority 5"
 								}
 
 							}
@@ -2980,7 +2980,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 32.0, 284.0, 74.0, 58.0 ],
-					"text" : "j.parameter interp @type boolean @value/default 0"
+					"text" : "j.parameter interp @type boolean @default 0"
 				}
 
 			}
@@ -3040,7 +3040,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 101.0, 44.0, 171.0, 27.0 ],
-					"text" : "j.parameter speedlim @type integer @value/default 0"
+					"text" : "j.parameter speedlim @type integer @default 0"
 				}
 
 			}
@@ -3825,7 +3825,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 283.0, 20.0, 138.0, 48.0 ],
-					"text" : "j.parameter corpus @type string @description @priority 1 \"Choose corpus by its name\" @priority 1 @value/default none"
+					"text" : "j.parameter corpus @type string @description @priority 1 \"Choose corpus by its name\" @priority 1 @default none"
 				}
 
 			}
@@ -4044,7 +4044,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 220.0, 30.0, 275.0, 48.0 ],
-									"text" : "j.parameter release @type decimal @range/bounds 0. 100. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Release time [ms]\" @value/default 10 @priority 6"
+									"text" : "j.parameter release @type decimal @range 0. 100. @clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Release time [ms]\" @default 10 @priority 6"
 								}
 
 							}
@@ -4060,7 +4060,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 198.0, 156.0, 289.0, 48.0 ],
-									"text" : "j.parameter attack @type decimal @range/bounds 0. 100. @range/clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Attack  time [ms]\" @value/default 10 @priority 6"
+									"text" : "j.parameter attack @type decimal @range 0. 100. @clipmode low @ramp/drive Max @dataspace time @dataspace/unit ms @description \"Attack  time [ms]\" @default 10 @priority 6"
 								}
 
 							}
@@ -4076,7 +4076,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 321.0, 214.0, 166.0, 27.0 ],
-									"text" : "j.parameter window @type string @value/default trzoid @priority 6"
+									"text" : "j.parameter window @type string @default trzoid @priority 6"
 								}
 
 							}
@@ -4462,7 +4462,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 196.0, 83.0, 353.0, 38.0 ],
-													"text" : "j.parameter gain/variation @type decimal @range/bounds 0 15 @range/clipmode low @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification random variation [dB]\" @value/default 0 @priority 9"
+													"text" : "j.parameter gain/variation @type decimal @range 0 15 @clipmode low @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification random variation [dB]\" @default 0 @priority 9"
 												}
 
 											}
@@ -4478,7 +4478,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 168.0, 30.0, 335.0, 38.0 ],
-													"text" : "j.parameter gain @type decimal @range/bounds -48. 15. @range/clipmode high @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification [dB]\" @value/default 0. @priority 2"
+													"text" : "j.parameter gain @type decimal @range -48. 15. @clipmode high @ramp/drive Max @dataspace gain @dataspace/unit dB @description \"Grain amplification [dB]\" @default 0. @priority 2"
 												}
 
 											}

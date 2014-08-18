@@ -100,7 +100,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 238.0, 425.0, 295.0, 43.0 ],
-					"text" : "j.parameter balance @type decimal @range/bounds -1 1 @range/clipmode both @ramp/drive Max @description \"Balance of the stereo signal\""
+					"text" : "j.parameter balance @type decimal @range -1 1 @clipmode both @ramp/drive Max @description \"Balance of the stereo signal\""
 				}
 
 			}
@@ -1828,7 +1828,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 360.0, 37.0, 131.0, 41.0 ],
-									"text" : "j.message position/set @type decimal @range/bounds 0. 1."
+									"text" : "j.message position/set @type decimal @range 0. 1."
 								}
 
 							}
@@ -4554,7 +4554,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 472.0, 583.0, 149.0, 69.0 ],
-					"text" : "j.parameter pitch @type decimal @range/bounds 0. 20. @range/clipmode both @repetitions/filter 1 @ramp/drive Max @description \"Select audio sample pitch.\" @priority 35",
+					"text" : "j.parameter pitch @type decimal @range 0. 20. @clipmode both @repetitions/filter 1 @ramp/drive Max @description \"Select audio sample pitch.\" @priority 35",
 					"varname" : "pitch"
 				}
 

@@ -227,7 +227,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 421.0, 813.0, 302.0, 29.0 ],
-									"text" : "j.parameter aux.6/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @value/default 0"
+									"text" : "j.parameter aux.6/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @default 0"
 								}
 
 							}
@@ -242,7 +242,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 73.0, 824.0, 309.0, 29.0 ],
-									"text" : "j.parameter aux.6/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "j.parameter aux.6/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @default 0."
 								}
 
 							}
@@ -495,7 +495,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 427.0, 657.0, 302.0, 29.0 ],
-									"text" : "j.parameter aux.5/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @value/default 0"
+									"text" : "j.parameter aux.5/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @default 0"
 								}
 
 							}
@@ -510,7 +510,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 79.0, 668.0, 309.0, 29.0 ],
-									"text" : "j.parameter aux.5/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "j.parameter aux.5/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @default 0."
 								}
 
 							}
@@ -623,7 +623,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 423.0, 504.0, 302.0, 29.0 ],
-									"text" : "j.parameter aux.4/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @value/default 0"
+									"text" : "j.parameter aux.4/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @default 0"
 								}
 
 							}
@@ -638,7 +638,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 74.0, 517.0, 309.0, 29.0 ],
-									"text" : "j.parameter aux.4/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "j.parameter aux.4/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @default 0."
 								}
 
 							}
@@ -751,7 +751,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 423.0, 349.0, 302.0, 29.0 ],
-									"text" : "j.parameter aux.3/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @value/default 0"
+									"text" : "j.parameter aux.3/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @default 0"
 								}
 
 							}
@@ -766,7 +766,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 75.0, 364.0, 309.0, 29.0 ],
-									"text" : "j.parameter aux.3/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "j.parameter aux.3/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @default 0."
 								}
 
 							}
@@ -879,7 +879,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 418.0, 176.0, 302.0, 29.0 ],
-									"text" : "j.parameter aux.2/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @value/default 0"
+									"text" : "j.parameter aux.2/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @default 0"
 								}
 
 							}
@@ -894,7 +894,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 70.0, 202.0, 309.0, 29.0 ],
-									"text" : "j.parameter aux.2/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "j.parameter aux.2/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @default 0."
 								}
 
 							}
@@ -1007,7 +1007,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 419.0, 25.0, 291.0, 29.0 ],
-									"text" : "j.parameter aux.1/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @value/default 0"
+									"text" : "j.parameter aux.1/prepost @type boolean @description \"pre/post mode of the AUX send\" @priority 9 @default 0"
 								}
 
 							}
@@ -1022,7 +1022,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 71.0, 36.0, 309.0, 29.0 ],
-									"text" : "j.parameter aux.1/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @value/default 0."
+									"text" : "j.parameter aux.1/gain @type decimal @ramp/drive scheduler @description \"gain of the AUX send\" @priority 8 @default 0."
 								}
 
 							}
@@ -1997,7 +1997,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 128.0, 452.0, 33.0 ],
-					"text" : "j.parameter position/xy @type array @ramp/drive scheduler @range/bounds -1. 1. @description \"source  x/y position\" @priority 5 @value/default 0. 0."
+					"text" : "j.parameter position/xy @type array @ramp/drive scheduler @range -1. 1. @description \"source  x/y position\" @priority 5 @default 0. 0."
 				}
 
 			}
@@ -2012,7 +2012,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 24.0, 402.0, 465.0, 33.0 ],
-					"text" : "j.parameter color @type array @description \"source color\" @ramp/drive queue @value/default 1. 0. 0. 1."
+					"text" : "j.parameter color @type array @description \"source color\" @ramp/drive queue @default 1. 0. 0. 1."
 				}
 
 			}
@@ -2119,7 +2119,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 500.0, 112.333328, 385.0, 47.0 ],
-									"text" : "j.parameter area/size/xy @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 x position\" @priority 21 @value/default 0.2 0.2 @range/clipmode both"
+									"text" : "j.parameter area/size/xy @type decimal @ramp/drive scheduler @range -1. 1. @description \"source 1 x position\" @priority 21 @default 0.2 0.2 @clipmode both"
 								}
 
 							}
@@ -2134,7 +2134,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 40.0, 129.333344, 440.0, 33.0 ],
-									"text" : "j.parameter area/xy @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 y position\" @priority 20 @range/clipmode both"
+									"text" : "j.parameter area/xy @type decimal @ramp/drive scheduler @range -1. 1. @description \"source 1 y position\" @priority 20 @clipmode both"
 								}
 
 							}
@@ -2424,7 +2424,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 21.5, 369.5, 261.0, 60.0 ],
-									"text" : "j.parameter trajectory/grain @type decimal @ramp/drive queue @value/default 20 @description \"trajectory grain of the source\" @priority 24"
+									"text" : "j.parameter trajectory/grain @type decimal @ramp/drive queue @default 20 @description \"trajectory grain of the source\" @priority 24"
 								}
 
 							}
@@ -2775,7 +2775,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 783.5, 197.5, 179.0, 74.0 ],
-									"text" : "j.parameter trajectory/file @type string @description \"trajectory file\" @priority 1 @value/default DBAPspat.xml @repetitions/filter 1 @priority 7"
+									"text" : "j.parameter trajectory/file @type string @description \"trajectory file\" @priority 1 @default DBAPspat.xml @repetitions/filter 1 @priority 7"
 								}
 
 							}
@@ -2832,7 +2832,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 283.5, 369.5, 203.0, 60.0 ],
-									"text" : "j.parameter trajectory/direction @type boolean @description \"invert trajectories\" @value/default 0 @priority 25"
+									"text" : "j.parameter trajectory/direction @type boolean @description \"invert trajectories\" @default 0 @priority 25"
 								}
 
 							}
@@ -2862,7 +2862,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.5, 194.5, 470.0, 33.0 ],
-									"text" : "j.parameter trajectory/speed @type decimal @range/bounds 0. 2. @ramp/drive scheduler @description \"trajectory speed of the source\" @value/default 1. @priority 22"
+									"text" : "j.parameter trajectory/speed @type decimal @range 0. 2. @ramp/drive scheduler @description \"trajectory speed of the source\" @default 1. @priority 22"
 								}
 
 							}
@@ -2877,7 +2877,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 532.5, 196.5, 211.0, 60.0 ],
-									"text" : "j.parameter trajectory/mode @type array @description \"trajectory mode of the source\" @priority 30 @value/default --- static ---"
+									"text" : "j.parameter trajectory/mode @type array @description \"trajectory mode of the source\" @priority 30 @default --- static ---"
 								}
 
 							}
@@ -3576,7 +3576,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 527.0, 49.333313, 438.0, 33.0 ],
-									"text" : "j.message area/size/y @type decimal @ramp/drive scheduler @range/clipmode both @range/bounds -1. 1. @description \"source 1 y position\""
+									"text" : "j.message area/size/y @type decimal @ramp/drive scheduler @clipmode both @range -1. 1. @description \"source 1 y position\""
 								}
 
 							}
@@ -3591,7 +3591,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 500.0, 12.333328, 469.0, 33.0 ],
-									"text" : "j.message area/size/x @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 x position\" @range/clipmode both"
+									"text" : "j.message area/size/x @type decimal @ramp/drive scheduler @range -1. 1. @description \"source 1 x position\" @clipmode both"
 								}
 
 							}
@@ -3606,7 +3606,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 66.0, 64.333344, 425.0, 33.0 ],
-									"text" : "j.message area/y @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source 1 y position\" @range/clipmode both"
+									"text" : "j.message area/y @type decimal @ramp/drive scheduler @range -1. 1. @description \"source 1 y position\" @clipmode both"
 								}
 
 							}
@@ -3621,7 +3621,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 40.0, 23.0, 425.0, 33.0 ],
-									"text" : "j.message area/x @type decimal @ramp/drive scheduler @range/bounds -1. 1. @range/clipmode both @description \"source 1 x position\""
+									"text" : "j.message area/x @type decimal @ramp/drive scheduler @range -1. 1. @clipmode both @description \"source 1 x position\""
 								}
 
 							}
@@ -4706,7 +4706,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 38.0, 11.0, 253.0, 37.0 ],
-									"text" : "j.message position/distance @type decimal @range/bounds 0 360 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
+									"text" : "j.message position/distance @type decimal @range 0 360 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 									"varname" : "jmod.parameter.mxb[4]"
 								}
 
@@ -4984,7 +4984,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 226.0, 257.0, 252.0, 47.0 ],
-					"text" : "j.parameter blur @type decimal @range/bounds 0. 4.@ramp/drive scheduler @description blur @value/default 0."
+					"text" : "j.parameter blur @type decimal @range 0. 4.@ramp/drive scheduler @description blur @default 0."
 				}
 
 			}
@@ -5158,7 +5158,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 214.0, 321.0, 31.0 ],
-					"text" : "j.parameter volume @type decimal @ramp/drive scheduler @description volume @value/default 0. @priority 10"
+					"text" : "j.parameter volume @type decimal @ramp/drive scheduler @description volume @default 0. @priority 10"
 				}
 
 			}
@@ -5332,7 +5332,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 96.0, 168.0, 395.0, 33.0 ],
-					"text" : "j.parameter weight @type array @description \"source weight list\" @ramp/drive queue @value/default 1. 1. 1. 1."
+					"text" : "j.parameter weight @type array @description \"source weight list\" @ramp/drive queue @default 1. 1. 1. 1."
 				}
 
 			}
@@ -5574,7 +5574,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 54.0, 63.0, 452.0, 33.0 ],
-					"text" : "j.message position/y @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source  y position\" @value/default 0."
+					"text" : "j.message position/y @type decimal @ramp/drive scheduler @range -1. 1. @description \"source  y position\" @default 0."
 				}
 
 			}
@@ -5589,7 +5589,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 21.0, 454.0, 33.0 ],
-					"text" : "j.message position/x @type decimal @ramp/drive scheduler @range/bounds -1. 1. @description \"source  x position\" @value/default 0."
+					"text" : "j.message position/x @type decimal @ramp/drive scheduler @range -1. 1. @description \"source  x position\" @default 0."
 				}
 
 			}

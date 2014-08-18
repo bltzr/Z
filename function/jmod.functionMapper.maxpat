@@ -835,7 +835,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 733.0, 394.0, 172.0, 18.0 ],
-					"text" : "j.receive /address:range/bounds"
+					"text" : "j.receive /address:range"
 				}
 
 			}

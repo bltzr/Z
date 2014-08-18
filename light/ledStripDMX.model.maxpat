@@ -95,7 +95,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 738.700928, 322.0, 389.0, 33.0 ],
-					"text" : "j.parameter W @type decimal @description \"indigo value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive none"
+					"text" : "j.parameter W @type decimal @description \"indigo value\" @range 0. 1. @clipmode both @ramp/drive none"
 				}
 
 			}
@@ -543,7 +543,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 329.0, 23.788208, 151.0, 74.0 ],
-									"text" : "j.message luminance @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive queue"
+									"text" : "j.message luminance @type decimal @range 0. 1. @clipmode both @ramp/drive queue"
 								}
 
 							}
@@ -559,7 +559,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 174.0, 24.788208, 135.0, 87.0 ],
-									"text" : "j.message saturation @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive queue"
+									"text" : "j.message saturation @type decimal @range 0. 1. @clipmode both @ramp/drive queue"
 								}
 
 							}
@@ -575,7 +575,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.0, 31.788208, 140.0, 74.0 ],
-									"text" : "j.message hue @type decimal @range/bounds 0. 360. @range/clipmode wrap @ramp/drive queue"
+									"text" : "j.message hue @type decimal @range 0. 360. @clipmode wrap @ramp/drive queue"
 								}
 
 							}
@@ -866,7 +866,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 147.319794, 61.0, 753.0, 20.0 ],
-					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -882,7 +882,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 605.428589, 274.0, 389.0, 33.0 ],
-					"text" : "j.parameter A @type decimal @description \"indigo value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive none"
+					"text" : "j.parameter A @type decimal @description \"indigo value\" @range 0. 1. @clipmode both @ramp/drive none"
 				}
 
 			}
@@ -898,7 +898,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 449.959534, 221.0, 390.0, 33.0 ],
-					"text" : "j.parameter B @type decimal @description \"blue value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"text" : "j.parameter B @type decimal @description \"blue value\" @range 0. 1. @clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -914,7 +914,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 291.038727, 170.0, 389.0, 33.0 ],
-					"text" : "j.parameter G @type decimal @description \"green value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"text" : "j.parameter G @type decimal @description \"green value\" @range 0. 1. @clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -930,7 +930,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.319794, 118.0, 391.0, 33.0 ],
-					"text" : "j.parameter R @type decimal @description \"red value\" @range/bounds 0. 1. @range/clipmode both @ramp/drive Max"
+					"text" : "j.parameter R @type decimal @description \"red value\" @range 0. 1. @clipmode both @ramp/drive Max"
 				}
 
 			}

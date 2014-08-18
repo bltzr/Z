@@ -486,7 +486,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 51.0, 145.0, 225.0, 43.0 ],
-													"text" : "j.messageArray source.[4]/blur @type decimal @range/bounds 0. 4.@ramp/drive Max @description blur"
+													"text" : "j.messageArray source.[4]/blur @type decimal @range 0. 4.@ramp/drive Max @description blur"
 												}
 
 											}
@@ -888,7 +888,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 469.0, 253.0, 309.0, 43.0 ],
-									"text" : "j.parameterArray speaker.[4]/position/xy @type array @priority 4 @repetitions/filter 0 @description \"Position of speaker as xy coodinate.\" @value/default 0. 0. @tag init",
+									"text" : "j.parameterArray speaker.[4]/position/xy @type array @priority 4 @repetitions/filter 0 @description \"Position of speaker as xy coodinate.\" @default 0. 0. @tag init",
 									"varname" : "parameter"
 								}
 
@@ -904,7 +904,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 562.0, 109.0, 278.0, 55.0 ],
-									"text" : "j.parameter numAux @type integer @range/bounds 1 8 @range/clipmode both @value/default 6 @description \"The number of  aux sends.\" @priority 5 @repetitions/filter 1 @tag setup",
+									"text" : "j.parameter numAux @type integer @range 1 8 @clipmode both @default 6 @description \"The number of  aux sends.\" @priority 5 @repetitions/filter 1 @tag setup",
 									"varname" : "voices[4]"
 								}
 
@@ -1327,7 +1327,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 39.0, 291.793304, 162.0, 79.0 ],
-									"text" : "j.parameter gain @type float @range/bounds 0. 2. @range/clipmode low @description \"DBAP Master gain\" @priority 3 @value/default 1. @tag setup",
+									"text" : "j.parameter gain @type float @range 0. 2. @clipmode low @description \"DBAP Master gain\" @priority 3 @default 1. @tag setup",
 									"varname" : "voices[5]"
 								}
 
@@ -1343,7 +1343,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 469.0, 49.620422, 371.0, 43.0 ],
-									"text" : "j.parameter numSpeakers @type integer @range/bounds 1 32 @range/clipmode both @value/default 4 @description \"The number of  speakers.\" @priority 5 @repetitions/filter 1 @tag setup",
+									"text" : "j.parameter numSpeakers @type integer @range 1 32 @clipmode both @default 4 @description \"The number of  speakers.\" @priority 5 @repetitions/filter 1 @tag setup",
 									"varname" : "voices[2]"
 								}
 
@@ -1359,7 +1359,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 221.0, 303.793304, 209.0, 67.0 ],
-									"text" : "j.parameter rolloff @type decimal @range/bounds 1 36 @range/clipmode both @description \"Rolloff in dB with doubling of distance.\" @priority 2 @value/default 6. @tag setup",
+									"text" : "j.parameter rolloff @type decimal @range 1 36 @clipmode both @description \"Rolloff in dB with doubling of distance.\" @priority 2 @default 6. @tag setup",
 									"varname" : "voices[3]"
 								}
 
@@ -1375,7 +1375,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 22.0, 19.613495, 316.0, 55.0 ],
-									"text" : "j.parameter numSources @type integer @range/bounds 1 32 @range/clipmode both @description \"The number of sources to process.\" @priority 1 @value/default 4 @repetitions/filter 1 @tag setup",
+									"text" : "j.parameter numSources @type integer @range 1 32 @clipmode both @description \"The number of sources to process.\" @priority 1 @default 4 @repetitions/filter 1 @tag setup",
 									"varname" : "voices"
 								}
 

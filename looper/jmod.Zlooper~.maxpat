@@ -299,7 +299,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 80.0, 545.0, 401.0, 27.0 ],
-					"text" : "j.parameter pitch @type decimal @range/bounds 0.01 20. @range/clipmode both @repetitions/filter 1 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 8",
+					"text" : "j.parameter pitch @type decimal @range 0.01 20. @clipmode both @repetitions/filter 1 @ramp/drive scheduler @description \"Select audio sample pitch.\" @priority 8",
 					"varname" : "pitch"
 				}
 
@@ -316,7 +316,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 672.0, 678.0, 412.0, 27.0 ],
-					"text" : "j.parameter selection/start @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/filter 1 @description \"Start of the selected region\" @priority 6",
+					"text" : "j.parameter selection/start @type decimal @range 0. 1. @ramp/drive scheduler @repetitions/filter 1 @description \"Start of the selected region\" @priority 6",
 					"varname" : "selstart"
 				}
 
@@ -347,7 +347,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 698.0, 711.0, 390.0, 27.0 ],
-					"text" : "j.parameter selection/end @type decimal @range/bounds 0. 1. @ramp/drive scheduler @repetitions/filter 1 @description \"size of the selected region\" @priority 7",
+					"text" : "j.parameter selection/end @type decimal @range 0. 1. @ramp/drive scheduler @repetitions/filter 1 @description \"size of the selected region\" @priority 7",
 					"varname" : "selend"
 				}
 
@@ -5854,7 +5854,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 616.0, 612.0, 405.0, 27.0 ],
-					"text" : "j.parameter display/start @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/filter 1 @description \"Start of the diplayed region (ms)\" @priority 4",
+					"text" : "j.parameter display/start @type decimal @range 0. 10000. @ramp/drive scheduler @repetitions/filter 1 @description \"Start of the diplayed region (ms)\" @priority 4",
 					"varname" : "dispstart"
 				}
 
@@ -5871,7 +5871,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 642.0, 646.0, 403.0, 27.0 ],
-					"text" : "j.parameter display/length @type decimal @range/bounds 0. 10000. @ramp/drive scheduler @repetitions/filter 1 @description \"End of the diplayed region (ms)\" @priority 5",
+					"text" : "j.parameter display/length @type decimal @range 0. 10000. @ramp/drive scheduler @repetitions/filter 1 @description \"End of the diplayed region (ms)\" @priority 5",
 					"varname" : "dispend"
 				}
 

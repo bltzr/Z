@@ -573,7 +573,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 765.0, 457.0, 401.0, 29.0 ],
-					"text" : "j.message store/asNextStep @type integer @range/bounds 0 @repetitions/filter 0 @description \"store the state of the patch after the current cue (insert)\""
+					"text" : "j.message store/asNextStep @type integer @range 0 @repetitions/filter 0 @description \"store the state of the patch after the current cue (insert)\""
 				}
 
 			}

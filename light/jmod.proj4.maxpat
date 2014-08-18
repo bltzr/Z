@@ -1670,7 +1670,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 739.0, 53.0, 128.0, 89.0 ],
-					"text" : "j.parameter panY @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panY @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1686,7 +1686,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 488.0, 51.0, 127.0, 89.0 ],
-					"text" : "j.parameter panX @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panX @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -1702,7 +1702,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 481.0, 148.0, 329.0, 34.0 ],
-					"text" : "j.parameter panSpread @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter panSpread @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}
@@ -2026,7 +2026,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 210.0, 46.0, 124.0, 103.0 ],
-					"text" : "j.parameter intensity @type decimal @range/bounds 0. 1. @range/clipmode both @ramp/drive scheduler"
+					"text" : "j.parameter intensity @type decimal @range 0. 1. @clipmode both @ramp/drive scheduler"
 				}
 
 			}

@@ -176,7 +176,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 200.0, 30.0, 565.0, 43.0 ],
-					"text" : "j.parameter roomsize @type decimal @repetitions/filter 0 @range/bounds 1. 300. @description \"• The size of the room, in meters. Excessivly large, and excessivly small values will make it sound a bit unrealistic. Values of around 30 sound good. Values: 1 - 300 meters (or what ever was specified as maximum)\"",
+					"text" : "j.parameter roomsize @type decimal @repetitions/filter 0 @range 1. 300. @description \"• The size of the room, in meters. Excessivly large, and excessivly small values will make it sound a bit unrealistic. Values of around 30 sound good. Values: 1 - 300 meters (or what ever was specified as maximum)\"",
 					"varname" : "bands[1]"
 				}
 
@@ -275,7 +275,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 271.0, 83.0, 496.0, 43.0 ],
-					"text" : "j.parameter damping @type decimal @repetitions/filter 0 @range/bounds 0. 1. @description \"The amount of damping of the room's surfaces. 0 means nearly no damping, resulting on a lot of refelction (long reverb), 1. means high damping of signals (short reverb).\"",
+					"text" : "j.parameter damping @type decimal @repetitions/filter 0 @range 0. 1. @description \"The amount of damping of the room's surfaces. 0 means nearly no damping, resulting on a lot of refelction (long reverb), 1. means high damping of signals (short reverb).\"",
 					"varname" : "bands[2]"
 				}
 
@@ -305,7 +305,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 340.0, 135.0, 532.0, 43.0 ],
-					"text" : "j.parameter revtime @type decimal @repetitions/filter 0 @range/bounds 0.1 360. @description \"• Reverb time (s): Reverb decay time, in seconds. 7 is a good place to start. Values: 0.1 - 360 seconds!\" @value/default 7.",
+					"text" : "j.parameter revtime @type decimal @repetitions/filter 0 @range 0.1 360. @description \"• Reverb time (s): Reverb decay time, in seconds. 7 is a good place to start. Values: 0.1 - 360 seconds!\" @default 7.",
 					"varname" : "bands[3]"
 				}
 
@@ -351,7 +351,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 411.0, 188.0, 461.0, 43.0 ],
-					"text" : "j.parameter bandwidth @type decimal @repetitions/filter 0 @range/bounds 0. 1. @description \"• Input bandwidth: This is like a damping control for the input, it has a similar effect to the damping control, but is subtly different. Values: 0 - 1\"",
+					"text" : "j.parameter bandwidth @type decimal @repetitions/filter 0 @range 0. 1. @description \"• Input bandwidth: This is like a damping control for the input, it has a similar effect to the damping control, but is subtly different. Values: 0 - 1\"",
 					"varname" : "bands[4]"
 				}
 
@@ -378,7 +378,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 479.0, 240.0, 397.0, 55.0 ],
-					"text" : "j.parameter early @type decimal @repetitions/filter 0 @range/bounds -90. 0. @description \"• Early reflection level (dB): The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches. Values: -90 - 0 dB\"",
+					"text" : "j.parameter early @type decimal @repetitions/filter 0 @range -90. 0. @description \"• Early reflection level (dB): The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches. Values: -90 - 0 dB\"",
 					"varname" : "bands[5]"
 				}
 
@@ -394,7 +394,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 535.0, 306.0, 344.0, 43.0 ],
-					"text" : "j.parameter tail @type decimal @repetitions/filter 0 @range/bounds -90. 0. @description \"• Tail level (dB): The level of the classic reverb tail reflections. Values: -90 - 0 dB\"",
+					"text" : "j.parameter tail @type decimal @repetitions/filter 0 @range -90. 0. @description \"• Tail level (dB): The level of the classic reverb tail reflections. Values: -90 - 0 dB\"",
 					"varname" : "bands[7]"
 				}
 

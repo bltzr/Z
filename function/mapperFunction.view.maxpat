@@ -1262,7 +1262,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 122.0, 172.0, 18.0 ],
-									"text" : "sprintf %s:range/bounds"
+									"text" : "sprintf %s:range"
 								}
 
 							}
@@ -1488,7 +1488,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 67.0, 206.0, 172.0, 18.0 ],
-									"text" : "j.receive /address:range/bounds"
+									"text" : "j.receive /address:range"
 								}
 
 							}
@@ -1724,7 +1724,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 217.0, 586.0, 206.0, 52.0 ],
-					"text" : "j.parameter submodelInstance @type integer @range/bounds 1 10 @range/clipmode both @repetitions/filter 1 @priority 2"
+					"text" : "j.parameter submodelInstance @type integer @range 1 10 @clipmode both @repetitions/filter 1 @priority 2"
 				}
 
 			}
@@ -2171,7 +2171,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 307.0, 169.0, 100.0, 29.0 ],
-									"text" : "prepend range/bounds 1"
+									"text" : "prepend range 1"
 								}
 
 							}

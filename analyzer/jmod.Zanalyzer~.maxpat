@@ -607,7 +607,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "pitch[12]",
-					"text" : "j.return noisyness @type decimal @range/bounds 0. 1. @repetitions/filter 0 @description noisyness",
+					"text" : "j.return noisyness @type decimal @range 0. 1. @repetitions/filter 0 @description noisyness",
 					"linecount" : 2,
 					"numoutlets" : 2,
 					"fontsize" : 9.0,
@@ -624,7 +624,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "pitch[11]",
-					"text" : "j.return brightness @type decimal @range/bounds 0. 11000. @repetitions/filter 0 @description \"Brightness in hz\"",
+					"text" : "j.return brightness @type decimal @range 0. 11000. @repetitions/filter 0 @description \"Brightness in hz\"",
 					"linecount" : 2,
 					"numoutlets" : 2,
 					"fontsize" : 9.0,
@@ -641,7 +641,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "pitch[10]",
-					"text" : "j.return loudness @type decimal @range/bounds -96. 30. @repetitions/filter 0 @description \"loudness in db\"",
+					"text" : "j.return loudness @type decimal @range -96. 30. @repetitions/filter 0 @description \"loudness in db\"",
 					"numoutlets" : 2,
 					"fontsize" : 9.0,
 					"outlettype" : [ "", "" ],
@@ -671,7 +671,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "pitch[9]",
-					"text" : "j.return pitch/hz @type decimal @repetitions/filter 0 @range/bounds 0. 11000. @description \"pitch in hz\"",
+					"text" : "j.return pitch/hz @type decimal @repetitions/filter 0 @range 0. 11000. @description \"pitch in hz\"",
 					"numoutlets" : 2,
 					"fontsize" : 9.0,
 					"outlettype" : [ "", "" ],
@@ -687,7 +687,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "pitch[8]",
-					"text" : "j.return pitch/midi @type decimal @repetitions/filter 0 @range/bounds 0 127. @description \"pitch in midinote\"",
+					"text" : "j.return pitch/midi @type decimal @repetitions/filter 0 @range 0 127. @description \"pitch in midinote\"",
 					"linecount" : 2,
 					"numoutlets" : 2,
 					"fontsize" : 9.0,

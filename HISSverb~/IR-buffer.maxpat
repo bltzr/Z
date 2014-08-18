@@ -349,7 +349,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 348.0, 19.0, 346.0, 55.0 ],
-					"text" : "j.parameter #1/gain @type decimal @range/bounds -48 15 @range/clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter #1/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"varname" : "preamp"
 				}
 

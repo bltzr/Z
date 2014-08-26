@@ -67,7 +67,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 40.0, 362.0, 589.0, 31.0 ],
-					"text" : "j.parameter mainfolder @type generic @repetitions/filter 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @default none @tag init",
+					"text" : "j.parameter mainfolder @type generic @repetitions/filter 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @default none @tags init",
 					"varname" : "j.parameter.mxb[2]"
 				}
 

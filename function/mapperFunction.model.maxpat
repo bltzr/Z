@@ -292,7 +292,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 164.0, 42.0, 197.0, 48.0 ],
-					"text" : "j.parameter arraySize @type integer @range 1 10 @clipmode low @description \"the number of available functions\" @tag setup @repetitions/filter 1"
+					"text" : "j.parameter arraySize @type integer @range 1 10 @clipmode low @description \"the number of available functions\" @tags setup @repetitions/filter 1"
 				}
 
 			}

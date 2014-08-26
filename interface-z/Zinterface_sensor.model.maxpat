@@ -44,7 +44,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 48.0, 212.0, 208.0, 27.0 ],
-					"text" : "j.parameter #1/threshold @type decimal @tag setup @default 0.05"
+					"text" : "j.parameter #1/threshold @type decimal @tags setup @default 0.05"
 				}
 
 			}

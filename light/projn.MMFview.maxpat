@@ -314,7 +314,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 61.5, 527.5, 154.0, 33.0 ],
-					"text" : "j.remoteArray intensity.[4] @format array"
+					"text" : "j.remote_array intensity.[4] @format array"
 				}
 
 			}

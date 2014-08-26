@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 312.0, 25.0, 112.0, 87.0 ],
-					"text" : "j.parameter voices @type integer @range 1 10 @clipmode low @tag setup @default 4"
+					"text" : "j.parameter voices @type integer @range 1 10 @clipmode low @tags setup @default 4"
 				}
 
 			}
@@ -342,7 +342,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remoteArray.mxo",
+				"name" : "j.remote_array.mxo",
 				"type" : "iLaX"
 			}
 , 			{

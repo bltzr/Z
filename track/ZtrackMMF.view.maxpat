@@ -3102,7 +3102,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1022.0, 418.5, 172.0, 20.0 ],
-									"text" : "j.remoteArray eq/filter.[8]/gain"
+									"text" : "j.remote_array eq/filter.[8]/gain"
 								}
 
 							}
@@ -3236,7 +3236,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 747.0, 408.5, 197.0, 20.0 ],
-									"text" : "j.remoteArray eq/filter.[8]/frequency"
+									"text" : "j.remote_array eq/filter.[8]/frequency"
 								}
 
 							}

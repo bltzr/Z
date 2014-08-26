@@ -180,7 +180,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 769.5, 101.0, 234.0, 47.0 ],
-					"text" : "j.parameter powerChannel @type integer @range 0 512 @clipmode both @tag setup"
+					"text" : "j.parameter powerChannel @type integer @range 0 512 @clipmode both @tags setup"
 				}
 
 			}
@@ -293,7 +293,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 392.0, 108.0, 218.0, 47.0 ],
-					"text" : "j.parameter speedChannel @type integer @range 0 512 @clipmode both @tag setup"
+					"text" : "j.parameter speedChannel @type integer @range 0 512 @clipmode both @tags setup"
 				}
 
 			}

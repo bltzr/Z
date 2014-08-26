@@ -454,7 +454,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 20.0, 325.0, 20.0 ],
-					"text" : "j.parameter reverse @type boolean @priority 1 @tag setup"
+					"text" : "j.parameter reverse @type boolean @priority 1 @tags setup"
 				}
 
 			}
@@ -583,7 +583,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 166.0, 424.0, 105.0, 47.0 ],
-					"text" : "j.parameter offset @type integer @tag setup"
+					"text" : "j.parameter offset @type integer @tags setup"
 				}
 
 			}
@@ -625,7 +625,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 302.0, 321.0, 247.0, 20.0 ],
-					"text" : "j.parameter size @type integer @tag setup"
+					"text" : "j.parameter size @type integer @tags setup"
 				}
 
 			}

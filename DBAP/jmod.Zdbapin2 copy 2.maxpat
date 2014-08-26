@@ -12791,7 +12791,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 644.0, 624.0, 194.0, 75.0 ],
-					"text" : "j.parameter trajectory/speed @type decimal @range/bounds 0. 2. @ramp/drive scheduler @description \"trajectory speed of the source\""
+					"text" : "j.parameter trajectory/speed @type decimal @range 0. 2. @ramp/drive scheduler @description \"trajectory speed of the source\""
 				}
 
 			}
@@ -14690,7 +14690,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 63.0, 545.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.2/sizey @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter area.2/sizey @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -14705,7 +14705,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 59.0, 452.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.2/sizex @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter area.2/sizex @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -14849,7 +14849,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 337.0, 139.0, 139.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -14877,7 +14877,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 194.0, 138.0, 138.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -14906,7 +14906,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 62.0, 345.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.2/y @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter area.2/y @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -14921,7 +14921,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 56.0, 252.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.2/x @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter area.2/x @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -15202,7 +15202,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 43.0, 513.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.1/sizey @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter area.1/sizey @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -15217,7 +15217,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 39.0, 421.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.1/sizex @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter area.1/sizex @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -15361,7 +15361,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 296.0, 130.0, 139.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -15389,7 +15389,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 153.0, 129.0, 138.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -15418,7 +15418,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 43.0, 310.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.1/y @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter area.1/y @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -15433,7 +15433,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 39.0, 218.0, 393.0, 34.0 ],
-													"text" : "j.parameter area.1/x @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter area.1/x @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -16161,7 +16161,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 68.0, 219.0, 408.0, 34.0 ],
-													"text" : "j.message center/y @type decimal @ramp/drive queue @range/bounds 0. 1. @description \"radial center y position\""
+													"text" : "j.message center/y @type decimal @ramp/drive queue @range 0. 1. @description \"radial center y position\""
 												}
 
 											}
@@ -16176,7 +16176,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 23.0, 178.0, 398.0, 34.0 ],
-													"text" : "j.message center/x @type decimal @ramp/drive queue @range/bounds 0. 1. @description \"radial center position\""
+													"text" : "j.message center/x @type decimal @ramp/drive queue @range 0. 1. @description \"radial center position\""
 												}
 
 											}
@@ -16344,7 +16344,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 269.0, 76.0, 286.0, 38.0 ],
-													"text" : "j.message pivot/angle @range/bounds -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/filter 0",
+													"text" : "j.message pivot/angle @range -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[2]"
 												}
 
@@ -16361,7 +16361,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 57.0, 30.0, 300.0, 38.0 ],
-													"text" : "j.message pivot/amplitude @type decimal @range/bounds 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/filter 0",
+													"text" : "j.message pivot/amplitude @type decimal @range 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[1]"
 												}
 
@@ -16432,7 +16432,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 192.0, 457.0, 300.0, 38.0 ],
-													"text" : "j.message radial/size @type decimal @range/bounds 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/filter 0",
+													"text" : "j.message radial/size @type decimal @range 0 10 @ramp/drive queue @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[4]"
 												}
 
@@ -16449,7 +16449,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 165.0, 551.0, 275.0, 38.0 ],
-													"text" : "j.message radial/angle @range/bounds -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/filter 0",
+													"text" : "j.message radial/angle @range -180 180 @type decimal @ramp/drive queue @description \"Polar coordinate position : angle\" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[5]"
 												}
 
@@ -16465,7 +16465,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 126.0, 374.0, 404.0, 34.0 ],
-													"text" : "j.message radial/y @type decimal @ramp/drive queue @range/bounds 0. 1. @description \"radial center y position\""
+													"text" : "j.message radial/y @type decimal @ramp/drive queue @range 0. 1. @description \"radial center y position\""
 												}
 
 											}
@@ -16480,7 +16480,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 81.0, 334.0, 434.0, 34.0 ],
-													"text" : "j.message radial/x @type decimal @ramp/drive queue @range/bounds 0. 1. @description \"radial center position\""
+													"text" : "j.message radial/x @type decimal @ramp/drive queue @range 0. 1. @description \"radial center position\""
 												}
 
 											}
@@ -17607,7 +17607,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 337.0, 139.0, 139.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -17635,7 +17635,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 194.0, 138.0, 138.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -17665,7 +17665,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 30.0, 436.0, 464.0, 27.0 ],
-													"text" : "j.message position.2/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
+													"text" : "j.message position.2/dist @type decimal @range 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[4]"
 												}
 
@@ -17698,7 +17698,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 62.0, 345.0, 393.0, 34.0 ],
-													"text" : "j.parameter position.2/y @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter position.2/y @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -17713,7 +17713,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 56.0, 252.0, 393.0, 34.0 ],
-													"text" : "j.parameter position.2/x @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter position.2/x @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -19184,7 +19184,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 296.0, 130.0, 139.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -19212,7 +19212,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 153.0, 129.0, 138.0, 20.0 ],
-													"text" : "prepend range/bounds"
+													"text" : "prepend range"
 												}
 
 											}
@@ -19242,7 +19242,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 30.0, 393.0, 464.0, 27.0 ],
-													"text" : "j.message position.1/dist @type decimal @range/bounds 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
+													"text" : "j.message position.1/dist @type decimal @range 0 1.5 @ramp/drive scheduler @description \"Polar coordinate position : distance \" @repetitions/filter 0",
 													"varname" : "jmod.parameter.mxb[4]"
 												}
 
@@ -19275,7 +19275,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 42.0, 293.0, 393.0, 34.0 ],
-													"text" : "j.parameter position.1/y @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 y position\" @priority 20"
+													"text" : "j.parameter position.1/y @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 y position\" @priority 20"
 												}
 
 											}
@@ -19290,7 +19290,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 38.0, 201.0, 393.0, 34.0 ],
-													"text" : "j.parameter position.1/x @type decimal @ramp/drive scheduler @range/bounds 0. 1. @description \"source 1 x position\" @priority 21"
+													"text" : "j.parameter position.1/x @type decimal @ramp/drive scheduler @range 0. 1. @description \"source 1 x position\" @priority 21"
 												}
 
 											}
@@ -28272,7 +28272,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 126.0, 329.0, 296.0, 34.0 ],
-					"text" : "j.parameter blur @type decimal @range/bounds 0. 4.@ramp/drive scheduler @description blur"
+					"text" : "j.parameter blur @type decimal @range 0. 4.@ramp/drive scheduler @description blur"
 				}
 
 			}

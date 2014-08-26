@@ -135,7 +135,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 605.0, 144.0, 218.0, 48.0 ],
-					"text" : "j.parameter startChannel.2 @type integer @range 0 512 @clipmode both @tag setup"
+					"text" : "j.parameter startChannel.2 @type integer @range 0 512 @clipmode both @tags setup"
 				}
 
 			}
@@ -267,7 +267,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 286.0, 143.0, 218.0, 48.0 ],
-					"text" : "j.parameter startChannel.1 @type integer @range 0 512 @clipmode both @tag setup"
+					"text" : "j.parameter startChannel.1 @type integer @range 0 512 @clipmode both @tags setup"
 				}
 
 			}

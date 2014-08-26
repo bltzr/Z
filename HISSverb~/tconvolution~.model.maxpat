@@ -287,7 +287,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 141.0, 27.0, 253.0, 31.0 ],
-					"text" : "j.parameter SegmentSize @tag setup @repetitions/filter 0 @type integer @priority 1",
+					"text" : "j.parameter SegmentSize @tags setup @repetitions/filter 0 @type integer @priority 1",
 					"varname" : "module_in[1]"
 				}
 

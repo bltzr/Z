@@ -390,7 +390,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 60.5, 195.0, 472.0, 33.0 ],
-					"text" : "j.parameterArray control.[4] @type decimal @description \"control value\" @range 0. 1. @clipmode both @ramp/drive scheduler @format array"
+					"text" : "j.parameter_array control.[4] @type decimal @description \"control value\" @range 0. 1. @clipmode both @ramp/drive scheduler @format array"
 				}
 
 			}
@@ -1005,7 +1005,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameterArray.mxo",
+				"name" : "j.parameter_array.mxo",
 				"type" : "iLaX"
 			}
 , 			{

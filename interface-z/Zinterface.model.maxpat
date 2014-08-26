@@ -284,7 +284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 17.0, 101.0, 223.0, 41.0 ],
-					"text" : "j.parameter MIDIport @priority 1 @type generic @repetitions/filter 0 @description \"Port to receive MIDI messages on.\" @tag setup"
+					"text" : "j.parameter MIDIport @priority 1 @type generic @repetitions/filter 0 @description \"Port to receive MIDI messages on.\" @tags setup"
 				}
 
 			}

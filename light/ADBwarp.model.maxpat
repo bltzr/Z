@@ -1403,7 +1403,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 106.811066, 533.5, 675.0, 20.0 ],
-					"text" : "j.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/filter 0 @tag setup"
+					"text" : "j.parameter startCCs @type array @description \"MIDI start control number\" @priority 2 @repetitions/filter 0 @tags setup"
 				}
 
 			}

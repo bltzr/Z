@@ -1555,7 +1555,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.0, 48.0, 371.0, 17.0 ],
-									"text" : "j.parameter sound/bufferpool @type generic @priority 1 @repetitions/filter 0 @tag init",
+									"text" : "j.parameter sound/bufferpool @type generic @priority 1 @repetitions/filter 0 @tags init",
 									"varname" : "sample/buffername[3]"
 								}
 

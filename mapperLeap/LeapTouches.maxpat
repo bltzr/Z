@@ -2131,7 +2131,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 20.0, 537.0, 287.0, 20.0 ],
-									"text" : "j.remoteArray /brumis.P/intensity.[12] @format array"
+									"text" : "j.remote_array /brumis.P/intensity.[12] @format array"
 								}
 
 							}

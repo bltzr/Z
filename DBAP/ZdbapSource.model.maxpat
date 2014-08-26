@@ -2652,7 +2652,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 260.0, 12.0, 254.0, 47.0 ],
-					"text" : "j.parameter dbapNumber @type integer @range 1 32 @description \"destination dbap source number\" @tag setup"
+					"text" : "j.parameter dbapNumber @type integer @range 1 32 @description \"destination dbap source number\" @tags setup"
 				}
 
 			}
@@ -2667,7 +2667,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 16.0, 12.0, 244.0, 47.0 ],
-					"text" : "j.parameter dbapDestination @type string @description \"destination dbap engine\" @default /Zdbap @tag setup"
+					"text" : "j.parameter dbapDestination @type string @description \"destination dbap engine\" @default /Zdbap @tags setup"
 				}
 
 			}
@@ -8174,7 +8174,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 784.0, 208.0, 158.0, 100.0 ],
-									"text" : "j.parameter trajectory/file @type string @description \"trajectory file\" @priority 1 @tag setup @default DBAPspat.xml @repetitions/filter 1 @priority 7"
+									"text" : "j.parameter trajectory/file @type string @description \"trajectory file\" @priority 1 @tags setup @default DBAPspat.xml @repetitions/filter 1 @priority 7"
 								}
 
 							}

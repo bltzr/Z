@@ -305,7 +305,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.0, 326.0, 332.0, 33.0 ],
-					"text" : "j.parameter MIDIChannel @type integer@description \"MIDI channel\" @priority 2 @repetitions/filter 0 @tag setup"
+					"text" : "j.parameter MIDIChannel @type integer@description \"MIDI channel\" @priority 2 @repetitions/filter 0 @tags setup"
 				}
 
 			}
@@ -320,7 +320,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 23.0, 294.0, 278.5, 18.0 ],
-					"text" : "j.parameter midiport @type string @priority 3 @tag setup"
+					"text" : "j.parameter midiport @type string @priority 3 @tags setup"
 				}
 
 			}
@@ -336,7 +336,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 302.0, 132.0, 177.0, 74.0 ],
-					"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/filter 0 @tag setup"
+					"text" : "j.parameter startChannels @type array @description \"DMX start channels\" @priority 2 @repetitions/filter 0 @tags setup"
 				}
 
 			}
@@ -408,7 +408,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 6.5, 132.0, 288.0, 47.0 ],
-					"text" : "j.parameterArray intensity.[4] @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max"
+					"text" : "j.parameter_array intensity.[4] @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max"
 				}
 
 			}
@@ -465,7 +465,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.5, 14.0, 485.0, 33.0 ],
-					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range 0 10 @clipmode low @priority 1 @repetitions/filter 1 @tag setup"
+					"text" : "j.parameter arraySize @type integer @description \"the number of grouped fixtures\" @range 0 10 @clipmode low @priority 1 @repetitions/filter 1 @tags setup"
 				}
 
 			}

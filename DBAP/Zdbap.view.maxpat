@@ -2287,7 +2287,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 39.0, 486.5, 222.0, 19.0 ],
-									"text" : "j.remoteArray speaker.[4]/position/xy",
+									"text" : "j.remote_array speaker.[4]/position/xy",
 									"varname" : "parameter"
 								}
 

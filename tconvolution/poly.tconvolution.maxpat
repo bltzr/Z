@@ -116,7 +116,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 306.0, 440.200012, 346.0, 55.0 ],
-					"text" : "j.parameter #1/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter #1/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"varname" : "preamp"
 				}
 
@@ -159,7 +159,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 306.0, 509.0, 311.0, 19.0 ],
-					"text" : "j.dataspace @dataspace gain @input db @output linear"
+					"text" : "j.unit @dataspace gain @input db @output linear"
 				}
 
 			}
@@ -2191,7 +2191,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.dataspace.mxo",
+				"name" : "j.unit.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -4940,7 +4940,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 520.0, 45.0, 89.0, 50.0 ],
-													"text" : "j.dataspace @dataspace gain @input midi @output linear"
+													"text" : "j.unit @dataspace gain @input midi @output linear"
 												}
 
 											}
@@ -4955,7 +4955,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 425.0, 45.0, 89.0, 50.0 ],
-													"text" : "j.dataspace @dataspace gain @input midi @output linear"
+													"text" : "j.unit @dataspace gain @input midi @output linear"
 												}
 
 											}
@@ -4970,7 +4970,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 330.0, 45.0, 89.0, 50.0 ],
-													"text" : "j.dataspace @dataspace gain @input midi @output linear"
+													"text" : "j.unit @dataspace gain @input midi @output linear"
 												}
 
 											}
@@ -4985,7 +4985,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 235.0, 45.0, 89.0, 50.0 ],
-													"text" : "j.dataspace @dataspace gain @input midi @output linear"
+													"text" : "j.unit @dataspace gain @input midi @output linear"
 												}
 
 											}
@@ -5000,7 +5000,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 140.235291, 45.0, 89.0, 50.0 ],
-													"text" : "j.dataspace @dataspace gain @input midi @output linear"
+													"text" : "j.unit @dataspace gain @input midi @output linear"
 												}
 
 											}
@@ -5015,7 +5015,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 50.0, 45.0, 89.0, 50.0 ],
-													"text" : "j.dataspace @dataspace gain @input midi @output linear"
+													"text" : "j.unit @dataspace gain @input midi @output linear"
 												}
 
 											}
@@ -6041,7 +6041,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 10.0, 290.0, 94.0, 50.0 ],
-									"text" : "j.dataspace @dataspace gain @input midi @output linear"
+									"text" : "j.unit @dataspace gain @input midi @output linear"
 								}
 
 							}
@@ -6081,7 +6081,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 110.0, 290.0, 94.0, 50.0 ],
-									"text" : "j.dataspace @dataspace gain @input midi @output linear"
+									"text" : "j.unit @dataspace gain @input midi @output linear"
 								}
 
 							}

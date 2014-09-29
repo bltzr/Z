@@ -1884,7 +1884,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 50.0, 131.0, 89.0, 38.0 ],
-													"text" : "j.dataspace @dataspace angle @input degree"
+													"text" : "j.unit @dataspace angle @input degree"
 												}
 
 											}

@@ -245,7 +245,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "preamp[1]",
-					"text" : "j.parameter IR.2/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter IR.2/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"linecount" : 3,
 					"id" : "obj-28",
 					"fontname" : "Verdana",
@@ -295,7 +295,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "preamp",
-					"text" : "j.parameter IR.1/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"text" : "j.parameter IR.1/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 					"linecount" : 3,
 					"id" : "obj-24",
 					"fontname" : "Verdana",
@@ -2564,7 +2564,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "preamp[2]",
-									"text" : "j.parameter IR.4/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+									"text" : "j.parameter IR.4/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 									"linecount" : 3,
 									"id" : "obj-57",
 									"fontname" : "Verdana",
@@ -2640,7 +2640,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "preamp[1]",
-									"text" : "j.parameter IR.3/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @dataspace/unit/active dB @dataspace/unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+									"text" : "j.parameter IR.3/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
 									"linecount" : 3,
 									"id" : "obj-45",
 									"fontname" : "Verdana",

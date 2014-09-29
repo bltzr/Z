@@ -289,7 +289,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 393.0, 443.0, 125.0, 33.0 ],
-					"text" : "j.remote gain @dataspace/unit dB"
+					"text" : "j.remote gain @unit dB"
 				}
 
 			}

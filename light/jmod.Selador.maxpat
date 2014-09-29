@@ -2210,7 +2210,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 77.0, 38.0, 160.0, 31.0 ],
-													"text" : "j.dataspace @dataspace color @output hsl @input rgb"
+													"text" : "j.unit @dataspace color @output hsl @input rgb"
 												}
 
 											}

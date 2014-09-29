@@ -1400,7 +1400,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 346.0, 714.0, 149.0, 29.0 ],
-					"text" : "j.dataspace @dataspace gain @input linear @output dB"
+					"text" : "j.unit @dataspace gain @input linear @output dB"
 				}
 
 			}
@@ -1415,7 +1415,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 178.0, 712.0, 149.0, 29.0 ],
-					"text" : "j.dataspace @dataspace gain @input linear @output dB"
+					"text" : "j.unit @dataspace gain @input linear @output dB"
 				}
 
 			}

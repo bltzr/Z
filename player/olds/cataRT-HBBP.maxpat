@@ -21480,7 +21480,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 224.0, 33.0, 340.0, 20.0 ],
-									"text" : "j.dataspace @dataspace gain @input linear @output midi"
+									"text" : "j.unit @dataspace gain @input linear @output midi"
 								}
 
 							}

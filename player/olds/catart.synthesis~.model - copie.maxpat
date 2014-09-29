@@ -436,7 +436,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 91.0, 71.0, 126.0, 41.0 ],
-													"text" : "j.dataspace @dataspace pitch @input midi @output speed"
+													"text" : "j.unit @dataspace pitch @input midi @output speed"
 												}
 
 											}
@@ -3823,7 +3823,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 115.0, 126.0, 275.0, 38.0 ],
-									"text" : "j.parameter release @type decimal @range 0. 100. @clipmode low @ramp/drive scheduler @dataspace time @dataspace/unit ms @description \"Release time [ms]\""
+									"text" : "j.parameter release @type decimal @range 0. 100. @clipmode low @ramp/drive scheduler @dataspace time @unit ms @description \"Release time [ms]\""
 								}
 
 							}
@@ -3839,7 +3839,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 33.0, 85.0, 397.0, 27.0 ],
-									"text" : "j.parameter attack @type decimal @range 0. 100. @clipmode low @ramp/drive scheduler @dataspace time @dataspace/unit ms @description \"Attack  time [ms]\""
+									"text" : "j.parameter attack @type decimal @range 0. 100. @clipmode low @ramp/drive scheduler @dataspace time @unit ms @description \"Attack  time [ms]\""
 								}
 
 							}
@@ -4060,7 +4060,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 386.097565, 80.485443, 350.0, 43.0 ],
-									"text" : "j.parameter grain/duration/max @type decimal @range 0. 1500. @clipmode low @ramp/drive scheduler @dataspace time @dataspace/unit ms"
+									"text" : "j.parameter grain/duration/max @type decimal @range 0. 1500. @clipmode low @ramp/drive scheduler @dataspace time @unit ms"
 								}
 
 							}
@@ -4076,7 +4076,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 34.0, 39.0, 330.0, 43.0 ],
-									"text" : "j.parameter grain/duration/variation @type decimal @range 0. 1500. @clipmode low @ramp/drive scheduler @dataspace time @dataspace/unit ms @description \"Grain size random variation [ms]\""
+									"text" : "j.parameter grain/duration/variation @type decimal @range 0. 1500. @clipmode low @ramp/drive scheduler @dataspace time @unit ms @description \"Grain size random variation [ms]\""
 								}
 
 							}
@@ -4092,7 +4092,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 33.0, 120.281555, 328.0, 43.0 ],
-									"text" : "j.parameter grain/onset/variation @type decimal @range 0. 500. @clipmode low @ramp/drive scheduler @dataspace time @dataspace/unit ms @description \"Grain start random variation [ms]\""
+									"text" : "j.parameter grain/onset/variation @type decimal @range 0. 500. @clipmode low @ramp/drive scheduler @dataspace time @unit ms @description \"Grain start random variation [ms]\""
 								}
 
 							}
@@ -4108,7 +4108,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 397.097565, 190.834961, 305.0, 55.0 ],
-									"text" : "j.parameter transposition/variation @type decimal @range -36 36 @clipmode none @ramp/drive scheduler @dataspace pitch @dataspace/unit midi @description \"Pitch transposition random variation [half-tones]\""
+									"text" : "j.parameter transposition/variation @type decimal @range -36 36 @clipmode none @ramp/drive scheduler @dataspace pitch @unit midipitch @description \"Pitch transposition random variation [half-tones]\""
 								}
 
 							}
@@ -4140,7 +4140,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 33.0, 199.834961, 312.0, 43.0 ],
-									"text" : "j.parameter transposition @type decimal @range -36 36 @clipmode none @ramp/drive scheduler @dataspace pitch @dataspace/unit midi @description \"Pitch transposition [half-tones]\""
+									"text" : "j.parameter transposition @type decimal @range -36 36 @clipmode none @ramp/drive scheduler @dataspace pitch @unit midipitch @description \"Pitch transposition [half-tones]\""
 								}
 
 							}
@@ -5096,7 +5096,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 177.0, 638.0, 330.0, 27.0 ],
-					"text" : "j.parameter volume @type decimal @range 0. 1.@clipmode both @ramp/drive scheduler @dataspace gain @dataspace/unit linear"
+					"text" : "j.parameter volume @type decimal @range 0. 1.@clipmode both @ramp/drive scheduler @dataspace gain @unit linear"
 				}
 
 			}
@@ -6027,7 +6027,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 166.0, 459.0, 299.0, 38.0 ],
-					"text" : "j.parameter grain/duration @type decimal @range 0. 1500. @clipmode low @ramp/drive scheduler @dataspace time @dataspace/unit ms @description \"Grain size [ms], 0 = natural size\""
+					"text" : "j.parameter grain/duration @type decimal @range 0. 1500. @clipmode low @ramp/drive scheduler @dataspace time @unit ms @description \"Grain size [ms], 0 = natural size\""
 				}
 
 			}
@@ -7547,7 +7547,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 290.0, 232.0, 195.0, 58.0 ],
-																	"text" : "j.parameter gain/variation @type decimal @range 0 15 @clipmode low @ramp/drive scheduler @dataspace gain @dataspace/unit dB @description \"Grain amplification random variation [dB]\""
+																	"text" : "j.parameter gain/variation @type decimal @range 0 15 @clipmode low @ramp/drive scheduler @dataspace gain @unit dB @description \"Grain amplification random variation [dB]\""
 																}
 
 															}
@@ -7579,7 +7579,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 170.0, 188.0, 276.0, 38.0 ],
-																	"text" : "j.parameter gain @type decimal @range -48. 15. @clipmode high @ramp/drive scheduler @dataspace gain @dataspace/unit dB @description \"Grain amplification [dB]\""
+																	"text" : "j.parameter gain @type decimal @range -48. 15. @clipmode high @ramp/drive scheduler @dataspace gain @unit dB @description \"Grain amplification [dB]\""
 																}
 
 															}

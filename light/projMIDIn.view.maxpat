@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -203,7 +203,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -432,7 +432,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-63",
-									"items" : [ "AU DLS Synth 1", ",", "Fireface 400 (655) Port 1", ",", "Fireface 400 (655) Port 2", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -461,6 +461,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "The hardness of the fragmentatoin slope(only in frag mode).",
 									"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 									"fontsize" : 9.0,
 									"id" : "obj-43",
@@ -492,7 +493,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -1049,7 +1050,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -1638,7 +1639,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 8,
 											"architecture" : "x86"
 										}
 ,
@@ -2232,10 +2233,8 @@
 , 							{
 								"box" : 								{
 									"align" : 1,
+									"annotation" : "Select dynamic modulation mode to use (fluctuant or fragmented).",
 									"arrow" : 0,
-									"arrowbgcolor" : [ 0.86, 0.86, 0.86, 1.0 ],
-									"arrowcolor" : [ 0.22, 0.22, 0.22, 1.0 ],
-									"arrowlink" : 1,
 									"bgcolor" : [ 0.513726, 0.54902, 0.631373, 1.0 ],
 									"bgcolor2" : [ 0.219608, 0.231373, 0.517647, 1.0 ],
 									"discolor" : [ 0.286275, 0.494118, 0.733333, 1.0 ],
@@ -2329,6 +2328,7 @@
 							}
 , 							{
 								"box" : 								{
+									"annotation" : "DMX start channels",
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"frgb" : 0.0,
@@ -2791,12 +2791,12 @@
 					"id" : "obj-5",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/brumis"
+					"text" : "/vent.HJ"
 				}
 
 			}
@@ -2910,7 +2910,7 @@
 					"destination" : [ "obj-141", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-5", 1 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}

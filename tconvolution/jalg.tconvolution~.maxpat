@@ -363,7 +363,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "j.dataspace @dataspace gain @input db @output linear",
+									"text" : "j.unit @dataspace gain @input db @output linear",
 									"id" : "obj-25",
 									"fontname" : "Verdana",
 									"numinlets" : 1,

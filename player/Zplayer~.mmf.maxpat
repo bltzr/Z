@@ -1085,7 +1085,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 248.0, 101.0, 100.0, 38.0 ],
-									"text" : "j.dataspace @dataspace gain @input db"
+									"text" : "j.unit @dataspace gain @input db"
 								}
 
 							}
@@ -1226,7 +1226,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 47.0, 69.0, 100.0, 38.0 ],
-									"text" : "j.dataspace @dataspace gain @output db"
+									"text" : "j.unit @dataspace gain @output db"
 								}
 
 							}

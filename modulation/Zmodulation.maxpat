@@ -62,7 +62,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 37.0, 27.0, 348.0, 27.0 ],
-					"text" : "j.parameter mod-mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\"",
+					"text" : "j.parameter mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\"",
 					"varname" : "mod_mode"
 				}
 

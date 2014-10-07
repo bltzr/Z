@@ -107,7 +107,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 39.0, 48.0, 122.0, 17.0 ],
-					"text" : "j.receive mod-instances"
+					"text" : "j.receive instances"
 				}
 
 			}
@@ -253,7 +253,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 13.0, 21.0, 145.0, 17.0 ],
-					"text" : "j.receive mod-mode"
+					"text" : "j.receive mode"
 				}
 
 			}

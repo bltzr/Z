@@ -286,7 +286,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -378,7 +378,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -470,7 +470,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -562,7 +562,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -654,7 +654,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -746,7 +746,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1026,7 +1026,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1118,7 +1118,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1210,7 +1210,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1302,7 +1302,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1394,7 +1394,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1486,7 +1486,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1598,7 +1598,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1690,7 +1690,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1782,7 +1782,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1874,7 +1874,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -1966,7 +1966,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -2058,7 +2058,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -2170,7 +2170,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -2262,7 +2262,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -2354,7 +2354,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -2446,7 +2446,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -2538,7 +2538,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>
@@ -2630,7 +2630,7 @@
    <Data address="eq/in/bypass" priority="0"/>
    <Data address="eq/filter.4/q" priority="0"/>
    <Data address="eq/filter.1/gain" priority="0" value="0.844618"/>
-   <Data address="mod/mod-mode" priority="0"/>
+   <Data address="mod/mode" priority="0"/>
    <Data address="eq/model/mute" priority="0"/>
    <Data address="mod/time_ambitus/deviation" priority="0"/>
    <Data address="spat/blur" priority="0" value="0.000000"/>

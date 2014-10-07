@@ -3,7 +3,7 @@
  <preset name="default">
   <!--"edit a comment"-->
   <command address="startCCs">161 163 165 167 169</command>
-  <command address="mod-mode">0</command>
+  <command address="mode">0</command>
   <command address="volume_ambitus/deviation">0.490000</command>
   <command address="B">0.000000</command>
   <command address="A">0.000000</command>

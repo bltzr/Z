@@ -5,7 +5,7 @@
   <command address="startCCs">1 2 3 4</command>
   <command address="MIDIChannel">1</command>
   <command address="midiport">"Fireface 400 (655) Port 1"</command>
-  <command address="mod-mode">0</command>
+  <command address="mode">0</command>
   <command address="pause_ambitus/center">0.187000</command>
   <command address="time_ambitus/deviation">0.236000</command>
   <command address="time_ambitus/center">0.763000</command>

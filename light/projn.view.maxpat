@@ -296,7 +296,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 39.571411, 341.0, 100.0, 33.0 ],
-									"text" : "j.remote mod-instances"
+									"text" : "j.remote instances"
 								}
 
 							}
@@ -1618,7 +1618,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 292.0, 116.0, 106.0, 17.0 ],
-									"text" : "j.remote mod-mode",
+									"text" : "j.remote mode",
 									"varname" : "mod_mode"
 								}
 

@@ -200,7 +200,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 477.0, 247.0, 60.0 ],
-									"text" : "j.parameter mod-instances @type array @description \"Instances to include in the fluct/frag random generators\" @priority 2 @repetitions/filter 0"
+									"text" : "j.parameter instances @type array @description \"Instances to include in the fluct/frag random generators\" @priority 2 @repetitions/filter 0"
 								}
 
 							}
@@ -267,7 +267,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 23.428574, 368.0, 235.0, 37.0 ],
-									"text" : "j.parameter mod-mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\"",
+									"text" : "j.parameter mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\"",
 									"varname" : "mod_mode"
 								}
 

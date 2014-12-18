@@ -664,7 +664,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 309.5, 194.45752, 144.0, 17.0 ],
-					"text" : "j.remote mode",
+					"text" : "j.remote mod",
 					"varname" : "mod_mode"
 				}
 

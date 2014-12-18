@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -100,7 +100,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 173.0, 407.0, 25.0, 25.0 ]
 				}
 
@@ -156,10 +156,10 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 306.0, 509.0, 311.0, 19.0 ],
-					"text" : "j.unit @dataspace gain @input db @output linear"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 306.0, 512.0, 311.0, 19.0 ],
+					"text" : "dbtoa"
 				}
 
 			}
@@ -209,7 +209,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -526,7 +526,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -556,8 +556,8 @@
 									"id" : "obj-6",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 171.0, 120.0, 243.0, 19.0 ],
 									"text" : "j.return #1/info/filename  @type string "
 								}
@@ -570,8 +570,8 @@
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 114.0, 154.0, 219.0, 19.0 ],
 									"text" : "j.return #1/info/size  @type decimal "
 								}
@@ -584,8 +584,8 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 67.0, 184.0, 241.0, 19.0 ],
 									"text" : "j.return #1/info/channels  @type integer "
 								}
@@ -898,7 +898,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1782,9 +1782,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 201.0, 512.0, 83.0, 17.0 ],
-					"text" : "tconvolutionUB~~"
+					"text" : "tconvolutionUB~"
 				}
 
 			}
@@ -2165,34 +2165,6 @@
 					"source" : [ "obj-84", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.thru.maxpat",
-				"bootpath" : "/Users/tumble/dev/Jamoma/Implementations/Max/Jamoma/patchers/components/thru",
-				"patcherrelativepath" : "../../../Jamoma/Implementations/Max/Jamoma/patchers/components/thru",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.unit.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

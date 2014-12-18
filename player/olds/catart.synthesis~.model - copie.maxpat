@@ -600,7 +600,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 26.0, 21.0, 258.0, 18.0 ],
-																	"text" : "j.parameter mode @type string @default play"
+																	"text" : "j.parameter mod @type string @default play"
 																}
 
 															}

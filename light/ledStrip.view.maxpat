@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 241.0, 35.0, 971.0, 512.0 ],
+		"rect" : [ 241.0, 44.0, 971.0, 512.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -57,7 +57,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -194,7 +194,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -611,7 +611,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -848,7 +848,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1162,7 +1162,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-63",
-									"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "Pro24 MIDI", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1243,7 +1243,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1534,7 +1534,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2091,7 +2091,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2660,7 +2660,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 267.0, 236.0, 106.0, 17.0 ],
-									"text" : "j.remote mode",
+									"text" : "j.remote mod",
 									"varname" : "mod_mode"
 								}
 
@@ -2680,7 +2680,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3996,12 +3996,12 @@
 					"id" : "obj-125",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ -1.0, 1.0, 300.0, 420.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 420.0 ],
-					"text" : "/LED.avant"
+					"text" : "/no_model_address"
 				}
 
 			}
@@ -4020,8 +4020,7 @@
 					"destination" : [ "obj-130", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 289.5, 325.0, 312.0, 325.0, 312.0, 159.0, 327.499969, 159.0 ],
-					"source" : [ "obj-125", 1 ]
+					"source" : [ "obj-125", 0 ]
 				}
 
 			}
@@ -4180,6 +4179,23 @@
 					"source" : [ "obj-7", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.textslider.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

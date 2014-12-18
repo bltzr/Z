@@ -29,7 +29,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 454.0, 26.0, 109.0, 18.0 ],
-					"text" : "j.remote model/mute"
+					"text" : "j.remote mod-model/mute"
 				}
 
 			}

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 464.0, 79.0, 300.0, 70.0 ],
+		"rect" : [ 324.0, 620.0, 599.0, 331.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -96,6 +96,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "DBAP Master gain",
 					"id" : "obj-39",
 					"maxclass" : "j.textslider",
 					"numinlets" : 1,
@@ -122,7 +123,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x86"
 						}
 ,
@@ -415,7 +416,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -656,7 +657,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -817,7 +818,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 2,
 											"architecture" : "x86"
 										}
 ,
@@ -854,7 +855,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x86"
 														}
 ,
@@ -1258,7 +1259,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x86"
 														}
 ,
@@ -1484,7 +1485,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 2,
 															"architecture" : "x86"
 														}
 ,
@@ -2607,7 +2608,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 330.0, 255.733917, 106.0, 20.0 ],
+					"patching_rect" : [ 0.0, 75.733917, 106.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2627,6 +2628,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "Rolloff in dB with doubling of distance.",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
@@ -2680,6 +2682,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The number of  aux sends.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-56",
@@ -2696,6 +2699,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The number of sources to process.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-55",
@@ -2806,8 +2810,8 @@
 					"id" : "obj-40",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, -0.386505, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
@@ -2822,15 +2826,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2897,8 +2892,7 @@
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 290.5, 242.806763, 339.5, 242.806763 ],
-					"source" : [ "obj-40", 1 ]
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}

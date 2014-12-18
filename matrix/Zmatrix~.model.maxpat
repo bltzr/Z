@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -264,7 +264,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -315,7 +315,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -914,7 +914,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1406,11 +1406,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 16,
-					"numoutlets" : 2,
-					"outlettype" : [ "audio.connect", "" ],
+					"numinlets" : 32,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 84.0, 230.0, 98.5, 20.0 ],
-					"text" : "j.pack= 16"
+					"text" : "j.multi.in~"
 				}
 
 			}
@@ -1420,11 +1420,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 7,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "" ],
+					"numinlets" : 2,
+					"numoutlets" : 32,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 84.0, 145.0, 98.5, 20.0 ],
-					"text" : "j.unpack= 6"
+					"text" : "j.multi.out~ ≈"
 				}
 
 			}
@@ -1435,7 +1435,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "audio.connect" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 84.0, 109.0, 25.0, 25.0 ]
 				}
 
@@ -1461,7 +1461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 210.0, 209.0, 293.0, 67.0 ],
+					"patching_rect" : [ 210.0, 209.0, 285.0, 67.0 ],
 					"text" : "j.parameter interpolate @type decimal @clipmode both @ramp/drive Max @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\" @default 0. @priority 6",
 					"varname" : "interpolate"
 				}

@@ -2002,7 +2002,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 514.0, 234.0, 276.0, 27.0 ],
-					"text" : "j.parameter mode @type string @description \"Spat mode\" @priority 30",
+					"text" : "j.parameter mod @type string @description \"Spat mode\" @priority 30",
 					"varname" : "jmod.parameter.mxb[18]"
 				}
 

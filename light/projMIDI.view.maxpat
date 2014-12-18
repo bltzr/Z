@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -42,7 +42,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -190,7 +190,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -330,7 +330,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-63",
-									"items" : [ "AU DLS Synth 1", ",", "VMidi 1", ",", "VMidi 2", ",", "VMidi 3", ",", "VMidi 4", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "Pro24 MIDI", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -424,7 +424,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -981,7 +981,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -1550,7 +1550,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 267.0, 236.0, 106.0, 17.0 ],
-									"text" : "j.remote mode",
+									"text" : "j.remote mod",
 									"varname" : "mod_mode"
 								}
 
@@ -1570,7 +1570,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2473,7 +2473,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 142.999969, 189.0, 104.0, 18.0 ],
+					"patching_rect" : [ 6.0, 193.0, 104.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2567,12 +2567,12 @@
 					"id" : "obj-125",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 1.0, 150.0, 175.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 175.0 ],
-					"text" : "/volet.jar"
+					"text" : "/no_..ess"
 				}
 
 			}
@@ -2582,8 +2582,7 @@
 					"destination" : [ "obj-130", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 146.5, 182.0, 152.499969, 182.0 ],
-					"source" : [ "obj-125", 1 ]
+					"source" : [ "obj-125", 0 ]
 				}
 
 			}
@@ -2632,6 +2631,23 @@
 					"source" : [ "obj-6", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.textslider.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

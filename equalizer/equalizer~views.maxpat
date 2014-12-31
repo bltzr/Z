@@ -185,7 +185,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 553.0, 326.0, 192.0, 22.0 ],
 					"style" : "",
-					"text" : "combine prefix /octave_bandwidth"
+					"text" : "combine prefix /bandwidth"
 				}
 
 			}
@@ -303,6 +303,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 28.0, 360.0, 41.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 3"
 				}
@@ -350,6 +354,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.0, 171.0, 31.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 3",
 					"varname" : "in2[1]"
@@ -365,6 +373,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 367.0, 603.0, 41.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 2",
 					"varname" : "out2"
@@ -1409,6 +1421,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.0, 611.0, 41.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "out 1"
 				}
@@ -1424,6 +1440,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 344.0, 205.0, 31.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 2",
 					"varname" : "in2"
@@ -1500,6 +1520,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 201.0, 31.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"style" : "",
 					"text" : "in 1"
 				}
@@ -1547,7 +1571,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 392.0, 373.0, 154.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote octave_bandwidth"
+					"text" : "j.remote bandwidth"
 				}
 
 			}

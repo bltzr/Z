@@ -2,46 +2,43 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
+			"major" : 7,
 			"minor" : 0,
-			"revision" : 8
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 643.0, 142.0, 348.0, 533.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"rect" : [ 1364.0, 462.0, 300.0, 70.0 ],
+		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.970939,
 		"default_fontface" : 0,
 		"default_fontname" : "Verdana",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 64.0, 139.0, 80.0, 18.0 ],
-					"text" : "j.viewMuter"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "j.meter~",
@@ -63,7 +60,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 165.0, 442.0, 158.0, 19.0 ],
+					"patching_rect" : [ 165.0, 442.0, 158.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote out.2/amplitude"
 				}
 
@@ -90,7 +88,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 10.0, 442.0, 158.0, 19.0 ],
+					"patching_rect" : [ 10.0, 442.0, 158.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote out.1/amplitude"
 				}
 
@@ -104,23 +103,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 116.0, 135.0, 19.0 ],
+					"patching_rect" : [ 9.0, 116.0, 40.0, 21.0 ],
+					"style" : "",
 					"text" : "j.view",
 					"varname" : "j.model"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-30",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 85.0, 87.0, 19.0 ],
-					"text" : "command input"
 				}
 
 			}
@@ -132,7 +118,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 80.0, 26.0, 26.0 ]
+					"patching_rect" : [ 9.0, 80.0, 26.0, 26.0 ],
+					"style" : ""
 				}
 
 			}
@@ -143,7 +130,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 141.0, 26.0, 26.0 ]
+					"patching_rect" : [ 9.0, 141.0, 26.0, 26.0 ],
+					"style" : ""
 				}
 
 			}
@@ -156,7 +144,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 33.0, 244.0, 122.0, 19.0 ],
+					"patching_rect" : [ 33.0, 244.0, 122.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote roomsize",
 					"varname" : "bands[1]"
 				}
@@ -166,7 +155,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.191489,
-					"frgb" : 0.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -174,44 +162,52 @@
 					"patching_rect" : [ 88.0, 219.0, 49.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 21.0, 47.0, 17.0 ],
-					"text" : "roomsize"
+					"style" : "",
+					"text" : "roomsize",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "• The size of the room, in meters. Excessivly large, and excessivly small values will make it sound a bit unrealistic. Values of around 30 sound good. Values: 1 - 300 meters (or what ever was specified as maximum)",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
+					"format" : 6,
 					"id" : "obj-56",
 					"maxclass" : "flonum",
 					"maximum" : 300.0,
 					"minimum" : 1.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 33.0, 219.0, 35.0, 17.0 ],
+					"patching_rect" : [ 33.0, 219.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 21.0, 28.0, 17.0 ],
+					"presentation_rect" : [ 52.0, 21.0, 28.0, 19.0 ],
+					"style" : "",
 					"triangle" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The amount of damping of the room's surfaces. 0 means nearly no damping, resulting on a lot of refelction (long reverb), 1. means high damping of signals (short reverb).",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
+					"format" : 6,
 					"id" : "obj-57",
 					"maxclass" : "flonum",
 					"maximum" : 1.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 33.0, 299.0, 35.0, 17.0 ],
+					"patching_rect" : [ 33.0, 299.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 21.0, 28.0, 17.0 ],
+					"presentation_rect" : [ 146.0, 21.0, 28.0, 19.0 ],
+					"style" : "",
 					"triangle" : 0
 				}
 
@@ -225,7 +221,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 33.0, 324.0, 120.0, 19.0 ],
+					"patching_rect" : [ 33.0, 324.0, 120.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote damping",
 					"varname" : "bands[2]"
 				}
@@ -235,7 +232,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -243,25 +239,30 @@
 					"patching_rect" : [ 93.0, 299.0, 47.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 97.0, 21.0, 47.0, 17.0 ],
-					"text" : "damping"
+					"style" : "",
+					"text" : "damping",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "• Reverb time (s): Reverb decay time, in seconds. 7 is a good place to start. Values: 0.1 - 360 seconds!",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
+					"format" : 6,
 					"id" : "obj-60",
 					"maxclass" : "flonum",
 					"maximum" : 360.0,
 					"minimum" : 0.1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 111.0, 35.0, 17.0 ],
+					"patching_rect" : [ 189.0, 111.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.0, 21.0, 44.0, 17.0 ],
+					"presentation_rect" : [ 238.0, 21.0, 44.0, 19.0 ],
+					"style" : "",
 					"triangle" : 0
 				}
 
@@ -275,7 +276,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 189.0, 133.0, 115.0, 19.0 ],
+					"patching_rect" : [ 189.0, 133.0, 115.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote revtime",
 					"varname" : "bands[3]"
 				}
@@ -285,7 +287,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-62",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -293,36 +294,38 @@
 					"patching_rect" : [ 244.0, 111.0, 56.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 180.0, 21.0, 56.0, 17.0 ],
-					"text" : "reverb time"
+					"style" : "",
+					"text" : "reverb time",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "• Input bandwidth: This is like a damping control for the input, it has a similar effect to the damping control, but is subtly different. Values: 0 - 1",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
+					"format" : 6,
 					"id" : "obj-69",
 					"maxclass" : "flonum",
 					"maximum" : 1.0,
 					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 193.0, 35.0, 17.0 ],
+					"patching_rect" : [ 189.0, 193.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 45.0, 30.0, 17.0 ],
+					"presentation_rect" : [ 50.0, 45.0, 30.0, 19.0 ],
+					"style" : "",
 					"triangle" : 0
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgoncolor" : [ 0.0, 1.0, 0.05098, 1.0 ],
-					"bgoveroncolor" : [ 0.0, 1.0, 0.05098, 1.0 ],
-					"fontname" : "Verdana",
-					"fontsize" : 9.0,
 					"id" : "obj-70",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -331,10 +334,12 @@
 					"patching_rect" : [ 33.0, 375.0, 54.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 234.0, 45.0, 46.0, 16.0 ],
+					"style" : "default_PB",
 					"text" : "clear !",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"texton" : "Freeze",
-					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textoveroncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -347,7 +352,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 33.0, 400.0, 101.0, 19.0 ],
+					"patching_rect" : [ 33.0, 400.0, 101.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote clear",
 					"varname" : "bands[6]"
 				}
@@ -362,7 +368,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 189.0, 218.0, 129.0, 19.0 ],
+					"patching_rect" : [ 189.0, 218.0, 129.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote bandwidth",
 					"varname" : "bands[4]"
 				}
@@ -372,7 +379,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-75",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -380,25 +386,30 @@
 					"patching_rect" : [ 244.0, 192.0, 70.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 45.0, 50.0, 17.0 ],
-					"text" : "bandwidth"
+					"style" : "",
+					"text" : "bandwidth",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "• Early reflection level (dB): The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches. Values: -90 - 0 dB",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
+					"format" : 6,
 					"id" : "obj-77",
 					"maxclass" : "flonum",
 					"maximum" : 0.0,
 					"minimum" : -90.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 270.0, 35.0, 17.0 ],
+					"patching_rect" : [ 189.0, 270.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.0, 45.0, 35.0, 17.0 ],
+					"presentation_rect" : [ 147.0, 45.0, 35.0, 19.0 ],
+					"style" : "",
 					"triangle" : 0
 				}
 
@@ -412,7 +423,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 189.0, 295.0, 102.0, 19.0 ],
+					"patching_rect" : [ 189.0, 295.0, 102.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote early",
 					"varname" : "bands[5]"
 				}
@@ -422,7 +434,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-80",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -430,25 +441,30 @@
 					"patching_rect" : [ 246.0, 269.0, 70.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 82.0, 45.0, 70.0, 17.0 ],
-					"text" : "early reflection"
+					"style" : "",
+					"text" : "early reflection",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "• Tail level (dB): The level of the classic reverb tail reflections. Values: -90 - 0 dB",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
+					"format" : 6,
 					"id" : "obj-81",
 					"maxclass" : "flonum",
 					"maximum" : 0.0,
 					"minimum" : -90.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 372.0, 35.0, 17.0 ],
+					"patching_rect" : [ 189.0, 372.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 45.0, 27.0, 17.0 ],
+					"presentation_rect" : [ 201.0, 45.0, 27.0, 19.0 ],
+					"style" : "",
 					"triangle" : 0
 				}
 
@@ -462,7 +478,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 189.0, 396.0, 92.0, 19.0 ],
+					"patching_rect" : [ 189.0, 396.0, 92.0, 21.0 ],
+					"style" : "",
 					"text" : "j.remote tail",
 					"varname" : "bands[7]"
 				}
@@ -472,7 +489,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : 0.0,
 					"id" : "obj-83",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -480,22 +496,29 @@
 					"patching_rect" : [ 239.0, 372.0, 70.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 182.0, 45.0, 22.0, 17.0 ],
-					"text" : "tail"
+					"style" : "",
+					"text" : "tail",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.333333, 0.329412, 0.313726, 1.0 ],
+					"bordercolor" : [ 0.556863, 0.552941, 0.521569, 1.0 ],
+					"fontface" : 0,
+					"headercolor" : [ 0.309804, 0.298039, 0.298039, 1.0 ],
+					"highlightcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/Zgigaverb~"
+					"text" : "/Gverb~",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -506,34 +529,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 134.5, 165.0, 147.5, 165.0, 147.5, 110.0, 18.5, 110.0 ],
-					"source" : [ "obj-11", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-29", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -686,6 +681,12 @@
 					"source" : [ "obj-82", 0 ]
 				}
 
+			}
+ ],
+		"styles" : [ 			{
+				"name" : "default_PB",
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}

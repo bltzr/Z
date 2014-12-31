@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 984.0, 436.0, 300.0, 140.0 ],
+		"rect" : [ 522.0, 358.0, 300.0, 140.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -41,14 +41,14 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"curvecolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
+					"curvecolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"domain" : [ 20.0, 22050.0 ],
 					"fontface" : 0,
-					"hcurvecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"hcurvecolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"id" : "obj-25",
 					"markercolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"maxclass" : "filtergraph~",
-					"nfilters" : 4,
+					"nfilters" : 5,
 					"numinlets" : 8,
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
@@ -56,24 +56,10 @@
 					"patching_rect" : [ 382.0, 178.0, 284.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 43.0, 296.0, 93.0 ],
-					"setfilter" : [ 3, 7, 1, 0, 0, 5000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 300.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 75.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 4, 7, 1, 0, 0, 5700.808105, 1.997932, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3, 5, 1, 0, 0, 1579.539185, 1.574927, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 620.193481, 1.574927, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 279.47821, 1.574927, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 88.619301, 0.451047, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ],
 					"varname" : "filter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "live.meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"orientation" : 1,
-					"outlettype" : [ "list" ],
-					"patching_rect" : [ 163.0, 242.0, 80.0, 10.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 150.0, 10.0, 80.0, 4.0 ]
 				}
 
 			}
@@ -85,7 +71,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 158.0, 199.0, 80.0, 10.0 ],
+					"patching_rect" : [ 157.0, 279.0, 80.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 150.0, 5.0, 80.0, 4.0 ]
 				}
@@ -885,21 +871,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 163.0, 215.0, 132.0, 22.0 ],
-					"style" : "",
-					"text" : "j.receive~ audio/out.2"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-19",
@@ -907,9 +879,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 158.0, 169.0, 132.0, 22.0 ],
+					"patching_rect" : [ 157.0, 249.0, 132.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive~ audio/out.1"
+					"text" : "j.receive~ audio/out"
 				}
 
 			}
@@ -1056,10 +1028,11 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.93, 0.93, 0.93, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"bgcolor" : [ 0.333333, 0.329412, 0.313726, 1.0 ],
+					"bordercolor" : [ 0.556646, 0.551429, 0.519943, 1.0 ],
 					"fontface" : 0,
-					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
+					"headercolor" : [ 0.309804, 0.298039, 0.298039, 1.0 ],
+					"highlightcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
@@ -1068,7 +1041,8 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/track.1/eq"
+					"text" : "/track.1/eq",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -1240,15 +1214,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-51", 0 ]
 				}
 
 			}

@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 870.0, 407.0, 338.0, 190.0 ],
@@ -14,19 +15,27 @@
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -36,13 +45,15 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 90.0, 17.0, 100.0, 20.0 ],
+					"patching_rect" : [ 90.0, 17.0, 100.0, 22.0 ],
+					"style" : "",
 					"text" : "Zmodulation"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
@@ -50,13 +61,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 48.0, 52.0, 73.0, 20.0 ],
-					"text" : "j.in~ 1"
+					"patching_rect" : [ 48.0, 52.0, 73.0, 22.0 ],
+					"style" : "",
+					"text" : "j.in~ 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
@@ -64,8 +77,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 48.0, 104.0, 73.0, 20.0 ],
-					"text" : "j.out~ 1"
+					"patching_rect" : [ 48.0, 104.0, 73.0, 22.0 ],
+					"style" : "",
+					"text" : "j.out~ 0"
 				}
 
 			}
@@ -76,7 +90,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 134.0, 25.0, 25.0 ]
+					"patching_rect" : [ 48.0, 134.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -88,7 +103,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 48.0, 17.0, 25.0, 25.0 ]
+					"patching_rect" : [ 48.0, 17.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -99,7 +115,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.0, 138.0, 25.0, 25.0 ]
+					"patching_rect" : [ 202.0, 138.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -111,7 +128,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 80.0, 25.0, 25.0 ]
+					"patching_rect" : [ 202.0, 80.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -124,7 +142,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 202.0, 109.0, 49.0, 20.0 ],
+					"patching_rect" : [ 202.0, 109.0, 49.0, 22.0 ],
+					"style" : "",
 					"text" : "j.model"
 				}
 
@@ -138,7 +157,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 171.0, 52.0, 50.0, 17.0 ],
+					"patching_rect" : [ 171.0, 52.0, 50.0, 19.0 ],
+					"style" : "",
 					"text" : "line~ 1."
 				}
 
@@ -152,7 +172,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 48.0, 80.0, 142.0, 17.0 ],
+					"patching_rect" : [ 48.0, 80.0, 142.0, 19.0 ],
+					"style" : "",
 					"text" : "*~"
 				}
 

@@ -9,8 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1303.0, 541.0, 300.0, 70.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"rect" : [ 841.0, 448.0, 300.0, 70.0 ],
+		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -50,7 +51,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 151.0, 23.22699, 114.0, 19.0 ],
 					"style" : "",
-					"text" : "Number of speakers"
+					"text" : "Number of speakers",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -67,7 +69,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 176.0, 43.22699, 87.0, 19.0 ],
 					"style" : "",
-					"text" : "Number of aux"
+					"text" : "Number of aux",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -83,7 +86,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 44.613495, 72.0, 19.0 ],
 					"style" : "",
-					"text" : "Rolloff (dB):"
+					"text" : "Rolloff (dB):",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
@@ -99,18 +103,20 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 23.613495, 110.0, 19.0 ],
 					"style" : "",
-					"text" : "Number of sources:"
+					"text" : "Number of sources:",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"annotation" : "DBAP Master gain",
-					"bgcolor" : [ 0.8, 0.8, 0.8, 0.7 ],
+					"bgcolor" : [ 0.163647, 0.174699, 0.17409, 0.698039 ],
 					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
-					"fgcolor" : [ 0.95, 0.95, 0.95, 1.0 ],
+					"fgcolor" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"fontface" : 0,
 					"id" : "obj-39",
+					"knobcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -119,6 +125,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 174.0, 1.0, 108.0, 17.0 ],
 					"text" : "gain",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textpos" : [ 10.0, 2.0 ]
 				}
 
@@ -141,7 +148,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 813.0, 44.0, 262.0, 287.0 ],
+						"rect" : [ 813.0, 45.0, 262.0, 287.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -335,9 +342,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 174.333313, 548.5, 50.0, 20.0 ],
+									"patching_rect" : [ 174.333313, 548.5, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 54.0, 0.5, 25.0, 20.0 ],
+									"presentation_rect" : [ 54.0, 0.5, 25.0, 22.0 ],
 									"style" : "",
 									"triangle" : 0
 								}
@@ -414,9 +421,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 120.0, 616.0, 50.0, 20.0 ],
+									"patching_rect" : [ 120.0, 616.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 156.0, 0.5, 50.0, 20.0 ],
+									"presentation_rect" : [ 156.0, 0.5, 50.0, 22.0 ],
 									"style" : "",
 									"triangle" : 0
 								}
@@ -433,9 +440,9 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 39.0, 616.0, 50.0, 20.0 ],
+									"patching_rect" : [ 39.0, 616.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 92.0, 0.5, 50.0, 20.0 ],
+									"presentation_rect" : [ 92.0, 0.5, 50.0, 22.0 ],
 									"style" : "",
 									"triangle" : 0
 								}
@@ -2854,6 +2861,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "The number of  speakers.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-54",
@@ -2951,9 +2959,11 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.93, 0.93, 0.93, 1.0 ],
+					"bgcolor" : [ 0.333333, 0.329412, 0.313726, 1.0 ],
+					"bordercolor" : [ 0.556863, 0.552941, 0.521569, 1.0 ],
 					"fontface" : 0,
-					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
+					"headercolor" : [ 0.309804, 0.298039, 0.298039, 1.0 ],
+					"highlightcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
@@ -2962,7 +2972,8 @@
 					"patching_rect" : [ 0.0, -0.386505, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/Zdbap"
+					"text" : "/Zdbap",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}

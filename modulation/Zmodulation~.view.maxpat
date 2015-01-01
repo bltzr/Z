@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 984.0, 366.0, 300.0, 70.0 ],
+		"rect" : [ 699.0, 283.0, 300.0, 70.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -72,8 +72,7 @@
 				"box" : 				{
 					"annotation" : "The hardness of the fragmentatoin slope(only in frag mode).",
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
-					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-					"fgcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"fgcolor" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"fontface" : 0,
 					"fontsize" : 9.0,
 					"id" : "obj-9",

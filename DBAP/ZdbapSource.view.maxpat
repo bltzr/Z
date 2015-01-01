@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 666.0, 504.0, 300.0, 210.0 ],
+		"rect" : [ 699.0, 504.0, 300.0, 210.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -1335,7 +1335,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 281.17865, 79.0, 25.821341, 13.0 ],
 					"style" : "",
-					"text" : "-2.2",
+					"text" : "-9.9",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -1355,7 +1355,7 @@
 					"presentation_rect" : [ 281.17865, 45.714539, 18.92083, 164.285461 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.617994, 0.511109, 0.205265, 1.0 ],
+					"slidercolor" : [ 0.337303, 0.352808, 0.54972, 1.0 ],
 					"style" : "",
 					"varname" : "sendSlider[5]"
 				}
@@ -1774,7 +1774,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 225.738724, 79.0, 25.821341, 13.0 ],
 					"style" : "",
-					"text" : "-4.6",
+					"text" : "-3.8",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -1794,7 +1794,7 @@
 					"presentation_rect" : [ 225.738724, 45.714539, 18.92083, 164.285461 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.630609, 0.277737, 0.179169, 1.0 ],
+					"slidercolor" : [ 0.254749, 0.632064, 0.682652, 1.0 ],
 					"style" : "",
 					"varname" : "sendSlider[3]"
 				}
@@ -2198,7 +2198,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 262.441162, 79.0, 25.821341, 13.0 ],
 					"style" : "",
-					"text" : "-1.9",
+					"text" : "-7.2",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -2218,7 +2218,7 @@
 					"presentation_rect" : [ 262.192383, 45.714539, 18.92083, 164.285461 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.501961, 0.25972, 0.208322, 1.0 ],
+					"slidercolor" : [ 0.337303, 0.352808, 0.54972, 1.0 ],
 					"style" : "",
 					"varname" : "sendSlider[2]"
 				}
@@ -2622,7 +2622,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 244.725006, 79.0, 25.821341, 13.0 ],
 					"style" : "",
-					"text" : "-2.1",
+					"text" : "-5.2",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -2642,7 +2642,7 @@
 					"presentation_rect" : [ 244.725006, 45.714539, 18.92083, 164.285461 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.235856, 0.440903, 0.501961, 1.0 ],
+					"slidercolor" : [ 0.495624, 0.529709, 0.636972, 1.0 ],
 					"style" : "",
 					"varname" : "sendSlider[1]"
 				}
@@ -15440,7 +15440,7 @@
 					"presentation_rect" : [ 210.0, 34.0, 16.0, 176.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"slidercolor" : [ 0.284596, 0.334308, 0.193668, 1.0 ],
+					"slidercolor" : [ 0.402827, 0.442342, 0.446734, 1.0 ],
 					"style" : "",
 					"varname" : "sendSlider[6]"
 				}
@@ -16287,7 +16287,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 477.0, 112.5, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 156.0, 17.0, 124.0, 16.0 ],
+					"presentation_rect" : [ 155.0, 17.0, 124.0, 16.0 ],
 					"size" : 2.0,
 					"style" : ""
 				}

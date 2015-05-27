@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
-			"architecture" : "x86",
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 293.0, 79.0, 1171.0, 855.0 ],
+		"rect" : [ 235.0, 79.0, 1171.0, 855.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -101,6 +101,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-51",
@@ -111,7 +112,8 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 738.700928, 322.0, 392.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter W @type decimal @description \"indigo value\" @range 0. 1. @clipmode both @ramp/drive none"
+					"text" : "j.pattrameter W @type decimal @description \"indigo value\" @range 0. 1. @clipmode both @ramp/drive none @tags interp @repetitions/filter 1",
+					"varname" : "j.pattrameter[4]"
 				}
 
 			}
@@ -184,7 +186,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 739.928589, 448.0, 48.0, 20.0 ],
+					"patching_rect" : [ 739.928589, 470.0, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "* 65535."
 				}
@@ -428,8 +430,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -924,6 +926,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
@@ -931,15 +934,17 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 147.319794, 61.0, 753.0, 22.0 ],
+					"patching_rect" : [ 147.319794, 61.0, 809.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter intensity @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max"
+					"text" : "j.pattrameter intensity @type decimal @description \"intensity value\" @range 0. 1. @clipmode both @ramp/drive Max @tags interp @repetitions/filter 1",
+					"varname" : "j.pattrameter[5]"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
@@ -950,13 +955,15 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 605.428589, 274.0, 389.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter A @type decimal @description \"indigo value\" @range 0. 1. @clipmode both @ramp/drive none"
+					"text" : "j.pattrameter A @type decimal @description \"indigo value\" @range 0. 1. @clipmode both @ramp/drive none @tags interp @repetitions/filter 1",
+					"varname" : "j.pattrameter[3]"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
@@ -967,13 +974,15 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 449.959534, 221.0, 390.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter B @type decimal @description \"blue value\" @range 0. 1. @clipmode both @ramp/drive Max"
+					"text" : "j.pattrameter B @type decimal @description \"blue value\" @range 0. 1. @clipmode both @ramp/drive Max @tags interp @repetitions/filter 1",
+					"varname" : "j.pattrameter[2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
@@ -984,13 +993,15 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 291.038727, 170.0, 389.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter G @type decimal @description \"green value\" @range 0. 1. @clipmode both @ramp/drive Max"
+					"text" : "j.pattrameter G @type decimal @description \"green value\" @range 0. 1. @clipmode both @ramp/drive Max @tags interp @repetitions/filter 1",
+					"varname" : "j.pattrameter[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"color" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-5",
@@ -1001,7 +1012,8 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 129.319794, 118.0, 391.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter R @type decimal @description \"red value\" @range 0. 1. @clipmode both @ramp/drive Max"
+					"text" : "j.pattrameter R @type decimal @description \"red value\" @range 0. 1. @clipmode both @ramp/drive Max @tags interp @repetitions/filter 1",
+					"varname" : "j.pattrameter"
 				}
 
 			}
@@ -1180,7 +1192,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 603.428589, 453.0, 48.0, 20.0 ],
+					"patching_rect" : [ 603.428589, 475.0, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "* 65535."
 				}
@@ -1315,7 +1327,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 130.819794, 562.0, 55.0, 20.0 ],
+					"patching_rect" : [ 160.319794, 575.0, 55.0, 20.0 ],
 					"style" : "",
 					"text" : "change -1"
 				}

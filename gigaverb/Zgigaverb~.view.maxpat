@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 1,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1364.0, 462.0, 300.0, 70.0 ],
+		"rect" : [ 985.0, 181.0, 300.0, 70.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -22,7 +22,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -40,12 +40,68 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 66.0, 164.0, 91.0, 21.0 ],
+					"style" : "",
+					"text" : "j.remote spread",
+					"varname" : "bands[8]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "• Reverb time (s): Reverb decay time, in seconds. 7 is a good place to start. Values: 0.1 - 360 seconds!",
+					"fontname" : "Verdana",
+					"fontsize" : 9.0,
+					"format" : 6,
+					"id" : "obj-6",
+					"maxclass" : "flonum",
+					"maximum" : 100.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 66.0, 133.0, 35.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 261.0, 45.0, 37.0, 19.0 ],
+					"style" : "",
+					"triangle" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 109.0, 133.0, 52.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 216.0, 45.0, 52.0, 17.0 ],
+					"style" : "",
+					"text" : "ST spread",
+					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 481.0, 100.0, 12.0 ],
+					"patching_rect" : [ 202.0, 481.0, 100.0, 12.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 124.0, 11.0, 100.0, 5.0 ]
 				}
@@ -53,16 +109,17 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 165.0, 442.0, 158.0, 21.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "" ],
+					"patching_rect" : [ 202.0, 442.0, 158.0, 21.0 ],
 					"style" : "",
-					"text" : "j.remote out.2/amplitude"
+					"text" : "j.receive~ audio/out.2"
 				}
 
 			}
@@ -81,16 +138,17 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 10.0, 442.0, 158.0, 21.0 ],
 					"style" : "",
-					"text" : "j.remote out.1/amplitude"
+					"text" : "j.receive~ audio/out.1"
 				}
 
 			}
@@ -170,7 +228,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "• The size of the room, in meters. Excessivly large, and excessivly small values will make it sound a bit unrealistic. Values of around 30 sound good. Values: 1 - 300 meters (or what ever was specified as maximum)",
+					"annotation" : "• The size of the room, in meters. Excessivly large, and excessivly small values will make it sound a bit unrealistic. Values of around 30 sound good. Values: 0.1 - 300 meters (or what ever was specified as maximum)",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
 					"format" : 6,
@@ -184,7 +242,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 33.0, 219.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 21.0, 28.0, 19.0 ],
+					"presentation_rect" : [ 50.0, 21.0, 28.0, 19.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -206,7 +264,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 33.0, 299.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 21.0, 28.0, 19.0 ],
+					"presentation_rect" : [ 125.0, 21.0, 28.0, 19.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -238,7 +296,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.0, 299.0, 47.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.0, 21.0, 47.0, 17.0 ],
+					"presentation_rect" : [ 80.0, 21.0, 47.0, 17.0 ],
 					"style" : "",
 					"text" : "damping",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
@@ -261,7 +319,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 189.0, 111.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.0, 21.0, 44.0, 19.0 ],
+					"presentation_rect" : [ 209.0, 21.0, 44.0, 19.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -293,7 +351,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.0, 111.0, 56.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 21.0, 56.0, 17.0 ],
+					"presentation_rect" : [ 155.0, 21.0, 56.0, 17.0 ],
 					"style" : "",
 					"text" : "reverb time",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
@@ -333,7 +391,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 33.0, 375.0, 54.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 234.0, 45.0, 46.0, 16.0 ],
+					"presentation_rect" : [ 254.0, 22.0, 44.0, 16.0 ],
 					"style" : "default_PB",
 					"text" : "clear !",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -394,7 +452,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "• Early reflection level (dB): The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches. Values: -90 - 0 dB",
+					"annotation" : "• Early reflection level (dB): The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches. Values: 0. 1.",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
 					"format" : 6,
@@ -408,7 +466,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 189.0, 270.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.0, 45.0, 35.0, 19.0 ],
+					"presentation_rect" : [ 125.0, 45.0, 35.0, 19.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -416,6 +474,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-79",
@@ -423,9 +482,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 189.0, 295.0, 102.0, 21.0 ],
+					"patching_rect" : [ 189.0, 295.0, 131.0, 21.0 ],
 					"style" : "",
-					"text" : "j.remote early",
+					"text" : "j.remote early @unit dB",
 					"varname" : "bands[5]"
 				}
 
@@ -438,18 +497,18 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 246.0, 269.0, 70.0, 17.0 ],
+					"patching_rect" : [ 246.0, 269.0, 74.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 45.0, 70.0, 17.0 ],
+					"presentation_rect" : [ 82.0, 45.0, 74.0, 17.0 ],
 					"style" : "",
-					"text" : "early reflection",
+					"text" : "early refl.",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "• Tail level (dB): The level of the classic reverb tail reflections. Values: -90 - 0 dB",
+					"annotation" : "• Tail level (dB): The level of the classic reverb tail reflections. Values: 0. 1.",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
 					"format" : 6,
@@ -463,7 +522,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 189.0, 372.0, 35.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 45.0, 27.0, 19.0 ],
+					"presentation_rect" : [ 187.0, 45.0, 27.0, 19.0 ],
 					"style" : "",
 					"triangle" : 0
 				}
@@ -471,6 +530,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-82",
@@ -478,9 +538,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 189.0, 396.0, 92.0, 21.0 ],
+					"patching_rect" : [ 189.0, 396.0, 122.0, 21.0 ],
 					"style" : "",
-					"text" : "j.remote tail",
+					"text" : "j.remote tail @unit dB",
 					"varname" : "bands[7]"
 				}
 
@@ -495,7 +555,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.0, 372.0, 70.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 182.0, 45.0, 22.0, 17.0 ],
+					"presentation_rect" : [ 163.0, 45.0, 22.0, 17.0 ],
 					"style" : "",
 					"text" : "tail",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
@@ -599,6 +659,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 75.5, 153.0, 75.5, 153.0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -622,6 +692,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 75.5, 186.0, 59.0, 186.0, 59.0, 117.0, 75.5, 117.0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

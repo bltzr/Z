@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 1,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -22,7 +22,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 342.0, 52.0, 98.0, 15.0 ],
+					"patching_rect" : [ 335.0, 52.0, 98.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 124.0, 5.0, 124.0, 11.0 ]
 				}
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 200.0, 308.0, 100.0, 19.0 ],
+					"patching_rect" : [ 211.0, 351.0, 100.0, 19.0 ],
 					"style" : "",
 					"text" : "j.remote density/jit",
 					"varname" : "dispstart[2]"
@@ -123,7 +123,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 118.0, 308.0, 19.0, 19.0 ],
+					"patching_rect" : [ 129.0, 351.0, 19.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 198.0, 41.0, 19.0, 19.0 ],
 					"style" : "",
@@ -144,7 +144,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 68.0, 305.0, 50.0, 21.0 ],
+					"patching_rect" : [ 79.0, 348.0, 50.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 214.75, 40.0, 37.0, 21.0 ],
 					"style" : "",
@@ -167,7 +167,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -303,7 +303,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 1,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -780,7 +780,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 1,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1096,7 +1096,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 1,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2033,7 +2033,7 @@
 				"box" : 				{
 					"annotation" : "none",
 					"bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"buffername" : "ClimDenseEvolue.wav",
+					"buffername" : "DescenteVersLeTarn.wav",
 					"clipdraw" : 1,
 					"grid" : 500.0,
 					"gridcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -2400,7 +2400,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2899,7 +2899,7 @@
 				"box" : 				{
 					"hint" : "select a buffer",
 					"id" : "obj-38",
-					"items" : [ "ClimChantante.wav", ",", "ClimCouloir.wav", ",", "ClimDenseEvolue.wav", ",", "ClimFleuve+Calme.wav", ",", "ClimFleuveDeLave.wav", ",", "ClimInria.wav", ",", "ClimLocal.wav", ",", "ClimProcheMaths1.wav", ",", "ClimProcheMaths2.wav", ",", "ClimTremblementsMaths.wav", ",", "ClimVibreeAigue.wav", ",", "ClimVibreeLongue.wav", ",", "ClimVibreNocturne.wav", ",", "DebutClimLaBri.wav", ",", "NappeClim.wav", ",", "NappeClimHemicyclia1.wav", ",", "NappeClimHemicyclia2.wav", ",", "NappeClimHemicycliaPorte.wav", ",", "VentilationCloitre-Grave.L.wav", ",", "VentilationCloitre-Grave.R.wav" ],
+					"items" : [ "Bouilloire.wav", ",", "ChausseeTarnContinue.wav", ",", "ChausseeTarnLointain.wav", ",", "ChausseeTarnProche.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3023,7 +3023,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3511,7 +3511,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 8.0,
 					"id" : "obj-85",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -3567,7 +3566,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3646,7 +3645,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 1,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4545,7 +4544,7 @@
 					"destination" : [ "obj-127", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 844.5, 510.0, 922.0, 510.0, 922.0, 294.0, 631.25, 294.0 ],
+					"midpoints" : [ 844.5, 510.0, 900.0, 510.0, 900.0, 294.0, 631.25, 294.0 ],
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -5026,8 +5025,8 @@
 , 			{
 				"name" : "umenuPB",
 				"default" : 				{
-					"textjustification" : [ 1 ],
-					"fontsize" : [ 9.0 ]
+					"fontsize" : [ 9.0 ],
+					"textjustification" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",

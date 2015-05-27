@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 210.0, 436.0, 100.0, 21.0 ],
+					"style" : "",
+					"text" : "mubu.granular~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-2",
@@ -1784,14 +1797,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
 													"id" : "obj-2",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 465.0, 195.0, 50.0, 16.0 ],
 													"style" : "",
-													"text" : "append tuyaux"
+													"text" : "0"
 												}
 
 											}
@@ -7350,16 +7362,17 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
 					"id" : "obj-81",
 					"maxclass" : "newobj",
-					"numinlets" : 8,
+					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 39.0, 374.0, 347.0, 19.0 ],
 					"style" : "",
-					"text" : "bufGranul~ #0_bufgranul.snd1 #0_bufgranul.env1 1"
+					"text" : "-bufGranul~ #0_bufgranul.snd1 #0_bufgranul.env1 1"
 				}
 
 			}

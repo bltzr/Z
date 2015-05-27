@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 1,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 522.0, 85.0, 300.0, 630.0 ],
+		"rect" : [ 460.0, 85.0, 300.0, 630.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -22,7 +22,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -57,7 +57,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 416.0, 300.0, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 419.0, 300.0, 210.0 ],
+					"presentation_rect" : [ 0.0, 420.0, 300.0, 210.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -81,7 +81,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 10.0, 300.0, 175.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 21.0, 300.0, 175.0 ],
+					"presentation_rect" : [ 0.0, 22.0, 300.0, 175.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -105,7 +105,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, 265.0, 300.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 273.0, 300.0, 140.0 ],
+					"presentation_rect" : [ 0.0, 274.0, 300.0, 140.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -129,7 +129,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.0, 193.0, 300.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 199.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 200.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -188,7 +188,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 87.0, -15.0, 300.0, 665.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, -1.0, 300.0, 630.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 630.0 ],
 					"text" : "/track.1",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}

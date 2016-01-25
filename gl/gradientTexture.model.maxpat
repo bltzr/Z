@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 1,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -103,7 +103,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -224,7 +224,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -283,7 +283,7 @@
 											"major" : 7,
 											"minor" : 1,
 											"revision" : 0,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1197,7 +1197,7 @@
 									"destination" : [ "obj-96", 3 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 917.0, 312.5, 792.900024, 312.5 ],
+									"midpoints" : [ 917.0, 312.5, 792.9, 312.5 ],
 									"source" : [ "obj-111", 0 ]
 								}
 
@@ -1524,7 +1524,7 @@
 							"major" : 7,
 							"minor" : 1,
 							"revision" : 0,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1566,7 +1566,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 126.0, 330.0, 179.0, 22.0 ],
 									"style" : "",
-									"text" : "pak end 0. 0. 0. 0."
+									"text" : "pak end 1. 0. 0. 0."
 								}
 
 							}
@@ -1618,7 +1618,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 197.0, 179.0, 22.0 ],
 									"style" : "",
-									"text" : "pak start 0. 0. 0. 0."
+									"text" : "pak start 1. 0. 0. 0."
 								}
 
 							}
@@ -1919,14 +1919,14 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1318.0, 458.0, 450.0, 140.0 ],
+		"rect" : [ 1241.0, 333.0, 450.0, 140.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -385,7 +385,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 593.0, 184.0, 559.0, 660.0 ],
+						"rect" : [ 134.0, 83.0, 899.0, 756.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -413,8 +413,83 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"title" : "/ledStripAddrColors(view)",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-72",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 678.0, 441.0, 29.5, 22.0 ],
+									"style" : "",
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"id" : "obj-42",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"patching_rect" : [ 694.5, 316.0, 112.0, 112.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 504.541992, 376.0, 31.0, 31.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"annotation" : "none",
+									"clip" : 0,
+									"degrees" : 360,
+									"floatoutput" : 1,
+									"id" : "obj-54",
+									"maxclass" : "dial",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 698.25, 512.5, 118.0, 118.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 484.833862, 356.541962, 69.363953, 69.363953 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "dial[4]",
+											"parameter_shortname" : "dial",
+											"parameter_type" : 3,
+											"parameter_invisible" : 1
+										}
+
+									}
+,
+									"size" : 1.0,
+									"style" : "",
+									"varname" : "dial",
+									"vtracking" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 713.75, 465.5, 87.0, 22.0 ],
+									"style" : "",
+									"text" : "j.remote angle"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"annotation" : "none",
 									"floatoutput" : 1,
@@ -737,7 +812,7 @@
 
 									}
 ,
-									"size" : 459.0,
+									"size" : 460.0,
 									"style" : "",
 									"varname" : "rslider"
 								}
@@ -1330,6 +1405,7 @@
 									"patching_rect" : [ 189.081757, 151.169922, 128.0, 32.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 3.081757, 203.0, 479.0, 167.0 ],
+									"saturation" : 200,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "swatch[1]",
@@ -1356,7 +1432,7 @@
 									"patching_rect" : [ 369.0, 146.169922, 128.0, 32.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 3.081757, 31.0, 479.0, 167.0 ],
-									"saturation" : 135,
+									"saturation" : 236,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "swatch",
@@ -1982,6 +2058,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-72", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2198,6 +2283,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-61", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2315,6 +2409,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2387,6 +2490,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2439,14 +2551,13 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -2456,7 +2567,8 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2548,7 +2660,7 @@
 					"setminmax" : [ 0.0, 255.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 459,
+					"size" : 460,
 					"slidercolor" : [ 0.196078, 0.196078, 0.588235, 1.0 ],
 					"style" : "",
 					"varname" : "multislider[2]"
@@ -2582,7 +2694,7 @@
 					"setminmax" : [ 0.0, 255.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 459,
+					"size" : 460,
 					"slidercolor" : [ 0.196078, 0.588235, 0.196078, 1.0 ],
 					"style" : "",
 					"varname" : "multislider[1]"
@@ -2616,7 +2728,7 @@
 					"setminmax" : [ 0.0, 255.0 ],
 					"setstyle" : 1,
 					"settype" : 0,
-					"size" : 459,
+					"size" : 460,
 					"slidercolor" : [ 0.588235, 0.196078, 0.196078, 1.0 ],
 					"style" : "",
 					"varname" : "multislider"

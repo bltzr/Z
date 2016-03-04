@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
-			"architecture" : "x64",
+			"minor" : 2,
+			"revision" : 0,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 985.0, 181.0, 300.0, 70.0 ],
+		"rect" : [ 1215.0, 265.0, 374.0, 87.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -40,6 +40,34 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 202.0, 476.0, 100.0, 11.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 104.0, 10.673234, 126.0, 8.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 10.0, 476.0, 100.0, 11.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 104.0, 2.0, 126.0, 8.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -57,7 +85,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "• Reverb time (s): Reverb decay time, in seconds. 7 is a good place to start. Values: 0.1 - 360 seconds!",
+					"annotation" : "• Stereo spread Values: 0 - 100",
 					"fontname" : "Verdana",
 					"fontsize" : 9.0,
 					"format" : 6,
@@ -96,19 +124,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "j.meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 481.0, 100.0, 12.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 124.0, 11.0, 100.0, 5.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -120,19 +135,6 @@
 					"patching_rect" : [ 202.0, 442.0, 158.0, 21.0 ],
 					"style" : "",
 					"text" : "j.receive~ audio/out.2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "j.meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 480.0, 100.0, 12.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 124.0, 4.0, 100.0, 5.0 ]
 				}
 
 			}
@@ -585,7 +587,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
@@ -622,7 +624,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]

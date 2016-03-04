@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
-			"architecture" : "x64",
+			"minor" : 2,
+			"revision" : 0,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 666.0, 106.0, 300.0, 175.0 ],
+		"rect" : [ 2027.0, 291.0, 375.0, 218.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -165,9 +165,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -301,9 +301,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 0,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -778,9 +778,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 0,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1094,9 +1094,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 0,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1892,7 +1892,6 @@
 				"box" : 				{
 					"annotation" : "none",
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fgcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"fontface" : 0,
 					"fontsize" : 7.0,
@@ -1979,7 +1978,6 @@
 				"box" : 				{
 					"annotation" : "none",
 					"bgcolor" : [ 0.090196, 0.090196, 0.090196, 0.698039 ],
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fgcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"fontface" : 0,
 					"fontsize" : 7.0,
@@ -2033,7 +2031,7 @@
 				"box" : 				{
 					"annotation" : "none",
 					"bgcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"buffername" : "DescenteVersLeTarn.wav",
+					"buffername" : "RadiateurElec1.wav",
 					"clipdraw" : 1,
 					"grid" : 500.0,
 					"gridcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
@@ -2309,7 +2307,6 @@
 				"box" : 				{
 					"annotation" : "none",
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.698039 ],
-					"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
 					"fgcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 					"fontface" : 0,
 					"fontsize" : 7.0,
@@ -2398,9 +2395,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2899,7 +2896,7 @@
 				"box" : 				{
 					"hint" : "select a buffer",
 					"id" : "obj-38",
-					"items" : [ "Bouilloire.wav", ",", "ChausseeTarnContinue.wav", ",", "ChausseeTarnLointain.wav", ",", "ChausseeTarnProche.wav" ],
+					"items" : [ "AmpliGMEAarriere.wav", ",", "AmpliGMEAavant.wav", ",", "AmpliGMEAlointain.wav", ",", "BrassageIncubateur1.wav", ",", "BrassageIncubateur2.wav", ",", "BrassageIncubateur3.wav", ",", "BrassageRecherche1.L.wav", ",", "BrassageRecherche1.R.wav", ",", "BrassageRecherche2.L.wav", ",", "BrassageRecherche2.R.wav", ",", "FrigoSouque.wav", ",", "HotteMecanique.wav", ",", "HotteRapprochant.wav", ",", "NappeHotteGrave.wav", ",", "RadiateurElec1.wav", ",", "RadiateurElec2.wav", ",", "RadiateurElec3.wav", ",", "RadiateurElec4.wav", ",", "transfoGazLMmoto.wav", ",", "transfoGazLMproche1.wav", ",", "transfoGazLMproche2.wav", ",", "transfoGazLMvoiture1.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3021,9 +3018,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3564,9 +3561,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3643,9 +3640,9 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
-											"architecture" : "x64",
+											"minor" : 2,
+											"revision" : 0,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -4789,6 +4786,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-89", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5025,8 +5031,8 @@
 , 			{
 				"name" : "umenuPB",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
-					"textjustification" : [ 1 ]
+					"textjustification" : [ 1 ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",

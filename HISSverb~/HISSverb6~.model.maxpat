@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 0,
-			"architecture" : "x86",
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 132.0, 350.0, 503.0, 268.0 ],
+		"rect" : [ 169.0, 350.0, 503.0, 268.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -470,8 +470,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -525,7 +525,7 @@
 									"outlettype" : [ "", "signal" ],
 									"patching_rect" : [ 181.0, 317.0, 150.0, 22.0 ],
 									"style" : "",
-									"text" : "IR-buffer IR.5 /Hverb~IR.5"
+									"text" : "IR-buffer IR.6 /Hverb~IR.6"
 								}
 
 							}

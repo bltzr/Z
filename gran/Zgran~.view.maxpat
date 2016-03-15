@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 0,
-			"architecture" : "x86",
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2027.0, 291.0, 375.0, 218.0 ],
+		"rect" : [ 337.0, 227.0, 839.0, 466.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -40,13 +40,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 335.0, 39.0, 230.0, 20.0 ],
+					"style" : "",
+					"text" : "j.unit @dataspace gain @input dB @output linear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 335.0, 52.0, 98.0, 15.0 ],
+					"patching_rect" : [ 335.0, 66.0, 98.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 124.0, 5.0, 124.0, 11.0 ]
 				}
@@ -91,10 +106,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 335.0, 17.0, 159.0, 21.0 ],
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 335.0, 10.0, 159.0, 21.0 ],
 					"style" : "",
-					"text" : "j.receive~ audio/out"
+					"text" : "j.receive audio/out/amplitude"
 				}
 
 			}
@@ -166,8 +181,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -302,8 +317,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 0,
-											"architecture" : "x86",
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -779,8 +794,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 0,
-											"architecture" : "x86",
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1095,8 +1110,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 0,
-											"architecture" : "x86",
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2396,8 +2411,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2887,7 +2902,7 @@
 					"patching_rect" : [ 0.0, 4.0, 300.0, 175.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ],
-					"text" : "/track.1/gran",
+					"text" : "/no_model_address",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -2896,7 +2911,7 @@
 				"box" : 				{
 					"hint" : "select a buffer",
 					"id" : "obj-38",
-					"items" : [ "AmpliGMEAarriere.wav", ",", "AmpliGMEAavant.wav", ",", "AmpliGMEAlointain.wav", ",", "BrassageIncubateur1.wav", ",", "BrassageIncubateur2.wav", ",", "BrassageIncubateur3.wav", ",", "BrassageRecherche1.L.wav", ",", "BrassageRecherche1.R.wav", ",", "BrassageRecherche2.L.wav", ",", "BrassageRecherche2.R.wav", ",", "FrigoSouque.wav", ",", "HotteMecanique.wav", ",", "HotteRapprochant.wav", ",", "NappeHotteGrave.wav", ",", "RadiateurElec1.wav", ",", "RadiateurElec2.wav", ",", "RadiateurElec3.wav", ",", "RadiateurElec4.wav", ",", "transfoGazLMmoto.wav", ",", "transfoGazLMproche1.wav", ",", "transfoGazLMproche2.wav", ",", "transfoGazLMvoiture1.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3019,8 +3034,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3444,7 +3459,7 @@
 					"fontsize" : 9.0,
 					"hint" : "select a sub-folder of buffers",
 					"id" : "obj-71",
-					"items" : [ "bruitsRoses", ",", "centrale", ",", "clims", ",", "divers", ",", "eau", ",", "frott", ",", "machines", ",", "silences", ",", "souffles", ",", "turbine", ",", "tuyaux", ",", "vent", ",", "ventilos" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3562,8 +3577,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 0,
-							"architecture" : "x86",
+							"revision" : 1,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3641,8 +3656,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 0,
-											"architecture" : "x86",
+											"revision" : 1,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3939,7 +3954,7 @@
 									"fontsize" : 9.0,
 									"hint" : "select a collection of buffers",
 									"id" : "obj-15",
-									"items" : "pool",
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4676,7 +4691,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
@@ -4837,6 +4852,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 141.5, 525.0, 123.0, 525.0, 123.0, 498.0, 88.5, 498.0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -5023,6 +5047,38 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "j.random.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.textslider.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "default_PB",
 				"parentstyle" : "",
@@ -5031,8 +5087,8 @@
 , 			{
 				"name" : "umenuPB",
 				"default" : 				{
-					"textjustification" : [ 1 ],
-					"fontsize" : [ 9.0 ]
+					"fontsize" : [ 9.0 ],
+					"textjustification" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",

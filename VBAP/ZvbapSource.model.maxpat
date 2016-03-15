@@ -883,9 +883,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 177.0, 200.0, 229.0, 22.0 ],
+									"patching_rect" : [ 177.0, 200.0, 239.0, 22.0 ],
 									"style" : "",
-									"text" : "j.return out/amplitude @type decimal"
+									"text" : "j.return audio/out/amplitude @type decimal"
 								}
 
 							}
@@ -1498,7 +1498,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 177.0, 75.0, 25.0, 25.0 ],
 									"style" : "",
 									"varname" : "mult"
@@ -1671,7 +1671,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 262.0, 290.0, 23.0, 23.0 ],
 					"style" : ""
 				}
@@ -4522,7 +4522,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-5",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -4593,7 +4592,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-46",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -5075,7 +5073,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-162",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -5089,7 +5086,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-161",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -6039,7 +6035,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-46",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -6066,7 +6061,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-56",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -6149,7 +6143,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-27",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -6880,7 +6873,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 705.0, 98.0, 100.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"connect" : "spatamb",
+										"connect" : "#1amb",
 										"interval" : 51,
 										"pointsize" : 0.0,
 										"trajectory_color" : [ 1.0, 0.0, 0.0, 0.5 ],
@@ -7333,7 +7326,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 911.0, 473.5, 122.0, 21.0 ],
 									"saved_object_attributes" : 									{
-										"connect" : "spatamb",
+										"connect" : "#1amb",
 										"pointsize" : 0.0,
 										"trajectory_color" : [ 1.0, 0.0, 0.0, 0.5 ],
 										"trajectory_point_color" : [ 1.0, 0.0, 0.0, 0.5 ],
@@ -9334,7 +9327,87 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.random.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/random",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.filewatcher.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/filewatcher",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.multi.in~.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/multi.in%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.datetime.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ambicontrol.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ambimonitor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.unit.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "vbap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.folder.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.savebang.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscinstance.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

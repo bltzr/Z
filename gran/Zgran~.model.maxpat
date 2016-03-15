@@ -38,6 +38,33 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 136.0, 409.5, 102.0, 18.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 136.0, 442.5, 239.0, 22.0 ],
+					"style" : "",
+					"text" : "j.return audio/out/amplitude @type decimal"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-61",
@@ -46,7 +73,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 357.0, 320.0, 51.0, 21.0 ],
-					"presentation_rect" : [ 359.0, 320.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "amp $1"
 				}
@@ -1851,7 +1877,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 465.0, 195.0, 80.0, 20.0 ],
 													"style" : "",
-													"text" : "append ventilos"
+													"text" : "0"
 												}
 
 											}
@@ -4497,7 +4523,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
 									"patching_rect" : [ 50.0, 645.0, 43.0, 21.0 ],
-									"presentation_rect" : [ 122.0, 664.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "edge~"
 								}
@@ -4513,7 +4538,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 200.0, 170.0, 50.0, 19.0 ],
-									"presentation_rect" : [ 202.0, 170.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -7555,6 +7579,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7696,6 +7729,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

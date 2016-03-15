@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1320.0, 607.0, 450.0, 245.0 ],
+		"rect" : [ 1328.0, 618.0, 450.0, 245.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -85,25 +85,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 275.0, 716.0, 53.0, 22.0 ],
-					"style" : "",
-					"text" : "r manip"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 362.5, 701.0, 54.0, 22.0 ],
+					"patching_rect" : [ 411.5, 670.0, 54.0, 22.0 ],
 					"style" : "",
 					"text" : "gate 1 1"
 				}
@@ -116,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.5, 696.0, 54.0, 22.0 ],
+					"patching_rect" : [ 83.0, 660.0, 54.0, 22.0 ],
 					"style" : "",
 					"text" : "gate 1 1"
 				}
@@ -133,7 +120,7 @@
 					"patching_rect" : [ 442.0, 190.0, 178.0, 129.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.0, 20.5, 311.0, 109.5 ],
-					"saturation" : 1.0,
+					"saturation" : 0.984314,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "swatch[5]",
@@ -185,7 +172,7 @@
 					"patching_rect" : [ 118.0, 197.0, 178.0, 129.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 137.0, 130.5, 311.0, 114.5 ],
-					"saturation" : 1.0,
+					"saturation" : 0.992157,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "swatch[6]",
@@ -272,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 611.0, 100.0, 22.0 ],
+					"patching_rect" : [ 323.0, 618.0, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "gate"
 				}
@@ -1056,22 +1043,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"id" : "obj-16",
-					"ignoreclick" : 1,
-					"maxclass" : "mira.frame",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 610.0, 47.700005, 64.399994, 45.784371 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.0, -1.0, 445.0, 316.367188 ],
-					"tabname" : "tour",
-					"taborder" : 6
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1655,28 +1626,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-250", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 372.0, 586.0, 427.0, 586.0, 427.0, 172.0, 451.5, 172.0 ],
+					"midpoints" : [ 421.0, 586.0, 427.0, 586.0, 427.0, 172.0, 451.5, 172.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -1731,7 +1684,7 @@
 					"destination" : [ "obj-169", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 192.0, 585.0, 103.0, 585.0, 103.0, 187.0, 127.5, 187.0 ],
+					"midpoints" : [ 92.5, 585.0, 103.0, 585.0, 103.0, 187.0, 127.5, 187.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -1763,6 +1716,10 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -1774,13 +1731,9 @@
 					}
 ,
 					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

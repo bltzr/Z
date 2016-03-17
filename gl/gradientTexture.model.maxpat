@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,246 +39,6 @@
 		"style" : "velvet",
 		"subpatcher_template" : "noTB_dark",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"rect" : [ 912.0, 440.0, 551.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "noTB_dark",
-						"visible" : 1,
-						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 58.0, 413.0, 100.0, 22.0 ],
-									"style" : "",
-									"text" : "t b l"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"clipheight" : 118.333333,
-									"data" : 									{
-										"clips" : [ 											{
-												"filename" : "Brain:/Users/Nebula/Dropbox/Bs-Patchs/Nebula/Vidéos/IMG_0747.MOV",
-												"filekind" : "moviefile",
-												"loop" : 0,
-												"content_state" : 												{
-													"outputmode" : [ 1 ],
-													"out_name" : [ "u191007176" ],
-													"dim" : [ 1, 1 ],
-													"colormode" : [ "argb" ],
-													"time" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"usesrcrect" : [ 0 ],
-													"adapt" : [ 1 ],
-													"moviefile" : [ "" ],
-													"loopreport" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"position" : [ 0.0 ],
-													"framereport" : [ 0 ],
-													"loopend" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"vol" : [ 1.0 ],
-													"time_secs" : [ 0.0 ],
-													"unique" : [ 0 ],
-													"drawto" : [ "" ],
-													"texture_name" : [ "u597007174" ],
-													"loopstart" : [ 0 ],
-													"output_texture" : [ 0 ],
-													"automatic" : [ 0 ],
-													"engine" : [ "avf" ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"interp" : [ 0 ],
-													"usedstrect" : [ 0 ]
-												}
-
-											}
-, 											{
-												"filename" : "Brain:/Users/Nebula/Dropbox/Bs-Patchs/Nebula/Vidéos/IMG_0746.MOV",
-												"filekind" : "moviefile",
-												"loop" : 0,
-												"content_state" : 												{
-													"outputmode" : [ 1 ],
-													"out_name" : [ "u191007176" ],
-													"dim" : [ 1, 1 ],
-													"colormode" : [ "argb" ],
-													"time" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"usesrcrect" : [ 0 ],
-													"adapt" : [ 1 ],
-													"moviefile" : [ "" ],
-													"loopreport" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"position" : [ 0.0 ],
-													"framereport" : [ 0 ],
-													"loopend" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"vol" : [ 1.0 ],
-													"time_secs" : [ 0.0 ],
-													"unique" : [ 0 ],
-													"drawto" : [ "" ],
-													"texture_name" : [ "u597007174" ],
-													"loopstart" : [ 0 ],
-													"output_texture" : [ 0 ],
-													"automatic" : [ 0 ],
-													"engine" : [ "avf" ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"interp" : [ 0 ],
-													"usedstrect" : [ 0 ]
-												}
-
-											}
-, 											{
-												"filename" : "Brain:/Users/Nebula/Dropbox/Bs-Patchs/Nebula/Vidéos/IMG_0743.MOV",
-												"filekind" : "moviefile",
-												"loop" : 0,
-												"content_state" : 												{
-													"outputmode" : [ 1 ],
-													"out_name" : [ "u191007176" ],
-													"dim" : [ 1, 1 ],
-													"colormode" : [ "argb" ],
-													"time" : [ 0 ],
-													"looppoints" : [ 0, 0 ],
-													"usesrcrect" : [ 0 ],
-													"adapt" : [ 1 ],
-													"moviefile" : [ "" ],
-													"loopreport" : [ 0 ],
-													"dstrect" : [ 0, 0, 1, 1 ],
-													"position" : [ 0.0 ],
-													"framereport" : [ 0 ],
-													"loopend" : [ 0 ],
-													"srcrect" : [ 0, 0, 1, 1 ],
-													"vol" : [ 1.0 ],
-													"time_secs" : [ 0.0 ],
-													"unique" : [ 0 ],
-													"drawto" : [ "" ],
-													"texture_name" : [ "u597007174" ],
-													"loopstart" : [ 0 ],
-													"output_texture" : [ 0 ],
-													"automatic" : [ 0 ],
-													"engine" : [ "avf" ],
-													"rate" : [ 1.0 ],
-													"autostart" : [ 1 ],
-													"interp" : [ 0 ],
-													"usedstrect" : [ 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"id" : "obj-2",
-									"maxclass" : "jit.playlist",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "jit_matrix", "", "dictionary" ],
-									"patching_rect" : [ 58.0, 23.0, 453.0, 358.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-1",
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 58.0, 445.0, 30.0, 30.0 ],
-									"style" : ""
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 183.0, 63.0, 53.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
-					}
-,
-					"style" : "",
-					"text" : "p movie"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
@@ -317,8 +77,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -941,8 +701,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1053,8 +813,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1534,10 +1294,14 @@
 , 											{
 												"name" : "jpink",
 												"default" : 												{
+													"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+													"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+													"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 													"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 													"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+													"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -1547,11 +1311,7 @@
 														"proportion" : 0.39,
 														"autogradient" : 0
 													}
-,
-													"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-													"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
+
 												}
 ,
 												"parentstyle" : "",
@@ -2058,10 +1818,14 @@
 , 							{
 								"name" : "jpink",
 								"default" : 								{
+									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -2071,11 +1835,7 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-,
-									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -2111,8 +1871,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2684,24 +2444,6 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-256", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -2787,10 +2529,14 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -2800,11 +2546,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",

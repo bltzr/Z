@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
-			"architecture" : "x64",
+			"minor" : 2,
+			"revision" : 1,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 871.0, 421.0, 450.0, 210.0 ],
+		"rect" : [ 962.0, 263.0, 450.0, 210.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,9 +47,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 1,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -423,13 +423,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
-							"architecture" : "x64",
+							"minor" : 2,
+							"revision" : 1,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 24.0, 517.0, 772.0, 474.0 ],
+						"rect" : [ 152.0, 581.0, 125.0, 146.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -460,13 +460,27 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 13.0, 64.0, 80.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 19.0, 73.0, 80.0, 20.0 ],
+									"style" : "",
+									"text" : "scale"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 318.5, 291.0, 80.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 318.5, 291.0, 80.0, 20.0 ],
+									"presentation_rect" : [ 23.5, 115.0, 80.0, 20.0 ],
 									"style" : "",
 									"text" : "Y"
 								}
@@ -480,7 +494,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 188.5, 291.0, 80.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 188.5, 291.0, 80.0, 20.0 ],
+									"presentation_rect" : [ 23.5, 91.0, 80.0, 20.0 ],
 									"style" : "",
 									"text" : "X"
 								}
@@ -498,7 +512,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 302.0, 289.0, 113.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 302.0, 289.0, 113.0, 24.0 ],
+									"presentation_rect" : [ 7.0, 113.0, 113.0, 24.0 ],
 									"size" : 2.0,
 									"style" : ""
 								}
@@ -516,7 +530,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 172.0, 289.0, 113.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 172.0, 289.0, 113.0, 24.0 ],
+									"presentation_rect" : [ 7.0, 89.0, 113.0, 24.0 ],
 									"size" : 2.0,
 									"style" : ""
 								}
@@ -556,7 +570,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 318.5, 205.0, 80.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 18.5, 47.0, 80.0, 20.0 ],
+									"presentation_rect" : [ 23.5, 51.0, 80.0, 20.0 ],
 									"style" : "",
 									"text" : "Y"
 								}
@@ -570,7 +584,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 188.5, 205.0, 80.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 18.5, 23.0, 80.0, 20.0 ],
+									"presentation_rect" : [ 23.5, 27.0, 80.0, 20.0 ],
 									"style" : "",
 									"text" : "X"
 								}
@@ -584,7 +598,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 184.0, 167.0, 80.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 14.0, 1.0, 80.0, 20.0 ],
+									"presentation_rect" : [ 19.0, 5.0, 80.0, 20.0 ],
 									"style" : "",
 									"text" : "texture zoom"
 								}
@@ -602,7 +616,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 302.0, 203.0, 113.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 45.0, 113.0, 24.0 ],
+									"presentation_rect" : [ 7.0, 49.0, 113.0, 24.0 ],
 									"size" : 2.0,
 									"style" : ""
 								}
@@ -620,7 +634,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 172.0, 203.0, 113.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 21.0, 113.0, 24.0 ],
+									"presentation_rect" : [ 7.0, 25.0, 113.0, 24.0 ],
 									"size" : 2.0,
 									"style" : ""
 								}
@@ -1093,7 +1107,7 @@
 					"patching_rect" : [ 325.0, 65.0, 178.0, 129.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 114.568169, 50.627945, 330.831818, 154.172058 ],
-					"saturation" : 0.0,
+					"saturation" : 1.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "swatch[4]",
@@ -1232,7 +1246,7 @@
 					"patching_rect" : [ 612.0, 40.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.181753, -0.199997, 450.0, 210.0 ],
-					"text" : "/disc.2"
+					"text" : "/disc.1"
 				}
 
 			}
@@ -1591,10 +1605,14 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
+					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
+					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -1604,11 +1622,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",

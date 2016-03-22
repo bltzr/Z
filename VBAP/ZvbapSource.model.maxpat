@@ -865,6 +865,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-1",
+									"interval" : 50,
 									"maxclass" : "live.meter~",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -7313,11 +7314,11 @@
 									"patching_rect" : [ 911.0, 473.5, 122.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"connect" : "spatamb",
-										"interval" : 8,
+										"interval" : 20,
 										"pointsize" : 0.0,
 										"trajectory_color" : [ 1.0, 0.0, 0.0, 0.5 ],
 										"trajectory_point_color" : [ 1.0, 0.0, 0.0, 0.5 ],
-										"volume" : [ 0.001, 60.0, 1.0 ],
+										"volume" : [ 1.485393, 1.539326, 0.001 ],
 										"volume_color" : [ 0.0, 0.0, 0.0, 1.0 ]
 									}
 ,
@@ -7563,7 +7564,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 236.0, 442.5, 25.0, 25.0 ],
-													"presentation_rect" : [ 282.0, 342.5, 0.0, 0.0 ],
 													"style" : ""
 												}
 

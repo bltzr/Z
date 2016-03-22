@@ -39,6 +39,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-4",
+					"interval" : 50,
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,

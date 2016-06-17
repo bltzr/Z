@@ -82,7 +82,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-6",
@@ -5394,11 +5393,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-16",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 485.0, 305.0, 110.0, 19.0 ],
+									"patching_rect" : [ 485.0, 305.0, 100.0, 0.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.11",
 									"varname" : "eq[17]"
@@ -5409,11 +5409,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-18",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 530.0, 305.0, 110.0, 19.0 ],
+									"patching_rect" : [ 530.0, 305.0, 100.0, 0.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.12",
 									"varname" : "eq[18]"
@@ -5550,11 +5551,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-68",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 35.0, 305.0, 105.0, 19.0 ],
+									"patching_rect" : [ 35.0, 305.0, 41.0, 19.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.1",
 									"varname" : "eq[1]"
@@ -5565,11 +5567,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-69",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 80.0, 305.0, 105.0, 19.0 ],
+									"patching_rect" : [ 80.0, 305.0, 41.0, 19.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.2",
 									"varname" : "eq[2]"
@@ -5580,11 +5583,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-70",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 125.0, 305.0, 105.0, 19.0 ],
+									"patching_rect" : [ 125.0, 305.0, 41.0, 19.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.3",
 									"varname" : "eq[3]"
@@ -5595,11 +5599,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-71",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 170.0, 305.0, 105.0, 19.0 ],
+									"patching_rect" : [ 170.0, 305.0, 41.0, 19.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.4",
 									"varname" : "eq[4]"
@@ -5610,11 +5615,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-72",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 215.0, 305.0, 105.0, 19.0 ],
+									"patching_rect" : [ 215.0, 305.0, 41.0, 19.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.5",
 									"varname" : "eq[5]"
@@ -5625,11 +5631,12 @@
 								"box" : 								{
 									"annotation" : "none",
 									"id" : "obj-73",
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "" ],
-									"patching_rect" : [ 260.0, 305.0, 105.0, 19.0 ],
+									"patching_rect" : [ 260.0, 305.0, 41.0, 19.0 ],
 									"style" : "",
 									"text" : "equalizerM~.model eq.6",
 									"varname" : "eq[6]"
@@ -5853,7 +5860,7 @@
 									"numinlets" : 8,
 									"numoutlets" : 16,
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "list" ],
-									"patching_rect" : [ 35.0, 235.0, 690.0, 19.0 ],
+									"patching_rect" : [ 35.0, 235.0, 690.0, 12.0 ],
 									"style" : "",
 									"text" : "matrix~ 8 15 1.",
 									"varname" : "matrix"

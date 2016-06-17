@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 522.0, 358.0, 954.0, 495.0 ],
+		"rect" : [ 381.0, 678.0, 300.0, 140.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -40,15 +40,62 @@
 		"subpatcher_template" : "noTB_dark",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"linecount" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 156.0, 236.0, 158.0, 35.0 ],
+					"patching_rect" : [ 328.0, 431.0, 230.0, 20.0 ],
 					"style" : "",
 					"text" : "j.unit @dataspace gain @input dB @output linear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 328.0, 392.5, 150.0, 22.0 ],
+					"style" : "",
+					"text" : "j.receive audio/amplitude"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "live.meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"orientation" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 156.0, 318.0, 80.0, 10.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 150.0, 10.0, 80.0, 4.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "", "" ],
+					"patching_rect" : [ 156.0, 274.5, 150.0, 22.0 ],
+					"style" : "",
+					"text" : "j.receive~ audio/out.R"
 				}
 
 			}
@@ -64,7 +111,7 @@
 					"logmarkers" : [ 0.0, 100.0, 1000.0, 10000.0 ],
 					"markercolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"maxclass" : "filtergraph~",
-					"nfilters" : 5,
+					"nfilters" : 4,
 					"numinlets" : 8,
 					"numoutlets" : 7,
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
@@ -72,7 +119,7 @@
 					"patching_rect" : [ 382.0, 178.0, 284.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 43.0, 296.0, 93.0 ],
-					"setfilter" : [ 4, 7, 1, 0, 0, 5700.808105, 1.997932, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3, 5, 1, 0, 0, 1579.539185, 1.574927, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 620.193481, 1.574927, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 279.47821, 1.574927, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 88.619301, 0.451047, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 3, 7, 1, 0, 0, 5000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1616.85498, 1.241409, 0.409891, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 170.418686, 1.03845, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 51.592949, 0.921908, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ],
 					"varname" : "filter"
@@ -87,7 +134,7 @@
 					"numoutlets" : 1,
 					"orientation" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 156.0, 291.5, 80.0, 10.0 ],
+					"patching_rect" : [ 156.0, 242.0, 80.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 150.0, 5.0, 80.0, 4.0 ]
 				}
@@ -122,12 +169,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 386.0, 543.0, 581.0, 424.0 ],
+						"rect" : [ 504.0, 84.0, 779.0, 545.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -418,9 +465,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 390.0, 100.0, 57.0, 22.0 ],
+									"patching_rect" : [ 390.0, 120.0, 57.0, 22.0 ],
 									"style" : "",
-									"text" : "j.thru"
+									"text" : "thru"
 								}
 
 							}
@@ -435,6 +482,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 70.0, 49.0, 35.0 ],
+									"presentation_rect" : [ 12.0, 16.0, 450.0, 245.0 ],
 									"style" : "",
 									"text" : "open $1"
 								}
@@ -894,10 +942,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 156.0, 198.5, 150.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive audio/amplitude"
+					"text" : "j.receive~ audio/out.L"
 				}
 
 			}
@@ -1057,7 +1105,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/no_model_address",
+					"text" : "/Dtrack.1/eq",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -1123,19 +1171,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -1242,47 +1281,59 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "equalizer~views.maxpat",
-				"bootpath" : "~/dev/JamomaUserLibs/Z/equalizer",
-				"type" : "JSON",
-				"implicit" : 1
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
 			}
 , 			{
-				"name" : "j.octavebandwidth2q.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
-				"type" : "JSON",
-				"implicit" : 1
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
 			}
 , 			{
-				"name" : "j.q2octavebandwidth.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/audio/q2octavebandwith",
-				"type" : "JSON",
-				"implicit" : 1
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
 			}
 , 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.unit.mxo",
-				"type" : "iLaX"
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
 			}
  ],
-		"autosave" : 0
+		"styles" : [ 			{
+				"name" : "default_PB",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "umenuPB",
+				"default" : 				{
+					"textjustification" : [ 1 ],
+					"fontsize" : [ 9.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

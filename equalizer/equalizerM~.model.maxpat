@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 820.0, 117.0, 857.0, 826.0 ],
+		"rect" : [ 450.0, 112.0, 1187.0, 808.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -179,8 +179,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -237,8 +237,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 3,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -307,8 +307,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 3,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -1166,7 +1166,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 657.125, 191.0, 179.0, 102.0 ],
 					"style" : "",
-					"text" : "j.parameter_array filter.[4]/gain @type decimal @range -24 24 @clipmode both @ramp/drive scheduler @repetitions/filter 1 @unit dB @priority 3 @dataspace gain @description \"Gain (dB)\" @default 0."
+					"text" : "j.parameter_array filter.[4]/gain @type decimal @range -24 24 @clipmode both @repetitions/filter 1 @unit dB @priority 3 @dataspace gain @description \"Gain (dB)\" @default 0."
 				}
 
 			}
@@ -1176,14 +1176,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
-					"linecount" : 10,
+					"linecount" : 9,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 440.0625, 191.0, 166.0, 143.0 ],
+					"patching_rect" : [ 440.0625, 191.0, 166.0, 129.0 ],
 					"style" : "",
-					"text" : "j.parameter_array filter.[4]/frequency @type decimal @range 30. 11025. @clipmode both @ramp/drive scheduler @repetitions/filter 1 @dataspace pitch @unit Hz @priority 2 @description \"Center frequency (Hz)\" @default 1000."
+					"text" : "j.parameter_array filter.[4]/frequency @type decimal @range 30. 11025. @clipmode both @repetitions/filter 1 @dataspace pitch @unit Hz @priority 2 @description \"Center frequency (Hz)\" @default 1000."
 				}
 
 			}
@@ -1193,14 +1193,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"linecount" : 8,
+					"linecount" : 7,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 874.1875, 191.0, 166.0, 116.0 ],
+					"patching_rect" : [ 874.1875, 191.0, 166.0, 102.0 ],
 					"style" : "",
-					"text" : "j.parameter_array filter.[4]/bandwidth @type decimal @ramp/drive scheduler @range 0.01 10. @clipmode both @repetitions/filter 1 @description \"Resonance (Q)\" @priority 4 @default 1."
+					"text" : "j.parameter_array filter.[4]/bandwidth @type decimal @range 0.01 10. @clipmode both @repetitions/filter 1 @description \"Resonance (Q)\" @priority 4 @default 1."
 				}
 
 			}
@@ -1287,7 +1287,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 223.0, 564.0, 141.699982, 64.0 ],
-					"setfilter" : [ 4, 7, 1, 0, 0, 2702.065918, 0.96687, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3, 5, 1, 0, 0, 990.002258, 1.7529, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 307.015106, 0.752967, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 119.46962, 1.089086, 0.711758, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 30.867706, 0.295852, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 4, 7, 1, 0, 0, 6258.325684, 0.771117, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 3, 5, 1, 0, 0, 1000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 6013.42334, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 1000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 1000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1554,7 +1554,7 @@
 					"destination" : [ "obj-23", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 449.5625, 515.5, 320.142844, 515.5 ],
+					"midpoints" : [ 449.5625, 515.5, 320.142853, 515.5 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1649,7 +1649,7 @@
 					"destination" : [ "obj-23", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 666.625, 524.5, 337.671413, 524.5 ],
+					"midpoints" : [ 666.625, 524.5, 337.671417, 524.5 ],
 					"source" : [ "obj-52", 0 ]
 				}
 

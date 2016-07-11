@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 208.0, 411.0, 667.0, 503.0 ],
+		"rect" : [ 303.0, 396.0, 667.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -38,12 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 40.0, 401.5, 53.0, 20.0 ],
+					"style" : "",
+					"text" : "zl change"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 496.0, 37.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -70,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 40.0, 405.0, 58.0, 20.0 ],
+					"patching_rect" : [ 40.0, 428.0, 58.0, 20.0 ],
 					"style" : "",
 					"text" : "route none"
 				}
@@ -122,7 +135,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -205,7 +218,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 52.0, 109.0, 50.0, 15.0 ],
+									"patching_rect" : [ 52.0, 109.0, 50.0, 19.0 ],
 									"style" : "",
 									"text" : "clear"
 								}
@@ -220,7 +233,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 288.0, 84.0, 47.0, 17.0 ],
+									"patching_rect" : [ 288.0, 84.0, 47.0, 19.0 ],
 									"style" : "",
 									"text" : "t b b"
 								}
@@ -235,7 +248,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 316.0, 104.0, 96.0, 15.0 ],
+									"patching_rect" : [ 316.0, 104.0, 96.0, 19.0 ],
 									"style" : "",
 									"text" : "remove #1"
 								}
@@ -250,7 +263,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 290.0, 64.0, 62.0, 17.0 ],
+									"patching_rect" : [ 290.0, 64.0, 62.0, 19.0 ],
 									"style" : "",
 									"text" : "freebang"
 								}
@@ -265,7 +278,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "", "" ],
-									"patching_rect" : [ 121.0, 86.0, 100.0, 17.0 ],
+									"patching_rect" : [ 121.0, 86.0, 100.0, 19.0 ],
 									"style" : "",
 									"text" : "t b s s"
 								}
@@ -280,7 +293,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 121.0, 109.0, 100.0, 17.0 ],
+									"patching_rect" : [ 121.0, 109.0, 100.0, 19.0 ],
 									"style" : "",
 									"text" : "pack store s s"
 								}
@@ -294,7 +307,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 102.0, 157.0, 95.0, 18.0 ],
+									"patching_rect" : [ 102.0, 157.0, 95.0, 20.0 ],
 									"style" : "",
 									"text" : "s refresh_buffpools"
 								}
@@ -309,7 +322,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 121.0, 64.0, 101.0, 18.0 ],
+									"patching_rect" : [ 121.0, 64.0, 101.0, 20.0 ],
 									"style" : "",
 									"text" : "loadmess #1"
 								}
@@ -324,7 +337,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 121.0, 131.0, 100.0, 18.0 ],
+									"patching_rect" : [ 121.0, 131.0, 100.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -493,7 +506,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -804,7 +817,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1639,7 +1652,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2964,12 +2977,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 254.0, 399.0, 1080.0, 606.0 ],
+						"rect" : [ 481.0, 339.0, 1080.0, 606.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3126,7 +3139,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3634,7 +3647,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3795,7 +3808,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 169.530457, 179.034973, 459.979034, 18.0 ],
 													"style" : "",
-													"text" : "Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos"
+													"text" : "Machintoc:/Users/install/Documents/Dyew/SonsGran/vent"
 												}
 
 											}
@@ -4289,7 +4302,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5410,14 +5423,14 @@
 									"allowdrag" : 0,
 									"autopopulate" : 1,
 									"id" : "obj-91",
-									"items" : [ "VentilArriereFaceFaible.wav", ",", "VentilArriereObliqGrave+turb.wav", ",", "VentilArriereObliqGrave.wav", ",", "VentilCoteArriereBziit+.wav", ",", "VentilCoteBasse.wav", ",", "VentilCoteBziit+Basse.wav", ",", "VentilCoteBziit+BasseStop.wav", ",", "VentilCoteLentBziit+.wav", ",", "VentilIntMedium.wav", ",", "VentilIntObliqRacle.wav", ",", "VentilVerticGrave.wav" ],
+									"items" : [ "S-cla_frott05", ",", "VentPorte1.wav", ",", "VentPorte2.wav", ",", "VentPorte3.wav", ",", "VentPorteDesc.wav", ",", "VentPorteDouble1.wav", ",", "VentPorteDouble2.wav", ",", "VentPorteDouble3.wav", ",", "VentPorteGlissade.wav", ",", "VentPorteLeger.wav", ",", "VentPorteMed1.wav", ",", "VentPorteMedGrave.wav", ",", "VentPorteMelodie.wav", ",", "VentPorteMontee.wav", ",", "VentPorteSirenes.wav", ",", "VentPorteTelelet.wav", ",", "VentPorteTeleletLong1.wav", ",", "VentPorteTeleletLong2.wav", ",", "VentPorteTonalStable.wav", ",", "VentPorteWhou.wav", ",", "VentPorteWhouuPonp.wav", ",", "VentTempete1.wav", ",", "VentTempete2.wav" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 61.9916, 289.37207, 100.0, 22.0 ],
-									"prefix" : "Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/",
+									"prefix" : "Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/",
 									"prefix_mode" : 2,
 									"style" : "",
 									"types" : [ "AIFF", "WAVE", "Sd2f" ]
@@ -5445,14 +5458,14 @@
 									"autopopulate" : 1,
 									"depth" : 10,
 									"id" : "obj-93",
-									"items" : [ "bruitsRoses", ",", "centrale", ",", "clims", ",", "divers", ",", "eau", ",", "frott", ",", "G-cla_harm_frag", ",", "G-finglou", ",", "G-fziik", ",", "G-nap", ",", "G-nodal_orch", ",", "G-trames_harm", ",", "machines", ",", "P-acco_doux", ",", "P-bips", ",", "P-clck", ",", "P-clck_aig_grav", ",", "silences", ",", "souffles", ",", "T-aig", ",", "T-aigbatts", ",", "T-bass", ",", "T-cloches", ",", "T-flutalea", ",", "T-flutes", ",", "T-gran", ",", "T-iter-soft", ",", "T-med-soft", ",", "T-nap_soft", ",", "T-sy-aig", ",", "T-sy_aig", ",", "T-sy_bass", ",", "T-sy_fret", ",", "T-sy_frott", ",", "T-sy_gougoui", ",", "T-sy_grav_gran", ",", "T-sy_imp", ",", "T-sy_kobfrot", ",", "T-sy_larsen", ",", "T-sy_leger", ",", "T-sy_nap", ",", "T-sy_ultr", ",", "T-ultr_soft", ",", "TI-aig", ",", "TI-med_softs", ",", "TI-synth+iter", ",", "turbine", ",", "tuyaux", ",", "vent", ",", "ventilos" ],
+									"items" : [ "clims", ",", "orages_courts", ",", "T-cloches", ",", "T-flutes", ",", "T-gran", ",", "T-med-soft", ",", "T-nap_soft", ",", "T-sy_aig", ",", "T-sy_larsen", ",", "T-sy_nap", ",", "T-sy_ultr", ",", "tuyaux", ",", "vent" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 115.063675, 208.31749, 100.0, 22.0 ],
-									"prefix" : "Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/",
+									"prefix" : "Machintoc:/Users/install/Documents/Dyew/SonsGran/",
 									"style" : "",
 									"types" : "fold"
 								}
@@ -5488,7 +5501,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5836,3478 +5849,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
-													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 16.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Bouilloire.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/bruitsRoses/Bouilloire.wav",
-													"varname" : "Bouilloire.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-14",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 32.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ChausseeTarnContinue.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/bruitsRoses/ChausseeTarnContinue.wav",
-													"varname" : "ChausseeTarnContinue.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-15",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 48.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ChausseeTarnLointain.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/bruitsRoses/ChausseeTarnLointain.wav",
-													"varname" : "ChausseeTarnLointain.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-22",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 64.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ChausseeTarnProche.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/bruitsRoses/ChausseeTarnProche.wav",
-													"varname" : "ChausseeTarnProche.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 80.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Centrale+Eau.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/Centrale+Eau.L.wav",
-													"varname" : "Centrale+Eau.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 96.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Centrale+Eau.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/Centrale+Eau.R.wav",
-													"varname" : "Centrale+Eau.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-25",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 112.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Centrale.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/Centrale.L.wav",
-													"varname" : "Centrale.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-26",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 128.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Centrale.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/Centrale.R.wav",
-													"varname" : "Centrale.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-27",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 144.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Centrale2.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/Centrale2.L.wav",
-													"varname" : "Centrale2.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-28",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 160.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Centrale2.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/Centrale2.R.wav",
-													"varname" : "Centrale2.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-29",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 176.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ Chaussee+Ondulation.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/Chaussee+Ondulation.wav",
-													"varname" : "Chaussee+Ondulation.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 192.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ OndulationCentrale.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/OndulationCentrale.wav",
-													"varname" : "OndulationCentrale.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-31",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 208.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ OndulationCentraleCourte1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/OndulationCentraleCourte1.wav",
-													"varname" : "OndulationCentraleCourte1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-32",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 224.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ OndulationCentraleCourte2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/centrale/OndulationCentraleCourte2.wav",
-													"varname" : "OndulationCentraleCourte2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-33",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 240.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimChantante.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimChantante.wav",
-													"varname" : "ClimChantante.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-34",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 256.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimCouloir.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimCouloir.wav",
-													"varname" : "ClimCouloir.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-35",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 272.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimDenseEvolue.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimDenseEvolue.wav",
-													"varname" : "ClimDenseEvolue.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-36",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 288.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimFleuve+Calme.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimFleuve+Calme.wav",
-													"varname" : "ClimFleuve+Calme.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-37",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 304.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimFleuveDeLave.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimFleuveDeLave.wav",
-													"varname" : "ClimFleuveDeLave.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-38",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 320.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimInria.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimInria.wav",
-													"varname" : "ClimInria.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-39",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 336.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimLocal.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimLocal.wav",
-													"varname" : "ClimLocal.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-40",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 352.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimProcheMaths1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimProcheMaths1.wav",
-													"varname" : "ClimProcheMaths1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-41",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 368.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimProcheMaths2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimProcheMaths2.wav",
-													"varname" : "ClimProcheMaths2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-42",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 384.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimTremblementsMaths.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimTremblementsMaths.wav",
-													"varname" : "ClimTremblementsMaths.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-43",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 400.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimVibreeAigue.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimVibreeAigue.wav",
-													"varname" : "ClimVibreeAigue.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-44",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 416.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimVibreeLongue.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimVibreeLongue.wav",
-													"varname" : "ClimVibreeLongue.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-45",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 432.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ ClimVibreNocturne.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/ClimVibreNocturne.wav",
-													"varname" : "ClimVibreNocturne.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-46",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 448.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ DebutClimLaBri.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/DebutClimLaBri.wav",
-													"varname" : "DebutClimLaBri.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-47",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 464.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ NappeClim.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/NappeClim.wav",
-													"varname" : "NappeClim.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-48",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 480.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ NappeClimHemicyclia1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/NappeClimHemicyclia1.wav",
-													"varname" : "NappeClimHemicyclia1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 496.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ NappeClimHemicyclia2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/NappeClimHemicyclia2.wav",
-													"varname" : "NappeClimHemicyclia2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-50",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 512.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ NappeClimHemicycliaPorte.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/NappeClimHemicycliaPorte.wav",
-													"varname" : "NappeClimHemicycliaPorte.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-51",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 528.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ VentilationCloitre-Grave.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/VentilationCloitre-Grave.L.wav",
-													"varname" : "VentilationCloitre-Grave.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-52",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 544.0, 600.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer~ VentilationCloitre-Grave.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/clims/VentilationCloitre-Grave.R.wav",
-													"varname" : "VentilationCloitre-Grave.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-53",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 560.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ CanariValérieChant.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/CanariValérieChant.wav",
-													"varname" : "CanariValérieChant.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-54",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 576.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ ChasseDeau.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/ChasseDeau.wav",
-													"varname" : "ChasseDeau.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-55",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 592.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ cloch-gibelongue.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/cloch-gibelongue.wav",
-													"varname" : "cloch-gibelongue.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-56",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 608.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ cloche-petitelongue.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/cloche-petitelongue.wav",
-													"varname" : "cloche-petitelongue.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-57",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 624.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ GlouGlousClimHemicyclia.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/GlouGlousClimHemicyclia.wav",
-													"varname" : "GlouGlousClimHemicyclia.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-59",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 640.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napBassCochons.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/napBassCochons.wav",
-													"varname" : "napBassCochons.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-60",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 656.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Porte302Lent.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/Porte302Lent.L.wav",
-													"varname" : "Porte302Lent.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-61",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 672.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Porte302Lent.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/Porte302Lent.R.wav",
-													"varname" : "Porte302Lent.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-62",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 688.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Porte302LongRapide.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/Porte302LongRapide.L.wav",
-													"varname" : "Porte302LongRapide.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-63",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 704.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Porte302LongRapide.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/Porte302LongRapide.R.wav",
-													"varname" : "Porte302LongRapide.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-64",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 720.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ PorteIncubateurVent1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/PorteIncubateurVent1.wav",
-													"varname" : "PorteIncubateurVent1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-65",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 736.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ PorteIncubateurVent2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/PorteIncubateurVent2.wav",
-													"varname" : "PorteIncubateurVent2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-66",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 752.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ PorteIncubateurVent3.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/PorteIncubateurVent3.wav",
-													"varname" : "PorteIncubateurVent3.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-67",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 768.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ PorteIncubateurVent4.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/PorteIncubateurVent4.wav",
-													"varname" : "PorteIncubateurVent4.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-68",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 784.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ TruellePalaisBerbie.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/TruellePalaisBerbie.wav",
-													"varname" : "TruellePalaisBerbie.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-69",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 800.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VoituresParvis.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/divers/VoituresParvis.wav",
-													"varname" : "VoituresParvis.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-70",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 816.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ AmbianceRuePluieGouttiere.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/AmbianceRuePluieGouttiere.wav",
-													"varname" : "AmbianceRuePluieGouttiere.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-71",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 832.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ EauAgiteeCentrale.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/EauAgiteeCentrale.wav",
-													"varname" : "EauAgiteeCentrale.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-72",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 848.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ gouttesBrumiFort.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/gouttesBrumiFort.wav",
-													"varname" : "gouttesBrumiFort.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-73",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 864.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ gouttesBrumiMulti.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/gouttesBrumiMulti.wav",
-													"varname" : "gouttesBrumiMulti.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-74",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 880.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RigoleBoucheTarn.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/RigoleBoucheTarn.wav",
-													"varname" : "RigoleBoucheTarn.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-75",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 896.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RigoleBoucheTarnAigu.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/RigoleBoucheTarnAigu.wav",
-													"varname" : "RigoleBoucheTarnAigu.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-76",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 912.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RigoleRiviere.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/RigoleRiviere.wav",
-													"varname" : "RigoleRiviere.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-77",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 928.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RigoleRiviereProche1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/RigoleRiviereProche1.wav",
-													"varname" : "RigoleRiviereProche1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-78",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 944.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RigoleRiviereProche2.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/RigoleRiviereProche2.L.wav",
-													"varname" : "RigoleRiviereProche2.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-79",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 960.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RigoleRiviereRigolo.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/eau/RigoleRiviereRigolo.wav",
-													"varname" : "RigoleRiviereRigolo.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-80",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 976.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ frettillementsBrumi.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/frott/frettillementsBrumi.wav",
-													"varname" : "frettillementsBrumi.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-81",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 992.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ trameGrele1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/frott/trameGrele1.wav",
-													"varname" : "trameGrele1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-82",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1008.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ trameGrele2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/frott/trameGrele2.wav",
-													"varname" : "trameGrele2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-83",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1024.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ trameGrele3.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/frott/trameGrele3.wav",
-													"varname" : "trameGrele3.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-84",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1040.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ trameGreleLente.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/frott/trameGreleLente.wav",
-													"varname" : "trameGreleLente.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-85",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1056.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-cla_harm_frag01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-cla_harm_frag/G-cla_harm_frag01",
-													"varname" : "G-cla_harm_frag01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-86",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1072.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-cla_harm_frag02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-cla_harm_frag/G-cla_harm_frag02",
-													"varname" : "G-cla_harm_frag02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-87",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1088.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-cla_harm_frag03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-cla_harm_frag/G-cla_harm_frag03",
-													"varname" : "G-cla_harm_frag03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-88",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1104.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-cla_harm_frag04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-cla_harm_frag/G-cla_harm_frag04",
-													"varname" : "G-cla_harm_frag04"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-89",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1120.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-cla_harm_frag05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-cla_harm_frag/G-cla_harm_frag05",
-													"varname" : "G-cla_harm_frag05"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-90",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1136.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-cla_harm_frag06 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-cla_harm_frag/G-cla_harm_frag06",
-													"varname" : "G-cla_harm_frag06"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-91",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1152.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-cla_harm_frag07 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-cla_harm_frag/G-cla_harm_frag07",
-													"varname" : "G-cla_harm_frag07"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-92",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1168.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_finglou01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-finglou/G-fr_finglou01",
-													"varname" : "G-fr_finglou01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-93",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1184.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_finglou02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-finglou/G-fr_finglou02",
-													"varname" : "G-fr_finglou02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-94",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1200.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_finglou03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-finglou/G-fr_finglou03",
-													"varname" : "G-fr_finglou03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-95",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1216.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_finglou04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-finglou/G-fr_finglou04",
-													"varname" : "G-fr_finglou04"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-96",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1232.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_flaketiis01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-finglou/G-fr_flaketiis01",
-													"varname" : "G-fr_flaketiis01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-97",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1248.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_flaketiis02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-finglou/G-fr_flaketiis02",
-													"varname" : "G-fr_flaketiis02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-98",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1264.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_flaketiis03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-finglou/G-fr_flaketiis03",
-													"varname" : "G-fr_flaketiis03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-99",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1280.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_fzikkekew01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-fziik/G-fr_fzikkekew01",
-													"varname" : "G-fr_fzikkekew01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-100",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1296.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_fzikkekew03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-fziik/G-fr_fzikkekew03",
-													"varname" : "G-fr_fzikkekew03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-101",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1312.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_glou01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-fziik/G-fr_glou01",
-													"varname" : "G-fr_glou01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-102",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1328.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_glou02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-fziik/G-fr_glou02",
-													"varname" : "G-fr_glou02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-103",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1344.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_glou03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-fziik/G-fr_glou03",
-													"varname" : "G-fr_glou03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-104",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1360.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-fr_glou04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-fziik/G-fr_glou04",
-													"varname" : "G-fr_glou04"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-105",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1376.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-nap_rev_metal_emerg01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nap/G-nap_rev_metal_emerg01.aif",
-													"varname" : "G-nap_rev_metal_emerg01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-106",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1392.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-vague_grave_soft01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nap/G-vague_grave_soft01.aif",
-													"varname" : "G-vague_grave_soft01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-107",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1408.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-vague_grave_soft02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nap/G-vague_grave_soft02.aif",
-													"varname" : "G-vague_grave_soft02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-108",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1424.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-vague_grave_soft04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nap/G-vague_grave_soft04.aif",
-													"varname" : "G-vague_grave_soft04.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-109",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1440.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-acco_sfz01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nodal_orch/G-acco_sfz01",
-													"varname" : "G-acco_sfz01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-110",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1456.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-grap_note01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nodal_orch/G-grap_note01",
-													"varname" : "G-grap_note01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-111",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1472.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-grap_note02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nodal_orch/G-grap_note02",
-													"varname" : "G-grap_note02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-112",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1488.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-sfz_bass01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nodal_orch/G-sfz_bass01",
-													"varname" : "G-sfz_bass01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-113",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1504.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-orch01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-nodal_orch/P-orch01",
-													"varname" : "P-orch01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-114",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1520.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G--medaig_moirée_harmq01.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-trames_harm/G--medaig_moirée_harmq01.L",
-													"varname" : "G--medaig_moirée_harmq01.L"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-115",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1536.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G--medaig_moirée_harmq02.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-trames_harm/G--medaig_moirée_harmq02.L",
-													"varname" : "G--medaig_moirée_harmq02.L"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-116",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1552.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G--medaig_moirée_harmq03.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-trames_harm/G--medaig_moirée_harmq03.L",
-													"varname" : "G--medaig_moirée_harmq03.L"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-117",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1568.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G--medaig_moirée_harmq04.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-trames_harm/G--medaig_moirée_harmq04.L",
-													"varname" : "G--medaig_moirée_harmq04.L"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-118",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1584.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G--medaig_moirée_harmq05.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-trames_harm/G--medaig_moirée_harmq05.L",
-													"varname" : "G--medaig_moirée_harmq05.L"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-119",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1600.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G--medaig_moirée_harmq06.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-trames_harm/G--medaig_moirée_harmq06.L",
-													"varname" : "G--medaig_moirée_harmq06.L"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-120",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1616.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G--medaig_moirée_harmq07.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/G-trames_harm/G--medaig_moirée_harmq07.L",
-													"varname" : "G--medaig_moirée_harmq07.L"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-121",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1632.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ AmpliGMEAarriere.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/AmpliGMEAarriere.wav",
-													"varname" : "AmpliGMEAarriere.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-122",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1648.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ AmpliGMEAavant.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/AmpliGMEAavant.wav",
-													"varname" : "AmpliGMEAavant.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-123",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1664.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ AmpliGMEAlointain.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/AmpliGMEAlointain.wav",
-													"varname" : "AmpliGMEAlointain.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-124",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1680.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ BrassageIncubateur1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/BrassageIncubateur1.wav",
-													"varname" : "BrassageIncubateur1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-125",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1696.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ BrassageIncubateur2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/BrassageIncubateur2.wav",
-													"varname" : "BrassageIncubateur2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-126",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1712.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ BrassageIncubateur3.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/BrassageIncubateur3.wav",
-													"varname" : "BrassageIncubateur3.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-127",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1728.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ BrassageRecherche1.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/BrassageRecherche1.L.wav",
-													"varname" : "BrassageRecherche1.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-128",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1744.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ BrassageRecherche1.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/BrassageRecherche1.R.wav",
-													"varname" : "BrassageRecherche1.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-129",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1760.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ BrassageRecherche2.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/BrassageRecherche2.L.wav",
-													"varname" : "BrassageRecherche2.L.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-130",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1776.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ BrassageRecherche2.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/BrassageRecherche2.R.wav",
-													"varname" : "BrassageRecherche2.R.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-131",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1792.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ FrigoSouque.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/FrigoSouque.wav",
-													"varname" : "FrigoSouque.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-132",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1808.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ HotteMecanique.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/HotteMecanique.wav",
-													"varname" : "HotteMecanique.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-133",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1824.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ HotteRapprochant.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/HotteRapprochant.wav",
-													"varname" : "HotteRapprochant.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-134",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1840.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ NappeHotteGrave.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/NappeHotteGrave.wav",
-													"varname" : "NappeHotteGrave.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-135",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1856.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RadiateurElec1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/RadiateurElec1.wav",
-													"varname" : "RadiateurElec1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-136",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1872.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RadiateurElec2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/RadiateurElec2.wav",
-													"varname" : "RadiateurElec2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-137",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1888.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RadiateurElec3.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/RadiateurElec3.wav",
-													"varname" : "RadiateurElec3.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-138",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1904.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ RadiateurElec4.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/RadiateurElec4.wav",
-													"varname" : "RadiateurElec4.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-139",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1920.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ transfoGazLMmoto.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/transfoGazLMmoto.wav",
-													"varname" : "transfoGazLMmoto.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-140",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1936.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ transfoGazLMproche1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/transfoGazLMproche1.wav",
-													"varname" : "transfoGazLMproche1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-141",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1952.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ transfoGazLMproche2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/transfoGazLMproche2.wav",
-													"varname" : "transfoGazLMproche2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-142",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1968.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ transfoGazLMvoiture1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/machines/transfoGazLMvoiture1.wav",
-													"varname" : "transfoGazLMvoiture1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-143",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 1984.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ G-acco_ouou Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-acco_doux/G-acco_ouou",
-													"varname" : "G-acco_ouou"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-144",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2000.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-acco01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-acco_doux/P-acco01",
-													"varname" : "P-acco01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-145",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2016.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-acco02+mont Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-acco_doux/P-acco02+mont",
-													"varname" : "P-acco02+mont"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-146",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2032.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-acco04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-acco_doux/P-acco04",
-													"varname" : "P-acco04"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-147",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2048.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-orch_acco01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-acco_doux/T-orch_acco01",
-													"varname" : "T-orch_acco01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-148",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2064.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ bipaig01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/bipaig01",
-													"varname" : "bipaig01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-149",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2080.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ bipaig02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/bipaig02",
-													"varname" : "bipaig02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-150",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2096.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ bipaig03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/bipaig03",
-													"varname" : "bipaig03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-151",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2112.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ bipfrit01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/bipfrit01",
-													"varname" : "bipfrit01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-152",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2128.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ bipmed01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/bipmed01",
-													"varname" : "bipmed01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-153",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2144.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ bipverre01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/bipverre01",
-													"varname" : "bipverre01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-154",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2160.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ glop01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/glop01",
-													"varname" : "glop01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-155",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2176.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip01.aif",
-													"varname" : "P-sy_bip01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-156",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2192.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip02.aif",
-													"varname" : "P-sy_bip02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-157",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2208.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip03.aif",
-													"varname" : "P-sy_bip03.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-158",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2224.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip04.aif",
-													"varname" : "P-sy_bip04.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-159",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2240.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip05.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip05.aif",
-													"varname" : "P-sy_bip05.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-160",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2256.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip06.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip06.aif",
-													"varname" : "P-sy_bip06.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-161",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2272.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip_dech01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip_dech01.aif",
-													"varname" : "P-sy_bip_dech01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-162",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2288.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip_dech02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip_dech02.aif",
-													"varname" : "P-sy_bip_dech02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-163",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2304.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip_fig01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip_fig01.aif",
-													"varname" : "P-sy_bip_fig01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-164",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2320.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bip_tac01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bip_tac01.aif",
-													"varname" : "P-sy_bip_tac01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-165",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2336.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bipbip01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bipbip01.aif",
-													"varname" : "P-sy_bipbip01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-166",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2352.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bipfla01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bipfla01.aif",
-													"varname" : "P-sy_bipfla01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-167",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2368.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bipfla02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bipfla02.aif",
-													"varname" : "P-sy_bipfla02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-168",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2384.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bipfla03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bipfla03.aif",
-													"varname" : "P-sy_bipfla03.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-169",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2400.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bipfla04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bipfla04.aif",
-													"varname" : "P-sy_bipfla04.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-170",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2416.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_bipfla_fig_lp01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_bipfla_fig_lp01.aif",
-													"varname" : "P-sy_bipfla_fig_lp01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-171",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2432.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_biptrain01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_biptrain01.aif",
-													"varname" : "P-sy_biptrain01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-172",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2448.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_biptrain02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_biptrain02.aif",
-													"varname" : "P-sy_biptrain02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-173",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2464.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_biptrain03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_biptrain03.aif",
-													"varname" : "P-sy_biptrain03.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-174",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2480.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_biptrain04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_biptrain04.aif",
-													"varname" : "P-sy_biptrain04.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-175",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2496.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-sy_biptrain05.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-bips/P-sy_biptrain05.aif",
-													"varname" : "P-sy_biptrain05.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-176",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2512.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu13 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu13",
-													"varname" : "P-clck_feu13"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-177",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2528.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu18 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu18",
-													"varname" : "P-clck_feu18"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-178",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2544.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu19 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu19",
-													"varname" : "P-clck_feu19"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-179",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2560.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu20 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu20",
-													"varname" : "P-clck_feu20"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-180",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2576.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu23 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu23",
-													"varname" : "P-clck_feu23"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-181",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2592.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu24 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu24",
-													"varname" : "P-clck_feu24"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-182",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2608.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu26 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu26",
-													"varname" : "P-clck_feu26"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-183",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2624.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu31 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu31",
-													"varname" : "P-clck_feu31"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-184",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2640.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu32 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu32",
-													"varname" : "P-clck_feu32"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-185",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2656.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu33 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck/P-clck_feu33",
-													"varname" : "P-clck_feu33"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-186",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2672.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu_fla03.R Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck_aig_grav/P-clck_feu_fla03.R",
-													"varname" : "P-clck_feu_fla03.R"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-187",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2688.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu_fla04.R Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck_aig_grav/P-clck_feu_fla04.R",
-													"varname" : "P-clck_feu_fla04.R"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-188",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2704.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu_grav02.R Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck_aig_grav/P-clck_feu_grav02.R",
-													"varname" : "P-clck_feu_grav02.R"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-189",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2720.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_feu_grav03.R Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck_aig_grav/P-clck_feu_grav03.R",
-													"varname" : "P-clck_feu_grav03.R"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-190",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2736.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_plip01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck_aig_grav/P-clck_plip01",
-													"varname" : "P-clck_plip01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-191",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2752.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ P-clck_plip02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/P-clck_aig_grav/P-clck_plip02",
-													"varname" : "P-clck_plip02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-192",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2768.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ DescenteVersLeTarn.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/DescenteVersLeTarn.wav",
-													"varname" : "DescenteVersLeTarn.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-193",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2784.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ ImmeubleBizarreLointain.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/ImmeubleBizarreLointain.wav",
-													"varname" : "ImmeubleBizarreLointain.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-194",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2800.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ SilenceEglise.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/SilenceEglise.wav",
-													"varname" : "SilenceEglise.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-195",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2816.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ TarnLointain.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/TarnLointain.wav",
-													"varname" : "TarnLointain.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-196",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2832.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Tempete1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/Tempete1.wav",
-													"varname" : "Tempete1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-197",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2848.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Tempete2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/Tempete2.wav",
-													"varname" : "Tempete2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-198",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2864.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Tempete3.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/Tempete3.wav",
-													"varname" : "Tempete3.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-199",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2880.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ Tempete4.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/silences/Tempete4.wav",
-													"varname" : "Tempete4.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-200",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2896.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ S-cla_frott04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/souffles/S-cla_frott04",
-													"varname" : "S-cla_frott04"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-201",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2912.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ S-cla_frott05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/souffles/S-cla_frott05",
-													"varname" : "S-cla_frott05"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-202",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2928.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ S-cla_frott07 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/souffles/S-cla_frott07",
-													"varname" : "S-cla_frott07"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-203",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2944.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ S-souff_flute02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/souffles/S-souff_flute02.aif",
-													"varname" : "S-souff_flute02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-204",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2960.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napsouffaig02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aig/napsouffaig02",
-													"varname" : "napsouffaig02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-205",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2976.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napsouffaig03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aig/napsouffaig03",
-													"varname" : "napsouffaig03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-206",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 2992.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napsouffmedaig01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aig/napsouffmedaig01",
-													"varname" : "napsouffmedaig01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-207",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3008.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napsouffultr03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aig/napsouffultr03",
-													"varname" : "napsouffultr03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-208",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3024.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts01.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts01.L.aif",
-													"varname" : "T-aig_batts01.L.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-209",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3040.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts01.R.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts01.R.aif",
-													"varname" : "T-aig_batts01.R.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-210",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3056.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts02.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts02.L.aif",
-													"varname" : "T-aig_batts02.L.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-211",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3072.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts02.R.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts02.R.aif",
-													"varname" : "T-aig_batts02.R.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-212",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3088.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts03.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts03.L.aif",
-													"varname" : "T-aig_batts03.L.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-213",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3104.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts03.R.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts03.R.aif",
-													"varname" : "T-aig_batts03.R.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-214",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3120.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts04.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts04.L.aif",
-													"varname" : "T-aig_batts04.L.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-215",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3136.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts04.R.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts04.R.aif",
-													"varname" : "T-aig_batts04.R.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-216",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3152.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts05.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts05.L.aif",
-													"varname" : "T-aig_batts05.L.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-217",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3168.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts05.R.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts05.R.aif",
-													"varname" : "T-aig_batts05.R.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-218",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3184.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts_accelerando.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts_accelerando.L.aif",
-													"varname" : "T-aig_batts_accelerando.L.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-219",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3200.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_batts_accelerando.R.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_batts_accelerando.R.aif",
-													"varname" : "T-aig_batts_accelerando.R.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-220",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3216.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_still+batt01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_still+batt01.aif",
-													"varname" : "T-aig_still+batt01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-221",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3232.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_still+batt_frout01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_still+batt_frout01.aif",
-													"varname" : "T-aig_still+batt_frout01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-222",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3248.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-aig_still+batt_frout02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-aigbatts/T-aig_still+batt_frout02.aif",
-													"varname" : "T-aig_still+batt_frout02.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-223",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3264.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ harmobass01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/harmobass01",
-													"varname" : "harmobass01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-224",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3280.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ loopbass2 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/loopbass2",
-													"varname" : "loopbass2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-225",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3296.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ loopbasssir01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/loopbasssir01",
-													"varname" : "loopbasssir01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-226",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3312.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napballgrav01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napballgrav01",
-													"varname" : "napballgrav01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-227",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3328.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napballgrav02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napballgrav02",
-													"varname" : "napballgrav02"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-228",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3344.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napbassond+01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napbassond+01",
-													"varname" : "napbassond+01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-229",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3360.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napbassond05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napbassond05",
-													"varname" : "napbassond05"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-230",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3376.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napbassorag01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napbassorag01",
-													"varname" : "napbassorag01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-231",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3392.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napbassorag03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napbassorag03",
-													"varname" : "napbassorag03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-232",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3408.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napbassoragond01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napbassoragond01",
-													"varname" : "napbassoragond01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-233",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3424.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napmedbass03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napmedbass03",
-													"varname" : "napmedbass03"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-234",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3440.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ napmedbassdense01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/napmedbassdense01",
-													"varname" : "napmedbassdense01"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-235",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3456.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-bass+vent_harq01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/T-bass+vent_harq01.aif",
-													"varname" : "T-bass+vent_harq01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-236",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3472.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ T-bass_roule01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/T-bass_roule01.aif",
-													"varname" : "T-bass_roule01.aif"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
 													"id" : "obj-237",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -9323,15 +5864,3269 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
+													"id" : "obj-1",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 16.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 32.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 48.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 64.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-23",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 80.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 96.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-25",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 112.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-26",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 128.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-27",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 144.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-28",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 160.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-29",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 176.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/bruitsRoses/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-30",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 192.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-31",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 208.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-32",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 224.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-33",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 240.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-34",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 256.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 272.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-36",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 288.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-37",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 304.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-38",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 320.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-39",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 336.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-40",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 352.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/centrale/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-41",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 368.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-42",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 384.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 400.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-44",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 416.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-45",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 432.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-46",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 448.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-47",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 464.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 480.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-49",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 496.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-50",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 512.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-51",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 528.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-52",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 544.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-53",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 560.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-54",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 576.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-55",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 592.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-56",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 608.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-57",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 624.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-59",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 640.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-60",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 656.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-61",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 672.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-62",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 688.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-63",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 704.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/divers/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-64",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 720.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-65",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 736.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-66",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 752.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-67",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 768.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-68",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 784.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-69",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 800.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-70",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 816.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-71",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 832.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-72",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 848.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-73",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 864.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-74",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 880.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/eau/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-75",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 896.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-76",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 912.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-77",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 928.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-78",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 944.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-79",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 960.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-80",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 976.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-81",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 992.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-82",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1008.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-83",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1024.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-84",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1040.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-85",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1056.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/frott/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-86",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1072.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-87",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1088.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-88",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1104.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-89",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1120.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-90",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1136.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-91",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1152.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-92",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1168.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-93",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1184.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-94",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1200.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-95",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1216.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-96",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1232.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-cla_harm_frag/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-97",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1248.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-98",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1264.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-99",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1280.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-100",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1296.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-101",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1312.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-102",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1328.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-103",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1344.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-104",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1360.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-105",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1376.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-106",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1392.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-107",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1408.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-finglou/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-108",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1424.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-109",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1440.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-110",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1456.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-111",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1472.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-112",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1488.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-113",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1504.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-114",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1520.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-115",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1536.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-116",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1552.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-117",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1568.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-118",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1584.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-fziik/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-119",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1600.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-120",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1616.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-121",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1632.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-122",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1648.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-123",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1664.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-124",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1680.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-125",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1696.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-126",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1712.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-127",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1728.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-128",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1744.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-129",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1760.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nap/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-130",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1776.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-131",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1792.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-132",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1808.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-133",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1824.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-134",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1840.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-135",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1856.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-136",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1872.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-137",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1888.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-138",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1904.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-139",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1920.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-140",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1936.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-nodal_orch/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-141",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1952.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-142",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1968.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-143",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1984.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-144",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2000.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-145",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2016.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-146",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2032.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-147",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2048.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-148",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2064.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-149",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2080.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-150",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2096.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-151",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2112.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/G-trames_harm/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-152",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2128.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-153",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2144.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-154",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2160.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-155",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2176.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-156",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2192.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-157",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2208.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-158",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2224.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-159",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2240.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-160",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2256.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-161",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2272.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-162",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2288.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/machines/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-163",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2304.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-164",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2320.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-165",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2336.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-166",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2352.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-167",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2368.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-168",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2384.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-169",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2400.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-170",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2416.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-171",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2432.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-172",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2448.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-173",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2464.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-acco_doux/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-174",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2480.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-175",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2496.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-176",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2512.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-177",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2528.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-178",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2544.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-179",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2560.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-180",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2576.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-181",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2592.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-182",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2608.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-183",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2624.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-184",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2640.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-bips/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-185",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2656.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-186",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2672.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-187",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2688.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-188",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2704.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-189",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2720.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-190",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2736.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-191",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2752.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-192",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2768.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-193",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2784.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-194",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2800.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-195",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2816.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-196",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2832.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-197",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2848.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-198",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2864.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-199",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2880.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-200",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2896.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-201",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2912.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-202",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2928.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-203",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2944.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-204",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2960.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-205",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2976.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-206",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2992.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/P-clck_aig_grav/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-207",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3008.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-208",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3024.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-209",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3040.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-210",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3056.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-211",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3072.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-212",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3088.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-213",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3104.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-214",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3120.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-215",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3136.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-216",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3152.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-217",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3168.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/silences/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-218",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3184.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-219",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3200.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-220",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3216.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-221",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3232.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-222",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3248.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-223",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3264.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-224",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3280.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-225",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3296.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-226",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3312.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilIntMedium.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-227",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3328.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilIntObliqRacle.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-228",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3344.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/souffles/VentilVerticGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-229",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3360.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilArriereFaceFaible.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-230",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3376.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilArriereObliqGrave+turb.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-231",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3392.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilArriereObliqGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-232",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3408.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilCoteArriereBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-233",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3424.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilCoteBasse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-234",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3440.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilCoteBziit+Basse.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-235",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3456.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilCoteBziit+BasseStop.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-236",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3472.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilCoteLentBziit+.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
 													"id" : "obj-238",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3504.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3488.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-basse_infra_soft01Loop.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/T-basse_infra_soft01Loop.wav",
-													"varname" : "T-basse_infra_soft01Loop.wav"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilIntMedium.wav"
 												}
 
 											}
@@ -9344,10 +9139,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3520.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3504.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-infra_batt_loop01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-bass/TL-infra_batt_loop01.aif",
-													"varname" : "TL-infra_batt_loop01.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -9360,10 +9154,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3536.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3520.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resbol01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resbol01",
-													"varname" : "resbol01"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aig/VentilVerticGrave.wav"
 												}
 
 											}
@@ -9376,10 +9169,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3552.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3536.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resbol05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resbol05",
-													"varname" : "resbol05"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -9392,10 +9184,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3568.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3552.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resbol08 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resbol08",
-													"varname" : "resbol08"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -9408,10 +9199,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3584.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3568.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resbolaig01felin Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resbolaig01felin",
-													"varname" : "resbolaig01felin"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -9424,10 +9214,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3600.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3584.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resbolaig03pitchvar Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resbolaig03pitchvar",
-													"varname" : "resbolaig03pitchvar"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -9440,10 +9229,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3616.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3600.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resbolondul02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resbolondul02",
-													"varname" : "resbolondul02"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilCoteBasse.wav"
 												}
 
 											}
@@ -9456,10 +9244,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3632.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3616.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resbolondul04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resbolondul04",
-													"varname" : "resbolondul04"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -9472,10 +9259,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3648.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3632.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resclo01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resclo01",
-													"varname" : "resclo01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -9488,10 +9274,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3664.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3648.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resclo05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resclo05",
-													"varname" : "resclo05"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -9504,10 +9289,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3680.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3664.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ rescloche02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/rescloche02",
-													"varname" : "rescloche02"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilIntMedium.wav"
 												}
 
 											}
@@ -9520,10 +9304,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3696.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3680.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ rescloche03grat Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/rescloche03grat",
-													"varname" : "rescloche03grat"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -9536,10 +9319,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3712.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3696.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ rescloche07gliss Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/rescloche07gliss",
-													"varname" : "rescloche07gliss"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-aigbatts/VentilVerticGrave.wav"
 												}
 
 											}
@@ -9552,10 +9334,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3728.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3712.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resclochereb23 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resclochereb23",
-													"varname" : "resclochereb23"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -9568,10 +9349,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3744.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3728.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resclochevibre06 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resclochevibre06",
-													"varname" : "resclochevibre06"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -9584,10 +9364,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3760.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3744.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ resclochevibreondul01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/resclochevibreondul01",
-													"varname" : "resclochevibreondul01"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -9600,10 +9379,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3776.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3760.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ rescymb01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/rescymb01",
-													"varname" : "rescymb01"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -9616,10 +9394,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3792.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3776.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ rescymb04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-cloches/rescymb04",
-													"varname" : "rescymb04"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilCoteBasse.wav"
 												}
 
 											}
@@ -9632,10 +9409,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3808.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3792.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_alea_pitch01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutalea/T-fluteaig_alea_pitch01",
-													"varname" : "T-fluteaig_alea_pitch01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -9648,10 +9424,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3824.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3808.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_alea_pitch02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutalea/T-fluteaig_alea_pitch02",
-													"varname" : "T-fluteaig_alea_pitch02"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -9664,10 +9439,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3840.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3824.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_alea_pitch03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutalea/T-fluteaig_alea_pitch03",
-													"varname" : "T-fluteaig_alea_pitch03"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -9680,10 +9454,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3856.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3840.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_alea_pitch04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutalea/T-fluteaig_alea_pitch04",
-													"varname" : "T-fluteaig_alea_pitch04"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilIntMedium.wav"
 												}
 
 											}
@@ -9696,10 +9469,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3872.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3856.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_alea_pitch05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutalea/T-fluteaig_alea_pitch05",
-													"varname" : "T-fluteaig_alea_pitch05"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -9712,10 +9484,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3888.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3872.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_alea_pitch06 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutalea/T-fluteaig_alea_pitch06",
-													"varname" : "T-fluteaig_alea_pitch06"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-bass/VentilVerticGrave.wav"
 												}
 
 											}
@@ -9728,10 +9499,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3904.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3888.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_alea_pitch07 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutalea/T-fluteaig_alea_pitch07",
-													"varname" : "T-fluteaig_alea_pitch07"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -9744,10 +9514,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3920.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3904.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flute_harm01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flute_harm01.aif",
-													"varname" : "T-flute_harm01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -9760,10 +9529,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3936.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3920.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flute_ondul01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flute_ondul01.aif",
-													"varname" : "T-flute_ondul01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -9776,10 +9544,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3952.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3936.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_battt01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-fluteaig_battt01",
-													"varname" : "T-fluteaig_battt01"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -9792,10 +9559,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3968.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3952.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_harm01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-fluteaig_harm01",
-													"varname" : "T-fluteaig_harm01"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilCoteBasse.wav"
 												}
 
 											}
@@ -9808,10 +9574,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 3984.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3968.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fluteaig_ondul01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-fluteaig_ondul01",
-													"varname" : "T-fluteaig_ondul01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -9824,10 +9589,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4000.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 3984.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_battt01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_battt01",
-													"varname" : "T-flutegrav_battt01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -9840,10 +9604,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4016.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4000.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_battt02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_battt02",
-													"varname" : "T-flutegrav_battt02"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -9856,10 +9619,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4032.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4016.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_battt_RM01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_battt_RM01",
-													"varname" : "T-flutegrav_battt_RM01"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilIntMedium.wav"
 												}
 
 											}
@@ -9872,10 +9634,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4048.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4032.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_batttRM02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_batttRM02",
-													"varname" : "T-flutegrav_batttRM02"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -9888,10 +9649,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4064.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4048.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_gliss01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_gliss01",
-													"varname" : "T-flutegrav_gliss01"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilVerticGrave.wav"
 												}
 
 											}
@@ -9904,10 +9664,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4080.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4064.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_gliss02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_gliss02",
-													"varname" : "T-flutegrav_gliss02"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -9920,10 +9679,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4096.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4080.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_gliss03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_gliss03",
-													"varname" : "T-flutegrav_gliss03"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -9936,10 +9694,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4112.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4096.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_gliss04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_gliss04",
-													"varname" : "T-flutegrav_gliss04"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -9952,10 +9709,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4128.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4112.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_gliss05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_gliss05",
-													"varname" : "T-flutegrav_gliss05"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -9968,10 +9724,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4144.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4128.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_harm01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_harm01",
-													"varname" : "T-flutegrav_harm01"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilCoteBasse.wav"
 												}
 
 											}
@@ -9984,10 +9739,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4160.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4144.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_harm02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_harm02",
-													"varname" : "T-flutegrav_harm02"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -10000,10 +9754,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4176.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4160.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_harm03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_harm03",
-													"varname" : "T-flutegrav_harm03"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -10016,10 +9769,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4192.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4176.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-flutegrav_ren_battt01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T-flutegrav_ren_battt01",
-													"varname" : "T-flutegrav_ren_battt01"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -10032,10 +9784,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4208.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4192.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T_flutegrave_ren_battt01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T_flutegrave_ren_battt01",
-													"varname" : "T_flutegrave_ren_battt01"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilIntMedium.wav"
 												}
 
 											}
@@ -10048,10 +9799,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4224.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4208.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T_flutegrave_ren_vib01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/T_flutegrave_ren_vib01",
-													"varname" : "T_flutegrave_ren_vib01"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -10064,10 +9814,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4240.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4224.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI_fluteaig_iter01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/TI_fluteaig_iter01",
-													"varname" : "TI_fluteaig_iter01"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutalea/VentilVerticGrave.wav"
 												}
 
 											}
@@ -10080,10 +9829,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4256.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4240.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI_flutegrave_ren_iter01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/TI_flutegrave_ren_iter01",
-													"varname" : "TI_flutegrave_ren_iter01"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -10096,10 +9844,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4272.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4256.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI_flutegrave_ren_iter02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/TI_flutegrave_ren_iter02",
-													"varname" : "TI_flutegrave_ren_iter02"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -10112,10 +9859,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4288.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4272.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI_flutegrave_ren_iter03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-flutes/TI_flutegrave_ren_iter03",
-													"varname" : "TI_flutegrave_ren_iter03"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -10128,10 +9874,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4304.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4288.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ djembgrat01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/djembgrat01.aif",
-													"varname" : "djembgrat01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -10144,10 +9889,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4320.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4304.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ djemgrat02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/djemgrat02.aif",
-													"varname" : "djemgrat02.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilCoteBasse.wav"
 												}
 
 											}
@@ -10160,10 +9904,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4336.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4320.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-biniou_modul01.L Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-biniou_modul01.L",
-													"varname" : "T-biniou_modul01.L"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -10176,10 +9919,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4352.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4336.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-grave_harm01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-grave_harm01",
-													"varname" : "T-grave_harm01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -10192,10 +9934,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4368.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4352.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-grave_harm_disson02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-grave_harm_disson02",
-													"varname" : "T-grave_harm_disson02"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -10208,10 +9949,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4384.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4368.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-harm_soft_pi_grav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-harm_soft_pi_grav",
-													"varname" : "T-harm_soft_pi_grav"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilIntMedium.wav"
 												}
 
 											}
@@ -10224,10 +9964,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4400.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4384.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-harm_soft_pi_med Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-harm_soft_pi_med",
-													"varname" : "T-harm_soft_pi_med"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -10240,10 +9979,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4416.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4400.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_bouill_deb01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_bouill_deb01.aif",
-													"varname" : "T-tram_bouill_deb01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilVerticGrave.wav"
 												}
 
 											}
@@ -10256,10 +9994,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4432.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4416.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav+aig_gran01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav+aig_gran01.aif",
-													"varname" : "T-tram_grav+aig_gran01.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -10272,10 +10009,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4448.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4432.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran01.aif",
-													"varname" : "T-tram_grav_gran01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -10288,10 +10024,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4464.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4448.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran02.aif",
-													"varname" : "T-tram_grav_gran02.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -10304,10 +10039,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4480.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4464.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran03.aif",
-													"varname" : "T-tram_grav_gran03.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -10320,10 +10054,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4496.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4480.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran04.aif",
-													"varname" : "T-tram_grav_gran04.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilCoteBasse.wav"
 												}
 
 											}
@@ -10336,10 +10069,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4512.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4496.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran05.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran05.aif",
-													"varname" : "T-tram_grav_gran05.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -10352,10 +10084,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4528.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4512.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran06.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran06.aif",
-													"varname" : "T-tram_grav_gran06.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -10368,10 +10099,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4544.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4528.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran07.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran07.aif",
-													"varname" : "T-tram_grav_gran07.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -10384,10 +10114,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4560.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4544.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_grav_gran08.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_grav_gran08.aif",
-													"varname" : "T-tram_grav_gran08.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilIntMedium.wav"
 												}
 
 											}
@@ -10400,10 +10129,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4576.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4560.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-tram_infra_gran01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-gran/T-tram_infra_gran01.aif",
-													"varname" : "T-tram_infra_gran01.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -10416,10 +10144,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4592.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4576.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ L-train_beats_med01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/L-train_beats_med01.aif",
-													"varname" : "L-train_beats_med01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilVerticGrave.wav"
 												}
 
 											}
@@ -10432,10 +10159,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4608.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4592.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ microclicks01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/microclicks01",
-													"varname" : "microclicks01"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -10448,10 +10174,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4624.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4608.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napfritmicroplop01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/napfritmicroplop01",
-													"varname" : "napfritmicroplop01"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -10464,10 +10189,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4640.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4624.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ PI-Harmo_grinc02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/PI-Harmo_grinc02",
-													"varname" : "PI-Harmo_grinc02"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -10480,10 +10204,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4656.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4640.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ PI-Harmo_grinc05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/PI-Harmo_grinc05",
-													"varname" : "PI-Harmo_grinc05"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -10496,10 +10219,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4672.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4656.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ PI-tictic_cla Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/PI-tictic_cla",
-													"varname" : "PI-tictic_cla"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilCoteBasse.wav"
 												}
 
 											}
@@ -10512,10 +10234,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4688.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4672.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ rebcaou02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/rebcaou02",
-													"varname" : "rebcaou02"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -10528,10 +10249,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4704.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4688.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ rebcaou03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/rebcaou03",
-													"varname" : "rebcaou03"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -10544,10 +10264,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4720.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4704.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-iter-glace-watson.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/T-iter-glace-watson.wav",
-													"varname" : "T-iter-glace-watson.wav"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -10560,10 +10279,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4736.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4720.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-flute_perc_alea01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/TI-flute_perc_alea01",
-													"varname" : "TI-flute_perc_alea01"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilIntMedium.wav"
 												}
 
 											}
@@ -10576,10 +10294,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4752.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4736.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-flute_perc_reg01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/TI-flute_perc_reg01",
-													"varname" : "TI-flute_perc_reg01"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -10592,10 +10309,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4768.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4752.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-cla_grav_iter01.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/TL-cla_grav_iter01.L.aif",
-													"varname" : "TL-cla_grav_iter01.L.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-iter-soft/VentilVerticGrave.wav"
 												}
 
 											}
@@ -10608,10 +10324,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4784.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4768.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-cla_grav_iter03.L.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-iter-soft/TL-cla_grav_iter03.L.aif",
-													"varname" : "TL-cla_grav_iter03.L.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -10624,10 +10339,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4800.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4784.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipreve02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/napbipreve02",
-													"varname" : "napbipreve02"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -10640,10 +10354,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4816.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4800.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napharmaiglisse01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/napharmaiglisse01",
-													"varname" : "napharmaiglisse01"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -10656,10 +10369,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4832.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4816.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napharmoaiglisse02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/napharmoaiglisse02",
-													"varname" : "napharmoaiglisse02"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -10672,10 +10384,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4848.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4832.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ naplissebass-aig01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/naplissebass-aig01",
-													"varname" : "naplissebass-aig01"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilCoteBasse.wav"
 												}
 
 											}
@@ -10688,10 +10399,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4864.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4848.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napmed01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/napmed01",
-													"varname" : "napmed01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -10704,10 +10414,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4880.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4864.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napmedharq01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/napmedharq01",
-													"varname" : "napmedharq01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -10720,10 +10429,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4896.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4880.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napmedou02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/napmedou02",
-													"varname" : "napmedou02"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -10736,10 +10444,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4912.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4896.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napmedpvarharq02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-med-soft/napmedpvarharq02",
-													"varname" : "napmedpvarharq02"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilIntMedium.wav"
 												}
 
 											}
@@ -10752,10 +10459,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4928.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4912.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-med_nodal_fret01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-med_nodal_fret01.aif",
-													"varname" : "T-med_nodal_fret01.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -10768,10 +10474,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4944.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4928.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_med_harq_oscill01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_med_harq_oscill01.aif",
-													"varname" : "T-nap_med_harq_oscill01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilVerticGrave.wav"
 												}
 
 											}
@@ -10784,10 +10489,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4960.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4944.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft01.aif",
-													"varname" : "T-nap_res_soft01.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -10800,10 +10504,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4976.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4960.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft02.aif",
-													"varname" : "T-nap_res_soft02.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -10816,10 +10519,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 4992.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4976.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft04.aif",
-													"varname" : "T-nap_res_soft04.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -10832,10 +10534,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5008.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 4992.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft05.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft05.aif",
-													"varname" : "T-nap_res_soft05.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -10848,10 +10549,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5024.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5008.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft06.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft06.aif",
-													"varname" : "T-nap_res_soft06.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilCoteBasse.wav"
 												}
 
 											}
@@ -10864,10 +10564,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5040.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5024.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft_diphoniq01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft_diphoniq01.aif",
-													"varname" : "T-nap_res_soft_diphoniq01.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -10880,10 +10579,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5056.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5040.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft_fret_leger01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft_fret_leger01.aif",
-													"varname" : "T-nap_res_soft_fret_leger01.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -10896,10 +10594,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5072.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5056.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_res_soft_satu01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T-nap_res_soft_satu01.aif",
-													"varname" : "T-nap_res_soft_satu01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -10912,10 +10609,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5088.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5072.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T_nap_granul01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T_nap_granul01.aif",
-													"varname" : "T_nap_granul01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilIntMedium.wav"
 												}
 
 											}
@@ -10928,10 +10624,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5104.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5088.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T_nap_granul02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-nap_soft/T_nap_granul02.aif",
-													"varname" : "T_nap_granul02.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -10944,10 +10639,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5120.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5104.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ loop_billes_01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/loop_billes_01.aif",
-													"varname" : "loop_billes_01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilVerticGrave.wav"
 												}
 
 											}
@@ -10960,10 +10654,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5136.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5120.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ loop_train_hiip.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/loop_train_hiip.aif",
-													"varname" : "loop_train_hiip.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -10976,10 +10669,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5152.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5136.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipfrit01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/napbipfrit01",
-													"varname" : "napbipfrit01"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -10992,10 +10684,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5168.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5152.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipfrit02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/napbipfrit02",
-													"varname" : "napbipfrit02"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -11008,10 +10699,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5184.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5168.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipfritmed01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/napbipfritmed01",
-													"varname" : "napbipfritmed01"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -11024,10 +10714,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5200.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5184.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipfritultr01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/napbipfritultr01",
-													"varname" : "napbipfritultr01"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilCoteBasse.wav"
 												}
 
 											}
@@ -11040,10 +10729,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5216.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5200.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipultr01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/napbipultr01",
-													"varname" : "napbipultr01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -11056,10 +10744,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5232.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5216.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipultr2 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/napbipultr2",
-													"varname" : "napbipultr2"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -11072,10 +10759,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5248.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5232.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napbipultr3 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/napbipultr3",
-													"varname" : "napbipultr3"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -11088,10 +10774,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5264.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5248.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ naplisseaig05 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/naplisseaig05",
-													"varname" : "naplisseaig05"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilIntMedium.wav"
 												}
 
 											}
@@ -11104,10 +10789,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5280.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5264.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-gran_aig01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-gran_aig01.aif",
-													"varname" : "T-gran_aig01.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -11120,10 +10804,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5296.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5280.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-gran_helico_aig01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-gran_helico_aig01.aif",
-													"varname" : "T-gran_helico_aig01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy-aig/VentilVerticGrave.wav"
 												}
 
 											}
@@ -11136,10 +10819,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5312.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5296.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-gran_ultr01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-gran_ultr01.aif",
-													"varname" : "T-gran_ultr01.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -11152,10 +10834,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5328.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5312.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-gran_ultr02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-gran_ultr02.aif",
-													"varname" : "T-gran_ultr02.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -11168,10 +10849,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5344.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5328.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-loop-napaiglissresp01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-loop-napaiglissresp01.aif",
-													"varname" : "T-loop-napaiglissresp01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -11184,10 +10864,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5360.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5344.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napaig_lisspuls01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-napaig_lisspuls01.aif",
-													"varname" : "T-napaig_lisspuls01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -11200,10 +10879,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5376.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5360.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napaig_pulse+ultr01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-napaig_pulse+ultr01.aif",
-													"varname" : "T-napaig_pulse+ultr01.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilCoteBasse.wav"
 												}
 
 											}
@@ -11216,10 +10894,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5392.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5376.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napaig_pulse01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-napaig_pulse01.aif",
-													"varname" : "T-napaig_pulse01.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -11232,10 +10909,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5408.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5392.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napaig_pulse02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-napaig_pulse02.aif",
-													"varname" : "T-napaig_pulse02.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -11248,10 +10924,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5424.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5408.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napaig_ultr01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-napaig_ultr01.aif",
-													"varname" : "T-napaig_ultr01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -11264,10 +10939,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5440.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5424.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napaiglisseriche01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-napaiglisseriche01.aif",
-													"varname" : "T-napaiglisseriche01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilIntMedium.wav"
 												}
 
 											}
@@ -11280,10 +10954,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5456.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5440.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napaiglisseriche02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-napaiglisseriche02.aif",
-													"varname" : "T-napaiglisseriche02.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -11296,10 +10969,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5472.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5456.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_aig_frott01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-sy_aig_frott01",
-													"varname" : "T-sy_aig_frott01"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilVerticGrave.wav"
 												}
 
 											}
@@ -11312,10 +10984,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5488.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5472.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_aig_gran_iter01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-sy_aig_gran_iter01",
-													"varname" : "T-sy_aig_gran_iter01"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -11328,10 +10999,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5504.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5488.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_budubudu01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-sy_budubudu01",
-													"varname" : "T-sy_budubudu01"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -11344,10 +11014,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5520.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5504.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_granmedaig01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/T-sy_granmedaig01.aif",
-													"varname" : "T-sy_granmedaig01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -11360,10 +11029,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5536.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5520.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_bip+clck01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/TI-sy_bip+clck01",
-													"varname" : "TI-sy_bip+clck01"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -11376,10 +11044,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5552.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5536.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_bips_train01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/TI-sy_bips_train01",
-													"varname" : "TI-sy_bips_train01"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilCoteBasse.wav"
 												}
 
 											}
@@ -11392,10 +11059,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5568.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5552.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_aig_batt_med01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/TL-sy_aig_batt_med01",
-													"varname" : "TL-sy_aig_batt_med01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -11408,10 +11074,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5584.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5568.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_aig_siren01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/TL-sy_aig_siren01",
-													"varname" : "TL-sy_aig_siren01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -11424,10 +11089,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5600.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5584.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ train_hiip01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/train_hiip01.aif",
-													"varname" : "train_hiip01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -11440,10 +11104,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5616.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5600.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ train_hiip02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/train_hiip02.aif",
-													"varname" : "train_hiip02.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilIntMedium.wav"
 												}
 
 											}
@@ -11456,10 +11119,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5632.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5616.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ train_hiip03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_aig/train_hiip03.aif",
-													"varname" : "train_hiip03.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -11472,10 +11134,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5648.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5632.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ basslarsen04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/basslarsen04.aif",
-													"varname" : "basslarsen04.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_bass/VentilVerticGrave.wav"
 												}
 
 											}
@@ -11488,10 +11149,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5664.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5648.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ basslarsen06.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/basslarsen06.aif",
-													"varname" : "basslarsen06.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -11504,10 +11164,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5680.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5664.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ basslarsen09.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/basslarsen09.aif",
-													"varname" : "basslarsen09.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -11520,10 +11179,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5696.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5680.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ basslarsen11.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/basslarsen11.aif",
-													"varname" : "basslarsen11.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -11536,10 +11194,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5712.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5696.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ basslarsennaposcill01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/basslarsennaposcill01.aif",
-													"varname" : "basslarsennaposcill01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -11552,10 +11209,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5728.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5712.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ basslarsennapwha01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/basslarsennapwha01.aif",
-													"varname" : "basslarsennapwha01.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilCoteBasse.wav"
 												}
 
 											}
@@ -11568,10 +11224,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5744.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5728.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_bass_ond_loop01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/TL-sy_bass_ond_loop01",
-													"varname" : "TL-sy_bass_ond_loop01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -11584,10 +11239,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5760.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5744.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_bass_ond_loop02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/TL-sy_bass_ond_loop02",
-													"varname" : "TL-sy_bass_ond_loop02"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -11600,10 +11254,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5776.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5760.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_bass_ond_loop03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/TL-sy_bass_ond_loop03",
-													"varname" : "TL-sy_bass_ond_loop03"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -11616,10 +11269,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5792.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5776.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_bass_ond_loop04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_bass/TL-sy_bass_ond_loop04",
-													"varname" : "TL-sy_bass_ond_loop04"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilIntMedium.wav"
 												}
 
 											}
@@ -11632,10 +11284,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5808.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5792.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_med01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fret_med01.aif",
-													"varname" : "T-fret_med01.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -11648,10 +11299,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5824.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5808.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_med_zou01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fret_med_zou01.aif",
-													"varname" : "T-fret_med_zou01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_fret/VentilVerticGrave.wav"
 												}
 
 											}
@@ -11664,10 +11314,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5840.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5824.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_med_zou02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fret_med_zou02.aif",
-													"varname" : "T-fret_med_zou02.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -11680,10 +11329,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5856.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5840.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_medaig_dense01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fret_medaig_dense01.aif",
-													"varname" : "T-fret_medaig_dense01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -11696,10 +11344,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5872.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5856.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_medettouf01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fret_medettouf01.aif",
-													"varname" : "T-fret_medettouf01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -11712,10 +11359,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5888.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5872.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_medettouf012.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fret_medettouf012.aif",
-													"varname" : "T-fret_medettouf012.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -11728,10 +11374,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5904.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5888.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_poil_oscill01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fret_poil_oscill01.aif",
-													"varname" : "T-fret_poil_oscill01.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilCoteBasse.wav"
 												}
 
 											}
@@ -11744,10 +11389,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5920.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5904.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretbass01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretbass01.aif",
-													"varname" : "T-fretbass01.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -11760,10 +11404,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5936.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5920.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretbass02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretbass02.aif",
-													"varname" : "T-fretbass02.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -11776,10 +11419,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5952.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5936.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretbass_calme01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretbass_calme01.aif",
-													"varname" : "T-fretbass_calme01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -11792,10 +11434,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5968.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5952.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretill_loopryth01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretill_loopryth01.aif",
-													"varname" : "T-fretill_loopryth01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilIntMedium.wav"
 												}
 
 											}
@@ -11808,10 +11449,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 5984.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5968.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretill_loopryth02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretill_loopryth02.aif",
-													"varname" : "T-fretill_loopryth02.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -11824,10 +11464,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6000.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 5984.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretill_ryth01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretill_ryth01.aif",
-													"varname" : "T-fretill_ryth01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_frott/VentilVerticGrave.wav"
 												}
 
 											}
@@ -11840,10 +11479,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6016.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6000.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretill_ryth03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretill_ryth03.aif",
-													"varname" : "T-fretill_ryth03.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -11856,10 +11494,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6032.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6016.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fretmed01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-fretmed01.aif",
-													"varname" : "T-fretmed01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -11872,10 +11509,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6048.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6032.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_fret_lp01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-sy_fret_lp01.aif",
-													"varname" : "T-sy_fret_lp01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -11888,10 +11524,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6064.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6048.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_fretaig01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-sy_fretaig01.aif",
-													"varname" : "T-sy_fretaig01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -11904,10 +11539,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6080.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6064.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_fretmini01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-sy_fretmini01.aif",
-													"varname" : "T-sy_fretmini01.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilCoteBasse.wav"
 												}
 
 											}
@@ -11920,10 +11554,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6096.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6080.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_fretmini02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-sy_fretmini02.aif",
-													"varname" : "T-sy_fretmini02.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -11936,10 +11569,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6112.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6096.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_fretmini03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-sy_fretmini03.aif",
-													"varname" : "T-sy_fretmini03.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -11952,10 +11584,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6128.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6112.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_fretmini_vag01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/T-sy_fretmini_vag01.aif",
-													"varname" : "T-sy_fretmini_vag01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -11968,10 +11599,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6144.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6128.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ train_fre01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/train_fre01.aif",
-													"varname" : "train_fre01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilIntMedium.wav"
 												}
 
 											}
@@ -11984,10 +11614,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6160.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6144.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ train_fre02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/train_fre02.aif",
-													"varname" : "train_fre02.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -12000,10 +11629,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6176.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6160.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ train_fret01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/train_fret01.aif",
-													"varname" : "train_fret01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_gougoui/VentilVerticGrave.wav"
 												}
 
 											}
@@ -12016,10 +11644,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6192.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6176.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ train_frot01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_fret/train_frot01.aif",
-													"varname" : "train_frot01.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -12032,10 +11659,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6208.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6192.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_aig_note_frott01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_aig_note_frott01",
-													"varname" : "T-sy_aig_note_frott01"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -12048,10 +11674,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6224.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6208.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_frott_medbass01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_frott_medbass01",
-													"varname" : "T-sy_frott_medbass01"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -12064,10 +11689,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6240.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6224.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_gouigoui_graou01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_gouigoui_graou01",
-													"varname" : "T-sy_gouigoui_graou01"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -12080,10 +11704,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6256.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6240.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_gran_grav_cycl01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_gran_grav_cycl01",
-													"varname" : "T-sy_gran_grav_cycl01"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilCoteBasse.wav"
 												}
 
 											}
@@ -12096,10 +11719,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6272.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6256.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_med_frott01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_med_frott01",
-													"varname" : "T-sy_med_frott01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -12112,10 +11734,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6288.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6272.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_med_nsz01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_med_nsz01",
-													"varname" : "T-sy_med_nsz01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -12128,10 +11749,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6304.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6288.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_med_poil01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_med_poil01",
-													"varname" : "T-sy_med_poil01"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -12144,10 +11764,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6320.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6304.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_medaig_frit01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_medaig_frit01",
-													"varname" : "T-sy_medaig_frit01"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilIntMedium.wav"
 												}
 
 											}
@@ -12160,10 +11779,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6336.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6320.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_medaig_mouche02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/T-sy_medaig_mouche02",
-													"varname" : "T-sy_medaig_mouche02"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -12176,10 +11794,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6352.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6336.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-med_frit01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/TL-med_frit01",
-													"varname" : "TL-med_frit01"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_grav_gran/VentilVerticGrave.wav"
 												}
 
 											}
@@ -12192,10 +11809,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6368.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6352.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_med_poil_ryth01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_frott/TL-sy_med_poil_ryth01",
-													"varname" : "TL-sy_med_poil_ryth01"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -12208,10 +11824,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6384.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6368.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_gougoui+bass01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_gougoui/TI-sy_gougoui+bass01",
-													"varname" : "TI-sy_gougoui+bass01"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -12224,10 +11839,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6400.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6384.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_gougoui01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_gougoui/TI-sy_gougoui01",
-													"varname" : "TI-sy_gougoui01"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -12240,10 +11854,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6416.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6400.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_gougoui02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_gougoui/TI-sy_gougoui02",
-													"varname" : "TI-sy_gougoui02"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -12256,10 +11869,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6432.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6416.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_gougoui03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_gougoui/TI-sy_gougoui03",
-													"varname" : "TI-sy_gougoui03"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilCoteBasse.wav"
 												}
 
 											}
@@ -12272,10 +11884,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6448.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6432.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_gougoui04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_gougoui/TI-sy_gougoui04",
-													"varname" : "TI-sy_gougoui04"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -12288,10 +11899,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6464.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6448.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_gran_ryth02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/T-sy_gran_ryth02",
-													"varname" : "T-sy_gran_ryth02"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -12304,10 +11914,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6480.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6464.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_gran_ryth03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/T-sy_gran_ryth03",
-													"varname" : "T-sy_gran_ryth03"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -12320,10 +11929,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6496.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6480.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_grav_gran031 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/T-sy_grav_gran031",
-													"varname" : "T-sy_grav_gran031"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilIntMedium.wav"
 												}
 
 											}
@@ -12336,10 +11944,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6512.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6496.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_grav_gran_harm01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/T-sy_grav_gran_harm01",
-													"varname" : "T-sy_grav_gran_harm01"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -12352,10 +11959,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6528.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6512.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_grav_ond02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/T-sy_grav_ond02",
-													"varname" : "T-sy_grav_ond02"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_imp/VentilVerticGrave.wav"
 												}
 
 											}
@@ -12368,10 +11974,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6544.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6528.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_gran_ryth01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/TL-sy_gran_ryth01",
-													"varname" : "TL-sy_gran_ryth01"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -12384,10 +11989,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6560.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6544.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_gran_ryth02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/TL-sy_gran_ryth02",
-													"varname" : "TL-sy_gran_ryth02"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -12400,10 +12004,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6576.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6560.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_grav_gran01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_grav_gran/TL-sy_grav_gran01",
-													"varname" : "TL-sy_grav_gran01"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -12416,10 +12019,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6592.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6576.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-fret_imp01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-fret_imp01.aif",
-													"varname" : "T-fret_imp01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -12432,10 +12034,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6608.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6592.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-imp_bass_poil01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-imp_bass_poil01.aif",
-													"varname" : "T-imp_bass_poil01.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilCoteBasse.wav"
 												}
 
 											}
@@ -12448,10 +12049,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6624.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6608.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-imp_bass_poil02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-imp_bass_poil02.aif",
-													"varname" : "T-imp_bass_poil02.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -12464,10 +12064,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6640.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6624.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_imp_ryth01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-sy_imp_ryth01",
-													"varname" : "T-sy_imp_ryth01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -12480,10 +12079,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6656.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6640.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_imp_ryth02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-sy_imp_ryth02",
-													"varname" : "T-sy_imp_ryth02"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -12496,10 +12094,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6672.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6656.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_imp_ryth03 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-sy_imp_ryth03",
-													"varname" : "T-sy_imp_ryth03"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilIntMedium.wav"
 												}
 
 											}
@@ -12512,10 +12109,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6688.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6672.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_imp_ryth04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-sy_imp_ryth04",
-													"varname" : "T-sy_imp_ryth04"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -12528,10 +12124,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6704.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6688.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_train_flak01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/T-sy_train_flak01.aif",
-													"varname" : "T-sy_train_flak01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_kobfrot/VentilVerticGrave.wav"
 												}
 
 											}
@@ -12544,10 +12139,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6720.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6704.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-sy_clcks_med01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/TI-sy_clcks_med01",
-													"varname" : "TI-sy_clcks_med01"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -12560,10 +12154,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6736.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6720.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_clicks_grav+aig01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_imp/TL-sy_clicks_grav+aig01",
-													"varname" : "TL-sy_clicks_grav+aig01"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -12576,10 +12169,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6752.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6736.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobcuir02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobcuir02.aif",
-													"varname" : "kobcuir02.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -12592,10 +12184,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6768.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6752.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobcuir03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobcuir03.aif",
-													"varname" : "kobcuir03.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -12608,10 +12199,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6784.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6768.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobcuir05.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobcuir05.aif",
-													"varname" : "kobcuir05.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilCoteBasse.wav"
 												}
 
 											}
@@ -12624,10 +12214,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6800.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6784.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobcuirfret01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobcuirfret01.aif",
-													"varname" : "kobcuirfret01.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -12640,10 +12229,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6816.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6800.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobdeltsofttourn02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobdeltsofttourn02.aif",
-													"varname" : "kobdeltsofttourn02.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -12656,10 +12244,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6832.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6816.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobfretmed01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobfretmed01.aif",
-													"varname" : "kobfretmed01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -12672,10 +12259,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6848.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6832.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobfretmed02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobfretmed02.aif",
-													"varname" : "kobfretmed02.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilIntMedium.wav"
 												}
 
 											}
@@ -12688,10 +12274,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6864.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6848.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobmonteefretaig.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobmonteefretaig.aif",
-													"varname" : "kobmonteefretaig.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -12704,10 +12289,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6880.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6864.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobphraig01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobphraig01.aif",
-													"varname" : "kobphraig01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilVerticGrave.wav"
 												}
 
 											}
@@ -12720,10 +12304,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6896.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6880.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ kobphraig02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/kobphraig02.aif",
-													"varname" : "kobphraig02.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -12736,10 +12319,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6912.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6896.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ trame_frit_so_01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/trame_frit_so_01.aif",
-													"varname" : "trame_frit_so_01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -12752,10 +12334,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6928.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6912.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ trame_frit_soft.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/trame_frit_soft.aif",
-													"varname" : "trame_frit_soft.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -12768,10 +12349,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6944.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6928.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ trame_puls_01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_kobfrot/trame_puls_01.aif",
-													"varname" : "trame_puls_01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -12784,10 +12364,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6960.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6944.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenaig01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenaig01.aif",
-													"varname" : "larsenaig01.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilCoteBasse.wav"
 												}
 
 											}
@@ -12800,10 +12379,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6976.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6960.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenaig03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenaig03.aif",
-													"varname" : "larsenaig03.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -12816,10 +12394,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 6992.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6976.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenaignaplg01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenaignaplg01.aif",
-													"varname" : "larsenaignaplg01.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -12832,10 +12409,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7008.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 6992.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenmedaiglg01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenmedaiglg01.aif",
-													"varname" : "larsenmedaiglg01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -12848,10 +12424,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7024.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7008.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenmedaigstil03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenmedaigstil03.aif",
-													"varname" : "larsenmedaigstil03.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilIntMedium.wav"
 												}
 
 											}
@@ -12864,10 +12439,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7040.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7024.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenmedaigstill01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenmedaigstill01.aif",
-													"varname" : "larsenmedaigstill01.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -12880,10 +12454,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7056.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7040.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenmedaigstill02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenmedaigstill02.aif",
-													"varname" : "larsenmedaigstill02.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_leger/VentilVerticGrave.wav"
 												}
 
 											}
@@ -12896,10 +12469,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7072.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7056.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenmedaigstill04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenmedaigstill04.aif",
-													"varname" : "larsenmedaigstill04.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -12912,10 +12484,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7088.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7072.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ larsenmedaigwha01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_larsen/larsenmedaigwha01.aif",
-													"varname" : "larsenmedaigwha01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -12928,10 +12499,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7104.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7088.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_grav_vague01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_leger/T-sy_grav_vague01",
-													"varname" : "T-sy_grav_vague01"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -12944,10 +12514,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7120.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7104.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_grav_vague02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_leger/T-sy_grav_vague02",
-													"varname" : "T-sy_grav_vague02"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -12960,10 +12529,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7136.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7120.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_legere_aig02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_leger/T-sy_legere_aig02",
-													"varname" : "T-sy_legere_aig02"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilCoteBasse.wav"
 												}
 
 											}
@@ -12976,10 +12544,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7152.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7136.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_legere_aig_batt01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_leger/T-sy_legere_aig_batt01",
-													"varname" : "T-sy_legere_aig_batt01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -12992,10 +12559,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7168.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7152.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_soft_grav_modul01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_leger/T-sy_soft_grav_modul01",
-													"varname" : "T-sy_soft_grav_modul01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -13008,10 +12574,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7184.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7168.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_medaig_fret_light01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_leger/TL-sy_medaig_fret_light01",
-													"varname" : "TL-sy_medaig_fret_light01"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -13024,10 +12589,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7200.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7184.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_medbass_fret01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_nap/T-nap_medbass_fret01.aif",
-													"varname" : "T-nap_medbass_fret01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilIntMedium.wav"
 												}
 
 											}
@@ -13040,10 +12604,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7216.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7200.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napdouce_med01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_nap/T-napdouce_med01.aif",
-													"varname" : "T-napdouce_med01.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -13056,10 +12619,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7232.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7216.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napdouce_med02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_nap/T-napdouce_med02.aif",
-													"varname" : "T-napdouce_med02.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilVerticGrave.wav"
 												}
 
 											}
@@ -13072,10 +12634,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7248.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7232.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-napdouce_med03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_nap/T-napdouce_med03.aif",
-													"varname" : "T-napdouce_med03.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -13088,10 +12649,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7264.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7248.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ naplisseultr01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/naplisseultr01",
-													"varname" : "naplisseultr01"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -13104,10 +12664,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7280.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7264.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ naplisseultr04 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/naplisseultr04",
-													"varname" : "naplisseultr04"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -13120,10 +12679,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7296.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7280.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_ultr01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/T-sy_ultr01",
-													"varname" : "T-sy_ultr01"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -13136,10 +12694,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7312.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7296.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_ultr02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/T-sy_ultr02",
-													"varname" : "T-sy_ultr02"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilCoteBasse.wav"
 												}
 
 											}
@@ -13152,10 +12709,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7328.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7312.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_ultr_frott01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/T-sy_ultr_frott01",
-													"varname" : "T-sy_ultr_frott01"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -13168,10 +12724,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7344.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7328.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_ultr_frrr01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/T-sy_ultr_frrr01",
-													"varname" : "T-sy_ultr_frrr01"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -13184,10 +12739,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7360.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7344.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_ultr_frrr02 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/T-sy_ultr_frrr02",
-													"varname" : "T-sy_ultr_frrr02"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -13200,10 +12754,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7376.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7360.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-sy_ultr_rebonds01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/T-sy_ultr_rebonds01",
-													"varname" : "T-sy_ultr_rebonds01"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilIntMedium.wav"
 												}
 
 											}
@@ -13216,10 +12769,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7392.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7376.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_ultr_fretill01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/TL-sy_ultr_fretill01",
-													"varname" : "TL-sy_ultr_fretill01"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -13232,10 +12784,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7408.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7392.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_ultr_grillon01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/TL-sy_ultr_grillon01",
-													"varname" : "TL-sy_ultr_grillon01"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilVerticGrave.wav"
 												}
 
 											}
@@ -13248,10 +12799,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7424.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7408.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-sy_ultr_grillon_saut01 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-sy_ultr/TL-sy_ultr_grillon_saut01",
-													"varname" : "TL-sy_ultr_grillon_saut01"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -13264,10 +12814,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7440.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7424.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-basse_infra_soft01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-basse_infra_soft01.aif",
-													"varname" : "T-basse_infra_soft01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -13280,10 +12829,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7456.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7440.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr+fretouill01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr+fretouill01.aif",
-													"varname" : "T-ultr+fretouill01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -13296,10 +12844,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7472.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7456.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr01.aif",
-													"varname" : "T-ultr01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -13312,10 +12859,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7488.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7472.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ \"T-ultr02 .wav\" \"Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr02 .wav\"",
-													"varname" : "T-ultr02 .wav"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilCoteBasse.wav"
 												}
 
 											}
@@ -13328,10 +12874,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7504.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7488.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr02.aif",
-													"varname" : "T-ultr02.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -13344,10 +12889,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7520.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7504.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr02loop.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr02loop.wav",
-													"varname" : "T-ultr02loop.wav"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -13360,10 +12904,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7536.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7520.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr03.aif",
-													"varname" : "T-ultr03.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -13376,10 +12919,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7552.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7536.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_fractal01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_fractal01.aif",
-													"varname" : "T-ultr_fractal01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilIntMedium.wav"
 												}
 
 											}
@@ -13392,10 +12934,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7568.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7552.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_fractal02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_fractal02.aif",
-													"varname" : "T-ultr_fractal02.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -13408,10 +12949,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7584.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7568.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_fractal03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_fractal03.aif",
-													"varname" : "T-ultr_fractal03.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-ultr_soft/VentilVerticGrave.wav"
 												}
 
 											}
@@ -13424,10 +12964,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7600.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7584.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_scintill01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_scintill01.aif",
-													"varname" : "T-ultr_scintill01.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -13440,10 +12979,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7616.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7600.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_scintill02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_scintill02.aif",
-													"varname" : "T-ultr_scintill02.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -13456,10 +12994,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7632.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7616.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_scintill03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_scintill03.aif",
-													"varname" : "T-ultr_scintill03.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -13472,10 +13009,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7648.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7632.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_scintill04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_scintill04.aif",
-													"varname" : "T-ultr_scintill04.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -13488,10 +13024,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7664.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7648.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_scintill05.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_scintill05.aif",
-													"varname" : "T-ultr_scintill05.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilCoteBasse.wav"
 												}
 
 											}
@@ -13504,10 +13039,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7680.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7664.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_souff01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_souff01.aif",
-													"varname" : "T-ultr_souff01.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -13520,10 +13054,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7696.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7680.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_souff02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_souff02.aif",
-													"varname" : "T-ultr_souff02.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -13536,10 +13069,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7712.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7696.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ultr_souff03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/T-ultr_souff03.aif",
-													"varname" : "T-ultr_souff03.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -13552,10 +13084,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7728.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7712.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-ultr_ultr01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/TI-ultr_ultr01.aif",
-													"varname" : "TI-ultr_ultr01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilIntMedium.wav"
 												}
 
 											}
@@ -13568,10 +13099,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7744.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7728.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-ultr_ultr02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/TI-ultr_ultr02.aif",
-													"varname" : "TI-ultr_ultr02.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -13584,10 +13114,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7760.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7744.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-ultr_ultr02loop.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/TI-ultr_ultr02loop.wav",
-													"varname" : "TI-ultr_ultr02loop.wav"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-aig/VentilVerticGrave.wav"
 												}
 
 											}
@@ -13600,10 +13129,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7776.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7760.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-ultr_ultr02loop2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/TI-ultr_ultr02loop2.wav",
-													"varname" : "TI-ultr_ultr02loop2.wav"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -13616,10 +13144,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7792.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7776.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-ultr_ultr02Old.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/T-ultr_soft/TI-ultr_ultr02Old.aif",
-													"varname" : "TI-ultr_ultr02Old.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -13632,10 +13159,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7808.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7792.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ding_trame01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/T-ding_trame01.aif",
-													"varname" : "T-ding_trame01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -13648,10 +13174,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7824.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7808.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ding_trame02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/T-ding_trame02.aif",
-													"varname" : "T-ding_trame02.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -13664,10 +13189,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7840.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7824.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ding_trame03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/T-ding_trame03.aif",
-													"varname" : "T-ding_trame03.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilCoteBasse.wav"
 												}
 
 											}
@@ -13680,10 +13204,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7856.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7840.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-ding_trame04.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/T-ding_trame04.aif",
-													"varname" : "T-ding_trame04.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -13696,10 +13219,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7872.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7856.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-aig_pulse_speed01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-aig_pulse_speed01.aif",
-													"varname" : "TI-aig_pulse_speed01.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -13712,10 +13234,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7888.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7872.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-iter_tics01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-iter_tics01.aif",
-													"varname" : "TI-iter_tics01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -13728,10 +13249,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7904.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7888.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-iter_tics02.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-iter_tics02.aif",
-													"varname" : "TI-iter_tics02.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilIntMedium.wav"
 												}
 
 											}
@@ -13744,10 +13264,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7920.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7904.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-iter_tics03.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-iter_tics03.aif",
-													"varname" : "TI-iter_tics03.aif"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -13760,10 +13279,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7936.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7920.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-iter_tics_ultr01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-iter_tics_ultr01.aif",
-													"varname" : "TI-iter_tics_ultr01.aif"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-med_softs/VentilVerticGrave.wav"
 												}
 
 											}
@@ -13776,10 +13294,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7952.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7936.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-iter_vrwa_tics01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-iter_vrwa_tics01.aif",
-													"varname" : "TI-iter_vrwa_tics01.aif"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -13792,10 +13309,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7968.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7952.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-syn_iik01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-syn_iik01.aif",
-													"varname" : "TI-syn_iik01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -13808,10 +13324,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 7984.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7968.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-ziit+clock01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TI-ziit+clock01.aif",
-													"varname" : "TI-ziit+clock01.aif"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -13824,10 +13339,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8000.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 7984.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TR-pulse_gratt+aig_still01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-aig/TR-pulse_gratt+aig_still01.aif",
-													"varname" : "TR-pulse_gratt+aig_still01.aif"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -13840,10 +13354,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8016.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8000.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ T-nap_giou_med_iter01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-med_softs/T-nap_giou_med_iter01.aif",
-													"varname" : "T-nap_giou_med_iter01.aif"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilCoteBasse.wav"
 												}
 
 											}
@@ -13856,10 +13369,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8032.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8016.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-gratouill_grave_gouigouis01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-med_softs/TI-gratouill_grave_gouigouis01.aif",
-													"varname" : "TI-gratouill_grave_gouigouis01.aif"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -13872,10 +13384,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8048.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8032.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-iter_doup_res01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-med_softs/TI-iter_doup_res01.aif",
-													"varname" : "TI-iter_doup_res01.aif"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -13888,10 +13399,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8064.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8048.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TI-syn_med01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-med_softs/TI-syn_med01.aif",
-													"varname" : "TI-syn_med01.aif"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -13904,10 +13414,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8080.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8064.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TL-med_pulse_woop01.aif Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-med_softs/TL-med_pulse_woop01.aif",
-													"varname" : "TL-med_pulse_woop01.aif"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilIntMedium.wav"
 												}
 
 											}
@@ -13920,10 +13429,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8096.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8080.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ napballgravespeed1 Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-synth+iter/napballgravespeed1",
-													"varname" : "napballgravespeed1"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -13936,10 +13444,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8112.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8096.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ \"napsoftgran oscill lent01\" \"Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-synth+iter/napsoftgran oscill lent01\"",
-													"varname" : "napsoftgran oscill lent01"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/TI-synth+iter/VentilVerticGrave.wav"
 												}
 
 											}
@@ -13952,10 +13459,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8128.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8112.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ \"napsoftgranulent tes calme\" \"Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/TI-synth+iter/napsoftgranulent tes calme\"",
-													"varname" : "napsoftgranulent tes calme"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -13968,10 +13474,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8144.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8128.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ AiguTurbine+Moteur.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/turbine/AiguTurbine+Moteur.wav",
-													"varname" : "AiguTurbine+Moteur.wav"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -13984,10 +13489,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8160.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8144.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ AiguTurbine.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/turbine/AiguTurbine.wav",
-													"varname" : "AiguTurbine.wav"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -14000,10 +13504,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8176.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8160.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TurbineLoinDescente.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/turbine/TurbineLoinDescente.wav",
-													"varname" : "TurbineLoinDescente.wav"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -14016,10 +13519,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8192.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8176.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TurbineLoinMontee.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/turbine/TurbineLoinMontee.wav",
-													"varname" : "TurbineLoinMontee.wav"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilCoteBasse.wav"
 												}
 
 											}
@@ -14032,10 +13534,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8208.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8192.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TurbineProcheAigue.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/turbine/TurbineProcheAigue.wav",
-													"varname" : "TurbineProcheAigue.wav"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -14048,10 +13549,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8224.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8208.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ TurbineProcheMoteur.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/turbine/TurbineProcheMoteur.wav",
-													"varname" : "TurbineProcheMoteur.wav"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -14064,10 +13564,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8240.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8224.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ pompeZélande.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/pompeZélande.wav",
-													"varname" : "pompeZélande.wav"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -14080,10 +13579,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8256.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8240.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes1.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes1.L.wav",
-													"varname" : "RadiateurAilettes1.L.wav"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilIntMedium.wav"
 												}
 
 											}
@@ -14096,10 +13594,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8272.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8256.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes1.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes1.R.wav",
-													"varname" : "RadiateurAilettes1.R.wav"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -14112,10 +13609,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8288.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8272.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes2.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes2.L.wav",
-													"varname" : "RadiateurAilettes2.L.wav"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/turbine/VentilVerticGrave.wav"
 												}
 
 											}
@@ -14128,10 +13624,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8304.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8288.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes2.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes2.R.wav",
-													"varname" : "RadiateurAilettes2.R.wav"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -14144,10 +13639,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8320.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8304.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes3.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes3.L.wav",
-													"varname" : "RadiateurAilettes3.L.wav"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -14160,10 +13654,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8336.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8320.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes3.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes3.R.wav",
-													"varname" : "RadiateurAilettes3.R.wav"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -14176,10 +13669,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8352.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8336.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes4.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes4.L.wav",
-													"varname" : "RadiateurAilettes4.L.wav"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -14192,10 +13684,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8368.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8352.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurAilettes4.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurAilettes4.R.wav",
-													"varname" : "RadiateurAilettes4.R.wav"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilCoteBasse.wav"
 												}
 
 											}
@@ -14208,10 +13699,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8384.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8368.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurPlatFluctuant1.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurPlatFluctuant1.L.wav",
-													"varname" : "RadiateurPlatFluctuant1.L.wav"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -14224,10 +13714,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8400.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8384.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurPlatFluctuant1.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurPlatFluctuant1.R.wav",
-													"varname" : "RadiateurPlatFluctuant1.R.wav"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -14240,10 +13729,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8416.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8400.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurPlatFluctuant2.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurPlatFluctuant2.L.wav",
-													"varname" : "RadiateurPlatFluctuant2.L.wav"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -14256,10 +13744,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8432.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8416.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurPlatFluctuant2.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurPlatFluctuant2.R.wav",
-													"varname" : "RadiateurPlatFluctuant2.R.wav"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilIntMedium.wav"
 												}
 
 											}
@@ -14272,10 +13759,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8448.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8432.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurPlatStable.L.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurPlatStable.L.wav",
-													"varname" : "RadiateurPlatStable.L.wav"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -14288,10 +13774,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8464.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8448.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ RadiateurPlatStable.R.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/tuyaux/RadiateurPlatStable.R.wav",
-													"varname" : "RadiateurPlatStable.R.wav"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilVerticGrave.wav"
 												}
 
 											}
@@ -14304,10 +13789,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8480.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8464.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorte1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorte1.wav",
-													"varname" : "VentPorte1.wav"
+													"text" : "buffer~ VentilArriereFaceFaible.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilArriereFaceFaible.wav"
 												}
 
 											}
@@ -14320,10 +13804,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8496.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8480.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorte2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorte2.wav",
-													"varname" : "VentPorte2.wav"
+													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilArriereObliqGrave+turb.wav"
 												}
 
 											}
@@ -14336,10 +13819,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8512.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8496.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorte3.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorte3.wav",
-													"varname" : "VentPorte3.wav"
+													"text" : "buffer~ VentilArriereObliqGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilArriereObliqGrave.wav"
 												}
 
 											}
@@ -14352,10 +13834,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8528.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8512.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteDesc.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteDesc.wav",
-													"varname" : "VentPorteDesc.wav"
+													"text" : "buffer~ VentilCoteArriereBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilCoteArriereBziit+.wav"
 												}
 
 											}
@@ -14368,10 +13849,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8544.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8528.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteDouble1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteDouble1.wav",
-													"varname" : "VentPorteDouble1.wav"
+													"text" : "buffer~ VentilCoteBasse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilCoteBasse.wav"
 												}
 
 											}
@@ -14384,10 +13864,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8560.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8544.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteDouble2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteDouble2.wav",
-													"varname" : "VentPorteDouble2.wav"
+													"text" : "buffer~ VentilCoteBziit+Basse.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilCoteBziit+Basse.wav"
 												}
 
 											}
@@ -14400,10 +13879,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8576.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8560.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteDouble3.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteDouble3.wav",
-													"varname" : "VentPorteDouble3.wav"
+													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilCoteBziit+BasseStop.wav"
 												}
 
 											}
@@ -14416,10 +13894,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8592.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8576.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteGlissade.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteGlissade.wav",
-													"varname" : "VentPorteGlissade.wav"
+													"text" : "buffer~ VentilCoteLentBziit+.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilCoteLentBziit+.wav"
 												}
 
 											}
@@ -14432,10 +13909,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8608.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8592.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteLeger.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteLeger.wav",
-													"varname" : "VentPorteLeger.wav"
+													"text" : "buffer~ VentilIntMedium.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilIntMedium.wav"
 												}
 
 											}
@@ -14448,10 +13924,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8624.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8608.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteMed1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteMed1.wav",
-													"varname" : "VentPorteMed1.wav"
+													"text" : "buffer~ VentilIntObliqRacle.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilIntObliqRacle.wav"
 												}
 
 											}
@@ -14464,186 +13939,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8640.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 8624.0, 600.0, 0.0 ],
 													"style" : "",
-													"text" : "buffer~ VentPorteMedGrave.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteMedGrave.wav",
-													"varname" : "VentPorteMedGrave.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-560",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8656.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteMelodie.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteMelodie.wav",
-													"varname" : "VentPorteMelodie.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-561",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8672.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteMontee.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteMontee.wav",
-													"varname" : "VentPorteMontee.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-562",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8688.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteSirenes.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteSirenes.wav",
-													"varname" : "VentPorteSirenes.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-563",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8704.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteTelelet.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteTelelet.wav",
-													"varname" : "VentPorteTelelet.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-564",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8720.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteTeleletLong1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteTeleletLong1.wav",
-													"varname" : "VentPorteTeleletLong1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-565",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8736.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteTeleletLong2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteTeleletLong2.wav",
-													"varname" : "VentPorteTeleletLong2.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-566",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8752.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteTonalStable.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteTonalStable.wav",
-													"varname" : "VentPorteTonalStable.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-567",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8768.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteWhou.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteWhou.wav",
-													"varname" : "VentPorteWhou.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-568",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8784.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentPorteWhouuPonp.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentPorteWhouuPonp.wav",
-													"varname" : "VentPorteWhouuPonp.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-569",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8800.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentTempete1.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentTempete1.wav",
-													"varname" : "VentTempete1.wav"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-570",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8816.0, 600.0, 0.0 ],
-													"style" : "",
-													"text" : "buffer~ VentTempete2.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/vent/VentTempete2.wav",
-													"varname" : "VentTempete2.wav"
+													"text" : "buffer~ VentilVerticGrave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/vent/VentilVerticGrave.wav"
 												}
 
 											}
@@ -14656,10 +13954,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8832.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 16.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilArriereFaceFaible.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilArriereFaceFaible.wav",
-													"varname" : "VentilArriereFaceFaible.wav"
+													"text" : "buffer~ ClimChantante.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimChantante.wav"
 												}
 
 											}
@@ -14672,10 +13969,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8848.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 32.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilArriereObliqGrave+turb.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilArriereObliqGrave+turb.wav",
-													"varname" : "VentilArriereObliqGrave+turb.wav"
+													"text" : "buffer~ ClimCouloir.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimCouloir.wav"
 												}
 
 											}
@@ -14688,10 +13984,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8864.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 16.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilArriereObliqGrave.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilArriereObliqGrave.wav",
-													"varname" : "VentilArriereObliqGrave.wav"
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimChantante.wav"
 												}
 
 											}
@@ -14704,10 +13999,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8880.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 32.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilCoteArriereBziit+.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilCoteArriereBziit+.wav",
-													"varname" : "VentilCoteArriereBziit+.wav"
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimCouloir.wav"
 												}
 
 											}
@@ -14720,10 +14014,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8896.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 48.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilCoteBasse.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilCoteBasse.wav",
-													"varname" : "VentilCoteBasse.wav"
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimDenseEvolue.wav"
 												}
 
 											}
@@ -14736,10 +14029,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8912.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 64.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilCoteBziit+Basse.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilCoteBziit+Basse.wav",
-													"varname" : "VentilCoteBziit+Basse.wav"
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimFleuve+Calme.wav"
 												}
 
 											}
@@ -14752,10 +14044,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8928.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 80.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilCoteBziit+BasseStop.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilCoteBziit+BasseStop.wav",
-													"varname" : "VentilCoteBziit+BasseStop.wav"
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimFleuveDeLave.wav"
 												}
 
 											}
@@ -14768,10 +14059,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8944.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 96.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilCoteLentBziit+.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilCoteLentBziit+.wav",
-													"varname" : "VentilCoteLentBziit+.wav"
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimInria.wav"
 												}
 
 											}
@@ -14784,10 +14074,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8960.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 112.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilIntMedium.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilIntMedium.wav",
-													"varname" : "VentilIntMedium.wav"
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimLocal.wav"
 												}
 
 											}
@@ -14800,10 +14089,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8976.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 128.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilIntObliqRacle.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilIntObliqRacle.wav",
-													"varname" : "VentilIntObliqRacle.wav"
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimProcheMaths1.wav"
 												}
 
 											}
@@ -14816,10 +14104,6530 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "float", "bang" ],
-													"patching_rect" : [ 3.0, 8992.0, 600.0, 0.0 ],
+													"patching_rect" : [ 3.0, 144.0, 600.0, 19.0 ],
 													"style" : "",
-													"text" : "buffer~ VentilVerticGrave.wav Brain:/Users/Nebula/Dropbox/Bs-Nebula-Sons/ventilos/VentilVerticGrave.wav",
-													"varname" : "VentilVerticGrave.wav"
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-584",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 160.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-585",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 176.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-586",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 192.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-587",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 208.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-588",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 224.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-589",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 240.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-590",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 256.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-591",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 272.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-592",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 288.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-593",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 304.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-594",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 320.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/clims/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-595",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 336.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-596",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 352.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-597",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 368.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-598",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 384.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-599",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 400.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-600",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 416.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-601",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 432.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-602",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 448.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-603",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 464.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-604",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 480.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-605",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 496.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-606",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 512.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-607",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 528.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-608",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 544.0, 600.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-609",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 560.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-610",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 576.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-611",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 592.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-612",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 608.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-613",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 624.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-614",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 640.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/orages_courts/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-615",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 656.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-616",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 672.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-617",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 688.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-618",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 704.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-619",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 720.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-620",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 736.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-621",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 752.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-622",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 768.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-623",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 784.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-624",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 800.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-625",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 816.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-626",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 832.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-627",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 848.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-628",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 864.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-629",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 880.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-630",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 896.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-631",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 912.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-632",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 928.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-633",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 944.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-634",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 960.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-cloches/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-635",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 976.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-636",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 992.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-637",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1008.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-638",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1024.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-639",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1040.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-640",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1056.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-641",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1072.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-642",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1088.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-643",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1104.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-644",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1120.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-645",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1136.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-646",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1152.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-647",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1168.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-648",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1184.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-649",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1200.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-650",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1216.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-651",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1232.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-652",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1248.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-653",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1264.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-654",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1280.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-flutes/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-655",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1296.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-656",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1312.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-657",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1328.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-658",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1344.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-659",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1360.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-660",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1376.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-661",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1392.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-662",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1408.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-663",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1424.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-664",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1440.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-665",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1456.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-666",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1472.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-667",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1488.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-668",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1504.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-669",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1520.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-670",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1536.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-671",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1552.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-672",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1568.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-673",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1584.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-674",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1600.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-gran/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-675",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1616.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-676",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1632.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-677",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1648.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-678",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1664.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-679",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1680.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-680",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1696.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-681",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1712.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-682",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1728.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-683",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1744.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-684",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1760.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-685",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1776.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-686",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1792.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-687",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1808.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-688",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1824.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-689",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1840.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-690",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1856.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-691",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1872.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-692",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1888.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-693",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1904.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-694",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1920.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-med-soft/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-695",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1936.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-696",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1952.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-697",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1968.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-698",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1984.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-699",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2000.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-700",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2016.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-701",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2032.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-702",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2048.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-703",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2064.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-704",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2080.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-705",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2096.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-706",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2112.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-707",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2128.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-708",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2144.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-709",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2160.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-710",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2176.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-711",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2192.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-712",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2208.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-713",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2224.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-714",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2240.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-nap_soft/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-715",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2256.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-716",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2272.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-717",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2288.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-718",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2304.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-719",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2320.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-720",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2336.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-721",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2352.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-722",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2368.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-723",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2384.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-724",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2400.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-725",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2416.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-726",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2432.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-727",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2448.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-728",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2464.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-729",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2480.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-730",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2496.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-731",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2512.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-732",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2528.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-733",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2544.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-734",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2560.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_aig/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-735",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2576.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-736",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2592.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-737",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2608.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-738",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2624.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-739",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2640.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-740",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2656.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-741",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2672.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-742",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2688.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-743",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2704.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-744",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2720.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-745",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2736.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-746",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2752.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-747",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2768.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-748",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2784.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-749",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2800.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-750",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2816.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-751",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2832.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-752",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2848.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-753",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2864.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-754",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2880.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_larsen/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-755",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2896.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-756",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2912.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-757",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2928.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-758",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2944.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-759",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2960.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-760",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2976.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-761",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2992.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-762",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3008.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-763",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3024.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-764",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3040.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-765",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3056.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-766",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3072.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-767",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3088.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-768",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3104.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-769",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3120.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-770",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3136.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-771",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3152.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-772",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3168.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-773",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3184.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-774",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3200.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_nap/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-775",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3216.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-776",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3232.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-777",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3248.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-778",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3264.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-779",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3280.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-780",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3296.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-781",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3312.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-782",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3328.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-783",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3344.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-784",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3360.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-785",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3376.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-786",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3392.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-787",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3408.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-788",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3424.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-789",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3440.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-790",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3456.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-791",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3472.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-792",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3488.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-793",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3504.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-794",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3520.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/T-sy_ultr/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-795",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3536.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-796",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3552.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-797",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3568.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-798",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3584.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-799",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3600.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-800",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3616.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-801",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3632.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-802",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3648.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-803",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3664.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-804",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3680.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-805",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3696.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-806",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3712.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-807",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3728.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-808",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3744.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-809",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3760.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-810",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3776.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-811",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3792.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-812",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3808.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-813",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3824.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-814",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3840.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Servo:/Users/bltzr/Music/pièces/dyew/SonsGran/tuyaux/VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1186",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 16.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimChantante.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimChantante.wav",
+													"varname" : "ClimChantante.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1187",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 32.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimCouloir.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimCouloir.wav",
+													"varname" : "ClimCouloir.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1188",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 48.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimDenseEvolue.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimDenseEvolue.wav",
+													"varname" : "ClimDenseEvolue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1189",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 64.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuve+Calme.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimFleuve+Calme.wav",
+													"varname" : "ClimFleuve+Calme.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1190",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 80.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimFleuveDeLave.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimFleuveDeLave.wav",
+													"varname" : "ClimFleuveDeLave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1191",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 96.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimInria.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimInria.wav",
+													"varname" : "ClimInria.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1192",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 112.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimLocal.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimLocal.wav",
+													"varname" : "ClimLocal.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1193",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 128.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths1.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimProcheMaths1.wav",
+													"varname" : "ClimProcheMaths1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1194",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 144.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimProcheMaths2.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimProcheMaths2.wav",
+													"varname" : "ClimProcheMaths2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1195",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 160.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimTremblementsMaths.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimTremblementsMaths.wav",
+													"varname" : "ClimTremblementsMaths.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1196",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 176.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeAigue.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimVibreeAigue.wav",
+													"varname" : "ClimVibreeAigue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1197",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 192.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreeLongue.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimVibreeLongue.wav",
+													"varname" : "ClimVibreeLongue.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1198",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 208.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ ClimVibreNocturne.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/ClimVibreNocturne.wav",
+													"varname" : "ClimVibreNocturne.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1199",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 224.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ DebutClimLaBri.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/DebutClimLaBri.wav",
+													"varname" : "DebutClimLaBri.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1200",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 240.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClim.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/NappeClim.wav",
+													"varname" : "NappeClim.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1201",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 256.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia1.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/NappeClimHemicyclia1.wav",
+													"varname" : "NappeClimHemicyclia1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1202",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 272.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicyclia2.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/NappeClimHemicyclia2.wav",
+													"varname" : "NappeClimHemicyclia2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1203",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 288.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ NappeClimHemicycliaPorte.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/NappeClimHemicycliaPorte.wav",
+													"varname" : "NappeClimHemicycliaPorte.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1204",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 304.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/VentilationCloitre-Grave.L.wav",
+													"varname" : "VentilationCloitre-Grave.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1205",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 320.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentilationCloitre-Grave.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/clims/VentilationCloitre-Grave.R.wav",
+													"varname" : "VentilationCloitre-Grave.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1206",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 336.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3082.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3082.wav",
+													"varname" : "3082.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1207",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 352.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3083.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3083.wav",
+													"varname" : "3083.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1208",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 368.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3084.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3084.wav",
+													"varname" : "3084.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1209",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 384.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3085.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3085.wav",
+													"varname" : "3085.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1210",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 400.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3086.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3086.wav",
+													"varname" : "3086.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1211",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 416.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3087.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3087.wav",
+													"varname" : "3087.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1212",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 432.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3088.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3088.wav",
+													"varname" : "3088.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1213",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 448.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3089.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3089.wav",
+													"varname" : "3089.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1214",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 464.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ 3098.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/3098.wav",
+													"varname" : "3098.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1215",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 480.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ Orage.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/Orage.wav",
+													"varname" : "Orage.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1216",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 496.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ StrikeWatson.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/orages_courts/StrikeWatson.wav",
+													"varname" : "StrikeWatson.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1217",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 512.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resbol01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resbol01",
+													"varname" : "resbol01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1218",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 528.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resbol05 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resbol05",
+													"varname" : "resbol05"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1219",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 544.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resbol08 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resbol08",
+													"varname" : "resbol08"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1220",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 560.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resbolaig01felin Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resbolaig01felin",
+													"varname" : "resbolaig01felin"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1221",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 576.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resbolaig03pitchvar Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resbolaig03pitchvar",
+													"varname" : "resbolaig03pitchvar"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1222",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 592.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resbolondul02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resbolondul02",
+													"varname" : "resbolondul02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1223",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 608.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resbolondul04 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resbolondul04",
+													"varname" : "resbolondul04"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1224",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 624.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resclo01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resclo01",
+													"varname" : "resclo01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1225",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 640.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resclo05 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resclo05",
+													"varname" : "resclo05"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1226",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 656.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ rescloche02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/rescloche02",
+													"varname" : "rescloche02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1227",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 672.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ rescloche03grat Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/rescloche03grat",
+													"varname" : "rescloche03grat"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1228",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 688.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ rescloche07gliss Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/rescloche07gliss",
+													"varname" : "rescloche07gliss"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1229",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 704.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resclochereb23 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resclochereb23",
+													"varname" : "resclochereb23"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1230",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 720.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resclochevibre06 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resclochevibre06",
+													"varname" : "resclochevibre06"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1231",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 736.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ resclochevibreondul01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/resclochevibreondul01",
+													"varname" : "resclochevibreondul01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1232",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 752.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ rescymb01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/rescymb01",
+													"varname" : "rescymb01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1233",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 768.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ rescymb04 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-cloches/rescymb04",
+													"varname" : "rescymb04"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1234",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 784.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flute_harm01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flute_harm01.aif",
+													"varname" : "T-flute_harm01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1235",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 800.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flute_ondul01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flute_ondul01.aif",
+													"varname" : "T-flute_ondul01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1236",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 816.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-fluteaig_battt01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-fluteaig_battt01",
+													"varname" : "T-fluteaig_battt01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1237",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 832.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-fluteaig_harm01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-fluteaig_harm01",
+													"varname" : "T-fluteaig_harm01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1238",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 848.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-fluteaig_ondul01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-fluteaig_ondul01",
+													"varname" : "T-fluteaig_ondul01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1239",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 864.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_battt01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_battt01",
+													"varname" : "T-flutegrav_battt01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1240",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 880.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_battt02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_battt02",
+													"varname" : "T-flutegrav_battt02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1241",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 896.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_battt_RM01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_battt_RM01",
+													"varname" : "T-flutegrav_battt_RM01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1242",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 912.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_batttRM02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_batttRM02",
+													"varname" : "T-flutegrav_batttRM02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1243",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 928.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_gliss01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_gliss01",
+													"varname" : "T-flutegrav_gliss01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1244",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 944.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_gliss02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_gliss02",
+													"varname" : "T-flutegrav_gliss02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1245",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 960.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_gliss03 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_gliss03",
+													"varname" : "T-flutegrav_gliss03"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1246",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 976.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_gliss04 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_gliss04",
+													"varname" : "T-flutegrav_gliss04"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1247",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 992.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_gliss05 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_gliss05",
+													"varname" : "T-flutegrav_gliss05"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1248",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1008.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_harm01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_harm01",
+													"varname" : "T-flutegrav_harm01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1249",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1024.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_harm02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_harm02",
+													"varname" : "T-flutegrav_harm02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1250",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1040.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_harm03 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_harm03",
+													"varname" : "T-flutegrav_harm03"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1251",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1056.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-flutegrav_ren_battt01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T-flutegrav_ren_battt01",
+													"varname" : "T-flutegrav_ren_battt01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1252",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1072.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T_flutegrave_ren_battt01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T_flutegrave_ren_battt01",
+													"varname" : "T_flutegrave_ren_battt01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1253",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1088.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T_flutegrave_ren_vib01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/T_flutegrave_ren_vib01",
+													"varname" : "T_flutegrave_ren_vib01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1254",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1104.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TI_fluteaig_iter01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/TI_fluteaig_iter01",
+													"varname" : "TI_fluteaig_iter01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1255",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1120.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TI_flutegrave_ren_iter01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/TI_flutegrave_ren_iter01",
+													"varname" : "TI_flutegrave_ren_iter01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1256",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1136.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TI_flutegrave_ren_iter02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/TI_flutegrave_ren_iter02",
+													"varname" : "TI_flutegrave_ren_iter02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1257",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1152.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TI_flutegrave_ren_iter03 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-flutes/TI_flutegrave_ren_iter03",
+													"varname" : "TI_flutegrave_ren_iter03"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1258",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1168.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ djembgrat01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/djembgrat01.aif",
+													"varname" : "djembgrat01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1259",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1184.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ djemgrat02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/djemgrat02.aif",
+													"varname" : "djemgrat02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1260",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1200.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-biniou_modul01.L Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-biniou_modul01.L",
+													"varname" : "T-biniou_modul01.L"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1261",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1216.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-grave_harm01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-grave_harm01",
+													"varname" : "T-grave_harm01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1262",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1232.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-grave_harm_disson02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-grave_harm_disson02",
+													"varname" : "T-grave_harm_disson02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1263",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1248.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-harm_soft_pi_grav Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-harm_soft_pi_grav",
+													"varname" : "T-harm_soft_pi_grav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1264",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1264.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-harm_soft_pi_med Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-harm_soft_pi_med",
+													"varname" : "T-harm_soft_pi_med"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1265",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1280.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-tram_bouill_deb01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-tram_bouill_deb01.aif",
+													"varname" : "T-tram_bouill_deb01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1266",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1296.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-tram_grav_gran01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-tram_grav_gran01.aif",
+													"varname" : "T-tram_grav_gran01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1267",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1312.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-tram_grav_gran02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-tram_grav_gran02.aif",
+													"varname" : "T-tram_grav_gran02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1268",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1328.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-tram_grav_gran03.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-tram_grav_gran03.aif",
+													"varname" : "T-tram_grav_gran03.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1269",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1344.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-tram_infra_gran01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-gran/T-tram_infra_gran01.aif",
+													"varname" : "T-tram_infra_gran01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1270",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1360.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ napbipreve02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/napbipreve02",
+													"varname" : "napbipreve02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1271",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1376.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ napharmaiglisse01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/napharmaiglisse01",
+													"varname" : "napharmaiglisse01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1272",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1392.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ napharmoaiglisse02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/napharmoaiglisse02",
+													"varname" : "napharmoaiglisse02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1273",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1408.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ naplissebass-aig01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/naplissebass-aig01",
+													"varname" : "naplissebass-aig01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1274",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1424.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ napmed01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/napmed01",
+													"varname" : "napmed01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1275",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1440.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ napmedharq01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/napmedharq01",
+													"varname" : "napmedharq01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1276",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1456.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ napmedou02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/napmedou02",
+													"varname" : "napmedou02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1277",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1472.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ napmedpvarharq02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-med-soft/napmedpvarharq02",
+													"varname" : "napmedpvarharq02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1278",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1488.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-med_nodal_fret01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-med_nodal_fret01.aif",
+													"varname" : "T-med_nodal_fret01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1279",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1504.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_med_harq_oscill01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_med_harq_oscill01.aif",
+													"varname" : "T-nap_med_harq_oscill01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1280",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1520.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft01.aif",
+													"varname" : "T-nap_res_soft01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1281",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1536.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft02.aif",
+													"varname" : "T-nap_res_soft02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1282",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1552.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft04.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft04.aif",
+													"varname" : "T-nap_res_soft04.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1283",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1568.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft05.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft05.aif",
+													"varname" : "T-nap_res_soft05.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1284",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1584.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft06.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft06.aif",
+													"varname" : "T-nap_res_soft06.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1285",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1600.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft_diphoniq01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft_diphoniq01.aif",
+													"varname" : "T-nap_res_soft_diphoniq01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1286",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1616.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft_fret_leger01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft_fret_leger01.aif",
+													"varname" : "T-nap_res_soft_fret_leger01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1287",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1632.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_res_soft_satu01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T-nap_res_soft_satu01.aif",
+													"varname" : "T-nap_res_soft_satu01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1288",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1648.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T_nap_granul01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T_nap_granul01.aif",
+													"varname" : "T_nap_granul01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1289",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1664.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T_nap_granul02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-nap_soft/T_nap_granul02.aif",
+													"varname" : "T_nap_granul02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1290",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1680.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ loop_billes_01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/loop_billes_01.aif",
+													"varname" : "loop_billes_01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1291",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1696.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ loop_train_hiip.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/loop_train_hiip.aif",
+													"varname" : "loop_train_hiip.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1292",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1712.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-gran_aig01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-gran_aig01.aif",
+													"varname" : "T-gran_aig01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1293",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1728.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-gran_helico_aig01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-gran_helico_aig01.aif",
+													"varname" : "T-gran_helico_aig01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1294",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1744.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-gran_ultr01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-gran_ultr01.aif",
+													"varname" : "T-gran_ultr01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1295",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1760.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-gran_ultr02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-gran_ultr02.aif",
+													"varname" : "T-gran_ultr02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1296",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1776.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-loop-napaiglissresp01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-loop-napaiglissresp01.aif",
+													"varname" : "T-loop-napaiglissresp01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1297",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1792.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napaig_lisspuls01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-napaig_lisspuls01.aif",
+													"varname" : "T-napaig_lisspuls01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1298",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1808.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napaig_pulse+ultr01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-napaig_pulse+ultr01.aif",
+													"varname" : "T-napaig_pulse+ultr01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1299",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1824.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napaig_pulse01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-napaig_pulse01.aif",
+													"varname" : "T-napaig_pulse01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1300",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1840.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napaig_pulse02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-napaig_pulse02.aif",
+													"varname" : "T-napaig_pulse02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1301",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1856.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napaig_ultr01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-napaig_ultr01.aif",
+													"varname" : "T-napaig_ultr01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1302",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1872.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napaiglisseriche01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-napaiglisseriche01.aif",
+													"varname" : "T-napaiglisseriche01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1303",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1888.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napaiglisseriche02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-napaiglisseriche02.aif",
+													"varname" : "T-napaiglisseriche02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1304",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1904.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_aig_frott01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-sy_aig_frott01",
+													"varname" : "T-sy_aig_frott01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1305",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1920.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_aig_gran_iter01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-sy_aig_gran_iter01",
+													"varname" : "T-sy_aig_gran_iter01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1306",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1936.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_budubudu01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-sy_budubudu01",
+													"varname" : "T-sy_budubudu01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1307",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1952.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_granmedaig01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/T-sy_granmedaig01.aif",
+													"varname" : "T-sy_granmedaig01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1308",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1968.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TI-sy_bip+clck01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/TI-sy_bip+clck01",
+													"varname" : "TI-sy_bip+clck01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1309",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 1984.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TI-sy_bips_train01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/TI-sy_bips_train01",
+													"varname" : "TI-sy_bips_train01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1310",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2000.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TL-sy_aig_batt_med01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/TL-sy_aig_batt_med01",
+													"varname" : "TL-sy_aig_batt_med01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1311",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2016.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TL-sy_aig_siren01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/TL-sy_aig_siren01",
+													"varname" : "TL-sy_aig_siren01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1312",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2032.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ train_hiip01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/train_hiip01.aif",
+													"varname" : "train_hiip01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1313",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2048.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ train_hiip02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/train_hiip02.aif",
+													"varname" : "train_hiip02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1314",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2064.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ train_hiip03.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_aig/train_hiip03.aif",
+													"varname" : "train_hiip03.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1315",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2080.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenaig01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenaig01.aif",
+													"varname" : "larsenaig01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1316",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2096.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenaig03.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenaig03.aif",
+													"varname" : "larsenaig03.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1317",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2112.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenaignaplg01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenaignaplg01.aif",
+													"varname" : "larsenaignaplg01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1318",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2128.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenmedaiglg01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenmedaiglg01.aif",
+													"varname" : "larsenmedaiglg01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1319",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2144.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenmedaigstil03.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenmedaigstil03.aif",
+													"varname" : "larsenmedaigstil03.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1320",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2160.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenmedaigstill01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenmedaigstill01.aif",
+													"varname" : "larsenmedaigstill01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1321",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2176.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenmedaigstill02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenmedaigstill02.aif",
+													"varname" : "larsenmedaigstill02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1322",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2192.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenmedaigstill04.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenmedaigstill04.aif",
+													"varname" : "larsenmedaigstill04.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1323",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2208.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ larsenmedaigwha01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_larsen/larsenmedaigwha01.aif",
+													"varname" : "larsenmedaigwha01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1324",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2224.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-nap_medbass_fret01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_nap/T-nap_medbass_fret01.aif",
+													"varname" : "T-nap_medbass_fret01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1325",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2240.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napdouce_med01.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_nap/T-napdouce_med01.aif",
+													"varname" : "T-napdouce_med01.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1326",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2256.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napdouce_med02.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_nap/T-napdouce_med02.aif",
+													"varname" : "T-napdouce_med02.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1327",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2272.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-napdouce_med03.aif Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_nap/T-napdouce_med03.aif",
+													"varname" : "T-napdouce_med03.aif"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1328",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2288.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ naplisseultr01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/naplisseultr01",
+													"varname" : "naplisseultr01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1329",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2304.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ naplisseultr04 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/naplisseultr04",
+													"varname" : "naplisseultr04"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1330",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2320.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_ultr01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/T-sy_ultr01",
+													"varname" : "T-sy_ultr01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1331",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2336.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_ultr02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/T-sy_ultr02",
+													"varname" : "T-sy_ultr02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1332",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2352.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_ultr_frott01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/T-sy_ultr_frott01",
+													"varname" : "T-sy_ultr_frott01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1333",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2368.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_ultr_frrr01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/T-sy_ultr_frrr01",
+													"varname" : "T-sy_ultr_frrr01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1334",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2384.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_ultr_frrr02 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/T-sy_ultr_frrr02",
+													"varname" : "T-sy_ultr_frrr02"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1335",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2400.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ T-sy_ultr_rebonds01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/T-sy_ultr_rebonds01",
+													"varname" : "T-sy_ultr_rebonds01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1336",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2416.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TL-sy_ultr_fretill01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/TL-sy_ultr_fretill01",
+													"varname" : "TL-sy_ultr_fretill01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1337",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2432.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TL-sy_ultr_grillon01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/TL-sy_ultr_grillon01",
+													"varname" : "TL-sy_ultr_grillon01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1338",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2448.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ TL-sy_ultr_grillon_saut01 Machintoc:/Users/install/Documents/Dyew/SonsGran/T-sy_ultr/TL-sy_ultr_grillon_saut01",
+													"varname" : "TL-sy_ultr_grillon_saut01"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1339",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2464.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ pompeZélande.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/pompeZélande.wav",
+													"varname" : "pompeZélande.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1340",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2480.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes1.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes1.L.wav",
+													"varname" : "RadiateurAilettes1.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1341",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2496.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes1.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes1.R.wav",
+													"varname" : "RadiateurAilettes1.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1342",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2512.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes2.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes2.L.wav",
+													"varname" : "RadiateurAilettes2.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1343",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2528.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes2.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes2.R.wav",
+													"varname" : "RadiateurAilettes2.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1344",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2544.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes3.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes3.L.wav",
+													"varname" : "RadiateurAilettes3.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1345",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2560.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes3.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes3.R.wav",
+													"varname" : "RadiateurAilettes3.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1346",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2576.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes4.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes4.L.wav",
+													"varname" : "RadiateurAilettes4.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1347",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2592.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurAilettes4.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurAilettes4.R.wav",
+													"varname" : "RadiateurAilettes4.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1348",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2608.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurPlatFluctuant1.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurPlatFluctuant1.L.wav",
+													"varname" : "RadiateurPlatFluctuant1.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1349",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2624.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurPlatFluctuant1.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurPlatFluctuant1.R.wav",
+													"varname" : "RadiateurPlatFluctuant1.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1350",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2640.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurPlatFluctuant2.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurPlatFluctuant2.L.wav",
+													"varname" : "RadiateurPlatFluctuant2.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1351",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2656.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurPlatFluctuant2.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurPlatFluctuant2.R.wav",
+													"varname" : "RadiateurPlatFluctuant2.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1352",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2672.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurPlatStable.L.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurPlatStable.L.wav",
+													"varname" : "RadiateurPlatStable.L.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1353",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2688.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ RadiateurPlatStable.R.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/tuyaux/RadiateurPlatStable.R.wav",
+													"varname" : "RadiateurPlatStable.R.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1354",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2704.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ S-cla_frott05 Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/S-cla_frott05",
+													"varname" : "S-cla_frott05"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1355",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2720.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorte1.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorte1.wav",
+													"varname" : "VentPorte1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1356",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2736.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorte2.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorte2.wav",
+													"varname" : "VentPorte2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1357",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2752.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorte3.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorte3.wav",
+													"varname" : "VentPorte3.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1358",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2768.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteDesc.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteDesc.wav",
+													"varname" : "VentPorteDesc.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1359",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2784.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteDouble1.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteDouble1.wav",
+													"varname" : "VentPorteDouble1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1360",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2800.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteDouble2.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteDouble2.wav",
+													"varname" : "VentPorteDouble2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1361",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2816.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteDouble3.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteDouble3.wav",
+													"varname" : "VentPorteDouble3.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1362",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2832.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteGlissade.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteGlissade.wav",
+													"varname" : "VentPorteGlissade.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1363",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2848.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteLeger.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteLeger.wav",
+													"varname" : "VentPorteLeger.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1364",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2864.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteMed1.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteMed1.wav",
+													"varname" : "VentPorteMed1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1365",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2880.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteMedGrave.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteMedGrave.wav",
+													"varname" : "VentPorteMedGrave.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1366",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2896.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteMelodie.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteMelodie.wav",
+													"varname" : "VentPorteMelodie.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1367",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2912.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteMontee.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteMontee.wav",
+													"varname" : "VentPorteMontee.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1368",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2928.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteSirenes.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteSirenes.wav",
+													"varname" : "VentPorteSirenes.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1369",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2944.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteTelelet.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteTelelet.wav",
+													"varname" : "VentPorteTelelet.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1370",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2960.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteTeleletLong1.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteTeleletLong1.wav",
+													"varname" : "VentPorteTeleletLong1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1371",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2976.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteTeleletLong2.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteTeleletLong2.wav",
+													"varname" : "VentPorteTeleletLong2.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1372",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 2992.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteTonalStable.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteTonalStable.wav",
+													"varname" : "VentPorteTonalStable.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1373",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3008.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteWhou.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteWhou.wav",
+													"varname" : "VentPorteWhou.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1374",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3024.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentPorteWhouuPonp.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentPorteWhouuPonp.wav",
+													"varname" : "VentPorteWhouuPonp.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1375",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3040.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentTempete1.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentTempete1.wav",
+													"varname" : "VentTempete1.wav"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1376",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "float", "bang" ],
+													"patching_rect" : [ 3.0, 3056.0, 600.0, 0.0 ],
+													"style" : "",
+													"text" : "buffer~ VentTempete2.wav Machintoc:/Users/install/Documents/Dyew/SonsGran/vent/VentTempete2.wav",
+													"varname" : "VentTempete2.wav"
 												}
 
 											}
@@ -15673,7 +21481,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 202.0, 183.0, 342.0, 45.0 ],
 					"style" : "",
-					"text" : "j.message path @type generic @repetitions/filter 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
+					"text" : "j.message path @type generic @repetitions/filter 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in or path of the sound file dropped in\"",
 					"varname" : "j.parameter.mxb[10]"
 				}
 
@@ -15743,6 +21551,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 26.5, 317.0, 49.5, 317.0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -15834,7 +21651,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 655.0, 385.0, 300.0, 70.0 ],
+		"rect" : [ 322.0, 499.0, 300.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 594.0, 278.0, 81.0, 22.0 ],
+					"style" : "",
+					"text" : "r toVuMeters"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "live.meter~",
@@ -426,7 +439,7 @@
 					"patching_rect" : [ 355.0, 358.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 54.0, 294.0, 12.0 ],
-					"text" : "0:1:36 / 0:3:0",
+					"text" : "0:0:0 / ::",
 					"textpos" : [ 10.0, 0.0 ]
 				}
 
@@ -1344,7 +1357,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -3.5, 300.0, 70.0 ],
-					"text" : "/Dtrack.1/dtd",
+					"text" : "/DtDrack.1/dtd",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -1679,6 +1692,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1753,8 +1784,8 @@
 , 			{
 				"name" : "umenuPB",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
-					"textjustification" : [ 1 ]
+					"textjustification" : [ 1 ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",

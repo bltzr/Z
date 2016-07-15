@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 334.0, 466.0, 300.0, 525.0 ],
+		"rect" : [ 322.0, 479.0, 300.0, 525.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -202,7 +202,7 @@
 					"patching_rect" : [ 87.0, -15.0, 300.0, 665.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -1.0, 300.0, 525.0 ],
-					"text" : "/Dtrack.1",
+					"text" : "/DtDrack.1",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 

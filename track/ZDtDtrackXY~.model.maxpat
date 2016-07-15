@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 312.0, 474.0, 328.0, 196.0 ],
+		"rect" : [ 312.0, 500.0, 328.0, 196.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -63,11 +63,11 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 406.0, 89.0, 515.0, 302.0 ],
+						"rect" : [ 34.0, 79.0, 488.0, 319.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -687,7 +687,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "" ],
+					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 29.0, 24.0, 174.0, 20.0 ],
 					"style" : "",
 					"text" : "ZDtD2~.model dtd"
@@ -851,151 +851,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "ZxybapSource2.model.maxpat",
-				"bootpath" : "~/Documents/Dyew/Z/XYBAP",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.multi.in~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/multi.in%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.datetime.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hololive.player.maxpat",
-				"bootpath" : "~/Documents/Max 7/Library/hololive.player-0.4.1",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DBAPspat.xml",
-				"bootpath" : "~/Documents/Dyew/Z/DBAP",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sw.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/max-tricks/send-receive-tricks/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.random.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ZDtD2~.model.maxpat",
-				"bootpath" : "~/Documents/Dyew/Z/DtD2",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Zmodulation2~.model.maxpat",
-				"bootpath" : "~/Documents/Dyew/Z/modulation",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Zmodulation.maxpat",
-				"bootpath" : "~/Documents/Dyew/Z/modulation",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "equalizer~.model.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/eq/equalizer",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.octavebandwidth2q.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/audio/octavebandwidth2q",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "vbap.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.folder.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.savebang.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscinstance.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.out~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.in~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter_array.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscroute.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

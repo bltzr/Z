@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 381.0, 678.0, 300.0, 140.0 ],
+		"rect" : [ 260.0, 79.0, 640.0, 480.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,32 @@
 		"style" : "velvet",
 		"subpatcher_template" : "noTB_dark",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 190.5, 161.0, 81.0, 22.0 ],
+					"style" : "",
+					"text" : "r toVuMeters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 328.0, 359.0, 81.0, 22.0 ],
+					"style" : "",
+					"text" : "r toVuMeters"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -119,7 +145,7 @@
 					"patching_rect" : [ 382.0, 178.0, 284.0, 93.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 43.0, 296.0, 93.0 ],
-					"setfilter" : [ 3, 7, 1, 0, 0, 5000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1616.85498, 1.241409, 0.409891, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 170.418686, 1.03845, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 51.592949, 0.921908, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 3, 7, 1, 0, 0, 5000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1000.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 300.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 75.0, 1.0, 1.414214, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : "",
 					"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ],
 					"varname" : "filter"
@@ -170,7 +196,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1105,7 +1131,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/Dtrack.1/eq",
+					"text" : "/DtDrack.1/eq",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -1126,7 +1152,7 @@
 					"destination" : [ "obj-22", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 497.0, 138.75, 612.333343, 138.75 ],
+					"midpoints" : [ 497.0, 138.75, 612.333374, 138.75 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1202,7 +1228,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 656.500015, 323.5, 582.5, 323.5 ],
+					"midpoints" : [ 656.5, 323.5, 582.5, 323.5 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -1212,7 +1238,7 @@
 					"destination" : [ "obj-22", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 656.5, 280.5, 568.166671, 280.5 ],
+					"midpoints" : [ 656.5, 280.5, 568.166687, 280.5 ],
 					"source" : [ "obj-25", 6 ]
 				}
 
@@ -1267,7 +1293,7 @@
 					"destination" : [ "obj-22", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 619.5, 361.0, 678.0, 361.0, 678.0, 298.0, 656.500015, 298.0 ],
+					"midpoints" : [ 619.5, 361.0, 678.0, 361.0, 678.0, 298.0, 656.5, 298.0 ],
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -1317,6 +1343,33 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"styles" : [ 			{
 				"name" : "default_PB",
@@ -1326,8 +1379,8 @@
 , 			{
 				"name" : "umenuPB",
 				"default" : 				{
-					"textjustification" : [ 1 ],
-					"fontsize" : [ 9.0 ]
+					"fontsize" : [ 9.0 ],
+					"textjustification" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",

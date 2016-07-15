@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 3,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1060.0, 435.0, 59.0, 530.0 ],
+		"rect" : [ 1332.0, 452.0, 59.0, 530.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -47,7 +47,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 42.5, 373.0, 260.0, 20.0 ],
-					"presentation_rect" : [ 43.5, 373.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "j.unit @dataspace gain @input dB @output linear"
 				}
@@ -118,7 +117,7 @@
 					"arrow" : 0,
 					"autopopulate" : 1,
 					"fontsize" : 9.0,
-					"hint" : "OrageLongBeau.wav",
+					"hint" : "none",
 					"id" : "obj-56",
 					"items" : [ "ciel_orageux.aif", ",", "Orage naissant loin.wav", ",", "OrageLongBeau.wav", ",", "sf_orage_pluie_01.aif", ",", "sf_orage_tonnerre_sec_03.aif", ",", "Tonnerre Sourd LK#01-.wav", ",", "tonnerre_vent.aif", ",", "Z1-Volcan_montée", ",", "Z1-Volcan_Montée_court", ",", "Z1-Volcano_Erupting.aif", ",", "Z2-Feu" ],
 					"maxclass" : "umenu",
@@ -243,7 +242,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -484,7 +483,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -705,11 +704,11 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 255.0, 436.0, 371.0, 595.0 ],
+						"rect" : [ 260.0, 79.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1483,8 +1482,8 @@
 
 					}
 ,
-					"text" : "/Dtrack.1",
-					"texton" : "/Dtrack.1",
+					"text" : "/DtDrack.1",
+					"texton" : "/DtDrack.1",
 					"varname" : "live.text"
 				}
 
@@ -1618,7 +1617,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1792,7 +1791,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1966,7 +1965,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2140,11 +2139,11 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 254.0, 249.0, 934.0, 227.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2171,6 +2170,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2180,7 +2180,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 140.0, 100.0, 20.0 ],
+									"patching_rect" : [ 50.0, 140.0, 100.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend set"
 								}
@@ -2195,7 +2195,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 50.0, 120.0, 100.0, 20.0 ],
+									"patching_rect" : [ 50.0, 120.0, 100.0, 22.0 ],
 									"style" : "",
 									"text" : "* 100."
 								}
@@ -2210,7 +2210,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 100.0, 100.0, 20.0 ],
+									"patching_rect" : [ 50.0, 100.0, 100.0, 22.0 ],
 									"style" : "",
 									"text" : "route set"
 								}
@@ -2558,7 +2558,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 3,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,

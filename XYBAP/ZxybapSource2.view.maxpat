@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 655.0, 674.0, 300.0, 210.0 ],
+		"rect" : [ 369.0, 850.0, 300.0, 210.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -40,6 +40,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 171.0, 284.0, 81.0, 20.0 ],
+					"style" : "",
+					"text" : "r toVuMeters"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-44",
@@ -47,7 +60,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 157.0, 239.0, 123.0, 20.0 ],
+					"patching_rect" : [ 157.0, 239.0, 104.0, 20.0 ],
 					"style" : "",
 					"text" : "j.remote auxSpat/link"
 				}
@@ -138,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 176.416672, 414.0, 142.583328, 31.0 ],
+					"patching_rect" : [ 176.416672, 420.0, 142.583328, 31.0 ],
 					"style" : "",
 					"text" : "j.unit @dataspace gain @input dB @output linear"
 				}
@@ -152,11 +165,11 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 176.416672, 386.5, 145.0, 20.0 ],
 					"style" : "",
-					"text" : "j.remote audio/out.2/amplitude"
+					"text" : "j.receive audio/out.2/amplitude"
 				}
 
 			}
@@ -174,7 +187,6 @@
 					"patching_rect" : [ 505.5, 376.0, 21.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 62.0, 18.0, 107.0, 189.5 ],
-					"setstyle" : 1,
 					"signed" : 1,
 					"slidercolor" : [ 0.254902, 0.631373, 0.682353, 1.0 ],
 					"style" : "",
@@ -883,7 +895,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 225.738724, 64.0, 25.821341, 13.0 ],
 					"style" : "",
-					"text" : "0.0",
+					"text" : "-96.0",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -1843,7 +1855,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 157.0, 169.07489, 126.0, 20.0 ],
+					"patching_rect" : [ 157.0, 169.07489, 98.0, 20.0 ],
 					"style" : "",
 					"text" : "j.remote destination"
 				}
@@ -2441,11 +2453,11 @@
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 126.416672, 314.5, 145.0, 20.0 ],
 					"style" : "",
-					"text" : "j.remote audio/out.1/amplitude"
+					"text" : "j.receive audio/out.1/amplitude"
 				}
 
 			}
@@ -3533,7 +3545,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -2.5, 300.0, 210.0 ],
-					"text" : "/Dtrack.1/spat",
+					"text" : "/DtDrack.1/spat",
 					"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 
@@ -3691,7 +3703,7 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-30", 1 ]
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -3736,7 +3748,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-35", 1 ]
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -3818,6 +3830,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -3955,6 +3985,22 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"styles" : [ 			{
+				"name" : "default_PB",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "umenuPB",
+				"default" : 				{
+					"textjustification" : [ 1 ],
+					"fontsize" : [ 9.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}

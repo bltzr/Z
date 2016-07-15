@@ -55,7 +55,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1095.0, 79.0, 330.0, 291.0 ],
+						"rect" : [ 916.0, 79.0, 330.0, 291.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -6315,7 +6315,7 @@
 									"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "list" ],
 									"patching_rect" : [ 35.0, 235.0, 874.0, 19.0 ],
 									"style" : "",
-									"text" : "matrix~ 15 19 1.",
+									"text" : "matrix~ 15 19 1. @ramp 50",
 									"varname" : "matrix"
 								}
 

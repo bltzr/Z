@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 3,
-			"architecture" : "x86",
+			"revision" : 4,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 686.0, 344.0, 59.0, 530.0 ],
+		"rect" : [ 842.0, 297.0, 59.0, 530.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -86,8 +86,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -719,7 +719,7 @@
 				"box" : 				{
 					"annotation" : "none",
 					"arrow" : 0,
-					"hint" : "RadiateurAilettes2.R.wav",
+					"hint" : "pompeZélande.wav",
 					"id" : "obj-43",
 					"items" : [ "pompeZélande.wav", ",", "RadiateurAilettes1.L.wav", ",", "RadiateurAilettes1.R.wav", ",", "RadiateurAilettes2.L.wav", ",", "RadiateurAilettes2.R.wav", ",", "RadiateurAilettes3.L.wav", ",", "RadiateurAilettes3.R.wav", ",", "RadiateurAilettes4.L.wav", ",", "RadiateurAilettes4.R.wav", ",", "RadiateurPlatFluctuant1.L.wav", ",", "RadiateurPlatFluctuant1.R.wav", ",", "RadiateurPlatFluctuant2.L.wav", ",", "RadiateurPlatFluctuant2.R.wav", ",", "RadiateurPlatStable.L.wav", ",", "RadiateurPlatStable.R.wav" ],
 					"maxclass" : "umenu",
@@ -830,8 +830,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1051,8 +1051,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1771,7 +1771,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 94.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "set 0"
+					"text" : "set 1"
 				}
 
 			}
@@ -1904,7 +1904,7 @@
 					"rounded" : 1.0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[22]",
+							"parameter_longname" : "live.text[20]",
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -1913,8 +1913,8 @@
 
 					}
 ,
-					"text" : "/track.1",
-					"texton" : "/track.1",
+					"text" : "/track.3",
+					"texton" : "/track.3",
 					"varname" : "live.text"
 				}
 
@@ -2033,8 +2033,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2207,8 +2207,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2381,8 +2381,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2555,8 +2555,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2973,8 +2973,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 3,
-							"architecture" : "x86",
+							"revision" : 4,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3474,28 +3474,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-42", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-43", 1 ]
 				}
 
 			}
@@ -3609,15 +3591,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-60", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3698,8 +3671,8 @@
 , 			{
 				"name" : "umenuPB",
 				"default" : 				{
-					"fontsize" : [ 9.0 ],
-					"textjustification" : [ 1 ]
+					"textjustification" : [ 1 ],
+					"fontsize" : [ 9.0 ]
 				}
 ,
 				"parentstyle" : "",

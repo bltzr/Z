@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -108,7 +108,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 285.78595, 466.0, 16.0, 65.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 585.0, 3.0, 38.143127, 212.0 ],
+					"presentation_rect" : [ 585.0, 4.0, 38.143127, 152.0 ],
 					"size" : 1.0,
 					"varname" : "intensity"
 				}
@@ -128,7 +128,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.0, 15.0, 45.0, 183.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.447906, 3.0, 63.552094, 212.0 ],
+					"presentation_rect" : [ 2.447906, 4.0, 63.552094, 152.0 ],
 					"spacing_y" : 8.0,
 					"tabcolor" : [ 0.45098, 0.423529, 0.423529, 1.0 ],
 					"tabs" : [ "face", "cour", "jar" ],
@@ -165,7 +165,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -518,7 +518,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 287.0, 234.5, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.0, 8.889465, 151.0, 33.0 ],
+					"presentation_rect" : [ 118.0, 12.889465, 151.0, 33.0 ],
 					"text" : "/LEDs"
 				}
 
@@ -657,7 +657,7 @@
 					"patching_rect" : [ 52.5, 408.5, 97.0, 89.0 ],
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.0, 0.0, 511.0, 218.0 ],
+					"presentation_rect" : [ 68.0, 0.0, 511.0, 156.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 44,

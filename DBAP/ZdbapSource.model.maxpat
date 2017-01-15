@@ -1391,7 +1391,7 @@
 									"numinlets" : 32,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 24.0, 147.0, 56.5, 18.0 ],
+									"patching_rect" : [ 24.0, 147.0, 336.5, 18.0 ],
 									"text" : "j.multi.in~",
 									"varname" : "multi"
 								}
@@ -2083,15 +2083,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-114", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-62", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-8", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-62", 0 ]

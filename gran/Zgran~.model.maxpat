@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 458.0, 506.0, 1044.0, 486.0 ],
+		"rect" : [ 529.0, 302.0, 1044.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -97,7 +97,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -739,7 +739,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1524,7 +1524,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -1875,7 +1875,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -2305,7 +2305,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -2699,7 +2699,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -3019,7 +3019,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -3486,8 +3486,8 @@
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 183.0, 205.0, 19.0 ],
 					"text" : "j.return currentBuffer @type array"
 				}
@@ -3500,8 +3500,8 @@
 					"id" : "obj-53",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 136.875, 152.0, 225.0, 19.0 ],
 					"text" : "j.return buffersize @type decimal"
 				}
@@ -3521,7 +3521,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -4099,7 +4099,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
@@ -4126,6 +4126,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 178.0, 125.0, 225.0, 20.0 ],
+									"text" : "j.model @amenities none @priority 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -4147,7 +4161,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 85.0, 72.0, 232.0, 17.0 ],
-									"text" : "j.parameter sound/buffer @type generic @priority 3",
+									"text" : "j.parameter buffer @type generic @priority 3",
 									"varname" : "sample/buffername[5]"
 								}
 
@@ -4190,8 +4204,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 189.0, 262.0, 249.0, 28.0 ],
-									"text" : "j.message sound/random @repetitions/filter 0 @description \"message to trigger menu change\"",
+									"patching_rect" : [ 189.0, 262.0, 254.0, 28.0 ],
+									"text" : "j.message random @repetitions/filter 0 @description \"message to trigger menu change\"",
 									"varname" : "hue_angle[1]"
 								}
 
@@ -4210,7 +4224,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,
@@ -4673,7 +4687,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,
@@ -4966,7 +4980,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 178.0, 169.0, 248.0, 17.0 ],
-									"text" : "j.parameter sound/enveloppe @type string @priority 31",
+									"text" : "j.parameter enveloppe @type string @priority 31",
 									"varname" : "sample/buffername[4]"
 								}
 
@@ -4982,7 +4996,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 67.0, 49.0, 371.0, 17.0 ],
-									"text" : "j.parameter sound/bufferpool @type generic @priority 1 @repetitions/filter 0 @tag init",
+									"text" : "j.parameter bufferpool @type generic @priority 1 @repetitions/filter 0 @tag init",
 									"varname" : "sample/buffername[3]"
 								}
 
@@ -5014,7 +5028,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 47.0, 24.0, 293.0, 17.0 ],
-									"text" : "j.parameter sound/folder @type generic @priority 2",
+									"text" : "j.parameter folder @type generic @priority 2",
 									"varname" : "sample/buffername[1]"
 								}
 
@@ -5033,7 +5047,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x86"
 										}
 ,
@@ -5103,12 +5117,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
 													"id" : "obj-2",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 465.0, 195.0, 50.0, 16.0 ],
-													"text" : "0"
+													"text" : "append ventilos"
 												}
 
 											}
@@ -5126,7 +5141,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x86"
 														}
 ,
@@ -5579,7 +5594,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x86"
 														}
 ,
@@ -5880,7 +5895,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 4,
+															"revision" : 5,
 															"architecture" : "x86"
 														}
 ,

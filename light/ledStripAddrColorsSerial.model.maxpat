@@ -91,7 +91,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1042.0, 282.0, 829.0, 816.0 ],
+						"rect" : [ 408.0, 150.0, 829.0, 816.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -124,7 +124,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 584.0, 547.0, 125.0, 22.0 ],
+									"patching_rect" : [ 421.0, 547.0, 125.0, 22.0 ],
 									"style" : "",
 									"text" : "s OSCbrightnessTour"
 								}
@@ -345,7 +345,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 147.0, 406.295898, 71.0, 22.0 ],
 													"style" : "",
-													"text" : "prepend /dt"
+													"text" : "prepend /b"
 												}
 
 											}
@@ -635,9 +635,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.5, 406.295898, 65.0, 22.0 ],
+													"patching_rect" : [ 50.5, 406.295898, 68.0, 22.0 ],
 													"style" : "",
-													"text" : "prepend /t"
+													"text" : "prepend /1"
 												}
 
 											}
@@ -905,18 +905,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-14",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 425.5, 547.0, 144.0, 22.0 ],
-									"style" : "",
-									"text" : "udpsend localhost 66666"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-6",
@@ -939,7 +927,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 40.0, 416.5, 62.0, 22.0 ],
 									"style" : "",
-									"text" : "r renderT"
+									"text" : "r renderB"
 								}
 
 							}
@@ -2041,16 +2029,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 435.0, 542.102051, 593.5, 542.102051 ],
-									"source" : [ "obj-38", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-14", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
+									"midpoints" : [ 435.0, 542.102051, 430.5, 542.102051 ],
 									"source" : [ "obj-38", 0 ]
 								}
 
@@ -3383,7 +3362,7 @@
 ,
 					"patching_rect" : [ 21.328613, 91.0, 171.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.gl.pix tourcontext @dim 191"
+					"text" : "jit.gl.pix disc @dim 191"
 				}
 
 			}
@@ -3470,16 +3449,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 194.828613, 83.5, 30.828613, 83.5 ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}

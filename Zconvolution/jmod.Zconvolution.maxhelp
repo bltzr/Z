@@ -437,6 +437,12 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution.maxhelp
+=======
+									"maxclass" : "newobj",
+									"text" : "j.oscroute /file",
+									"id" : "obj-1",
+>>>>>>> dyew:tconvolution/jmod.tconvolution.maxhelp
 									"fontname" : "Verdana",
 									"fontsize" : 9.873845,
 									"id" : "obj-1",

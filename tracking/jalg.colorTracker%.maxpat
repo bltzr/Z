@@ -465,7 +465,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /color /toleranceR /toleranceG /toleranceB",
+					"text" : "j.oscroute /color /toleranceR /toleranceG /toleranceB",
 					"patching_rect" : [ 35.0, 80.0, 435.0, 19.0 ],
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],

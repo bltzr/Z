@@ -366,6 +366,12 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"text" : "j.unit @dataspace gain @input db @output linear",
+									"id" : "obj-25",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-25",
@@ -888,6 +894,12 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"text" : "j.oscroute /IR/open /IR/mute /IR/buffer /IR/gain /IR/reverse",
+					"id" : "obj-54",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-54",
@@ -902,6 +914,12 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"text" : "j.oscinstance",
+					"id" : "obj-11",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
@@ -2357,6 +2375,17 @@
 								"box" : 								{
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+									"outlettype" : [ "bang", "bang", "" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"text" : "j.thru",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -3338,6 +3367,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[3]",
+									"text" : "j.message IR.4/mute @type integer @repetitions/filter 0 @description \"1 mutes processing of convolution for this IR\"",
+									"linecount" : 2,
+									"id" : "obj-20",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-20",
@@ -3354,6 +3391,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[2]",
+									"text" : "j.message IR.3/mute @type integer @repetitions/filter 0 @description \"1 mutes processing of convolution for this IR\"",
+									"linecount" : 2,
+									"id" : "obj-19",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-19",
@@ -3370,6 +3415,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[1]",
+									"text" : "j.message IR.2/mute @type integer @repetitions/filter 0 @description \"1 mutes processing of convolution for this IR\"",
+									"linecount" : 2,
+									"id" : "obj-15",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-15",
@@ -3386,6 +3439,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[6]",
+									"text" : "j.message IR.1/mute @type integer @repetitions/filter 0 @description \"1 mutes processing of convolution for this IR\"",
+									"linecount" : 2,
+									"id" : "obj-72",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-72",
@@ -4251,6 +4312,12 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jalg.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"text" : "j.oscroute /audio/mute /channels /SegmentSize /normalize",
+					"id" : "obj-10",
+>>>>>>> dyew:tconvolution/jalg.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-10",

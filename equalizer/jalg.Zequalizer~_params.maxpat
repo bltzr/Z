@@ -47,7 +47,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 465.0, 520.0, 31.0 ],
-					"text" : "jcom.parameter filter.0/gain @type decimal @range/bounds -24 24 @range/clipmode both @ramp/drive scheduler @repetitions/allow 0 @description \"Gain (dB)\" @priority 11"
+					"text" : "j.parameter filter.0/gain @type decimal @range -24 24 @clipmode both @ramp/drive scheduler @repetitions/filter 1 @description \"Gain (dB)\" @priority 11"
 				}
 
 			}
@@ -1217,7 +1217,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 520.0, 520.0, 31.0 ],
+<<<<<<< HEAD
 					"text" : "jcom.parameter filter.0/freq @type decimal @range/bounds 30. 18025. @range/clipmode both @ramp/drive scheduler @repetitions/allow 0 @description \"Center frequency (Hz)\" @priority 12"
+=======
+					"text" : "j.parameter filter.0/freq @type decimal @range 30. 11025. @clipmode both @ramp/drive scheduler @repetitions/filter 1 @description \"Center frequency (Hz)\" @priority 12"
+>>>>>>> dyew
 				}
 
 			}
@@ -1232,7 +1236,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 480.0, 390.0, 525.0, 31.0 ],
-					"text" : "jcom.parameter filter.0/Q @type decimal @ramp/drive scheduler @range/bounds 0. 100. @range/clipmode both @repetitions/allow 0 @description \"Resonance (Q)\" @priority 10"
+					"text" : "j.parameter filter.0/Q @type decimal @ramp/drive scheduler @range 0. 100. @clipmode both @repetitions/filter 1 @description \"Resonance (Q)\" @priority 10"
 				}
 
 			}
@@ -1247,7 +1251,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 415.0, 230.0, 482.0, 43.0 ],
-					"text" : "jcom.parameter filter.0/type @type string @description \"What kind of filter to use. Possible values: lowpass | highpass | bandpass | bandstop | peaknotch | lowshelf | highshelf\" @priority 9"
+					"text" : "j.parameter filter.0/type @type string @description \"What kind of filter to use. Possible values: lowpass | highpass | bandpass | bandstop | peaknotch | lowshelf | highshelf\" @priority 9"
 				}
 
 			}

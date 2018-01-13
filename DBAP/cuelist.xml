@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="Initdbap">
+  <flag name="description"></flag>
+  <!---->
+  <script address="dbap">
+   <command address="numSources">4</command>
+   <command address="rolloff">6.000000</command>
+   <command address="gain">1.000000</command>
+   <command address="numSpeakers">12</command>
+   <command address="numAux">6</command>
+   <script address="speaker.2">
+    <script address="position">
+     <command address="xy">6.927084 9.921876</command>
+    </script>
+   </script>
+   <script address="speaker.1">
+    <script address="position">
+     <command address="xy">-6.875000 9.921875</command>
+    </script>
+   </script>
+   <script address="speaker.3">
+    <script address="position">
+     <command address="xy">-9.036459 6.953125</command>
+    </script>
+   </script>
+   <script address="speaker.5">
+    <script address="position">
+     <command address="xy">-9.879264 2.968750</command>
+    </script>
+   </script>
+   <script address="speaker.4">
+    <script address="position">
+     <command address="xy">8.906252 6.953125</command>
+    </script>
+   </script>
+   <script address="speaker.6">
+    <script address="position">
+     <command address="xy">9.936080 2.968750</command>
+    </script>
+   </script>
+   <script address="speaker.12">
+    <script address="position">
+     <command address="xy">0.078123 -9.921877</command>
+    </script>
+   </script>
+   <script address="speaker.7">
+    <script address="position">
+     <command address="xy">0.063920 3.046874</command>
+    </script>
+   </script>
+   <script address="speaker.8">
+    <script address="position">
+     <command address="xy">-8.011366 -1.015625</command>
+    </script>
+   </script>
+   <script address="speaker.9">
+    <script address="position">
+     <command address="xy">8.053979 -1.015628</command>
+    </script>
+   </script>
+   <script address="speaker.10">
+    <script address="position">
+     <command address="xy">-9.943192 -7.890628</command>
+    </script>
+   </script>
+   <script address="speaker.11">
+    <script address="position">
+     <command address="xy">9.794035 -8.125006</command>
+    </script>
+   </script>
+  </script>
+ </cue>
+</jamoma>

@@ -124,7 +124,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 651.0, 663.0, 195.0, 48.0 ],
-									"text" : "jcom.message updateView @type none @description \"update DBAP visualization\""
+									"text" : "j.message updateView @type none @description \"update DBAP visualization\""
 								}
 
 							}
@@ -685,7 +685,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 77.0, 310.5, 298.0, 19.0 ],
-													"text" : "jcom.position2ambimonitor @prefix speaker @radius 10."
+													"text" : "j.position2ambimonitor @prefix speaker @radius 10."
 												}
 
 											}
@@ -1011,7 +1011,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 273.0, 756.0, 298.0, 19.0 ],
-									"text" : "jcom.position2ambimonitor @prefix speaker @radius 10."
+									"text" : "j.position2ambimonitor @prefix speaker @radius 10."
 								}
 
 							}
@@ -1125,7 +1125,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 629.0, 448.0, 100.0, 20.0 ],
-													"text" : "jcom.dbap"
+													"text" : "j.dbap"
 												}
 
 											}
@@ -1476,7 +1476,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 159.0, 201.5, 176.0, 19.0 ],
-													"text" : "jcom.oscroute /speaker"
+													"text" : "j.oscroute /speaker"
 												}
 
 											}
@@ -1490,7 +1490,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 159.0, 178.5, 104.0, 20.0 ],
-													"text" : "jcom.oscinstance"
+													"text" : "j.oscinstance"
 												}
 
 											}
@@ -1504,7 +1504,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 159.0, 156.5, 298.0, 19.0 ],
-													"text" : "jcom.ambimonitor2position @prefix speaker @radius 10."
+													"text" : "j.ambimonitor2position @prefix speaker @radius 10."
 												}
 
 											}
@@ -2064,7 +2064,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 50.0, 50.0, 144.0, 18.0 ],
-																	"text" : "jcom.oscroute /view/panel"
+																	"text" : "j.oscroute /view/panel"
 																}
 
 															}
@@ -2167,7 +2167,7 @@
 													"id" : "obj-10",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2185,7 +2185,7 @@
 													"id" : "obj-11",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2203,7 +2203,7 @@
 													"id" : "obj-12",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2221,7 +2221,7 @@
 													"id" : "obj-13",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2239,7 +2239,7 @@
 													"id" : "obj-14",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2257,7 +2257,7 @@
 													"id" : "obj-15",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2275,7 +2275,7 @@
 													"id" : "obj-16",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2293,7 +2293,7 @@
 													"id" : "obj-17",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2311,7 +2311,7 @@
 													"id" : "obj-18",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -2361,7 +2361,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 135.0, 165.0, 54.0, 19.0 ],
-																	"text" : "jcom.init"
+																	"text" : "j.init"
 																}
 
 															}
@@ -2596,7 +2596,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 418.0, 413.0, 59.0, 19.0 ],
-																	"text" : "jcom.thru"
+																	"text" : "j.thru"
 																}
 
 															}
@@ -2625,7 +2625,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 184.0, 363.0, 59.0, 19.0 ],
-																	"text" : "jcom.thru"
+																	"text" : "j.thru"
 																}
 
 															}
@@ -3018,7 +3018,7 @@
 													"id" : "obj-28",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3036,7 +3036,7 @@
 													"id" : "obj-29",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3054,7 +3054,7 @@
 													"id" : "obj-3",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3072,7 +3072,7 @@
 													"id" : "obj-30",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3090,7 +3090,7 @@
 													"id" : "obj-31",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3108,7 +3108,7 @@
 													"id" : "obj-32",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3125,7 +3125,7 @@
 													"id" : "obj-33",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3142,7 +3142,7 @@
 													"id" : "obj-34",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3159,7 +3159,7 @@
 													"id" : "obj-35",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3176,7 +3176,7 @@
 													"id" : "obj-36",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3193,7 +3193,7 @@
 													"id" : "obj-37",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3210,7 +3210,7 @@
 													"id" : "obj-38",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3227,7 +3227,7 @@
 													"id" : "obj-39",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3245,7 +3245,7 @@
 													"id" : "obj-4",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3262,7 +3262,7 @@
 													"id" : "obj-40",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3279,7 +3279,7 @@
 													"id" : "obj-41",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3296,7 +3296,7 @@
 													"id" : "obj-42",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3313,7 +3313,7 @@
 													"id" : "obj-43",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3347,7 +3347,7 @@
 													"id" : "obj-5",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3451,7 +3451,7 @@
 													"id" : "obj-6",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3469,7 +3469,7 @@
 													"id" : "obj-7",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3487,7 +3487,7 @@
 													"id" : "obj-8",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -3505,7 +3505,7 @@
 													"id" : "obj-9",
 													"lockeddragscroll" : 1,
 													"maxclass" : "bpatcher",
-													"name" : "jcom.sur.Zdbap.xyz_setup.maxpat",
+													"name" : "j.sur.Zdbap.xyz_setup.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
@@ -4643,7 +4643,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 15.0, 25.0, 232.0, 20.0 ],
-									"text" : "jcom.oscroute /view/panel /numSpeakers"
+									"text" : "j.oscroute /view/panel /numSpeakers"
 								}
 
 							}
@@ -5382,7 +5382,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 398.0, 252.620407, 468.0, 31.0 ],
-					"text" : "jcom.parameter numSpeakers @type integer @range/bounds 1 32 @range/clipmode both @description \"The number of  speakers.\" @priority 5",
+					"text" : "j.parameter numSpeakers @type integer @range 1 32 @clipmode both @description \"The number of  speakers.\" @priority 5",
 					"varname" : "voices[2]"
 				}
 
@@ -5433,7 +5433,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 398.0, 206.973145, 455.0, 31.0 ],
-					"text" : "jcom.parameter numAux @type integer @range/bounds 1 32 @range/clipmode both @description \"The number of aux send.\" @priority 3",
+					"text" : "j.parameter numAux @type integer @range 1 32 @clipmode both @description \"The number of aux send.\" @priority 3",
 					"varname" : "voices[1]"
 				}
 
@@ -5479,7 +5479,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 399.0, 122.793304, 443.0, 31.0 ],
-					"text" : "jcom.parameter rolloff @type decimal @range/bounds 1 36 @range/clipmode both @description \"Rolloff in dB with doubling of distance.\" @priority 2",
+					"text" : "j.parameter rolloff @type decimal @range 1 36 @clipmode both @description \"Rolloff in dB with doubling of distance.\" @priority 2",
 					"varname" : "voices[3]"
 				}
 
@@ -5526,7 +5526,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 265.0, 54.0, 19.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -5621,7 +5621,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 81.0, 297.0, 148.0, 19.0 ],
-					"text" : "jcom.oscroute /audio/mute"
+					"text" : "j.oscroute /audio/mute"
 				}
 
 			}
@@ -5663,8 +5663,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 150.0, 313.0, 19.0 ],
-					"text" : "jcom.hub @description \"Distance-based amplitude panning\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @description \"Distance-based amplitude panning\"",
+					"varname" : "j.model"
 				}
 
 			}
@@ -5718,7 +5718,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 399.0, 79.613472, 462.0, 31.0 ],
-					"text" : "jcom.parameter numSources @type integer @range/bounds 1 32 @range/clipmode both @description \"The number of sources to process.\" @priority 1",
+					"text" : "j.parameter numSources @type integer @range 1 32 @clipmode both @description \"The number of sources to process.\" @priority 1",
 					"varname" : "voices"
 				}
 
@@ -5730,7 +5730,7 @@
 					"has_mute" : 1,
 					"has_panel" : 1,
 					"id" : "obj-46",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

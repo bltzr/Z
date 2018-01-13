@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
+ <preset name="default">
+  <!--"edit a comment"-->
+  <command address="sound/bufferpool">pool</command>
+  <command address="sound/folder">none</command>
+  <command address="sound/buffer">none</command>
+  <command address="continuous">0</command>
+  <command address="length/val">33.104168</command>
+  <command address="density/val">1.000000</command>
+  <command address="density/jit">0.000000</command>
+  <command address="sound/enveloppe">hanning.aif</command>
+  <command address="length/jit">0.000000</command>
+  <command address="delay/val">0.</command>
+  <command address="delay/jit">0.000</command>
+  <command address="position/val">0.000000</command>
+  <command address="voices">64</command>
+  <command address="pitch/val">1.000000</command>
+  <command address="pitch/jit">0.000000</command>
+  <command address="amp/val">0.500000</command>
+  <command address="amp/jit">0.00000</command>
+  <command address="position/jit">0.000000</command>
+ </preset>
+</jamoma>

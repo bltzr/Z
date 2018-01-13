@@ -182,7 +182,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 425.0, 176.0, 134.0, 52.0 ],
-					"text" : "jcom.parameter volume @type decimal @ramp/drive scheduler @description volume"
+					"text" : "j.parameter volume @type decimal @ramp/drive scheduler @description volume"
 				}
 
 			}
@@ -779,7 +779,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -870,7 +870,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 544.0, 453.0, 263.0, 19.0 ],
-					"text" : "jcom.oscroute /matrix2List /matrixList /volume"
+					"text" : "j.oscroute /matrix2List /matrixList /volume"
 				}
 
 			}
@@ -1722,8 +1722,13 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 													"patching_rect" : [ 205.0, 395.0, 263.0, 43.0 ],
 													"text" : "jcom.parameter matrix2List @type array @ramp/drive scheduler @description \"matrix list\" @priority3",
+=======
+													"patching_rect" : [ 205.0, 395.0, 263.0, 31.0 ],
+													"text" : "j.parameter matrix2List @type array @ramp/drive scheduler @description \"matrix list\"",
+>>>>>>> dyew
 													"varname" : "matrixList"
 												}
 
@@ -2293,7 +2298,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 419.0, 429.0, 144.0, 19.0 ],
-					"text" : "jcom.oscroute /view/panel"
+					"text" : "j.oscroute /view/panel"
 				}
 
 			}
@@ -2307,7 +2312,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 419.0, 407.0, 48.0, 19.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -2999,8 +3004,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 205.0, 395.0, 263.0, 43.0 ],
 									"text" : "jcom.parameter matrixList @type array @ramp/drive scheduler @description \"matrix list\" @priority 2",
+=======
+									"patching_rect" : [ 205.0, 395.0, 263.0, 31.0 ],
+									"text" : "j.parameter matrixList @type array @ramp/drive scheduler @description \"matrix list\"",
+>>>>>>> dyew
 									"varname" : "matrixList"
 								}
 
@@ -3936,7 +3946,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 436.0, 98.5, 20.0 ],
-					"text" : "jcom.multi.in~"
+					"text" : "j.multi.in~"
 				}
 
 			}
@@ -3950,7 +3960,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 79.0, 350.0, 98.5, 20.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
@@ -3958,7 +3968,7 @@
 				"box" : 				{
 					"has_panel" : 1,
 					"id" : "obj-37",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -3980,8 +3990,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.0, 285.0, 421.0, 19.0 ],
-					"text" : "jcom.hub @module_type audio @description \"This module doesn't do much yet\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @module_type audio @description \"This module doesn't do much yet\"",
+					"varname" : "j.model"
 				}
 
 			}
@@ -4057,7 +4067,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 558.0, 42.0, 440.0, 31.0 ],
-					"text" : "jcom.parameter numSpeakers @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
+					"text" : "j.parameter numSpeakers @type integer @range 0 32 @clipmode both @ramp/drive none @description \"number of speakers\" @priority 2",
 					"varname" : "numSpeakers"
 				}
 
@@ -4073,7 +4083,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 559.0, 113.0, 436.0, 31.0 ],
-					"text" : "jcom.parameter numSources @type integer @range/bounds 0 32 @range/clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
+					"text" : "j.parameter numSources @type integer @range 0 32 @clipmode both @ramp/drive none @description \"number of sources\" @priority 1",
 					"varname" : "numSources"
 				}
 
@@ -4088,8 +4098,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 163.0, 527.0, 371.0, 55.0 ],
 					"text" : "jcom.parameter interpolate @type decimal @range/clipmode both @ramp/drive scheduler @ramp/function linear @repetitions/allow 1 @description \"interpolate between 2 different matrix setups\" @priority 4",
+=======
+					"patching_rect" : [ 187.0, 529.0, 366.0, 43.0 ],
+					"text" : "j.parameter interpolate @type decimal @clipmode both @ramp/drive scheduler @ramp/function linear @repetitions/filter 0 @description \"interpolate between 2 different matrix setups\"",
+>>>>>>> dyew
 					"varname" : "interpolate"
 				}
 

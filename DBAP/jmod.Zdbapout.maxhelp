@@ -62,7 +62,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 531.0, 164.0, 20.0 ],
-					"text" : "jcom.oscroute /numSpeakers"
+					"text" : "j.oscroute /numSpeakers"
 				}
 
 			}
@@ -83,7 +83,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -94,7 +94,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -105,7 +105,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -116,7 +116,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -127,7 +127,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -138,7 +138,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -149,7 +149,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -160,7 +160,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -171,7 +171,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -182,7 +182,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -193,7 +193,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -204,7 +204,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-48",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -215,7 +215,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-49",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -226,7 +226,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -237,7 +237,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -248,7 +248,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -266,7 +266,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 665.0, 561.0, 287.0, 18.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
@@ -311,7 +311,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -322,7 +322,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -333,7 +333,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -344,7 +344,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-47",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -355,7 +355,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -366,7 +366,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -377,7 +377,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-37",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -388,7 +388,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -399,7 +399,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-42",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -410,7 +410,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-43",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -452,7 +452,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -463,7 +463,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -474,7 +474,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-24",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -485,7 +485,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -496,7 +496,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -507,7 +507,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -648,7 +648,7 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 420.0, 566.0, 240.0, 18.0 ],
-					"text" : "jcom.multi.out~"
+					"text" : "j.multi.out~"
 				}
 
 			}
@@ -688,9 +688,15 @@
 					"maxclass" : "newobj",
 					"numinlets" : 32,
 					"numoutlets" : 1,
+<<<<<<< HEAD
 					"outlettype" : [ "audio.connect" ],
 					"patching_rect" : [ 298.0, 438.0, 422.0, 18.0 ],
 					"text" : "jcom.multi.in~"
+=======
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 297.0, 435.0, 364.0, 18.0 ],
+					"text" : "j.multi.in~"
+>>>>>>> dyew
 				}
 
 			}

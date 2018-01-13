@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <preset name="default">
+  <!--"edit a comment"-->
+  <command address="startCCs">161 163 165 167 169</command>
+  <command address="mode">0</command>
+  <command address="volume_ambitus/deviation">0.490000</command>
+  <command address="B">0.000000</command>
+  <command address="A">0.000000</command>
+  <command address="intensity">0.000000</command>
+  <command address="W">0.000000</command>
+  <command address="volume_ambitus/center">0.490000</command>
+  <command address="holes">0</command>
+  <command address="R">0.000000</command>
+  <command address="G">0.000000</command>
+  <command address="hardness">0.000000</command>
+  <command address="time_ambitus/center">0.273000</command>
+  <command address="pause_ambitus/center">0.306500</command>
+  <command address="time_ambitus/deviation">0.054500</command>
+  <command address="pause_ambitus/deviation">0.118000</command>
+ </preset>
+</jamoma>

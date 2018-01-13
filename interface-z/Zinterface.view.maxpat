@@ -1,9 +1,15 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
+<<<<<<< HEAD
 		"rect" : [ 791.0, 53.0, 872.0, 250.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 791.0, 53.0, 872.0, 250.0 ],
+=======
+		"rect" : [ 791.0, 53.0, 861.0, 210.0 ],
+		"bglocked" : 0,
+		"defrect" : [ 791.0, 53.0, 861.0, 210.0 ],
+>>>>>>> dyew
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -26,9 +32,15 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
+<<<<<<< HEAD
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 643.0, 166.0, 80.0, 18.0 ],
 					"text" : "jcom.viewMuter"
+=======
+					"outlettype" : [ "int", "" ],
+					"patching_rect" : [ 643.0, 166.0, 80.0, 18.0 ],
+					"text" : "j.viewMuter"
+>>>>>>> dyew
 				}
 
 			}
@@ -170,7 +182,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 781.0, 15.0, 54.0, 19.0 ],
+<<<<<<< HEAD
 					"text" : "jcom.init"
+=======
+					"text" : "j.init"
+>>>>>>> dyew
 				}
 
 			}
@@ -228,10 +244,17 @@
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
+<<<<<<< HEAD
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 729.0, 100.0, 110.0, 19.0 ],
 					"text" : "jcom.view MIDIport"
+=======
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 729.0, 100.0, 110.0, 19.0 ],
+					"text" : "j.remote MIDIport"
+>>>>>>> dyew
 				}
 
 			}
@@ -339,11 +362,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 601.0, 15.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.6"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 601.0, 15.0, 90.0, 17.0 ],
+					"text" : "j.remote button.6"
+>>>>>>> dyew
 				}
 
 			}
@@ -368,11 +399,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 506.0, 15.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.5"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 506.0, 15.0, 90.0, 17.0 ],
+					"text" : "j.remote button.5"
+>>>>>>> dyew
 				}
 
 			}
@@ -397,11 +436,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 412.0, 15.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.4"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 412.0, 15.0, 90.0, 17.0 ],
+					"text" : "j.remote button.4"
+>>>>>>> dyew
 				}
 
 			}
@@ -426,11 +473,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 314.0, 15.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.3"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 314.0, 15.0, 90.0, 17.0 ],
+					"text" : "j.remote button.3"
+>>>>>>> dyew
 				}
 
 			}
@@ -455,11 +510,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 220.0, 15.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.2"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 220.0, 15.0, 90.0, 17.0 ],
+					"text" : "j.remote button.2"
+>>>>>>> dyew
 				}
 
 			}
@@ -484,11 +547,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 122.0, 15.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.1"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 122.0, 15.0, 90.0, 17.0 ],
+					"text" : "j.remote button.1"
+>>>>>>> dyew
 				}
 
 			}
@@ -513,11 +584,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 153.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.dn"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 14.0, 153.0, 90.0, 17.0 ],
+					"text" : "j.remote button.dn"
+>>>>>>> dyew
 				}
 
 			}
@@ -542,11 +621,19 @@
 					"fontsize" : 9.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
+<<<<<<< HEAD
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 104.0, 90.0, 17.0 ],
 					"text" : "jcom.view button.up"
+=======
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 16.0, 104.0, 90.0, 17.0 ],
+					"text" : "j.remote button.up"
+>>>>>>> dyew
 				}
 
 			}
@@ -598,7 +685,11 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 604.0, 146.0, 119.0, 18.0 ],
+<<<<<<< HEAD
 					"text" : "jcom.hub @context view"
+=======
+					"text" : "j.view"
+>>>>>>> dyew
 				}
 
 			}
@@ -606,6 +697,7 @@
 				"box" : 				{
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"id" : "obj-27",
+<<<<<<< HEAD
 					"maxclass" : "jcom.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -614,6 +706,16 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, -2.0, 600.0, 175.0 ],
 					"text" : "/editing_this_module.1"
+=======
+					"maxclass" : "j.ui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 15.0, 61.0, 150.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, -2.0, 600.0, 175.0 ],
+					"text" : "waiting for a /model/address"
+>>>>>>> dyew
 				}
 
 			}

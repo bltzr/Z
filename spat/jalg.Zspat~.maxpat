@@ -402,7 +402,7 @@
 										"default_fontsize" : 12.0
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -416,7 +416,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 17.0, 65.0, 152.0, 17.0 ],
-									"text" : "jcom.map"
+									"text" : "j.map"
 								}
 
 							}
@@ -758,7 +758,7 @@
 										"default_fontsize" : 12.0
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -772,7 +772,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 17.0, 65.0, 152.0, 17.0 ],
-									"text" : "jcom.map"
+									"text" : "j.map"
 								}
 
 							}
@@ -1097,7 +1097,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 86.0, 74.0, 519.0, 20.0 ],
-					"text" : "jcom.oscroute /volume /mode /position /output /aux.1 /aux.2 /timeambitus/min /timeambitus/max"
+					"text" : "j.oscroute /volume /mode /position /output /aux.1 /aux.2 /timeambitus/min /timeambitus/max"
 				}
 
 			}
@@ -1239,7 +1239,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 50.0, 100.0, 56.0, 17.0 ],
-													"text" : "jcom.init"
+													"text" : "j.init"
 												}
 
 											}
@@ -1340,7 +1340,7 @@
 										"default_fontsize" : 12.0
 									}
 ,
-									"text" : "p initjcommap"
+									"text" : "p initjmap"
 								}
 
 							}
@@ -1354,7 +1354,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 17.0, 65.0, 152.0, 17.0 ],
-									"text" : "jcom.map"
+									"text" : "j.map"
 								}
 
 							}
@@ -1823,7 +1823,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
 									"patching_rect" : [ 94.0, 58.0, 398.0, 20.0 ],
-									"text" : "jcom.oscroute /topLeft /topRight /bottomLeft /bottomRight /ramptime"
+									"text" : "j.oscroute /topLeft /topRight /bottomLeft /bottomRight /ramptime"
 								}
 
 							}
@@ -2499,7 +2499,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 93.0, 251.0, 50.0, 17.0 ],
-													"text" : "jcom.pi"
+													"text" : "j.pi"
 												}
 
 											}
@@ -2741,7 +2741,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 26.0, 105.0, 181.0, 17.0 ],
-													"text" : "jcom.random 100 2000"
+													"text" : "j.random 100 2000"
 												}
 
 											}
@@ -3125,7 +3125,7 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 200.0, 60.0, 278.0, 20.0 ],
-									"text" : "jcom.oscroute /x /y /rd /sps"
+									"text" : "j.oscroute /x /y /rd /sps"
 								}
 
 							}
@@ -3304,7 +3304,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 146.0, 186.0, 313.0, 27.0 ],
-													"text" : "jcom.map @inputMin 0. @inputMax 2000. @outputMin 1. @outputMax 2000. @function power"
+													"text" : "j.map @inputMin 0. @inputMax 2000. @outputMin 1. @outputMax 2000. @function power"
 												}
 
 											}
@@ -3394,7 +3394,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 50.0, 100.0, 56.0, 17.0 ],
-																	"text" : "jcom.init"
+																	"text" : "j.init"
 																}
 
 															}
@@ -3486,7 +3486,7 @@
 														"default_fontsize" : 12.0
 													}
 ,
-													"text" : "p initjcommap"
+													"text" : "p initjmap"
 												}
 
 											}
@@ -3501,7 +3501,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 16.0, 150.0, 313.0, 27.0 ],
-													"text" : "jcom.map @inputMin 0. @inputMax 2000. @outputMin 1. @outputMax 2000. @function power"
+													"text" : "j.map @inputMin 0. @inputMax 2000. @outputMin 1. @outputMax 2000. @function power"
 												}
 
 											}
@@ -3627,7 +3627,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 39.0, 188.0, 121.0, 17.0 ],
-													"text" : "jcom.random -1. 1."
+													"text" : "j.random -1. 1."
 												}
 
 											}
@@ -3641,7 +3641,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 206.0, 165.0, 104.0, 17.0 ],
-													"text" : "jcom.random 200 1200"
+													"text" : "j.random 200 1200"
 												}
 
 											}
@@ -3655,7 +3655,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 61.0, 164.0, 117.0, 17.0 ],
-													"text" : "jcom.random 200 1200"
+													"text" : "j.random 200 1200"
 												}
 
 											}
@@ -3863,7 +3863,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 188.0, 191.0, 104.0, 17.0 ],
-													"text" : "jcom.random -1. 1."
+													"text" : "j.random -1. 1."
 												}
 
 											}

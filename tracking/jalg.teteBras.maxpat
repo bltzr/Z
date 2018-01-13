@@ -18,7 +18,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return tete/speed @type decimal @range/bounds 0. 0.2",
+					"text" : "j.return tete/speed @type decimal @range 0. 0.2",
 					"linecount" : 2,
 					"patching_rect" : [ 615.0, 640.0, 226.0, 33.0 ],
 					"numoutlets" : 2,
@@ -33,7 +33,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return tete/velocity @type decimal @range/bounds 0. 8.",
+					"text" : "j.return tete/velocity @type decimal @range 0. 8.",
 					"linecount" : 2,
 					"patching_rect" : [ 870.0, 635.0, 228.0, 33.0 ],
 					"numoutlets" : 2,
@@ -91,7 +91,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.delta",
+					"text" : "j.delta",
 					"patching_rect" : [ 970.0, 505.0, 100.0, 20.0 ],
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "" ],
@@ -106,7 +106,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.delta",
+					"text" : "j.delta",
 					"patching_rect" : [ 865.0, 505.0, 100.0, 20.0 ],
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "" ],
@@ -135,7 +135,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return tete/angle @type decimal @range/bounds -180. 180.",
+					"text" : "j.return tete/angle @type decimal @range -180. 180.",
 					"linecount" : 2,
 					"patching_rect" : [ 470.0, 435.0, 226.0, 33.0 ],
 					"numoutlets" : 2,
@@ -150,7 +150,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return tete/dist @type decimal @range/bounds 0. 1.414",
+					"text" : "j.return tete/dist @type decimal @range 0. 1.414",
 					"linecount" : 2,
 					"patching_rect" : [ 430.0, 480.0, 228.0, 33.0 ],
 					"numoutlets" : 2,
@@ -232,7 +232,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return brasD/distance @type decimal @range/bounds 0. 320.",
+					"text" : "j.return brasD/distance @type decimal @range 0. 320.",
 					"linecount" : 2,
 					"patching_rect" : [ 868.0, 373.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -247,7 +247,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return brasD/angleH @type decimal @range/bounds 0. 180.",
+					"text" : "j.return brasD/angleH @type decimal @range 0. 180.",
 					"linecount" : 2,
 					"patching_rect" : [ 904.0, 413.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -262,7 +262,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return brasD/angleV @type decimal @range/bounds -90. 90.",
+					"text" : "j.return brasD/angleV @type decimal @range -90. 90.",
 					"linecount" : 2,
 					"patching_rect" : [ 940.0, 451.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -277,7 +277,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return brasD/posY @type decimal @range/bounds 0. 320.",
+					"text" : "j.return brasD/posY @type decimal @range 0. 320.",
 					"linecount" : 2,
 					"patching_rect" : [ 688.0, 331.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -292,7 +292,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return brasD/posX @type decimal @range/bounds 0. 240.",
+					"text" : "j.return brasD/posX @type decimal @range 0. 240.",
 					"linecount" : 2,
 					"patching_rect" : [ 644.0, 294.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -307,7 +307,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return tete/posY @type decimal @range/bounds 0. 1.",
+					"text" : "j.return tete/posY @type decimal @range 0. 1.",
 					"linecount" : 2,
 					"patching_rect" : [ 384.0, 310.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -322,7 +322,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return tete/posX @type decimal @range/bounds 0. 1.",
+					"text" : "j.return tete/posX @type decimal @range 0. 1.",
 					"linecount" : 2,
 					"patching_rect" : [ 340.0, 264.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -337,7 +337,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return BrasG/distance @type decimal @range/bounds 0. 320.",
+					"text" : "j.return BrasG/distance @type decimal @range 0. 320.",
 					"linecount" : 2,
 					"patching_rect" : [ 84.0, 362.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -352,7 +352,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return BrasG/angleH @type decimal @range/bounds 0. 180.",
+					"text" : "j.return BrasG/angleH @type decimal @range 0. 180.",
 					"linecount" : 2,
 					"patching_rect" : [ 120.0, 402.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -367,7 +367,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return BrasG/angleV @type decimal @range/bounds -90. 90.",
+					"text" : "j.return BrasG/angleV @type decimal @range -90. 90.",
 					"linecount" : 2,
 					"patching_rect" : [ 156.0, 440.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -382,7 +382,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return BrasG/posY @type decimal @range/bounds 0. 320.",
+					"text" : "j.return BrasG/posY @type decimal @range 0. 320.",
 					"linecount" : 2,
 					"patching_rect" : [ 76.0, 539.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -397,7 +397,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.return BrasG/posX @type decimal @range/bounds 0. 240.",
+					"text" : "j.return BrasG/posX @type decimal @range 0. 240.",
 					"linecount" : 2,
 					"patching_rect" : [ 32.0, 496.0, 213.0, 33.0 ],
 					"numoutlets" : 2,
@@ -2188,7 +2188,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /brasG /tete /brasD",
+					"text" : "j.oscroute /brasG /tete /brasD",
 					"patching_rect" : [ 10.0, 65.0, 576.0, 19.0 ],
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],

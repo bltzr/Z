@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <preset name="default">
+  <!--"edit a comment"-->
+  <command address="arraySize">10</command>
+  <command address="MIDIChannel">2</command>
+  <command address="startChannels">48 40 32 24 16 52 44 36 28 20</command>
+  <command address="instances">1 1 1 1 1 1 1 1 1 1</command>
+  <command address="midiport">"Fireface 400 (655) Port 1"</command>
+  <command address="pause_ambitus/deviation">0.365500</command>
+  <command address="pause_ambitus/center">0.440500</command>
+  <command address="volume_ambitus/deviation">0.376000</command>
+  <command address="mode">0</command>
+  <command address="time_ambitus/deviation">0.271500</command>
+  <command address="hardness">0.000000</command>
+  <command address="volume_ambitus/center">0.487000</command>
+  <command address="time_ambitus/center">0.419000</command>
+  <command address="intensity.1">0.000000</command>
+  <command address="intensity.10">0.000000</command>
+  <command address="intensity.2">0.000000</command>
+  <command address="intensity.3">0.000000</command>
+  <command address="intensity.4">0.000000</command>
+  <command address="intensity.5">0.000000</command>
+  <command address="intensity.6">0.000000</command>
+  <command address="intensity.7">0.000000</command>
+  <command address="intensity.8">0.000000</command>
+  <command address="intensity.9">0.000000</command>
+ </preset>
+</jamoma>

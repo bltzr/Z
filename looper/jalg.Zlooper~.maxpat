@@ -536,6 +536,12 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD
+=======
+									"maxclass" : "newobj",
+									"text" : "j.oscroute /env",
+									"id" : "obj-21",
+>>>>>>> dyew
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -2006,6 +2012,12 @@
 															}
 , 															{
 																"box" : 																{
+<<<<<<< HEAD
+=======
+																	"maxclass" : "newobj",
+																	"text" : "j.oscroute /display/start /display/length /selection/start /selection/end /direction /triggermode",
+																	"id" : "obj-30",
+>>>>>>> dyew
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-30",
@@ -2339,6 +2351,12 @@
 											}
 , 											{
 												"box" : 												{
+<<<<<<< HEAD
+=======
+													"maxclass" : "newobj",
+													"text" : "j.oscroute /sound/buffer /record",
+													"id" : "obj-13",
+>>>>>>> dyew
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
 													"id" : "obj-13",
@@ -2353,6 +2371,12 @@
 											}
 , 											{
 												"box" : 												{
+<<<<<<< HEAD
+=======
+													"maxclass" : "newobj",
+													"text" : "j.oscroute /active /input",
+													"id" : "obj-15",
+>>>>>>> dyew
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
 													"id" : "obj-15",
@@ -2477,6 +2501,12 @@
 											}
 , 											{
 												"box" : 												{
+<<<<<<< HEAD
+=======
+													"maxclass" : "newobj",
+													"text" : "j.oscroute /normalize",
+													"id" : "obj-25",
+>>>>>>> dyew
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
 													"id" : "obj-25",
@@ -3317,6 +3347,12 @@
 											}
 , 											{
 												"box" : 												{
+<<<<<<< HEAD
+=======
+													"maxclass" : "newobj",
+													"text" : "j.oscroute /loopmode /direction /play /pitch",
+													"id" : "obj-2",
+>>>>>>> dyew
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-2",

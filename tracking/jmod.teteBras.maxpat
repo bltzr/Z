@@ -19,7 +19,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.message brasD",
+					"text" : "j.message brasD",
 					"patching_rect" : [ 495.0, 150.0, 131.0, 20.0 ],
 					"id" : "obj-9",
 					"fontname" : "Verdana",
@@ -33,7 +33,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.message tete",
+					"text" : "j.message tete",
 					"patching_rect" : [ 490.0, 115.0, 131.0, 20.0 ],
 					"id" : "obj-8",
 					"fontname" : "Verdana",
@@ -47,7 +47,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.message brasG",
+					"text" : "j.message brasG",
 					"patching_rect" : [ 485.0, 60.0, 131.0, 20.0 ],
 					"id" : "obj-3",
 					"fontname" : "Verdana",
@@ -167,7 +167,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.out 1",
+					"text" : "j.out 1",
 					"patching_rect" : [ 40.0, 400.0, 73.0, 19.0 ],
 					"id" : "obj-25",
 					"fontname" : "Verdana",
@@ -181,7 +181,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.in 4",
+					"text" : "j.in 4",
 					"patching_rect" : [ 175.0, 285.0, 310.0, 19.0 ],
 					"id" : "obj-26",
 					"fontname" : "Verdana",
@@ -210,7 +210,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "jmod.hub",
-					"text" : "jcom.hub @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
+					"text" : "j.model @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
 					"linecount" : 2,
 					"patching_rect" : [ 10.0, 155.0, 428.0, 31.0 ],
 					"id" : "obj-31",
@@ -340,7 +340,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"text" : "/editing_this_module",
 					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"presentation" : 1,

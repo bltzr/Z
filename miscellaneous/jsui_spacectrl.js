@@ -14,7 +14,11 @@ var vfrgb = [0.8,0.8,0.3];
 var w = [0,0,0];
 var vx = 0;
 var vy = 0;
+<<<<<<< HEAD
 var vradius = 0.09;
+=======
+var vradius = 0.1;
+>>>>>>> dyew
 var vx2 = 0;
 var vy2 = 0;
 var x2 = 0;
@@ -67,7 +71,11 @@ function draw()
 function static()
 {
     fct=0;
+<<<<<<< HEAD
     vradius=0.09;
+=======
+    vradius=0.1;
+>>>>>>> dyew
 }
 
 function random()
@@ -293,6 +301,7 @@ function bang()
 
     if (fct==1)
     {
+<<<<<<< HEAD
         if (vy2>vy) outlet(3,vy2);
         if (vy>vy2) outlet(3,vy);
         if (vx2>vx) outlet(2,vx2);
@@ -301,6 +310,13 @@ function bang()
         if (vy>vy2) outlet(1,vy2);
         if (vx2>vx) outlet(0,vx);
         if (vx>vx2) outlet(0,vx2);
+=======
+        if (vy2>vy) outlet(3,vy2), outlet(1,vy);
+        if (vy>vy2) outlet(3,vy), outlet(1,vy2);
+        if (vx2>vx) outlet(2,vx2),  outlet(0,vx);
+        if (vx>vx2) outlet(2,vx),  outlet(0,vx2) ;
+
+>>>>>>> dyew
     }
 
     if (fct==2)
@@ -380,6 +396,10 @@ function onclick(x,y)
         y2=y;
     }
     ondrag(x,y);
+<<<<<<< HEAD
+=======
+    bang();
+>>>>>>> dyew
 }
 onclick.local = 1; //private
 

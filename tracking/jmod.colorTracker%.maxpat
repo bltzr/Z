@@ -185,7 +185,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 92.0, 586.0, 452.0, 19.0 ],
-					"text" : "jcom.return position/y @description \"y position \" @type decimal @range/clipmode both"
+					"text" : "j.return position/y @description \"y position \" @type decimal @clipmode both"
 				}
 
 			}
@@ -199,7 +199,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 10.0, 441.0, 230.0, 20.0 ],
-					"text" : "jcom.oscroute /minbounds /maxbounds"
+					"text" : "j.oscroute /minbounds /maxbounds"
 				}
 
 			}
@@ -214,7 +214,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 311.0, 345.0, 31.0 ],
-					"text" : "jcom.parameter toleranceB @repetitions/allow 1 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceB @repetitions/filter 0 @type integer @range 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[3]"
 				}
 
@@ -230,7 +230,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 236.0, 347.0, 31.0 ],
-					"text" : "jcom.parameter toleranceG @repetitions/allow 1 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceG @repetitions/filter 0 @type integer @range 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[1]"
 				}
 
@@ -246,7 +246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 495.0, 163.0, 345.0, 31.0 ],
-					"text" : "jcom.parameter toleranceR @repetitions/allow 1 @type integer @range/bounds 0 255 @description \"Tolerance for  red\"",
+					"text" : "j.parameter toleranceR @repetitions/filter 0 @type integer @range 0 255 @description \"Tolerance for  red\"",
 					"varname" : "hue_angle[2]"
 				}
 
@@ -414,7 +414,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 554.0, 452.0, 19.0 ],
-					"text" : "jcom.return position/x @description \"x position \" @type decimal @range/clipmode both"
+					"text" : "j.return position/x @description \"x position \" @type decimal @clipmode both"
 				}
 
 			}
@@ -428,7 +428,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 95.0, 369.0, 73.0, 19.0 ],
-					"text" : "jcom.out 1"
+					"text" : "j.out 1"
 				}
 
 			}
@@ -442,7 +442,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 95.0, 297.0, 66.0, 19.0 ],
-					"text" : "jcom.in 1"
+					"text" : "j.in 1"
 				}
 
 			}
@@ -456,7 +456,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 496.0, 21.0, 456.0, 19.0 ],
-					"text" : "jcom.parameter color @repetitions/allow 1 @type array @description \"Color to track\"",
+					"text" : "j.parameter color @repetitions/filter 0 @type array @description \"Color to track\"",
 					"varname" : "hue_angle"
 				}
 
@@ -486,7 +486,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 6.0, 180.0, 428.0, 31.0 ],
-					"text" : "jcom.hub @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
+					"text" : "j.model @module_type video @algorithm_type jitter @description \"This module doesn't do much yet.\"",
 					"varname" : "jmod.hub"
 				}
 
@@ -614,7 +614,7 @@
 					"has_mute" : 1,
 					"has_preview" : 1,
 					"id" : "obj-16",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

@@ -54,7 +54,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 362.0, 493.0, 146.0, 20.0 ],
-					"text" : "jcom.oscroute /loop/end"
+					"text" : "j.oscroute /loop/end"
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 702.0, 493.0, 148.0, 20.0 ],
-					"text" : "jcom.oscroute /timecode"
+					"text" : "j.oscroute /timecode"
 				}
 
 			}
@@ -110,7 +110,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 864.0, 536.0, 160.0, 20.0 ],
-					"text" : "jcom.oscroute /framecount"
+					"text" : "j.oscroute /framecount"
 				}
 
 			}
@@ -186,7 +186,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 64.0, 43.0, 160.0, 20.0 ],
-									"text" : "jcom.oscroute /framecount"
+									"text" : "j.oscroute /framecount"
 								}
 
 							}
@@ -331,7 +331,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 270.0, 203.0, 347.0, 33.0 ],
-									"text" : "jcom.return loop/end @repetitions/allow 1 @type none @description \"notify the end of a loop\""
+									"text" : "j.return loop/end @repetitions/filter 0 @type none @description \"notify the end of a loop\""
 								}
 
 							}
@@ -346,7 +346,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 205.0, 167.0, 359.0, 33.0 ],
-									"text" : "jcom.return timecode @type array @repetitions/allow 1 @description \"play position [hour:min:second:frame frameid]\""
+									"text" : "j.return timecode @type array @repetitions/filter 0 @description \"play position [hour:min:second:frame frameid]\""
 								}
 
 							}
@@ -361,7 +361,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 137.0, 131.0, 312.0, 33.0 ],
-									"text" : "jcom.return fps @type decimal @repetitions/allow 1 @description \"frame per second\""
+									"text" : "j.return fps @type decimal @repetitions/filter 0 @description \"frame per second\""
 								}
 
 							}
@@ -376,7 +376,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 74.0, 95.0, 349.0, 33.0 ],
-									"text" : "jcom.return framecount @type integer @repetitions/allow 1 @description \"movie length in frame\""
+									"text" : "j.return framecount @type integer @repetitions/filter 0 @description \"movie length in frame\""
 								}
 
 							}
@@ -391,7 +391,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 9.0, 59.0, 331.0, 33.0 ],
-									"text" : "jcom.return length @type decimal @repetitions/allow 1 @description \"movie length in second\""
+									"text" : "j.return length @type decimal @repetitions/filter 0 @description \"movie length in second\""
 								}
 
 							}
@@ -405,7 +405,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
 									"patching_rect" : [ 9.0, 35.0, 345.0, 20.0 ],
-									"text" : "jcom.oscroute /length /framecount /fps /timecode /loop/end"
+									"text" : "j.oscroute /length /framecount /fps /timecode /loop/end"
 								}
 
 							}
@@ -646,7 +646,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 511.0, 306.0, 146.0, 20.0 ],
-					"text" : "jcom.oscroute /view/freeze"
+					"text" : "j.oscroute /view/freeze"
 				}
 
 			}
@@ -1176,7 +1176,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 160.679626, 478.0, 18.0 ],
-					"text" : "jcom.message pause @type boolean @repetitions/allow 1 @description \"Playback control\""
+					"text" : "j.message pause @type boolean @repetitions/filter 0 @description \"Playback control\""
 				}
 
 			}
@@ -1190,7 +1190,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 285.0, 305.0, 103.0, 18.0 ],
-					"text" : "jcom.panelopen"
+					"text" : "j.panelopen"
 				}
 
 			}
@@ -1258,7 +1258,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 200.0, 142.0, 144.0, 19.0 ],
-									"text" : "jcom.oscroute /dim/native"
+									"text" : "j.oscroute /dim/native"
 								}
 
 							}
@@ -1305,7 +1305,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 180.5, 239.5, 502.0, 18.0 ],
-									"text" : "jcom.parameter interp @type boolean @repetitions/allow 1 @description \"Image interpolation\"",
+									"text" : "j.parameter interp @type boolean @repetitions/filter 0 @description \"Image interpolation\"",
 									"varname" : "unique[1]"
 								}
 
@@ -1362,7 +1362,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 180.0, 96.0, 545.0, 18.0 ],
-									"text" : "jcom.message dim/native @type none @ramp/drive none @description \"Use native movie dimension\"",
+									"text" : "j.message dim/native @type none @ramp/drive none @description \"Use native movie dimension\"",
 									"varname" : "dim[1]"
 								}
 
@@ -1563,7 +1563,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 37.5, 271.5, 305.0, 18.0 ],
-									"text" : "jcom.parameter colormode @type string Colormode.",
+									"text" : "j.parameter colormode @type string Colormode.",
 									"varname" : "colormode"
 								}
 
@@ -1599,7 +1599,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 180.0, 190.0, 528.0, 18.0 ],
-									"text" : "jcom.parameter dim @type array @ramp/drive none @repetitions/allow 1 @description \"Image size\"",
+									"text" : "j.parameter dim @type array @ramp/drive none @repetitions/filter 0 @description \"Image size\"",
 									"varname" : "dim"
 								}
 
@@ -1614,7 +1614,7 @@
 									"numoutlets" : 11,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 26.5, 188.5, 144.0, 18.0 ],
-									"text" : "jcom.list2parameter 2"
+									"text" : "j.list2parameter 2"
 								}
 
 							}
@@ -1642,7 +1642,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 93.5, 412.5, 565.0, 18.0 ],
-									"text" : "jcom.parameter unique @type boolean @repetitions/allow 1 @description \"Playback quality option.\"",
+									"text" : "j.parameter unique @type boolean @repetitions/filter 0 @description \"Playback quality option.\"",
 									"varname" : "unique"
 								}
 
@@ -1658,7 +1658,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 71.5, 432.5, 588.0, 42.0 ],
-									"text" : "jcom.parameter deinterlace @type boolean @repetitions/allow 1 @description \"in the case of interlaced movies, decompresses both fields (at high quality), and then filters the image to reduce interlacing artifacts. REQUIRES highquality enabled\"",
+									"text" : "j.parameter deinterlace @type boolean @repetitions/filter 0 @description \"in the case of interlaced movies, decompresses both fields (at high quality), and then filters the image to reduce interlacing artifacts. REQUIRES highquality enabled\"",
 									"varname" : "deinterlace"
 								}
 
@@ -1674,7 +1674,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 49.5, 475.5, 608.0, 30.0 ],
-									"text" : "jcom.parameter singlefield @type boolean @repetitions/allow 1 @description \"in the case of interlaced movies, decompresses only one field (at high quality), and then scales it to the full frame size. REQUIRES highquality enabled.\"",
+									"text" : "j.parameter singlefield @type boolean @repetitions/filter 0 @description \"in the case of interlaced movies, decompresses only one field (at high quality), and then scales it to the full frame size. REQUIRES highquality enabled.\"",
 									"varname" : "singlefield"
 								}
 
@@ -1710,7 +1710,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 28.5, 507.5, 627.0, 30.0 ],
-									"text" : "jcom.parameter highquality @type boolean @repetitions/allow 1 @description \"specifies that the movie should render at the highest possible quality, at the expense of time and memory\"",
+									"text" : "j.parameter highquality @type boolean @repetitions/filter 0 @description \"specifies that the movie should render at the highest possible quality, at the expense of time and memory\"",
 									"varname" : "highquality"
 								}
 
@@ -2027,7 +2027,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 762.0, 391.679626, 310.0, 30.0 ],
-					"text" : "jcom.parameter rate @type decimal @repetitions/allow 1 @priority 4 @description \"Set player rate\" @value/default 1."
+					"text" : "j.parameter rate @type decimal @repetitions/filter 0 @priority 4 @description \"Set player rate\" @default 1."
 				}
 
 			}
@@ -2042,7 +2042,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 763.0, 262.679626, 395.0, 30.0 ],
-					"text" : "jcom.parameter loop/points @type array @repetitions/allow 1 @priority 3 @description \"Set player loop points in frame\""
+					"text" : "j.parameter loop/points @type array @repetitions/filter 0 @priority 3 @description \"Set player loop points in frame\""
 				}
 
 			}
@@ -2057,7 +2057,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 864.0, 609.679626, 231.0, 30.0 ],
-					"text" : "jcom.message frame @type integer @description \"Set player position in frame\""
+					"text" : "j.message frame @type integer @description \"Set player position in frame\""
 				}
 
 			}
@@ -2072,7 +2072,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 966.0, 559.679626, 233.0, 30.0 ],
-					"text" : "jcom.message time @type decimal @description \"Set player position in second\""
+					"text" : "j.message time @type decimal @description \"Set player position in second\""
 				}
 
 			}
@@ -2217,7 +2217,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 83.0, 357.0, 62.0, 18.0 ],
-					"text" : "jcom.out 1"
+					"text" : "j.out 1"
 				}
 
 			}
@@ -2231,7 +2231,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 266.0, 246.0, 56.0, 18.0 ],
-					"text" : "jcom.in 1"
+					"text" : "j.in 1"
 				}
 
 			}
@@ -2246,7 +2246,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 790.0, 220.679626, 355.0, 30.0 ],
-					"text" : "jcom.parameter loop/mode @type string @repetitions/allow 1 @priority 2 @description \"Set loop attribute.\" @value/default none",
+					"text" : "j.parameter loop/mode @type string @repetitions/filter 0 @priority 2 @description \"Set loop attribute.\" @default none",
 					"varname" : "loop"
 				}
 
@@ -2261,7 +2261,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 25.679626, 463.0, 18.0 ],
-					"text" : "jcom.message eject @type none @repetitions/allow 1 @description \"Eject the movie\""
+					"text" : "j.message eject @type none @repetitions/filter 0 @description \"Eject the movie\""
 				}
 
 			}
@@ -2275,7 +2275,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 115.679626, 464.0, 18.0 ],
-					"text" : "jcom.message stop @type none @repetitions/allow 1 @description \"Playback control\""
+					"text" : "j.message stop @type none @repetitions/filter 0 @description \"Playback control\""
 				}
 
 			}
@@ -2289,7 +2289,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 750.0, 70.679626, 463.0, 18.0 ],
-					"text" : "jcom.message play @type none @repetitions/allow 1 @description \"Playback control\""
+					"text" : "j.message play @type none @repetitions/filter 0 @description \"Playback control\""
 				}
 
 			}
@@ -2304,7 +2304,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 310.0, 80.0, 311.0, 30.0 ],
-					"text" : "jcom.parameter movie @type array @repetitions/allow 1 @priority 1 @description \"a path to a movie\""
+					"text" : "j.parameter movie @type array @repetitions/filter 0 @priority 1 @description \"a path to a movie\""
 				}
 
 			}
@@ -2319,8 +2319,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1.0, 236.0, 261.0, 30.0 ],
-					"text" : "jcom.hub @module_type video @algorithm_type jitter @description \"Read and control a QT movie\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @module_type video @algorithm_type jitter @description \"Read and control a QT movie\"",
+					"varname" : "j.model"
 				}
 
 			}
@@ -2410,7 +2410,7 @@
 					"has_preview" : 1,
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-62",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

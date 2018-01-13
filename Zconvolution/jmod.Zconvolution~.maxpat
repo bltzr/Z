@@ -70,6 +70,7 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Arial",
@@ -77,6 +78,11 @@
 					"id" : "obj-93",
 					"ignoreclick" : 1,
 					"maxclass" : "flonum",
+=======
+					"maxclass" : "j.meter~",
+					"id" : "obj-53",
+					"presentation_rect" : [ 3.0, 61.0, 80.0, 4.0 ],
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
@@ -90,6 +96,7 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontname" : "Arial",
@@ -97,6 +104,11 @@
 					"id" : "obj-94",
 					"ignoreclick" : 1,
 					"maxclass" : "flonum",
+=======
+					"maxclass" : "j.meter~",
+					"id" : "obj-54",
+					"presentation_rect" : [ 3.0, 38.0, 80.0, 4.0 ],
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
@@ -228,10 +240,23 @@
 					"annotation" : "Individual gain (dB) applied to each impulse response",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 					"id" : "obj-56",
 					"maxclass" : "flonum",
 					"maximum" : 15.0,
 					"minimum" : -48.0,
+=======
+					"outlettype" : [ "" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"maxclass" : "newobj",
+					"text" : "j.init",
+					"id" : "obj-31",
+					"fontname" : "Arial",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
@@ -285,6 +310,14 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"varname" : "preamp[1]",
+					"text" : "j.parameter IR.2/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"linecount" : 3,
+					"id" : "obj-28",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-77",
@@ -330,6 +363,14 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"varname" : "preamp",
+					"text" : "j.parameter IR.1/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+					"linecount" : 3,
+					"id" : "obj-24",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-67",
@@ -439,6 +480,14 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"varname" : "hue_angle[6]",
+					"text" : "j.message IR.2/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
+					"linecount" : 2,
+					"id" : "obj-72",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-111",
@@ -455,6 +504,12 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"text" : "j.oscroute /IR/info/size",
+					"id" : "obj-87",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-112",
@@ -469,6 +524,12 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"text" : "j.oscinstance",
+					"id" : "obj-88",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-115",
@@ -526,6 +587,14 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"varname" : "hue_angle[5]",
+					"text" : "j.message IR.1/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
+					"linecount" : 2,
+					"id" : "obj-84",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-76",
@@ -569,6 +638,14 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"varname" : "hue_angle[4]",
+					"text" : "j.message IR.2/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"linecount" : 2,
+					"id" : "obj-71",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-90",
@@ -698,6 +775,7 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 					"id" : "obj-53",
 					"maxclass" : "jcom.meter~",
 					"numinlets" : 1,
@@ -707,6 +785,63 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 59.413792, 80.0, 4.0 ]
 				}
+=======
+					"maxclass" : "newobj",
+					"text" : "p panel",
+					"id" : "obj-42",
+					"fontname" : "Arial",
+					"numinlets" : 5,
+					"numoutlets" : 0,
+					"patching_rect" : [ 249.0, 415.0, 59.0, 23.0 ],
+					"fontsize" : 14.0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 100.0, 100.0, 1000.0, 726.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 100.0, 100.0, 1000.0, 726.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"visible" : 1,
+						"metadata" : [  ],
+						"boxes" : [ 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "auto-normalize",
+									"id" : "obj-29",
+									"fontname" : "Arial",
+									"presentation_rect" : [ 232.0, 7.0, 82.0, 19.0 ],
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 119.0, 67.0, 84.0, 19.0 ],
+									"fontsize" : 11.0,
+									"presentation" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"varname" : "saturation/active[4]",
+									"text" : "j.parameter normalize @type boolean @description \"Automatically normalize IRs on load.\"",
+									"id" : "obj-20",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"patching_rect" : [ 145.0, 91.5, 507.0, 19.0 ],
+									"fontsize" : 10.0,
+									"outlettype" : [ "", "", "" ]
+								}
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 
 			}
 , 			{
@@ -1836,6 +1971,13 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "comment",
+									"text" : "these 2 should be set @repetitions/filter 1, but it causes too much trouble on init... waiting for a fix",
+									"linecount" : 2,
+									"id" : "obj-64",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3169,6 +3311,7 @@
 												}
 
 											}
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-7", 1 ],
@@ -3224,16 +3367,354 @@
 									}
 ,
 									"text" : "p display-mute-state-filename"
+=======
+ ]
+									}
+,
+									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontface" : 0,
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"default_fontname" : "Arial",
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0
+									}
+
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "gain (dB)",
+									"presentation_linecount" : 2,
+									"id" : "obj-59",
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 425.0, 44.0, 33.0, 31.0 ],
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 441.0, 55.0, 57.0, 19.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "flonum",
+									"varname" : "Preamp[4]",
+									"minimum" : -48.0,
+									"id" : "obj-56",
+									"triscale" : 0.9,
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 423.0, 142.0, 36.0, 19.0 ],
+									"numinlets" : 1,
+									"triangle" : 0,
+									"maximum" : 15.0,
+									"numoutlets" : 2,
+									"patching_rect" : [ 964.0, 366.0, 48.0, 19.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "float", "bang" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"varname" : "preamp[2]",
+									"text" : "j.parameter IR.4/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+									"linecount" : 3,
+									"id" : "obj-57",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"patching_rect" : [ 964.0, 394.0, 593.0, 43.0 ],
+									"fontsize" : 10.0,
+									"outlettype" : [ "", "", "" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "flonum",
+									"varname" : "#0-IR.1/gain",
+									"minimum" : -48.0,
+									"id" : "obj-50",
+									"triscale" : 0.9,
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 423.0, 73.0, 35.0, 19.0 ],
+									"numinlets" : 1,
+									"triangle" : 0,
+									"maximum" : 15.0,
+									"numoutlets" : 2,
+									"patching_rect" : [ 854.0, 202.0, 48.0, 19.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "float", "bang" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "flonum",
+									"varname" : "#0-IR.2/gain",
+									"minimum" : -48.0,
+									"id" : "obj-48",
+									"triscale" : 0.9,
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 423.0, 95.0, 35.0, 19.0 ],
+									"numinlets" : 1,
+									"triangle" : 0,
+									"maximum" : 15.0,
+									"numoutlets" : 2,
+									"patching_rect" : [ 854.0, 305.0, 48.0, 19.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "float", "bang" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "flonum",
+									"varname" : "Preamp[1]",
+									"minimum" : -48.0,
+									"id" : "obj-44",
+									"triscale" : 0.9,
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 423.0, 118.0, 36.0, 19.0 ],
+									"numinlets" : 1,
+									"triangle" : 0,
+									"maximum" : 15.0,
+									"numoutlets" : 2,
+									"patching_rect" : [ 970.0, 241.0, 48.0, 19.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "float", "bang" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"varname" : "preamp[1]",
+									"text" : "j.parameter IR.3/gain @type decimal @range -48 15 @clipmode both @ramp/drive scheduler @ramp/function linear @dataspace gain @unit/active dB @unit/native dB @description \"Individual gain (dB) applied to each impulse response\"",
+									"linecount" : 3,
+									"id" : "obj-45",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"patching_rect" : [ 970.0, 268.0, 593.0, 43.0 ],
+									"fontsize" : 10.0,
+									"outlettype" : [ "", "", "" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"text" : "s #0-IR.2/buffer",
+									"id" : "obj-42",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 754.0, 312.0, 93.0, 20.0 ],
+									"fontsize" : 12.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"text" : "s #0-IR.2/open",
+									"id" : "obj-43",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 661.0, 313.0, 89.0, 20.0 ],
+									"fontsize" : 12.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"text" : "s #0-IR.1/buffer",
+									"id" : "obj-41",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 757.0, 224.0, 93.0, 20.0 ],
+									"fontsize" : 12.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "newobj",
+									"text" : "s #0-IR.1/open",
+									"id" : "obj-39",
+									"fontname" : "Arial",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 664.0, 225.0, 89.0, 20.0 ],
+									"fontsize" : 12.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "textbutton",
+									"varname" : "Open_button[3]",
+									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"rounded" : 15.0,
+									"bgovercolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
+									"textcolor" : [ 0.14902, 0.14902, 0.14902, 0.466667 ],
+									"id" : "obj-40",
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 247.0, 95.0, 38.0, 19.0 ],
+									"numinlets" : 1,
+									"bgoveroncolor" : [ 1.0, 0.239216, 0.239216, 0.490196 ],
+									"borderoncolor" : [ 0.4, 0.4, 0.4, 0.423529 ],
+									"numoutlets" : 3,
+									"text" : "buffer",
+									"patching_rect" : [ 747.0, 284.0, 40.0, 18.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "", "", "int" ],
+									"bordercolor" : [ 0.6, 0.6, 0.6, 0.396078 ],
+									"texton" : "DSP"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "textbutton",
+									"varname" : "Open_button[1]",
+									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"rounded" : 15.0,
+									"bgovercolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
+									"textcolor" : [ 0.14902, 0.14902, 0.14902, 0.466667 ],
+									"id" : "obj-82",
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 247.0, 73.0, 38.0, 19.0 ],
+									"numinlets" : 1,
+									"bgoveroncolor" : [ 1.0, 0.239216, 0.239216, 0.490196 ],
+									"borderoncolor" : [ 0.4, 0.4, 0.4, 0.423529 ],
+									"numoutlets" : 3,
+									"text" : "buffer",
+									"patching_rect" : [ 746.0, 194.0, 40.0, 18.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "", "", "int" ],
+									"bordercolor" : [ 0.6, 0.6, 0.6, 0.396078 ],
+									"texton" : "DSP"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "textbutton",
+									"varname" : "Open_button",
+									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"rounded" : 15.0,
+									"bgovercolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
+									"textcolor" : [ 0.14902, 0.14902, 0.14902, 0.466667 ],
+									"id" : "obj-1",
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 182.0, 73.0, 64.0, 19.0 ],
+									"numinlets" : 1,
+									"bgoveroncolor" : [ 1.0, 0.239216, 0.239216, 0.490196 ],
+									"borderoncolor" : [ 0.4, 0.4, 0.4, 0.423529 ],
+									"numoutlets" : 3,
+									"text" : "Open",
+									"patching_rect" : [ 687.0, 194.0, 50.0, 18.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "", "", "int" ],
+									"bordercolor" : [ 0.6, 0.6, 0.6, 0.396078 ],
+									"texton" : "DSP"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "textbutton",
+									"varname" : "Open_button[2]",
+									"bgcolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
+									"rounded" : 15.0,
+									"bgovercolor" : [ 0.698039, 0.698039, 0.698039, 0.0 ],
+									"textcolor" : [ 0.14902, 0.14902, 0.14902, 0.466667 ],
+									"id" : "obj-75",
+									"fontname" : "Verdana",
+									"presentation_rect" : [ 182.0, 95.0, 64.0, 19.0 ],
+									"numinlets" : 1,
+									"bgoveroncolor" : [ 1.0, 0.239216, 0.239216, 0.490196 ],
+									"borderoncolor" : [ 0.4, 0.4, 0.4, 0.423529 ],
+									"numoutlets" : 3,
+									"text" : "Open",
+									"patching_rect" : [ 687.0, 284.0, 50.0, 18.0 ],
+									"fontsize" : 10.0,
+									"presentation" : 1,
+									"outlettype" : [ "", "", "int" ],
+									"bordercolor" : [ 0.6, 0.6, 0.6, 0.396078 ],
+									"texton" : "DSP"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "j.meter~",
+									"id" : "obj-22",
+									"presentation_rect" : [ 14.0, 163.0, 80.0, 4.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 484.0, 936.0, 80.0, 4.0 ],
+									"presentation" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "j.meter~",
+									"id" : "obj-25",
+									"presentation_rect" : [ 14.0, 137.0, 80.0, 4.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 372.0, 936.0, 80.0, 4.0 ],
+									"presentation" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "j.meter~",
+									"id" : "obj-53",
+									"presentation_rect" : [ 14.0, 113.0, 80.0, 4.0 ],
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 264.0, 936.0, 80.0, 4.0 ],
+									"presentation" : 1
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
+								}
+
+							}
+, 							{
+								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-24",
 									"maxclass" : "comment",
+=======
+									"maxclass" : "j.meter~",
+									"id" : "obj-54",
+									"presentation_rect" : [ 14.0, 89.0, 80.0, 4.0 ],
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1317.0, 424.0, 57.0, 19.0 ],
@@ -3407,10 +3888,22 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"text" : "j.oscroute /filename /size /channels",
+									"id" : "obj-17",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-98",
 									"maxclass" : "newobj",
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"text" : "j.oscroute /IR/info /IR/mute",
+									"id" : "obj-18",
+									"fontname" : "Verdana",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -3425,7 +3918,14 @@
 									"fontsize" : 12.0,
 									"id" : "obj-99",
 									"maxclass" : "newobj",
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 									"numinlets" : 2,
+=======
+									"text" : "j.oscinstance",
+									"id" : "obj-88",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 1102.0, 348.0, 59.5, 20.0 ],
@@ -3492,6 +3992,13 @@
 									"fontsize" : 12.0,
 									"id" : "obj-17",
 									"maxclass" : "newobj",
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"varname" : "saturation/active[2]",
+									"text" : "j.parameter IR.4/reverse @type boolean @description \"Reverse IR on/off\"",
+									"id" : "obj-11",
+									"fontname" : "Verdana",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
@@ -3516,6 +4023,13 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "saturation/active[3]",
+									"text" : "j.parameter IR.3/reverse @type boolean @description \"Reverse IR on/off\"",
+									"id" : "obj-14",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-88",
@@ -3547,6 +4061,13 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "saturation/active[1]",
+									"text" : "j.parameter IR.2/reverse @type boolean @description \"Reverse IR on/off\"",
+									"id" : "obj-5",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3637,6 +4158,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[9]",
+									"text" : "j.message IR.4/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+									"linecount" : 2,
+									"id" : "obj-111",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-11",
@@ -3676,6 +4205,14 @@
 									"fontsize" : 10.0,
 									"id" : "obj-14",
 									"maxclass" : "newobj",
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"varname" : "hue_angle[10]",
+									"text" : "j.message IR.3/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+									"linecount" : 2,
+									"id" : "obj-116",
+									"fontname" : "Verdana",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
@@ -3707,6 +4244,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[7]",
+									"text" : "j.message IR.4/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
+									"linecount" : 2,
+									"id" : "obj-76",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-5",
@@ -3722,12 +4267,21 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 									"annotation" : "Reverse IR on/off",
 									"disabled" : [ 0 ],
 									"id" : "obj-6",
 									"inactivecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"itemtype" : 1,
 									"maxclass" : "radiogroup",
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[8]",
+									"text" : "j.message IR.3/buffer @type generic @repetitions/filter 0 @description \"Open buffer window, displaying impulse response\"",
+									"linecount" : 2,
+									"id" : "obj-90",
+									"fontname" : "Verdana",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -3762,6 +4316,12 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"text" : "j.oscroute /maxlength /latency",
+									"id" : "obj-89",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-89",
@@ -3776,6 +4336,12 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"text" : "j.oscroute /info",
+									"id" : "obj-87",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-87",
@@ -3926,6 +4492,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "hue_angle[3]",
+									"text" : "j.parameter channels @repetitions/filter 0 @type integer @range 1 4 @clipmode both @priority 4 @description \"Number of active processing channels\"",
+									"linecount" : 2,
+									"id" : "obj-31",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-31",
@@ -3962,7 +4536,14 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 									"color" : [ 0.8, 0.839216, 0.709804, 1.0 ],
+=======
+									"maxclass" : "newobj",
+									"varname" : "module_in[1]",
+									"text" : "j.parameter SegmentSize @repetitions/filter 0 @type integer",
+									"id" : "obj-86",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-86",
@@ -3978,6 +4559,13 @@
 							}
 , 							{
 								"box" : 								{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+									"maxclass" : "newobj",
+									"varname" : "saturation/active",
+									"text" : "j.parameter IR.1/reverse @type boolean @description \"Reverse IR on/off\"",
+									"id" : "obj-47",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-47",
@@ -4085,6 +4673,12 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+													"maxclass" : "newobj",
+													"text" : "j.oscroute /view/panel",
+													"id" : "obj-2",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 													"fontname" : "Verdana",
 													"fontsize" : 9.873845,
 													"id" : "obj-2",
@@ -4885,8 +5479,13 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
+=======
+					"maxclass" : "newobj",
+					"text" : "j.out~ 4",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
@@ -4899,6 +5498,12 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
+=======
+					"maxclass" : "newobj",
+					"text" : "j.in~ 4",
+					"id" : "obj-8",
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-8",
@@ -5021,6 +5626,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-37",
 					"maxclass" : "newobj",
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -5051,6 +5657,171 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 233.0, 22.0, 22.0 ]
 				}
+=======
+					"text" : "p read_me_for_programming_details",
+					"textcolor" : [ 0.290196, 0.611765, 0.380392, 1.0 ],
+					"id" : "obj-44",
+					"fontname" : "Arial",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 371.0, 13.0, 240.0, 23.0 ],
+					"fontsize" : 14.0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 50.0, 94.0, 519.0, 433.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 50.0, 94.0, 519.0, 433.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 0,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"metadata" : [  ],
+						"boxes" : [ 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "for j.return only",
+									"id" : "obj-2",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 11.0, 364.0, 113.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "@enable",
+									"id" : "obj-25",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 384.0, 77.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "1/0 : enables the send of data (on by default)",
+									"id" : "obj-28",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 146.0, 384.0, 302.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "@ramp/scheduler",
+									"id" : "obj-20",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 254.0, 105.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "scheduler/queue...",
+									"id" : "obj-21",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 146.0, 254.0, 105.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "@description",
+									"id" : "obj-45",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 334.0, 75.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "@repetitions/allow",
+									"id" : "obj-46",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 274.0, 105.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "@ramp/function",
+									"id" : "obj-47",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 234.0, 92.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "@clipmode",
+									"id" : "obj-48",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 314.0, 101.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "@range",
+									"id" : "obj-49",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 294.0, 91.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 
 			}
 , 			{
@@ -5066,6 +5837,7 @@
 					"text" : "/documentation/generate"
 				}
 
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 			}
 , 			{
 				"box" : 				{
@@ -5134,6 +5906,65 @@
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"text" : "/editing_this_module"
 				}
+=======
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "If you need to return messages from your algorithm to the rest of the world. you can specify type, range... etc as in j.parameter or j.message",
+									"linecount" : 3,
+									"id" : "obj-4",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 139.0, 370.0, 43.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "j.return:",
+									"id" : "obj-5",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 11.0, 119.0, 380.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "If you need to send messages to or within the patch, but it's not required that they be stored or retrieveable, use j.message.",
+									"linecount" : 2,
+									"id" : "obj-6",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 36.0, 79.0, 342.0, 31.0 ],
+									"fontsize" : 10.0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "j.message:",
+									"id" : "obj-7",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 11.0, 59.0, 366.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 
 			}
  ],
@@ -5145,6 +5976,7 @@
 					"source" : [ "obj-1", 0 ]
 				}
 
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 			}
 , 			{
 				"patchline" : 				{
@@ -5153,6 +5985,21 @@
 					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
+=======
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "j.parameter:",
+									"id" : "obj-9",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 11.0, 9.0, 293.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 
 			}
 , 			{
@@ -5209,6 +6056,7 @@
 					"source" : [ "obj-11", 1 ]
 				}
 
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 			}
 , 			{
 				"patchline" : 				{
@@ -5217,6 +6065,21 @@
 					"hidden" : 0,
 					"source" : [ "obj-11", 4 ]
 				}
+=======
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Attributes for j.parameter and j.message:",
+									"id" : "obj-51",
+									"fontname" : "Verdana",
+									"numinlets" : 1,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"numoutlets" : 0,
+									"patching_rect" : [ 11.0, 194.0, 295.0, 19.0 ],
+									"fontsize" : 10.0
+								}
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 
 			}
 , 			{
@@ -5247,11 +6110,26 @@
 
 			}
 , 			{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 2 ]
+=======
+				"box" : 				{
+					"maxclass" : "newobj",
+					"varname" : "hue_angle",
+					"text" : "j.message IR.1/open @type generic @repetitions/filter 0 @description \"Open impulse response specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"linecount" : 2,
+					"id" : "obj-29",
+					"fontname" : "Verdana",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"patching_rect" : [ 611.0, 138.0, 592.0, 31.0 ],
+					"fontsize" : 10.0,
+					"outlettype" : [ "", "", "" ]
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 				}
 
 			}
@@ -5274,11 +6152,25 @@
 
 			}
 , 			{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-110", 0 ]
+=======
+				"box" : 				{
+					"maxclass" : "newobj",
+					"varname" : "j.model",
+					"text" : "j.model @module_type audio @description \"4 channels convolution based on tconvolution.mxo\"",
+					"id" : "obj-37",
+					"fontname" : "Verdana",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"patching_rect" : [ 16.0, 193.0, 503.0, 19.0 ],
+					"fontsize" : 10.0,
+					"outlettype" : [ "", "" ]
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 				}
 
 			}
@@ -5310,11 +6202,31 @@
 
 			}
 , 			{
+<<<<<<< HEAD:Zconvolution/jmod.Zconvolution~.maxpat
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
+=======
+				"box" : 				{
+					"maxclass" : "j.ui",
+					"text" : "/editing_this_module",
+					"has_bypass" : 1,
+					"id" : "obj-16",
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
+					"numinlets" : 1,
+					"has_meters" : 1,
+					"has_panel" : 1,
+					"has_gain" : 1,
+					"numoutlets" : 1,
+					"has_mix" : 1,
+					"patching_rect" : [ 2.0, 2.0, 300.0, 70.0 ],
+					"prefix" : "audio",
+					"presentation" : 1,
+					"outlettype" : [ "" ],
+					"has_mute" : 1
+>>>>>>> dyew:tconvolution/jmod.tconvolution~.maxpat
 				}
 
 			}

@@ -24,7 +24,7 @@
 					"fgcolor" : [ 0.258824, 0.258824, 0.623529, 1.0 ],
 					"fontsize" : 9.0,
 					"id" : "obj-9",
-					"maxclass" : "jcom.textslider",
+					"maxclass" : "j.textslider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -61,7 +61,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"patching_rect" : [ 275.0, 330.0, 97.0, 20.0 ],
-					"text" : "jcom.out~ 1"
+					"text" : "j.out~ 1"
 				}
 
 			}
@@ -230,8 +230,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 170.0, 233.0, 120.0, 110.0 ],
 									"text" : "jcom.parameter pause_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\" @ramp/drive scheduler",
+=======
+									"patching_rect" : [ 170.0, 233.0, 120.0, 100.0 ],
+									"text" : "j.parameter pause_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"deviated pause time for random modulation. (fragmented mode only).\"",
+>>>>>>> dyew
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -247,8 +252,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 43.0, 233.0, 113.0, 110.0 ],
 									"text" : "jcom.parameter pause_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\" @ramp/drive scheduler",
+=======
+									"patching_rect" : [ 43.0, 233.0, 113.0, 100.0 ],
+									"text" : "j.parameter pause_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center pause time for random modulation. (fragmented mode only)\"",
+>>>>>>> dyew
 									"varname" : "jmod.parameter.mxb[11]"
 								}
 
@@ -725,8 +735,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 172.0, 235.0, 109.0, 100.0 ],
 									"text" : "jcom.parameter time_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"deviated time for random modulation.\" @ramp/drive scheduler",
+=======
+									"patching_rect" : [ 172.0, 234.0, 109.0, 89.0 ],
+									"text" : "j.parameter time_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"deviated time for random modulation.\"",
+>>>>>>> dyew
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -742,8 +757,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 42.0, 234.0, 111.0, 100.0 ],
 									"text" : "jcom.parameter time_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center time for random modulation.\" @ramp/drive scheduler",
+=======
+									"patching_rect" : [ 42.0, 234.0, 111.0, 89.0 ],
+									"text" : "j.parameter time_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center time for random modulation.\"",
+>>>>>>> dyew
 									"varname" : "jmod.parameter.mxb[11]"
 								}
 
@@ -1081,8 +1101,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 					"patching_rect" : [ 555.0, 280.0, 355.0, 38.0 ],
 					"text" : "jcom.parameter hardness @type decimal @range/bounds 0. 1. @range/clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\" @ramp/drive scheduler",
+=======
+					"patching_rect" : [ 555.0, 280.0, 354.0, 27.0 ],
+					"text" : "j.parameter hardness @type decimal @range 0. 1. @clipmode both @description \"The hardness of the fragmentatoin slope(only in frag mode).\"",
+>>>>>>> dyew
 					"varname" : "jmod.parameter.mxb[18]"
 				}
 
@@ -1099,7 +1124,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 549.0, 88.0, 326.0, 27.0 ],
-					"text" : "jcom.parameter mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\"",
+					"text" : "j.parameter mode @type integer @description \"Select dynamic modulation mode to use (fluctuant or fragmented).\"",
 					"varname" : "mod_mode"
 				}
 
@@ -1254,8 +1279,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
+<<<<<<< HEAD
 									"patching_rect" : [ 170.0, 233.0, 399.0, 38.0 ],
 									"text" : "jcom.parameter volume_ambitus/deviation @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Select min and max value of volume for random modulation.\" @ramp/drive scheduler",
+=======
+									"patching_rect" : [ 170.0, 233.0, 400.0, 38.0 ],
+									"text" : "j.parameter volume_ambitus/deviation @type decimal @range 0. 1. @clipmode both @description \"Select min and max value of volume for random modulation.\"",
+>>>>>>> dyew
 									"varname" : "jmod.parameter.mxb[1]"
 								}
 
@@ -1272,7 +1302,11 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 36.0, 298.0, 446.0, 27.0 ],
+<<<<<<< HEAD
 									"text" : "jcom.parameter volume_ambitus/center @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Center volume for random modulation.\" @ramp/drive scheduler",
+=======
+									"text" : "j.parameter volume_ambitus/center @type decimal @range 0. 1. @clipmode both @description \"Center volume for random modulation.\"",
+>>>>>>> dyew
 									"varname" : "jmod.parameter.mxb[11]"
 								}
 
@@ -1781,7 +1815,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 275.0, 270.0, 97.0, 20.0 ],
-					"text" : "jcom.in~ 1"
+					"text" : "j.in~ 1"
 				}
 
 			}
@@ -1810,8 +1844,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 40.0, 204.0, 435.0, 20.0 ],
-					"text" : "jcom.hub @module_type audio @description \"enveloppe modulation\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @module_type audio @description \"enveloppe modulation\"",
+					"varname" : "j.model"
 				}
 
 			}
@@ -1886,7 +1920,7 @@
 					"has_mix" : 1,
 					"has_panel" : 1,
 					"id" : "obj-62",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

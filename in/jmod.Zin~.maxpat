@@ -26,7 +26,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 166.0, 306.0, 121.0, 17.0 ],
-					"text" : "jcom.oscroute /audio/mute"
+					"text" : "j.oscroute /audio/mute"
 				}
 
 			}
@@ -43,7 +43,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 445.0, 270.0, 431.0, 27.0 ],
-					"text" : "jcom.parameter enveloppe/attack @type decimal @description \"Attack of the enveloppe folower in ms\" @repetitions/allow 1 @range/bounds 0. 2000.",
+					"text" : "j.parameter enveloppe/attack @type decimal @description \"Attack of the enveloppe folower in ms\" @repetitions/filter 0 @range 0. 2000.",
 					"varname" : "jmod.parameter.mxb[3]"
 				}
 
@@ -113,7 +113,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 445.0, 330.0, 436.0, 27.0 ],
-					"text" : "jcom.parameter enveloppe/release @type decimal @description \"Release of the enveloppe folower in ms\" @repetitions/allow 1 @range/bounds 0. 10000.",
+					"text" : "j.parameter enveloppe/release @type decimal @description \"Release of the enveloppe folower in ms\" @repetitions/filter 0 @range 0. 10000.",
 					"varname" : "jmod.parameter.mxb[4]"
 				}
 
@@ -201,7 +201,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 438.0, 208.0, 409.0, 27.0 ],
-					"text" : "jcom.parameter inputnumber @type integer @description \"Number of the audio channel input\" @priority 30",
+					"text" : "j.parameter inputnumber @type integer @description \"Number of the audio channel input\" @priority 30",
 					"varname" : "jmod.parameter.mxb[1]"
 				}
 
@@ -267,7 +267,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.0, 228.0, 298.0, 17.0 ],
-					"text" : "jcom.hub @module_type audio @description \"Audio input module\"",
+					"text" : "j.model @module_type audio @description \"Audio input module\"",
 					"varname" : "jmod.hub"
 				}
 
@@ -351,7 +351,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 290.0, 390.0, 434.0, 27.0 ],
-					"text" : "jcom.return enveloppe @type decimal @range/bounds 0. 1. @range/clipmode both @description \"Enveloppe follower\"",
+					"text" : "j.return enveloppe @type decimal @range 0. 1. @clipmode both @description \"Enveloppe follower\"",
 					"varname" : "jmod.parameter.mxb[2]"
 				}
 
@@ -366,7 +366,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 165.0, 280.0, 78.0, 17.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -383,7 +383,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 432.0, 138.0, 420.0, 27.0 ],
-					"text" : "jcom.parameter inputname @type array @description \"Name of the audio channel input\" @priority 31",
+					"text" : "j.parameter inputname @type array @description \"Name of the audio channel input\" @priority 31",
 					"varname" : "jmod.parameter.mxb[7]"
 				}
 
@@ -406,7 +406,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -423,7 +423,7 @@
 					"has_meters" : 1,
 					"has_mute" : 1,
 					"id" : "obj-59",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

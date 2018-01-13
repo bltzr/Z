@@ -18,7 +18,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.meter_receive 1",
+					"text" : "j.meter_receive 1",
 					"id" : "obj-5",
 					"fontname" : "Verdana",
 					"numinlets" : 0,
@@ -32,7 +32,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.out~ 1",
+					"text" : "j.out~ 1",
 					"id" : "obj-2",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -45,7 +45,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.meter~",
+					"maxclass" : "j.meter~",
 					"presentation" : 1,
 					"id" : "obj-3",
 					"numinlets" : 1,
@@ -58,7 +58,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.oscroute /view/panel",
+					"text" : "j.oscroute /view/panel",
 					"id" : "obj-1",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -86,7 +86,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.in~ 1",
+					"text" : "j.in~ 1",
 					"id" : "obj-6",
 					"fontname" : "Verdana",
 					"numinlets" : 1,
@@ -281,7 +281,7 @@
 								"box" : 								{
 									"maxclass" : "newobj",
 									"varname" : "max_bands",
-									"text" : "t max_bands @type integer @range/bounds 1 24 @range/clipmode both @repetitions/allow 0 @ramp/drive none @description \"Maximum Number of bands of the filter\"",
+									"text" : "t max_bands @type integer @range 1 24 @clipmode both @repetitions/filter 1 @ramp/drive none @description \"Maximum Number of bands of the filter\"",
 									"linecount" : 3,
 									"id" : "obj-8",
 									"fontname" : "Verdana",
@@ -289,7 +289,7 @@
 									"numinlets" : 1,
 									"fontsize" : 9.873845,
 									"numoutlets" : 14,
-									"outlettype" : [ "max_bands", "@type", "integer", "@range/bounds", "int", "int", "@range/clipmode", "both", "@repetitions/allow", "int", "@ramp/drive", "none", "@description", "Maximum Number of bands of the filter" ],
+									"outlettype" : [ "max_bands", "@type", "integer", "@range", "int", "int", "@clipmode", "both", "@repetitions/allow", "int", "@ramp/drive", "none", "@description", "Maximum Number of bands of the filter" ],
 									"patching_rect" : [ 405.0, 238.0, 341.0, 42.0 ]
 								}
 
@@ -545,7 +545,7 @@
 				"box" : 				{
 					"maxclass" : "newobj",
 					"varname" : "bands",
-					"text" : "jcom.parameter bands @type integer @repetitions/allow 1 @priority 1 @description \"Number of bands of the filter\"",
+					"text" : "j.parameter bands @type integer @repetitions/filter 0 @priority 1 @description \"Number of bands of the filter\"",
 					"linecount" : 2,
 					"id" : "obj-12",
 					"fontname" : "Verdana",
@@ -555,7 +555,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 460.0, 125.0, 315.0, 31.0 ],
 					"frozen_object_attributes" : 					{
-						"range/bounds" : [ 1.0, 5.0 ]
+						"range" : [ 1.0, 5.0 ]
 					}
 
 				}
@@ -600,7 +600,7 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"text" : "jcom.message filtergraph @description \"Messages to filtergraph. See the MSP reference for further details\"",
+					"text" : "j.message filtergraph @description \"Messages to filtergraph. See the MSP reference for further details\"",
 					"linecount" : 2,
 					"id" : "obj-20",
 					"fontname" : "Verdana",
@@ -863,7 +863,7 @@
 , 							{
 								"box" : 								{
 									"maxclass" : "newobj",
-									"text" : "jcom.thru",
+									"text" : "j.thru",
 									"id" : "obj-20",
 									"fontname" : "Verdana",
 									"numinlets" : 1,
@@ -1357,8 +1357,8 @@
 , 			{
 				"box" : 				{
 					"maxclass" : "newobj",
-					"varname" : "jcom.hub",
-					"text" : "jcom.hub @module_type audio @description \"Multi-band equalizer\"",
+					"varname" : "j.model",
+					"text" : "j.model @module_type audio @description \"Multi-band equalizer\"",
 					"linecount" : 2,
 					"id" : "obj-29",
 					"fontname" : "Verdana",
@@ -1488,7 +1488,7 @@
 			}
 , 			{
 				"box" : 				{
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"text" : "/editing_this_module",
 					"presentation" : 1,
 					"id" : "obj-42",

@@ -26,7 +26,7 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "", "", "", "", "", "" ],
 					"patching_rect" : [ 8.0, 434.0, 402.0, 18.0 ],
-					"text" : "jcom.oscroute /listCue /currentCueId /currentCueName /currentCueMode /getStateMode"
+					"text" : "j.oscroute /listCue /currentCueId /currentCueName /currentCueMode /getStateMode"
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 765.0, 331.0, 290.0, 29.0 ],
-					"text" : "jcom.message store/asNext @type generic @description \"store the state of the patch after the current cue (insert)\""
+					"text" : "j.message store/asNext @type generic @description \"store the state of the patch after the current cue (insert)\""
 				}
 
 			}
@@ -124,7 +124,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 766.0, 263.0, 324.0, 29.0 ],
-					"text" : "jcom.message store/as @type array @repetitions/allow 1 @description \"store the state of the patch after the current cue (insert)\""
+					"text" : "j.message store/as @type array @repetitions/filter 0 @description \"store the state of the patch after the current cue (insert)\""
 				}
 
 			}
@@ -139,7 +139,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 294.0, 321.0, 274.0, 29.0 ],
-					"text" : "jcom.message remove @type integer @repetitions/allow 1 @description \"remove a cue\""
+					"text" : "j.message remove @type integer @repetitions/filter 0 @description \"remove a cue\""
 				}
 
 			}
@@ -573,7 +573,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 765.0, 457.0, 401.0, 29.0 ],
-					"text" : "jcom.message store/asNextStep @type integer @range/bounds 0 @repetitions/allow 1 @description \"store the state of the patch after the current cue (insert)\""
+					"text" : "j.message store/asNextStep @type integer @range 0 @repetitions/filter 0 @description \"store the state of the patch after the current cue (insert)\""
 				}
 
 			}
@@ -588,7 +588,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 85.0, 527.0, 304.0, 29.0 ],
-					"text" : "jcom.parameter currentCueId @type integer @repetitions/allow 1 @description \"the index of the current cue\""
+					"text" : "j.parameter currentCueId @type integer @repetitions/filter 0 @description \"the index of the current cue\""
 				}
 
 			}
@@ -617,7 +617,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 161.0, 563.0, 343.0, 29.0 ],
-					"text" : "jcom.parameter currentCueName @type string @repetitions/allow 1 @description \"the name of the current cue\""
+					"text" : "j.parameter currentCueName @type string @repetitions/filter 0 @description \"the name of the current cue\""
 				}
 
 			}
@@ -632,7 +632,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 8.0, 493.0, 273.0, 29.0 ],
-					"text" : "jcom.parameter listCue @type array @repetitions/allow 1 @description \"the cues name list\""
+					"text" : "j.parameter listCue @type array @repetitions/filter 0 @description \"the cues name list\""
 				}
 
 			}
@@ -686,7 +686,7 @@
 									"numoutlets" : 14,
 									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 20.0, 30.0, 737.0, 20.0 ],
-									"text" : "jcom.oscroute /getState /store /edit /view /load /saveAs /save /copy /move /rename /remove /dump /getStateMode"
+									"text" : "j.oscroute /getState /store /edit /view /load /saveAs /save /copy /move /rename /remove /dump /getStateMode"
 								}
 
 							}
@@ -2521,7 +2521,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 163.0, 367.0, 112.0, 29.0 ],
-													"text" : "jcom.send jcom.remote.module.to"
+													"text" : "j.send j.remote.module.to"
 												}
 
 											}
@@ -3991,7 +3991,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
 													"patching_rect" : [ 26.0, 63.0, 217.0, 20.0 ],
-													"text" : "jcom.oscroute /as /asNext /asNextStep"
+													"text" : "j.oscroute /as /asNext /asNextStep"
 												}
 
 											}
@@ -5073,7 +5073,7 @@
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
 									"patching_rect" : [ 364.0, 515.0, 402.0, 18.0 ],
-									"text" : "jcom.oscroute /listCue /currentCueId /currentCueName /currentCueMode /getStateMode"
+									"text" : "j.oscroute /listCue /currentCueId /currentCueName /currentCueMode /getStateMode"
 								}
 
 							}
@@ -8455,7 +8455,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 150.0, 262.0, 171.0, 18.0 ],
-																	"text" : "jcom.oscroute /parameter_value"
+																	"text" : "j.oscroute /parameter_value"
 																}
 
 															}
@@ -8484,7 +8484,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 150.0, 210.0, 228.0, 18.0 ],
-																	"text" : "jcom.receive \"that deaf dumb and blind kid\""
+																	"text" : "j.receive \"that deaf dumb and blind kid\""
 																}
 
 															}
@@ -8498,7 +8498,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 150.0, 233.0, 93.0, 18.0 ],
-																	"text" : "jcom.oscroute /*"
+																	"text" : "j.oscroute /*"
 																}
 
 															}
@@ -8513,7 +8513,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 160.0, 140.0, 182.0, 18.0 ],
-																	"text" : "jcom.send jcom.remote.module.to"
+																	"text" : "j.send j.remote.module.to"
 																}
 
 															}
@@ -8554,7 +8554,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 352.0, 173.0, 210.0, 42.0 ],
-																	"text" : "This stops jcom.receive from listening if we are not currently requesting the names of all modules."
+																	"text" : "This stops j.receive from listening if we are not currently requesting the names of all modules."
 																}
 
 															}
@@ -8623,7 +8623,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 180.0, 184.0, 170.0, 16.0 ],
-																	"text" : "name jcom.remote.module.from"
+																	"text" : "name j.remote.module.from"
 																}
 
 															}
@@ -8718,7 +8718,7 @@
 																					"numoutlets" : 2,
 																					"outlettype" : [ "", "" ],
 																					"patching_rect" : [ 250.0, 470.0, 228.0, 18.0 ],
-																					"text" : "jcom.receive \"that deaf dumb and blind kid\""
+																					"text" : "j.receive \"that deaf dumb and blind kid\""
 																				}
 
 																			}
@@ -8733,7 +8733,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 275.0, 375.0, 182.0, 18.0 ],
-																					"text" : "jcom.send jcom.remote.module.to"
+																					"text" : "j.send j.remote.module.to"
 																				}
 
 																			}
@@ -9111,7 +9111,7 @@
 																									"numoutlets" : 2,
 																									"outlettype" : [ "", "" ],
 																									"patching_rect" : [ 50.0, 225.0, 228.0, 18.0 ],
-																									"text" : "jcom.receive \"that deaf dumb and blind kid\""
+																									"text" : "j.receive \"that deaf dumb and blind kid\""
 																								}
 
 																							}
@@ -9142,7 +9142,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 61.0, 119.0, 125.0, 30.0 ],
-																									"text" : "jcom.send jcom.remote.module.to"
+																									"text" : "j.send j.remote.module.to"
 																								}
 
 																							}
@@ -9171,7 +9171,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 80.0, 199.0, 170.0, 16.0 ],
-																									"text" : "name jcom.remote.module.from"
+																									"text" : "name j.remote.module.from"
 																								}
 
 																							}
@@ -9528,7 +9528,7 @@
 																									"numoutlets" : 2,
 																									"outlettype" : [ "", "" ],
 																									"patching_rect" : [ 188.0, 248.0, 228.0, 18.0 ],
-																									"text" : "jcom.receive \"that deaf dumb and blind kid\""
+																									"text" : "j.receive \"that deaf dumb and blind kid\""
 																								}
 
 																							}
@@ -10076,7 +10076,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 218.0, 222.0, 170.0, 16.0 ],
-																									"text" : "name jcom.remote.module.from"
+																									"text" : "name j.remote.module.from"
 																								}
 
 																							}
@@ -10599,7 +10599,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 280.0, 444.0, 170.0, 16.0 ],
-																					"text" : "name jcom.remote.module.from"
+																					"text" : "name j.remote.module.from"
 																				}
 
 																			}
@@ -13652,7 +13652,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 241.0, 260.0, 178.0, 18.0 ],
-					"text" : "jcom.oscroute /copy /remove /rename"
+					"text" : "j.oscroute /copy /remove /rename"
 				}
 
 			}
@@ -13697,7 +13697,7 @@
 					"has_panel" : 1,
 					"headercolor" : [ 0.82, 0.82, 0.82, 1.0 ],
 					"id" : "obj-22",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -13750,7 +13750,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 165.0, 155.0, 29.0 ],
-					"text" : "jcom.hub @module_type control @description \"a cue list module\""
+					"text" : "j.model @module_type control @description \"a cue list module\""
 				}
 
 			}
@@ -13765,7 +13765,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 470.0, 431.0, 241.0, 29.0 ],
-					"text" : "jcom.parameter live @type boolean @repetitions/allow 0 @description \"getState mode\""
+					"text" : "j.parameter live @type boolean @repetitions/filter 1 @description \"getState mode\""
 				}
 
 			}
@@ -13779,7 +13779,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 241.0, 175.0, 103.0, 18.0 ],
-					"text" : "jcom.panelopen"
+					"text" : "j.panelopen"
 				}
 
 			}
@@ -13808,7 +13808,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 347.0, 353.0, 277.0, 29.0 ],
-					"text" : "jcom.message rename @type array @repetitions/allow 1 @description \"rename a cue\""
+					"text" : "j.message rename @type array @repetitions/filter 0 @description \"rename a cue\""
 				}
 
 			}
@@ -13878,7 +13878,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 269.0, 690.0, 389.0, 18.0 ],
-					"text" : "jcom.message dump @repetitions/allow 1 @type integer @description \"dump a cue\""
+					"text" : "j.message dump @repetitions/filter 0 @type integer @description \"dump a cue\""
 				}
 
 			}
@@ -13916,7 +13916,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 470.0, 494.0, 241.0, 29.0 ],
-					"text" : "jcom.parameter getStateMode @type boolean @repetitions/allow 1 @description \"getState mode\""
+					"text" : "j.parameter getStateMode @type boolean @repetitions/filter 0 @description \"getState mode\""
 				}
 
 			}
@@ -13930,7 +13930,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 107.0, 260.0, 120.0, 18.0 ],
-					"text" : "jcom.pass copy @strip 0"
+					"text" : "j.pass copy @strip 0"
 				}
 
 			}
@@ -13974,7 +13974,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 848.0, 627.0, 344.0, 29.0 ],
-					"text" : "jcom.message load @type string @repetitions/allow 1 @description \"load a cuelist file\""
+					"text" : "j.message load @type string @repetitions/filter 0 @description \"load a cuelist file\""
 				}
 
 			}
@@ -14299,7 +14299,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 10.0, 715.0, 262.0, 29.0 ],
-					"text" : "jcom.message previousCue @repetitions/allow 1 @type none @description \"dump the next cue\""
+					"text" : "j.message previousCue @repetitions/filter 0 @type none @description \"dump the next cue\""
 				}
 
 			}
@@ -14327,7 +14327,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 820.0, 685.0, 385.0, 18.0 ],
-					"text" : "jcom.message save @type generic @description \"save the cues in the last file\""
+					"text" : "j.message save @type generic @description \"save the cues in the last file\""
 				}
 
 			}
@@ -14441,7 +14441,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 10.0, 655.0, 242.0, 29.0 ],
-					"text" : "jcom.message nextCue @repetitions/allow 1 @type none @description \"dump the next cue\""
+					"text" : "j.message nextCue @repetitions/filter 0 @type none @description \"dump the next cue\""
 				}
 
 			}
@@ -14533,7 +14533,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 238.0, 599.0, 319.0, 29.0 ],
-					"text" : "jcom.parameter currentCueMode @type boolean @repetitions/allow 1 @description \"getState mode of the current cue\""
+					"text" : "j.parameter currentCueMode @type boolean @repetitions/filter 0 @description \"getState mode of the current cue\""
 				}
 
 			}
@@ -14561,7 +14561,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 225.0, 150.0, 42.0, 18.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -14851,7 +14851,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll jcom.cues 1"
+									"text" : "coll j.cues 1"
 								}
 
 							}
@@ -15525,7 +15525,7 @@
 																					"numoutlets" : 2,
 																					"outlettype" : [ "", "" ],
 																					"patching_rect" : [ 165.0, 309.0, 171.0, 18.0 ],
-																					"text" : "jcom.oscroute /parameter_value"
+																					"text" : "j.oscroute /parameter_value"
 																				}
 
 																			}
@@ -15554,7 +15554,7 @@
 																					"numoutlets" : 2,
 																					"outlettype" : [ "", "" ],
 																					"patching_rect" : [ 165.0, 240.0, 228.0, 18.0 ],
-																					"text" : "jcom.receive \"that deaf dumb and blind kid\""
+																					"text" : "j.receive \"that deaf dumb and blind kid\""
 																				}
 
 																			}
@@ -15568,7 +15568,7 @@
 																					"numoutlets" : 2,
 																					"outlettype" : [ "", "" ],
 																					"patching_rect" : [ 165.0, 280.0, 93.0, 18.0 ],
-																					"text" : "jcom.oscroute /*"
+																					"text" : "j.oscroute /*"
 																				}
 
 																			}
@@ -15584,7 +15584,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 176.0, 134.0, 125.0, 30.0 ],
-																					"text" : "jcom.send jcom.remote.module.to"
+																					"text" : "j.send j.remote.module.to"
 																				}
 
 																			}
@@ -15625,7 +15625,7 @@
 																					"numinlets" : 1,
 																					"numoutlets" : 0,
 																					"patching_rect" : [ 367.0, 190.0, 210.0, 42.0 ],
-																					"text" : "This stops jcom.receive from listening if we are not currently requesting the names of all modules."
+																					"text" : "This stops j.receive from listening if we are not currently requesting the names of all modules."
 																				}
 
 																			}
@@ -15771,7 +15771,7 @@
 																									"numoutlets" : 2,
 																									"outlettype" : [ "", "" ],
 																									"patching_rect" : [ 50.0, 225.0, 228.0, 18.0 ],
-																									"text" : "jcom.receive \"that deaf dumb and blind kid\""
+																									"text" : "j.receive \"that deaf dumb and blind kid\""
 																								}
 
 																							}
@@ -15802,7 +15802,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 61.0, 119.0, 125.0, 30.0 ],
-																									"text" : "jcom.send jcom.remote.module.to"
+																									"text" : "j.send j.remote.module.to"
 																								}
 
 																							}
@@ -15831,7 +15831,7 @@
 																									"numoutlets" : 1,
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 80.0, 199.0, 170.0, 16.0 ],
-																									"text" : "name jcom.remote.module.from"
+																									"text" : "name j.remote.module.from"
 																								}
 
 																							}
@@ -16009,7 +16009,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 195.0, 214.0, 170.0, 16.0 ],
-																					"text" : "name jcom.remote.module.from"
+																					"text" : "name j.remote.module.from"
 																				}
 
 																			}
@@ -16511,7 +16511,7 @@
 																						"embed" : 0
 																					}
 ,
-																					"text" : "coll jcom.Cue_Modules 1"
+																					"text" : "coll j.Cue_Modules 1"
 																				}
 
 																			}
@@ -17301,7 +17301,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 330.0, 370.0, 115.0, 18.0 ],
-													"text" : "jcom.pass #1"
+													"text" : "j.pass #1"
 												}
 
 											}
@@ -17315,7 +17315,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 500.0, 360.0, 115.0, 18.0 ],
-													"text" : "jcom.pass #1"
+													"text" : "j.pass #1"
 												}
 
 											}
@@ -17436,7 +17436,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 358.0, 153.0, 170.0, 16.0 ],
-													"text" : "name jcom.remote.module.from"
+													"text" : "name j.remote.module.from"
 												}
 
 											}
@@ -17506,7 +17506,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 291.0, 203.0, 188.0, 18.0 ],
-													"text" : "jcom.receive dumb"
+													"text" : "j.receive dumb"
 												}
 
 											}
@@ -17520,7 +17520,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 325.0, 174.0, 180.0, 18.0 ],
-													"text" : "jcom.send jcom.remote.module.to"
+													"text" : "j.send j.remote.module.to"
 												}
 
 											}
@@ -17681,7 +17681,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 230.0, 315.0, 99.0, 20.0 ],
-													"text" : "r jcom.loaddata"
+													"text" : "r j.loaddata"
 												}
 
 											}
@@ -17695,7 +17695,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 435.0, 275.0, 98.0, 20.0 ],
-													"text" : "r jcom.savedata"
+													"text" : "r j.savedata"
 												}
 
 											}
@@ -17790,7 +17790,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 34.0, 32.0, 188.0, 18.0 ],
-													"text" : "jcom.receive notifications"
+													"text" : "j.receive notifications"
 												}
 
 											}
@@ -21081,7 +21081,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 463.0, 37.0, 188.0, 29.0 ],
-					"text" : "jcom.message edit @type generic @description \"edit the current cue\""
+					"text" : "j.message edit @type generic @description \"edit the current cue\""
 				}
 
 			}
@@ -21096,7 +21096,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 241.0, 289.0, 264.0, 29.0 ],
-					"text" : "jcom.message copy @type array @repetitions/allow 1 @description \"copy a cue (insert)\""
+					"text" : "j.message copy @type array @repetitions/filter 0 @description \"copy a cue (insert)\""
 				}
 
 			}
@@ -21164,7 +21164,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 462.0, 137.0, 195.0, 29.0 ],
-					"text" : "jcom.message view @type generic @description \"view the current cue\""
+					"text" : "j.message view @type generic @description \"view the current cue\""
 				}
 
 			}
@@ -21178,7 +21178,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 834.0, 665.0, 370.0, 18.0 ],
-					"text" : "jcom.message saveAs @type generic @description \"save the cues in a file\""
+					"text" : "j.message saveAs @type generic @description \"save the cues in a file\""
 				}
 
 			}
@@ -21193,7 +21193,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 767.0, 39.0, 261.0, 29.0 ],
-					"text" : "jcom.message store @type generic @description \"store the state of the patch in the current cue (replace)\""
+					"text" : "j.message store @type generic @description \"store the state of the patch in the current cue (replace)\""
 				}
 
 			}

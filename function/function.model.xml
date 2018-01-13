@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="'http://www.w3.org/2001/XMLSchema-instance'" xsi:schemaLocation="'http://jamoma.org/ file:jamoma.xsd'">
+ <!--TODO : TTContainer Description at mAddress-->
+ <preset number="1" name="init">
+  <!---->
+  <Data address="target" priority="1" value="/"/>
+  <Data address="duration" priority="4" value="10.000000"/>
+  <Data address="max" priority="5" value="1.000000"/>
+  <Data address="min" priority="6" value="0.00000"/>
+  <Data address="points" priority="8" value=""/>
+  <Data address="grain" priority="12" value="25"/>
+  <Data address="speed" priority="13" value="1."/>
+  <Data address="switch" priority="15" value="0"/>
+  <Data address="model/mute" priority="99" value="0"/>
+ </preset>
+</jamoma>

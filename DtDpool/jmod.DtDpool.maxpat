@@ -269,7 +269,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 56.0, 229.0, 324.0, 20.0 ],
-									"text" : "jcom.oscroute /type /path /mainfolder"
+									"text" : "j.oscroute /type /path /mainfolder"
 								}
 
 							}
@@ -509,8 +509,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 14.0, 362.0, 458.0, 31.0 ],
-					"text" : "jcom.parameter mainfolder @type array @repetitions/allow 0 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 30",
-					"varname" : "jcom.parameter.mxb[2]"
+					"text" : "j.parameter mainfolder @type array @repetitions/filter 1 @description \"path of the parent folder dropped in, containing subfolders with sound files in \" @priority 30",
+					"varname" : "j.parameter.mxb[2]"
 				}
 
 			}
@@ -525,8 +525,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 561.0, 175.0, 463.0, 28.0 ],
-					"text" : "jcom.message type @type string @repetitions/allow 1 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
-					"varname" : "jcom.parameter.mxb[1]"
+					"text" : "j.message type @type string @repetitions/filter 0 @description \"Open sound file specified by filename. Without a filename a standard open file dialog allows you to choose a file.\"",
+					"varname" : "j.parameter.mxb[1]"
 				}
 
 			}
@@ -582,8 +582,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 427.0, 238.0, 626.0, 17.0 ],
-					"text" : "jcom.message path @type array @repetitions/allow 0 @description \"path of the parent folder dropped in, containing the sound files \"",
-					"varname" : "jcom.parameter.mxb[10]"
+					"text" : "j.message path @type array @repetitions/filter 1 @description \"path of the parent folder dropped in, containing the sound files \"",
+					"varname" : "j.parameter.mxb[10]"
 				}
 
 			}
@@ -615,7 +615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 99.0, 304.0, 43.0 ],
-					"text" : "In order to create all jcom.parameters/messages/returns, you can use the jcom.parameterCreate utility below : just double-click on it and choose the desired attributes",
+					"text" : "In order to create all j.parameters/messages/returns, you can use the j.parameterCreate utility below : just double-click on it and choose the desired attributes",
 					"textcolor" : [ 0.709804, 0.101961, 0.101961, 1.0 ]
 				}
 
@@ -630,7 +630,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 163.0, 131.0, 19.0 ],
-					"text" : "jcom.parameterCreate"
+					"text" : "j.parameterCreate"
 				}
 
 			}
@@ -862,7 +862,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 250.0, 162.0, 19.0 ],
-									"text" : "open jcom.hub reference"
+									"text" : "open j.model reference"
 								}
 
 							}
@@ -1008,7 +1008,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 10.0, 225.0, 202.0, 19.0 ],
-									"text" : "open jcom.parameter reference"
+									"text" : "open j.parameter reference"
 								}
 
 							}
@@ -1023,7 +1023,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 35.0, 140.0, 370.0, 43.0 ],
-									"text" : "If you need to return messages from your algorithm to the rest of the world. you can specify type, range... etc as in jcom.parameter or jcom.message"
+									"text" : "If you need to return messages from your algorithm to the rest of the world. you can specify type, range... etc as in j.parameter or j.message"
 								}
 
 							}
@@ -1037,7 +1037,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 120.0, 380.0, 19.0 ],
-									"text" : "jcom.return:"
+									"text" : "j.return:"
 								}
 
 							}
@@ -1052,7 +1052,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 35.0, 80.0, 342.0, 31.0 ],
-									"text" : "If you need to send messages to or within the patch, but it's not required that they be stored or retrieveable, use jcom.message."
+									"text" : "If you need to send messages to or within the patch, but it's not required that they be stored or retrieveable, use j.message."
 								}
 
 							}
@@ -1066,7 +1066,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 60.0, 366.0, 19.0 ],
-									"text" : "jcom.message:"
+									"text" : "j.message:"
 								}
 
 							}
@@ -1094,7 +1094,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 10.0, 293.0, 19.0 ],
-									"text" : "jcom.parameter:"
+									"text" : "j.parameter:"
 								}
 
 							}
@@ -1145,7 +1145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 284.0, 56.0, 19.0 ],
-					"text" : "jcom.in"
+					"text" : "j.in"
 				}
 
 			}
@@ -1160,8 +1160,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 14.0, 198.0, 315.0, 31.0 ],
-					"text" : "jcom.hub @module_type control @description \"This module loads a list of soundfiles to be used with jmod.ZDtD\"",
-					"varname" : "jcom.hub"
+					"text" : "j.model @module_type control @description \"This module loads a list of soundfiles to be used with jmod.ZDtD\"",
+					"varname" : "j.model"
 				}
 
 			}
@@ -1192,7 +1192,7 @@
 				"box" : 				{
 					"has_panel" : 1,
 					"id" : "obj-16",
-					"maxclass" : "jcom.ui",
+					"maxclass" : "j.ui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],

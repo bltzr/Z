@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1595.0, 49.0, 808.0, 737.0 ],
+		"rect" : [ 1727.0, 116.0, 808.0, 737.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 		"bglocked" : 0,
@@ -51,7 +51,7 @@
 					"patching_rect" : [ 316.0, 531.5, 75.0, 75.0 ],
 					"point_color" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"point_color1" : [ 0.901961, 0.0, 0.0, 0.0 ],
-					"point_size" : 89.0,
+					"point_size" : 46.048887,
 					"presentation" : 1,
 					"presentation_rect" : [ 37.0, 29.5, 178.0, 178.0 ],
 					"varname" : "box"
@@ -521,7 +521,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 128.0, 45.0, 522.0, 278.0 ],
+						"rect" : [ 1600.0, -50.0, 522.0, 278.0 ],
 						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 						"bglocked" : 0,
@@ -952,7 +952,6 @@
 												"patchline" : 												{
 													"color" : [ 0.0, 0.100635, 0.65, 0.9 ],
 													"destination" : [ "obj-42", 0 ],
-													"order" : 0,
 													"source" : [ "obj-43", 0 ]
 												}
 
@@ -960,8 +959,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
-													"order" : 1,
-													"source" : [ "obj-43", 0 ]
+													"source" : [ "obj-43", 1 ]
 												}
 
 											}
@@ -2395,7 +2393,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 507.0, 128.0, 773.0, 730.0 ],
+										"rect" : [ 2218.0, -39.0, 773.0, 730.0 ],
 										"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 										"editing_bgcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 										"bglocked" : 0,
@@ -3519,14 +3517,14 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 163.5, 217.0, 122.0, 21.0 ],
 									"saved_object_attributes" : 									{
-										"connect" : "1807_amb",
+										"connect" : "1027_amb",
 										"interpolation" : 1,
 										"loop" : 1,
 										"pointsize" : 0.0,
 										"show_volume" : 1,
 										"trajectory_color" : [ 1.0, 0.0, 0.0, 0.5 ],
 										"trajectory_point_color" : [ 1.0, 0.0, 0.0, 0.5 ],
-										"volume" : [ 1.426966, 1.629213, 0.001 ],
+										"volume" : [ 0.775281, 0.685393, 0.001 ],
 										"volume_color" : [ 0.0, 0.0, 0.0, 1.0 ]
 									}
 ,
@@ -3914,7 +3912,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 27.0, 420.0, 143.0, 35.0 ],
 									"style" : "",
-									"text" : "set aed 1 235. 0. 0.630007"
+									"text" : "set aed 1 326. 0. 0.384861"
 								}
 
 							}
@@ -7794,11 +7792,11 @@
 , 			{
 				"name" : "jpink",
 				"default" : 				{
+					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
 					"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
-					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
+					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -7809,9 +7807,9 @@
 						"autogradient" : 0
 					}
 ,
-					"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 					"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-					"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+					"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

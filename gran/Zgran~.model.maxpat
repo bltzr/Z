@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -191,7 +191,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -301,7 +301,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -941,7 +941,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1580,7 +1580,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1810,7 +1810,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 245.0, 115.0, 83.0, 19.0 ],
 													"style" : "",
-													"text" : "prepend replace"
+													"text" : "prepend window"
 												}
 
 											}
@@ -1860,8 +1860,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-7", 0 ],
-													"midpoints" : [ 254.5, 153.0, 177.0, 153.0, 177.0, 153.0, 120.0, 153.0, 120.0, 153.0, 63.5, 153.0 ],
+													"destination" : [ "obj-2", 0 ],
 													"source" : [ "obj-9", 0 ]
 												}
 
@@ -1968,7 +1967,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2186,7 +2185,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 465.0, 195.0, 82.0, 20.0 ],
 													"style" : "",
-													"text" : "0"
+													"text" : "append Voyager"
 												}
 
 											}
@@ -2205,7 +2204,7 @@
 															"major" : 7,
 															"minor" : 3,
 															"revision" : 5,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -2662,7 +2661,7 @@
 															"major" : 7,
 															"minor" : 3,
 															"revision" : 5,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -2960,7 +2959,7 @@
 															"major" : 7,
 															"minor" : 3,
 															"revision" : 5,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -3924,7 +3923,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -4154,7 +4153,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -4747,7 +4746,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -5817,7 +5816,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -6163,7 +6162,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -6632,7 +6631,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -6965,7 +6964,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -7284,7 +7283,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,

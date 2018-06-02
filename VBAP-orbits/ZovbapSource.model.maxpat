@@ -710,7 +710,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 64.0, 74.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "10"
+									"text" : "1"
 								}
 
 							}
@@ -5540,9 +5540,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 148.0, 143.0, 65.0, 22.0 ],
+													"patching_rect" : [ 148.0, 143.0, 71.0, 22.0 ],
 													"style" : "",
-													"text" : "metro 200"
+													"text" : "qmetro 200"
 												}
 
 											}
@@ -5740,7 +5740,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-15", 1 ],
-													"order" : 0,
+													"order" : 1,
 													"source" : [ "obj-12", 0 ]
 												}
 
@@ -5748,7 +5748,7 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-4", 1 ],
-													"order" : 1,
+													"order" : 0,
 													"source" : [ "obj-12", 0 ]
 												}
 
@@ -6256,10 +6256,10 @@
 								"name" : "jpink",
 								"default" : 								{
 									"clearcolor" : [ 0.113725, 0.607843, 0.607843, 1.0 ],
-									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"patchlinecolor" : [ 0.65, 0.65, 0.65, 1.0 ],
 									"accentcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"elementcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
@@ -6270,9 +6270,9 @@
 										"autogradient" : 0
 									}
 ,
-									"textcolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
 									"selectioncolor" : [ 0.619608, 0.0, 0.360784, 1.0 ],
-									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ]
+									"color" : [ 0.619608, 0.0, 0.360784, 1.0 ],
+									"bgcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 ,
 								"parentstyle" : "",

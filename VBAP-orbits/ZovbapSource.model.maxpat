@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 192.0, 537.0, 578.0, 402.0 ],
+		"rect" : [ 520.0, 321.0, 578.0, 402.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -62,11 +62,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 659.0, 450.0 ],
+						"rect" : [ 56.0, 153.0, 659.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -114,7 +114,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 218.0, 251.0, 50.0, 22.0 ],
+									"patching_rect" : [ 221.0, 250.5, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -126,7 +126,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 284.0, 251.0, 89.0, 22.0 ],
+									"patching_rect" : [ 287.0, 250.5, 89.0, 22.0 ],
 									"style" : "",
 									"text" : "r vbap-nzones"
 								}
@@ -158,7 +158,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -379,7 +379,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 104.5, 131.0, 405.5, 35.0 ],
 									"style" : "",
-									"text" : "j.parameter distance @type decimal @ramp/drive max @range -1. 1. @description \"source  distance from center\" @default 0. @clipmode both"
+									"text" : "j.parameter distance @type decimal @ramp/drive max @range 0. 1. @description \"source  distance from center\" @default 0. @clipmode both"
 								}
 
 							}
@@ -409,7 +409,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 184.0, 199.0, 326.0, 33.0 ],
+									"patching_rect" : [ 153.0, 193.5, 326.0, 33.0 ],
 									"style" : "",
 									"text" : "j.parameter volume @type decimal @ramp/drive max @description volume @default 0. @priority 10 @clipmode both"
 								}
@@ -452,7 +452,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 184.0, 174.0, 18.0, 18.0 ],
+									"patching_rect" : [ 153.0, 168.5, 18.0, 18.0 ],
 									"style" : ""
 								}
 
@@ -491,7 +491,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 284.0, 283.883484, 150.0, 22.0 ],
+									"patching_rect" : [ 287.0, 283.383484, 150.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -503,7 +503,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 218.0, 284.883484, 52.0, 22.0 ],
+									"patching_rect" : [ 221.0, 284.383484, 52.0, 22.0 ],
 									"style" : "",
 									"text" : "open $1"
 								}
@@ -671,7 +671,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -723,7 +723,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 64.0, 74.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "1"
+									"text" : "10"
 								}
 
 							}
@@ -847,7 +847,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -880,6 +880,32 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 182.5, 189.0, 41.0, 22.0 ],
+									"style" : "",
+									"text" : "atodb"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 182.5, 160.0, 100.0, 22.0 ],
+									"style" : "",
+									"text" : "peakamp~ 15"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
 									"id" : "obj-7",
 									"index" : 1,
@@ -904,7 +930,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1260,19 +1286,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-1",
-									"interval" : 50,
-									"maxclass" : "live.meter~",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"orientation" : 1,
-									"outlettype" : [ "list" ],
-									"patching_rect" : [ 177.0, 167.0, 102.0, 18.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
@@ -1280,9 +1293,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 177.0, 200.0, 239.0, 22.0 ],
+									"patching_rect" : [ 182.5, 218.0, 322.0, 22.0 ],
 									"style" : "",
-									"text" : "j.return audio/out/amplitude @type decimal"
+									"text" : "j.return audio/out/amplitude @type decimal @range -80 12"
 								}
 
 							}
@@ -1333,7 +1346,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1858,7 +1871,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 177.0, 75.0, 25.0, 25.0 ],
 									"style" : "",
 									"varname" : "mult"
@@ -1896,13 +1909,6 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-114", 1 ],
 									"source" : [ "obj-107", 0 ]
 								}
@@ -1917,9 +1923,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"order" : 1,
-									"source" : [ "obj-114", 0 ]
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-11", 0 ]
 								}
 
 							}
@@ -1934,9 +1939,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"order" : 1,
+									"source" : [ "obj-114", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"midpoints" : [ 345.0, 155.25, 345.0, 155.25 ],
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -1997,7 +2017,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-60",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2010,11 +2030,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-59",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 268.0, 233.0, 23.0, 23.0 ],
 					"style" : ""
 				}
@@ -2024,7 +2044,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-58",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2037,7 +2057,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-57",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2061,7 +2081,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2272,7 +2292,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2318,7 +2338,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2825,7 +2845,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3240,7 +3260,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3925,11 +3945,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 100.0, 125.0, 1717.0, 667.0 ],
+						"rect" : [ 43.0, 199.0, 1717.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -3983,7 +4003,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4294,7 +4314,7 @@
 															"major" : 7,
 															"minor" : 3,
 															"revision" : 5,
-															"architecture" : "x86",
+															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
@@ -5224,7 +5244,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 334.0, 167.0, 98.0, 19.0 ],
 									"style" : "",
-									"text" : "1.485393 1.539326 0."
+									"text" : "1.393259 1.314607 0."
 								}
 
 							}
@@ -5398,7 +5418,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -6250,7 +6270,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 705.0, 98.0, 100.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"connect" : "#1amb",
+										"connect" : "spatamb",
 										"pointsize" : 0.0,
 										"trajectory_color" : [ 1.0, 0.0, 0.0, 0.5 ],
 										"trajectory_point_color" : [ 1.0, 0.0, 0.0, 0.5 ],
@@ -6701,11 +6721,13 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 911.0, 473.5, 122.0, 21.0 ],
 									"saved_object_attributes" : 									{
-										"connect" : "#1amb",
-										"interval" : 20,
+										"connect" : "spatamb",
+										"interval" : 3,
 										"pointsize" : 0.0,
+										"show_volume" : 1,
 										"trajectory_color" : [ 1.0, 0.0, 0.0, 0.5 ],
 										"trajectory_point_color" : [ 1.0, 0.0, 0.0, 0.5 ],
+										"volume" : [ 1.393259, 1.314607, 0.001 ],
 										"volume_color" : [ 0.0, 0.0, 0.0, 1.0 ]
 									}
 ,
@@ -6774,7 +6796,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 28.5, 298.5, 477.0, 35.0 ],
 									"style" : "",
-									"text" : "j.parameter trajectory/speed/val @type decimal @range 0. 2. @ramp/drive Max @description \"trajectory speed of the source\" @default 1. @priority 22 @clipmode both"
+									"text" : "j.parameter trajectory/speed/val @type decimal @range 0. 10. @ramp/drive Max @description \"trajectory speed of the source\" @default 1. @priority 22 @clipmode both"
 								}
 
 							}
@@ -6793,7 +6815,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 5,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8427,92 +8449,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.random.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/random",
-				"patcherrelativepath" : "../../../../../adastra/Documents/Max 7/Packages/Jamoma/patchers/components/data/random",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.filewatcher.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/filewatcher",
-				"patcherrelativepath" : "../../../../../adastra/Documents/Max 7/Packages/Jamoma/patchers/components/data/filewatcher",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.multi.in~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/multi.in%",
-				"patcherrelativepath" : "../../../../../adastra/Documents/Max 7/Packages/Jamoma/patchers/components/multi.in%",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.datetime.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
-				"patcherrelativepath" : "../../../../../adastra/Documents/Max 7/Packages/Jamoma/patchers/components/data/datetime",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "orbital-zone.maxpat",
-				"bootpath" : "/Users/tumble/dev/JamomaUserLibs/Z/VBAP-orbits",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ambicontrol.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.unit.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.folder.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.savebang.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.oscinstance.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "vbap.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

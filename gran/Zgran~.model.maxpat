@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x64",
+			"revision" : 5,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 472.0, 102.0, 771.0, 496.0 ],
+		"rect" : [ 409.0, 264.0, 771.0, 496.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -71,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 563.5, 316.0, 120.0, 19.0 ],
+					"patching_rect" : [ 563.5, 316.0, 124.0, 19.0 ],
 					"style" : "",
 					"text" : "r #0_to.bufgranul_idx"
 				}
@@ -190,12 +190,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 517.0, 209.0, 599.0, 442.0 ],
+						"rect" : [ 307.0, 149.0, 599.0, 442.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -300,8 +300,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x64",
+											"revision" : 5,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -940,8 +940,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x64",
+											"revision" : 5,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1021,7 +1021,6 @@
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 268.5, 401.0, 50.0, 22.0 ],
-													"presentation_rect" : [ 268.5, 401.0, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -1048,7 +1047,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 244.0, 327.0, 29.0, 22.0 ],
-													"presentation_rect" : [ 244.0, 328.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "* 1."
 												}
@@ -1581,8 +1579,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x64",
+											"revision" : 5,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1912,11 +1910,11 @@
 									"id" : "obj-22",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 20.875, 27.0, 371.0, 19.0 ],
 									"style" : "",
-									"text" : "j.parameter sound/bufferpool @type generic @priority 1 @repetitions/filter 0 @tags init",
+									"text" : "loadmess pool",
 									"varname" : "sample/buffername[3]"
 								}
 
@@ -1950,7 +1948,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 4.0, 1.0, 293.0, 19.0 ],
 									"style" : "",
-									"text" : "j.parameter sound/folder @type generic @priority 2",
+									"text" : "j.parameter sound/folder @type generic @priority 2 @repetitions/filter 1",
 									"varname" : "sample/buffername[1]"
 								}
 
@@ -1969,12 +1967,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
-											"architecture" : "x64",
+											"revision" : 5,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 295.0, 78.0, 922.0, 618.0 ],
+										"rect" : [ 336.0, 89.0, 922.0, 618.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -2186,9 +2184,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 465.0, 195.0, 80.0, 20.0 ],
+													"patching_rect" : [ 465.0, 195.0, 82.0, 20.0 ],
 													"style" : "",
-													"text" : "append vent"
+													"text" : "0"
 												}
 
 											}
@@ -2206,8 +2204,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
-															"architecture" : "x64",
+															"revision" : 5,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -2663,8 +2661,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
-															"architecture" : "x64",
+															"revision" : 5,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -2961,8 +2959,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
-															"architecture" : "x64",
+															"revision" : 5,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -3925,8 +3923,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4155,8 +4153,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -4748,12 +4746,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 944.0, 105.0, 462.0, 821.0 ],
+						"rect" : [ 840.0, 152.0, 462.0, 821.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -5818,8 +5816,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6164,8 +6162,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -6633,12 +6631,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 211.0, 79.0, 397.0, 349.0 ],
+						"rect" : [ 347.0, 327.0, 397.0, 349.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -6706,9 +6704,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 213.5, 156.0, 142.0, 57.0 ],
+									"patching_rect" : [ 213.5, 156.0, 161.0, 57.0 ],
 									"style" : "",
-									"text" : "j.parameter pitch/val @ramp/drive Max @type decimal @range 0. 4. @clipmode low"
+									"text" : "j.parameter pitch/val @ramp/drive Max @type decimal @range 0.000001 4. @clipmode low"
 								}
 
 							}
@@ -6966,8 +6964,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -7285,8 +7283,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x64",
+							"revision" : 5,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -7749,7 +7747,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 39.0, 358.0, 532.0, 19.0 ],
+					"patching_rect" : [ 39.0, 358.0, 542.0, 19.0 ],
 					"style" : "",
 					"text" : "granubuf~ @buffer #0_buff @window #0_bufgranul.env1 @inlets trigger start rate amp duration buffer_index"
 				}
@@ -7966,7 +7964,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-52", 0 ]
 				}
 
@@ -7974,7 +7972,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 3 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-52", 0 ]
 				}
 

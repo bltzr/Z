@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -38,6 +38,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 371.0, 638.5, 141.0, 22.0 ],
+					"style" : "",
+					"text" : "substitute set setsymbol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "newobj",
@@ -100,7 +113,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -692,7 +705,7 @@
 				"box" : 				{
 					"annotation" : "none",
 					"arrow" : 0,
-					"hint" : "Sun-loud.wav",
+					"hint" : "Centrale+Eau.L.wav",
 					"id" : "obj-43",
 					"items" : [ "pompeZélande.wav", ",", "RadiateurAilettes1.L.wav", ",", "RadiateurAilettes1.R.wav", ",", "RadiateurAilettes2.L.wav", ",", "RadiateurAilettes2.R.wav", ",", "RadiateurAilettes3.L.wav", ",", "RadiateurAilettes3.R.wav", ",", "RadiateurAilettes4.L.wav", ",", "RadiateurAilettes4.R.wav", ",", "RadiateurPlatFluctuant1.L.wav", ",", "RadiateurPlatFluctuant1.R.wav", ",", "RadiateurPlatFluctuant2.L.wav", ",", "RadiateurPlatFluctuant2.R.wav", ",", "RadiateurPlatStable.L.wav", ",", "RadiateurPlatStable.R.wav" ],
 					"maxclass" : "umenu",
@@ -804,7 +817,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1021,7 +1034,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1964,11 +1977,11 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 1474.0, -102.0, 663.0, 491.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2132,7 +2145,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2300,7 +2313,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2468,7 +2481,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2880,7 +2893,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 5,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -3307,7 +3320,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -3415,6 +3428,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -3492,8 +3512,8 @@
 , 			{
 				"name" : "umenuPB",
 				"default" : 				{
-					"textjustification" : [ 1 ],
-					"fontsize" : [ 9.0 ]
+					"fontsize" : [ 9.0 ],
+					"textjustification" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",
